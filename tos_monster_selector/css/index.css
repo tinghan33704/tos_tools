@@ -1,0 +1,36 @@
+.result-panel {
+	background-color: var(--div_selector_result_background);
+	border: 2px #0080FF solid;
+	padding: 20px;
+	font-size: 1.5em;
+	color: #000079;
+	border-radius: 20px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.result-panel-copied {
+	background-color: var(--div_selector_result_success_background);
+	border: 2px #5bd876 solid;
+	padding: 20px;
+	font-size: 1.5em;
+	color: #000079;
+	border-radius: 20px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.note-row {
+	font-size: 1.5em;
+	color: var(--text_color);
+	text-align: center;
+	padding: 10px;
+}
+
+.data-textarea {
+	height: 200px !important;
+}
+
+.preview-panel {
+	margin-top: 20px;
+}

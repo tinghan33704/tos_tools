@@ -1,0 +1,65 @@
+.board-collapse-div, .limit-collapse-div {
+	cursor: pointer;
+	justify-content: space-between;
+}
+.board-collapse-div[aria-expanded="false"] .collapse-close, .limit-collapse-div[aria-expanded="false"] .collapse-close {
+	display: inline;
+}
+.board-collapse-div[aria-expanded="false"] .collapse-open, .limit-collapse-div[aria-expanded="false"] .collapse-open {
+	display: none;
+}
+.board-collapse-div[aria-expanded="true"] .collapse-close, .limit-collapse-div[aria-expanded="true"] .collapse-close {
+	display: none;
+}
+.board-collapse-div[aria-expanded="true"] .collapse-open, .limit-collapse-div[aria-expanded="true"] .collapse-open {
+	display: inline;
+}
+
+.option-board {
+	text-align: center;
+	font-size: 1rem;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.option-board .row {
+	align-items: center;
+}
+.option-board .col-2 {
+	justify-content: center;
+	padding: 0;
+}
+
+.option-board label {
+	margin-bottom: 0;
+}
+
+.option-text {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.option-board, .option-limit {
+	border-bottom: 1px solid #cccccc;
+	padding-top: 15px !important;
+}
+
+.option-title {
+	color: #666666;
+	text-align: center;
+	font-size: 1.2rem;
+	padding-bottom: 10px;
+}
+
+.option-object-title {
+	border-bottom: 1px solid #cccccc;
+	margin-bottom: 10px;
+}
+
+.option-limit-title {
+	margin-top: 0px;
+}
+
+.option-row hr {
+	margin-top: 10px;
+    margin-bottom: 10px;
+}

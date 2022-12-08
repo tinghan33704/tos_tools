@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<!-- Last modified : 2022.09.19 17:24 -->
+<head>
+    <title>神魔之塔隊伍技搜尋器</title>
+    <meta charset="utf-8">
+    <meta name="author" content="蒼曜(tinghan33704)">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../tos_tool_data/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../tos_tool_data/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../tos_tool_data/css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+	<link rel="icon" type="image/png" href="../tos_tool_data/img/favicon/team_favicon.png"/>
+    <script src="../tos_tool_data/js/jquery.min.js"></script>
+    <script src="../tos_tool_data/js/popper.min.js"></script>
+    <script src="../tos_tool_data/js/bootstrap.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="../tos_tool_data/js/monster_data.js"></script>
+    <script src="../tos_tool_data/js/constant.js"></script>
+    <script src="../tos_tool_data/js/common.js"></script>
+</head>
+    
+<body>
+    <div class="side_navigation"></div>
+    
+    <div class="container-fluid sticky-top bg-dark py-1" id="top-bar">
+        <div class="row">
+            <div class="col-12 col-lg-4" id="tool_banner">
+                <div class="row">
+                    <div class="col-2 col-lg-2" id="side-nav">
+                        <div class="navbar-brand toggle-navbar" onclick="toggleSideNavigation()"><i class="fa fa-bars"></i></div>
+                    </div>
+                    <div class="col-10 col-lg-10" id="tool_title">
+                        <a class="navbar-brand" id="navtitle" href="#">神魔之塔隊伍技搜尋器</a>
+                <a class="navbar-brand" target="_blank" href="https://forum.gamer.com.tw/Co.php?bsn=23805&sn=3778158"><i class="fa fa-question-circle"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-8">
+                <div class="row">
+                    <div class="col-12 col-sm-3 top-btn-shell"></div>
+                    <div class="col-12 col-sm-3 top-btn-shell">
+                        <button type="button" class="btn btn-primary btn-block top-btn reset" id="reset_all">
+                            <i class="fa fa-undo"></i>
+                            &nbsp;全部重置
+                        </button>
+                    </div>
+                    <div class="col-12 col-sm-3 top-btn-shell">
+                        <button type="button" class="btn btn-warning btn-block top-btn and_or_mode" id="and_or_filter">
+                            OR 搜尋
+                        </button>
+                    </div>
+                    <div class="col-12 col-sm-3 top-btn-shell">
+                        <button type="button" class="btn btn-success btn-block top-btn start-btn" id="start_filter">
+                            <i class="fa fa-play-circle"></i>
+                            &nbsp;&nbsp;搜尋
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="filter container">
+        <div class="row">
+            <div class="col-12 mt-5">
+				<div class="alert alert-primary" id="notification" role="alert">
+					<div class="row">
+						<div class="col-10 col-sm-11" id="notification_text"></div>
+						<div class="col-2 col-sm-1" id="close_notification">&times;</div>
+					</div>
+				</div>
+                <h2>搜尋條件</h2>
+            </div>
+            <div class="col-12">
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h3>功能</h3>
+            </div>
+            <div class="col-12 btn-shell">
+                <button class="btn btn-primary btn-block top-btn reset" id="reset_skill">
+                    <i class="fa fa-undo"></i>
+                    &nbsp;&nbsp;重置功能
+                </button>
+            </div>
+        </div>
+        <div class="row filter-row"></div>
+        <div class="row">
+            <div class="col-12">
+                <hr>
+                <h3>關鍵字搜尋</h3>
+            </div>
+            <div class="col-12 btn-shell">
+                <button class="btn btn-primary btn-block top-btn reset" id="reset_keyword">
+                    <i class="fa fa-undo"></i>
+                    &nbsp;&nbsp;重置關鍵字
+                </button>
+            </div>
+        </div>
+        <div class="row keyword-row"></div>
+        <div class="row">
+            <div class="col-12">
+                <hr>
+                <h3>發動條件</h3>
+            </div>
+            <div class="col-12 btn-shell">
+                <button class="btn btn-primary btn-block top-btn reset" id="reset_activate">
+                    <i class="fa fa-undo"></i>
+                    &nbsp;&nbsp;重置發動條件
+                </button>
+            </div>
+        </div>
+        <div class="row activate-row"></div>
+        <div class="row">
+            <div class="col-12">
+                <hr>
+                <h3>召喚獸屬性</h3>
+            </div>
+            <div class="col-12 btn-shell">
+                <button class="btn btn-primary btn-block top-btn reset" id="reset_attr">
+                    <i class="fa fa-undo"></i>
+                    &nbsp;&nbsp;重置屬性
+                </button>
+            </div>
+        </div>
+        <div class="row attr-row"></div>
+        <div class="row">
+            <div class="col-12">
+                <hr>
+                <h3>召喚獸種族</h3>
+            </div>
+            <div class="col-12 btn-shell">
+                <button class="btn btn-primary btn-block top-btn reset" id="reset_race">
+                    <i class="fa fa-undo"></i>
+                    &nbsp;&nbsp;重置種族
+                </button>
+            </div>
+        </div>
+        <div class="row race-row"></div>
+        <div class="row">
+            <div class="col-12">
+                <hr>
+                <h3>召喚獸稀有度</h3>
+            </div>
+            <div class="col-12 btn-shell">
+                <button class="btn btn-primary btn-block top-btn reset" id="reset_star">
+                    <i class="fa fa-undo"></i>
+                    &nbsp;&nbsp;重置稀有度
+                </button>
+            </div>
+        </div>
+        <div class="row star-row"></div>
+        <div class="row result-row">
+            <div class="col-12">
+                <hr>
+            </div>
+            <div class="col-sm-12 col-md-12" id="result_title">
+                <h2>
+					搜尋結果
+					<div id="result_display_mode" style="width: 60px; float: right;">
+						<button class="btn btn-secondary btn-block" id="switch_display">
+							<i class="fa fa-list-ul"></i>
+						</button>
+					</div>
+				</h2>
+            </div>
+            <div class="col-12 search_tag d-flex flex-wrap">
+                
+            </div>
+            <div class="col-12">
+                <div class="row" id="result-row">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row my-5"></div>
+        <div class="copyright"></div>
+    </div>
+    <button type="button" id="changeTheme-btn" class="changeTheme">
+        <i class="fa fa-adjust"></i>
+    </button>
+    <button type="button" id="toTop-btn" class="toTop">
+		<i class="fa fa-chevron-up"></i>
+	</button>
+    <button type="button" id="toBottom-btn" class="toBottom">
+		<i class="fa fa-chevron-down"></i>
+	</button>
+    
+</body>
+</html>

@@ -241,14 +241,14 @@ function closeNotification() {
 
 function createSideNavigation() {
     return `
-        <a ${tool_id === 'active_skill' ? `href="#"` : `target="_blank" href="https://tinghan33704.github.io/tos_skill_filter/tos_skill_filter.html"` }>主動技搜尋器</a>
-        <a ${tool_id === 'team_skill' ? `href="#"` : `target="_blank" href="https://tinghan33704.github.io/tos_team_skill_filter/tos_team_skill_filter.html"` }>隊伍技搜尋器</a>
-		<a ${tool_id === 'leader_skill' ? `href="#"` : `target="_blank" href="https://tinghan33704.github.io/tos_leader_skill_filter/tos_leader_skill_filter.html"` }>隊長技搜尋器</a>
-        <a ${tool_id === 'craft' ? `href="#"` : `target="_blank" href="https://tinghan33704.github.io/tos_craft_filter/tos_craft_filter.html"` }>龍刻搜尋器</a>
-		<a ${tool_id === 'backpack' ? `href="#"` : `target="_blank" href="https://tinghan33704.github.io/tos_backpack_viewer/tos_backpack_viewer.html"` }>背包檢視器</a>
+        <a ${tool_id === 'active_skill' ? `href="#"` : `target="_blank" href="../tos_skill_filter/tos_skill_filter.html"` }>主動技搜尋器</a>
+        <a ${tool_id === 'team_skill' ? `href="#"` : `target="_blank" href="../tos_team_skill_filter/tos_team_skill_filter.html"` }>隊伍技搜尋器</a>
+		<a ${tool_id === 'leader_skill' ? `href="#"` : `target="_blank" href="../tos_leader_skill_filter/tos_leader_skill_filter.html"` }>隊長技搜尋器</a>
+        <a ${tool_id === 'craft' ? `href="#"` : `target="_blank" href="../tos_craft_filter/tos_craft_filter.html"` }>龍刻搜尋器</a>
+		<a ${tool_id === 'backpack' ? `href="#"` : `target="_blank" href="../tos_backpack_viewer/tos_backpack_viewer.html"` }>背包檢視器</a>
 		<hr />
-		<a ${tool_id === 'monster_selector' ? `href="#"` : `target="_blank" href="https://tinghan33704.github.io/tos_monster_selector/tos_monster_selector.html"` }>召喚獸編號生成器</a>
-		<a ${tool_id === 'id_selector' ? `href="#"` : `target="_blank" href="https://tinghan33704.github.io/tos_id_selector/tos_id_selector.html"` }>龍刻編號生成器</a>
+		<a ${tool_id === 'monster_selector' ? `href="#"` : `target="_blank" href="../tos_monster_selector/tos_monster_selector.html"` }>召喚獸編號生成器</a>
+		<a ${tool_id === 'id_selector' ? `href="#"` : `target="_blank" href="../tos_id_selector/tos_id_selector.html"` }>龍刻編號生成器</a>
     `
 }
 

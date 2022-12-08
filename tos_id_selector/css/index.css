@@ -1,0 +1,86 @@
+thead {
+	position: fixed;
+}
+
+thead > tr {
+	width: 100%;
+}
+
+.row {
+	justify-content: center;
+}
+
+.btn-shell {
+	margin: 5px;
+	padding: 0;
+}
+
+.monster-th, .monster-td {
+	width: 20%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.monster-th img, .monster-td img, .craft-th img, .craft-td img {
+	width: 60px;
+	padding: 3px;
+}
+
+.monster-td {
+	background-color: rgba(52, 58, 64, 0.5);
+	border-color: var(--table_border) !important;
+}
+
+.craft-th, .craft-td {
+	width: 8%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.craft-td {
+	background-color: transparent;
+	box-shadow: none;
+}
+
+.craft-td-selected {
+	background-color: var(--table_td_selected_background);
+	box-shadow: inset 2px 2px green, inset -2px -2px green;
+}
+
+.result-panel {
+	background-color: var(--div_selector_result_background);
+	border: 2px #0080FF solid;
+	padding: 20px;
+	font-size: 1.5em;
+	color: #000079;
+	border-radius: 20px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.result-panel-copied {
+	background-color: var(--div_selector_result_success_background);
+	border: 2px #5bd876 solid;
+	padding: 20px;
+	font-size: 1.5em;
+	color: #000079;
+	border-radius: 20px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.note-row {
+	font-size: 1.5em;
+	color: var(--text_color);
+	text-align: center;
+	padding: 10px;
+}
+
+.data-textarea {
+	height: 200px !important;
+}
+
+.craftNameTag {
+    background-color: var(--button_secondary);
+    color: var(--text_monsterid_color);
+}

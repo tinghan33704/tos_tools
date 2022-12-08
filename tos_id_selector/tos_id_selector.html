@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<!-- Last modified : 2022.09.19 17:24 -->
+<head>
+    <title>神魔之塔武裝龍刻編號生成器</title>
+    <meta charset="utf-8">
+    <meta name="author" content="蒼曜(tinghan33704)">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../tos_tool_data/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../tos_tool_data/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../tos_tool_data/css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+	<link rel="icon" type="image/png" href="../tos_tool_data/img/favicon/craft_favicon.png"/>
+    <script src="../tos_tool_data/js/jquery.min.js"></script>
+    <script src="../tos_tool_data/js/jquery-throttle-debounce.min.js"></script>
+    <script src="../tos_tool_data/js/popper.min.js"></script>
+    <script src="../tos_tool_data/js/bootstrap.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="../tos_tool_data/js/armed_craft_data.js"></script>
+    <script src="../tos_tool_data/js/monster_data.js"></script>
+    <script src="../tos_tool_data/js/constant.js"></script>
+    <script src="../tos_tool_data/js/common.js"></script>
+</head>
+
+
+<body>
+    <div class="side_navigation"></div>
+    
+    <div id="inputPanel" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body"></div>
+        </div>
+      </div>
+    </div>
+	
+    <div class="container-fluid sticky-top bg-dark py-1" id="top-bar">
+        <div class="row">
+            <div class="col-12 col-lg-4" id="tool_banner">
+                <div class="row">
+                    <div class="col-2 col-lg-2" id="side-nav">
+                        <div class="navbar-brand toggle-navbar" onclick="toggleSideNavigation()"><i class="fa fa-bars"></i></div>
+                    </div>
+                    <div class="col-10 col-lg-10" id="tool_title">
+                        <a class="navbar-brand" id="navtitle" href="#">神魔之塔龍刻編號生成器</a>
+                        <a class="navbar-brand" target="_blank" href="https://forum.gamer.com.tw/C.php?bsn=23805&snA=664890"><i class="fa fa-question-circle"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-12 col-lg-8">
+                <div class="row">
+                    <div class="col-12 col-sm-6 top-btn-shell"></div>
+                    <div class="col-12 col-sm-6 top-btn-shell">
+                        <button type="button" class="btn btn-success btn-block top-btn start-btn" id="craft_id_string">
+                            <i class="fa fa-play-circle"></i>
+                            &nbsp;&nbsp;生成編號
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="filter container">
+        <div class="row">
+            <div class="col-12 btn-shell">
+                <button class="btn btn-primary btn-block top-btn reset" id="reset_chosen">
+                    <i class="fa fa-undo"></i>
+                    &nbsp;&nbsp;重置
+                </button>
+            </div>
+        </div>
+        <div class="row armed-craft-row"></div>
+        <div class="row result-row">
+            <div class="col-12">
+                <hr>
+            </div>
+            <div class="col-12" id="result_title">
+                <h2>生成編號</h2>
+            </div>
+            <div class="col-12">
+                <div class="result-panel" id="result-panel"></div>
+            </div>
+            <div class="col-12">
+                <div class="note-row" id="note-row"></div>
+            </div>
+        </div>
+        <div class="row my-5"></div>
+        <div class="copyright"></div>
+    </div>
+	
+    <button type="button" id="inputData-btn" class="inputData">
+        <i class="fa fa-inbox"></i>
+    </button>
+    <button type="button" id="changeTheme-btn" class="changeTheme">
+        <i class="fa fa-adjust"></i>
+    </button>
+    <button type="button" id="toTop-btn" class="toTop">
+		<i class="fa fa-chevron-up"></i>
+	</button>
+    <button type="button" id="toBottom-btn" class="toBottom">
+		<i class="fa fa-chevron-down"></i>
+	</button>
+</body>
+</html>

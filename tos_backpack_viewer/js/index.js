@@ -269,6 +269,9 @@ function renderUidInputPanel()
 			<div class='col-12 col-md-12 col-lg-12 btn-shell'>
 				<input type='text' class='form-control uid-input' id='load-uid-input' placeholder='輸入 UID' maxlength=${uid_maxlength} onkeypress='return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))'>
 			</div>
+			<!--<div class='col-12 col-md-12 col-lg-12 btn-shell'>
+				<input type='text' class='form-control uid-input' id='load-veri-input' placeholder='輸入驗證碼' maxlength=${veri_maxlength} onkeypress='return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))'>
+			</div>-->
 			<div class='col-12 col-md-12 col-lg-12 btn-shell'>
 				<div>
 					<button class='btn btn-success btn-block uid-btn' id='load-confirm-uid' onclick='getPlayerInventory("load")'>
@@ -333,6 +336,7 @@ function switchGetInventory(state)
 	}
 	
 	$('#load-uid-input').val('')
+	//$('#load-veri-input').val('')
 	$('#update-uid-input').val('')
 	$('#update-veri-input').val('')
 	$('#load-confirm-uid').css({'display': 'block'})

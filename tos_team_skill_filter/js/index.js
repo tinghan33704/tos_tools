@@ -1,7 +1,8 @@
 const tool_id = 'team_skill';
 
 let filter_set = new Set();
-let or_filter = true;
+let or_filter = 'or';
+let or_filter_value = ['or', 'and'];
 let theme = 'normal';
 let display_mode = 'row';
 
@@ -48,7 +49,7 @@ function startFilter()
 			$.each(monster.teamSkill, (skill_index, monster_skill) => {
 				if(isActivateSelected && !hasActivateTag(activate_set, monster_skill)) return;
 				
-				if(or_filter)       // OR
+				if(or_filter === 'or')       // OR
 				{
 					// Check for skill tags
 					let isSkillMatch = false;

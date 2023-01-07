@@ -5,7 +5,8 @@ let filter_combine_set = new Set();
 let option_obj = {};
 let option_attr_race_obj = {};
 let option_object_obj = {};
-let or_filter = true;
+let or_filter = 'or';
+let or_filter_value = ['or', 'and'];
 let theme = 'normal';
 let searchResult = [];
 let searchResultCharge = [];
@@ -379,7 +380,7 @@ function startFilter()
 		
 		if(isSkillSelected || keyword_set.size > 0)
 		{
-			if(or_filter)       // OR
+			if(or_filter ==='or' )       // OR
 			{
 				let isSkillMatch = false;
 				

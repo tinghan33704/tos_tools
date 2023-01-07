@@ -86,6 +86,7 @@ function init() {
             createFilterButtonRow("star", star_type_string, ' ★');
             createFilterButtonRow("charge", charge_type_string);
             createFilterButtonRow("genre", genre_type_string);
+			or_filter = or_filter_value?.[0];
         break;
         case 'team_skill':
             createFilterButtonRow("filter", team_skill_type_string);
@@ -94,6 +95,7 @@ function init() {
             createFilterButtonRow("attr", attr_type_string);
             createFilterButtonRow("race", race_type_string);
             createFilterButtonRow("star", star_type_string, ' ★');
+			or_filter = or_filter_value?.[0];
         break;
         case 'leader_skill':
             createFilterButtonRow("filter", leader_skill_type_string);
@@ -103,6 +105,7 @@ function init() {
             createFilterButtonRow("attr", attr_type_string);
             createFilterButtonRow("race", race_type_string);
             createFilterButtonRow("star", star_type_string, ' ★');
+			or_filter = or_filter_value?.[0];
         break;
         case 'craft':
             createFilterButtonRow("filter", craft_skill_type_string);
@@ -112,6 +115,7 @@ function init() {
             createFilterButtonRow("race", craft_race_type_string);
             createFilterButtonRow("star", craft_star_type_string, ' ★');
             createFilterButtonRow("charge", craft_charge_type_string);
+			or_filter = or_filter_value?.[0];
         break;
     }
 	
@@ -129,7 +133,6 @@ function init() {
 		}
 	})*/
     
-    or_filter = true;
     keyword_search = false;
 
     $(".copyright").length && $(".copyright").html(() =>  {
@@ -365,11 +368,24 @@ function getSelectedButton(name, getFirstOnly = false) {
     return [result_set, hasSelected]
 }
 
-function andOrChange()
+function andOrChange(event, offset = 1)
 {
-    or_filter = !or_filter;
+	const cur_index = or_filter_value.indexOf(or_filter)
+    or_filter = or_filter_value[(cur_index + offset) % or_filter_value.length]
     
-    $("#and_or_filter").removeClass(or_filter ? "btn-danger" : "btn-warning").addClass(or_filter ? "btn-warning" : "btn-danger").text(or_filter ? "OR 搜尋" : "AND 搜尋");
+	$("#and_or_filter").removeClass("btn-warning").removeClass("btn-danger")
+	
+	switch(or_filter) {
+		case 'or':
+			$("#and_or_filter").addClass("btn-warning").text("OR 搜尋")
+		break
+		case 'and':
+			$("#and_or_filter").addClass("btn-danger").text("AND 搜尋")
+		break
+		case 'm-and':
+			$("#and_or_filter").addClass("btn-danger").text("M-AND 搜尋")
+		break
+	}
 }
 
 function renderTags(data, classType, postAppend = "") {
@@ -571,7 +587,7 @@ function changeUrl()
     let tag_str = isTypeSelected(".tag-row") ? `tag=${encode(".tag-row")}&` : ''
     let mode_str = isTypeSelected(".mode-row") ? `mode=${encode(".mode-row")}&` : ''
     let actv_str = isTypeSelected(".activate-row") ? `actv=${encode(".activate-row")}&` : ''
-    let or_str = `or=${or_filter ? `1` : `0`}&`
+    let or_str = `or=${or_filter_value.indexOf(or_filter)}&`
 	
 	let queryStr = `${search_str}${keyword_str}${attr_str}${race_str}${star_str}${charge_str}${or_str}${tag_str}${mode_str}${actv_str}`
 	queryStr = 	queryStr.length > 0 ? 
@@ -601,7 +617,7 @@ function readUrl()
 	'tag' in inputQuery && setButtonFromUrl(".tag-row", decode(inputQuery['tag']), clearFilterButtonRow('tag'));
 	'actv' in inputQuery && setButtonFromUrl(".activate-row", decode(inputQuery['actv']), clearFilterButtonRow('activate'));
 	'mode' in inputQuery && setButtonFromUrl(".mode-row", decode(inputQuery['mode']), clearFilterButtonRow('mode'));
-	'or' in inputQuery && inputQuery['or'] == '0' && andOrChange();
+	'or' in inputQuery && andOrChange(null, parseInt(inputQuery['or']));
     
     startFilter();
     

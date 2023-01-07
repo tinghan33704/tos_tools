@@ -3,7 +3,8 @@ const tool_id = 'active_skill';
 let filter_set = new Set();
 let filter_combine_set = new Set();
 let option_obj = {};
-let or_filter = true;
+let or_filter = 'or';
+let or_filter_value = ['or', 'and', 'm-and'];
 let sort_by = 'id';
 let sort_by_method = [['id', '依編號排序'], ['charge', '依 CD/EP 排序'], ['attribute', '依屬性排序'], ['race', '依種族排序'], ['skill', '依功能排序']];
 let theme = 'normal';
@@ -263,163 +264,242 @@ function startFilter()
 			let skill_num_array = [];
 			let skill_num_array_combine = [];
 			
-			$.each([...monster.skill], (skill_index, monster_skill) => {
-				if(isChargeSelected && !charge_set.has(monster_skill.charge)) return;
+			if(or_filter === 'm-and') {		// M-AND
+				const all_skill_tags = monster.skill.reduce((acc, cur) => {
+					return acc.concat(cur.tag)
+				}, [])
+				const all_skill_charge = monster.skill.map(skill => skill.charge)
+				const all_skill_description = monster.skill.map(skill => skill.description)
 				
-				if(or_filter)       // OR
-				{
-					// Check for skill tags
-					let isSkillMatch = false;
-					
-					$.each([...skill_set], (skill_set_index, selected_feat) => {
-						let isTagChecked = false;
-						
-						$.each(monster_skill.tag, (tag_index, tag) => {
-							if($.isArray(tag))      // Tag with round mark
-							{
-								if(tag[0] == selected_feat) {
-									if(selected_feat in option_obj)
-									{
-										if( (tag[1] == 1 && option_obj[selected_feat][0]) ||
-											(tag[1] > 1  && option_obj[selected_feat][1]) ||
-											(tag[1] == -1 && option_obj[selected_feat][2]) ||
-											(!option_obj[selected_feat][0] && !option_obj[selected_feat][1] && !option_obj[selected_feat][2])
-										) 
-										{
-											isTagChecked = true;
-										}
-									}
-									else isTagChecked = true;
-								}
-							}
-							else      // Tag without round mark
-							{
-								if(tag == selected_feat) {
-									if(selected_feat in option_obj)
-									{
-										if( option_obj[selected_feat][0] ||
-											(!option_obj[selected_feat][0] && !option_obj[selected_feat][1] && !option_obj[selected_feat][2])
-										) 
-										{
-											isTagChecked = true;
-										}
-									}
-									else isTagChecked = true;
-								}
-							}
-							
-							if(isTagChecked)
-							{
-								isSkillMatch = true;
-								return false;
-							}
+				if(isChargeSelected && ![...charge_set].some(charge => all_skill_charge.includes(charge))) return;
+				
+				// Check for skill tags
+				
+				let isMonsterMatch = [...skill_set].every(selected_feat => {
+					if(selected_feat in option_obj) {
+						return all_skill_tags.some(tag => {
+							return (tag === selected_feat || tag?.[0] === selected_feat) &&
+									(
+										(option_obj[selected_feat][0] && (!$.isArray(tag) || tag?.[1] === 1)) ||
+										(option_obj[selected_feat][1] && tag?.[1] > 1) ||
+										(option_obj[selected_feat][2] && tag?.[1] === -1) ||
+										(!option_obj[selected_feat][0] && !option_obj[selected_feat][1] && !option_obj[selected_feat][2])
+									)
 						})
+					} else {
+						return all_skill_tags.some(tag => tag === selected_feat || tag?.[0] === selected_feat)
+					}
+				})
+				
+				if(!isMonsterMatch) return;
+				
+				// Check for keywords
+				if(keyword_set.size > 0) {
+					isMonsterMatch = [...keyword_set].every(keyword => {
+						return all_skill_description.some(desc => textSanitizer(desc).includes(keyword))
 					})
 					
-					if(!isSkillMatch && keyword_set.size == 0) return;
-					
-					// Check for keywords
-					
-					if(!isSkillMatch && keyword_set.size > 0) {
-						let isKeywordChecked = false;
-						const skill_desc = textSanitizer(monster_skill.description);
-						
-						$.each([...keyword_set], (keyword_index, keyword) => {
-							if(skill_desc.includes(keyword))
-							{
-								isKeywordChecked = true;
-								return false;
-							}
-						})
-						
-						if(!isKeywordChecked) return;
-					}
-					
+					if(!isMonsterMatch) return;
 				}
-				else       // AND
-				{
-					// Check for skill tags
-					let isSkillMatch = true;
-					
-					$.each([...skill_set], (skill_set_index, selected_feat) => {
-						let isTagChecked = false;
-						$.each(monster_skill.tag, (tag_index, tag) => {
-							if($.isArray(tag))
-							{
-								if(tag[0] == selected_feat) {
-									if(selected_feat in option_obj)
-									{
-										if( (tag[1] == 1 && option_obj[selected_feat][0]) ||
-											(tag[1] > 1  && option_obj[selected_feat][1]) ||
-											(tag[1] == -1 && option_obj[selected_feat][2]) ||
+				
+				// All checks are done
+				// Get index of included skill of the monster
+				
+				$.each([...monster.skill], (skill_index, monster_skill) => {
+					$.each([...skill_set], (selected_feat_index, selected_feat) => {
+						if((selected_feat in option_obj && monster_skill.tag.some(tag => {
+								return (tag === selected_feat || tag?.[0] === selected_feat) &&
+										(
+											(option_obj[selected_feat][0] && (!$.isArray(tag) || tag?.[1] === 1)) ||
+											(option_obj[selected_feat][1] && tag?.[1] > 1) ||
+											(option_obj[selected_feat][2] && tag?.[1] === -1) ||
 											(!option_obj[selected_feat][0] && !option_obj[selected_feat][1] && !option_obj[selected_feat][2])
-										) 
-										{
-											isTagChecked = true;
-											return false;
-										}
-									}
-									else
-									{
-										isTagChecked = true;
-										return false;
-									}
-								}
-							}
-							else
-							{
-								if(tag == selected_feat) {
-									if(selected_feat in option_obj)
-									{
-										if( option_obj[selected_feat][0] ||
-											(!option_obj[selected_feat][0] && !option_obj[selected_feat][1] && !option_obj[selected_feat][2])
-										) 
-										{
-											isTagChecked = true;
-											return false;
-										}
-									}
-									else
-									{
-										isTagChecked = true;
-										return false;
-									}
-								}
-							}
-						})
-							
-						if(!isTagChecked)
+										)
+							})) || 
+							(!(selected_feat in option_obj) && monster_skill.tag.some(tag => tag === selected_feat || tag?.[0] === selected_feat))) 
 						{
-							isSkillMatch = false;
+							let charge = ('reduce' in monster_skill) ? monster_skill.num - monster_skill.reduce : monster_skill.num;
+							
+							if(monster_skill.type === 'combine') skill_num_array_combine.push(skill_index);
+							else skill_num_array.push(skill_index);
+							
+							filter_charge_set.add({'id': monster.id, 'num': skill_index, 'charge': charge})
+							
+							return false
 						}
 					})
 					
-					if(!isSkillMatch) return;
-					
-					// Check for keywords
 					if(keyword_set.size > 0) {
-						let isKeywordChecked = true;
-						let skill_desc = textSanitizer(monster_skill.description);
+						if([...keyword_set].some(keyword => textSanitizer(monster_skill.description).includes(keyword)))
+						{
+							let charge = ('reduce' in monster_skill) ? monster_skill.num - monster_skill.reduce : monster_skill.num;
+							
+							if(monster_skill.type === 'combine') skill_num_array_combine.push(skill_index);
+							else skill_num_array.push(skill_index);
+							
+							filter_charge_set.add({'id': monster.id, 'num': skill_index, 'charge': charge})
+						}
+					}
+				})
+			} else {
+				$.each([...monster.skill], (skill_index, monster_skill) => {
+					if(isChargeSelected && !charge_set.has(monster_skill.charge)) return;
+					
+					if(or_filter === 'or')       // OR
+					{
+						// Check for skill tags
+						let isSkillMatch = false;
 						
-						$.each([...keyword_set], (keyword_index, keyword) => {
-							if(!skill_desc.includes(keyword))
+						$.each([...skill_set], (skill_set_index, selected_feat) => {
+							let isTagChecked = false;
+							
+							$.each(monster_skill.tag, (tag_index, tag) => {
+								if($.isArray(tag))      // Tag with round mark
+								{
+									if(tag[0] == selected_feat) {
+										if(selected_feat in option_obj)
+										{
+											if( (tag[1] == 1 && option_obj[selected_feat][0]) ||
+												(tag[1] > 1  && option_obj[selected_feat][1]) ||
+												(tag[1] == -1 && option_obj[selected_feat][2]) ||
+												(!option_obj[selected_feat][0] && !option_obj[selected_feat][1] && !option_obj[selected_feat][2])
+											) 
+											{
+												isTagChecked = true;
+											}
+										}
+										else isTagChecked = true;
+									}
+								}
+								else      // Tag without round mark
+								{
+									if(tag == selected_feat) {
+										if(selected_feat in option_obj)
+										{
+											if( option_obj[selected_feat][0] ||
+												(!option_obj[selected_feat][0] && !option_obj[selected_feat][1] && !option_obj[selected_feat][2])
+											) 
+											{
+												isTagChecked = true;
+											}
+										}
+										else isTagChecked = true;
+									}
+								}
+								
+								if(isTagChecked)
+								{
+									isSkillMatch = true;
+									return false;
+								}
+							})
+						})
+						
+						if(!isSkillMatch && keyword_set.size == 0) return;
+						
+						// Check for keywords
+						
+						if(!isSkillMatch && keyword_set.size > 0) {
+							let isKeywordChecked = false;
+							const skill_desc = textSanitizer(monster_skill.description);
+							
+							$.each([...keyword_set], (keyword_index, keyword) => {
+								if(skill_desc.includes(keyword))
+								{
+									isKeywordChecked = true;
+									return false;
+								}
+							})
+							
+							if(!isKeywordChecked) return;
+						}
+						
+					}
+					else if(or_filter === 'and')     // AND
+					{
+						// Check for skill tags
+						let isSkillMatch = true;
+						
+						$.each([...skill_set], (skill_set_index, selected_feat) => {
+							let isTagChecked = false;
+							$.each(monster_skill.tag, (tag_index, tag) => {
+								if($.isArray(tag))
+								{
+									if(tag[0] == selected_feat) {
+										if(selected_feat in option_obj)
+										{
+											if( (tag[1] == 1 && option_obj[selected_feat][0]) ||
+												(tag[1] > 1  && option_obj[selected_feat][1]) ||
+												(tag[1] == -1 && option_obj[selected_feat][2]) ||
+												(!option_obj[selected_feat][0] && !option_obj[selected_feat][1] && !option_obj[selected_feat][2])
+											) 
+											{
+												isTagChecked = true;
+												return false;
+											}
+										}
+										else
+										{
+											isTagChecked = true;
+											return false;
+										}
+									}
+								}
+								else
+								{
+									if(tag == selected_feat) {
+										if(selected_feat in option_obj)
+										{
+											if( option_obj[selected_feat][0] ||
+												(!option_obj[selected_feat][0] && !option_obj[selected_feat][1] && !option_obj[selected_feat][2])
+											) 
+											{
+												isTagChecked = true;
+												return false;
+											}
+										}
+										else
+										{
+											isTagChecked = true;
+											return false;
+										}
+									}
+								}
+							})
+								
+							if(!isTagChecked)
 							{
-								isKeywordChecked = false;
-								return false;
+								isSkillMatch = false;
 							}
 						})
 						
-						if(!isKeywordChecked) return;
+						if(!isSkillMatch) return;
+						
+						// Check for keywords
+						if(keyword_set.size > 0) {
+							let isKeywordChecked = true;
+							let skill_desc = textSanitizer(monster_skill.description);
+							
+							$.each([...keyword_set], (keyword_index, keyword) => {
+								if(!skill_desc.includes(keyword))
+								{
+									isKeywordChecked = false;
+									return false;
+								}
+							})
+							
+							if(!isKeywordChecked) return;
+						}
 					}
-				}
-				
-				let charge = ('reduce' in monster_skill) ? monster_skill.num - monster_skill.reduce : monster_skill.num;
-				
-				if(monster_skill.type === 'combine') skill_num_array_combine.push(skill_index);
-				else skill_num_array.push(skill_index);
-				
-				filter_charge_set.add({'id': monster.id, 'num': skill_index, 'charge': charge});
-			})
+					
+					let charge = ('reduce' in monster_skill) ? monster_skill.num - monster_skill.reduce : monster_skill.num;
+					
+					if(monster_skill.type === 'combine') skill_num_array_combine.push(skill_index);
+					else skill_num_array.push(skill_index);
+					
+					filter_charge_set.add({'id': monster.id, 'num': skill_index, 'charge': charge});
+				})
+			}
 			
 			if((!isGenreSelected || genre_set.has(genre_type_string[0])) && skill_num_array.length > 0) filter_set.add({'id': monster.id, 'attr': monster.attribute, 'race': monster.race, 'nums': skill_num_array});
 			

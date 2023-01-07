@@ -1,7 +1,8 @@
 const tool_id = 'craft';
 
 let filter_set = new Set();
-let or_filter = true;
+let or_filter = 'or';
+let or_filter_value = ['or', 'and'];
 let theme = 'normal';
 
 $(document).ready(function(){
@@ -52,7 +53,7 @@ function startFilter()
 		if(isSkillSelected || keyword_set.size > 0) {
 			let skill_num_array = [];
 			
-			if(or_filter)       // OR
+			if(or_filter === 'or')       // OR
 			{
 				// Check for skill tags
 				let isSkillMatch = false;

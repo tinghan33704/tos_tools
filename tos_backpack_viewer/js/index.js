@@ -399,7 +399,7 @@ function renderInfoTag(id) {
 	
 	return `
 		<div class='skill_level_tag'>
-			SLv. ${data?.skillLevel || '???'}
+			SLv. ${data?.skillLevel ?? '???'}
 		</div>
 		<div class='bottom_tag ${ data?.enhanceLevel > 0 ? `bottom_tag_long` : `` }'>
 			${ data?.enhanceLevel > 0 ?

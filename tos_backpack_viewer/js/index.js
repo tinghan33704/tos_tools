@@ -30,7 +30,7 @@ $(document).ready(function() {
 	
 	$('.seal-row').html(renderSealTabs())
 	
-	currentSeal = Object.keys(sealContent)[0]
+	currentSeal = Object.keys(sealContent).includes(localStorage.getItem('CURRENT_SEAL')) ? localStorage.getItem('CURRENT_SEAL') : Object.keys(sealContent)[0]
 	
 	Object.keys(sealContent).forEach((sealName, index) => {
 		$(`#showSeal${index}`).on("click", (event) => selectSeal(index, event))
@@ -41,9 +41,9 @@ $(document).ready(function() {
 		readUserIdFromUrl()
 	}
 	else {
-		$('#showSeal0').click()
 		$('.uid-banner').html(playerData?.uid ? `<div>UID: ${playerData.uid}</div>` : '')
 	}
+	$(`#showSeal${Object.keys(sealContent).indexOf(currentSeal) != -1 ? Object.keys(sealContent).indexOf(currentSeal) : 0}`).click()
     
     $("#reverse-btn").length && $('#reverse-btn').click(() => { 
         reverseMode();
@@ -139,6 +139,8 @@ function selectSeal(index, event)
 	
 	$('.seal-nav').removeClass('seal-nav-active')
 	$('#'+event.target.id).addClass('seal-nav-active')
+	
+	localStorage.setItem('CURRENT_SEAL', name)
 	
 	!playerData?.uid.length && $('#inventory-btn').click()
 	showSeal(name)

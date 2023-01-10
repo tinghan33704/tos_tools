@@ -241,3 +241,12 @@
 	color: var(--div_nav_active_background);
 	padding: 30px;
 }
+
+.cardHaveRatio {
+	position: absolute;
+    right: 0;
+    bottom: 0;
+	font-size: 0.7em;
+	margin-right: 6px;
+	opacity: 0.5;
+}

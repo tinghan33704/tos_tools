@@ -174,11 +174,11 @@ function showSeal(name)
 		
 		allCardStr = !name.includes('其他卡片') ? allCardTitle[Math.floor(Math.random()*(allCardTitle.length))] : allCardOtherTitle[Math.floor(Math.random()*(allCardOtherTitle.length))]
 		
-		let genreStr = genre
+		let genreStr = `${genre}`
 		if(name.includes('自選')) {
 			const attr = attr_zh_to_en[genre.split(' ‧ ')[0].trim()[0]]
 			const race = race_zh_to_en[genre.split(' ‧ ')[1].trim()]
-			genreStr = `<img src='../tos_tool_data/img/monster/icon_${attr}.png' style='width: 1em'>&nbsp;<img src='../tos_tool_data/img/monster/icon_${race}.png' style='width: 1em'>&nbsp;${genre}`
+			genreStr = `<img src='../tos_tool_data/img/monster/icon_${attr}.png' style='width: 1em'>&nbsp;<img src='../tos_tool_data/img/monster/icon_${race}.png' style='width: 1em'>&nbsp;${genreStr}`
 		} 
 		if(name.includes('其他卡片')) {
 			function isCardInCorrectCategory(id) {
@@ -224,10 +224,14 @@ function showSeal(name)
 			return Array.isArray(monster) ? monster.some(id => playerData.card.includes(id)) : playerData.card.includes(monster)
 		})
 		
+		const cardNum = cardData.length
+		const cardNumHave = cardData.filter(monster => Array.isArray(monster) ? monster.some(id => playerData.card.includes(id)) : playerData.card.includes(monster)).length
+		const cardHaveRatioElement = `<div class="cardHaveRatio">${cardNumHave} / ${cardNum}</div>`
+		
 		if(cardData.length > 0 && (!isCompressMode || !hasCard)) {
 			cardStr += '<div class="col-12 col-sm-6"><div class="row genre-row">'
 			cardStr += `
-				<div class='col-12 genre-name${(isReverseMode && mustGet) ? ' genre-name-mustGet' : (!isReverseMode && hasCard) ? ' genre-name-allCollected' : ''}' ${(isReverseMode && mustGet) ? `title=${mustGetTitle}` : (!isReverseMode && hasCard) ? `title=${allCardStr}` : ''}> ${genreStr}</div>
+				<div class='col-12 genre-name${(isReverseMode && mustGet) ? ' genre-name-mustGet' : (!isReverseMode && hasCard) ? ' genre-name-allCollected' : ''}' ${(isReverseMode && mustGet) ? `title=${mustGetTitle}` : (!isReverseMode && hasCard) ? `title=${allCardStr}` : ''}> ${genreStr}${cardHaveRatioElement}</div>
 				${cardData.map(id => {
 					const sk_str = renderMonsterSeriesInfo(genre, Array.isArray(id) ? id : [id])
 					return renderMonsterSeriesImage(genre, Array.isArray(id) ? id : [id], sk_str)

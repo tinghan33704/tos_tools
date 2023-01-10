@@ -14,7 +14,7 @@ let currentCardCategory = 'all'	// 自家/合作檢視 (all, non-crossover, cros
 const showFirstStageAsEmptyPreview = ['新世紀福音戰士石抽', 'ROCKMAN X DiVE', '假面騎士', '大江戶', '怪物彈珠精選', '美少女戰士']
 const showFinalStageEvenNotExist = ['強力武裝', '戰鬥魔導士', '百變騎士', '騰雲逸龍', '變形金屬']
 
-$(document).ready(function() {
+$(document).ready(async function() {
 	$("#reverse-btn").hide()
 	$("#compress-btn").hide()
 	$("#crossover-btn").hide()
@@ -38,11 +38,12 @@ $(document).ready(function() {
 	
 	if(location.search) {
 		$('.card-row').html(loadingPanel())
-		readUserIdFromUrl()
+		await readUserIdFromUrl()
 	}
 	else {
 		$('.uid-banner').html(playerData?.uid ? `<div>UID: ${playerData.uid}</div>` : '')
 	}
+	
 	$(`#showSeal${Object.keys(sealContent).indexOf(currentSeal) != -1 ? Object.keys(sealContent).indexOf(currentSeal) : 0}`).click()
     
     $("#reverse-btn").length && $('#reverse-btn').click(() => { 
@@ -446,16 +447,16 @@ function monsterErrorImage(img, attr) {
 	img.src = `../tos_tool_data/img/monster/noname${attr.length > 0 ? `_${attr_zh_to_en[attr]}` : ''}.png`
 }
 
-function readUserIdFromUrl() {
+async function readUserIdFromUrl() {
 	const code_array = location.search.split("?")[1].split("&")[0].split("=")
 	
 	if(code_array[0] !== 'uid') {
 		errorAlert(1)
-		window.location = 'https://tinghan33704.github.io/tos_backpack_viewer/tos_backpack_viewer.html'
+		window.location = 'https://tinghan33704.com/tos_backpack_viewer/tos_backpack_viewer.html'
 		return
 	}
 	
 	const uid = code_array[1]
 	
-	getPlayerInventory('load', uid)
+	await getPlayerInventory('load', uid)
 }

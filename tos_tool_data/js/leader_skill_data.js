@@ -1,4 +1,4 @@
-// Last modified : 2023.01.12 17:23
+// Last modified : 2023.01.16 21:29
 
 const leader_skill_data = [
     {
@@ -25212,6 +25212,50 @@ const leader_skill_data = [
             }
 		],
         'monster': [10369]
+    },
+    {
+        'name': '創造之識',
+        'description': '',
+        'tag': [
+            {
+                'name': ['增攻', '增血', '增回'],
+                'object': [],
+                'limit': []
+            },
+            {
+                'name': '增攻',
+                'object': ['神', '魔'],
+                'limit': ['成員種族']
+            },
+            {
+                'name': '增攻',
+                'object': [],
+                'limit': ['消除數量']
+            }
+		],
+        'monster': [10370]
+    },
+    {
+        'name': '滅絕之識',
+        'description': '',
+        'tag': [
+            {
+                'name': ['增攻', '增血', '增回'],
+                'object': [],
+                'limit': []
+            },
+            {
+                'name': '增攻',
+                'object': ['神', '魔'],
+                'limit': ['成員種族']
+            },
+            {
+                'name': '增攻',
+                'object': [],
+                'limit': ['Combo數量']
+            }
+		],
+        'monster': [10371]
     },
     {
         'name': '歷劫之道',

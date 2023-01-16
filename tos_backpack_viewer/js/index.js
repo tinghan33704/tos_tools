@@ -164,6 +164,10 @@ function showSeal(name)
 		'讓你見識見識什麼才叫做牛棚'
 	]
 	
+	const specialCardTitle = [
+		'以後關卡記得要開放後晚十二小時再打喔'
+	]
+	
 	const mustGetTitle = '五選一必能選中'
 	
 	Object.keys(sealData).forEach(genre => {
@@ -174,6 +178,8 @@ function showSeal(name)
 		}).length) || sealData[genre].length <= 5
 		
 		allCardStr = !name.includes('其他卡片') ? allCardTitle[Math.floor(Math.random()*(allCardTitle.length))] : allCardOtherTitle[Math.floor(Math.random()*(allCardOtherTitle.length))]
+		
+		spCardStr = specialCardTitle[0]
 		
 		let genreStr = `${genre}`
 		if(name.includes('自選')) {
@@ -232,7 +238,7 @@ function showSeal(name)
 		if(cardData.length > 0 && (!isCompressMode || !hasCard)) {
 			cardStr += '<div class="col-12 col-sm-6"><div class="row genre-row">'
 			cardStr += `
-				<div class='col-12 genre-name${(isReverseMode && mustGet) ? ' genre-name-mustGet' : (!isReverseMode && hasCard) ? ' genre-name-allCollected' : ''}' ${(isReverseMode && mustGet) ? `title=${mustGetTitle}` : (!isReverseMode && hasCard) ? `title=${allCardStr}` : ''}> ${genreStr}${cardHaveRatioElement}</div>
+				<div class='col-12 genre-name${(isReverseMode && mustGet) ? ' genre-name-mustGet' : (!isReverseMode && hasCard) ? ' genre-name-allCollected' : ''}' ${(genre === '境外探索') ? `title=${spCardStr}` : (isReverseMode && mustGet) ? `title=${mustGetTitle}` : (!isReverseMode && hasCard) ? `title=${allCardStr}` : ''}> ${genreStr}${cardHaveRatioElement}</div>
 				${cardData.map(id => {
 					const sk_str = renderMonsterSeriesInfo(genre, Array.isArray(id) ? id : [id])
 					return renderMonsterSeriesImage(genre, Array.isArray(id) ? id : [id], sk_str)

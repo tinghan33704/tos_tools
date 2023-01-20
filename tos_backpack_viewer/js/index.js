@@ -22,8 +22,8 @@ $(document).ready(async function() {
 	
 	const currentTime = new Date().getTime()
 	// All Max 活動時間
-	const startTime = new Date('2022-01-27T00:00:00+0800').getTime()
-	const endTime = new Date('2022-05-31T23:59:59+0800').getTime();
+	const startTime = new Date('2023-01-21T00:00:00+0800').getTime()
+	const endTime = new Date('2023-05-21T23:59:59+0800').getTime();
 	if(currentTime < startTime || currentTime > endTime) {
 		delete sealContent[Object.keys(sealContent).find(name => name.includes('自選'))]
 	}

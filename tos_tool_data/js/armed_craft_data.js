@@ -1,4 +1,4 @@
-// Last modified : 2023.01.16 21:39
+// Last modified : 2023.01.28 01:31
 
 const armed_craft_data = [
     {
@@ -21380,6 +21380,22 @@ const armed_craft_data = [
         'skill_description': ['1 回合內，完全回復生命力', '1 回合內，隊伍攻擊力及回復力提升 20%'],
         'skill_tag': [],
         'armed_description': ['延長移動符石時間 1 秒', '進入關卡後，自身主動技能 CD 減少 1'],
+        'armed_tag': [],
+    },
+    {
+        'id': 9011,
+        'name': '【9012】 週年蛋糕龍弦',
+        'mode': '節奏龍弦',
+        'attribute': '沒有限制',
+        'race': '沒有限制',
+        'star': 2,
+        'charge': '消除符石',
+        'add_hp': 4,
+        'add_atk': 4,
+        'add_rec': 4,
+        'skill_description': ['1 回合內，完全回復生命力', '1 回合內，隊伍攻擊力及回復力提升 25%'],
+        'skill_tag': [],
+        'armed_description': ['必然延長移動符石時間 1 秒', '進入關卡後，自身主動技能 CD 減少 1'],
         'armed_tag': [],
     },
 ]

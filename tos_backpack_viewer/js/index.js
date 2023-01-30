@@ -11,7 +11,7 @@ const cardCategory = ['all', 'non-crossover', 'crossover'];
 const cardCategoryTextArr = ['全部', '自家', '合作']
 let currentCardCategory = 'all'	// 自家/合作檢視 (all, non-crossover, crossover)
 
-const showFirstStageAsEmptyPreview = ['新世紀福音戰士石抽', 'ROCKMAN X DiVE', '假面騎士', '大江戶', '怪物彈珠精選', '美少女戰士']
+const showFirstStageAsEmptyPreview = ['新世紀福音戰士石抽', 'ROCKMAN X DiVE', '假面騎士', '大江戶', '怪物彈珠精選']
 const showFinalStageEvenNotExist = ['強力武裝', '戰鬥魔導士', '百變騎士', '騰雲逸龍', '變形金屬']
 
 $(document).ready(async function() {

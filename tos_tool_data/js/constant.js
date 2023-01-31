@@ -868,7 +868,7 @@ const extraFilter_data = [
 		{
 			name: '進擊的巨人',
 			tags: ['自由的戰士', '調查兵團', '巨人'],
-			otherMonsters: []
+			otherMonsters: [10394]
 		}
 	],
 	[

@@ -1072,20 +1072,24 @@ function renderMonsterImage(monster, tooltip_content, monsterObj, eggLink = fals
 	const digimonShinka = [10244, 10245, 10246, 10248, 10249, 10250].includes(monster.id) && checkKeyword().has('進化')
 	const digimonChouShinka = [10244, 10245, 10246, 10248, 10249, 10250].includes(monster.id) && checkKeyword().has('超進化')
 	const anyaSmile = monster.id === 10329 && searchResult?.find(monster => monster.id === 10335)
+	const reinerSitDown = monster.id === 10400 && searchResult?.find(monster => monster.id === 10383 || monster.id === 10384)
 	
 	const src_path = digimonChouShinka ? `../tos_tool_data/img/monster/${monster_obj.id}_sp2.png` : digimonShinka ? `../tos_tool_data/img/monster/${monster_obj.id}_sp1.png` : anyaSmile ? `../tos_tool_data/img/monster/${monster_obj.id}_sp.png` : `../tos_tool_data/img/monster/${hasImageChange ? hasImageChange[0] : monster_obj.id}.png`
 	const error_path = `../tos_tool_data/img/monster/noname_${attr_zh_to_en[monster_attr]}.png`
 	const focus_path = hasImageChange ? `../tos_tool_data/img/monster/${hasImageChange[1]}.png` : hasSpecialImage ? `../tos_tool_data/img/monster/${monster_obj.id}_sp.png` : src_path
 	const blur_path = hasImageChange ? `../tos_tool_data/img/monster/${hasImageChange[0]}.png` : src_path
 	
+	const fixedImgStyle = reinerSitDown ? "top: 20px; position: relative;" : ""
+	const fixedIdTagStyle = reinerSitDown ? "position: relative;" : ""
+	
     return `
         <div class='col-3 col-md-2 col-lg-1 result'>
-            <img class='monster_img${notInInventory ? '_gray' : ''}' src='${src_path}' onerror='this.src="${error_path}"' onfocus='this.src="${focus_path}"' onblur='this.src="${blur_path}"' tabindex=${monster_obj.id.toString().replace('?', '')} data-toggle='popover' data-title='' data-content="${tooltip_content}"></img>
+            <img class='monster_img${notInInventory ? '_gray' : ''}' src='${src_path}' onerror='this.src="${error_path}"' onfocus='this.src="${focus_path}"' onblur='this.src="${blur_path}"' tabindex=${monster_obj.id.toString().replace('?', '')} data-toggle='popover' data-title='' data-content="${tooltip_content}" style='${fixedImgStyle}'></img>
 			${isCombineSkill ? `<img class='monster_img_combine_icon${notInInventory ? '_gray' : ''}' src="../tos_tool_data/img/monster/combine.png" />` : ``}
 			<!-- special image preload -->
 			<img class='monster_img${notInInventory ? '_gray' : ''}' style="display: none;" src=${hasSpecialImage ? `../tos_tool_data/img/monster/${monster_obj.id}_sp.png` : ''}>
 			<!-- -->
-            <div class='monsterId${notInInventory ? '_gray' : ''}'>
+            <div class='monsterId${notInInventory ? '_gray' : ''}' style='${fixedIdTagStyle}'>
                 <a href='${eggLink ? `https://home.gamer.com.tw/homeindex.php?owner=tinghan33704` : `https://tos.fandom.com/zh/wiki/${monster_obj.id}`}' target='_blank'>${paddingZeros(monster_obj.id, 3)}</a>
             </div>
         </div>

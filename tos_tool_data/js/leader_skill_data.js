@@ -25483,7 +25483,7 @@ const leader_skill_data = [
                 'limit': []
             }
 		],
-        'monster': [10395, 10400]
+        'monster': [10395, 10397, 10399, 10400]
     },
     {
         'name': '歷劫之道',

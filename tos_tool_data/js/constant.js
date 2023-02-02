@@ -992,7 +992,7 @@ const active_skill_notification = ''
 const team_skill_notification = ''
 const leader_skill_notification = ''
 const craft_notification = ''
-const backpack_notification = ''
+const backpack_notification = '此檢視器預計將改由使用者預先提供自己的驗證碼的方式用以查看自己或他人的資料。詳細改動及日期請靜待公告'
 
 /* calculate remain days */
 

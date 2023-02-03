@@ -643,8 +643,8 @@ async function getPlayerInventory(prefix, id = null)
 	
 	$(`#${prefix}-uid-status`).html(`<span class='waiting'><i class='fa fa-download'></i>&nbsp;&nbsp;正在${verb} ${playerId} 的背包...</span>`)
 	
-	const uid = prefix == 'update' ? playerId : atob(myAuth).substring(0, 9)
-	const auth = prefix == 'update' ? playerVeri : atob(myAuth).substring(9, 15)
+	const uid = prefix == 'update' ? playerId : atob(myAuth).substring(0, 10)
+	const auth = prefix == 'update' ? playerVeri : atob(myAuth).substring(10, 16)
 	
 	try {
 		

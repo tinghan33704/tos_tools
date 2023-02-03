@@ -1004,4 +1004,4 @@ const diffTime2 = endDate2 - currentDate > 1000 * 60 * 60 * 24 ? ` ${Math.floor(
 
 const backpack_notification = endDate1 - currentDate > 0 ? `<font style="font-size: 1.5em">九週年 All Max 自選還剩<font style="color: red; font-weight: bold;">${diffTime1}</font></font>` : endDate2 - currentDate > 0 ? `<font style="font-size: 1.5em">巴哈金賞 All Max 自選還剩<font style="color: red; font-weight: bold;">${diffTime2}</font></font>` : '' */
 
-const myAuth = 'NTk1NjM2MzUxODY3NTE4'
+const myAuth = 'MTAwMzk0Mjk2MzMyNDg0Mg'

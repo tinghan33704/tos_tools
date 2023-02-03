@@ -647,6 +647,9 @@ async function getPlayerInventory(prefix, id = null)
 	const auth = prefix == 'update' ? playerVeri : atob(myAuth).substring(9, 15)
 	
 	try {
+		
+		if(playerId === '881497327') throw null;
+		
 		const token_obj = await $.post(`https://website-api.tosgame.com/api/checkup/login?token=&uid=${uid}&auth=${auth}`).fail(() => {
 			console.log('Fail to get token')
 		}).promise()

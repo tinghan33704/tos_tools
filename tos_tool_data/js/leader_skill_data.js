@@ -1,4 +1,4 @@
-// Last modified : 2023.02.02 03:33
+// Last modified : 2023.02.05 19:51
 
 const leader_skill_data = [
     {
@@ -25255,7 +25255,29 @@ const leader_skill_data = [
                 'limit': []
             }
 		],
-        'monster': [10369]
+        'monster': [10366]
+    },
+    {
+        'name': '約定之力',
+        'description': 'I. 全隊攻擊力 10 倍<br>II. 隊伍成員的種族愈多，全隊生命力、攻擊力及回復力額外提升愈多：<br>⇒ 2 種族成員 2 倍<br>⇒ 3 種族成員可達至最大 3 倍<br>III. 首批消除 ≥10 粒符石<br>⓵ 全隊攻擊力 2.5 倍<br>⓶ 回復 100,000 點生命力',
+        'tag': [
+            {
+                'name': '增攻',
+                'object': [],
+                'limit': []
+            },
+            {
+                'name': ['增血', '增攻', '增回'],
+                'object': [],
+                'limit': ['成員種族數量']
+            },
+            {
+                'name': ['增攻', '回血'],
+                'object': [],
+                'limit': ['消除數量']
+            }
+		],
+        'monster': [10367]
     },
     {
         'name': '創造之識',

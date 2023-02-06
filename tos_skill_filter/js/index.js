@@ -306,6 +306,8 @@ function startFilter()
 				// Get index of included skill of the monster
 				
 				$.each([...monster.skill], (skill_index, monster_skill) => {
+					let isMatch = false
+					
 					$.each([...skill_set], (selected_feat_index, selected_feat) => {
 						if((selected_feat in option_obj && monster_skill.tag.some(tag => {
 								return (tag === selected_feat || tag?.[0] === selected_feat) &&
@@ -324,12 +326,13 @@ function startFilter()
 							else skill_num_array.push(skill_index);
 							
 							filter_charge_set.add({'id': monster.id, 'num': skill_index, 'charge': charge})
+							isMatch = true
 							
 							return false
 						}
 					})
 					
-					if(keyword_set.size > 0) {
+					if(!isMatch && keyword_set.size > 0) {
 						if([...keyword_set].some(keyword => textSanitizer(monster_skill.description).includes(keyword)))
 						{
 							let charge = ('reduce' in monster_skill) ? monster_skill.num - monster_skill.reduce : monster_skill.num;

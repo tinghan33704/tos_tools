@@ -648,11 +648,6 @@ async function getPlayerInventory(prefix, id = null)
 	
 	try {
 		
-		if(playerId === '881497327') {
-			await new Promise(r => setTimeout(r, 5000));
-			throw null;
-		}
-		
 		const token_obj = await $.post(`https://website-api.tosgame.com/api/checkup/login?token=&uid=${uid}&auth=${auth}`).fail(() => {
 			console.log('Fail to get token')
 		}).promise()

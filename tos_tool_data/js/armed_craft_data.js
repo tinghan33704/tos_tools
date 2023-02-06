@@ -1,4 +1,4 @@
-// Last modified : 2023.01.30 19:55
+// Last modified : 2023.02.06 21:27
 
 const armed_craft_data = [
     {
@@ -21309,6 +21309,22 @@ const armed_craft_data = [
         'skill_description': ['1 回合內，暗屬性成員的攻擊力提升 25%', '1 回合內，完全回復生命力'],
         'skill_tag': [],
         'armed_description': ['此召喚獸發動技能的回合，自身攻擊力 1.5 倍', '消除 ≥3 種符石，自身攻擊力額外 1.5 倍'],
+        'armed_tag': [],
+    },
+    {
+        'id': 7243,
+        'name': '【7243】 心念娃娃龍符',
+        'mode': '映照龍符',
+        'attribute': '火',
+        'race': '神族',
+        'star': 3,
+        'charge': '消除符石',
+        'add_hp': 10,
+        'add_atk': 10,
+        'add_rec': 10,
+        'skill_description': ['1 回合內，神族成員的攻擊力提升 25%', '1 回合內，無視指定形狀盾', '隨機 2 個技能 CD 冷卻中的神族成員的技能 CD 減少 3'],
+        'skill_tag': [],
+        'armed_description': ['進入關卡後，自身主動技能 CD 減少 1', '消除 4 粒或以上的心符石，回復 1.5 倍隊伍回復力等值的生命力', '消除神族符石時，神族攻擊力 1.05 倍'],
         'armed_tag': [],
     },
     {

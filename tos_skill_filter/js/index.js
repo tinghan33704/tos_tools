@@ -942,8 +942,12 @@ function renderSkillInfo(monster, skill_number, monsterObj) {
         let transform_str = ''
         transform_str += `<img src='../tos_tool_data/img/monster/${monster.id}.png' \>`;
         
-        transform_str += ` → <img src='../tos_tool_data/img/monster/${skill.transform}.png' \>`;
-        
+		if(!$.isArray(skill.transform)) {
+			transform_str += ` → <img src='../tos_tool_data/img/monster/${skill.transform}.png' \>`;
+        } else {
+			transform_str += ` → ${skill.transform.map(target => `<img src='../tos_tool_data/img/monster/${target}.png' \>`).join('')}`;
+		}
+		
         sk_str += `
             <div class='row'>
                 <div class='skill_tooltip col-sm-12'><hr></div>

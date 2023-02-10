@@ -885,6 +885,12 @@ function renderMonsterInfo(monster, monsterObj) {
 }
 
 function renderSkillInfo(monster, skill_number, monsterObj) {
+	
+	function renderMonsterImage(monsterObj) {
+		const error_path = `../tos_tool_data/img/monster/noname_${attr_zh_to_en[monsterObj.attribute]}.png`
+		return `<img src='../tos_tool_data/img/monster/${monsterObj.id}.png' onerror='this.src=&quot;${error_path}&quot;' title='${monsterObj.name}'\>`;
+	}
+	
     const monster_obj = monsterObj || monster_data.find((element) => {
         return element.id == monster.id;
     });
@@ -922,10 +928,16 @@ function renderSkillInfo(monster, skill_number, monsterObj) {
     {
         let combine_str = ''
         $.each(skill.combine.member, (combine_index, member) => {
-            combine_str += `<img src='../tos_tool_data/img/monster/${member}.png'\> ${combine_index !== skill.combine.member.length-1 ? ` + ` : ``}`;
+			const combine_member_obj = monster_data.find((element) => {
+				return element.id == member;
+			});
+            combine_str += `${renderMonsterImage(combine_member_obj)} ${combine_index !== skill.combine.member.length-1 ? ` + ` : ``}`;
         })
         
-        combine_str += ` → <img src='../tos_tool_data/img/monster/${skill.combine.out}.png'\>`;
+		const combine_out_obj = monster_data.find((element) => {
+			return element.id == skill.combine.out;
+		});
+        combine_str += ` → ${renderMonsterImage(combine_out_obj)}`;
         
         sk_str += `
             <div class='row'>
@@ -940,12 +952,21 @@ function renderSkillInfo(monster, skill_number, monsterObj) {
     if('transform' in skill)
     {
         let transform_str = ''
-        transform_str += `<img src='../tos_tool_data/img/monster/${monster.id}.png' \>`;
+        transform_str += renderMonsterImage(monster_obj)
         
 		if(!$.isArray(skill.transform)) {
-			transform_str += ` → <img src='../tos_tool_data/img/monster/${skill.transform}.png' \>`;
+			const transform_obj = monster_data.find((element) => {
+				return element.id == skill.transform;
+			});
+			transform_str += ` → ${renderMonsterImage(transform_obj)}`;
         } else {
-			transform_str += ` → ${skill.transform.map(target => `<img src='../tos_tool_data/img/monster/${target}.png' \>`).join('')}`;
+			transform_str += ` → ${skill.transform.map(target => {
+				const transform_obj = monster_data.find((element) => {
+					return element.id == target;
+				});
+				return renderMonsterImage(transform_obj)
+			}).join('')}`;
+			
 		}
 		
         sk_str += `
@@ -963,7 +984,10 @@ function renderSkillInfo(monster, skill_number, monsterObj) {
     {
         let combine_str = ''
         $.each(skill.member, (combine_index, member) => {
-            combine_str += `<img src='../tos_tool_data/img/monster/${member}.png'\> ${combine_index !== skill.member.length-1 ? ` + ` : ``}`;
+			const member_obj = monster_data.find((element) => {
+				return element.id == member;
+			});
+            combine_str += `${renderMonsterImage(member_obj)} ${combine_index !== skill.member.length-1 ? ` + ` : ``}`;
         })
         
         sk_str += `

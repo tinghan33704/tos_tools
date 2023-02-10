@@ -1,4 +1,4 @@
-// Last modified : 2023.02.09 21:57
+// Last modified : 2023.02.10 11:56
 
 const leader_skill_data = [
     {
@@ -25554,7 +25554,7 @@ const leader_skill_data = [
                 'limit': ['消除組數']
             }
 		],
-        'monster': ['?-1', '?-2', '?-3', '?-4', '?-5']
+        'monster': [10403, 10404, 10405, 10406, 10407]
     },
     {
         'name': '歷劫之道',

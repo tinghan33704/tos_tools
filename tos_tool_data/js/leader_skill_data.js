@@ -1,4 +1,4 @@
-// Last modified : 2023.02.10 11:56
+// Last modified : 2023.02.16 21:43
 
 const leader_skill_data = [
     {
@@ -25527,7 +25527,7 @@ const leader_skill_data = [
                 'limit': []
             }
 		],
-        'monster': [10395, 10396, 10397, 10398, 10400, 10401]
+        'monster': [10395, 10396, 10397, 10398, 10399, 10400, 10401]
     },
     {
         'name': '強靭的精神力',

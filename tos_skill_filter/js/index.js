@@ -582,6 +582,9 @@ function startFilter()
 	// Saitama easter egg :)
 	setGlassBreak()
 	
+	// Attack on Titan easter egg :)
+	chinarashiShake()
+	
     jumpTo("result_title");
 }
 
@@ -1138,4 +1141,19 @@ function sortByChange()
 	renderResult()
 	
     jumpTo("result_title");
+}
+
+function chinarashiShake() {
+	function toggleClass() {
+		$("#result-row div[class*='result']").toggleClass('shake');
+		$("label[class*='-btn']").toggleClass('shake');
+		$("div[class$='_tag']").toggleClass('shake');
+		$("button").toggleClass('shake');
+	}
+	$("img[class^='monster_img'][src$='10402.png']").click(() => {
+			toggleClass()
+			setTimeout(() => toggleClass(), 500);
+		}
+	);
+	
 }

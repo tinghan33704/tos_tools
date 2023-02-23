@@ -238,9 +238,13 @@ select {
 .btn-shell {
     padding: 3px;
 }
+.top-btn-shell {
+	padding: 0 0.5rem;
+}
 @media (max-width: 576px) {
 	.top-btn-shell {
 		margin-bottom: 0.25rem;
+		padding: 0.25rem 0.5rem;
 	}
 }
 .filter-btn, .attr-btn, .race-btn, .star-btn, .charge-btn, .activate-btn, .keyword-btn, .mode-btn, .tag-btn, .extra-tag-btn, .genre-btn, .version-tag-btn, .option-btn, .copy-btn {

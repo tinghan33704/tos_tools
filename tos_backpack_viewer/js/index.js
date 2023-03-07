@@ -97,11 +97,11 @@ function renderSealTabs() {
 	const marginLength = (12 - tabLength * tabCount) / 2
 	
 	let str = ''
-	if(marginLength > 0) str += `<div class='col-12 col-md-${marginLength} col-lg-${marginLength}'></div>`
+	if(marginLength > 0) str += `<div class='col-6 col-md-${marginLength} col-lg-${marginLength}'></div>`
 	Object.keys(sealContent).forEach((sealName, index) => {
-		str += `<div class='col-12 col-md-${tabLength} col-lg-${tabLength} seal-nav${index == 0 ? ' seal-nav-active' : ''}' id='showSeal${index}'>${sealName}</div>`
+		str += `<div class='col-6 col-md-${tabLength} col-lg-${tabLength} seal-nav${index == 0 ? ' seal-nav-active' : ''}' id='showSeal${index}'>${sealName}</div>`
 	})
-	if(marginLength > 0) str += `<div class='col-12 col-md-${marginLength} col-lg-${marginLength}'></div>`
+	if(marginLength > 0) str += `<div class='col-6 col-md-${marginLength} col-lg-${marginLength}'></div>`
 	
 	return str
 }

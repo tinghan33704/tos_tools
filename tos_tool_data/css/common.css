@@ -397,6 +397,7 @@ select {
 .monster_img, .monster_img_gray {
     width: 100%;
     cursor: pointer;
+	transform: rotate(180deg); /* april fool */
 }
 .monster_img_gray {
 	-webkit-filter: grayscale(100%);

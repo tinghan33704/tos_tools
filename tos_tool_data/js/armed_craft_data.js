@@ -1,4 +1,4 @@
-// Last modified : 2023.04.07 11:49
+// Last modified : 2023.04.22 19:16
 
 const armed_craft_data = [
     {
@@ -21567,6 +21567,22 @@ const armed_craft_data = [
         'skill_description': ['1 回合內，獸類成員的攻擊力提升 25%', '1 回合內，無視攻前盾', '隨機 3 個技能 CD 冷卻中的獸類成員的技能 CD 減少 2'],
         'skill_tag': [],
         'armed_description': ['延長移動符石時間 1 秒', '自身攻擊無視敵人防禦力', '消除獸族符石時，自身攻擊力 1.3 倍'],
+        'armed_tag': [],
+    },
+    {
+        'id': 7253,
+        'name': '【7253】 絮語樂盒龍紋',
+        'mode': '連鎖龍紋',
+        'attribute': '水',
+        'race': '魔族',
+        'star': 3,
+        'charge': '消除符石',
+        'add_hp': 10,
+        'add_atk': 10,
+        'add_rec': 10,
+        'skill_description': ['1 回合內，魔族成員的攻擊力提升 25%', '1 回合內，所受傷害不會使你死亡', '隨機 3 個技能 CD 冷卻中的魔族成員的技能 CD 減少 2'],
+        'skill_tag': [],
+        'armed_description': ['延長移動符石時間 1 秒', '此召喚獸發動技能的回合，自身攻擊力 1.6 倍', '消除魔族符石時，自身攻擊力 1.3 倍'],
         'armed_tag': [],
     },
     {

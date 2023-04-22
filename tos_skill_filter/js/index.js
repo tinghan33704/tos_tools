@@ -1107,7 +1107,7 @@ function renderMonsterImage(monster, tooltip_content, monsterObj, eggLink = fals
 	const digimonChouShinka = [10244, 10245, 10246, 10248, 10249, 10250].includes(monster.id) && checkKeyword().has('超進化')
 	const anyaSmile = monster.id === 10329 && searchResult?.find(monster => monster.id === 10335)
 	const reinerSitDown = monster.id === 10400 && searchResult?.find(monster => monster.id === 10383 || monster.id === 10384)
-	const sashaEat = [1873, 1874, 1875, 1876, 1877, 2251, 2252, 2253, 2254, 2255, 10308].includes(monster.id) && searchResult?.find(monster => monster.id === 10385)
+	const sashaEat = [1873, 1874, 1875, 1876, 1877, 2251, 2252, 2253, 2254, 2255, 10308, 10422].includes(monster.id) && searchResult?.find(monster => monster.id === 10385)
 	
 	const src_path = digimonChouShinka ? `../tos_tool_data/img/monster/${monster_obj.id}_sp2.png` : digimonShinka ? `../tos_tool_data/img/monster/${monster_obj.id}_sp1.png` : anyaSmile ? `../tos_tool_data/img/monster/${monster_obj.id}_sp.png` : sashaEat ? `../tos_tool_data/img/monster/empty_${attr_zh_to_en[monster_obj.attribute]}.png` : `../tos_tool_data/img/monster/${hasImageChange ? hasImageChange[0] : monster_obj.id}.png`
 	const error_path = `../tos_tool_data/img/monster/noname_${attr_zh_to_en[monster_attr]}.png`

@@ -1,4 +1,4 @@
-// Last modified : 2023.04.27 20:33
+// Last modified : 2023.05.04 22:03
 
 const leader_skill_data = [
     {
@@ -26050,6 +26050,28 @@ const leader_skill_data = [
         'monster': [10431]
     },
     {
+        'name': '真摯的友誼',
+        'description': '隊中只有人類成員：<br>I. 全隊攻擊力 7 倍<br>II.【咒術師】成員<br>⇒ 生命力、攻擊力及回復力額外 2.2 倍<br>III.「虎杖悠仁」及「東堂葵」<br>⇒ 攻擊力額外 5 倍',
+        'tag': [
+            {
+                'name': '增攻',
+                'object': ['人'],
+                'limit': ['成員種族']
+            },
+            {
+                'name': ['增血', '增攻', '增回'],
+                'object': ['特定成員'],
+                'limit': ['成員種族']
+            },
+            {
+                'name': '增攻',
+                'object': ['自身', '特定成員'],
+                'limit': ['成員種族']
+            }
+		],
+        'monster': [10433]
+    },
+    {
         'name': '詛咒之王',
         'description': '隊中只有暗屬性或魔族成員：<br>I. 全隊攻擊力 10 倍、生命力及回復力 2.8 倍<br>II. 消除魔族符石<br>⇒ 全隊攻擊力額外 4 倍<br>III. 每首批消除 1 組符石<br>⇒ 增加 1 連擊 (Combo)<br>IV. 達至 ≥10 連擊 (Combo)<br>⇒「兩面宿儺」攻擊力額外 2.5 倍',
         'tag': [
@@ -26091,7 +26113,7 @@ const leader_skill_data = [
                 'limit': ['消除特定符石']
             }
 		],
-        'monster': [10435, 10437]
+        'monster': [10435, 10436, 10437]
     },
     {
         'name': '歷劫之道',

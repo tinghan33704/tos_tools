@@ -15,7 +15,10 @@ let useInventory = false;
 
 let easterEggFlag = false;
 
-let easterEggData = {
+const currentTimeObj = new Date()
+const currentMonth = currentTimeObj.getMonth()
+const currentDay = currentTimeObj.getDate()
+const easterEggData = {
 	"id": 595636351,
 	"name": "蒼曜",
 	"attribute": "光",
@@ -29,7 +32,7 @@ let easterEggData = {
 			"type": "normal",
 			"charge": "CD",
 			"num": 1,
-			"description": "I. 點擊頭像時<br>⇒ 「安安你好，我是作者」<br>⇒ 「不用去翻背包或圖鑑了，這不是卡片只是張名片」<br>II. 每週隨機時機<br>⇒ 更新資料庫<br><br>效果持續至退坑為止",
+			"description": `I. 點擊頭像時<br>⇒ 「安安你好，我是作者」<br>⇒ 「不用去翻背包或圖鑑了，這不是卡片只是張名片」<br>II. 每週隨機時機<br>⇒ 更新資料庫${currentMonth == 4 && currentDay == 5 ? '<br>III. 今天我生日喔' : ''}<br><br>效果持續至退坑為止`,
 			"tag": []
 		},
 	],

@@ -190,10 +190,16 @@ body {
     font-weight: bold;
 }
 .filter[type=checkbox] + label {
-    transition: 0.5s;
-    cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
     border: 1px solid var(--text_color);
     border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.filter[type=checkbox] + label > img {
+	height: 1em;
 }
 .navbar-brand, .navbar-brand:hover {
     font-size: 1.44em;

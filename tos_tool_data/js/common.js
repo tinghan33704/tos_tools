@@ -261,22 +261,24 @@ function createFilterButtonRow(name, data, postAppend = '') {
         let str = $(`.${name}-row`).html();
         
         if(!$.isArray(data[0])) {
-            $.each(data, (index, skill) => {
-                str += 
-                `<div class='col-6 col-md-4 col-lg-2 btn-shell' title='${skill}${postAppend}'>
+            $.each(data, (index, item) => {
+				const iconImg = item === '沒有限制' ? '' : name === 'attr' ? `<img src='../tos_tool_data/img/monster/icon_${attr_zh_to_en[item]}.png'>&nbsp;&nbsp;` : name === 'race' ? `<img src='../tos_tool_data/img/monster/icon_${race_zh_to_en[item]}.png'>&nbsp;&nbsp;` : ''
+                
+				str += 
+                `<div class='col-6 col-md-4 col-lg-2 btn-shell' title='${item}${postAppend}'>
                     <input type='checkbox' class='filter' id='${name}-${index}'>
-                    <label class='p-1 w-100 text-center ${name}-btn' for='${name}-${index}'>${skill}${postAppend}</label>
+                    <label class='p-1 w-100 text-center ${name}-btn' for='${name}-${index}'>${iconImg}${item}${postAppend}</label>
                 </div>`;
             })
         }
         else {
             $.each(data, (index_group, group) => {
                 str += "<div class='col-12 my-2'></div>";
-                $.each(group, (index, skill) => {
+                $.each(group, (index, item) => {
                     str += 
-                    `<div class='col-6 col-md-4 col-lg-2 btn-shell' title='${skill}${postAppend}'>
+                    `<div class='col-6 col-md-4 col-lg-2 btn-shell' title='${item}${postAppend}'>
                         <input type='checkbox' class='filter' id='${name}-${index_group}-${index}'>
-                        <label class='p-1 w-100 text-center ${name}-btn' for='${name}-${index_group}-${index}'>${skill}${postAppend}</label>
+                        <label class='p-1 w-100 text-center ${name}-btn' for='${name}-${index_group}-${index}'>${item}${postAppend}</label>
                     </div>`;
                 })
             })
@@ -360,7 +362,7 @@ function getSelectedButton(name, getFirstOnly = false) {
     $(`.${name}-row .filter`).each(function() {
         if($(this).prop('checked'))
         {
-            result_set.add(getFirstOnly ? parseInt($(this).next("label").text()[0]) : $(this).next("label").text());
+            result_set.add(getFirstOnly ? parseInt($(this).next("label").text()[0]) : $(this).next("label").text().trim());
             hasSelected = true;
         }
     });

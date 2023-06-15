@@ -164,6 +164,9 @@ body {
     color: var(--text_color);
 	overflow-x: hidden;
 }
+label {
+	margin: 0.25em 0;
+}
 .filter[type=checkbox] {
     display: none;
 }
@@ -265,6 +268,9 @@ select {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .skill-group {
     width: 100%;
@@ -496,6 +502,9 @@ select {
     font-family: Microsoft JhengHei;
     margin: auto;
 }
+.monster-info-header {
+	/*position: fixed;*/
+}
 .monster_attr {
     text-align: right;
 	padding: 0 3px;
@@ -648,6 +657,9 @@ select {
 }
 
 .option-text {
+	display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 1.2em;
     font-weight: bold;
     color: var(--text_color);

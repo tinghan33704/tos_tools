@@ -273,7 +273,7 @@ function createFilterButtonRow(name, data, postAppend = '') {
         }
         else {
             $.each(data, (index_group, group) => {
-                str += "<div class='col-12 my-2'></div>";
+                str += index_group !== 0 ? `<div class='col-12 my-2'></div>` : ``
                 $.each(group, (index, item) => {
                     str += 
                     `<div class='col-6 col-md-4 col-lg-2 btn-shell' title='${item}${postAppend}'>
@@ -298,7 +298,6 @@ function createKeywordRow() {
     $(".keyword-row").html(() => {
         let str = $(".keyword-row").html();
         str += `
-        <div class='col-12 my-2'></div>
         <div class='col-12 btn-shell'>
             <input type='text' class='form-control keyword-input' id='keyword-input' placeholder='輸入技能關鍵字' maxlength=${input_maxlength}>
         </div>`;

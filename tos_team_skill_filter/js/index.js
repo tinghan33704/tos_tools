@@ -189,7 +189,7 @@ function startFilter()
                     
                     str += `
                                 <td class="td_description">
-                                    ${skill.description}
+                                    ${descriptionTranslator(skill.description)}
                                 </td>
                                 <td class="td_activate">
                                     ${skill.activate}
@@ -298,6 +298,12 @@ function renderMonsterImage(monster) {
             </div>
         </div>
     `;
+}
+
+function descriptionTranslator(description) {
+	return description
+		.replace(/\n[^\S\n]*/g, '<br>')
+		.replace(/^<br>/, '')
 }
 
 function hasActivateTag(activate_set, monster_skill) {

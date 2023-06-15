@@ -62,33 +62,47 @@ function renderOptionPanel() {
         {
             if(!(Object.keys(option_obj).includes($(this).next("label").text())))
             {
-                option_obj[$(this).next("label").text()] = Array(option_text.length).fill(false);
+                option_obj[$(this).next("label").text()] = Array(option_text.length).fill(false)
             }
-            hasSelectedSkill = true;
+            hasSelectedSkill = true
         }
         else 
         {
             if($(this).next("label").text() in option_obj)
             {
-                delete option_obj[$(this).next("label").text()];
+                delete option_obj[$(this).next("label").text()]
             }
         }
     });
     
-    let render_str = "";
-    let option_id = 0;
+    let render_str = ""
+    let option_id = 0
     skill_type_string.forEach(function(row) {
         row.forEach(function(skill) {
             if(Object.keys(option_obj).includes(skill))
             {
-                render_str += "<div class='row option-row'>";
-                render_str += "     <div class='col-12 col-md-12 col-lg-4 option-text'>"+skill+"</div>";
-                option_text.forEach(function(text, j){
-                    render_str += "     <div class='col-12 col-md-4 col-lg-2 btn-shell'><input type='checkbox' class='filter' id='option-"+(option_id*option_text.length+j)+"' "+(option_obj[skill][j] ? 'checked': '')+"><label class='p-1 w-100 text-center option-btn' for='option-"+(option_id*option_text.length+j)+"'>"+text+"</label></div>";
-                })
-                render_str += "<hr>";
-                render_str += "</div>";
-                option_id ++;
+				render_str += `
+					<div class='row option-row'>
+						<div class='col-12 col-md-12 col-lg-4 option-text'>${skill}</div>
+				`
+				
+				if(!['多重左上狀態', '頭像狀態', '敵身狀態'].includes(skill)) {
+					option_text.forEach((text, j) => {
+						render_str += `
+							<div class='col-12 col-md-4 col-lg-2 btn-shell'>
+								<input type='checkbox' class='filter' id='option-${option_id * option_text.length + j}' ${option_obj[skill][j] ? 	'checked': ''}/>
+								<label class='p-1 w-100 text-center option-btn' for='option-${option_id * option_text.length + j}'>
+									${text}
+								</label>
+							</div>
+						`
+					})
+				}
+				render_str += `
+						<hr>
+					</div>
+				`
+                option_id ++
             }
         })
     })
@@ -98,11 +112,11 @@ function renderOptionPanel() {
 
 function recordOption() {
     $("#optionPanel .option-row").each(function(){
-        let option_text = $(this).find('.option-text').html();
+        let option_text = $(this).find('.option-text').html()
         $(this).children('.btn-shell').each(function(i) {
-            option_obj[option_text][i] = $(this).find('.filter').prop('checked');
+            option_obj[option_text][i] = $(this).find('.filter').prop('checked')
         })
-    });
+    })
 }
 
 function openUidInputPanel()
@@ -641,10 +655,8 @@ function renderResult() {
                     
 					sk_str += renderMonsterInfo(monster);
 					
-                    $.each(monster.nums, (num_index, skill_number) => {
-                        sk_str += renderSkillInfo(monster, skill_number);
-                    })
-					
+					sk_str += renderAllSkillInfo(monster);
+                    
 					// for combine skill, create a new row
 					if(index !== 0  && !('type' in searchResult[index-1]) && monster?.type === 'combine') str += '<hr class="result_combine_hr">'
                     
@@ -683,7 +695,7 @@ function renderResult() {
                     
 					sk_str += renderMonsterInfo(monster);
                     
-                    sk_str += renderSkillInfo(monster, monster.num);
+					sk_str += renderAllSkillInfo(monster);
                     
                     str += renderMonsterImage(monster, sk_str);
                 });
@@ -724,9 +736,7 @@ function renderResult() {
                     
 							sk_str += renderMonsterInfo(monster);
                         
-                            $.each(monster.nums, (num_index, skill_number) => {
-                                sk_str += renderSkillInfo(monster, skill_number);
-                            })
+							sk_str += renderAllSkillInfo(monster);
 							
 							// for combine skill, create a new row
 							if(monster_index !== 0  && !('type' in attr[monster_index-1]) && monster?.type === 'combine') str += '<hr class="result_combine_hr">'
@@ -773,9 +783,7 @@ function renderResult() {
                     
 							sk_str += renderMonsterInfo(monster);
 							
-                            $.each(monster.nums, (num_index, skill_number) => {
-                                sk_str += renderSkillInfo(monster, skill_number);
-                            })
+							sk_str += renderAllSkillInfo(monster);
 							
 							// for combine skill, create a new row
 							if(monster_index !== 0  && !('type' in race[monster_index-1]) && monster?.type === 'combine') str += '<hr class="result_combine_hr">'
@@ -838,9 +846,7 @@ function renderResult() {
                     
 							sk_str += renderMonsterInfo(monster);
 							
-                            $.each(monster.nums, (num_index, skill_number) => {
-                                sk_str += renderSkillInfo(monster, skill_number);
-                            })
+							sk_str += renderAllSkillInfo(monster);
 					
 							// for combine skill, create a new row
 							if(monster_index !== 0  && !('type' in skill[monster_index-1]) && monster?.type === 'combine') str += '<hr class="result_combine_hr">'
@@ -875,19 +881,32 @@ function renderMonsterInfo(monster, monsterObj) {
 		return element.id == monster.id;
 	});
 	
-    let sk_str = '';
-	
-	sk_str += `<div class='row'>`
+	return `
+		<div class='row monster-info-header'>
+			<div class='col-6 col-sm-1 monster_attr'>
+				<img src='../tos_tool_data/img/monster/icon_${attr_zh_to_en[monster_info.attribute]}.png' width='25px'/>
+			</div>
+			<div class='col-6 col-sm-1 monster_race'>
+				<img src='../tos_tool_data/img/monster/icon_${race_zh_to_en[monster_info.race]}.png' width='25px'/>
+			</div>
+			<div class='skill_tooltip monster_name monster_name_${attr_zh_to_en[monster_info.attribute]} col-10 col-sm-10 mb-1'>${monster_info.name}</div>
+			<hr>
+		</div>
+	`
+}
 
-	sk_str += `<div class='col-6 col-sm-1 monster_attr'><img src='../tos_tool_data/img/monster/icon_${attr_zh_to_en[monster_info.attribute]}.png' width='25px'/></div>`;
-
-	sk_str += `<div class='col-6 col-sm-1 monster_race'><img src='../tos_tool_data/img/monster/icon_${race_zh_to_en[monster_info.race]}.png' width='25px'/></div>`;
-
-	sk_str += `<div class='skill_tooltip monster_name monster_name_${attr_zh_to_en[monster_info.attribute]} col-10 col-sm-10 mb-1'>${monster_info.name}</div>`;
+function renderAllSkillInfo(monster) {
+	let sk_str = ''
 	
-	sk_str += `<hr></div>`
+	if(monster?.num) {
+		sk_str += renderSkillInfo(monster, monster.num);
+	} else {
+		$.each(monster?.nums || [], (num_index, skill_number) => {
+			sk_str += renderSkillInfo(monster, skill_number);
+		})
+	}
 	
-	return sk_str;
+	return sk_str
 }
 
 function renderSkillInfo(monster, skill_number, monsterObj) {
@@ -1013,13 +1032,19 @@ function renderSkillInfo(monster, skill_number, monsterObj) {
         <div class='row'>
             <div class='skill_tooltip skill_description col-sm-12'>${descriptionTranslator(monster.id, skill.description)}</div>
         </div>
-    `;  
-
+    `;
     return sk_str;
 }
 
 function descriptionTranslator(monster_id, description) {
-	return description.replace(/<board\s*(\d*)>(.*?)<\/board>/g, `<span class='fixed_board_label' onmouseover='showFixedBoard(${monster_id}, $1)' ontouchstart='showFixedBoard(${monster_id}, $1)'>$2</span>`).replace(/<anno>(.*?)<\/anno>/g, `<font class='annotation_tag'>$1</font>`).replace(/【階段 (\d*)】/g, `<font class='multiple_effect_tag'>【階段 $1】</font>`).replace(/效果(\d+)：/g, `<font class='multiple_effect_tag'>效果$1：</font>`).replace(/【連攜魔導式】/g, `<span class='desc_note_label' onmouseover='renderDescriptionNote(0)' ontouchstart='renderDescriptionNote(0)'>【連攜魔導式】</span>`)
+	return description
+		.replace(/\n[^\S\n]*/g, '<br>')
+		.replace(/^<br>/, '')
+		.replace(/<board\s*(\d*)>(.*?)<\/board>/g, `<span class='fixed_board_label' onmouseover='showFixedBoard(${monster_id}, $1)' ontouchstart='showFixedBoard(${monster_id}, $1)'>$2</span>`)
+		.replace(/<anno>(.*?)<\/anno>/g, `<font class='annotation_tag'>$1</font>`)
+		.replace(/【階段 (\d*)】/g, `<font class='multiple_effect_tag'>【階段 $1】</font>`)
+		.replace(/效果(\d+)：/g, `<font class='multiple_effect_tag'>效果$1：</font>`)
+		.replace(/【連攜魔導式】/g, `<span class='desc_note_label' onmouseover='renderDescriptionNote(0)' ontouchstart='renderDescriptionNote(0)'>【連攜魔導式】</span>`)
 }
 
 function showFixedBoard(id, subid) {

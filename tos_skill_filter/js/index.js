@@ -628,7 +628,7 @@ function renderEasterEggResult() {
 		sanitize: false,
 		trigger: 'focus',
 		placement: 'bottom',
-    });
+    })
     
 	$("#uid-tag").text(`UID: ${playerData.uid}`)
 }
@@ -887,7 +887,7 @@ function renderMonsterInfo(monster, monsterObj) {
 				<img src='../tos_tool_data/img/monster/icon_${attr_zh_to_en[monster_info.attribute]}.png' width='25px'/>
 			</div>
 			<div class='col-6 col-sm-1 monster_race'>
-				<img src='../tos_tool_data/img/monster/icon_${race_zh_to_en[monster_info.race]}.png' width='25px'/>
+				<img src='${monster.id === 10444 ? `../tos_tool_data/img/other/icon_yao.png` : `../tos_tool_data/img/monster/icon_${race_zh_to_en[monster_info.race]}.png`}' width='25px'/>
 			</div>
 			<div class='skill_tooltip monster_name monster_name_${attr_zh_to_en[monster_info.attribute]} col-10 col-sm-10 mb-1'>${monster_info.name}</div>
 			<hr>

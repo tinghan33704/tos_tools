@@ -200,6 +200,10 @@ function init() {
 	// preload glass break image
 	const glass_break_img = new Image()
     glass_break_img.src = '../tos_tool_data/img/other/glass_break.png'
+	
+	// preload yao icon image
+	const yao_icon_img = new Image()
+    yao_icon_img.src = '../tos_tool_data/img/other/yao_icon.png'
 }
 
 function setNotification() {

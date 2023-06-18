@@ -203,7 +203,7 @@ function init() {
 	
 	// preload yao icon image
 	const yao_icon_img = new Image()
-    yao_icon_img.src = '../tos_tool_data/img/other/yao_icon.png'
+    yao_icon_img.src = '../tos_tool_data/img/other/icon_yao.png'
 }
 
 function setNotification() {

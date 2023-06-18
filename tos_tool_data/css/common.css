@@ -489,6 +489,7 @@ select {
     border-radius: 5px;
     overflow-x: hidden;
     overflow-y: auto;
+	padding-top: 0; 
 }
 .popover .arrow:before, .popover .arrow:after {
     border-top-color: transparent !important;
@@ -503,7 +504,11 @@ select {
     margin: auto;
 }
 .monster-info-header {
-	/*position: fixed;*/
+	background-color: var(--tooltip_color);
+	position: sticky;
+	top: 0;
+	padding-top: 0.5rem;
+	z-index: 99;
 }
 .monster_attr {
     text-align: right;

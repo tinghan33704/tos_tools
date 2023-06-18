@@ -684,44 +684,36 @@ function renderMonsterInfo(monster, monsterObj) {
 		return element.id == monster.id;
 	});
 	
-    let sk_str = '';
-	
-	sk_str += `<div class='row'>`
-
-	sk_str += `<div class='col-6 col-sm-1 monster_attr'><img src='../tos_tool_data/img/monster/icon_${attr_zh_to_en[monster_info.attribute]}.png' width='25px'/></div>`;
-
-	sk_str += `<div class='col-6 col-sm-1 monster_race'><img src='../tos_tool_data/img/monster/icon_${race_zh_to_en[monster_info.race]}.png' width='25px'/></div>`;
-
-	sk_str += `<div class='skill_tooltip monster_name monster_name_${attr_zh_to_en[monster_info.attribute]} col-10 col-sm-10 mb-1'>${monster_info.name}</div>`;
-	
-	sk_str += `<hr></div>`
+    const sk_str = `
+		<div class='row monster-info-header'>
+			<div class='col-6 col-sm-1 monster_attr'>
+				<img src='../tos_tool_data/img/monster/icon_${attr_zh_to_en[monster_info.attribute]}.png' width='25px'/>
+			</div>
+			<div class='col-6 col-sm-1 monster_race'>
+				<img src='../tos_tool_data/img/monster/icon_${race_zh_to_en[monster_info.race]}.png' width='25px'/>
+			</div>
+			<div class='skill_tooltip monster_name monster_name_${attr_zh_to_en[monster_info.attribute]} col-10 col-sm-10 mb-1'>${monster_info.name}</div>
+			<hr>
+		</div>
+	`
 	
 	return sk_str;
 }
 
 function renderSkillInfo(monster) {
-    let sk_str = '';
-    
-    sk_str += `<div class='row'>`;
-    
-	if(monster?.changedSkill) {
-		sk_str += `<div class='skill_tooltip skill_name_combine col-12 col-sm-12 mb-1'><img src='../tos_tool_data/img/monster/combine.png' />&nbsp;${monster.name}</div>`
-    } else {
-		sk_str += `<div class='skill_tooltip skill_name col-12 col-sm-12 mb-1'>${monster.name}</div>`;
-	}
-	
-    sk_str += `</div>`;
-    
-    sk_str += `
+    return `
+		<div class='row'>
+			${
+				monster?.changedSkill ? `<div class='skill_tooltip skill_name_combine col-12 col-sm-12 mb-1'><img src='../tos_tool_data/img/monster/combine.png' />&nbsp;${monster.name}</div>` : `<div class='skill_tooltip skill_name col-12 col-sm-12 mb-1'>${monster.name}</div>`
+			}
+		</div>
         <div class='row'>
             <div class='skill_tooltip col-sm-12'><hr></div>
         </div>
         <div class='row'>
             <div class='skill_tooltip skill_description col-sm-12'>${monster.description}</div>
         </div>
-    `;  
-
-    return sk_str;
+    `
 }
 
 function renderMonsterImage(monster, tooltip_content, monsterObj) {

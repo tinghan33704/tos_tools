@@ -1,16 +1,20 @@
-// Last modified : 2023.06.15 22:21
+// Last modified : 2023.06.21 18:44
 
 const leader_skill_data = [
     {
         'name': '',
-        'description': '',
+        'description': `
+		
+		`,
 		'changedSkill': false,
         'tag': [],
         'monster': []
     },
     {
         'name': '海之力',
-        'description': '水屬性攻擊力 1.5 倍',
+        'description': `
+		水屬性攻擊力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -22,7 +26,9 @@ const leader_skill_data = [
     },
     {
         'name': '海之怒',
-        'description': '水屬性攻擊力 2 倍',
+        'description': `
+		水屬性攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -34,7 +40,9 @@ const leader_skill_data = [
     },
     {
         'name': '炎之力',
-        'description': '火屬性攻擊力 1.5 倍',
+        'description': `
+		火屬性攻擊力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -46,7 +54,9 @@ const leader_skill_data = [
     },
     {
         'name': '炎之怒',
-        'description': '火屬性攻擊力 2 倍',
+        'description': `
+		火屬性攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -58,7 +68,9 @@ const leader_skill_data = [
     },
     {
         'name': '森之力',
-        'description': '木屬性攻擊力 1.5 倍',
+        'description': `
+		木屬性攻擊力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -70,7 +82,9 @@ const leader_skill_data = [
     },
     {
         'name': '森之怒',
-        'description': '木屬性攻擊力 2 倍',
+        'description': `
+		木屬性攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -82,7 +96,9 @@ const leader_skill_data = [
     },
     {
         'name': '聖之力',
-        'description': '光屬性攻擊力 1.5 倍',
+        'description': `
+		光屬性攻擊力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -94,7 +110,9 @@ const leader_skill_data = [
     },
     {
         'name': '聖之怒',
-        'description': '光屬性攻擊力 2 倍',
+        'description': `
+		光屬性攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -106,7 +124,9 @@ const leader_skill_data = [
     },
     {
         'name': '邪之力',
-        'description': '暗屬性攻擊力 1.5 倍',
+        'description': `
+		暗屬性攻擊力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -118,7 +138,9 @@ const leader_skill_data = [
     },
     {
         'name': '邪之怒',
-        'description': '暗屬性攻擊力 2 倍',
+        'description': `
+		暗屬性攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -130,7 +152,9 @@ const leader_skill_data = [
     },
     {
         'name': '龍之怒',
-        'description': '龍類攻擊力 2 倍',
+        'description': `
+		龍類攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -142,7 +166,9 @@ const leader_skill_data = [
     },
     {
         'name': '龍之狂怒',
-        'description': '龍類攻擊力 2.5 倍',
+        'description': `
+		龍類攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -154,7 +180,9 @@ const leader_skill_data = [
     },
     {
         'name': '野獸之復甦',
-        'description': '獸類回復力 2 倍',
+        'description': `
+		獸類回復力 2 倍
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -166,7 +194,9 @@ const leader_skill_data = [
     },
     {
         'name': '野獸之再生',
-        'description': '獸類回復力 2.5 倍',
+        'description': `
+		獸類回復力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -178,7 +208,9 @@ const leader_skill_data = [
     },
     {
         'name': '野獸之血',
-        'description': '獸類生命力 2 倍',
+        'description': `
+		獸類生命力 2 倍
+		`,
         'tag': [
             {
                 'name': '增血',
@@ -190,7 +222,9 @@ const leader_skill_data = [
     },
     {
         'name': '野獸之意志',
-        'description': '獸類生命力 2.5 倍',
+        'description': `
+		獸類生命力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增血',
@@ -202,7 +236,9 @@ const leader_skill_data = [
     },
     {
         'name': '野獸之怒',
-        'description': '獸類攻擊力 2 倍',
+        'description': `
+		獸類攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -214,7 +250,9 @@ const leader_skill_data = [
     },
     {
         'name': '野獸之狂怒',
-        'description': '獸類攻擊力 2.5 倍',
+        'description': `
+		獸類攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -226,7 +264,9 @@ const leader_skill_data = [
     },
     {
         'name': '水之防壁',
-        'description': '水屬性傷害減少 50%',
+        'description': `
+		水屬性傷害減少 50%
+		`,
         'tag': [
             {
                 'name': '減傷',
@@ -238,7 +278,10 @@ const leader_skill_data = [
     },
     {
         'name': '海森護牆',
-        'description': 'I. 水屬性傷害減少 50%<br>II. 木屬性傷害減少 30%',
+        'description': `
+		I. 水屬性傷害減少 50%
+		II. 木屬性傷害減少 30%
+		`,
         'tag': [
             {
                 'name': '減傷',
@@ -250,7 +293,10 @@ const leader_skill_data = [
     },
     {
         'name': '海森闇之壁',
-        'description': 'I. 水屬性傷害減少 50%<br>II. 木和暗屬性傷害減少 30%',
+        'description': `
+		I. 水屬性傷害減少 50%
+		II. 木和暗屬性傷害減少 30%
+		`,
         'tag': [
             {
                 'name': '減傷',
@@ -262,7 +308,9 @@ const leader_skill_data = [
     },
     {
         'name': '火之防壁',
-        'description': '火屬性傷害減少 50%',
+        'description': `
+		火屬性傷害減少 50%
+		`,
         'tag': [
             {
                 'name': '減傷',
@@ -274,7 +322,10 @@ const leader_skill_data = [
     },
     {
         'name': '炎海護牆',
-        'description': 'I. 火屬性傷害減少 50%<br>II. 水屬性傷害減少 30%',
+        'description': `
+		I. 火屬性傷害減少 50%
+		II. 水屬性傷害減少 30%
+		`,
         'tag': [
             {
                 'name': '減傷',
@@ -286,7 +337,10 @@ const leader_skill_data = [
     },
     {
         'name': '炎海聖之壁',
-        'description': 'I. 火屬性傷害減少 50%<br>II. 水和光屬性傷害減少 30%',
+        'description': `
+		I. 火屬性傷害減少 50%
+		II. 水和光屬性傷害減少 30%
+		`,
         'tag': [
             {
                 'name': '減傷',
@@ -298,7 +352,9 @@ const leader_skill_data = [
     },
     {
         'name': '木之防壁',
-        'description': '木屬性傷害減少 50%',
+        'description': `
+		木屬性傷害減少 50%
+		`,
         'tag': [
             {
                 'name': '減傷',
@@ -310,7 +366,10 @@ const leader_skill_data = [
     },
     {
         'name': '森炎護牆',
-        'description': 'I. 木屬性傷害減少 50%<br>II. 火屬性傷害減少 30%',
+        'description': `
+		I. 木屬性傷害減少 50%
+		II. 火屬性傷害減少 30%
+		`,
         'tag': [
             {
                 'name': '減傷',
@@ -322,7 +381,10 @@ const leader_skill_data = [
     },
     {
         'name': '森炎闇之壁',
-        'description': 'I. 木屬性傷害減少 50%<br>II. 火和暗屬性傷害減少 30%',
+        'description': `
+		I. 木屬性傷害減少 50%
+		II. 火和暗屬性傷害減少 30%
+		`,
         'tag': [
             {
                 'name': '減傷',
@@ -334,7 +396,9 @@ const leader_skill_data = [
     },
     {
         'name': '光之防壁',
-        'description': '光屬性傷害減少 50%',
+        'description': `
+		光屬性傷害減少 50%
+		`,
         'tag': [
             {
                 'name': '減傷',
@@ -346,7 +410,10 @@ const leader_skill_data = [
     },
     {
         'name': '聖海護牆',
-        'description': 'I. 光屬性傷害減少 50%<br>II. 水屬性傷害減少 30%',
+        'description': `
+		I. 光屬性傷害減少 50%
+		II. 水屬性傷害減少 30%
+		`,
         'tag': [
             {
                 'name': '減傷',
@@ -358,7 +425,10 @@ const leader_skill_data = [
     },
     {
         'name': '聖海森之壁',
-        'description': 'I. 光屬性傷害減少 50%<br>II. 水和木屬性傷害減少 30%',
+        'description': `
+		I. 光屬性傷害減少 50%
+		II. 水和木屬性傷害減少 30%
+		`,
         'tag': [
             {
                 'name': '減傷',
@@ -370,7 +440,9 @@ const leader_skill_data = [
     },
     {
         'name': '暗之防壁',
-        'description': '暗屬性傷害減少 50%',
+        'description': `
+		暗屬性傷害減少 50%
+		`,
         'tag': [
             {
                 'name': '減傷',
@@ -382,7 +454,10 @@ const leader_skill_data = [
     },
     {
         'name': '闇炎護牆',
-        'description': 'I. 暗屬性傷害減少 50%<br>II. 火屬性傷害減少 30%',
+        'description': `
+		I. 暗屬性傷害減少 50%
+		II. 火屬性傷害減少 30%
+		`,
         'tag': [
             {
                 'name': '減傷',
@@ -394,7 +469,10 @@ const leader_skill_data = [
     },
     {
         'name': '闇炎聖之壁',
-        'description': 'I. 暗屬性傷害減少 50%<br>II. 火和光屬性傷害減少 30%',
+        'description': `
+		I. 暗屬性傷害減少 50%
+		II. 火和光屬性傷害減少 30%
+		`,
         'tag': [
             {
                 'name': '減傷',
@@ -406,7 +484,9 @@ const leader_skill_data = [
     },
     {
         'name': '妖精之力',
-        'description': '妖精類攻擊力 1.5 倍',
+        'description': `
+		妖精類攻擊力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -418,7 +498,10 @@ const leader_skill_data = [
     },
     {
         'name': '水之制裁',
-        'description': '提升水屬性對火屬性目標的攻擊力<br>(包括主動技)',
+        'description': `
+		提升水屬性對火屬性目標的攻擊力
+		(包括主動技)
+		`,
         'tag': [
             {
                 'name': ['增攻', '對火增傷'],
@@ -430,7 +513,10 @@ const leader_skill_data = [
     },
     {
         'name': '火之制裁',
-        'description': '提升火屬性對木屬性目標的攻擊力<br>(包括主動技)',
+        'description': `
+		提升火屬性對木屬性目標的攻擊力
+		(包括主動技)
+		`,
         'tag': [
             {
                 'name': ['增攻', '對木增傷'],
@@ -442,7 +528,10 @@ const leader_skill_data = [
     },
     {
         'name': '木之制裁',
-        'description': '提升木屬性對水屬性目標的攻擊力<br>(包括主動技)',
+        'description': `
+		提升木屬性對水屬性目標的攻擊力
+		(包括主動技)
+		`,
         'tag': [
             {
                 'name': ['增攻', '對水增傷'],
@@ -454,7 +543,10 @@ const leader_skill_data = [
     },
     {
         'name': '光之制裁',
-        'description': '提升光屬性對暗屬性目標的攻擊力<br>(包括主動技)',
+        'description': `
+		提升光屬性對暗屬性目標的攻擊力
+		(包括主動技)
+		`,
         'tag': [
             {
                 'name': ['增攻', '對暗增傷'],
@@ -466,7 +558,10 @@ const leader_skill_data = [
     },
     {
         'name': '暗之制裁',
-        'description': '提升暗屬性對光屬性目標的攻擊力<br>(包括主動技)',
+        'description': `
+		提升暗屬性對光屬性目標的攻擊力
+		(包括主動技)
+		`,
         'tag': [
             {
                 'name': ['增攻', '對光增傷'],
@@ -478,7 +573,9 @@ const leader_skill_data = [
     },
     {
         'name': '龍之力',
-        'description': '龍類攻擊力 1.5 倍',
+        'description': `
+		龍類攻擊力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -490,7 +587,9 @@ const leader_skill_data = [
     },
     {
         'name': '人類之力',
-        'description': '人類攻擊力 1.5 倍',
+        'description': `
+		人類攻擊力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -502,7 +601,9 @@ const leader_skill_data = [
     },
     {
         'name': '進擊支援',
-        'description': '連擊 (Combo) 時攻擊力提升 25%',
+        'description': `
+		連擊 (Combo) 時攻擊力提升 25%
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -514,7 +615,9 @@ const leader_skill_data = [
     },
     {
         'name': '野獸之力',
-        'description': '獸類攻擊力 1.5 倍',
+        'description': `
+		獸類攻擊力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -526,7 +629,9 @@ const leader_skill_data = [
     },
     {
         'name': '攻守一體 ‧ 水',
-        'description': '水符石兼具 50% 心符石效果',
+        'description': `
+		水符石兼具 50% 心符石效果
+		`,
         'tag': [
             {
                 'name': ['水兼具其他', '符石兼具心'],
@@ -538,7 +643,9 @@ const leader_skill_data = [
     },
     {
         'name': '攻守一體 ‧ 火',
-        'description': '火符石兼具 50% 心符石效果',
+        'description': `
+		火符石兼具 50% 心符石效果
+		`,
         'tag': [
             {
                 'name': ['火兼具其他', '符石兼具心'],
@@ -550,7 +657,9 @@ const leader_skill_data = [
     },
     {
         'name': '攻守一體 ‧ 木',
-        'description': '木符石兼具 50% 心符石效果',
+        'description': `
+		木符石兼具 50% 心符石效果
+		`,
         'tag': [
             {
                 'name': ['木兼具其他', '符石兼具心'],
@@ -562,7 +671,9 @@ const leader_skill_data = [
     },
     {
         'name': '治療之心',
-        'description': '每回合回復自身回復力等值的生命力 (需消除符石)',
+        'description': `
+		每回合回復自身回復力等值的生命力 (需消除符石)
+		`,
         'tag': [
             {
                 'name': '回血',
@@ -574,7 +685,9 @@ const leader_skill_data = [
     },
     {
         'name': '痊癒之心',
-        'description': '每回合回復 3 倍自身回復力 (需消除符石)',
+        'description': `
+		每回合回復 3 倍自身回復力 (需消除符石)
+		`,
         'tag': [
             {
                 'name': '回血',
@@ -586,7 +699,10 @@ const leader_skill_data = [
     },
     {
         'name': '靈魂收割 ‧ 起',
-        'description': '當敵方生命力 40% 以下<br>⇒ 無視防禦力和屬性，每回合以自身攻擊力追打 1 次',
+        'description': `
+		當敵方生命力 40% 以下
+		⇒ 無視防禦力和屬性，每回合以自身攻擊力追打 1 次
+		`,
         'tag': [
             {
                 'name': '直傷',
@@ -598,7 +714,10 @@ const leader_skill_data = [
     },
     {
         'name': '靈魂收割 ‧ 狙',
-        'description': '當敵方生命力 40% 以下<br>⇒ 無視防禦力和屬性，每回合以自身攻擊力 3 倍追打  1 次',
+        'description': `
+		當敵方生命力 40% 以下
+		⇒ 無視防禦力和屬性，每回合以自身攻擊力 3 倍追打  1 次
+		`,
         'tag': [
             {
                 'name': '直傷',
@@ -610,7 +729,10 @@ const leader_skill_data = [
     },
     {
         'name': '靈魂收割 ‧ 結',
-        'description': '當敵方生命力 40% 以下<br>⇒ 無視防禦力和屬性，每回合以自身攻擊力 6 倍追打 1 次',
+        'description': `
+		當敵方生命力 40% 以下
+		⇒ 無視防禦力和屬性，每回合以自身攻擊力 6 倍追打 1 次
+		`,
         'tag': [
             {
                 'name': '直傷',
@@ -622,7 +744,11 @@ const leader_skill_data = [
     },
     {
         'name': '不倒意志',
-        'description': '當前生命力大於 70% 時<br>⇒ 下一次所受傷害不會使你死亡<br>(同 1 回合只發動 1 次)',
+        'description': `
+		當前生命力大於 70% 時
+		⇒ 下一次所受傷害不會使你死亡
+		(同 1 回合只發動 1 次)
+		`,
         'tag': [
             {
                 'name': '意志',
@@ -634,7 +760,11 @@ const leader_skill_data = [
     },
     {
         'name': '絕境意志',
-        'description': '當前生命力大於 50% 時<br>⇒ 下一次所受傷害不會使你死亡<br>(同 1 回合只發動 1 次)',
+        'description': `
+		當前生命力大於 50% 時
+		⇒ 下一次所受傷害不會使你死亡
+		(同 1 回合只發動 1 次)
+		`,
         'tag': [
             {
                 'name': '意志',
@@ -646,7 +776,9 @@ const leader_skill_data = [
     },
     {
         'name': '狐仙軍神',
-        'description': '全隊攻擊力及回復力 1.5 倍',
+        'description': `
+		全隊攻擊力及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -658,7 +790,10 @@ const leader_skill_data = [
     },
     {
         'name': '矢無虛發',
-        'description': '當進行單體攻擊時<br>⇒ 全隊攻擊力 2 倍',
+        'description': `
+		當進行單體攻擊時
+		⇒ 全隊攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -670,7 +805,10 @@ const leader_skill_data = [
     },
     {
         'name': '百步穿楊',
-        'description': '當進行單體攻擊時<br>⇒ 全隊攻擊力 2.5 倍',
+        'description': `
+		當進行單體攻擊時
+		⇒ 全隊攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -682,7 +820,9 @@ const leader_skill_data = [
     },
     {
         'name': '人之血脈',
-        'description': '人類生命力 2 倍',
+        'description': `
+		人類生命力 2 倍
+		`,
         'tag': [
             {
                 'name': '增血',
@@ -694,7 +834,9 @@ const leader_skill_data = [
     },
     {
         'name': '人類之意志',
-        'description': '人類生命力 2.5 倍',
+        'description': `
+		人類生命力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增血',
@@ -706,7 +848,10 @@ const leader_skill_data = [
     },
     {
         'name': '亡命攻擊',
-        'description': '當前生命力不足 20% 時<br>⇒ 全隊攻擊力 2.5 倍',
+        'description': `
+		當前生命力不足 20% 時
+		⇒ 全隊攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -718,7 +863,10 @@ const leader_skill_data = [
     },
     {
         'name': '木馬屠城計',
-        'description': '當前生命力不足 20% 時<br>⇒ 全隊攻擊力 3 倍',
+        'description': `
+		當前生命力不足 20% 時
+		⇒ 全隊攻擊力 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -730,7 +878,10 @@ const leader_skill_data = [
     },
     {
         'name': '水之代價',
-        'description': '以所受傷害 2 倍<br>⇒ 對敵方攻擊者進行水屬性反擊',
+        'description': `
+		以所受傷害 2 倍
+		⇒ 對敵方攻擊者進行水屬性反擊
+		`,
         'tag': [
             {
                 'name': '反擊',
@@ -742,7 +893,9 @@ const leader_skill_data = [
     },
     {
         'name': '灼熱境界',
-        'description': '無視敵方屬性，每回合以自身攻擊力追打 1 次 (需消除符石)',
+        'description': `
+		無視敵方屬性，每回合以自身攻擊力追打 1 次 (需消除符石)
+		`,
         'tag': [
             {
                 'name': '直傷',
@@ -754,7 +907,9 @@ const leader_skill_data = [
     },
     {
         'name': '燎原境界',
-        'description': '無視敵方屬性，每回合以自身攻擊力 3 倍追打 1 次 (需消除符石)',
+        'description': `
+		無視敵方屬性，每回合以自身攻擊力 3 倍追打 1 次 (需消除符石)
+		`,
         'tag': [
             {
                 'name': '直傷',
@@ -766,7 +921,10 @@ const leader_skill_data = [
     },
     {
         'name': '兩儀',
-        'description': '所受傷害 30% (不包括敵技傷害)<br>⇒ 轉化為我方生命力',
+        'description': `
+		所受傷害 30% (不包括敵技傷害)
+		⇒ 轉化為我方生命力
+		`,
         'tag': [
             {
                 'name': '敵方傷害吸收',
@@ -778,7 +936,9 @@ const leader_skill_data = [
     },
     {
         'name': '光明代價',
-        'description': '以所受傷害對敵方全體進行光屬性反擊',
+        'description': `
+		以所受傷害對敵方全體進行光屬性反擊
+		`,
         'tag': [
             {
                 'name': '反擊',
@@ -790,7 +950,9 @@ const leader_skill_data = [
     },
     {
         'name': '暗黑代價',
-        'description': '以所受傷害對敵方全體進行暗屬性反擊',
+        'description': `
+		以所受傷害對敵方全體進行暗屬性反擊
+		`,
         'tag': [
             {
                 'name': '反擊',
@@ -802,7 +964,10 @@ const leader_skill_data = [
     },
     {
         'name': '水之驅動',
-        'description': '每累計消除 4 粒水符石 <br>⇒ 將產生 1 粒水強化符石',
+        'description': `
+		每累計消除 4 粒水符石 
+		⇒ 將產生 1 粒水強化符石
+		`,
         'tag': [
             {
                 'name': '強制掉水',
@@ -814,7 +979,10 @@ const leader_skill_data = [
     },
     {
         'name': '水之連動',
-        'description': '每累計消除 3 粒水符石<br>⇒ 將產生 1 粒水強化符石',
+        'description': `
+		每累計消除 3 粒水符石
+		⇒ 將產生 1 粒水強化符石
+		`,
         'tag': [
             {
                 'name': '強制掉水',
@@ -826,7 +994,10 @@ const leader_skill_data = [
     },
     {
         'name': '火之驅動',
-        'description': '每累計消除 4 粒火符石 <br>⇒ 將產生 1 粒火強化符石',
+        'description': `
+		每累計消除 4 粒火符石 
+		⇒ 將產生 1 粒火強化符石
+		`,
         'tag': [
             {
                 'name': '強制掉火',
@@ -838,7 +1009,10 @@ const leader_skill_data = [
     },
     {
         'name': '火之連動',
-        'description': '每累計消除 3 粒火符石<br>⇒ 將產生 1 粒火強化符石',
+        'description': `
+		每累計消除 3 粒火符石
+		⇒ 將產生 1 粒火強化符石
+		`,
         'tag': [
             {
                 'name': '強制掉火',
@@ -850,7 +1024,10 @@ const leader_skill_data = [
     },
     {
         'name': '木之驅動',
-        'description': '每累計消除 4 粒木符石 <br>⇒ 將產生 1 粒木強化符石',
+        'description': `
+		每累計消除 4 粒木符石 
+		⇒ 將產生 1 粒木強化符石
+		`,
         'tag': [
             {
                 'name': '強制掉木',
@@ -862,7 +1039,10 @@ const leader_skill_data = [
     },
     {
         'name': '木之連動',
-        'description': '每累計消除 3 粒木符石<br>⇒ 將產生 1 粒木強化符石',
+        'description': `
+		每累計消除 3 粒木符石
+		⇒ 將產生 1 粒木強化符石
+		`,
         'tag': [
             {
                 'name': '強制掉木',
@@ -874,7 +1054,10 @@ const leader_skill_data = [
     },
     {
         'name': '光之驅動',
-        'description': '每累計消除 4 粒光符石 <br>⇒ 將產生 1 粒光強化符石',
+        'description': `
+		每累計消除 4 粒光符石 
+		⇒ 將產生 1 粒光強化符石
+		`,
         'tag': [
             {
                 'name': '強制掉光',
@@ -886,7 +1069,10 @@ const leader_skill_data = [
     },
     {
         'name': '光之連動',
-        'description': '每累計消除 3 粒光符石<br>⇒ 將產生 1 粒光強化符石',
+        'description': `
+		每累計消除 3 粒光符石
+		⇒ 將產生 1 粒光強化符石
+		`,
         'tag': [
             {
                 'name': '強制掉光',
@@ -898,7 +1084,10 @@ const leader_skill_data = [
     },
     {
         'name': '暗之驅動',
-        'description': '每累計消除 4 粒暗符石 <br>⇒ 將產生 1 粒暗強化符石',
+        'description': `
+		每累計消除 4 粒暗符石 
+		⇒ 將產生 1 粒暗強化符石
+		`,
         'tag': [
             {
                 'name': '強制掉暗',
@@ -910,7 +1099,10 @@ const leader_skill_data = [
     },
     {
         'name': '暗之連動',
-        'description': '每累計消除 3 粒暗符石<br>⇒ 將產生 1 粒暗強化符石',
+        'description': `
+		每累計消除 3 粒暗符石
+		⇒ 將產生 1 粒暗強化符石
+		`,
         'tag': [
             {
                 'name': '強制掉暗',
@@ -922,7 +1114,10 @@ const leader_skill_data = [
     },
     {
         'name': '水之審判',
-        'description': '大幅提升水屬性對火屬性目標的攻擊力<br>(包括主動技)',
+        'description': `
+		大幅提升水屬性對火屬性目標的攻擊力
+		(包括主動技)
+		`,
         'tag': [
             {
                 'name': ['增攻', '對火增傷'],
@@ -934,7 +1129,10 @@ const leader_skill_data = [
     },
     {
         'name': '火之審判',
-        'description': '大幅提升火屬性對木屬性目標的攻擊力<br>(包括主動技)',
+        'description': `
+		大幅提升火屬性對木屬性目標的攻擊力
+		(包括主動技)
+		`,
         'tag': [
             {
                 'name': ['增攻', '對木增傷'],
@@ -946,7 +1144,10 @@ const leader_skill_data = [
     },
     {
         'name': '木之審判',
-        'description': '大幅提升木屬性對水屬性目標的攻擊力<br>(包括主動技)',
+        'description': `
+		大幅提升木屬性對水屬性目標的攻擊力
+		(包括主動技)
+		`,
         'tag': [
             {
                 'name': ['增攻', '對水增傷'],
@@ -958,7 +1159,10 @@ const leader_skill_data = [
     },
     {
         'name': '光之審判',
-        'description': '大幅提升光屬性對暗屬性目標的攻擊力<br>(包括主動技)',
+        'description': `
+		大幅提升光屬性對暗屬性目標的攻擊力
+		(包括主動技)
+		`,
         'tag': [
             {
                 'name': ['增攻', '對暗增傷'],
@@ -970,7 +1174,10 @@ const leader_skill_data = [
     },
     {
         'name': '暗之審判',
-        'description': '大幅提升暗屬性對光屬性目標的攻擊力<br>(包括主動技)',
+        'description': `
+		大幅提升暗屬性對光屬性目標的攻擊力
+		(包括主動技)
+		`,
         'tag': [
             {
                 'name': ['增攻', '對光增傷'],
@@ -982,7 +1189,9 @@ const leader_skill_data = [
     },
     {
         'name': '海龍王之怒',
-        'description': '龍類及神族攻擊力 2 倍',
+        'description': `
+		龍類及神族攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -994,7 +1203,9 @@ const leader_skill_data = [
     },
     {
         'name': '獄炎境界',
-        'description': '無視敵方屬性，每回合以自身攻擊力 5 倍追打 1 次 (需消除符石)',
+        'description': `
+		無視敵方屬性，每回合以自身攻擊力 5 倍追打 1 次 (需消除符石)
+		`,
         'tag': [
             {
                 'name': '直傷',
@@ -1006,7 +1217,9 @@ const leader_skill_data = [
     },
     {
         'name': '牛魔王之怒',
-        'description': '獸類及妖精類攻擊力 2.5 倍',
+        'description': `
+		獸類及妖精類攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1018,7 +1231,10 @@ const leader_skill_data = [
     },
     {
         'name': '金剛不壞',
-        'description': '生命力愈高<br>⇒ 所受傷害愈低，最多減少 60% 傷害',
+        'description': `
+		生命力愈高
+		⇒ 所受傷害愈低，最多減少 60% 傷害
+		`,
         'tag': [
             {
                 'name': '減傷',
@@ -1030,7 +1246,9 @@ const leader_skill_data = [
     },
     {
         'name': '傾國傾城',
-        'description': '連擊 (Combo) 時攻擊力提升 75%',
+        'description': `
+		連擊 (Combo) 時攻擊力提升 75%
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1042,7 +1260,9 @@ const leader_skill_data = [
     },
     {
         'name': '暴擊',
-        'description': '每回合有 25% 機率攻擊力 5 倍',
+        'description': `
+		每回合有 25% 機率攻擊力 5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1054,7 +1274,11 @@ const leader_skill_data = [
     },
     {
         'name': '致命暴擊',
-        'description': 'I. 每回合有 30% 機率攻擊力 6 倍<br>II. 當生命力少於 10%<br>⇒ 機率由 30% 變成 50%',
+        'description': `
+		I. 每回合有 30% 機率攻擊力 6 倍
+		II. 當生命力少於 10%
+		⇒ 機率由 30% 變成 50%
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1066,7 +1290,10 @@ const leader_skill_data = [
     },
     {
         'name': '罪之代價',
-        'description': '以所受傷害 2 倍<br>⇒ 對敵方攻擊者進行相剋屬性反擊',
+        'description': `
+		以所受傷害 2 倍
+		⇒ 對敵方攻擊者進行相剋屬性反擊
+		`,
         'tag': [
             {
                 'name': '反擊',
@@ -1078,7 +1305,9 @@ const leader_skill_data = [
     },
     {
         'name': '妖精之舞',
-        'description': '妖精類攻擊力及回復力 2 倍',
+        'description': `
+		妖精類攻擊力及回復力 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -1090,7 +1319,10 @@ const leader_skill_data = [
     },
     {
         'name': '一念之間',
-        'description': 'I. 減少 50% 移動符石時間<br>II. 全隊攻擊力 2.5 倍',
+        'description': `
+		I. 減少 50% 移動符石時間
+		II. 全隊攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': ['減少轉珠時間', '增攻'],
@@ -1102,7 +1334,10 @@ const leader_skill_data = [
     },
     {
         'name': '歃血之盟',
-        'description': 'I. 龍類攻擊力 3 倍及生命力 2 倍<br>II. 每回合扣除全隊總生命力 10%',
+        'description': `
+		I. 龍類攻擊力 3 倍及生命力 2 倍
+		II. 每回合扣除全隊總生命力 10%
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -1119,7 +1354,9 @@ const leader_skill_data = [
     },
     {
         'name': '光暗一體',
-        'description': '光及暗符石互相兼具效果',
+        'description': `
+		光及暗符石互相兼具效果
+		`,
         'tag': [
             {
                 'name': ['光兼具其他', '暗兼具其他', '符石兼具光', '符石兼具暗'],
@@ -1131,7 +1368,9 @@ const leader_skill_data = [
     },
     {
         'name': '妖精之歌',
-        'description': '妖精類回復力 1.5 倍',
+        'description': `
+		妖精類回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -1143,7 +1382,9 @@ const leader_skill_data = [
     },
     {
         'name': '妖精領域',
-        'description': '妖精類回復力 2 倍',
+        'description': `
+		妖精類回復力 2 倍
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -1155,7 +1396,9 @@ const leader_skill_data = [
     },
     {
         'name': '妖精之怒',
-        'description': '妖精類攻擊力 2 倍',
+        'description': `
+		妖精類攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1167,7 +1410,9 @@ const leader_skill_data = [
     },
     {
         'name': '妖精之心',
-        'description': '妖精類生命力 1.5 倍',
+        'description': `
+		妖精類生命力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增血',
@@ -1179,7 +1424,9 @@ const leader_skill_data = [
     },
     {
         'name': '妖精之血',
-        'description': '妖精類生命力 2 倍',
+        'description': `
+		妖精類生命力 2 倍
+		`,
         'tag': [
             {
                 'name': '增血',
@@ -1191,7 +1438,10 @@ const leader_skill_data = [
     },
     {
         'name': '龍之氣息',
-        'description': 'I. 龍類攻擊力 1.5 倍<br>II. 每個龍類成員增加 120 點回復力',
+        'description': `
+		I. 龍類攻擊力 1.5 倍
+		II. 每個龍類成員增加 120 點回復力
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -1203,7 +1453,10 @@ const leader_skill_data = [
     },
     {
         'name': '真龍之淚',
-        'description': 'I. 龍類攻擊力 2 倍<br>II. 每個龍類成員增加 150 點回復力',
+        'description': `
+		I. 龍類攻擊力 2 倍
+		II. 每個龍類成員增加 150 點回復力
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -1215,7 +1468,9 @@ const leader_skill_data = [
     },
     {
         'name': '大地之主義',
-        'description': '木屬性攻擊力及回復力 1.5 倍',
+        'description': `
+		木屬性攻擊力及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -1227,7 +1482,9 @@ const leader_skill_data = [
     },
     {
         'name': '大地之強權',
-        'description': '木屬性攻擊力 2 倍及回復力 1.5 倍',
+        'description': `
+		木屬性攻擊力 2 倍及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -1239,7 +1496,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔之復甦',
-        'description': '魔族回復力 2 倍',
+        'description': `
+		魔族回復力 2 倍
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -1251,7 +1510,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔之怒',
-        'description': '魔族攻擊力 2 倍',
+        'description': `
+		魔族攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1263,7 +1524,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔之怒火',
-        'description': '魔族攻擊力及生命力 1.5 倍',
+        'description': `
+		魔族攻擊力及生命力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -1275,7 +1538,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔之戰鼓',
-        'description': '魔族攻擊力及回復力 1.5 倍',
+        'description': `
+		魔族攻擊力及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -1287,7 +1552,9 @@ const leader_skill_data = [
     },
     {
         'name': '煉獄之主義',
-        'description': '火屬性攻擊力及回復力 1.5 倍',
+        'description': `
+		火屬性攻擊力及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -1299,7 +1566,9 @@ const leader_skill_data = [
     },
     {
         'name': '煉獄之強權',
-        'description': '火屬性攻擊力 2 倍及回復力 1.5 倍',
+        'description': `
+		火屬性攻擊力 2 倍及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -1311,7 +1580,10 @@ const leader_skill_data = [
     },
     {
         'name': '護甲之賦 ‧ 火',
-        'description': 'I. 全隊攻擊力 1.5 倍<br>II. 火屬性傷害減少 50%',
+        'description': `
+		I. 全隊攻擊力 1.5 倍
+		II. 火屬性傷害減少 50%
+		`,
         'tag': [
             {
                 'name': ['增攻', '減傷'],
@@ -1323,7 +1595,10 @@ const leader_skill_data = [
     },
     {
         'name': '火木堅甲之賦',
-        'description': 'I. 全隊攻擊力 1.5 倍<br>II. 火和木屬性傷害減少 50%',
+        'description': `
+		I. 全隊攻擊力 1.5 倍
+		II. 火和木屬性傷害減少 50%
+		`,
         'tag': [
             {
                 'name': ['增攻', '減傷'],
@@ -1335,7 +1610,10 @@ const leader_skill_data = [
     },
     {
         'name': '愈戰愈強',
-        'description': '生命力愈低時<br>⇒ 全隊攻擊力愈高，最大 2.5 倍',
+        'description': `
+		生命力愈低時
+		⇒ 全隊攻擊力愈高，最大 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1347,7 +1625,10 @@ const leader_skill_data = [
     },
     {
         'name': '愈戰愈強 ‧ 改',
-        'description': '生命力愈低時<br>⇒ 全隊攻擊力愈高，最大 3 倍',
+        'description': `
+		生命力愈低時
+		⇒ 全隊攻擊力愈高，最大 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1359,7 +1640,9 @@ const leader_skill_data = [
     },
     {
         'name': '神之力',
-        'description': '神族攻擊力 1.5 倍',
+        'description': `
+		神族攻擊力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1371,7 +1654,9 @@ const leader_skill_data = [
     },
     {
         'name': '神之怒',
-        'description': '神族攻擊力 2 倍',
+        'description': `
+		神族攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1383,7 +1668,10 @@ const leader_skill_data = [
     },
     {
         'name': '護甲之賦 ‧ 光',
-        'description': 'I. 全隊攻擊力 1.5 倍<br>II. 光屬性傷害減少 50%',
+        'description': `
+		I. 全隊攻擊力 1.5 倍
+		II. 光屬性傷害減少 50%
+		`,
         'tag': [
             {
                 'name': ['增攻', '減傷'],
@@ -1395,7 +1683,10 @@ const leader_skill_data = [
     },
     {
         'name': '光水堅甲之賦',
-        'description': 'I. 全隊攻擊力 1.5 倍<br>II. 光和水屬性傷害減少 50%',
+        'description': `
+		I. 全隊攻擊力 1.5 倍
+		II. 光和水屬性傷害減少 50%
+		`,
         'tag': [
             {
                 'name': ['增攻', '減傷'],
@@ -1407,7 +1698,9 @@ const leader_skill_data = [
     },
     {
         'name': '神聖之主義',
-        'description': '光屬性攻擊力及回復力 1.5 倍',
+        'description': `
+		光屬性攻擊力及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -1419,7 +1712,9 @@ const leader_skill_data = [
     },
     {
         'name': '神聖之強權',
-        'description': '光屬性攻擊力 2 倍及回復力 1.5 倍',
+        'description': `
+		光屬性攻擊力 2 倍及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -1431,7 +1726,9 @@ const leader_skill_data = [
     },
     {
         'name': '聚精會神',
-        'description': '延長移動符石時間 3 秒',
+        'description': `
+		延長移動符石時間 3 秒
+		`,
         'tag': [
             {
                 'name': '延長轉珠時間',
@@ -1443,7 +1740,10 @@ const leader_skill_data = [
     },
     {
         'name': '明鏡止水',
-        'description': 'I. 攻擊力 1.5 倍<br>II. 延長移動符石時間 3 秒',
+        'description': `
+		I. 攻擊力 1.5 倍
+		II. 延長移動符石時間 3 秒
+		`,
         'tag': [
             {
                 'name': ['增攻', '延長轉珠時間'],
@@ -1455,7 +1755,10 @@ const leader_skill_data = [
     },
     {
         'name': '護甲之賦 ‧ 木',
-        'description': 'I. 全隊攻擊力 1.5 倍<br>II. 木屬性傷害減少 50%',
+        'description': `
+		I. 全隊攻擊力 1.5 倍
+		II. 木屬性傷害減少 50%
+		`,
         'tag': [
             {
                 'name': ['增攻', '減傷'],
@@ -1467,7 +1770,10 @@ const leader_skill_data = [
     },
     {
         'name': '木水堅甲之賦',
-        'description': 'I. 全隊攻擊力 1.5 倍<br>II. 木屬性和水屬性傷害減少 50%',
+        'description': `
+		I. 全隊攻擊力 1.5 倍
+		II. 木屬性和水屬性傷害減少 50%
+		`,
         'tag': [
             {
                 'name': ['增攻', '減傷'],
@@ -1479,7 +1785,9 @@ const leader_skill_data = [
     },
     {
         'name': '大海之強權',
-        'description': '水屬性攻擊力 2 倍及回復力 1.5 倍',
+        'description': `
+		水屬性攻擊力 2 倍及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -1491,7 +1799,10 @@ const leader_skill_data = [
     },
     {
         'name': '護甲之賦 ‧ 水',
-        'description': 'I. 全隊攻擊力 1.5 倍<br>II. 水屬性傷害減少 50%',
+        'description': `
+		I. 全隊攻擊力 1.5 倍
+		II. 水屬性傷害減少 50%
+		`,
         'tag': [
             {
                 'name': ['增攻', '減傷'],
@@ -1503,7 +1814,10 @@ const leader_skill_data = [
     },
     {
         'name': '水火堅甲之賦',
-        'description': 'I. 全隊攻擊力 1.5 倍<br>II. 水和火屬性傷害減少 50%',
+        'description': `
+		I. 全隊攻擊力 1.5 倍
+		II. 水和火屬性傷害減少 50%
+		`,
         'tag': [
             {
                 'name': ['增攻', '減傷'],
@@ -1515,7 +1829,9 @@ const leader_skill_data = [
     },
     {
         'name': '暗之精神',
-        'description': '暗屬性生命力 1.5 倍',
+        'description': `
+		暗屬性生命力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增血',
@@ -1527,7 +1843,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔之力',
-        'description': '魔族攻擊力 1.5 倍',
+        'description': `
+		魔族攻擊力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1539,7 +1857,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔之狂怒',
-        'description': '魔族攻擊力 2.5 倍',
+        'description': `
+		魔族攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1551,7 +1871,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔之本性',
-        'description': '魔族攻擊力、生命力及回復力 1.5 倍',
+        'description': `
+		魔族攻擊力、生命力及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -1563,7 +1885,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔之血怒',
-        'description': '魔族攻擊力 2 倍及生命力 1.5 倍',
+        'description': `
+		魔族攻擊力 2 倍及生命力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -1575,7 +1899,10 @@ const leader_skill_data = [
     },
     {
         'name': '攻守同存 ‧ 光',
-        'description': 'I. 光屬性攻擊力 1.5 倍<br>II. 心符石兼具 50% 光符石效果',
+        'description': `
+		I. 光屬性攻擊力 1.5 倍
+		II. 心符石兼具 50% 光符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1592,7 +1919,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔之軍勢',
-        'description': '魔族攻擊力 2 倍及回復力 1.5 倍',
+        'description': `
+		魔族攻擊力 2 倍及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -1604,7 +1933,9 @@ const leader_skill_data = [
     },
     {
         'name': '靈石附體',
-        'description': '心符石兼具所有屬性符石效果',
+        'description': `
+		心符石兼具所有屬性符石效果
+		`,
         'tag': [
             {
                 'name': ['心兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗'],
@@ -1616,7 +1947,9 @@ const leader_skill_data = [
     },
     {
         'name': '暗黑之主義',
-        'description': '暗屬性攻擊力及回復力 1.5 倍',
+        'description': `
+		暗屬性攻擊力及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -1628,7 +1961,13 @@ const leader_skill_data = [
     },
     {
         'name': '噬血龍族',
-        'description': 'I. 龍類攻擊力 1.5 倍<br>II 將龍類對敵方造成傷害的 5% <br>⇒ 轉化為生命力<br>⇒ 最大為生命力等值的 50%<br>(傷害轉化效果不能疊加，並不計算主動及隊長技傷害)',
+        'description': `
+		I. 龍類攻擊力 1.5 倍
+		II 將龍類對敵方造成傷害的 5% 
+		⇒ 轉化為生命力
+		⇒ 最大為生命力等值的 50%
+		(傷害轉化效果不能疊加，並不計算主動及隊長技傷害)
+		`,
         'tag': [
             {
                 'name': ['增攻', '我方傷害吸收'],
@@ -1640,7 +1979,12 @@ const leader_skill_data = [
     },
     {
         'name': '噬血龍王',
-        'description': 'I. 龍類攻擊力 2 倍<br>II. 將龍類對敵方造成傷害的 5% <br>⇒ 轉化為生命力 (不計算主動及隊長技傷害)<br>⇒ 最大為生命力等值的 50% (不能疊加)',
+        'description': `
+		I. 龍類攻擊力 2 倍
+		II. 將龍類對敵方造成傷害的 5% 
+		⇒ 轉化為生命力 (不計算主動及隊長技傷害)
+		⇒ 最大為生命力等值的 50% (不能疊加)
+		`,
         'tag': [
             {
                 'name': ['增攻', '我方傷害吸收'],
@@ -1652,7 +1996,11 @@ const leader_skill_data = [
     },
     {
         'name': '幻龍利牙',
-        'description': 'I. 龍類攻擊力 1.5 倍<br>II. 消除 1 組 ≥6 粒屬性符石<br>⇒ 則龍類攻擊力 3 倍',
+        'description': `
+		I. 龍類攻擊力 1.5 倍
+		II. 消除 1 組 ≥6 粒屬性符石
+		⇒ 則龍類攻擊力 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1669,7 +2017,10 @@ const leader_skill_data = [
     },
     {
         'name': '幻龍利爪',
-        'description': '消除 1 組 ≥6 粒相同符石<br>⇒ 龍類攻擊力 3 倍',
+        'description': `
+		消除 1 組 ≥6 粒相同符石
+		⇒ 龍類攻擊力 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1681,7 +2032,9 @@ const leader_skill_data = [
     },
     {
         'name': '木之防護',
-        'description': '木屬性傷害減少 30%',
+        'description': `
+		木屬性傷害減少 30%
+		`,
         'tag': [
             {
                 'name': '減傷',
@@ -1693,7 +2046,9 @@ const leader_skill_data = [
     },
     {
         'name': '火之防護',
-        'description': '火屬性傷害減少 30%',
+        'description': `
+		火屬性傷害減少 30%
+		`,
         'tag': [
             {
                 'name': '減傷',
@@ -1705,7 +2060,9 @@ const leader_skill_data = [
     },
     {
         'name': '水之防護',
-        'description': '水屬性傷害減少 30%',
+        'description': `
+		水屬性傷害減少 30%
+		`,
         'tag': [
             {
                 'name': '減傷',
@@ -1717,7 +2074,9 @@ const leader_skill_data = [
     },
     {
         'name': '妖精之狂怒',
-        'description': '妖精類攻擊力 2.5 倍',
+        'description': `
+		妖精類攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1729,7 +2088,9 @@ const leader_skill_data = [
     },
     {
         'name': '水之震怒',
-        'description': '水屬性攻擊力 3 倍',
+        'description': `
+		水屬性攻擊力 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1741,7 +2102,9 @@ const leader_skill_data = [
     },
     {
         'name': '浪濤萬鈞之怒',
-        'description': '水屬性攻擊力 4 倍',
+        'description': `
+		水屬性攻擊力 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1753,7 +2116,9 @@ const leader_skill_data = [
     },
     {
         'name': '火之震怒',
-        'description': '火屬性攻擊力 3 倍',
+        'description': `
+		火屬性攻擊力 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1765,7 +2130,9 @@ const leader_skill_data = [
     },
     {
         'name': '熾燄萬鈞之怒',
-        'description': '火屬性攻擊力 4 倍',
+        'description': `
+		火屬性攻擊力 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1777,7 +2144,9 @@ const leader_skill_data = [
     },
     {
         'name': '木之震怒',
-        'description': '木屬性攻擊力 3 倍',
+        'description': `
+		木屬性攻擊力 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1789,7 +2158,9 @@ const leader_skill_data = [
     },
     {
         'name': '藤木萬鈞之怒',
-        'description': '木屬性攻擊力 4 倍',
+        'description': `
+		木屬性攻擊力 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1801,7 +2172,9 @@ const leader_skill_data = [
     },
     {
         'name': '猛獸之強權',
-        'description': '獸類攻擊力 2.5 倍及回復力 1.5 倍',
+        'description': `
+		獸類攻擊力 2.5 倍及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -1813,7 +2186,11 @@ const leader_skill_data = [
     },
     {
         'name': '神魔法則',
-        'description': '隊伍中只有神族及魔族成員時：<br>I. 神族攻擊力 3 倍及魔族攻擊力 2.5 倍<br>II. 火符石及木符石兼具 50% 水符石效果 (效果不能疊加)',
+        'description': `
+		隊伍中只有神族及魔族成員時：
+		I. 神族攻擊力 3 倍及魔族攻擊力 2.5 倍
+		II. 火符石及木符石兼具 50% 水符石效果 (效果不能疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1830,7 +2207,11 @@ const leader_skill_data = [
     },
     {
         'name': '神魔盟約 ‧ 水',
-        'description': '隊伍中只有神族及魔族成員時：<br>I. 神族攻擊力 3 倍及魔族攻擊力 2.5 倍<br>II. 火符石及木符石兼具水符石效果 (效果不能疊加)',
+        'description': `
+		隊伍中只有神族及魔族成員時：
+		I. 神族攻擊力 3 倍及魔族攻擊力 2.5 倍
+		II. 火符石及木符石兼具水符石效果 (效果不能疊加)
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -1848,7 +2229,11 @@ const leader_skill_data = [
     },
     {
         'name': '神魔盟約 ‧ 火',
-        'description': '隊伍中只有神族及魔族成員時：<br>I. 神族攻擊力 3 倍及魔族攻擊力 2.5 倍<br>II. 水符石及木符石兼具火符石效果 (效果不能疊加)',
+        'description': `
+		隊伍中只有神族及魔族成員時：
+		I. 神族攻擊力 3 倍及魔族攻擊力 2.5 倍
+		II. 水符石及木符石兼具火符石效果 (效果不能疊加)
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -1866,7 +2251,11 @@ const leader_skill_data = [
     },
     {
         'name': '神魔盟約 ‧ 木',
-        'description': '隊伍中只有神族及魔族成員時：<br>I. 神族攻擊力 3 倍及魔族攻擊力 2.5 倍<br>II. 水符石及火符石兼具木符石效果 (效果不能疊加)',
+        'description': `
+		隊伍中只有神族及魔族成員時：
+		I. 神族攻擊力 3 倍及魔族攻擊力 2.5 倍
+		II. 水符石及火符石兼具木符石效果 (效果不能疊加)
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -1884,7 +2273,12 @@ const leader_skill_data = [
     },
     {
         'name': '戾氣盈溢 ‧ 水',
-        'description': 'I. 每消除水符石，水屬性攻擊力持續提升<br>II. 連續 2 回合沒有消除水符石，攻擊力減少<br>III. 當攻擊力達至最高 3 倍時<br>⇒ 需每回合消除水符石，否則攻擊力減少',
+        'description': `
+		I. 每消除水符石，水屬性攻擊力持續提升
+		II. 連續 2 回合沒有消除水符石，攻擊力減少
+		III. 當攻擊力達至最高 3 倍時
+		⇒ 需每回合消除水符石，否則攻擊力減少
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1896,7 +2290,12 @@ const leader_skill_data = [
     },
     {
         'name': '戾氣盈溢 ‧ 火',
-        'description': 'I. 每消除火符石，火屬性攻擊力持續提升<br>II. 連續 2 回合沒有消除火符石，攻擊力減少<br>III. 當攻擊力達至最高 3 倍時<br>⇒ 需每回合消除火符石，否則攻擊力減少',
+        'description': `
+		I. 每消除火符石，火屬性攻擊力持續提升
+		II. 連續 2 回合沒有消除火符石，攻擊力減少
+		III. 當攻擊力達至最高 3 倍時
+		⇒ 需每回合消除火符石，否則攻擊力減少
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1908,7 +2307,12 @@ const leader_skill_data = [
     },
     {
         'name': '戾氣盈溢 ‧ 木',
-        'description': 'I. 每消除木符石，木屬性攻擊力持續提升<br>II. 連續 2 回合沒有消除木符石，攻擊力減少<br>III. 當攻擊力達至最高 3 倍時<br>⇒ 需每回合消除木符石，否則攻擊力減少',
+        'description': `
+		I. 每消除木符石，木屬性攻擊力持續提升
+		II. 連續 2 回合沒有消除木符石，攻擊力減少
+		III. 當攻擊力達至最高 3 倍時
+		⇒ 需每回合消除木符石，否則攻擊力減少
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1920,7 +2324,9 @@ const leader_skill_data = [
     },
     {
         'name': '破釜沉舟',
-        'description': '10 回合內，全隊攻擊力 3 倍 (只計算消除符石的回合)',
+        'description': `
+		10 回合內，全隊攻擊力 3 倍 (只計算消除符石的回合)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1932,7 +2338,9 @@ const leader_skill_data = [
     },
     {
         'name': '靈思之力',
-        'description': '人類及妖精類攻擊力 2.5 倍',
+        'description': `
+		人類及妖精類攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1944,7 +2352,9 @@ const leader_skill_data = [
     },
     {
         'name': '人類之狂怒',
-        'description': '人類攻擊力 2.5 倍',
+        'description': `
+		人類攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1956,7 +2366,9 @@ const leader_skill_data = [
     },
     {
         'name': '超絕回復',
-        'description': '每回合回復自身 7 倍回復力的生命力 (需消除符石)',
+        'description': `
+		每回合回復自身 7 倍回復力的生命力 (需消除符石)
+		`,
         'tag': [
             {
                 'name': '回血',
@@ -1968,7 +2380,9 @@ const leader_skill_data = [
     },
     {
         'name': '靈獸之力',
-        'description': '獸類及妖精類攻擊力 2 倍',
+        'description': `
+		獸類及妖精類攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -1980,7 +2394,10 @@ const leader_skill_data = [
     },
     {
         'name': '心之連動',
-        'description': '每累計消除 3 粒心符石<br>⇒ 將產生 1 粒心強化符石',
+        'description': `
+		每累計消除 3 粒心符石
+		⇒ 將產生 1 粒心強化符石
+		`,
         'tag': [
             {
                 'name': '強制掉心',
@@ -1992,7 +2409,9 @@ const leader_skill_data = [
     },
     {
         'name': '光之震怒',
-        'description': '光屬性攻擊力 3 倍',
+        'description': `
+		光屬性攻擊力 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2004,7 +2423,9 @@ const leader_skill_data = [
     },
     {
         'name': '玄光萬鈞之怒',
-        'description': '光屬性攻擊力 4 倍',
+        'description': `
+		光屬性攻擊力 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2016,7 +2437,9 @@ const leader_skill_data = [
     },
     {
         'name': '暗之震怒',
-        'description': '暗屬性攻擊力 3 倍',
+        'description': `
+		暗屬性攻擊力 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2028,7 +2451,9 @@ const leader_skill_data = [
     },
     {
         'name': '幽冥萬鈞之怒',
-        'description': '暗屬性攻擊力 4 倍',
+        'description': `
+		暗屬性攻擊力 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2040,7 +2465,10 @@ const leader_skill_data = [
     },
     {
         'name': '符靈聚擊 ‧ 光',
-        'description': '消除 ≥4 粒光符石時<br>⇒ 光屬性攻擊力 2.5 倍',
+        'description': `
+		消除 ≥4 粒光符石時
+		⇒ 光屬性攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2052,7 +2480,9 @@ const leader_skill_data = [
     },
     {
         'name': '水之狂怒',
-        'description': '水屬性攻擊力 2.5 倍',
+        'description': `
+		水屬性攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2064,7 +2494,9 @@ const leader_skill_data = [
     },
     {
         'name': '水之震怒',
-        'description': '水屬性攻擊力 3 倍',
+        'description': `
+		水屬性攻擊力 3 倍
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -2077,7 +2509,9 @@ const leader_skill_data = [
     },
     {
         'name': '火之狂怒',
-        'description': '火屬性攻擊力 2.5 倍',
+        'description': `
+		火屬性攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2089,7 +2523,9 @@ const leader_skill_data = [
     },
     {
         'name': '火之震怒',
-        'description': '火屬性攻擊力 3 倍',
+        'description': `
+		火屬性攻擊力 3 倍
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -2102,7 +2538,9 @@ const leader_skill_data = [
     },
     {
         'name': '木之狂怒',
-        'description': '木屬性攻擊力 2.5 倍',
+        'description': `
+		木屬性攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2114,7 +2552,9 @@ const leader_skill_data = [
     },
     {
         'name': '木之震怒',
-        'description': '木屬性攻擊力 3 倍',
+        'description': `
+		木屬性攻擊力 3 倍
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -2127,7 +2567,9 @@ const leader_skill_data = [
     },
     {
         'name': '光之狂怒',
-        'description': '光屬性攻擊力 2.5 倍',
+        'description': `
+		光屬性攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2139,7 +2581,9 @@ const leader_skill_data = [
     },
     {
         'name': '光之震怒',
-        'description': '光屬性攻擊力 3 倍',
+        'description': `
+		光屬性攻擊力 3 倍
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -2152,7 +2596,9 @@ const leader_skill_data = [
     },
     {
         'name': '暗之狂怒',
-        'description': '暗屬性攻擊力 2.5 倍',
+        'description': `
+		暗屬性攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2164,7 +2610,9 @@ const leader_skill_data = [
     },
     {
         'name': '暗之震怒',
-        'description': '暗屬性攻擊力 3 倍',
+        'description': `
+		暗屬性攻擊力 3 倍
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -2177,7 +2625,10 @@ const leader_skill_data = [
     },
     {
         'name': '真龍嘯天',
-        'description': 'I. 龍類攻擊力 2.5 倍<br>II. 每個龍類成員增加 200 點攻擊力',
+        'description': `
+		I. 龍類攻擊力 2.5 倍
+		II. 每個龍類成員增加 200 點攻擊力
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2189,7 +2640,9 @@ const leader_skill_data = [
     },
     {
         'name': '野獸之醒覺',
-        'description': '獸類回復力 3 倍',
+        'description': `
+		獸類回復力 3 倍
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -2201,7 +2654,9 @@ const leader_skill_data = [
     },
     {
         'name': '野獸之血晶',
-        'description': '獸類生命力 3 倍',
+        'description': `
+		獸類生命力 3 倍
+		`,
         'tag': [
             {
                 'name': '增血',
@@ -2213,7 +2668,9 @@ const leader_skill_data = [
     },
     {
         'name': '野獸之嗔怒',
-        'description': '獸類攻擊力 3 倍',
+        'description': `
+		獸類攻擊力 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2225,7 +2682,14 @@ const leader_skill_data = [
     },
     {
         'name': '銳兵列陣',
-        'description': '隊伍中需有水和光屬性的成員：<br>I. 消除 ≥3 種屬性符石<br>⇒ 水和光屬性攻擊力 2.5 倍<br>II. 消除心符石時<br>⇒ 水及光屬性的攻擊力有 50% 機率額外 1.5 倍<br>(機率可以疊加)',
+        'description': `
+		隊伍中需有水和光屬性的成員：
+		I. 消除 ≥3 種屬性符石
+		⇒ 水和光屬性攻擊力 2.5 倍
+		II. 消除心符石時
+		⇒ 水及光屬性的攻擊力有 50% 機率額外 1.5 倍
+		(機率可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2242,7 +2706,10 @@ const leader_skill_data = [
     },
     {
         'name': '符能點燃 ‧ 火之約',
-        'description': 'I. 2 粒火符石相連，即可發動消除<br>II. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)',
+        'description': `
+		I. 2 粒火符石相連，即可發動消除
+		II. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)
+		`,
         'tag': [
             {
                 'name': '改變消除方式',
@@ -2254,7 +2721,10 @@ const leader_skill_data = [
     },
     {
         'name': '符能點燃 ‧ 火靈之約',
-        'description': 'I. 2 粒火符石或心符石相連，即可發動消除<br>II. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)',
+        'description': `
+		I. 2 粒火符石或心符石相連，即可發動消除
+		II. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)
+		`,
         'tag': [
             {
                 'name': '改變消除方式',
@@ -2266,7 +2736,10 @@ const leader_skill_data = [
     },
     {
         'name': '符能點燃 ‧ 木之約',
-        'description': 'I. 2 粒木符石相連，即可發動消除<br>II. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)',
+        'description': `
+		I. 2 粒木符石相連，即可發動消除
+		II. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)
+		`,
         'tag': [
             {
                 'name': '改變消除方式',
@@ -2278,7 +2751,10 @@ const leader_skill_data = [
     },
     {
         'name': '符能點燃 ‧ 木靈之約',
-        'description': 'I. 2 粒木符石或心符石相連，即可發動消除<br>II. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)',
+        'description': `
+		I. 2 粒木符石或心符石相連，即可發動消除
+		II. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)
+		`,
         'tag': [
             {
                 'name': '改變消除方式',
@@ -2290,7 +2766,10 @@ const leader_skill_data = [
     },
     {
         'name': '凝神之力',
-        'description': '當進行全體攻擊時<br>⇒ 全隊攻擊力 3 倍',
+        'description': `
+		當進行全體攻擊時
+		⇒ 全隊攻擊力 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2302,7 +2781,12 @@ const leader_skill_data = [
     },
     {
         'name': '守護之念',
-        'description': 'I. 全隊攻擊力 3 倍<br>II. 消除心符石時<br>⇒ 該回合木屬性傷害減少 30% <br>⇒ 回復 2000 點生命力',
+        'description': `
+		I. 全隊攻擊力 3 倍
+		II. 消除心符石時
+		⇒ 該回合木屬性傷害減少 30% 
+		⇒ 回復 2000 點生命力
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2319,7 +2803,9 @@ const leader_skill_data = [
     },
     {
         'name': '魅幻神力',
-        'description': '全隊攻擊力 2 倍',
+        'description': `
+		全隊攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2331,7 +2817,11 @@ const leader_skill_data = [
     },
     {
         'name': '絕命暴擊',
-        'description': 'I. 每回合有 30% 機率全隊攻擊力 7 倍<br>II. 當生命力不足 10% 時<br>⇒ 機率由 30% 變成 50%',
+        'description': `
+		I. 每回合有 30% 機率全隊攻擊力 7 倍
+		II. 當生命力不足 10% 時
+		⇒ 機率由 30% 變成 50%
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2343,7 +2833,14 @@ const leader_skill_data = [
     },
     {
         'name': '龍攻代守',
-        'description': 'I. 龍類攻擊力 2 倍<br>II. 每個龍類成員自身回復力<br>⇒ 各自加入自身攻擊力<br>III. 消除心符石<br>⇒ 回復固定百分比的已損失生命力<br>(每粒心符石回復百分比相等於隊伍龍類數量的兩倍)',
+        'description': `
+		I. 龍類攻擊力 2 倍
+		II. 每個龍類成員自身回復力
+		⇒ 各自加入自身攻擊力
+		III. 消除心符石
+		⇒ 回復固定百分比的已損失生命力
+		(每粒心符石回復百分比相等於隊伍龍類數量的兩倍)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2360,7 +2857,10 @@ const leader_skill_data = [
     },
     {
         'name': '真龍之脈',
-        'description': 'I. 龍類攻擊力 2.5 倍<br>II. 每個龍類成員增加 200 點回復力',
+        'description': `
+		I. 龍類攻擊力 2.5 倍
+		II. 每個龍類成員增加 200 點回復力
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -2372,7 +2872,13 @@ const leader_skill_data = [
     },
     {
         'name': '龍之持守',
-        'description': 'I. 龍類攻擊力 2 倍<br>II. 每個龍類成員增加 200 點回復力<br>III. 消除心符石時<br>⇒ 等同消除暗符石<br>⇒ 達 50% 暗符石效果',
+        'description': `
+		I. 龍類攻擊力 2 倍
+		II. 每個龍類成員增加 200 點回復力
+		III. 消除心符石時
+		⇒ 等同消除暗符石
+		⇒ 達 50% 暗符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -2389,7 +2895,9 @@ const leader_skill_data = [
     },
     {
         'name': '元素防護',
-        'description': '所有屬性傷害減少 30%',
+        'description': `
+		所有屬性傷害減少 30%
+		`,
         'tag': [
             {
                 'name': '減傷',
@@ -2401,7 +2909,10 @@ const leader_skill_data = [
     },
     {
         'name': '元素凝匯',
-        'description': '隊伍成員的屬性愈多<br>⇒ 全隊攻擊力愈高，最大 3.5 倍',
+        'description': `
+		隊伍成員的屬性愈多
+		⇒ 全隊攻擊力愈高，最大 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2413,7 +2924,10 @@ const leader_skill_data = [
     },
     {
         'name': '捨守為攻',
-        'description': 'I. 全隊攻擊力 2.5 倍<br>II. 隊伍受到的傷害 1.5 倍',
+        'description': `
+		I. 全隊攻擊力 2.5 倍
+		II. 隊伍受到的傷害 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '我方受傷增加'],
@@ -2425,7 +2939,9 @@ const leader_skill_data = [
     },
     {
         'name': '眾神之狂怒',
-        'description': '神族攻擊力 2.5 倍',
+        'description': `
+		神族攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2437,7 +2953,9 @@ const leader_skill_data = [
     },
     {
         'name': '眾神之嗔怒',
-        'description': '神族攻擊力 3 倍',
+        'description': `
+		神族攻擊力 3 倍
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -2450,7 +2968,10 @@ const leader_skill_data = [
     },
     {
         'name': '真龍王震怒',
-        'description': 'I. 龍類攻擊力 3 倍<br>II. 神族攻擊力 2.5 倍',
+        'description': `
+		I. 龍類攻擊力 3 倍
+		II. 神族攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2462,7 +2983,10 @@ const leader_skill_data = [
     },
     {
         'name': '真火煉獄',
-        'description': '每回合以自身攻擊力 15 倍<br>⇒ 追打無屬性傷害 1 次 (需消除符石)',
+        'description': `
+		每回合以自身攻擊力 15 倍
+		⇒ 追打無屬性傷害 1 次 (需消除符石)
+		`,
         'tag': [
             {
                 'name': '直傷',
@@ -2474,7 +2998,9 @@ const leader_skill_data = [
     },
     {
         'name': '霸王震怒',
-        'description': '獸類及妖精類攻擊力 3 倍',
+        'description': `
+		獸類及妖精類攻擊力 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2486,7 +3012,14 @@ const leader_skill_data = [
     },
     {
         'name': '護甲金身',
-        'description': 'I. 生命力愈高<br>⇒ 所受傷害愈低<br>⇒ 最多減少 60 % 傷害<br>II. 生命力愈低<br>⇒ 迴避敵人攻擊的機率愈高<br>⇒ 最大 50%',
+        'description': `
+		I. 生命力愈高
+		⇒ 所受傷害愈低
+		⇒ 最多減少 60 % 傷害
+		II. 生命力愈低
+		⇒ 迴避敵人攻擊的機率愈高
+		⇒ 最大 50%
+		`,
         'tag': [
             {
                 'name': ['減傷', '迴避'],
@@ -2498,7 +3031,9 @@ const leader_skill_data = [
     },
     {
         'name': '傾世絕色',
-        'description': '連擊 (Combo) 時攻擊力提升 125%',
+        'description': `
+		連擊 (Combo) 時攻擊力提升 125%
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2510,7 +3045,11 @@ const leader_skill_data = [
     },
     {
         'name': '龍魂輔主',
-        'description': '隊伍中只有人類及 ≥2 個龍類成員時：<br>I. 人類攻擊力 3.5 倍<br>II. 龍類攻擊力 2 倍',
+        'description': `
+		隊伍中只有人類及 ≥2 個龍類成員時：
+		I. 人類攻擊力 3.5 倍
+		II. 龍類攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2522,7 +3061,11 @@ const leader_skill_data = [
     },
     {
         'name': '龍魂佐主',
-        'description': '當隊伍中只有人類及 ≥1 個龍類成員時：<br>I. 人類攻擊力 4.5 倍<br>II. 龍類攻擊力 3.5 倍',
+        'description': `
+		當隊伍中只有人類及 ≥1 個龍類成員時：
+		I. 人類攻擊力 4.5 倍
+		II. 龍類攻擊力 3.5 倍
+		`,
         'changedSkill': true,
 		'tag': [
             {
@@ -2535,7 +3078,11 @@ const leader_skill_data = [
     },
     {
         'name': '幻獸輔主',
-        'description': '隊伍中只有人類及 ≥2 個獸類或妖精類成員時：<br>I. 人類攻擊力 3.5 倍<br>II. 獸類及妖精類攻擊力 2.5 倍',
+        'description': `
+		隊伍中只有人類及 ≥2 個獸類或妖精類成員時：
+		I. 人類攻擊力 3.5 倍
+		II. 獸類及妖精類攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2547,7 +3094,11 @@ const leader_skill_data = [
     },
     {
         'name': '幻獸佐主',
-        'description': '當隊伍中只有人類及 ≥1 個獸類或妖精類成員時：<br>I. 人類攻擊力 4.5 倍<br>II. 獸類及妖精類攻擊力 3.5 倍',
+        'description': `
+		當隊伍中只有人類及 ≥1 個獸類或妖精類成員時：
+		I. 人類攻擊力 4.5 倍
+		II. 獸類及妖精類攻擊力 3.5 倍
+		`,
         'changedSkill': true,
         'tag': [
             {
@@ -2560,7 +3111,11 @@ const leader_skill_data = [
     },
     {
         'name': '妖魔輔主',
-        'description': '隊伍中只有人類及 ≥2 個魔族或妖精類成員時：<br>I. 人類攻擊力 3.5 倍<br>II. 魔族及妖精類攻擊力 2.5 倍',
+        'description': `
+		隊伍中只有人類及 ≥2 個魔族或妖精類成員時：
+		I. 人類攻擊力 3.5 倍
+		II. 魔族及妖精類攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2572,7 +3127,11 @@ const leader_skill_data = [
     },
     {
         'name': '妖魔佐主',
-        'description': '當隊伍中只有人類及 ≥1 個魔族或妖精類成員時：<br>I. 人類攻擊力 4.5 倍<br>II. 魔族及妖精類攻擊力 3.5 倍',
+        'description': `
+		當隊伍中只有人類及 ≥1 個魔族或妖精類成員時：
+		I. 人類攻擊力 4.5 倍
+		II. 魔族及妖精類攻擊力 3.5 倍
+		`,
         'changedSkill': true,
         'tag': [
             {
@@ -2585,7 +3144,11 @@ const leader_skill_data = [
     },
     {
         'name': '神靈輔主',
-        'description': '隊伍中只有人類及 ≥2 個神族成員時：<br>I. 人類攻擊力 3.5 倍<br>II. 神族攻擊力 2 倍',
+        'description': `
+		隊伍中只有人類及 ≥2 個神族成員時：
+		I. 人類攻擊力 3.5 倍
+		II. 神族攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2597,7 +3160,11 @@ const leader_skill_data = [
     },
     {
         'name': '神靈佐主',
-        'description': '當隊伍中只有人類及 ≥1 個神族成員時：<br>I. 人類攻擊力 4.5 倍<br>II. 神族攻擊力 3.5 倍',
+        'description': `
+		當隊伍中只有人類及 ≥1 個神族成員時：
+		I. 人類攻擊力 4.5 倍
+		II. 神族攻擊力 3.5 倍
+		`,
         'changedSkill': true,
         'tag': [
             {
@@ -2610,7 +3177,9 @@ const leader_skill_data = [
     },
     {
         'name': '人類之歌',
-        'description': '人類回復力 1.5 倍',
+        'description': `
+		人類回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -2622,7 +3191,10 @@ const leader_skill_data = [
     },
     {
         'name': '攻守同源 ‧ 水波',
-        'description': 'I. 水屬性攻擊力 2 倍<br>II. 心符石兼具 50% 水符石效果 (效果不能疊加)',
+        'description': `
+		I. 水屬性攻擊力 2 倍
+		II. 心符石兼具 50% 水符石效果 (效果不能疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2639,7 +3211,10 @@ const leader_skill_data = [
     },
     {
         'name': '攻守同源 ‧ 火燄',
-        'description': 'I. 火屬性攻擊力 2 倍<br>II. 心符石兼具 50% 火符石效果 (效果不能疊加)',
+        'description': `
+		I. 火屬性攻擊力 2 倍
+		II. 心符石兼具 50% 火符石效果 (效果不能疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2656,7 +3231,10 @@ const leader_skill_data = [
     },
     {
         'name': '攻守同源 ‧ 藤木',
-        'description': 'I. 木屬性攻擊力 2 倍<br>II. 心符石兼具 50% 木符石效果 (效果不能疊加)',
+        'description': `
+		I. 木屬性攻擊力 2 倍
+		II. 心符石兼具 50% 木符石效果 (效果不能疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2673,7 +3251,10 @@ const leader_skill_data = [
     },
     {
         'name': '攻守同源 ‧ 光明',
-        'description': 'I. 光屬性攻擊力 2 倍<br>II. 心符石兼具 50% 光符石效果 (效果不能疊加)',
+        'description': `
+		I. 光屬性攻擊力 2 倍
+		II. 心符石兼具 50% 光符石效果 (效果不能疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2690,7 +3271,10 @@ const leader_skill_data = [
     },
     {
         'name': '攻守同源 ‧ 幽暗',
-        'description': 'I. 暗屬性攻擊力 2 倍<br>II. 心符石兼具 50% 暗符石效果 (效果不能疊加)',
+        'description': `
+		I. 暗屬性攻擊力 2 倍
+		II. 心符石兼具 50% 暗符石效果 (效果不能疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2707,7 +3291,9 @@ const leader_skill_data = [
     },
     {
         'name': '人類之怒',
-        'description': '人類攻擊力 2 倍',
+        'description': `
+		人類攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2719,7 +3305,10 @@ const leader_skill_data = [
     },
     {
         'name': '全神貫注',
-        'description': '當隊伍中只有神族成員時<br>⇒ 全隊攻擊力 2.5 倍',
+        'description': `
+		當隊伍中只有神族成員時
+		⇒ 全隊攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2731,7 +3320,10 @@ const leader_skill_data = [
     },
     {
         'name': '孤注一擲',
-        'description': '隊中只有 2 個「火屬性或機械族」成員：<br>全隊攻擊力 4 倍及回復力 3 倍',
+        'description': `
+		隊中只有 2 個「火屬性或機械族」成員：
+		全隊攻擊力 4 倍及回復力 3 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -2743,7 +3335,12 @@ const leader_skill_data = [
     },
     {
         'name': '水影世界 ‧ 獸',
-        'description': 'I. 獸類攻擊力 2.5 倍<br>II. 水符石兼具其他屬性符石效果：<br>⇒ 每個獸類成員提升 10% 效果<br>⇒ 最高 50% (效果可以疊加)',
+        'description': `
+		I. 獸類攻擊力 2.5 倍
+		II. 水符石兼具其他屬性符石效果：
+		⇒ 每個獸類成員提升 10% 效果
+		⇒ 最高 50% (效果可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2760,7 +3357,12 @@ const leader_skill_data = [
     },
     {
         'name': '燄影世界 ‧ 獸',
-        'description': 'I. 獸類攻擊力 2.5 倍<br>II. 火符石兼具其他屬性符石效果：<br>⇒ 每個獸類成員提升 10% 效果<br>⇒ 最高 50% (效果可以疊加)',
+        'description': `
+		I. 獸類攻擊力 2.5 倍
+		II. 火符石兼具其他屬性符石效果：
+		⇒ 每個獸類成員提升 10% 效果
+		⇒ 最高 50% (效果可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2777,7 +3379,12 @@ const leader_skill_data = [
     },
     {
         'name': '森影世界 ‧ 獸',
-        'description': 'I. 獸類攻擊力 2.5 倍<br>II. 木符石兼具其他屬性符石效果：<br>⇒ 每個獸類成員提升 10% 效果<br>⇒ 最高 50% (效果可以疊加)',
+        'description': `
+		I. 獸類攻擊力 2.5 倍
+		II. 木符石兼具其他屬性符石效果：
+		⇒ 每個獸類成員提升 10% 效果
+		⇒ 最高 50% (效果可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2794,7 +3401,12 @@ const leader_skill_data = [
     },
     {
         'name': '光影世界 ‧ 獸',
-        'description': 'I. 獸類攻擊力 2.5 倍<br>II. 光符石兼具其他屬性符石效果：<br>⇒ 每個獸類成員提升 10% 效果<br>⇒ 最高 50% (效果可以疊加)',
+        'description': `
+		I. 獸類攻擊力 2.5 倍
+		II. 光符石兼具其他屬性符石效果：
+		⇒ 每個獸類成員提升 10% 效果
+		⇒ 最高 50% (效果可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2811,7 +3423,12 @@ const leader_skill_data = [
     },
     {
         'name': '魅影世界 ‧ 獸',
-        'description': 'I. 獸類攻擊力 2.5 倍<br>II. 暗符石兼具其他屬性符石效果：<br>⇒ 每個獸類成員提升 10% 效果<br>⇒ 最高 50% (效果可以疊加)',
+        'description': `
+		I. 獸類攻擊力 2.5 倍
+		II. 暗符石兼具其他屬性符石效果：
+		⇒ 每個獸類成員提升 10% 效果
+		⇒ 最高 50% (效果可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2828,7 +3445,12 @@ const leader_skill_data = [
     },
     {
         'name': '水之誅罰',
-        'description': 'I. 水屬性攻擊無視屬性相剋<br>II. 大幅提升水屬性對火及暗屬性目標的攻擊力<br>III. 提升對其他屬性目標的攻擊力<br>(包括主動技)',
+        'description': `
+		I. 水屬性攻擊無視屬性相剋
+		II. 大幅提升水屬性對火及暗屬性目標的攻擊力
+		III. 提升對其他屬性目標的攻擊力
+		(包括主動技)
+		`,
         'tag': [
             {
                 'name': ['屬性剋制改變', '增攻', '對火增傷', '對暗增傷', '對水增傷', '對木增傷', '對光增傷'],
@@ -2840,7 +3462,12 @@ const leader_skill_data = [
     },
     {
         'name': '火之誅罰',
-        'description': 'I. 火屬性攻擊無視屬性相剋<br>II. 大幅提升火屬性對火及木屬性目標的攻擊力<br>III. 提升對其他屬性目標的攻擊力<br>(包括主動技)',
+        'description': `
+		I. 火屬性攻擊無視屬性相剋
+		II. 大幅提升火屬性對火及木屬性目標的攻擊力
+		III. 提升對其他屬性目標的攻擊力
+		(包括主動技)
+		`,
         'tag': [
             {
                 'name': ['屬性剋制改變', '增攻', '對火增傷', '對木增傷', '對水增傷', '對光增傷', '對暗增傷'],
@@ -2852,7 +3479,12 @@ const leader_skill_data = [
     },
     {
         'name': '木之誅罰',
-        'description': 'I. 木屬性攻擊無視屬性相剋<br>II. 大幅提升木屬性對水及光屬性目標的攻擊力<br>III. 提升對其他屬性目標的攻擊力<br>(包括主動技)',
+        'description': `
+		I. 木屬性攻擊無視屬性相剋
+		II. 大幅提升木屬性對水及光屬性目標的攻擊力
+		III. 提升對其他屬性目標的攻擊力
+		(包括主動技)
+		`,
         'tag': [
             {
                 'name': ['屬性剋制改變', '增攻', '對水增傷', '對光增傷', '對火增傷', '對木增傷', '對暗增傷'],
@@ -2864,7 +3496,12 @@ const leader_skill_data = [
     },
     {
         'name': '光之誅罰',
-        'description': 'I. 光屬性攻擊無視屬性相剋<br>II. 大幅提升光屬性對火及暗屬性目標的攻擊力<br>III. 提升對其他屬性目標的攻擊力<br>(包括主動技)',
+        'description': `
+		I. 光屬性攻擊無視屬性相剋
+		II. 大幅提升光屬性對火及暗屬性目標的攻擊力
+		III. 提升對其他屬性目標的攻擊力
+		(包括主動技)
+		`,
         'tag': [
             {
                 'name': ['屬性剋制改變', '增攻', '對火增傷', '對暗增傷', '對水增傷', '對木增傷', '對光增傷'],
@@ -2876,7 +3513,12 @@ const leader_skill_data = [
     },
     {
         'name': '暗之誅罰',
-        'description': 'I. 暗屬性攻擊無視屬性相剋<br>II. 大幅提升暗屬性對木及光屬性目標的攻擊力<br>III. 提升對其他屬性目標的攻擊力<br>(包括主動技)',
+        'description': `
+		I. 暗屬性攻擊無視屬性相剋
+		II. 大幅提升暗屬性對木及光屬性目標的攻擊力
+		III. 提升對其他屬性目標的攻擊力
+		(包括主動技)
+		`,
         'tag': [
             {
                 'name': ['屬性剋制改變', '增攻', '對暗增傷', '對木增傷', '對水增傷', '對火增傷', '對光增傷'],
@@ -2888,7 +3530,11 @@ const leader_skill_data = [
     },
     {
         'name': '龍魂伴主',
-        'description': '隊伍中只有人類及 ≥2 個龍類成員時<br>I. 人類攻擊力 3 倍<br>II. 龍類攻擊力 1.5 倍',
+        'description': `
+		隊伍中只有人類及 ≥2 個龍類成員時
+		I. 人類攻擊力 3 倍
+		II. 龍類攻擊力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2900,7 +3546,11 @@ const leader_skill_data = [
     },
     {
         'name': '幻獸伴主',
-        'description': '隊伍中只有人類、 ≥2 個獸類或妖精類成員時：<br>I. 人類攻擊力 3 倍<br>II. 獸類及妖精類攻擊力 2 倍',
+        'description': `
+		隊伍中只有人類、 ≥2 個獸類或妖精類成員時：
+		I. 人類攻擊力 3 倍
+		II. 獸類及妖精類攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2912,7 +3562,11 @@ const leader_skill_data = [
     },
     {
         'name': '妖魔伴主',
-        'description': '隊伍中只有人類、≥2 個魔族或妖精類成員時：<br>I. 人類攻擊力 3 倍<br>II. 魔族及妖精類攻擊力 2 倍',
+        'description': `
+		隊伍中只有人類、≥2 個魔族或妖精類成員時：
+		I. 人類攻擊力 3 倍
+		II. 魔族及妖精類攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2924,7 +3578,11 @@ const leader_skill_data = [
     },
     {
         'name': '神靈伴主',
-        'description': '隊伍中只有人類及 ≥2 個神族成員時：<br>I. 人類攻擊力 3 倍<br>II. 神族攻擊力 1.5 倍',
+        'description': `
+		隊伍中只有人類及 ≥2 個神族成員時：
+		I. 人類攻擊力 3 倍
+		II. 神族攻擊力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2936,7 +3594,11 @@ const leader_skill_data = [
     },
     {
         'name': '龍魂佐主',
-        'description': '當隊伍中只有人類及 ≥1 個龍類成員時：<br>I. 人類攻擊力 4.5 倍<br>II. 龍類攻擊力 3.5 倍',
+        'description': `
+		當隊伍中只有人類及 ≥1 個龍類成員時：
+		I. 人類攻擊力 4.5 倍
+		II. 龍類攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2948,7 +3610,11 @@ const leader_skill_data = [
     },
     {
         'name': '幻獸佐主',
-        'description': '當隊伍中只有人類及 ≥1 個獸類或妖精類成員時：<br>I. 人類攻擊力 4.5 倍<br>II. 獸類及妖精類攻擊力 3.5 倍',
+        'description': `
+		當隊伍中只有人類及 ≥1 個獸類或妖精類成員時：
+		I. 人類攻擊力 4.5 倍
+		II. 獸類及妖精類攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2960,7 +3626,11 @@ const leader_skill_data = [
     },
     {
         'name': '妖魔佐主',
-        'description': '當隊伍中只有人類及 ≥1 個魔族或妖精類成員時：<br>I. 人類攻擊力 4.5 倍<br>II. 魔族及妖精類攻擊力 3.5 倍',
+        'description': `
+		當隊伍中只有人類及 ≥1 個魔族或妖精類成員時：
+		I. 人類攻擊力 4.5 倍
+		II. 魔族及妖精類攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2972,7 +3642,11 @@ const leader_skill_data = [
     },
     {
         'name': '神靈佐主',
-        'description': '當隊伍中只有人類及 ≥1 個神族成員時：<br>I. 人類攻擊力 4.5 倍<br>II. 神族攻擊力 3.5 倍',
+        'description': `
+		當隊伍中只有人類及 ≥1 個神族成員時：
+		I. 人類攻擊力 4.5 倍
+		II. 神族攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2984,7 +3658,10 @@ const leader_skill_data = [
     },
     {
         'name': '屠殺契機',
-        'description': '連擊 (Combo) 數為雙數時<br>⇒ 全隊攻擊力 5 倍',
+        'description': `
+		連擊 (Combo) 數為雙數時
+		⇒ 全隊攻擊力 5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -2996,7 +3673,9 @@ const leader_skill_data = [
     },
     {
         'name': '妖精之約會',
-        'description': '妖精類攻擊力及回復力 1.5 倍',
+        'description': `
+		妖精類攻擊力及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -3008,7 +3687,9 @@ const leader_skill_data = [
     },
     {
         'name': '妖精之舞步',
-        'description': '妖精類攻擊力及回復力 2.5 倍',
+        'description': `
+		妖精類攻擊力及回復力 2.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -3020,7 +3701,13 @@ const leader_skill_data = [
     },
     {
         'name': '絕境反噬 ‧ 水',
-        'description': 'I. 當前生命力大於 50% 時<br>⇒ 下一次所受傷害不會使你死亡<br>II. 將未能正常扣除的傷害<br>⇒ 對敵方攻擊者進行水屬性反擊<br>(同 1 回合只發動 1 次)',
+        'description': `
+		I. 當前生命力大於 50% 時
+		⇒ 下一次所受傷害不會使你死亡
+		II. 將未能正常扣除的傷害
+		⇒ 對敵方攻擊者進行水屬性反擊
+		(同 1 回合只發動 1 次)
+		`,
         'tag': [
             {
                 'name': '意志',
@@ -3037,7 +3724,10 @@ const leader_skill_data = [
     },
     {
         'name': '火舞傳人',
-        'description': 'I. 全隊攻擊力及回復力 1.5 倍<br>II. 人類生命力 1.5 倍',
+        'description': `
+		I. 全隊攻擊力及回復力 1.5 倍
+		II. 人類生命力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -3054,7 +3744,13 @@ const leader_skill_data = [
     },
     {
         'name': '百箭穿楊',
-        'description': 'I. 當進行單體攻擊時<br>⇒ 全隊攻擊力 2.5 倍<br>II. 若消除 ≥3 種屬性符石<br>⇒ 全隊攻擊力提升至 3 倍<br> (若發動全體攻擊時只有 1 個敵人，會視作單體攻擊計算)',
+        'description': `
+		I. 當進行單體攻擊時
+		⇒ 全隊攻擊力 2.5 倍
+		II. 若消除 ≥3 種屬性符石
+		⇒ 全隊攻擊力提升至 3 倍
+		 (若發動全體攻擊時只有 1 個敵人，會視作單體攻擊計算)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3071,7 +3767,9 @@ const leader_skill_data = [
     },
     {
         'name': '人之祈願',
-        'description': '人類生命力 3 倍',
+        'description': `
+		人類生命力 3 倍
+		`,
         'tag': [
             {
                 'name': '增血',
@@ -3083,7 +3781,10 @@ const leader_skill_data = [
     },
     {
         'name': '愈戰愈強 ‧ 超',
-        'description': '生命力愈低時<br>⇒ 全隊攻擊力會愈高，最大 3.5 倍',
+        'description': `
+		生命力愈低時
+		⇒ 全隊攻擊力會愈高，最大 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3095,7 +3796,9 @@ const leader_skill_data = [
     },
     {
         'name': '妖之靈力',
-        'description': '妖精類攻擊力及生命力 1.5 倍',
+        'description': `
+		妖精類攻擊力及生命力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -3107,7 +3810,12 @@ const leader_skill_data = [
     },
     {
         'name': '念之強勢 ‧ 玄冥',
-        'description': 'I. 減少 50% 移動符石時間<br>II. 全隊攻擊力 6 倍<br>III. 於 5 秒內結束轉珠<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		I. 減少 50% 移動符石時間
+		II. 全隊攻擊力 6 倍
+		III. 於 5 秒內結束轉珠
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['減少轉珠時間', '增攻'],
@@ -3124,7 +3832,9 @@ const leader_skill_data = [
     },
     {
         'name': '俠盜之力',
-        'description': '人類及魔族攻擊力 2.5 倍',
+        'description': `
+		人類及魔族攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3136,7 +3846,12 @@ const leader_skill_data = [
     },
     {
         'name': '戾氣蔽日 ‧ 水',
-        'description': 'I. 每消除水符石，水屬性攻擊力持續提升<br>II. 連續 2 回合沒有消除水符石，攻擊力減少<br>III. 當攻擊力達至最高 3.5 倍時<br>⇒ 需每回合消除水符石，否則攻擊力減少',
+        'description': `
+		I. 每消除水符石，水屬性攻擊力持續提升
+		II. 連續 2 回合沒有消除水符石，攻擊力減少
+		III. 當攻擊力達至最高 3.5 倍時
+		⇒ 需每回合消除水符石，否則攻擊力減少
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3148,7 +3863,16 @@ const leader_skill_data = [
     },
     {
         'name': '戾氣吞天 ‧ 水',
-        'description': 'I. 水屬性攻擊力 2 倍<br>II. 每消除水符石，水屬性攻擊力持續提升<br>III. 連續兩回合沒有消除水符石，攻擊力減少<br>IV. 當攻擊力達至最高 3.5 倍時<br>⇒ 需每回合消除水符石，否則攻擊力減少<br>V. 同時消除水、火及心符石 (只計算首批消除的符石)<br>⇒ 該回合水屬性攻擊力額外提升 3 倍 (不能疊加)<br>⇒ 下一回合水屬性攻擊力減少 1 倍 (最多減至 2 倍)',
+        'description': `
+		I. 水屬性攻擊力 2 倍
+		II. 每消除水符石，水屬性攻擊力持續提升
+		III. 連續兩回合沒有消除水符石，攻擊力減少
+		IV. 當攻擊力達至最高 3.5 倍時
+		⇒ 需每回合消除水符石，否則攻擊力減少
+		V. 同時消除水、火及心符石 (只計算首批消除的符石)
+		⇒ 該回合水屬性攻擊力額外提升 3 倍 (不能疊加)
+		⇒ 下一回合水屬性攻擊力減少 1 倍 (最多減至 2 倍)
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -3166,7 +3890,13 @@ const leader_skill_data = [
     },
     {
         'name': '血色繚繞 ‧ 水',
-        'description': 'I. 水屬性攻擊力 2.5 倍<br>II. 每消除水符石，水屬性攻擊力持續提升<br>III. 連續兩回合沒有消除水符石，攻擊力減少<br>IV. 當攻擊力達至最高 4.5 倍時<br>⇒ 需每回合消除水符石，否則攻擊力減少',
+        'description': `
+		I. 水屬性攻擊力 2.5 倍
+		II. 每消除水符石，水屬性攻擊力持續提升
+		III. 連續兩回合沒有消除水符石，攻擊力減少
+		IV. 當攻擊力達至最高 4.5 倍時
+		⇒ 需每回合消除水符石，否則攻擊力減少
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -3184,7 +3914,12 @@ const leader_skill_data = [
     },
     {
         'name': '戾氣蔽日 ‧ 火',
-        'description': 'I. 每消除火符石，火屬性攻擊力持續提升<br>II. 連續 2 回合沒有消除火符石，攻擊力減少<br>III. 當攻擊力達至最高 3.5 倍時<br>⇒ 需每回合消除火符石，否則攻擊力減少',
+        'description': `
+		I. 每消除火符石，火屬性攻擊力持續提升
+		II. 連續 2 回合沒有消除火符石，攻擊力減少
+		III. 當攻擊力達至最高 3.5 倍時
+		⇒ 需每回合消除火符石，否則攻擊力減少
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3196,7 +3931,16 @@ const leader_skill_data = [
     },
     {
         'name': '戾氣吞天 ‧ 火',
-        'description': 'I. 火屬性攻擊力 2 倍<br>II. 每消除火符石，火屬性攻擊力持續提升<br>III. 連續兩回合沒有消除火符石，攻擊力減少<br>IV. 當攻擊力達至最高 3.5 倍時<br>⇒ 需每回合消除火符石，否則攻擊力減少<br>V. 同時消除火、木及心符石 (只計算首批消除的符石)<br>⇒ 該回合火屬性攻擊力額外提升 3 倍 (不能疊加)<br>⇒ 下一回合火屬性攻擊力減少 1 倍 (最多減至 2 倍)',
+        'description': `
+		I. 火屬性攻擊力 2 倍
+		II. 每消除火符石，火屬性攻擊力持續提升
+		III. 連續兩回合沒有消除火符石，攻擊力減少
+		IV. 當攻擊力達至最高 3.5 倍時
+		⇒ 需每回合消除火符石，否則攻擊力減少
+		V. 同時消除火、木及心符石 (只計算首批消除的符石)
+		⇒ 該回合火屬性攻擊力額外提升 3 倍 (不能疊加)
+		⇒ 下一回合火屬性攻擊力減少 1 倍 (最多減至 2 倍)
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -3214,7 +3958,13 @@ const leader_skill_data = [
     },
     {
         'name': '血色繚繞 ‧ 火',
-        'description': 'I. 火屬性攻擊力 2.5 倍<br>II. 每消除火符石，火屬性攻擊力持續提升<br>III. 連續兩回合沒有消除火符石，攻擊力減少<br>IV. 當攻擊力達至最高 4.5 倍時<br>⇒ 需每回合消除火符石，否則攻擊力減少',
+        'description': `
+		I. 火屬性攻擊力 2.5 倍
+		II. 每消除火符石，火屬性攻擊力持續提升
+		III. 連續兩回合沒有消除火符石，攻擊力減少
+		IV. 當攻擊力達至最高 4.5 倍時
+		⇒ 需每回合消除火符石，否則攻擊力減少
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -3232,7 +3982,12 @@ const leader_skill_data = [
     },
     {
         'name': '戾氣蔽日 ‧ 木',
-        'description': 'I. 每消除木符石，木屬性攻擊力持續提升<br>II. 連續 2 回合沒有消除木符石，攻擊力減少<br>III. 當攻擊力達至最高 3.5 倍時<br>⇒ 需每回合消除木符石，否則攻擊力減少',
+        'description': `
+		I. 每消除木符石，木屬性攻擊力持續提升
+		II. 連續 2 回合沒有消除木符石，攻擊力減少
+		III. 當攻擊力達至最高 3.5 倍時
+		⇒ 需每回合消除木符石，否則攻擊力減少
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3244,7 +3999,16 @@ const leader_skill_data = [
     },
     {
         'name': '戾氣吞天 ‧ 木',
-        'description': 'I. 木屬性攻擊力 2 倍<br>II. 每消除木符石，木屬性攻擊力持續提升<br>III. 連續兩回合沒有消除木符石，攻擊力減少<br>IV. 當攻擊力達至最高 3.5 倍時<br>⇒ 需每回合消除木符石，否則攻擊力減少<br>V. 同時消除木、水及心符石 (只計算首批消除的符石)<br>⇒ 該回合木屬性攻擊力額外提升 3 倍 (不能疊加)<br>⇒ 下一回合木屬性攻擊力減少 1 倍 (最多減至 2 倍)',
+        'description': `
+		I. 木屬性攻擊力 2 倍
+		II. 每消除木符石，木屬性攻擊力持續提升
+		III. 連續兩回合沒有消除木符石，攻擊力減少
+		IV. 當攻擊力達至最高 3.5 倍時
+		⇒ 需每回合消除木符石，否則攻擊力減少
+		V. 同時消除木、水及心符石 (只計算首批消除的符石)
+		⇒ 該回合木屬性攻擊力額外提升 3 倍 (不能疊加)
+		⇒ 下一回合木屬性攻擊力減少 1 倍 (最多減至 2 倍)
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -3262,7 +4026,13 @@ const leader_skill_data = [
     },
     {
         'name': '血色繚繞 ‧ 木',
-        'description': 'I. 木屬性攻擊力 2.5 倍<br>II. 每消除木符石，木屬性攻擊力持續提升<br>III. 連續兩回合沒有消除木符石，攻擊力減少<br>IV. 當攻擊力達至最高 4.5 倍時<br>⇒ 需每回合消除木符石，否則攻擊力減少',
+        'description': `
+		I. 木屬性攻擊力 2.5 倍
+		II. 每消除木符石，木屬性攻擊力持續提升
+		III. 連續兩回合沒有消除木符石，攻擊力減少
+		IV. 當攻擊力達至最高 4.5 倍時
+		⇒ 需每回合消除木符石，否則攻擊力減少
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -3280,7 +4050,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔之本性 ‧ 攻',
-        'description': '魔族攻擊力 2 倍、生命力及回復力 1.5 倍',
+        'description': `
+		魔族攻擊力 2 倍、生命力及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -3292,7 +4064,10 @@ const leader_skill_data = [
     },
     {
         'name': '魔魅復甦 ‧ 水',
-        'description': 'I. 水屬性攻擊力 2 倍<br>II. 魔族回復力 2 倍',
+        'description': `
+		I. 水屬性攻擊力 2 倍
+		II. 魔族回復力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3309,7 +4084,10 @@ const leader_skill_data = [
     },
     {
         'name': '魔魅復甦 ‧ 水波',
-        'description': 'I. 水屬性攻擊力 2.5 倍<br>II. 魔族回復力 2 倍',
+        'description': `
+		I. 水屬性攻擊力 2.5 倍
+		II. 魔族回復力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3326,7 +4104,10 @@ const leader_skill_data = [
     },
     {
         'name': '魔魅復甦 ‧ 火',
-        'description': 'I. 火屬性攻擊力 2 倍<br>II. 魔族回復力 2 倍',
+        'description': `
+		I. 火屬性攻擊力 2 倍
+		II. 魔族回復力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3343,7 +4124,10 @@ const leader_skill_data = [
     },
     {
         'name': '魔魅復甦 ‧ 火燄',
-        'description': 'I. 火屬性攻擊力 2.5 倍<br>II. 魔族回復力 2 倍',
+        'description': `
+		I. 火屬性攻擊力 2.5 倍
+		II. 魔族回復力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3360,7 +4144,10 @@ const leader_skill_data = [
     },
     {
         'name': '魔魅復甦 ‧ 木',
-        'description': 'I. 木屬性攻擊力 2 倍<br>II. 魔族回復力 2 倍',
+        'description': `
+		I. 木屬性攻擊力 2 倍
+		II. 魔族回復力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3377,7 +4164,10 @@ const leader_skill_data = [
     },
     {
         'name': '魔魅復甦 ‧ 藤木',
-        'description': 'I. 木屬性攻擊力 2.5 倍<br>II. 魔族回復力 2 倍',
+        'description': `
+		I. 木屬性攻擊力 2.5 倍
+		II. 魔族回復力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3394,7 +4184,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔之狂怒 ‧ 光',
-        'description': '光屬性魔族攻擊力 2.5 倍',
+        'description': `
+		光屬性魔族攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3406,7 +4198,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔怒嘯天 ‧ 光',
-        'description': '光屬性魔族攻擊力 3.5 倍',
+        'description': `
+		光屬性魔族攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3418,7 +4212,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔之狂怒 ‧ 暗',
-        'description': '暗屬性魔族攻擊力 2.5 倍',
+        'description': `
+		暗屬性魔族攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3430,7 +4226,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔怒嘯天 ‧ 暗',
-        'description': '暗屬性魔族攻擊力 3.5 倍',
+        'description': `
+		暗屬性魔族攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3442,7 +4240,11 @@ const leader_skill_data = [
     },
     {
         'name': '魔魅之靈泉',
-        'description': 'I. 水屬性攻擊力 2.5 倍<br>II. 當生命力少於 50% 時<br>⇒ 心符石效果提升至 300% (效果不能疊加)',
+        'description': `
+		I. 水屬性攻擊力 2.5 倍
+		II. 當生命力少於 50% 時
+		⇒ 心符石效果提升至 300% (效果不能疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3459,7 +4261,10 @@ const leader_skill_data = [
     },
     {
         'name': '攻守同道 ‧ 光明',
-        'description': 'I. 光屬性攻擊力 2.5 倍<br>II. 心符石兼具 50% 光符石效果 (效果不能疊加)',
+        'description': `
+		I. 光屬性攻擊力 2.5 倍
+		II. 心符石兼具 50% 光符石效果 (效果不能疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3476,7 +4281,10 @@ const leader_skill_data = [
     },
     {
         'name': '罪之罰則',
-        'description': '以所受傷害 3 倍對敵方攻擊者<br>⇒ 進行相剋屬性反擊',
+        'description': `
+		以所受傷害 3 倍對敵方攻擊者
+		⇒ 進行相剋屬性反擊
+		`,
         'tag': [
             {
                 'name': '反擊',
@@ -3488,7 +4296,10 @@ const leader_skill_data = [
     },
     {
         'name': '元素凝匯 ‧ 獸',
-        'description': '隊伍中獸類成員的屬性愈多<br>⇒ 全隊攻擊力愈高，最大 3.5 倍',
+        'description': `
+		隊伍中獸類成員的屬性愈多
+		⇒ 全隊攻擊力愈高，最大 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3500,7 +4311,10 @@ const leader_skill_data = [
     },
     {
         'name': '莫逆相伴 ‧ 人',
-        'description': '隊伍中的人類成員愈多<br>⇒ 全隊攻擊力愈高，最大 3.5 倍',
+        'description': `
+		隊伍中的人類成員愈多
+		⇒ 全隊攻擊力愈高，最大 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3512,7 +4326,12 @@ const leader_skill_data = [
     },
     {
         'name': '劍緣陣法',
-        'description': '隊伍中只有水、火及木屬性成員時：<br>I. 消除 ≥3 種屬性符石<br>⇒ 全隊攻擊力 3 倍<br>II. 消除心符石時攻擊力有 50% 機率額外 1.5 倍 (機率可以疊加)',
+        'description': `
+		隊伍中只有水、火及木屬性成員時：
+		I. 消除 ≥3 種屬性符石
+		⇒ 全隊攻擊力 3 倍
+		II. 消除心符石時攻擊力有 50% 機率額外 1.5 倍 (機率可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3529,7 +4348,12 @@ const leader_skill_data = [
     },
     {
         'name': '韶光疊影',
-        'description': 'I. 光屬性攻擊力 2 倍<br>II. 隊伍中的人類成員愈多<br>⇒ 光屬性攻擊力額外提升愈多<br>⇒ 最大 3.5 倍',
+        'description': `
+		I. 光屬性攻擊力 2 倍
+		II. 隊伍中的人類成員愈多
+		⇒ 光屬性攻擊力額外提升愈多
+		⇒ 最大 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3546,7 +4370,11 @@ const leader_skill_data = [
     },
     {
         'name': '喋血狂屠',
-        'description': '隊伍中只有人類及魔族成員時：<br>I. 人類及魔族攻擊力 2.5 倍<br>II. 當生命力未滿時，攻擊力提升至 3.5 倍',
+        'description': `
+		隊伍中只有人類及魔族成員時：
+		I. 人類及魔族攻擊力 2.5 倍
+		II. 當生命力未滿時，攻擊力提升至 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3563,19 +4391,27 @@ const leader_skill_data = [
     },
     {
         'name': '靈魂之緣',
-        'description': '關卡「靈魂之日」 初級難度最後一層的敵人有 15% 機率轉化為蘊魔晶寵 (機率可以疊加)',
+        'description': `
+		關卡「靈魂之日」 初級難度最後一層的敵人有 15% 機率轉化為蘊魔晶寵 (機率可以疊加)
+		`,
         'tag': [],
         'monster': [758, 760]
     },
     {
         'name': '靈魂之約',
-        'description': '關卡「靈魂之日」 初級難度最後一層的敵人有 30% 機率轉化為蘊魔晶寵 (機率可以疊加)',
+        'description': `
+		關卡「靈魂之日」 初級難度最後一層的敵人有 30% 機率轉化為蘊魔晶寵 (機率可以疊加)
+		`,
         'tag': [],
         'monster': [759, 761]
     },
     {
         'name': '焚天煉日',
-        'description': 'I. 光屬性攻擊力 2.5 倍<br>II. 首批消除場上所有光符石時<br>⇒ 光屬性人類攻擊力 4 倍',
+        'description': `
+		I. 光屬性攻擊力 2.5 倍
+		II. 首批消除場上所有光符石時
+		⇒ 光屬性人類攻擊力 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3592,7 +4428,11 @@ const leader_skill_data = [
     },
     {
         'name': '陰陽煞陣',
-        'description': 'I. 光和暗屬性攻擊力 2 倍<br>II. 同時消除光符石及暗符石<br>⇒ 光和暗屬性攻擊力額外 1.5 倍 (效果不能疊加)',
+        'description': `
+		I. 光和暗屬性攻擊力 2 倍
+		II. 同時消除光符石及暗符石
+		⇒ 光和暗屬性攻擊力額外 1.5 倍 (效果不能疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3609,7 +4449,11 @@ const leader_skill_data = [
     },
     {
         'name': '魔燄之輪',
-        'description': 'I. 首回合火屬性攻擊力 4 倍<br>II. 次回合火屬性攻擊力 2 倍<br>周而復始 (只計算消除符石的回合)',
+        'description': `
+		I. 首回合火屬性攻擊力 4 倍
+		II. 次回合火屬性攻擊力 2 倍
+		周而復始 (只計算消除符石的回合)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3621,7 +4465,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔之嗔怒',
-        'description': '魔族攻擊力 3 倍',
+        'description': `
+		魔族攻擊力 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3633,7 +4479,9 @@ const leader_skill_data = [
     },
     {
         'name': '人魔之怒',
-        'description': '人類及魔族攻擊力 2 倍',
+        'description': `
+		人類及魔族攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3645,7 +4493,10 @@ const leader_skill_data = [
     },
     {
         'name': '燄影堅甲之術',
-        'description': 'I. 全隊攻擊力 1.5 倍<br>II. 火屬性和暗屬性傷害減少 50%',
+        'description': `
+		I. 全隊攻擊力 1.5 倍
+		II. 火屬性和暗屬性傷害減少 50%
+		`,
         'tag': [
             {
                 'name': ['增攻', '減傷'],
@@ -3657,7 +4508,10 @@ const leader_skill_data = [
     },
     {
         'name': '水浪之護守',
-        'description': 'I. 水屬性攻擊力 2.5 倍<br>II. 火屬性傷害減少 20%',
+        'description': `
+		I. 水屬性攻擊力 2.5 倍
+		II. 火屬性傷害減少 20%
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3674,7 +4528,10 @@ const leader_skill_data = [
     },
     {
         'name': '燄火之護守',
-        'description': 'I. 火屬性攻擊力 2.5 倍<br>II. 木屬性傷害減少 20%',
+        'description': `
+		I. 火屬性攻擊力 2.5 倍
+		II. 木屬性傷害減少 20%
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3691,7 +4548,10 @@ const leader_skill_data = [
     },
     {
         'name': '藤木之護守',
-        'description': 'I. 木屬性攻擊力 2.5 倍<br>II. 水屬性傷害減少 20%',
+        'description': `
+		I. 木屬性攻擊力 2.5 倍
+		II. 水屬性傷害減少 20%
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3708,7 +4568,12 @@ const leader_skill_data = [
     },
     {
         'name': '神龍呼嘯 ‧ 水',
-        'description': '當隊伍中只有神族及龍類成員時：<br>I. 全隊攻擊力 2.5 倍<br>II. 消除水及心符石時攻擊力有 40% 機率額外 2 倍<br>(機率可以疊加，倍率優先跟隨隊長技能)',
+        'description': `
+		當隊伍中只有神族及龍類成員時：
+		I. 全隊攻擊力 2.5 倍
+		II. 消除水及心符石時攻擊力有 40% 機率額外 2 倍
+		(機率可以疊加，倍率優先跟隨隊長技能)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3725,7 +4590,13 @@ const leader_skill_data = [
     },
     {
         'name': '魔龍狂號 ‧ 火',
-        'description': '隊伍中只有魔族及龍類成員時：<br>I. 全隊攻擊力 3 倍<br>II. 場上有附加效果時<br>⇒ 火屬性攻擊力有 25% 機率額外 1.5 倍<br>(機率可以疊加，倍率優先跟隨隊長技能)',
+        'description': `
+		隊伍中只有魔族及龍類成員時：
+		I. 全隊攻擊力 3 倍
+		II. 場上有附加效果時
+		⇒ 火屬性攻擊力有 25% 機率額外 1.5 倍
+		(機率可以疊加，倍率優先跟隨隊長技能)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3742,7 +4613,11 @@ const leader_skill_data = [
     },
     {
         'name': '神龍呼嘯 ‧ 木',
-        'description': '隊伍中只有神族及龍類成員時：<br>I. 全隊攻擊力 2.5 倍<br>II. 消除木及心符石時攻擊力有 40% 機率額外 2 倍 (機率可以疊加，倍率優先跟隨隊長技能)',
+        'description': `
+		隊伍中只有神族及龍類成員時：
+		I. 全隊攻擊力 2.5 倍
+		II. 消除木及心符石時攻擊力有 40% 機率額外 2 倍 (機率可以疊加，倍率優先跟隨隊長技能)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3759,7 +4634,9 @@ const leader_skill_data = [
     },
     {
         'name': '勢煞龍息',
-        'description': '隊伍中只有龍類隊員時：連擊 (Combo) 時攻擊力提升 125%',
+        'description': `
+		隊伍中只有龍類隊員時：連擊 (Combo) 時攻擊力提升 125%
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3771,7 +4648,11 @@ const leader_skill_data = [
     },
     {
         'name': '元素之念 ‧ 水',
-        'description': 'I. 水屬性攻擊力 2 倍<br>II. 每直行首批消除 ≥4 粒符石時<br>⇒ 該直行將產生 1 粒水符石',
+        'description': `
+		I. 水屬性攻擊力 2 倍
+		II. 每直行首批消除 ≥4 粒符石時
+		⇒ 該直行將產生 1 粒水符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3788,7 +4669,11 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼之賜 ‧ 水',
-        'description': 'I. 水屬性攻擊力 2.5 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行將產生 1 粒水符石',
+        'description': `
+		I. 水屬性攻擊力 2.5 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行將產生 1 粒水符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3805,7 +4690,11 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼之賜 ‧ 浪濤',
-        'description': 'I. 水屬性攻擊力 3 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行將產生 1 粒水符石',
+        'description': `
+		I. 水屬性攻擊力 3 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行將產生 1 粒水符石
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -3823,7 +4712,11 @@ const leader_skill_data = [
     },
     {
         'name': '元素之念 ‧ 火',
-        'description': 'I. 火屬性攻擊力 2 倍<br>II. 每直行首批消除 ≥4 粒符石時<br>⇒ 該直行將產生 1 粒火符石',
+        'description': `
+		I. 火屬性攻擊力 2 倍
+		II. 每直行首批消除 ≥4 粒符石時
+		⇒ 該直行將產生 1 粒火符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3840,7 +4733,11 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼之賜 ‧ 火',
-        'description': 'I. 火屬性攻擊力 2.5 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行將產生 1 粒火符石',
+        'description': `
+		I. 火屬性攻擊力 2.5 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行將產生 1 粒火符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3857,7 +4754,11 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼之賜 ‧ 熾燄',
-        'description': 'I. 火屬性攻擊力 3 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行將產生 1 粒火符石',
+        'description': `
+		I. 火屬性攻擊力 3 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行將產生 1 粒火符石
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -3875,7 +4776,11 @@ const leader_skill_data = [
     },
     {
         'name': '元素之念 ‧ 木',
-        'description': 'I. 木屬性攻擊力 2 倍<br>II. 每直行首批消除 ≥4 粒符石時<br>⇒ 該直行將產生 1 粒木符石',
+        'description': `
+		I. 木屬性攻擊力 2 倍
+		II. 每直行首批消除 ≥4 粒符石時
+		⇒ 該直行將產生 1 粒木符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3892,7 +4797,11 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼之賜 ‧ 木',
-        'description': 'I. 木屬性攻擊力 2.5 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行將產生 1 粒木符石',
+        'description': `
+		I. 木屬性攻擊力 2.5 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行將產生 1 粒木符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3909,7 +4818,11 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼之賜 ‧ 藤木',
-        'description': 'I. 木屬性攻擊力 3 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行將產生 1 粒木符石',
+        'description': `
+		I. 木屬性攻擊力 3 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行將產生 1 粒木符石
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -3927,7 +4840,11 @@ const leader_skill_data = [
     },
     {
         'name': '元素之念 ‧ 光',
-        'description': 'I. 光屬性攻擊力 2 倍<br>II. 每直行首批消除 ≥4 粒符石時<br>⇒ 該直行將產生 1 粒光符石',
+        'description': `
+		I. 光屬性攻擊力 2 倍
+		II. 每直行首批消除 ≥4 粒符石時
+		⇒ 該直行將產生 1 粒光符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3944,7 +4861,11 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼之賜 ‧ 光',
-        'description': 'I. 光屬性攻擊力 2.5 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行將產生 1 粒光符石',
+        'description': `
+		I. 光屬性攻擊力 2.5 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行將產生 1 粒光符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3961,7 +4882,11 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼之賜 ‧ 玄光',
-        'description': 'I. 光屬性攻擊力 3 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行將產生 1 粒光符石',
+        'description': `
+		I. 光屬性攻擊力 3 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行將產生 1 粒光符石
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -3979,7 +4904,11 @@ const leader_skill_data = [
     },
     {
         'name': '元素之念 ‧ 暗',
-        'description': 'I. 暗屬性攻擊力 2 倍<br>II. 每直行首批消除 ≥4 粒符石時<br>⇒ 該直行將產生 1 粒暗符石',
+        'description': `
+		I. 暗屬性攻擊力 2 倍
+		II. 每直行首批消除 ≥4 粒符石時
+		⇒ 該直行將產生 1 粒暗符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -3996,7 +4925,11 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼之賜 ‧ 暗',
-        'description': 'I. 暗屬性攻擊力 2.5 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行將產生 1 粒暗符石',
+        'description': `
+		I. 暗屬性攻擊力 2.5 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行將產生 1 粒暗符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4013,7 +4946,11 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼之賜 ‧ 幽冥',
-        'description': 'I. 暗屬性攻擊力 3 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行將產生 1 粒暗符石',
+        'description': `
+		I. 暗屬性攻擊力 3 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行將產生 1 粒暗符石
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -4031,7 +4968,9 @@ const leader_skill_data = [
     },
     {
         'name': '煉獄之霸權',
-        'description': '火屬性攻擊力 2.5 倍及回復力 2 倍',
+        'description': `
+		火屬性攻擊力 2.5 倍及回復力 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -4043,7 +4982,11 @@ const leader_skill_data = [
     },
     {
         'name': '火木堅甲之賦 ‧ 突破',
-        'description': 'I. 全隊攻擊力 2 倍<br>II. 火和木屬性傷害減少 50%<br>III. 光屬性傷害減少 30%',
+        'description': `
+		I. 全隊攻擊力 2 倍
+		II. 火和木屬性傷害減少 50%
+		III. 光屬性傷害減少 30%
+		`,
         'tag': [
             {
                 'name': ['增攻', '減傷'],
@@ -4055,7 +4998,12 @@ const leader_skill_data = [
     },
     {
         'name': '愈戰愈強 ‧ 爆擊',
-        'description': 'I. 生命力愈低時<br>⇒ 全隊攻擊力會愈高，最大 3 倍<br>II. 同時消除光及暗符石<br>⇒ 全隊攻擊力額外 1.5 倍 (效果不能疊加)',
+        'description': `
+		I. 生命力愈低時
+		⇒ 全隊攻擊力會愈高，最大 3 倍
+		II. 同時消除光及暗符石
+		⇒ 全隊攻擊力額外 1.5 倍 (效果不能疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4072,7 +5020,11 @@ const leader_skill_data = [
     },
     {
         'name': '光水堅甲之賦 ‧ 突破',
-        'description': 'I. 全隊攻擊力 2 倍<br>II. 光和水屬性傷害減少 50%<br>III. 火屬性傷害減少 30%',
+        'description': `
+		I. 全隊攻擊力 2 倍
+		II. 光和水屬性傷害減少 50%
+		III. 火屬性傷害減少 30%
+		`,
         'tag': [
             {
                 'name': ['增攻', '減傷'],
@@ -4084,7 +5036,9 @@ const leader_skill_data = [
     },
     {
         'name': '神聖之霸權',
-        'description': '光屬性攻擊力 2.5 倍及回復力 2 倍',
+        'description': `
+		光屬性攻擊力 2.5 倍及回復力 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -4096,7 +5050,10 @@ const leader_skill_data = [
     },
     {
         'name': '虛靜恬淡',
-        'description': 'I. 攻擊力 2 倍<br>II. 延長移動符石時間 3 秒',
+        'description': `
+		I. 攻擊力 2 倍
+		II. 延長移動符石時間 3 秒
+		`,
         'tag': [
             {
                 'name': ['增攻', '延長轉珠時間'],
@@ -4108,7 +5065,12 @@ const leader_skill_data = [
     },
     {
         'name': '百步穿楊 ‧ 神弩',
-        'description': 'I. 當進行單體攻擊時<br>⇒ 全隊攻擊力 2.5 倍<br>II. 同時消除火、木及暗符石<br>⇒ 全隊攻擊力則提升至 4 倍',
+        'description': `
+		I. 當進行單體攻擊時
+		⇒ 全隊攻擊力 2.5 倍
+		II. 同時消除火、木及暗符石
+		⇒ 全隊攻擊力則提升至 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4125,7 +5087,11 @@ const leader_skill_data = [
     },
     {
         'name': '木水堅甲之賦 ‧ 突破',
-        'description': 'I. 全隊攻擊力 2 倍<br>II. 木和水屬性傷害減少 50%<br>III. 火屬性傷害減少 30%',
+        'description': `
+		I. 全隊攻擊力 2 倍
+		II. 木和水屬性傷害減少 50%
+		III. 火屬性傷害減少 30%
+		`,
         'tag': [
             {
                 'name': ['增攻', '減傷'],
@@ -4137,7 +5103,9 @@ const leader_skill_data = [
     },
     {
         'name': '大海之霸權',
-        'description': '水屬性攻擊力 2.5 倍及回復力 2 倍',
+        'description': `
+		水屬性攻擊力 2.5 倍及回復力 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -4149,7 +5117,11 @@ const leader_skill_data = [
     },
     {
         'name': '水火堅甲之賦 ‧ 突破',
-        'description': 'I. 全隊攻擊力 2 倍<br>II. 水和火屬性傷害減少 50%<br>III. 光屬性傷害減少 30%',
+        'description': `
+		I. 全隊攻擊力 2 倍
+		II. 水和火屬性傷害減少 50%
+		III. 光屬性傷害減少 30%
+		`,
         'tag': [
             {
                 'name': ['增攻', '減傷'],
@@ -4161,7 +5133,9 @@ const leader_skill_data = [
     },
     {
         'name': '靈力充沛',
-        'description': '生命力全滿時，攻擊力 2.5 倍',
+        'description': `
+		生命力全滿時，攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4173,7 +5147,12 @@ const leader_skill_data = [
     },
     {
         'name': '元素逼力',
-        'description': 'I. 消除 3 種屬性符石時，全隊攻擊力 3 倍<br>II. 消除 4 種屬性符石時，全隊攻擊力 3.5 倍<br>III. 消除 5 種屬性符石時，全隊攻擊力 4 倍<br>IV. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)',
+        'description': `
+		I. 消除 3 種屬性符石時，全隊攻擊力 3 倍
+		II. 消除 4 種屬性符石時，全隊攻擊力 3.5 倍
+		III. 消除 5 種屬性符石時，全隊攻擊力 4 倍
+		IV. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4185,7 +5164,11 @@ const leader_skill_data = [
     },
     {
         'name': '夾腳拖',
-        'description': 'I. 移動符石時兼具夾腳拖聲效<br>II. 首批消除 ≥5 連擊 (Combo) 時<br>⇒ 全隊攻擊力 2.5 倍',
+        'description': `
+		I. 移動符石時兼具夾腳拖聲效
+		II. 首批消除 ≥5 連擊 (Combo) 時
+		⇒ 全隊攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4197,7 +5180,12 @@ const leader_skill_data = [
     },
     {
         'name': '腳踏無影',
-        'description': 'I. 移動符石時兼具夾腳拖聲效<br>II. 所有屬性符石兼具其他屬性符石效果 (效果不能疊加)<br>III. 首批消除 ≥5 連擊 (Combo) 時<br>⇒ 全隊攻擊力 1.5 倍',
+        'description': `
+		I. 移動符石時兼具夾腳拖聲效
+		II. 所有屬性符石兼具其他屬性符石效果 (效果不能疊加)
+		III. 首批消除 ≥5 連擊 (Combo) 時
+		⇒ 全隊攻擊力 1.5 倍
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -4215,7 +5203,9 @@ const leader_skill_data = [
     },
     {
         'name': '生命之泉 ‧ 水',
-        'description': '水屬性攻擊力 2 倍及生命力 1.5 倍',
+        'description': `
+		水屬性攻擊力 2 倍及生命力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -4227,7 +5217,9 @@ const leader_skill_data = [
     },
     {
         'name': '暗黑之強權',
-        'description': '暗屬性攻擊力 2 倍及回復力 1.5 倍',
+        'description': `
+		暗屬性攻擊力 2 倍及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -4239,7 +5231,10 @@ const leader_skill_data = [
     },
     {
         'name': '富饒之約 ‧ 火',
-        'description': 'I. 火屬性攻擊力 2 倍<br>II. 戰鬥中所獲得的金幣增加 50% (可疊加)',
+        'description': `
+		I. 火屬性攻擊力 2 倍
+		II. 戰鬥中所獲得的金幣增加 50% (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4256,7 +5251,9 @@ const leader_skill_data = [
     },
     {
         'name': '陰陽之怒',
-        'description': '光和暗屬性攻擊力 2 倍',
+        'description': `
+		光和暗屬性攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4268,7 +5265,10 @@ const leader_skill_data = [
     },
     {
         'name': '歃血之盟誓',
-        'description': 'I. 龍類攻擊力 3.5 倍及生命力 2 倍<br>II. 每回合扣除全隊總生命力 10%',
+        'description': `
+		I. 龍類攻擊力 3.5 倍及生命力 2 倍
+		II. 每回合扣除全隊總生命力 10%
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -4285,7 +5285,15 @@ const leader_skill_data = [
     },
     {
         'name': '噬血移魂',
-        'description': 'I. 木屬性的龍類及獸類攻擊力 3.5 倍及生命力 1.5 倍<br>II. 每回合扣除全隊總生命力 5%<br>III. 將龍類及獸類對敵方造成傷害的 10% 轉化為生命力 (不計算主動技傷害)，最大為生命力等值的 50% (不能疊加)<br>IV. 若轉化的生命力超出總生命力的上限時<br>① 每超出 12% 生命力<br>⇒ 回合結束時隨機將 1 粒符石轉化為木符石<br>⇒ 最多可轉化 4 粒 (效果不能疊加)',
+        'description': `
+		I. 木屬性的龍類及獸類攻擊力 3.5 倍及生命力 1.5 倍
+		II. 每回合扣除全隊總生命力 5%
+		III. 將龍類及獸類對敵方造成傷害的 10% 轉化為生命力 (不計算主動技傷害)，最大為生命力等值的 50% (不能疊加)
+		IV. 若轉化的生命力超出總生命力的上限時
+		① 每超出 12% 生命力
+		⇒ 回合結束時隨機將 1 粒符石轉化為木符石
+		⇒ 最多可轉化 4 粒 (效果不能疊加)
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -4308,7 +5316,10 @@ const leader_skill_data = [
     },
     {
         'name': '水之怒嘯 ‧ 獸',
-        'description': 'I. 水屬性攻擊力 2 倍<br>II. 水屬性獸類攻擊力則 3.5 倍',
+        'description': `
+		I. 水屬性攻擊力 2 倍
+		II. 水屬性獸類攻擊力則 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4320,7 +5331,10 @@ const leader_skill_data = [
     },
     {
         'name': '火之怒嘯 ‧ 獸',
-        'description': 'I. 火屬性攻擊力 2 倍<br>II. 火屬性獸類攻擊力則 3.5 倍',
+        'description': `
+		I. 火屬性攻擊力 2 倍
+		II. 火屬性獸類攻擊力則 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4332,7 +5346,10 @@ const leader_skill_data = [
     },
     {
         'name': '木之怒嘯 ‧ 獸',
-        'description': 'I. 木屬性攻擊力 2 倍<br>II. 木屬性獸類攻擊力則 3.5 倍',
+        'description': `
+		I. 木屬性攻擊力 2 倍
+		II. 木屬性獸類攻擊力則 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4344,7 +5361,10 @@ const leader_skill_data = [
     },
     {
         'name': '光之怒嘯 ‧ 獸',
-        'description': 'I. 光屬性攻擊力 2 倍<br>II. 光屬性獸類攻擊力則 3.5 倍',
+        'description': `
+		I. 光屬性攻擊力 2 倍
+		II. 光屬性獸類攻擊力則 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4356,7 +5376,10 @@ const leader_skill_data = [
     },
     {
         'name': '暗之怒嘯 ‧ 獸',
-        'description': 'I. 暗屬性攻擊力 2 倍<br>II. 暗屬性獸類攻擊力則 3.5 倍',
+        'description': `
+		I. 暗屬性攻擊力 2 倍
+		II. 暗屬性獸類攻擊力則 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4368,7 +5391,9 @@ const leader_skill_data = [
     },
     {
         'name': '妖精之輕步',
-        'description': '妖精類攻擊力 2 倍及回復力 1.5 倍',
+        'description': `
+		妖精類攻擊力 2 倍及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -4380,7 +5405,13 @@ const leader_skill_data = [
     },
     {
         'name': '連環陷阱',
-        'description': 'I. 連擊 (Combo) 愈多<br>⇒ 全隊攻擊力愈高<br>⇒ 10 連擊 (Combo) 即可達至最大 4.5 倍<br>II. 若連擊 (Combo) 數大於 10<br>⇒ 則全隊攻擊力變 0',
+        'description': `
+		I. 連擊 (Combo) 愈多
+		⇒ 全隊攻擊力愈高
+		⇒ 10 連擊 (Combo) 即可達至最大 4.5 倍
+		II. 若連擊 (Combo) 數大於 10
+		⇒ 則全隊攻擊力變 0
+		`,
         'tag': [
             {
                 'name': ['增攻', '我方減攻'],
@@ -4392,7 +5423,12 @@ const leader_skill_data = [
     },
     {
         'name': '童趣約定 ‧ 水',
-        'description': 'I. 連擊 (Combo) 數為單數時<br>⇒ 水屬性攻擊力 2 倍<br>II. 若連擊 (Combo) 數為雙數時<br>⇒ 則水屬性攻擊力 3.5 倍',
+        'description': `
+		I. 連擊 (Combo) 數為單數時
+		⇒ 水屬性攻擊力 2 倍
+		II. 若連擊 (Combo) 數為雙數時
+		⇒ 則水屬性攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4404,7 +5440,12 @@ const leader_skill_data = [
     },
     {
         'name': '童趣約定 ‧ 火',
-        'description': 'I. 連擊 (Combo) 數為單數時<br>⇒ 火屬性攻擊力 2 倍<br>II. 若連擊 (Combo) 數為雙數時<br>⇒ 則火屬性攻擊力 3.5 倍',
+        'description': `
+		I. 連擊 (Combo) 數為單數時
+		⇒ 火屬性攻擊力 2 倍
+		II. 若連擊 (Combo) 數為雙數時
+		⇒ 則火屬性攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4416,7 +5457,12 @@ const leader_skill_data = [
     },
     {
         'name': '童趣約定 ‧ 木',
-        'description': 'I. 連擊 (Combo) 數為單數時<br>⇒ 木屬性攻擊力 2 倍<br>II. 若連擊 (Combo) 數為雙數時<br>⇒ 則木屬性攻擊力 3.5 倍',
+        'description': `
+		I. 連擊 (Combo) 數為單數時
+		⇒ 木屬性攻擊力 2 倍
+		II. 若連擊 (Combo) 數為雙數時
+		⇒ 則木屬性攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4428,7 +5474,12 @@ const leader_skill_data = [
     },
     {
         'name': '童趣約定 ‧ 光',
-        'description': 'I. 連擊 (Combo) 數為單數時<br>⇒ 光屬性攻擊力 2 倍<br>II. 若連擊 (Combo) 數為雙數時<br>⇒ 則光屬性攻擊力 3.5 倍',
+        'description': `
+		I. 連擊 (Combo) 數為單數時
+		⇒ 光屬性攻擊力 2 倍
+		II. 若連擊 (Combo) 數為雙數時
+		⇒ 則光屬性攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4440,7 +5491,12 @@ const leader_skill_data = [
     },
     {
         'name': '童趣約定 ‧ 暗',
-        'description': 'I. 連擊 (Combo) 數為單數時<br>⇒ 暗屬性攻擊力 2 倍<br>II. 若連擊 (Combo) 數為雙數時<br>⇒ 則暗屬性攻擊力 3.5 倍',
+        'description': `
+		I. 連擊 (Combo) 數為單數時
+		⇒ 暗屬性攻擊力 2 倍
+		II. 若連擊 (Combo) 數為雙數時
+		⇒ 則暗屬性攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4452,7 +5508,13 @@ const leader_skill_data = [
     },
     {
         'name': '仙劍同源',
-        'description': '隊伍中只有水、火及木屬性的成員時：<br>I. 水符石兼具火及木符石效果<br>II. 火符石兼具水及木符石效果<br>III. 木符石兼具水及火符石效果 (不能疊加)<br>IV. 消除心符石時攻擊力有 50% 機率額外 1.5 倍 (機率可以疊加)',
+        'description': `
+		隊伍中只有水、火及木屬性的成員時：
+		I. 水符石兼具火及木符石效果
+		II. 火符石兼具水及木符石效果
+		III. 木符石兼具水及火符石效果 (不能疊加)
+		IV. 消除心符石時攻擊力有 50% 機率額外 1.5 倍 (機率可以疊加)
+		`,
         'tag': [
             {
                 'name': ['水兼具其他', '火兼具其他', '木兼具其他', '符石兼具水', '符石兼具火', '符石兼具木'],
@@ -4469,7 +5531,12 @@ const leader_skill_data = [
     },
     {
         'name': '逍遙神劍',
-        'description': 'I. 全隊攻擊力 1.8 倍，消除的符石數量愈多 (主動技能除外)<br>⇒ 全隊攻擊力提升愈多 (不能疊加)<br>II. 隊伍中只有水、火及木屬性的成員時：<br>⇒ 消除心符石時攻擊力有 50% 機率額外 1.5 倍 (機率可以疊加)',
+        'description': `
+		I. 全隊攻擊力 1.8 倍，消除的符石數量愈多 (主動技能除外)
+		⇒ 全隊攻擊力提升愈多 (不能疊加)
+		II. 隊伍中只有水、火及木屬性的成員時：
+		⇒ 消除心符石時攻擊力有 50% 機率額外 1.5 倍 (機率可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4491,7 +5558,11 @@ const leader_skill_data = [
     },
     {
         'name': '乾坤列陣',
-        'description': '隊伍中只有光及暗屬性人類時：<br>I. 全隊攻擊力 3 倍<br>II. 光及暗符石互相兼具 50% 效果 (可疊加)',
+        'description': `
+		隊伍中只有光及暗屬性人類時：
+		I. 全隊攻擊力 3 倍
+		II. 光及暗符石互相兼具 50% 效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4508,7 +5579,9 @@ const leader_skill_data = [
     },
     {
         'name': '水波灩影',
-        'description': '水屬性攻擊力 2 倍，隊伍中的人類成員愈多，水屬性攻擊力提升愈多，最大 3.5 倍',
+        'description': `
+		水屬性攻擊力 2 倍，隊伍中的人類成員愈多，水屬性攻擊力提升愈多，最大 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4525,7 +5598,9 @@ const leader_skill_data = [
     },
     {
         'name': '火燄舞影',
-        'description': '火屬性攻擊力 2 倍，隊伍中的人類成員愈多，火屬性攻擊力提升愈多，最大 3.5 倍',
+        'description': `
+		火屬性攻擊力 2 倍，隊伍中的人類成員愈多，火屬性攻擊力提升愈多，最大 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4542,7 +5617,12 @@ const leader_skill_data = [
     },
     {
         'name': '劍緣列陣',
-        'description': '隊伍中只有水、火及木屬性的成員時：<br>I. 消除 ≥4 組符石時<br>⇒ 全隊攻擊力 3 倍<br>II. 消除心符石時攻擊力有 50% 機率額外 1.5 倍 (機率可以疊加)',
+        'description': `
+		隊伍中只有水、火及木屬性的成員時：
+		I. 消除 ≥4 組符石時
+		⇒ 全隊攻擊力 3 倍
+		II. 消除心符石時攻擊力有 50% 機率額外 1.5 倍 (機率可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4559,7 +5639,9 @@ const leader_skill_data = [
     },
     {
         'name': '藤蔓碧影',
-        'description': '木屬性攻擊力 2 倍，隊伍中的人類成員愈多，木屬性攻擊力提升愈多，最大 3.5 倍',
+        'description': `
+		木屬性攻擊力 2 倍，隊伍中的人類成員愈多，木屬性攻擊力提升愈多，最大 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4576,7 +5658,10 @@ const leader_skill_data = [
     },
     {
         'name': '木之盛怒 ‧ 人',
-        'description': 'I. 木屬性攻擊力 2 倍<br>II. 木屬性人類攻擊力則 2.5 倍',
+        'description': `
+		I. 木屬性攻擊力 2 倍
+		II. 木屬性人類攻擊力則 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4588,7 +5673,11 @@ const leader_skill_data = [
     },
     {
         'name': '劍走偏鋒',
-        'description': '隊伍中的成員愈少<br>⇒ 全隊攻擊力愈高<br>⇒ 最大 6 倍',
+        'description': `
+		隊伍中的成員愈少
+		⇒ 全隊攻擊力愈高
+		⇒ 最大 6 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4600,7 +5689,10 @@ const leader_skill_data = [
     },
     {
         'name': '水之盛怒 ‧ 人',
-        'description': 'I. 水屬性攻擊力 2 倍<br>II. 水屬性人類攻擊力則 2.5 倍',
+        'description': `
+		I. 水屬性攻擊力 2 倍
+		II. 水屬性人類攻擊力則 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4612,7 +5704,10 @@ const leader_skill_data = [
     },
     {
         'name': '火之盛怒 ‧ 人',
-        'description': 'I. 火屬性攻擊力 2 倍<br>II. 火屬性人類攻擊力則 2.5 倍',
+        'description': `
+		I. 火屬性攻擊力 2 倍
+		II. 火屬性人類攻擊力則 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4624,7 +5719,10 @@ const leader_skill_data = [
     },
     {
         'name': '光之盛怒 ‧ 人',
-        'description': 'I. 光屬性攻擊力 2 倍<br>II. 光屬性人類攻擊力則 2.5 倍',
+        'description': `
+		I. 光屬性攻擊力 2 倍
+		II. 光屬性人類攻擊力則 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4636,7 +5734,10 @@ const leader_skill_data = [
     },
     {
         'name': '水之怒嘯 ‧ 魔',
-        'description': 'I. 水屬性攻擊力 2 倍<br>II. 水屬性魔族則攻擊力 3.5 倍',
+        'description': `
+		I. 水屬性攻擊力 2 倍
+		II. 水屬性魔族則攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4648,7 +5749,9 @@ const leader_skill_data = [
     },
     {
         'name': '天魔血脈',
-        'description': '火屬性魔族攻擊力 3 倍及生命力 1.3 倍',
+        'description': `
+		火屬性魔族攻擊力 3 倍及生命力 1.3 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -4660,7 +5763,12 @@ const leader_skill_data = [
     },
     {
         'name': '不撓雄傑 ‧ 光',
-        'description': 'I. 光屬性攻擊力 2.5 倍<br>II. 隊伍中的人類成員愈多時<br>⇒ 光屬性成員的生命力及回復力愈高<br>⇒ 5 個人類成員可達至最大 1.5 倍 (不計自身)',
+        'description': `
+		I. 光屬性攻擊力 2.5 倍
+		II. 隊伍中的人類成員愈多時
+		⇒ 光屬性成員的生命力及回復力愈高
+		⇒ 5 個人類成員可達至最大 1.5 倍 (不計自身)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4677,7 +5785,10 @@ const leader_skill_data = [
     },
     {
         'name': '暗之怒嘯 ‧ 魔',
-        'description': 'I. 暗屬性攻擊力 2 倍<br>II. 暗屬性魔族則攻擊力 3.5 倍',
+        'description': `
+		I. 暗屬性攻擊力 2 倍
+		II. 暗屬性魔族則攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4689,7 +5800,9 @@ const leader_skill_data = [
     },
     {
         'name': '大海之主義',
-        'description': '水屬性攻擊力及回復力 1.5 倍',
+        'description': `
+		水屬性攻擊力及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -4701,7 +5814,11 @@ const leader_skill_data = [
     },
     {
         'name': '神界聯盟 ‧ 水',
-        'description': 'I. 神族及水屬性攻擊力 2.5 倍<br>II. 若戰友為神族時<br>⇒ 神族攻擊力提升至 3.5 倍',
+        'description': `
+		I. 神族及水屬性攻擊力 2.5 倍
+		II. 若戰友為神族時
+		⇒ 神族攻擊力提升至 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4718,7 +5835,11 @@ const leader_skill_data = [
     },
     {
         'name': '神界聯盟 ‧ 火',
-        'description': 'I. 神族及火屬性攻擊力 2.5 倍<br>II. 若戰友為神族時<br>⇒ 神族攻擊力提升至 3.5 倍',
+        'description': `
+		I. 神族及火屬性攻擊力 2.5 倍
+		II. 若戰友為神族時
+		⇒ 神族攻擊力提升至 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4735,7 +5856,11 @@ const leader_skill_data = [
     },
     {
         'name': '神界聯盟 ‧ 木',
-        'description': 'I. 神族及木屬性攻擊力 2.5 倍<br>II. 若戰友為神族時<br>⇒ 神族攻擊力提升至 3.5 倍',
+        'description': `
+		I. 神族及木屬性攻擊力 2.5 倍
+		II. 若戰友為神族時
+		⇒ 神族攻擊力提升至 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4752,7 +5877,11 @@ const leader_skill_data = [
     },
     {
         'name': '神界聯盟 ‧ 光',
-        'description': 'I. 神族及光屬性攻擊力 2.5 倍<br>II. 若戰友為神族時<br>⇒ 神族攻擊力提升至 3.5 倍',
+        'description': `
+		I. 神族及光屬性攻擊力 2.5 倍
+		II. 若戰友為神族時
+		⇒ 神族攻擊力提升至 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4769,7 +5898,11 @@ const leader_skill_data = [
     },
     {
         'name': '神界聯盟 ‧ 暗',
-        'description': 'I. 神族及暗屬性攻擊力 2.5 倍<br>II. 若戰友為神族時<br>⇒ 神族攻擊力提升至 3.5 倍',
+        'description': `
+		I. 神族及暗屬性攻擊力 2.5 倍
+		II. 若戰友為神族時
+		⇒ 神族攻擊力提升至 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4786,7 +5919,11 @@ const leader_skill_data = [
     },
     {
         'name': '神界聯盟',
-        'description': 'I. 神族攻擊力 2.5 倍<br>II. 若戰友為神族時<br>⇒ 神族攻擊力提升至 3 倍',
+        'description': `
+		I. 神族攻擊力 2.5 倍
+		II. 若戰友為神族時
+		⇒ 神族攻擊力提升至 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4803,7 +5940,10 @@ const leader_skill_data = [
     },
     {
         'name': '靈念 ‧ 水',
-        'description': 'I. 水屬性攻擊力 2 倍<br>II. 水符石兼具 50% 心符石效果 (效果不能疊加)',
+        'description': `
+		I. 水屬性攻擊力 2 倍
+		II. 水符石兼具 50% 心符石效果 (效果不能疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4820,7 +5960,12 @@ const leader_skill_data = [
     },
     {
         'name': '全神貫注 ‧ 強',
-        'description': 'I. 隊伍中只有神族成員時：<br>⇒ 全隊攻擊力 3 倍<br>II. 消除 ≥5 粒心符石時<br>⇒ 全隊攻擊力額外 1.5 倍 (不能疊加)',
+        'description': `
+		I. 隊伍中只有神族成員時：
+		⇒ 全隊攻擊力 3 倍
+		II. 消除 ≥5 粒心符石時
+		⇒ 全隊攻擊力額外 1.5 倍 (不能疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4837,7 +5982,9 @@ const leader_skill_data = [
     },
     {
         'name': '大海之集權',
-        'description': '水屬性攻擊力 2.5 倍及回復力 1.5 倍',
+        'description': `
+		水屬性攻擊力 2.5 倍及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -4849,7 +5996,9 @@ const leader_skill_data = [
     },
     {
         'name': '煉獄之集權',
-        'description': '火屬性攻擊力 2.5 倍及回復力 1.5 倍',
+        'description': `
+		火屬性攻擊力 2.5 倍及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -4861,7 +6010,9 @@ const leader_skill_data = [
     },
     {
         'name': '大地之集權',
-        'description': '木屬性攻擊力 2.5 倍及回復力 1.5 倍',
+        'description': `
+		木屬性攻擊力 2.5 倍及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -4873,7 +6024,9 @@ const leader_skill_data = [
     },
     {
         'name': '神聖之集權',
-        'description': '光屬性攻擊力 2.5 倍及回復力 1.5 倍',
+        'description': `
+		光屬性攻擊力 2.5 倍及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -4885,7 +6038,9 @@ const leader_skill_data = [
     },
     {
         'name': '暗黑之集權',
-        'description': '暗屬性攻擊力 2.5 倍及回復力 1.5 倍',
+        'description': `
+		暗屬性攻擊力 2.5 倍及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -4897,7 +6052,13 @@ const leader_skill_data = [
     },
     {
         'name': '元素契約',
-        'description': 'I. 自身屬性攻擊力 2.5 倍<br>II. 消除 1 組 ≥5 粒自身屬性符石<br>⇒ 則自身屬性攻擊力 3 倍<br>II. 消除自身屬性的強化符石時<br>⇒ 全隊攻擊力有 50% 機率額外 1.5 倍 (機率可以疊加)',
+        'description': `
+		I. 自身屬性攻擊力 2.5 倍
+		II. 消除 1 組 ≥5 粒自身屬性符石
+		⇒ 則自身屬性攻擊力 3 倍
+		II. 消除自身屬性的強化符石時
+		⇒ 全隊攻擊力有 50% 機率額外 1.5 倍 (機率可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -4919,7 +6080,9 @@ const leader_skill_data = [
     },
     {
         'name': '浪濤萬鈞之怒',
-        'description': '水屬性攻擊力 4 倍',
+        'description': `
+		水屬性攻擊力 4 倍
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -4932,7 +6095,9 @@ const leader_skill_data = [
     },
     {
         'name': '熾燄萬鈞之怒',
-        'description': '火屬性攻擊力 4 倍',
+        'description': `
+		火屬性攻擊力 4 倍
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -4945,7 +6110,9 @@ const leader_skill_data = [
     },
     {
         'name': '藤木萬鈞之怒',
-        'description': '木屬性攻擊力 4 倍',
+        'description': `
+		木屬性攻擊力 4 倍
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -4958,7 +6125,9 @@ const leader_skill_data = [
     },
     {
         'name': '玄光萬鈞之怒',
-        'description': '光屬性攻擊力 4 倍',
+        'description': `
+		光屬性攻擊力 4 倍
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -4971,7 +6140,9 @@ const leader_skill_data = [
     },
     {
         'name': '幽冥萬鈞之怒',
-        'description': '暗屬性攻擊力 4 倍',
+        'description': `
+		暗屬性攻擊力 4 倍
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -4984,7 +6155,11 @@ const leader_skill_data = [
     },
     {
         'name': '百獸同心',
-        'description': '隊伍中只有獸類成員時：<br>I. 全隊攻擊力 3.5 倍<br>II. 所有屬性符石兼具 25% 心符石效果 (效果不能疊加)',
+        'description': `
+		隊伍中只有獸類成員時：
+		I. 全隊攻擊力 3.5 倍
+		II. 所有屬性符石兼具 25% 心符石效果 (效果不能疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5001,7 +6176,10 @@ const leader_skill_data = [
     },
     {
         'name': '煉獄之強權 ‧ 獸',
-        'description': 'I. 火屬性攻擊力 2 倍及回復力 1.5 倍<br>II. 火屬性獸類攻擊力 3.5 倍',
+        'description': `
+		I. 火屬性攻擊力 2 倍及回復力 1.5 倍
+		II. 火屬性獸類攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -5013,7 +6191,10 @@ const leader_skill_data = [
     },
     {
         'name': '大地之強權 ‧ 獸',
-        'description': 'I. 木屬性攻擊力 2 倍及回復力 1.5 倍<br>II. 木屬性獸類攻擊力 3.5 倍',
+        'description': `
+		I. 木屬性攻擊力 2 倍及回復力 1.5 倍
+		II. 木屬性獸類攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -5025,7 +6206,10 @@ const leader_skill_data = [
     },
     {
         'name': '百獸同盟',
-        'description': '隊伍中只有獸類成員時<br>⇒ 全隊攻擊力 4.5 倍',
+        'description': `
+		隊伍中只有獸類成員時
+		⇒ 全隊攻擊力 4.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5037,7 +6221,13 @@ const leader_skill_data = [
     },
     {
         'name': '銳兵列陣 ‧ 強',
-        'description': '隊伍中需有水及光屬性的成員：<br>I. 消除 ≥3 種屬性符石時<br>⇒ 水及光屬性攻擊力 3.5 倍<br>II. 消除水和光符石時<br>⇒ 水和光屬性攻擊力有 50% 機率額外 2 倍 (機率可以疊加)',
+        'description': `
+		隊伍中需有水及光屬性的成員：
+		I. 消除 ≥3 種屬性符石時
+		⇒ 水及光屬性攻擊力 3.5 倍
+		II. 消除水和光符石時
+		⇒ 水和光屬性攻擊力有 50% 機率額外 2 倍 (機率可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5054,7 +6244,12 @@ const leader_skill_data = [
     },
     {
         'name': '火靈符籙',
-        'description': 'I. 2 粒火符石或心符石相連，即可發動消除<br>所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)<br>II. 回合結束時，將 2 粒符石轉化為火符石<br>(光及暗符石優先轉換)',
+        'description': `
+		I. 2 粒火符石或心符石相連，即可發動消除
+		所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)
+		II. 回合結束時，將 2 粒符石轉化為火符石
+		(光及暗符石優先轉換)
+		`,
         'tag': [
             {
                 'name': ['改變消除方式', '符石轉火'],
@@ -5066,7 +6261,12 @@ const leader_skill_data = [
     },
     {
         'name': '木靈符籙',
-        'description': 'I. 2 粒木符石或心符石相連，即可發動消除<br>所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)<br>II. 回合結束時，將 2 粒符石轉化為木符石<br>(光及暗符石優先轉換)',
+        'description': `
+		I. 2 粒木符石或心符石相連，即可發動消除
+		所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)
+		II. 回合結束時，將 2 粒符石轉化為木符石
+		(光及暗符石優先轉換)
+		`,
         'tag': [
             {
                 'name': ['改變消除方式', '符石轉木'],
@@ -5078,7 +6278,12 @@ const leader_skill_data = [
     },
     {
         'name': '愈戰愈強 ‧ 聚擊',
-        'description': 'I. 生命力愈低時<br>⇒ 全隊攻擊力會愈高，最大 3 倍<br>II. 消除 1 組 ≥5 粒暗符石時<br>⇒ 全隊攻擊力額外 1.5 倍 (效果可以疊加)',
+        'description': `
+		I. 生命力愈低時
+		⇒ 全隊攻擊力會愈高，最大 3 倍
+		II. 消除 1 組 ≥5 粒暗符石時
+		⇒ 全隊攻擊力額外 1.5 倍 (效果可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5095,7 +6300,9 @@ const leader_skill_data = [
     },
     {
         'name': '大地之霸權',
-        'description': '木屬性攻擊力 2.5 倍及回復力 2 倍',
+        'description': `
+		木屬性攻擊力 2.5 倍及回復力 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -5107,7 +6314,12 @@ const leader_skill_data = [
     },
     {
         'name': '噬血龍王 ‧ 強',
-        'description': 'I. 龍類攻擊力 2.5 倍<br>II. 將龍類對敵方造成傷害的 10%<br>⇒ 轉化為生命力 (不計算主動及隊長技傷害)<br>⇒ 最大為生命力等值的 50% (不能疊加)',
+        'description': `
+		I. 龍類攻擊力 2.5 倍
+		II. 將龍類對敵方造成傷害的 10%
+		⇒ 轉化為生命力 (不計算主動及隊長技傷害)
+		⇒ 最大為生命力等值的 50% (不能疊加)
+		`,
         'tag': [
             {
                 'name': ['增攻', '我方傷害吸收'],
@@ -5119,7 +6331,9 @@ const leader_skill_data = [
     },
     {
         'name': '神之強權',
-        'description': '神族攻擊力 2 倍及回復力 1.5 倍',
+        'description': `
+		神族攻擊力 2 倍及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -5131,7 +6345,11 @@ const leader_skill_data = [
     },
     {
         'name': '元素凝滙 ‧ 強',
-        'description': 'I. 全隊攻擊力 1.5 倍<br>II. 隊伍成員的屬性愈多<br>⇒ 全隊攻擊力愈高，最大 4 倍',
+        'description': `
+		I. 全隊攻擊力 1.5 倍
+		II. 隊伍成員的屬性愈多
+		⇒ 全隊攻擊力愈高，最大 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5148,7 +6366,10 @@ const leader_skill_data = [
     },
     {
         'name': '真龍王震怒 ‧ 癒術',
-        'description': 'I. 龍類及神族攻擊力 4 倍<br>II. 龍類回復力 2 倍',
+        'description': `
+		I. 龍類及神族攻擊力 4 倍
+		II. 龍類回復力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5165,7 +6386,10 @@ const leader_skill_data = [
     },
     {
         'name': '真火煉獄 ‧ 熾岩',
-        'description': '每回合對敵方全體<br>⇒ 追打 50,000 點無屬性傷害 1 次 (需消除符石)',
+        'description': `
+		每回合對敵方全體
+		⇒ 追打 50,000 點無屬性傷害 1 次 (需消除符石)
+		`,
         'tag': [
             {
                 'name': '直傷',
@@ -5177,7 +6401,10 @@ const leader_skill_data = [
     },
     {
         'name': '霸王震怒 ‧ 癒術',
-        'description': 'I. 妖精類攻擊力 4.5 倍<br>II. 獸類攻擊力 4 倍及回復力 1.8 倍',
+        'description': `
+		I. 妖精類攻擊力 4.5 倍
+		II. 獸類攻擊力 4 倍及回復力 1.8 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5194,7 +6421,17 @@ const leader_skill_data = [
     },
     {
         'name': '護甲金尊',
-        'description': 'I. 全隊回復力 1.5 倍<br><br>II. 生命力愈高<br>⇒ 所受傷害愈低<br>⇒ 最多減少 60% 傷害<br><br>III. 生命力愈低<br>⇒ 迴避敵人攻擊的機率愈高<br>⇒ 最大 50%',
+        'description': `
+		I. 全隊回復力 1.5 倍
+		
+		II. 生命力愈高
+		⇒ 所受傷害愈低
+		⇒ 最多減少 60% 傷害
+		
+		III. 生命力愈低
+		⇒ 迴避敵人攻擊的機率愈高
+		⇒ 最大 50%
+		`,
         'tag': [
             {
                 'name': ['增回', '減傷', '迴避'],
@@ -5206,7 +6443,13 @@ const leader_skill_data = [
     },
     {
         'name': '流雲雙刃斬',
-        'description': 'I. 水屬性攻擊力 2.5 倍<br>II. 消除最底 1 橫行內的所有符石時<br>⇒ 自身攻擊力額外 3 倍<br>III. 若使用相同的隊長及戰友時<br>⇒ 自身攻擊力則額外 9 倍',
+        'description': `
+		I. 水屬性攻擊力 2.5 倍
+		II. 消除最底 1 橫行內的所有符石時
+		⇒ 自身攻擊力額外 3 倍
+		III. 若使用相同的隊長及戰友時
+		⇒ 自身攻擊力則額外 9 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5228,7 +6471,10 @@ const leader_skill_data = [
     },
     {
         'name': '莫逆相伴 ‧ 妖',
-        'description': '隊伍中的妖精類成員愈多<br>⇒ 全隊攻擊力愈高，最大 3.5 倍',
+        'description': `
+		隊伍中的妖精類成員愈多
+		⇒ 全隊攻擊力愈高，最大 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5245,7 +6491,13 @@ const leader_skill_data = [
     },
     {
         'name': '電殛雙刃斬',
-        'description': 'I. 光屬性攻擊力 2.5 倍<br>II. 消除最底 1 橫行內的所有符石時<br>⇒ 自身攻擊力額外 3 倍<br>III. 若使用相同的隊長及戰友時<br>⇒ 自身攻擊力則額外 9 倍',
+        'description': `
+		I. 光屬性攻擊力 2.5 倍
+		II. 消除最底 1 橫行內的所有符石時
+		⇒ 自身攻擊力額外 3 倍
+		III. 若使用相同的隊長及戰友時
+		⇒ 自身攻擊力則額外 9 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5267,7 +6519,14 @@ const leader_skill_data = [
     },
     {
         'name': '天魔道 ‧ 暗',
-        'description': 'I. 暗屬性攻擊力 2 倍<br>II. 隊伍中每個魔族成員<br>⓵ 扣除 5% 總生命力上限<br>⇒ 6 個魔族成員共扣除 30% 總生命力上限<br>⓶ 額外增加暗屬性攻擊力 0.5 倍<br>⇒ 6 個魔族成員達至最高 5 倍暗屬性攻擊力',
+        'description': `
+		I. 暗屬性攻擊力 2 倍
+		II. 隊伍中每個魔族成員
+		⓵ 扣除 5% 總生命力上限
+		⇒ 6 個魔族成員共扣除 30% 總生命力上限
+		⓶ 額外增加暗屬性攻擊力 0.5 倍
+		⇒ 6 個魔族成員達至最高 5 倍暗屬性攻擊力
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5284,7 +6543,9 @@ const leader_skill_data = [
     },
     {
         'name': '靈力迫人',
-        'description': '生命力全滿時，攻擊力 3 倍',
+        'description': `
+		生命力全滿時，攻擊力 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5296,7 +6557,13 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼之賜 ‧ 護心',
-        'description': 'I. 全隊攻擊力 2.5 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行將產生 1 粒心符石<br>III. 生命力全滿時<br>⇒ 減少 20% 所受傷害',
+        'description': `
+		I. 全隊攻擊力 2.5 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行將產生 1 粒心符石
+		III. 生命力全滿時
+		⇒ 減少 20% 所受傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5318,7 +6585,13 @@ const leader_skill_data = [
     },
     {
         'name': '雙刃斬 ‧ 水',
-        'description': 'I. 水屬性攻擊力 2.5 倍<br>II. 消除 1 組 ≥5 粒水符石時<br>⇒ 自身攻擊力額外 2 倍<br>III. 若使用相同的隊長及戰友時<br>⇒ 自身攻擊力則額外 4 倍',
+        'description': `
+		I. 水屬性攻擊力 2.5 倍
+		II. 消除 1 組 ≥5 粒水符石時
+		⇒ 自身攻擊力額外 2 倍
+		III. 若使用相同的隊長及戰友時
+		⇒ 自身攻擊力則額外 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5340,7 +6613,13 @@ const leader_skill_data = [
     },
     {
         'name': '無影幻像 ‧ 水',
-        'description': 'I. 水屬性攻擊力 2 倍<br>II. 每回合場上數量最多的 1 種屬性符石<br>⇒ 兼具 50% 水符石效果 (可疊加)<br>III. 如場上數量最多的 1 種屬性符石為水符石<br>⇒ 則兼具效果變為水屬性攻擊力額外 1.4 倍 (可疊加)',
+        'description': `
+		I. 水屬性攻擊力 2 倍
+		II. 每回合場上數量最多的 1 種屬性符石
+		⇒ 兼具 50% 水符石效果 (可疊加)
+		III. 如場上數量最多的 1 種屬性符石為水符石
+		⇒ 則兼具效果變為水屬性攻擊力額外 1.4 倍 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5362,7 +6641,13 @@ const leader_skill_data = [
     },
     {
         'name': '無影幻像 ‧ 浪濤',
-        'description': 'I. 水屬性攻擊力 3 倍<br>II. 每回合場上數量最多的 1 種屬性符石<br>⇒ 兼具 50% 水符石效果 (可疊加)<br>III. 如場上數量最多的 1 種屬性符石為水符石<br>⇒ 則兼具效果變為水屬性攻擊力額外 1.4 倍 (可疊加)',
+        'description': `
+		I. 水屬性攻擊力 3 倍
+		II. 每回合場上數量最多的 1 種屬性符石
+		⇒ 兼具 50% 水符石效果 (可疊加)
+		III. 如場上數量最多的 1 種屬性符石為水符石
+		⇒ 則兼具效果變為水屬性攻擊力額外 1.4 倍 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5384,7 +6669,13 @@ const leader_skill_data = [
     },
     {
         'name': '無垠幻像 ‧ 浪濤',
-        'description': 'I. 水屬性攻擊力 3.5 倍<br>II. 每回合場上數量最多的 1 種屬性符石<br>⇒ 兼具 50% 水符石效果 (可疊加)<br>III. 如場上數量最多的 1 種屬性符石為水符石<br>⇒ 則兼具效果變為水屬性攻擊力額外 1.4 倍 (可疊加)',
+        'description': `
+		I. 水屬性攻擊力 3.5 倍
+		II. 每回合場上數量最多的 1 種屬性符石
+		⇒ 兼具 50% 水符石效果 (可疊加)
+		III. 如場上數量最多的 1 種屬性符石為水符石
+		⇒ 則兼具效果變為水屬性攻擊力額外 1.4 倍 (可疊加)
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -5407,7 +6698,13 @@ const leader_skill_data = [
     },
     {
         'name': '無影幻像 ‧ 火',
-        'description': 'I. 火屬性攻擊力 2 倍<br>II. 每回合場上數量最多的 1 種屬性符石<br>⇒ 兼具 50% 火符石效果 (可疊加)<br>III. 如場上數量最多的 1 種屬性符石為火符石<br>⇒ 則兼具效果變為火屬性攻擊力額外 1.4 倍 (可疊加)',
+        'description': `
+		I. 火屬性攻擊力 2 倍
+		II. 每回合場上數量最多的 1 種屬性符石
+		⇒ 兼具 50% 火符石效果 (可疊加)
+		III. 如場上數量最多的 1 種屬性符石為火符石
+		⇒ 則兼具效果變為火屬性攻擊力額外 1.4 倍 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5429,7 +6726,13 @@ const leader_skill_data = [
     },
     {
         'name': '無影幻像 ‧ 熾燄',
-        'description': 'I. 火屬性攻擊力 3 倍<br>II. 每回合場上數量最多的 1 種屬性符石<br>⇒ 兼具 50% 火符石效果 (可疊加)<br>III. 如場上數量最多的 1 種屬性符石為火符石<br>⇒ 則兼具效果變為火屬性攻擊力額外 1.4 倍 (可疊加)',
+        'description': `
+		I. 火屬性攻擊力 3 倍
+		II. 每回合場上數量最多的 1 種屬性符石
+		⇒ 兼具 50% 火符石效果 (可疊加)
+		III. 如場上數量最多的 1 種屬性符石為火符石
+		⇒ 則兼具效果變為火屬性攻擊力額外 1.4 倍 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5451,7 +6754,13 @@ const leader_skill_data = [
     },
     {
         'name': '無垠幻像 ‧ 熾燄',
-        'description': 'I. 火屬性攻擊力 3.5 倍<br>II. 每回合場上數量最多的 1 種屬性符石<br>⇒ 兼具 50% 火符石效果 (可疊加)<br>III. 如場上數量最多的 1 種屬性符石為火符石<br>⇒ 則兼具效果變為火屬性攻擊力額外 1.4 倍 (可疊加)',
+        'description': `
+		I. 火屬性攻擊力 3.5 倍
+		II. 每回合場上數量最多的 1 種屬性符石
+		⇒ 兼具 50% 火符石效果 (可疊加)
+		III. 如場上數量最多的 1 種屬性符石為火符石
+		⇒ 則兼具效果變為火屬性攻擊力額外 1.4 倍 (可疊加)
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -5474,7 +6783,13 @@ const leader_skill_data = [
     },
     {
         'name': '無影幻像 ‧ 木',
-        'description': 'I. 木屬性攻擊力 2 倍<br>II. 每回合場上數量最多的 1 種屬性符石<br>⇒ 兼具 50% 木符石效果 (可疊加)<br>III. 如場上數量最多的 1 種屬性符石為木符石<br>⇒ 則兼具效果變為木屬性攻擊力額外 1.4 倍 (可疊加)',
+        'description': `
+		I. 木屬性攻擊力 2 倍
+		II. 每回合場上數量最多的 1 種屬性符石
+		⇒ 兼具 50% 木符石效果 (可疊加)
+		III. 如場上數量最多的 1 種屬性符石為木符石
+		⇒ 則兼具效果變為木屬性攻擊力額外 1.4 倍 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5496,7 +6811,13 @@ const leader_skill_data = [
     },
     {
         'name': '無影幻像 ‧ 藤木',
-        'description': 'I. 木屬性攻擊力 3 倍<br>II. 每回合場上數量最多的 1 種屬性符石<br>⇒ 兼具 50% 木符石效果 (可疊加)<br>III. 如場上數量最多的 1 種屬性符石為木符石<br>⇒ 則兼具效果變為木屬性攻擊力額外 1.4 倍 (可疊加)',
+        'description': `
+		I. 木屬性攻擊力 3 倍
+		II. 每回合場上數量最多的 1 種屬性符石
+		⇒ 兼具 50% 木符石效果 (可疊加)
+		III. 如場上數量最多的 1 種屬性符石為木符石
+		⇒ 則兼具效果變為木屬性攻擊力額外 1.4 倍 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5518,7 +6839,13 @@ const leader_skill_data = [
     },
     {
         'name': '無垠幻像 ‧ 藤木',
-        'description': 'I. 木屬性攻擊力 3.5 倍<br>II. 每回合場上數量最多的 1 種屬性符石<br>⇒ 兼具 50% 木符石效果 (可疊加)<br>III. 如場上數量最多的 1 種屬性符石為木符石<br>⇒ 則兼具效果變為木屬性攻擊力額外 1.4 倍 (可疊加)',
+        'description': `
+		I. 木屬性攻擊力 3.5 倍
+		II. 每回合場上數量最多的 1 種屬性符石
+		⇒ 兼具 50% 木符石效果 (可疊加)
+		III. 如場上數量最多的 1 種屬性符石為木符石
+		⇒ 則兼具效果變為木屬性攻擊力額外 1.4 倍 (可疊加)
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -5541,7 +6868,12 @@ const leader_skill_data = [
     },
     {
         'name': '流螢結陣 ‧ 初',
-        'description': 'I. 光屬性攻擊力 2 倍<br>II. 延長移動符石時間 1 秒<br>III. 消除 1 組 ≥5 粒光符石時<br>⇒ 光屬性攻擊力額外 1.5 倍 (可疊加)',
+        'description': `
+		I. 光屬性攻擊力 2 倍
+		II. 延長移動符石時間 1 秒
+		III. 消除 1 組 ≥5 粒光符石時
+		⇒ 光屬性攻擊力額外 1.5 倍 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5563,7 +6895,12 @@ const leader_skill_data = [
     },
     {
         'name': '流螢結陣 ‧ 繼',
-        'description': 'I. 光屬性攻擊力 3 倍<br>II. 延長移動符石時間 1 秒<br>III. 消除 1 組 ≥5 粒光符石時<br>⇒ 光屬性攻擊力額外 1.5 倍 (可疊加)',
+        'description': `
+		I. 光屬性攻擊力 3 倍
+		II. 延長移動符石時間 1 秒
+		III. 消除 1 組 ≥5 粒光符石時
+		⇒ 光屬性攻擊力額外 1.5 倍 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5585,7 +6922,12 @@ const leader_skill_data = [
     },
     {
         'name': '幽冥結陣 ‧ 初',
-        'description': 'I. 暗屬性攻擊力 2 倍<br>II. 延長移動符石時間 1 秒<br>III. 消除 1 組 ≥5 粒暗符石時<br>⇒ 暗屬性攻擊力額外 1.5 倍 (可疊加)',
+        'description': `
+		I. 暗屬性攻擊力 2 倍
+		II. 延長移動符石時間 1 秒
+		III. 消除 1 組 ≥5 粒暗符石時
+		⇒ 暗屬性攻擊力額外 1.5 倍 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5607,7 +6949,12 @@ const leader_skill_data = [
     },
     {
         'name': '幽冥結陣 ‧ 繼',
-        'description': 'I. 暗屬性攻擊力 3 倍<br>II. 延長移動符石時間 1 秒<br>III. 消除 1 組 ≥5 粒暗符石時<br>⇒ 暗屬性攻擊力額外 1.5 倍 (可疊加)',
+        'description': `
+		I. 暗屬性攻擊力 3 倍
+		II. 延長移動符石時間 1 秒
+		III. 消除 1 組 ≥5 粒暗符石時
+		⇒ 暗屬性攻擊力額外 1.5 倍 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5629,7 +6976,11 @@ const leader_skill_data = [
     },
     {
         'name': '魔魅復甦 ‧ 凝水',
-        'description': 'I. 水屬性攻擊力 2.5 倍及魔族回復力 2 倍<br>II. 木、光、暗屬性傷害減少 50%<br>III. 所有成員對木屬性目標時無視屬性相剋',
+        'description': `
+		I. 水屬性攻擊力 2.5 倍及魔族回復力 2 倍
+		II. 木、光、暗屬性傷害減少 50%
+		III. 所有成員對木屬性目標時無視屬性相剋
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5651,7 +7002,11 @@ const leader_skill_data = [
     },
     {
         'name': '魔魅復甦 ‧ 凝火',
-        'description': 'I. 火屬性攻擊力 2.5 倍及魔族回復力 2 倍<br>II. 水、光、暗屬性傷害減少 50%<br>III. 所有成員對水屬性目標時無視屬性相剋',
+        'description': `
+		I. 火屬性攻擊力 2.5 倍及魔族回復力 2 倍
+		II. 水、光、暗屬性傷害減少 50%
+		III. 所有成員對水屬性目標時無視屬性相剋
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5673,7 +7028,11 @@ const leader_skill_data = [
     },
     {
         'name': '魔魅復甦 ‧ 凝木',
-        'description': 'I. 木屬性攻擊力 2.5 倍及魔族回復力 2 倍<br>II. 火、光、暗屬性傷害減少 50%<br>III. 所有成員對火屬性目標時無視屬性相剋',
+        'description': `
+		I. 木屬性攻擊力 2.5 倍及魔族回復力 2 倍
+		II. 火、光、暗屬性傷害減少 50%
+		III. 所有成員對火屬性目標時無視屬性相剋
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5695,7 +7054,11 @@ const leader_skill_data = [
     },
     {
         'name': '魔怒嘯天 ‧ 天雷陣',
-        'description': 'I. 光屬性攻擊力 2.5 倍<br>II. 光屬性魔族攻擊力則 3.5 倍<br>III. 提升光屬性對暗屬性目標的攻擊力 (不包括主動技)',
+        'description': `
+		I. 光屬性攻擊力 2.5 倍
+		II. 光屬性魔族攻擊力則 3.5 倍
+		III. 提升光屬性對暗屬性目標的攻擊力 (不包括主動技)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5712,7 +7075,11 @@ const leader_skill_data = [
     },
     {
         'name': '魔怒嘯天 ‧ 冥極',
-        'description': '暗屬性魔族攻擊力 3.5 倍，每消除 1 組暗符石<br>⇒ 攻擊力提升 0.5 倍<br>⇒ 消除 3 組暗符石即可達至最大 5 倍',
+        'description': `
+		暗屬性魔族攻擊力 3.5 倍，每消除 1 組暗符石
+		⇒ 攻擊力提升 0.5 倍
+		⇒ 消除 3 組暗符石即可達至最大 5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5729,7 +7096,15 @@ const leader_skill_data = [
     },
     {
         'name': '歸元結念',
-        'description': 'I. 全隊攻擊力 3.5 倍<br>II. 龍類生命力 1.3 倍<br>III. 魔族攻擊力額外 1.3 倍<br>IV. 妖精類回復力 1.3 倍<br>V. 每個獸類成員延長移動符石時間 0.5 秒<br>VI. 當隊伍中有 ≥4 種族成員時<br>⇒ 所有屬性符石兼具 50% 其他屬性符石效果',
+        'description': `
+		I. 全隊攻擊力 3.5 倍
+		II. 龍類生命力 1.3 倍
+		III. 魔族攻擊力額外 1.3 倍
+		IV. 妖精類回復力 1.3 倍
+		V. 每個獸類成員延長移動符石時間 0.5 秒
+		VI. 當隊伍中有 ≥4 種族成員時
+		⇒ 所有屬性符石兼具 50% 其他屬性符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5761,7 +7136,10 @@ const leader_skill_data = [
     },
     {
         'name': '浪濤界限 ‧ 變革',
-        'description': 'I. ≥3 粒水符石相連，即可發動消除<br>II. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)',
+        'description': `
+		I. ≥3 粒水符石相連，即可發動消除
+		II. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)
+		`,
         'tag': [
             {
                 'name': '改變消除方式',
@@ -5773,7 +7151,10 @@ const leader_skill_data = [
     },
     {
         'name': '界限變革',
-        'description': 'I. ≥3 粒相同種類的符石相連，即可發動消除<br>II. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)',
+        'description': `
+		I. ≥3 粒相同種類的符石相連，即可發動消除
+		II. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)
+		`,
         'tag': [
             {
                 'name': '改變消除方式',
@@ -5785,7 +7166,12 @@ const leader_skill_data = [
     },
     {
         'name': '五念凝匯 ‧ 強',
-        'description': 'I. 隊伍中有 5 種屬性的成員時<br>⇒ 全隊攻擊力 1.5 倍<br>II. 隊伍中有 ≥5 種族成員時<br>⇒ 全隊攻擊力額外 1.5 倍',
+        'description': `
+		I. 隊伍中有 5 種屬性的成員時
+		⇒ 全隊攻擊力 1.5 倍
+		II. 隊伍中有 ≥5 種族成員時
+		⇒ 全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5802,7 +7188,12 @@ const leader_skill_data = [
     },
     {
         'name': '五念凝匯 ‧ 極',
-        'description': 'I. 隊伍中有 5 種屬性的成員時<br>⇒ 全隊攻擊力 2 倍<br>II. 隊伍中有 ≥5 種族成員時<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		I. 隊伍中有 5 種屬性的成員時
+		⇒ 全隊攻擊力 2 倍
+		II. 隊伍中有 ≥5 種族成員時
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5819,7 +7210,11 @@ const leader_skill_data = [
     },
     {
         'name': '幽冥界限 ‧ 變革',
-        'description': 'I. ≥3 粒暗符石相連，即可發動消除<br>II. 所有符石掉落率不受其他技能影響<br>   (包括改變掉落符石屬性的技能)',
+        'description': `
+		I. ≥3 粒暗符石相連，即可發動消除
+		II. 所有符石掉落率不受其他技能影響
+		   (包括改變掉落符石屬性的技能)
+		`,
         'tag': [
             {
                 'name': '改變消除方式',
@@ -5831,7 +7226,9 @@ const leader_skill_data = [
     },
     {
         'name': '水之治療',
-        'description': '水屬性回復力 1.5 倍',
+        'description': `
+		水屬性回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -5843,7 +7240,9 @@ const leader_skill_data = [
     },
     {
         'name': '火之治療',
-        'description': '火屬性回復力 1.5 倍',
+        'description': `
+		火屬性回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -5855,7 +7254,9 @@ const leader_skill_data = [
     },
     {
         'name': '木之治療',
-        'description': '木屬性回復力 1.5 倍',
+        'description': `
+		木屬性回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -5867,7 +7268,9 @@ const leader_skill_data = [
     },
     {
         'name': '光之治療',
-        'description': '光屬性回復力 1.5 倍',
+        'description': `
+		光屬性回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -5879,7 +7282,9 @@ const leader_skill_data = [
     },
     {
         'name': '暗之治療',
-        'description': '暗屬性回復力 1.5 倍',
+        'description': `
+		暗屬性回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -5891,7 +7296,9 @@ const leader_skill_data = [
     },
     {
         'name': '幽闇魅影',
-        'description': '暗屬性攻擊力 2 倍，隊伍中的人類成員愈多，暗屬性攻擊力提升愈多，最大 3.5 倍',
+        'description': `
+		暗屬性攻擊力 2 倍，隊伍中的人類成員愈多，暗屬性攻擊力提升愈多，最大 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5908,7 +7315,10 @@ const leader_skill_data = [
     },
     {
         'name': '富饒之約 ‧ 光',
-        'description': 'I. 光屬性攻擊力 2 倍<br>II. 戰鬥中所獲得的金幣增加 50% (可疊加)',
+        'description': `
+		I. 光屬性攻擊力 2 倍
+		II. 戰鬥中所獲得的金幣增加 50% (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5925,7 +7335,9 @@ const leader_skill_data = [
     },
     {
         'name': '人類之嗔怒',
-        'description': '人類攻擊力 3 倍',
+        'description': `
+		人類攻擊力 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5937,7 +7349,9 @@ const leader_skill_data = [
     },
     {
         'name': '人之精神',
-        'description': '人類生命力 1.5 倍',
+        'description': `
+		人類生命力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增血',
@@ -5949,7 +7363,14 @@ const leader_skill_data = [
     },
     {
         'name': '神龍呼嘯 ‧ 浪濤',
-        'description': '隊中只有神族及龍類成員時：<br>I. 全隊攻擊力 6.5 倍<br>II. 每個龍類成員增加 150 點回復力<br>III. 同時消除水及心符石時<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 水符石兼具 50% 心符石效果',
+        'description': `
+		隊中只有神族及龍類成員時：
+		I. 全隊攻擊力 6.5 倍
+		II. 每個龍類成員增加 150 點回復力
+		III. 同時消除水及心符石時
+		⇒ 全隊攻擊力額外 2 倍
+		IV. 水符石兼具 50% 心符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -5976,7 +7397,14 @@ const leader_skill_data = [
     },
     {
         'name': '魔龍狂號 ‧ 熾燄',
-        'description': '隊中只有魔族及龍類成員時：<br>I. 全隊攻擊力 6.5 倍<br>II. 每個龍類成員增加 150 點回復力<br>III. 場上有附加效果時<br>⇒ 火屬性攻擊力額外 2 倍<br>IV. 火符石兼具 50% 心符石效果',
+        'description': `
+		隊中只有魔族及龍類成員時：
+		I. 全隊攻擊力 6.5 倍
+		II. 每個龍類成員增加 150 點回復力
+		III. 場上有附加效果時
+		⇒ 火屬性攻擊力額外 2 倍
+		IV. 火符石兼具 50% 心符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6003,7 +7431,14 @@ const leader_skill_data = [
     },
     {
         'name': '神龍呼嘯 ‧ 藤木',
-        'description': '隊中只有神族及龍類成員時：<br>I. 全隊攻擊力 6.5 倍<br>II. 每個龍類成員增加 150 點攻擊力<br>III. 首批消除場上所有木符石時<br>⇒ 全隊攻擊力額外 2.5 倍<br>IV. 暗符石兼具 50% 木符石效果',
+        'description': `
+		隊中只有神族及龍類成員時：
+		I. 全隊攻擊力 6.5 倍
+		II. 每個龍類成員增加 150 點攻擊力
+		III. 首批消除場上所有木符石時
+		⇒ 全隊攻擊力額外 2.5 倍
+		IV. 暗符石兼具 50% 木符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6030,7 +7465,9 @@ const leader_skill_data = [
     },
     {
         'name': '玄光萬鈞之怒 ‧ 極',
-        'description': '光屬性攻擊力 5 倍',
+        'description': `
+		光屬性攻擊力 5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6042,7 +7479,13 @@ const leader_skill_data = [
     },
     {
         'name': '勢煞龍息 ‧ 迸發',
-        'description': '隊中只有龍類成員時：<br>I. 全隊攻擊力 4 倍<br>II. 延長移動符石時間 2 秒<br>III. 每個龍類成員增加 250 點攻擊力<br>IV. 連擊 (Combo) 時攻擊力提升 200%',
+        'description': `
+		隊中只有龍類成員時：
+		I. 全隊攻擊力 4 倍
+		II. 延長移動符石時間 2 秒
+		III. 每個龍類成員增加 250 點攻擊力
+		IV. 連擊 (Combo) 時攻擊力提升 200%
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6059,7 +7502,13 @@ const leader_skill_data = [
     },
     {
         'name': '神魔法則 ‧ 強',
-        'description': '隊伍中只有神族及魔族成員時：<br>I. 全隊攻擊力 6 倍<br>II. 火及木符石兼具 50% 水符石效果<br>III. 同時消除水、火、木符石時<br>⇒ 全隊攻擊力額外 1.5 倍',
+        'description': `
+		隊伍中只有神族及魔族成員時：
+		I. 全隊攻擊力 6 倍
+		II. 火及木符石兼具 50% 水符石效果
+		III. 同時消除水、火、木符石時
+		⇒ 全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6081,7 +7530,11 @@ const leader_skill_data = [
     },
     {
         'name': '神魔盟約 ‧ 浪濤',
-        'description': '隊伍中只有神族及魔族成員時：<br>I. 全隊攻擊力 3 倍<br>II. 火及木符石兼具水符石效果',
+        'description': `
+		隊伍中只有神族及魔族成員時：
+		I. 全隊攻擊力 3 倍
+		II. 火及木符石兼具水符石效果
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -6099,7 +7552,11 @@ const leader_skill_data = [
     },
     {
         'name': '神魔盟約 ‧ 熾焰',
-        'description': '隊伍中只有神族及魔族成員時：<br>I. 全隊攻擊力 3 倍<br>II. 水及木符石兼具火符石效果',
+        'description': `
+		隊伍中只有神族及魔族成員時：
+		I. 全隊攻擊力 3 倍
+		II. 水及木符石兼具火符石效果
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -6117,7 +7574,11 @@ const leader_skill_data = [
     },
     {
         'name': '神魔盟約 ‧ 藤木',
-        'description': '隊伍中只有神族及魔族成員時：<br>I. 全隊攻擊力 3 倍<br>II. 水及火符石兼具木符石效果',
+        'description': `
+		隊伍中只有神族及魔族成員時：
+		I. 全隊攻擊力 3 倍
+		II. 水及火符石兼具木符石效果
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -6135,7 +7596,9 @@ const leader_skill_data = [
     },
     {
         'name': '浪濤萬鈞之怒 ‧ 強',
-        'description': '水屬性攻擊力 4.5 倍',
+        'description': `
+		水屬性攻擊力 4.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6147,7 +7610,9 @@ const leader_skill_data = [
     },
     {
         'name': '浪濤萬鈞之怒 ‧ 極',
-        'description': '水屬性攻擊力 5 倍',
+        'description': `
+		水屬性攻擊力 5 倍
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -6160,7 +7625,9 @@ const leader_skill_data = [
     },
     {
         'name': '熾燄萬鈞之怒 ‧ 強',
-        'description': '火屬性攻擊力 4.5 倍',
+        'description': `
+		火屬性攻擊力 4.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6172,7 +7639,10 @@ const leader_skill_data = [
     },
     {
         'name': '富饒之約 ‧ 浪濤',
-        'description': 'I. 水屬性攻擊力 3 倍<br>II. 戰鬥中所獲得的金幣增加 75% (可疊加)',
+        'description': `
+		I. 水屬性攻擊力 3 倍
+		II. 戰鬥中所獲得的金幣增加 75% (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6189,7 +7659,12 @@ const leader_skill_data = [
     },
     {
         'name': '聚首同樂 ‧ 人',
-        'description': 'I. 火屬性攻擊力 2 倍<br>II. 隊伍中的人類成員愈多時<br>⇒ 火屬性成員的生命力、攻擊力及回復力愈高<br>⇒ 5 個人類成員可達至最大 1.5 倍 (不計自身)',
+        'description': `
+		I. 火屬性攻擊力 2 倍
+		II. 隊伍中的人類成員愈多時
+		⇒ 火屬性成員的生命力、攻擊力及回復力愈高
+		⇒ 5 個人類成員可達至最大 1.5 倍 (不計自身)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6206,7 +7681,12 @@ const leader_skill_data = [
     },
     {
         'name': '黑隱法',
-        'description': 'I. 人類及魔族攻擊力 3 倍<br>II. 延長移動符石時間 1 秒<br>III. 當直行首批消除 1 組 ≥5 粒符石時<br>⇒ 減少 30% 所受傷害',
+        'description': `
+		I. 人類及魔族攻擊力 3 倍
+		II. 延長移動符石時間 1 秒
+		III. 當直行首批消除 1 組 ≥5 粒符石時
+		⇒ 減少 30% 所受傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6228,7 +7708,12 @@ const leader_skill_data = [
     },
     {
         'name': '車行道 ‧ 木',
-        'description': 'I. 消除 1 組木符石的數量愈多<br>⇒ 木屬性攻擊力愈高<br>⇒ 消除 1 組 6 粒的木符石可達至最大 5 倍<br>II. 必然延長移動符石時間 1.5 秒',
+        'description': `
+		I. 消除 1 組木符石的數量愈多
+		⇒ 木屬性攻擊力愈高
+		⇒ 消除 1 組 6 粒的木符石可達至最大 5 倍
+		II. 必然延長移動符石時間 1.5 秒
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6245,7 +7730,12 @@ const leader_skill_data = [
     },
     {
         'name': '嬌媚殺機',
-        'description': 'I. 達成 ≥3 連擊 (Combo) 時<br>⇒ 光及暗屬性人類攻擊力 4 倍，連擊 (Combo) 的數量愈多，攻擊力愈高<br>⇒ 6 連擊 (Combo) 可以達至最大 4.75 倍<br>II. 光及暗符石互相兼具 50% 效果 (可疊加)',
+        'description': `
+		I. 達成 ≥3 連擊 (Combo) 時
+		⇒ 光及暗屬性人類攻擊力 4 倍，連擊 (Combo) 的數量愈多，攻擊力愈高
+		⇒ 6 連擊 (Combo) 可以達至最大 4.75 倍
+		II. 光及暗符石互相兼具 50% 效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6262,7 +7752,10 @@ const leader_skill_data = [
     },
     {
         'name': '窮竭之力',
-        'description': 'I. 全隊攻擊力 5 倍及回復力減至 0<br>II. 所有成員無視屬性相剋',
+        'description': `
+		I. 全隊攻擊力 5 倍及回復力減至 0
+		II. 所有成員無視屬性相剋
+		`,
         'tag': [
             {
                 'name': ['增攻', '我方減回', '屬性剋制改變'],
@@ -6274,7 +7767,9 @@ const leader_skill_data = [
     },
     {
         'name': '顯靈',
-        'description': '水屬性攻擊力 3 倍及回復力減少 50%',
+        'description': `
+		水屬性攻擊力 3 倍及回復力減少 50%
+		`,
         'tag': [
             {
                 'name': ['增攻', '我方減回'],
@@ -6286,7 +7781,9 @@ const leader_skill_data = [
     },
     {
         'name': '藤木怒嘯',
-        'description': '木屬性攻擊力 3.5 倍',
+        'description': `
+		木屬性攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6298,7 +7795,11 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼之賜 ‧ 浪濤',
-        'description': 'I. 水屬性攻擊力 3 倍<br>II. 每直行首批消除 1 組 ≥4 粒或以上符石時<br>⇒ 該直行將產生 1 粒水符石',
+        'description': `
+		I. 水屬性攻擊力 3 倍
+		II. 每直行首批消除 1 組 ≥4 粒或以上符石時
+		⇒ 該直行將產生 1 粒水符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6315,7 +7816,11 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼之賜 ‧ 熾燄',
-        'description': 'I. 火屬性攻擊力 3 倍<br>II. 每直行首批消除 1 組 ≥4 粒或以上符石時<br>⇒ 該直行將產生 1 粒火符石',
+        'description': `
+		I. 火屬性攻擊力 3 倍
+		II. 每直行首批消除 1 組 ≥4 粒或以上符石時
+		⇒ 該直行將產生 1 粒火符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6332,7 +7837,11 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼之賜 ‧ 藤木',
-        'description': 'I. 木屬性攻擊力 3 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石時 <br>⇒ 該直行將產生 1 粒木符石',
+        'description': `
+		I. 木屬性攻擊力 3 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石時 
+		⇒ 該直行將產生 1 粒木符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6349,7 +7858,11 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼之賜 ‧ 玄光',
-        'description': 'I. 光屬性攻擊力 3 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行將產生 1 粒光符石',
+        'description': `
+		I. 光屬性攻擊力 3 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行將產生 1 粒光符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6366,7 +7879,11 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼之賜 ‧ 幽冥',
-        'description': 'I. 暗屬性攻擊力 3 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行將產生 1 粒暗符石',
+        'description': `
+		I. 暗屬性攻擊力 3 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行將產生 1 粒暗符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6383,7 +7900,9 @@ const leader_skill_data = [
     },
     {
         'name': '妖精萬鈞之怒',
-        'description': '妖精類攻擊力 4 倍',
+        'description': `
+		妖精類攻擊力 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6395,7 +7914,12 @@ const leader_skill_data = [
     },
     {
         'name': '血燄注魂術 ‧ 獸',
-        'description': '隊伍中只有獸類成員時：<br>I. 全隊攻擊力 5 倍<br>II. 進入關卡後所有成員的主動技能 CD 減少 5<br>   (效果不能疊加)',
+        'description': `
+		隊伍中只有獸類成員時：
+		I. 全隊攻擊力 5 倍
+		II. 進入關卡後所有成員的主動技能 CD 減少 5
+		   (效果不能疊加)
+		`,
         'tag': [
             {
                 'name': ['增攻', '進場減CD'],
@@ -6407,7 +7931,13 @@ const leader_skill_data = [
     },
     {
         'name': '自然之力 ‧ 靈泉',
-        'description': '隊伍中只有獸類成員時：<br>I. 全隊攻擊力 4 倍及生命力 1.5 倍<br>II. 每首批消除 1 粒符石<br>⇒ 回復 0.6% 總生命力 <br>(受連擊 (Combo) 加乘影響)',
+        'description': `
+		隊伍中只有獸類成員時：
+		I. 全隊攻擊力 4 倍及生命力 1.5 倍
+		II. 每首批消除 1 粒符石
+		⇒ 回復 0.6% 總生命力 
+		(受連擊 (Combo) 加乘影響)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -6424,7 +7954,10 @@ const leader_skill_data = [
     },
     {
         'name': '萬鈞龍怒 ‧ 壽延',
-        'description': '隊伍中只有龍類成員時：<br>龍類攻擊力 4 倍及生命力 1.25 倍',
+        'description': `
+		隊伍中只有龍類成員時：
+		龍類攻擊力 4 倍及生命力 1.25 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -6436,7 +7969,10 @@ const leader_skill_data = [
     },
     {
         'name': '石破驚天 ‧ 龍',
-        'description': '隊伍中只有龍類成員時：<br>龍類攻擊力 6 倍及生命力 1.25 倍。每回合移動及消除符石後的 3 秒內，可點選一橫行的符石並直接引爆',
+        'description': `
+		隊伍中只有龍類成員時：
+		龍類攻擊力 6 倍及生命力 1.25 倍。每回合移動及消除符石後的 3 秒內，可點選一橫行的符石並直接引爆
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -6454,7 +7990,9 @@ const leader_skill_data = [
     },
     {
         'name': '幽冥怒嘯',
-        'description': '暗屬性攻擊力 3.5 倍',
+        'description': `
+		暗屬性攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6466,7 +8004,13 @@ const leader_skill_data = [
     },
     {
         'name': '浪濤殺機',
-        'description': 'I. 水屬性攻擊力 3.75 倍<br>II. 每消除 1 組符石均有 50% 機率<br>⇒ 額外計算多 1 連擊 (Ex. Combo)<br>⇒ 最多可額外增加 10 連擊 (Ex. Combo)<br>(機率及連擊數目可以疊加)',
+        'description': `
+		I. 水屬性攻擊力 3.75 倍
+		II. 每消除 1 組符石均有 50% 機率
+		⇒ 額外計算多 1 連擊 (Ex. Combo)
+		⇒ 最多可額外增加 10 連擊 (Ex. Combo)
+		(機率及連擊數目可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6483,7 +8027,13 @@ const leader_skill_data = [
     },
     {
         'name': '透幻之燄',
-        'description': 'I. 火屬性攻擊力 3.2 倍<br>II. 消除 3 種符石時<br>⇒ 火屬性攻擊力額外 1.5 倍<br>III. 消除 ≥4 種符石時<br>⇒ 火屬性攻擊力則額外 1.8 倍',
+        'description': `
+		I. 火屬性攻擊力 3.2 倍
+		II. 消除 3 種符石時
+		⇒ 火屬性攻擊力額外 1.5 倍
+		III. 消除 ≥4 種符石時
+		⇒ 火屬性攻擊力則額外 1.8 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6500,7 +8050,16 @@ const leader_skill_data = [
     },
     {
         'name': '透幻之燄 ‧ 碎心',
-        'description': 'I. 火屬性攻擊力 3.2 倍<br>II. 消除 3 種符石時<br>⇒ 火屬性攻擊力額外 1.5 倍<br>III. 消除 ≥4 種符石時<br>⇒ 火屬性攻擊力則額外 1.8 倍<br>IV. 每回合移動並消除符石後<br>⇒ 引爆所有心符石<br>⇒ 直至場上沒有心符石',
+        'description': `
+		I. 火屬性攻擊力 3.2 倍
+		II. 消除 3 種符石時
+		⇒ 火屬性攻擊力額外 1.5 倍
+		III. 消除 ≥4 種符石時
+		⇒ 火屬性攻擊力則額外 1.8 倍
+		IV. 每回合移動並消除符石後
+		⇒ 引爆所有心符石
+		⇒ 直至場上沒有心符石
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -6523,7 +8082,9 @@ const leader_skill_data = [
     },
     {
         'name': '元素調勻 ‧ 光',
-        'description': '光屬性生命力、攻擊力及回復力 2 倍',
+        'description': `
+		光屬性生命力、攻擊力及回復力 2 倍
+		`,
         'tag': [
             {
                 'name': ['增血', '增攻', '增回'],
@@ -6535,7 +8096,11 @@ const leader_skill_data = [
     },
     {
         'name': '魔魅斷魂劍',
-        'description': 'I. 暗屬性攻擊力 3.5 倍<br>II. 消除 ≥3 種符石及自身發動攻擊時<br>⇒ 個人追打自身攻擊力 4 倍的暗屬性攻擊 1 次',
+        'description': `
+		I. 暗屬性攻擊力 3.5 倍
+		II. 消除 ≥3 種符石及自身發動攻擊時
+		⇒ 個人追打自身攻擊力 4 倍的暗屬性攻擊 1 次
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6552,7 +8117,14 @@ const leader_skill_data = [
     },
     {
         'name': '魔魅斷魂劍 ‧ 裂心',
-        'description': 'I. 暗屬性攻擊力 3.5 倍<br>II. 消除 ≥3 種符石及自身發動攻擊時<br>⇒ 個人追打自身攻擊力 4 倍的暗屬性攻擊 1 次<br>III. 每回合移動並消除符石後<br>⇒ 引爆所有心符石<br>⇒ 直至場上沒有心符石',
+        'description': `
+		I. 暗屬性攻擊力 3.5 倍
+		II. 消除 ≥3 種符石及自身發動攻擊時
+		⇒ 個人追打自身攻擊力 4 倍的暗屬性攻擊 1 次
+		III. 每回合移動並消除符石後
+		⇒ 引爆所有心符石
+		⇒ 直至場上沒有心符石
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -6575,7 +8147,11 @@ const leader_skill_data = [
     },
     {
         'name': '妖靈鞭 ‧ 水',
-        'description': '隊伍中只有水屬性妖精類成員時：<br>I. 全隊攻擊力 4.25 倍<br>II. 將每個成員自身回復力的 1.75 倍各自加入自身攻擊力',
+        'description': `
+		隊伍中只有水屬性妖精類成員時：
+		I. 全隊攻擊力 4.25 倍
+		II. 將每個成員自身回復力的 1.75 倍各自加入自身攻擊力
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6587,7 +8163,13 @@ const leader_skill_data = [
     },
     {
         'name': '權欲之森 ‧ 魔',
-        'description': 'I. 木屬性攻擊力 2 倍，隊伍中的魔族成員愈多<br>⇒ 木屬性攻擊力提升愈多<br>⇒ 5 個魔族成員可達至最大 3.5 倍 (不計自身)<br>II. 首批消除場上所有木符石時<br>⇒ 木屬性攻擊力額外 1.5 倍',
+        'description': `
+		I. 木屬性攻擊力 2 倍，隊伍中的魔族成員愈多
+		⇒ 木屬性攻擊力提升愈多
+		⇒ 5 個魔族成員可達至最大 3.5 倍 (不計自身)
+		II. 首批消除場上所有木符石時
+		⇒ 木屬性攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6609,7 +8191,13 @@ const leader_skill_data = [
     },
     {
         'name': '權欲之光 ‧ 人',
-        'description': 'I. 光屬性攻擊力 2 倍，隊伍中的人類成員愈多時<br>⇒ 光屬性攻擊力額外提升愈多<br>⇒ 5 個人類成員可達至最大 3.5 倍 (不計自身)<br>II. 首批消除場上所有光符石時<br>⇒ 光屬性攻擊力額外 1.5 倍',
+        'description': `
+		I. 光屬性攻擊力 2 倍，隊伍中的人類成員愈多時
+		⇒ 光屬性攻擊力額外提升愈多
+		⇒ 5 個人類成員可達至最大 3.5 倍 (不計自身)
+		II. 首批消除場上所有光符石時
+		⇒ 光屬性攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6631,7 +8219,9 @@ const leader_skill_data = [
     },
     {
         'name': '冥神萬鈞之怒 ‧ 強',
-        'description': '暗屬性神族攻擊力 4.5 倍',
+        'description': `
+		暗屬性神族攻擊力 4.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6643,7 +8233,9 @@ const leader_skill_data = [
     },
     {
         'name': '妖精之靈泉',
-        'description': '妖精類回復力 4 倍',
+        'description': `
+		妖精類回復力 4 倍
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -6655,7 +8247,12 @@ const leader_skill_data = [
     },
     {
         'name': '童趣約定 ‧ 浪濤',
-        'description': 'I. 連擊 (Combo) 數為單數時<br>⇒ 水屬性攻擊力 3 倍<br>II. 連擊 (Combo) 數為雙數時<br>⇒ 則水屬性攻擊力 5 倍',
+        'description': `
+		I. 連擊 (Combo) 數為單數時
+		⇒ 水屬性攻擊力 3 倍
+		II. 連擊 (Combo) 數為雙數時
+		⇒ 則水屬性攻擊力 5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6667,7 +8264,12 @@ const leader_skill_data = [
     },
     {
         'name': '童趣約定 ‧ 熾燄',
-        'description': 'I. 連擊 (Combo) 數為單數時<br>⇒ 火屬性攻擊力 3 倍<br>II. 連擊 (Combo) 數為雙數時<br>⇒ 則火屬性攻擊力 5 倍',
+        'description': `
+		I. 連擊 (Combo) 數為單數時
+		⇒ 火屬性攻擊力 3 倍
+		II. 連擊 (Combo) 數為雙數時
+		⇒ 則火屬性攻擊力 5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6679,7 +8281,12 @@ const leader_skill_data = [
     },
     {
         'name': '童趣約定 ‧ 藤木',
-        'description': 'I. 連擊 (Combo) 數為單數時<br>⇒ 木屬性攻擊力 3 倍<br>II. 連擊 (Combo) 數為雙數時<br>⇒ 則木屬性攻擊力 5 倍',
+        'description': `
+		I. 連擊 (Combo) 數為單數時
+		⇒ 木屬性攻擊力 3 倍
+		II. 連擊 (Combo) 數為雙數時
+		⇒ 則木屬性攻擊力 5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6691,7 +8298,12 @@ const leader_skill_data = [
     },
     {
         'name': '童趣約定 ‧ 玄光',
-        'description': 'I. 連擊 (Combo) 數為單數時<br>⇒ 光屬性攻擊力 3 倍<br>II. 連擊 (Combo) 數為雙數時<br>⇒ 則光屬性攻擊力 5 倍',
+        'description': `
+		I. 連擊 (Combo) 數為單數時
+		⇒ 光屬性攻擊力 3 倍
+		II. 連擊 (Combo) 數為雙數時
+		⇒ 則光屬性攻擊力 5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6703,7 +8315,12 @@ const leader_skill_data = [
     },
     {
         'name': '童趣約定 ‧ 幽冥',
-        'description': 'I. 連擊 (Combo) 數為單數時<br>⇒ 暗屬性攻擊力 3 倍<br>II. 連擊 (Combo) 數為雙數時<br>⇒ 則暗屬性攻擊力 5 倍',
+        'description': `
+		I. 連擊 (Combo) 數為單數時
+		⇒ 暗屬性攻擊力 3 倍
+		II. 連擊 (Combo) 數為雙數時
+		⇒ 則暗屬性攻擊力 5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6715,7 +8332,16 @@ const leader_skill_data = [
     },
     {
         'name': '結義之力',
-        'description': '隊伍中只有水、火及木屬性成員時：<br>I. 水符石兼具火及木符石 50% 效果<br>II. 火符石兼具水及木符石 50% 效果<br>III. 木符石兼具水及火符石 50% 效果<br>IV. 消除水、火、木及心符石其中 2 種符石時<br>⇒ 全隊攻擊力 2.5 倍<br>V. 消除其中 3 種符石時 <br>⇒ 則全隊攻擊力 3 倍',
+        'description': `
+		隊伍中只有水、火及木屬性成員時：
+		I. 水符石兼具火及木符石 50% 效果
+		II. 火符石兼具水及木符石 50% 效果
+		III. 木符石兼具水及火符石 50% 效果
+		IV. 消除水、火、木及心符石其中 2 種符石時
+		⇒ 全隊攻擊力 2.5 倍
+		V. 消除其中 3 種符石時 
+		⇒ 則全隊攻擊力 3 倍
+		`,
         'tag': [
             {
                 'name': ['水兼具其他', '火兼具其他', '木兼具其他', '符石兼具水', '符石兼具火', '符石兼具木'],
@@ -6732,7 +8358,18 @@ const leader_skill_data = [
     },
     {
         'name': '結義之力 ‧ 強',
-        'description': '隊伍中只有水、火及木屬性成員時：<br>I. 水符石兼具火及木符石 50% 效果<br>II. 火符石兼具水及木符石 50% 效果<br>III. 木符石兼具水及火符石 50% 效果<br>IV. 消除水、火、木及心符石其中 2 種符石時<br>⇒ 全隊攻擊力 2.5 倍<br>V. 消除其中 3 種符石時 <br>⇒ 則全隊攻擊力 3 倍<br>VI. ≥3 粒相同種類的符石相連，即可發動消除<br>VII. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)',
+        'description': `
+		隊伍中只有水、火及木屬性成員時：
+		I. 水符石兼具火及木符石 50% 效果
+		II. 火符石兼具水及木符石 50% 效果
+		III. 木符石兼具水及火符石 50% 效果
+		IV. 消除水、火、木及心符石其中 2 種符石時
+		⇒ 全隊攻擊力 2.5 倍
+		V. 消除其中 3 種符石時 
+		⇒ 則全隊攻擊力 3 倍
+		VI. ≥3 粒相同種類的符石相連，即可發動消除
+		VII. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -6750,7 +8387,13 @@ const leader_skill_data = [
     },
     {
         'name': '殘妒之火',
-        'description': 'I. 魔族攻擊力 2 倍，生命力及回復力 1.35 倍<br>II. 延長移動符石時間 1 秒<br>III. 消除火符石的組數愈多<br>⇒ 火屬性攻擊力提升愈多<br>⇒ 3 組可達至最大 2.4 倍',
+        'description': `
+		I. 魔族攻擊力 2 倍，生命力及回復力 1.35 倍
+		II. 延長移動符石時間 1 秒
+		III. 消除火符石的組數愈多
+		⇒ 火屬性攻擊力提升愈多
+		⇒ 3 組可達至最大 2.4 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -6772,7 +8415,10 @@ const leader_skill_data = [
     },
     {
         'name': '水靈附攻 ‧ 藤木',
-        'description': 'I. 木屬性攻擊力 2 倍<br>II. 水符石及心符石兼具 50% 木符石效果',
+        'description': `
+		I. 木屬性攻擊力 2 倍
+		II. 水符石及心符石兼具 50% 木符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6789,7 +8435,10 @@ const leader_skill_data = [
     },
     {
         'name': '暗靈附攻 ‧ 光明',
-        'description': 'I. 光屬性攻擊力 2 倍<br>II. 暗符石及心符石兼具 50% 光符石效果',
+        'description': `
+		I. 光屬性攻擊力 2 倍
+		II. 暗符石及心符石兼具 50% 光符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6806,7 +8455,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔之本性 ‧ 強攻',
-        'description': '魔族攻擊力 3 倍，生命力及回復力 1.5 倍',
+        'description': `
+		魔族攻擊力 3 倍，生命力及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -6818,7 +8469,12 @@ const leader_skill_data = [
     },
     {
         'name': '結盟 ‧ 湧浪之力',
-        'description': '隊伍中只有水及光屬性成員時：<br>I. 水及光屬性攻擊力 3.5 倍<br>II. 消除水符石時<br>⇒ 全隊攻擊力額外 1.5 倍',
+        'description': `
+		隊伍中只有水及光屬性成員時：
+		I. 水及光屬性攻擊力 3.5 倍
+		II. 消除水符石時
+		⇒ 全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6835,7 +8491,12 @@ const leader_skill_data = [
     },
     {
         'name': '結盟 ‧ 守護之光',
-        'description': '隊伍中只有水及光屬性成員時：<br>I. 水及光屬性攻擊力 3.5 倍<br>II. 消除光符石時<br>⇒ 減少 35% 所受傷害',
+        'description': `
+		隊伍中只有水及光屬性成員時：
+		I. 水及光屬性攻擊力 3.5 倍
+		II. 消除光符石時
+		⇒ 減少 35% 所受傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6852,7 +8513,14 @@ const leader_skill_data = [
     },
     {
         'name': '虓虎之勇 ‧ 暗',
-        'description': 'I. 暗屬性攻擊力 3.75 倍<br>II. 單體攻擊轉化為全體攻擊<br>III. 延長移動符石時間 1 秒<br>IV. 每消除 1 組 ≥5 粒符石時<br>⇒ 暗屬性攻擊力提升<br>⇒ 消除 3 組可達至最大 2.2 倍',
+        'description': `
+		I. 暗屬性攻擊力 3.75 倍
+		II. 單體攻擊轉化為全體攻擊
+		III. 延長移動符石時間 1 秒
+		IV. 每消除 1 組 ≥5 粒符石時
+		⇒ 暗屬性攻擊力提升
+		⇒ 消除 3 組可達至最大 2.2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6874,7 +8542,9 @@ const leader_skill_data = [
     },
     {
         'name': '龍之嗔怒',
-        'description': '龍類攻擊力 3 倍',
+        'description': `
+		龍類攻擊力 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6886,7 +8556,10 @@ const leader_skill_data = [
     },
     {
         'name': '木靈附攻 ‧ 火燄',
-        'description': 'I. 火屬性攻擊力 2 倍<br>II. 木符石及心符石兼具 50% 火符石效果',
+        'description': `
+		I. 火屬性攻擊力 2 倍
+		II. 木符石及心符石兼具 50% 火符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6903,7 +8576,10 @@ const leader_skill_data = [
     },
     {
         'name': '靈魂契約 ‧ 強',
-        'description': 'I. 全隊攻擊力 3 倍<br>II. 關卡 &quot;靈魂之日&quot;，其初級、高級及超級難度最後一層的敵人分別有 30%、50% 及 100% 機率轉化為蘊魔晶寵 (機率可以疊加)',
+        'description': `
+		I. 全隊攻擊力 3 倍
+		II. 關卡 &quot;靈魂之日&quot;，其初級、高級及超級難度最後一層的敵人分別有 30%、50% 及 100% 機率轉化為蘊魔晶寵 (機率可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6915,7 +8591,9 @@ const leader_skill_data = [
     },
     {
         'name': '眾神之嗔怒',
-        'description': '神族攻擊力 3 倍',
+        'description': `
+		神族攻擊力 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6927,7 +8605,9 @@ const leader_skill_data = [
     },
     {
         'name': '靈石附體 ‧ 強',
-        'description': '心符石兼具 300% 所有屬性符石效果',
+        'description': `
+		心符石兼具 300% 所有屬性符石效果
+		`,
         'tag': [
             {
                 'name': ['心兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗'],
@@ -6939,7 +8619,9 @@ const leader_skill_data = [
     },
     {
         'name': '人類萬鈞之怒',
-        'description': '人類攻擊力 4 倍',
+        'description': `
+		人類攻擊力 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -6951,7 +8633,11 @@ const leader_skill_data = [
     },
     {
         'name': '絕境意志 ‧ 暗',
-        'description': '當前生命力大於 50% 時：<br>I. 下一次所受傷害不會使你死亡<br>II. 並以未能扣除的傷害對敵方攻擊者進行暗屬性反擊',
+        'description': `
+		當前生命力大於 50% 時：
+		I. 下一次所受傷害不會使你死亡
+		II. 並以未能扣除的傷害對敵方攻擊者進行暗屬性反擊
+		`,
         'tag': [
             {
                 'name': ['意志', '反擊'],
@@ -6963,7 +8649,9 @@ const leader_skill_data = [
     },
     {
         'name': '大海之皇權',
-        'description': '水屬性攻擊力 3.5 倍及回復力 2 倍',
+        'description': `
+		水屬性攻擊力 3.5 倍及回復力 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -6975,7 +8663,9 @@ const leader_skill_data = [
     },
     {
         'name': '煉獄之皇權',
-        'description': '火屬性攻擊力 3.5 倍及回復力 2 倍',
+        'description': `
+		火屬性攻擊力 3.5 倍及回復力 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -6987,7 +8677,9 @@ const leader_skill_data = [
     },
     {
         'name': '大地之皇權',
-        'description': '木屬性攻擊力 3.5 倍及回復力 2 倍',
+        'description': `
+		木屬性攻擊力 3.5 倍及回復力 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -6999,7 +8691,9 @@ const leader_skill_data = [
     },
     {
         'name': '神聖之皇權',
-        'description': '光屬性攻擊力 3.5 倍及回復力 2 倍',
+        'description': `
+		光屬性攻擊力 3.5 倍及回復力 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -7011,7 +8705,9 @@ const leader_skill_data = [
     },
     {
         'name': '暗黑之皇權',
-        'description': '暗屬性攻擊力 3.5 倍及回復力 2 倍',
+        'description': `
+		暗屬性攻擊力 3.5 倍及回復力 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -7023,7 +8719,11 @@ const leader_skill_data = [
     },
     {
         'name': '海森闇之鐵壁',
-        'description': 'I. 水屬性、木屬性和暗屬性傷害減少 50%<br>II. 其他屬性傷害減少 30%<br>III. 當受到攻擊後，下回合全隊攻擊力 3 倍',
+        'description': `
+		I. 水屬性、木屬性和暗屬性傷害減少 50%
+		II. 其他屬性傷害減少 30%
+		III. 當受到攻擊後，下回合全隊攻擊力 3 倍
+		`,
         'tag': [
             {
                 'name': '減傷',
@@ -7040,7 +8740,11 @@ const leader_skill_data = [
     },
     {
         'name': '炎海聖之鐵壁',
-        'description': 'I. 水屬性、火屬性和光屬性傷害減少 50%<br>II. 其他屬性傷害減少 30%<br>III. 當受到攻擊後，下回合全隊攻擊力 3 倍',
+        'description': `
+		I. 水屬性、火屬性和光屬性傷害減少 50%
+		II. 其他屬性傷害減少 30%
+		III. 當受到攻擊後，下回合全隊攻擊力 3 倍
+		`,
         'tag': [
             {
                 'name': '減傷',
@@ -7057,7 +8761,11 @@ const leader_skill_data = [
     },
     {
         'name': '森炎闇之鐵壁',
-        'description': 'I. 火屬性、木屬性和暗屬性傷害減少 50%<br>II. 其他屬性傷害減少 30%<br>III. 當受到攻擊後，下回合全隊攻擊力 3 倍',
+        'description': `
+		I. 火屬性、木屬性和暗屬性傷害減少 50%
+		II. 其他屬性傷害減少 30%
+		III. 當受到攻擊後，下回合全隊攻擊力 3 倍
+		`,
         'tag': [
             {
                 'name': '減傷',
@@ -7074,7 +8782,11 @@ const leader_skill_data = [
     },
     {
         'name': '聖海森之鐵壁',
-        'description': 'I. 水屬性、木屬性和光屬性傷害減少 50%<br>II. 其他屬性傷害減少 30%<br>III. 當受到攻擊後，下回合全隊攻擊力 3 倍',
+        'description': `
+		I. 水屬性、木屬性和光屬性傷害減少 50%
+		II. 其他屬性傷害減少 30%
+		III. 當受到攻擊後，下回合全隊攻擊力 3 倍
+		`,
         'tag': [
             {
                 'name': '減傷',
@@ -7091,7 +8803,11 @@ const leader_skill_data = [
     },
     {
         'name': '闇炎聖之鐵壁',
-        'description': 'I. 火屬性、光屬性和暗屬性傷害減少 50%<br>II. 其他屬性傷害減少 30%<br>III. 當受到攻擊後，下回合全隊攻擊力 3 倍',
+        'description': `
+		I. 火屬性、光屬性和暗屬性傷害減少 50%
+		II. 其他屬性傷害減少 30%
+		III. 當受到攻擊後，下回合全隊攻擊力 3 倍
+		`,
         'tag': [
             {
                 'name': '減傷',
@@ -7108,7 +8824,12 @@ const leader_skill_data = [
     },
     {
         'name': '水影結界 ‧ 獸',
-        'description': 'I. 獸類攻擊力 4.5 倍<br>II. 水符石兼具其他屬性符石效果：<br>⇒ 每個獸類成員提升 12.5% 效果<br>⇒ 最高 75% (效果可以疊加)',
+        'description': `
+		I. 獸類攻擊力 4.5 倍
+		II. 水符石兼具其他屬性符石效果：
+		⇒ 每個獸類成員提升 12.5% 效果
+		⇒ 最高 75% (效果可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7125,7 +8846,12 @@ const leader_skill_data = [
     },
     {
         'name': '燄影結界 ‧ 獸',
-        'description': 'I. 獸類攻擊力 4.5 倍<br>II. 火符石兼具其他屬性符石效果：<br>⇒ 每個獸類成員提升 12.5% 效果<br>⇒ 最高 75% (效果可以疊加)',
+        'description': `
+		I. 獸類攻擊力 4.5 倍
+		II. 火符石兼具其他屬性符石效果：
+		⇒ 每個獸類成員提升 12.5% 效果
+		⇒ 最高 75% (效果可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7142,7 +8868,12 @@ const leader_skill_data = [
     },
     {
         'name': '森影結界 ‧ 獸',
-        'description': 'I. 獸類攻擊力 4.5 倍<br>II. 木符石兼具其他屬性符石效果：<br>⇒ 每個獸類成員提升 12.5% 效果<br>⇒ 最高 75% (效果可以疊加)',
+        'description': `
+		I. 獸類攻擊力 4.5 倍
+		II. 木符石兼具其他屬性符石效果：
+		⇒ 每個獸類成員提升 12.5% 效果
+		⇒ 最高 75% (效果可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7159,7 +8890,12 @@ const leader_skill_data = [
     },
     {
         'name': '光影結界 ‧ 獸',
-        'description': 'I. 獸類攻擊力 4.5 倍<br>II. 光符石兼具其他屬性符石效果：<br>⇒ 每個獸類成員提升 12.5% 效果<br>⇒ 最高 75% (效果可以疊加)',
+        'description': `
+		I. 獸類攻擊力 4.5 倍
+		II. 光符石兼具其他屬性符石效果：
+		⇒ 每個獸類成員提升 12.5% 效果
+		⇒ 最高 75% (效果可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7176,7 +8912,12 @@ const leader_skill_data = [
     },
     {
         'name': '魅影結界 ‧ 獸',
-        'description': 'I. 獸類攻擊力 4.5 倍<br>II. 暗符石兼具其他屬性符石效果：<br>⇒ 每個獸類成員提升 12.5% 效果<br>⇒ 最高 75% (效果可以疊加)',
+        'description': `
+		I. 獸類攻擊力 4.5 倍
+		II. 暗符石兼具其他屬性符石效果：
+		⇒ 每個獸類成員提升 12.5% 效果
+		⇒ 最高 75% (效果可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7193,7 +8934,13 @@ const leader_skill_data = [
     },
     {
         'name': '戾吞天下 ‧ 水',
-        'description': 'I. 水屬性攻擊力 7 倍<br>II. 每消除 1 組水符石<br>⇒ 水屬性攻擊力持續提升<br>⇒ 消除 3 組可提升至最高 10 倍<br>III. 連續 2 回合沒有消除水符石，攻擊力減少',
+        'description': `
+		I. 水屬性攻擊力 7 倍
+		II. 每消除 1 組水符石
+		⇒ 水屬性攻擊力持續提升
+		⇒ 消除 3 組可提升至最高 10 倍
+		III. 連續 2 回合沒有消除水符石，攻擊力減少
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7210,7 +8957,10 @@ const leader_skill_data = [
     },
     {
         'name': '流水魔影',
-        'description': 'I. 水屬性魔族攻擊力 4.5 倍<br>II. 提升水屬性對火屬性目標的攻擊力 (不包括主動技)',
+        'description': `
+		I. 水屬性魔族攻擊力 4.5 倍
+		II. 提升水屬性對火屬性目標的攻擊力 (不包括主動技)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7227,7 +8977,13 @@ const leader_skill_data = [
     },
     {
         'name': '戾吞天下 ‧ 火',
-        'description': 'I. 火屬性攻擊力 7 倍<br>II. 每消除 1 組火符石<br>⇒ 火屬性攻擊力持續提升<br>⇒ 消除 3 組可提升至最高 10 倍<br>III. 連續 2 回合沒有消除火符石，攻擊力減少',
+        'description': `
+		I. 火屬性攻擊力 7 倍
+		II. 每消除 1 組火符石
+		⇒ 火屬性攻擊力持續提升
+		⇒ 消除 3 組可提升至最高 10 倍
+		III. 連續 2 回合沒有消除火符石，攻擊力減少
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7244,7 +9000,10 @@ const leader_skill_data = [
     },
     {
         'name': '赤燄魔影',
-        'description': 'I. 火屬性魔族攻擊力 4.5 倍<br>II. 提升火屬性對木屬性目標的攻擊力 (不包括主動技)',
+        'description': `
+		I. 火屬性魔族攻擊力 4.5 倍
+		II. 提升火屬性對木屬性目標的攻擊力 (不包括主動技)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7261,7 +9020,13 @@ const leader_skill_data = [
     },
     {
         'name': '戾吞天下 ‧ 木',
-        'description': 'I. 木屬性攻擊力 7 倍<br>II. 每消除 1 組木符石<br>⇒ 木屬性攻擊力持續提升<br>⇒ 消除 3 組可提升至最高 10 倍<br>III. 連續 2 回合沒有消除木符石，攻擊力減少',
+        'description': `
+		I. 木屬性攻擊力 7 倍
+		II. 每消除 1 組木符石
+		⇒ 木屬性攻擊力持續提升
+		⇒ 消除 3 組可提升至最高 10 倍
+		III. 連續 2 回合沒有消除木符石，攻擊力減少
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7278,7 +9043,10 @@ const leader_skill_data = [
     },
     {
         'name': '森葉魔影',
-        'description': 'I. 木屬性魔族攻擊力 4.5 倍<br>II. 提升木屬性對水屬性目標的攻擊力 (不包括主動技)',
+        'description': `
+		I. 木屬性魔族攻擊力 4.5 倍
+		II. 提升木屬性對水屬性目標的攻擊力 (不包括主動技)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7295,7 +9063,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔性流曳 ‧ 玄光',
-        'description': '光屬性魔族攻擊力 6 倍，生命力及回復力 1.5 倍',
+        'description': `
+		光屬性魔族攻擊力 6 倍，生命力及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -7307,7 +9077,11 @@ const leader_skill_data = [
     },
     {
         'name': '絕命誅戮 ‧ 玄光',
-        'description': '當隊伍中只有光屬性成員時：<br>生命力愈低時<br>⇒ 全隊攻擊力會愈高，最大 12 倍',
+        'description': `
+		當隊伍中只有光屬性成員時：
+		生命力愈低時
+		⇒ 全隊攻擊力會愈高，最大 12 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7319,7 +9093,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔性流曳．幽冥',
-        'description': '暗屬性魔族攻擊力 6 倍，生命力及回復力 1.5 倍',
+        'description': `
+		暗屬性魔族攻擊力 6 倍，生命力及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -7331,7 +9107,11 @@ const leader_skill_data = [
     },
     {
         'name': '絕命誅戮 ‧ 幽冥',
-        'description': '當隊伍中只有暗屬性成員時：<br>生命力愈低時<br>⇒ 全隊攻擊力會愈高，最大 12 倍',
+        'description': `
+		當隊伍中只有暗屬性成員時：
+		生命力愈低時
+		⇒ 全隊攻擊力會愈高，最大 12 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7343,7 +9123,9 @@ const leader_skill_data = [
     },
     {
         'name': '浪濤怒嘯',
-        'description': '水屬性攻擊力 3.5 倍',
+        'description': `
+		水屬性攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7355,7 +9137,9 @@ const leader_skill_data = [
     },
     {
         'name': '熾燄怒嘯',
-        'description': '火屬性攻擊力 3.5 倍',
+        'description': `
+		火屬性攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7367,7 +9151,9 @@ const leader_skill_data = [
     },
     {
         'name': '玄光怒嘯',
-        'description': '光屬性攻擊力 3.5 倍',
+        'description': `
+		光屬性攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7379,7 +9165,10 @@ const leader_skill_data = [
     },
     {
         'name': '妖之靈 ‧ 水',
-        'description': 'I. 水屬性及妖精類攻擊力及回復力 3 倍<br>II. 所有屬性符石兼具 25% 心符石效果 (可疊加)',
+        'description': `
+		I. 水屬性及妖精類攻擊力及回復力 3 倍
+		II. 所有屬性符石兼具 25% 心符石效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -7396,7 +9185,10 @@ const leader_skill_data = [
     },
     {
         'name': '妖之靈 ‧ 火',
-        'description': 'I. 火屬性及妖精類攻擊力及回復力 3 倍<br>II. 所有屬性符石兼具 25% 心符石效果 (可疊加)',
+        'description': `
+		I. 火屬性及妖精類攻擊力及回復力 3 倍
+		II. 所有屬性符石兼具 25% 心符石效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -7413,7 +9205,10 @@ const leader_skill_data = [
     },
     {
         'name': '妖之靈 ‧ 木',
-        'description': 'I. 木屬性及妖精類攻擊力及回復力 3 倍<br>II. 所有屬性符石兼具 25% 心符石效果 (可疊加)',
+        'description': `
+		I. 木屬性及妖精類攻擊力及回復力 3 倍
+		II. 所有屬性符石兼具 25% 心符石效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -7430,7 +9225,10 @@ const leader_skill_data = [
     },
     {
         'name': '光之魅惑',
-        'description': 'I. 光屬性攻擊力 3 倍<br>II. 光屬性妖精類攻擊力則 4 倍',
+        'description': `
+		I. 光屬性攻擊力 3 倍
+		II. 光屬性妖精類攻擊力則 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7442,7 +9240,10 @@ const leader_skill_data = [
     },
     {
         'name': '暗之魅惑',
-        'description': 'I. 暗屬性攻擊力 3 倍<br>II. 暗屬性妖精類攻擊力則 4 倍',
+        'description': `
+		I. 暗屬性攻擊力 3 倍
+		II. 暗屬性妖精類攻擊力則 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7454,7 +9255,13 @@ const leader_skill_data = [
     },
     {
         'name': '激濤之鎧',
-        'description': 'I. 全隊攻擊力 4 倍<br>II. 每 1 種屬性成員發動攻擊時<br>⇒ 個人追打自身攻擊力 2 倍的水屬性攻擊 1 次<br>III. 首批消除 5 種屬性符石時<br>⇒ 自身攻擊無視全體敵人的防禦力',
+        'description': `
+		I. 全隊攻擊力 4 倍
+		II. 每 1 種屬性成員發動攻擊時
+		⇒ 個人追打自身攻擊力 2 倍的水屬性攻擊 1 次
+		III. 首批消除 5 種屬性符石時
+		⇒ 自身攻擊無視全體敵人的防禦力
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7476,7 +9283,13 @@ const leader_skill_data = [
     },
     {
         'name': '爆燄之鎧',
-        'description': 'I. 全隊攻擊力 4 倍<br>II. 每 1 種屬性成員發動攻擊時<br>⇒ 個人追打自身攻擊力 2 倍的火屬性攻擊 1 次<br>III. 首批消除 5 種屬性符石時<br>⇒ 自身攻擊無視全體敵人的防禦力',
+        'description': `
+		I. 全隊攻擊力 4 倍
+		II. 每 1 種屬性成員發動攻擊時
+		⇒ 個人追打自身攻擊力 2 倍的火屬性攻擊 1 次
+		III. 首批消除 5 種屬性符石時
+		⇒ 自身攻擊無視全體敵人的防禦力
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7498,7 +9311,13 @@ const leader_skill_data = [
     },
     {
         'name': '狂森之鎧',
-        'description': 'I. 全隊攻擊力 4 倍<br>II. 每 1 種屬性成員發動攻擊時<br>⇒ 個人追打自身攻擊力 2 倍的木屬性攻擊 1 次<br>III. 首批消除 5 種屬性符石時<br>⇒ 自身攻擊無視全體敵人的防禦力',
+        'description': `
+		I. 全隊攻擊力 4 倍
+		II. 每 1 種屬性成員發動攻擊時
+		⇒ 個人追打自身攻擊力 2 倍的木屬性攻擊 1 次
+		III. 首批消除 5 種屬性符石時
+		⇒ 自身攻擊無視全體敵人的防禦力
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7520,7 +9339,13 @@ const leader_skill_data = [
     },
     {
         'name': '雷電之鎧',
-        'description': 'I. 全隊攻擊力 4 倍<br>II. 每 1 種屬性成員發動攻擊時<br>⇒ 個人追打自身攻擊力 2 倍的光屬性攻擊 1 次<br>III. 首批消除 5 種屬性符石時<br>⇒ 自身攻擊無視全體敵人的防禦力',
+        'description': `
+		I. 全隊攻擊力 4 倍
+		II. 每 1 種屬性成員發動攻擊時
+		⇒ 個人追打自身攻擊力 2 倍的光屬性攻擊 1 次
+		III. 首批消除 5 種屬性符石時
+		⇒ 自身攻擊無視全體敵人的防禦力
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7542,7 +9367,13 @@ const leader_skill_data = [
     },
     {
         'name': '暗殺之鎧',
-        'description': 'I. 全隊攻擊力 4 倍<br>II. 每 1 種屬性成員發動攻擊時<br>⇒ 個人追打自身攻擊力 2 倍的暗屬性攻擊 1 次<br>III. 首批消除 5 種屬性符石時<br>⇒ 自身攻擊無視全體敵人的防禦力',
+        'description': `
+		I. 全隊攻擊力 4 倍
+		II. 每 1 種屬性成員發動攻擊時
+		⇒ 個人追打自身攻擊力 2 倍的暗屬性攻擊 1 次
+		III. 首批消除 5 種屬性符石時
+		⇒ 自身攻擊無視全體敵人的防禦力
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7564,7 +9395,12 @@ const leader_skill_data = [
     },
     {
         'name': '無影幻像 ‧ 浪濤襲',
-        'description': 'I. 水屬性攻擊力 4 倍<br>II. 每回合場上數量最多的 1 種屬性符石兼具 50% 水符石效果 (可疊加)<br>III. 如場上數量最多的 1 種屬性符石為水符石時<br>⇒ 則兼具效果變為水屬性攻擊力 1.8 倍 (可疊加)',
+        'description': `
+		I. 水屬性攻擊力 4 倍
+		II. 每回合場上數量最多的 1 種屬性符石兼具 50% 水符石效果 (可疊加)
+		III. 如場上數量最多的 1 種屬性符石為水符石時
+		⇒ 則兼具效果變為水屬性攻擊力 1.8 倍 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7591,7 +9427,13 @@ const leader_skill_data = [
     },
     {
         'name': '無垠幻像 ‧ 浪濤強襲',
-        'description': 'I. 水屬性攻擊力 6.5 倍<br>II. 每回合場上數量最多的 1 種屬性符石及心符石<br>⇒ 兼具 50% 水符石效果<br>III. 如場上數量最多的 1 種屬性符石為水符石時<br>⇒ 則兼具效果變為水屬性攻擊力 2.2 倍',
+        'description': `
+		I. 水屬性攻擊力 6.5 倍
+		II. 每回合場上數量最多的 1 種屬性符石及心符石
+		⇒ 兼具 50% 水符石效果
+		III. 如場上數量最多的 1 種屬性符石為水符石時
+		⇒ 則兼具效果變為水屬性攻擊力 2.2 倍
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -7619,7 +9461,12 @@ const leader_skill_data = [
     },
     {
         'name': '無影幻像 ‧ 熾燄襲',
-        'description': 'I. 火屬性攻擊力 4 倍<br>II. 每回合場上數量最多的 1 種屬性符石兼具 50% 火符石效果 (可疊加)<br>III. 如場上數量最多的 1 種屬性符石為火符石時<br>⇒ 則兼具效果變為火屬性攻擊力 1.8 倍 (可疊加)',
+        'description': `
+		I. 火屬性攻擊力 4 倍
+		II. 每回合場上數量最多的 1 種屬性符石兼具 50% 火符石效果 (可疊加)
+		III. 如場上數量最多的 1 種屬性符石為火符石時
+		⇒ 則兼具效果變為火屬性攻擊力 1.8 倍 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7641,7 +9488,13 @@ const leader_skill_data = [
     },
     {
         'name': '無垠幻像 ‧ 熾燄強襲',
-        'description': 'I. 火屬性攻擊力 6.5 倍<br>II. 每回合場上數量最多的 1 種屬性符石及心符石<br>⇒ 兼具 50% 火符石效果<br>III. 如場上數量最多的 1 種屬性符石為火符石時<br>⇒ 則兼具效果變為火屬性攻擊力 2.2 倍',
+        'description': `
+		I. 火屬性攻擊力 6.5 倍
+		II. 每回合場上數量最多的 1 種屬性符石及心符石
+		⇒ 兼具 50% 火符石效果
+		III. 如場上數量最多的 1 種屬性符石為火符石時
+		⇒ 則兼具效果變為火屬性攻擊力 2.2 倍
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -7669,7 +9522,12 @@ const leader_skill_data = [
     },
     {
         'name': '無影幻像 ‧ 藤木襲',
-        'description': 'I. 木屬性攻擊力 4 倍<br>II. 每回合場上數量最多的 1 種屬性符石兼具 50% 木符石效果 (可疊加)<br>III. 如場上數量最多的 1 種屬性符石為木符石時<br>⇒  則兼具效果變為木屬性攻擊力 1.8 倍 (可疊加)',
+        'description': `
+		I. 木屬性攻擊力 4 倍
+		II. 每回合場上數量最多的 1 種屬性符石兼具 50% 木符石效果 (可疊加)
+		III. 如場上數量最多的 1 種屬性符石為木符石時
+		⇒  則兼具效果變為木屬性攻擊力 1.8 倍 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7691,7 +9549,13 @@ const leader_skill_data = [
     },
     {
         'name': '無垠幻像 ‧ 藤木強襲',
-        'description': 'I. 木屬性攻擊力 6.5 倍<br>II. 每回合場上數量最多的 1 種屬性符石及心符石<br>⇒ 兼具 50% 木符石效果<br>III. 如場上數量最多的 1 種屬性符石為木符石時<br>⇒ 則兼具效果變為木屬性攻擊力 2.2 倍',
+        'description': `
+		I. 木屬性攻擊力 6.5 倍
+		II. 每回合場上數量最多的 1 種屬性符石及心符石
+		⇒ 兼具 50% 木符石效果
+		III. 如場上數量最多的 1 種屬性符石為木符石時
+		⇒ 則兼具效果變為木屬性攻擊力 2.2 倍
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -7719,7 +9583,12 @@ const leader_skill_data = [
     },
     {
         'name': '流螢結陣．盛勢',
-        'description': 'I. 光屬性攻擊力 6 倍<br>II. 必然延長移動符石時間 1 秒<br>III. 消除 1 組 ≥5 粒光符石時<br>⇒ 光屬性攻擊力額外 2 倍',
+        'description': `
+		I. 光屬性攻擊力 6 倍
+		II. 必然延長移動符石時間 1 秒
+		III. 消除 1 組 ≥5 粒光符石時
+		⇒ 光屬性攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7741,7 +9610,12 @@ const leader_skill_data = [
     },
     {
         'name': '幽冥結陣．盛勢',
-        'description': 'I. 暗屬性攻擊力 6 倍<br>II. 必然延長移動符石時間 1 秒<br>III. 消除 1 組 ≥5 粒暗符石時<br>⇒ 暗屬性攻擊力額外 2 倍',
+        'description': `
+		I. 暗屬性攻擊力 6 倍
+		II. 必然延長移動符石時間 1 秒
+		III. 消除 1 組 ≥5 粒暗符石時
+		⇒ 暗屬性攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7763,7 +9637,12 @@ const leader_skill_data = [
     },
     {
         'name': '浪濤連動',
-        'description': 'I. 每首批消除 1 組符石<br>⇒ 將產生 1 粒水符石<br>II. 每累計消除 3 粒水符石<br>⇒ 將產生 1 粒水強化符石',
+        'description': `
+		I. 每首批消除 1 組符石
+		⇒ 將產生 1 粒水符石
+		II. 每累計消除 3 粒水符石
+		⇒ 將產生 1 粒水強化符石
+		`,
         'tag': [
             {
                 'name': '強制掉水',
@@ -7780,7 +9659,11 @@ const leader_skill_data = [
     },
     {
         'name': '神 ‧ 浪之力',
-        'description': 'I. 水屬性神族攻擊力 4.5 倍<br>II. 消除神族符石時<br>⇒ 水屬性攻擊力額外 1.5 倍',
+        'description': `
+		I. 水屬性神族攻擊力 4.5 倍
+		II. 消除神族符石時
+		⇒ 水屬性攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7797,7 +9680,12 @@ const leader_skill_data = [
     },
     {
         'name': '熾燄連動',
-        'description': 'I. 每首批消除 1 組符石<br>⇒ 將產生 1 粒火符石<br>II. 每累計消除 3 粒火符石<br>⇒ 將產生 1 粒火強化符石',
+        'description': `
+		I. 每首批消除 1 組符石
+		⇒ 將產生 1 粒火符石
+		II. 每累計消除 3 粒火符石
+		⇒ 將產生 1 粒火強化符石
+		`,
         'tag': [
             {
                 'name': '強制掉火',
@@ -7814,7 +9702,11 @@ const leader_skill_data = [
     },
     {
         'name': '神 ‧ 焰之力',
-        'description': 'I. 火屬性神族攻擊力 4.5 倍<br>II. 消除神族符石時<br>⇒ 火屬性攻擊力額外 1.5 倍',
+        'description': `
+		I. 火屬性神族攻擊力 4.5 倍
+		II. 消除神族符石時
+		⇒ 火屬性攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7831,7 +9723,12 @@ const leader_skill_data = [
     },
     {
         'name': '藤木連動',
-        'description': 'I. 每首批消除 1 組符石<br>⇒ 將產生 1 粒木符石<br>II. 每累計消除 3 粒木符石<br>⇒ 將產生 1 粒木強化符石',
+        'description': `
+		I. 每首批消除 1 組符石
+		⇒ 將產生 1 粒木符石
+		II. 每累計消除 3 粒木符石
+		⇒ 將產生 1 粒木強化符石
+		`,
         'tag': [
             {
                 'name': '強制掉木',
@@ -7848,7 +9745,11 @@ const leader_skill_data = [
     },
     {
         'name': '神 ‧ 森之力',
-        'description': 'I. 木屬性神族攻擊力 4.5 倍<br>II. 消除神族符石時<br>⇒ 木屬性攻擊力額外 1.5 倍',
+        'description': `
+		I. 木屬性神族攻擊力 4.5 倍
+		II. 消除神族符石時
+		⇒ 木屬性攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7865,7 +9766,12 @@ const leader_skill_data = [
     },
     {
         'name': '玄光連動',
-        'description': 'I. 每首批消除 1 組符石<br>⇒ 將產生 1 粒光符石<br>II. 每累計消除 3 粒光符石<br>⇒ 將產生 1 粒光強化符石',
+        'description': `
+		I. 每首批消除 1 組符石
+		⇒ 將產生 1 粒光符石
+		II. 每累計消除 3 粒光符石
+		⇒ 將產生 1 粒光強化符石
+		`,
         'tag': [
             {
                 'name': '強制掉光',
@@ -7882,7 +9788,11 @@ const leader_skill_data = [
     },
     {
         'name': '神 ‧ 玄之力',
-        'description': 'I. 光屬性神族攻擊力 4.5 倍<br>II. 消除神族符石時<br>⇒ 光屬性攻擊力額外 1.5 倍',
+        'description': `
+		I. 光屬性神族攻擊力 4.5 倍
+		II. 消除神族符石時
+		⇒ 光屬性攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7899,7 +9809,12 @@ const leader_skill_data = [
     },
     {
         'name': '幽冥連動',
-        'description': 'I. 每首批消除 1 組符石<br>⇒ 將產生 1 粒暗符石<br>II. 每累計消除 3 粒暗符石<br>⇒ 將產生 1 粒暗強化符石',
+        'description': `
+		I. 每首批消除 1 組符石
+		⇒ 將產生 1 粒暗符石
+		II. 每累計消除 3 粒暗符石
+		⇒ 將產生 1 粒暗強化符石
+		`,
         'tag': [
             {
                 'name': '強制掉暗',
@@ -7916,7 +9831,11 @@ const leader_skill_data = [
     },
     {
         'name': '神 ‧ 秘之力',
-        'description': 'I. 暗屬性神族攻擊力 4.5 倍<br>II. 消除神族符石時<br>⇒ 暗屬性攻擊力額外 1.5 倍',
+        'description': `
+		I. 暗屬性神族攻擊力 4.5 倍
+		II. 消除神族符石時
+		⇒ 暗屬性攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7933,7 +9852,10 @@ const leader_skill_data = [
     },
     {
         'name': '水浪 ‧ 驅動',
-        'description': 'I. 水屬性攻擊力 3.5 倍<br>II. 水屬性機械族攻擊力則 4 倍',
+        'description': `
+		I. 水屬性攻擊力 3.5 倍
+		II. 水屬性機械族攻擊力則 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7945,7 +9867,10 @@ const leader_skill_data = [
     },
     {
         'name': '火焰 ‧ 驅動',
-        'description': 'I. 火屬性攻擊力 3.5 倍<br>II. 火屬性機械族攻擊力則 4 倍',
+        'description': `
+		I. 火屬性攻擊力 3.5 倍
+		II. 火屬性機械族攻擊力則 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7957,7 +9882,10 @@ const leader_skill_data = [
     },
     {
         'name': '木林 ‧ 驅動',
-        'description': 'I. 木屬性攻擊力 3.5 倍<br>II. 木屬性機械族攻擊力則 4 倍',
+        'description': `
+		I. 木屬性攻擊力 3.5 倍
+		II. 木屬性機械族攻擊力則 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7969,7 +9897,10 @@ const leader_skill_data = [
     },
     {
         'name': '光源 ‧ 驅動',
-        'description': 'I. 光屬性攻擊力 3.5 倍<br>II. 光屬性機械族攻擊力則 4 倍',
+        'description': `
+		I. 光屬性攻擊力 3.5 倍
+		II. 光屬性機械族攻擊力則 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7981,7 +9912,10 @@ const leader_skill_data = [
     },
     {
         'name': '暗魄 ‧ 驅動',
-        'description': 'I. 暗屬性攻擊力 3.5 倍<br>II. 暗屬性機械族攻擊力則 4 倍',
+        'description': `
+		I. 暗屬性攻擊力 3.5 倍
+		II. 暗屬性機械族攻擊力則 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -7993,7 +9927,14 @@ const leader_skill_data = [
     },
     {
         'name': '水元素暴濤 ‧ 強',
-        'description': 'I.【妍希】及水屬性成員攻擊力 10 倍，消除水符石的組數愈多<br>⇒【妍希】及水屬性成員攻擊力愈高<br>⇒ 消除 2 組可達至最大 30 倍<br>II. 【妍希】及水屬性成員生命力及回復力 2 倍<br>III. 每回合結束時，隨機將 2 粒符石轉化為<br>⇒ 水神族強化符石',
+        'description': `
+		I.【妍希】及水屬性成員攻擊力 10 倍，消除水符石的組數愈多
+		⇒【妍希】及水屬性成員攻擊力愈高
+		⇒ 消除 2 組可達至最大 30 倍
+		II. 【妍希】及水屬性成員生命力及回復力 2 倍
+		III. 每回合結束時，隨機將 2 粒符石轉化為
+		⇒ 水神族強化符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -8015,7 +9956,10 @@ const leader_skill_data = [
     },
     {
         'name': '水元素之力 ‧ 強韌之壁',
-        'description': 'I. 水屬性攻擊力 10 倍<br>II. 減少 60% 所受傷害',
+        'description': `
+		I. 水屬性攻擊力 10 倍
+		II. 減少 60% 所受傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8032,7 +9976,13 @@ const leader_skill_data = [
     },
     {
         'name': '熊熊之火 ‧ 烈',
-        'description': 'I. 【妍希】及火屬性攻擊力 10 倍、生命力及回復力 2 倍<br>II. 每回合結束時，將火符石轉化為<br>⇒ 火神族強化符石<br>III. 消除火符石<br>⇒ 全隊攻擊力額外 5 倍',
+        'description': `
+		I. 【妍希】及火屬性攻擊力 10 倍、生命力及回復力 2 倍
+		II. 每回合結束時，將火符石轉化為
+		⇒ 火神族強化符石
+		III. 消除火符石
+		⇒ 全隊攻擊力額外 5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -8054,7 +10004,11 @@ const leader_skill_data = [
     },
     {
         'name': '心中的熾焰',
-        'description': 'I. 火屬性攻擊力 9 倍<br>II. 消除心符石時<br>⇒ 火屬性攻擊力額外 3 倍',
+        'description': `
+		I. 火屬性攻擊力 9 倍
+		II. 消除心符石時
+		⇒ 火屬性攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8071,7 +10025,13 @@ const leader_skill_data = [
     },
     {
         'name': '界限變革 ‧ 神',
-        'description': 'I. ≥3 粒相同種類的符石相連，即可發動消除<br>II. 所有符石掉落率不受其他技能影響<br>   (包括改變掉落符石屬性的技能)<br>III. 消除神族符石時<br>⇒ 神族攻擊力 1.5 倍',
+        'description': `
+		I. ≥3 粒相同種類的符石相連，即可發動消除
+		II. 所有符石掉落率不受其他技能影響
+		   (包括改變掉落符石屬性的技能)
+		III. 消除神族符石時
+		⇒ 神族攻擊力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '改變消除方式',
@@ -8088,7 +10048,13 @@ const leader_skill_data = [
     },
     {
         'name': '熾燄萬鈞 ‧ 絕命怒號',
-        'description': 'I. 火屬性攻擊力 4.5 倍<br>II. 消除 ≥12 粒火符石時<br>⇒ 火屬性攻擊力額外 1.8 倍<br>III. 消除 1 組 ≥12 粒火符石時<br>⇒ 火屬性攻擊額外 1.8 倍',
+        'description': `
+		I. 火屬性攻擊力 4.5 倍
+		II. 消除 ≥12 粒火符石時
+		⇒ 火屬性攻擊力額外 1.8 倍
+		III. 消除 1 組 ≥12 粒火符石時
+		⇒ 火屬性攻擊額外 1.8 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8110,7 +10076,13 @@ const leader_skill_data = [
     },
     {
         'name': '藤木萬鈞 ‧ 絕命怒號',
-        'description': 'I. 木屬性攻擊力 4.5 倍<br>II. 消除 ≥12 粒木符石時<br>⇒ 木屬性攻擊力額外 1.8 倍<br>III. 消除 1 組 ≥12 粒木符石時<br>⇒ 木屬性攻擊額外 1.8 倍',
+        'description': `
+		I. 木屬性攻擊力 4.5 倍
+		II. 消除 ≥12 粒木符石時
+		⇒ 木屬性攻擊力額外 1.8 倍
+		III. 消除 1 組 ≥12 粒木符石時
+		⇒ 木屬性攻擊額外 1.8 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8132,7 +10104,14 @@ const leader_skill_data = [
     },
     {
         'name': '五念凝匯 ‧ 強極',
-        'description': 'I. 隊伍中有 5 種屬性的成員時<br>⇒ 全隊攻擊力 2.5 倍<br>II. 若有 ≥5 種族成員時<br>⇒ 全隊攻擊力額外 2 倍<br>III. 消除 ≥5 種符石時<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		I. 隊伍中有 5 種屬性的成員時
+		⇒ 全隊攻擊力 2.5 倍
+		II. 若有 ≥5 種族成員時
+		⇒ 全隊攻擊力額外 2 倍
+		III. 消除 ≥5 種符石時
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8154,7 +10133,12 @@ const leader_skill_data = [
     },
     {
         'name': '浪濤之誅罰',
-        'description': 'I. 水屬性<br>⇒ 對火及暗屬性目標攻擊力 5.5 倍<br>⇒ 對其他屬性目標攻擊力 3.5 倍 (包括主動技)<br>II. 火及暗屬性傷害減少 25%',
+        'description': `
+		I. 水屬性
+		⇒ 對火及暗屬性目標攻擊力 5.5 倍
+		⇒ 對其他屬性目標攻擊力 3.5 倍 (包括主動技)
+		II. 火及暗屬性傷害減少 25%
+		`,
         'tag': [
             {
                 'name': ['增攻', '對火增傷', '對暗增傷', '對水增傷', '對木增傷', '對光增傷'],
@@ -8171,7 +10155,9 @@ const leader_skill_data = [
     },
     {
         'name': '水獸之力',
-        'description': '水屬性及獸類攻擊力 4.5 倍',
+        'description': `
+		水屬性及獸類攻擊力 4.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8183,7 +10169,12 @@ const leader_skill_data = [
     },
     {
         'name': '熾燄之誅罰',
-        'description': 'I. 火屬性<br>⇒ 對火及木屬性目標攻擊力 5.5 倍<br>⇒ 對其他屬性目標攻擊力 3.5 倍 (包括主動技)<br>II. 火及木屬性傷害減少 25%',
+        'description': `
+		I. 火屬性
+		⇒ 對火及木屬性目標攻擊力 5.5 倍
+		⇒ 對其他屬性目標攻擊力 3.5 倍 (包括主動技)
+		II. 火及木屬性傷害減少 25%
+		`,
         'tag': [
             {
                 'name': ['增攻', '對火增傷', '對木增傷', '對水增傷', '對光增傷', '對暗增傷'],
@@ -8200,7 +10191,9 @@ const leader_skill_data = [
     },
     {
         'name': '赤龍之力',
-        'description': '火屬性及龍類攻擊力 4.5 倍',
+        'description': `
+		火屬性及龍類攻擊力 4.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8212,7 +10205,12 @@ const leader_skill_data = [
     },
     {
         'name': '藤棘之誅罰',
-        'description': 'I. 木屬性<br>⇒ 對水及光屬性目標攻擊力 5.5 倍<br>⇒ 對其他屬性目標攻擊力 3.5 倍 (包括主動技)<br>II. 水及光屬性傷害減少 25%',
+        'description': `
+		I. 木屬性
+		⇒ 對水及光屬性目標攻擊力 5.5 倍
+		⇒ 對其他屬性目標攻擊力 3.5 倍 (包括主動技)
+		II. 水及光屬性傷害減少 25%
+		`,
         'tag': [
             {
                 'name': ['增攻', '對水增傷', '對光增傷', '對火增傷', '對木增傷', '對暗增傷'],
@@ -8229,7 +10227,9 @@ const leader_skill_data = [
     },
     {
         'name': '森龍之力',
-        'description': '木屬性及龍類攻擊力 4.5 倍',
+        'description': `
+		木屬性及龍類攻擊力 4.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8241,7 +10241,12 @@ const leader_skill_data = [
     },
     {
         'name': '玄光之誅罰',
-        'description': 'I. 光屬性<br>⇒ 對火及暗屬性目標攻擊力 5.5 倍<br>⇒ 對其他屬性目標攻擊力 3.5 倍 (包括主動技)<br>II. 火及暗屬性傷害減少 25%',
+        'description': `
+		I. 光屬性
+		⇒ 對火及暗屬性目標攻擊力 5.5 倍
+		⇒ 對其他屬性目標攻擊力 3.5 倍 (包括主動技)
+		II. 火及暗屬性傷害減少 25%
+		`,
         'tag': [
             {
                 'name': ['增攻', '對火增傷', '對暗增傷', '對水增傷', '對木增傷', '對光增傷'],
@@ -8258,7 +10263,9 @@ const leader_skill_data = [
     },
     {
         'name': '玄獸之力',
-        'description': '光屬性及獸類攻擊力 4.5 倍',
+        'description': `
+		光屬性及獸類攻擊力 4.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8270,7 +10277,12 @@ const leader_skill_data = [
     },
     {
         'name': '幽冥之誅罰',
-        'description': 'I. 暗屬性<br>⇒ 對木及光屬性目標攻擊力 5.5 倍<br>⇒ 對其他屬性目標攻擊力 3.5 倍 (包括主動技)<br>II. 木及光屬性傷害減少 25%',
+        'description': `
+		I. 暗屬性
+		⇒ 對木及光屬性目標攻擊力 5.5 倍
+		⇒ 對其他屬性目標攻擊力 3.5 倍 (包括主動技)
+		II. 木及光屬性傷害減少 25%
+		`,
         'tag': [
             {
                 'name': ['增攻', '對木增傷', '對光增傷', '對水增傷', '對火增傷', '對暗增傷'],
@@ -8287,7 +10299,9 @@ const leader_skill_data = [
     },
     {
         'name': '冥神之力',
-        'description': '暗屬性及神族攻擊力 4.5 倍',
+        'description': `
+		暗屬性及神族攻擊力 4.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8299,7 +10313,13 @@ const leader_skill_data = [
     },
     {
         'name': '瑰秘之妖力',
-        'description': 'I. 妖精類攻擊力 5 倍<br>II. 回合結束時<br>⇒ 隨機將 3 粒水符石添加為妖族符石<br>III. 消除 ≥4 種符石時<br>⇒ 自身攻擊力 1.5 倍',
+        'description': `
+		I. 妖精類攻擊力 5 倍
+		II. 回合結束時
+		⇒ 隨機將 3 粒水符石添加為妖族符石
+		III. 消除 ≥4 種符石時
+		⇒ 自身攻擊力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8321,7 +10341,13 @@ const leader_skill_data = [
     },
     {
         'name': '血燄注魂術 ‧ 強獸',
-        'description': '隊伍中只有獸類成員時：<br>I. 全隊攻擊力 5 倍<br>II. 進入關卡後所有成員的主動技能 CD 減少 5 (效果不能疊加)<br>III. 消除 1 組 ≥5 粒符石時<br>⇒ 全隊攻擊力額外 1.5 倍',
+        'description': `
+		隊伍中只有獸類成員時：
+		I. 全隊攻擊力 5 倍
+		II. 進入關卡後所有成員的主動技能 CD 減少 5 (效果不能疊加)
+		III. 消除 1 組 ≥5 粒符石時
+		⇒ 全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '進場減CD'],
@@ -8338,7 +10364,17 @@ const leader_skill_data = [
     },
     {
         'name': '血燄注魂術 ‧ 烈火',
-        'description': '隊伍中只有火屬性獸類成員時：<br>I. 全隊攻擊力 5 倍<br>II. 進入關卡後所有成員的主動技能 CD 減少 5 (效果不能疊加)<br>III. 消除 1 組 ≥5 粒符石時<br>⇒ 全隊攻擊力額外 1.5 倍<br>IV. 每回合場上數量最多的 1 種符石<br>⇒ 兼具火符石效果<br>V. 若該種符石為火符石時<br>⇒ 則兼具效果變為火屬性攻擊力 1.8 倍',
+        'description': `
+		隊伍中只有火屬性獸類成員時：
+		I. 全隊攻擊力 5 倍
+		II. 進入關卡後所有成員的主動技能 CD 減少 5 (效果不能疊加)
+		III. 消除 1 組 ≥5 粒符石時
+		⇒ 全隊攻擊力額外 1.5 倍
+		IV. 每回合場上數量最多的 1 種符石
+		⇒ 兼具火符石效果
+		V. 若該種符石為火符石時
+		⇒ 則兼具效果變為火屬性攻擊力 1.8 倍
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -8366,7 +10402,15 @@ const leader_skill_data = [
     },
     {
         'name': '自然流溢之力 ‧ 靈泉',
-        'description': '隊伍中只有獸類成員時：<br>I. 全隊攻擊力 5 倍及生命力 1.5 倍<br>II. 每首批消除 1 粒符石<br>⇒ 回復 0.6% 總生命力<br>(受連擊 (Combo) 加乘影響)<br>III. 木符石兼具 50% 其他屬性符石效果<br>(可疊加)',
+        'description': `
+		隊伍中只有獸類成員時：
+		I. 全隊攻擊力 5 倍及生命力 1.5 倍
+		II. 每首批消除 1 粒符石
+		⇒ 回復 0.6% 總生命力
+		(受連擊 (Combo) 加乘影響)
+		III. 木符石兼具 50% 其他屬性符石效果
+		(可疊加)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -8388,7 +10432,10 @@ const leader_skill_data = [
     },
     {
         'name': '矢志萬鈞龍怒 ‧ 壽延',
-        'description': '隊伍中只有龍類成員時：<br>龍類攻擊力 5 倍及生命力 1.25 倍',
+        'description': `
+		隊伍中只有龍類成員時：
+		龍類攻擊力 5 倍及生命力 1.25 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -8400,7 +10447,16 @@ const leader_skill_data = [
     },
     {
         'name': '石破驚天 ‧ 狂龍',
-        'description': '隊伍中只有龍類成員時：<br>I. 龍類攻擊力 6.5 倍及生命力 1.6 倍<br>II. 每回合移動並消除符石後的 3 秒內<br>⇒ 可點選 1 橫行的符石並引爆<br>III. 每引爆 1 粒光以外的符石<br>⇒ 全隊攻擊力額外提升<br>⇒ 引爆 6 粒可提升至最大 2.2 倍<br>IV. 光符石兼具其他屬性符石效果',
+        'description': `
+		隊伍中只有龍類成員時：
+		I. 龍類攻擊力 6.5 倍及生命力 1.6 倍
+		II. 每回合移動並消除符石後的 3 秒內
+		⇒ 可點選 1 橫行的符石並引爆
+		III. 每引爆 1 粒光以外的符石
+		⇒ 全隊攻擊力額外提升
+		⇒ 引爆 6 粒可提升至最大 2.2 倍
+		IV. 光符石兼具其他屬性符石效果
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -8423,7 +10479,9 @@ const leader_skill_data = [
     },
     {
         'name': '幽冥萬鈞之怒 ‧ 強',
-        'description': '暗屬性攻擊力 4.5 倍',
+        'description': `
+		暗屬性攻擊力 4.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8435,7 +10493,10 @@ const leader_skill_data = [
     },
     {
         'name': '魔性流淌',
-        'description': 'I. 水屬性攻擊力 2.5 倍及魔族攻擊力 3 倍<br>II. 水屬性魔族攻擊力則 7.5 倍',
+        'description': `
+		I. 水屬性攻擊力 2.5 倍及魔族攻擊力 3 倍
+		II. 水屬性魔族攻擊力則 7.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8447,7 +10508,12 @@ const leader_skill_data = [
     },
     {
         'name': '神魔之森',
-        'description': '隊伍中只有木屬性魔族或木屬性神族時：<br>I. 全隊攻擊力 3.5 倍<br>II. 每消除 4 組符石時<br>⇒ 必定掉落 3 粒木符石',
+        'description': `
+		隊伍中只有木屬性魔族或木屬性神族時：
+		I. 全隊攻擊力 3.5 倍
+		II. 每消除 4 組符石時
+		⇒ 必定掉落 3 粒木符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8464,7 +10530,10 @@ const leader_skill_data = [
     },
     {
         'name': '種族凝匯 ‧ 光',
-        'description': '隊伍中有 ≥4 種族成員時<br>⇒ 光屬性攻擊力 4.5 倍',
+        'description': `
+		隊伍中有 ≥4 種族成員時
+		⇒ 光屬性攻擊力 4.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8476,7 +10545,14 @@ const leader_skill_data = [
     },
     {
         'name': '種族凝匯 ‧ 極光',
-        'description': '隊伍中有 ≥4 種族成員時：<br>I. 光屬性攻擊力 4.5 倍<br>II. 所有成員的攻擊力基值<br>⇒ 跟隨攻擊力基值最高的成員<br>III. 所有成員的回復力基值<br>⇒ 跟隨回復力最高基值的成員',
+        'description': `
+		隊伍中有 ≥4 種族成員時：
+		I. 光屬性攻擊力 4.5 倍
+		II. 所有成員的攻擊力基值
+		⇒ 跟隨攻擊力基值最高的成員
+		III. 所有成員的回復力基值
+		⇒ 跟隨回復力最高基值的成員
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -8494,7 +10570,11 @@ const leader_skill_data = [
     },
     {
         'name': '百獸同心 ‧ 強',
-        'description': '隊伍中只有獸類成員時：<br>I. 全隊攻擊力 5 倍<br>II. 所有屬性符石兼具 25% 心符石效果 (效果不能疊加)',
+        'description': `
+		隊伍中只有獸類成員時：
+		I. 全隊攻擊力 5 倍
+		II. 所有屬性符石兼具 25% 心符石效果 (效果不能疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8511,7 +10591,10 @@ const leader_skill_data = [
     },
     {
         'name': '煉獄之霸業 ‧ 獸',
-        'description': 'I. 火屬性攻擊力 3 倍及回復力 2 倍<br>II. 火屬性獸類攻擊力則 4.5 倍',
+        'description': `
+		I. 火屬性攻擊力 3 倍及回復力 2 倍
+		II. 火屬性獸類攻擊力則 4.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -8523,7 +10606,10 @@ const leader_skill_data = [
     },
     {
         'name': '大地之霸業 ‧ 獸',
-        'description': 'I. 木屬性攻擊力 3 倍及回復力 2 倍<br>II. 木屬性獸類攻擊力則 4.5 倍',
+        'description': `
+		I. 木屬性攻擊力 3 倍及回復力 2 倍
+		II. 木屬性獸類攻擊力則 4.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -8535,7 +10621,12 @@ const leader_skill_data = [
     },
     {
         'name': '百獸同盟 ‧ 強',
-        'description': '隊伍中只有獸類成員時：<br>I. 全隊攻擊力 5 倍<br>II. 消除 3 種符石時<br>⇒ 全隊攻擊力額外 1.5 倍',
+        'description': `
+		隊伍中只有獸類成員時：
+		I. 全隊攻擊力 5 倍
+		II. 消除 3 種符石時
+		⇒ 全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8552,7 +10643,9 @@ const leader_skill_data = [
     },
     {
         'name': '元素調勻 ‧ 暗',
-        'description': '暗屬性生命力、攻擊力及回復力 2 倍',
+        'description': `
+		暗屬性生命力、攻擊力及回復力 2 倍
+		`,
         'tag': [
             {
                 'name': ['增血', '增攻', '增回'],
@@ -8564,7 +10657,12 @@ const leader_skill_data = [
     },
     {
         'name': '燄神咒術',
-        'description': 'I. 火屬性及神族攻擊力 4.5 倍<br>II. 火符石兼具 50% 其他屬性符石效果 (效果不能疊加)<br>III. 消除 1 種符石 ≥15 粒時<br>⇒ 全隊攻擊力額外 2.5 倍',
+        'description': `
+		I. 火屬性及神族攻擊力 4.5 倍
+		II. 火符石兼具 50% 其他屬性符石效果 (效果不能疊加)
+		III. 消除 1 種符石 ≥15 粒時
+		⇒ 全隊攻擊力額外 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8586,7 +10684,10 @@ const leader_skill_data = [
     },
     {
         'name': '藤木之靈',
-        'description': 'I. 木屬性攻擊力 4 倍<br>II. 心符石兼具 50% 木符石效果 (可疊加)',
+        'description': `
+		I. 木屬性攻擊力 4 倍
+		II. 心符石兼具 50% 木符石效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8603,7 +10704,12 @@ const leader_skill_data = [
     },
     {
         'name': '魅之花海',
-        'description': 'I. 暗屬性攻擊力 4 倍<br>II. 回合結束時<br>⇒ 將隨機 2 粒暗強化符石四周的符石<br>⇒ 轉化為暗符石',
+        'description': `
+		I. 暗屬性攻擊力 4 倍
+		II. 回合結束時
+		⇒ 將隨機 2 粒暗強化符石四周的符石
+		⇒ 轉化為暗符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8620,7 +10726,10 @@ const leader_skill_data = [
     },
     {
         'name': '木之怒嘯 ‧ 獵魔',
-        'description': 'I. 木屬性攻擊力 3.5 倍<br>II. 木屬性對魔族目標的攻擊力額外 2 倍',
+        'description': `
+		I. 木屬性攻擊力 3.5 倍
+		II. 木屬性對魔族目標的攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '對魔族增傷'],
@@ -8632,7 +10741,9 @@ const leader_skill_data = [
     },
     {
         'name': '光之再生',
-        'description': '光屬性回復力 2.5 倍',
+        'description': `
+		光屬性回復力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -8644,7 +10755,13 @@ const leader_skill_data = [
     },
     {
         'name': '光華獨尊',
-        'description': 'I. 光符石兼具 25% 心符石效果<br>II. 暗符石兼具 25% 光符石效果<br>III. 心符石兼具 50% 光符石效果 (效果可以疊加)<br>IV. 消除光、暗及心符石其中 2 種符石時<br>⇒ 光屬性攻擊力 3 倍',
+        'description': `
+		I. 光符石兼具 25% 心符石效果
+		II. 暗符石兼具 25% 光符石效果
+		III. 心符石兼具 50% 光符石效果 (效果可以疊加)
+		IV. 消除光、暗及心符石其中 2 種符石時
+		⇒ 光屬性攻擊力 3 倍
+		`,
         'tag': [
             {
                 'name': ['光兼具其他', '暗兼具其他', '心兼具其他', '符石兼具光', '符石兼具心'],
@@ -8661,7 +10778,17 @@ const leader_skill_data = [
     },
     {
         'name': '光華獨尊 ‧ 極',
-        'description': 'I. 光符石兼具 25% 心符石效果<br>II. 暗符石兼具 25% 光符石效果<br>III. 心符石兼具 50% 光符石效果 (效果可以疊加)<br>IV. 消除光、暗及心符石其中 2 種符石時<br>⇒ 光屬性攻擊力 3 倍<br>V. ≥3 粒相同種類的符石相連，即可發動消除<br>VI. 所有符石掉落率不受其他技能影響<br>(包括改變掉落符石屬性的技能)<br>VII.每回合移動並消除符石後，「X 型」引爆 10 個固定位置的符石',
+        'description': `
+		I. 光符石兼具 25% 心符石效果
+		II. 暗符石兼具 25% 光符石效果
+		III. 心符石兼具 50% 光符石效果 (效果可以疊加)
+		IV. 消除光、暗及心符石其中 2 種符石時
+		⇒ 光屬性攻擊力 3 倍
+		V. ≥3 粒相同種類的符石相連，即可發動消除
+		VI. 所有符石掉落率不受其他技能影響
+		(包括改變掉落符石屬性的技能)
+		VII.每回合移動並消除符石後，「X 型」引爆 10 個固定位置的符石
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -8679,7 +10806,11 @@ const leader_skill_data = [
     },
     {
         'name': '神權在握',
-        'description': 'I. 神族攻擊力 4.5 倍<br>II. 消除暗強化符石時<br>⇒ 全隊攻擊力有 50% 機率額外 1.5 倍 (機率可以疊加)',
+        'description': `
+		I. 神族攻擊力 4.5 倍
+		II. 消除暗強化符石時
+		⇒ 全隊攻擊力有 50% 機率額外 1.5 倍 (機率可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8696,7 +10827,12 @@ const leader_skill_data = [
     },
     {
         'name': '騎士之盟',
-        'description': '隊伍中只有火、木及暗屬性成員時：<br>I. 全隊攻擊力 4 倍<br>II. 消除心符石時<br>⇒ 全隊攻擊力有 50% 機率額外 2 倍 (機率可以疊加)',
+        'description': `
+		隊伍中只有火、木及暗屬性成員時：
+		I. 全隊攻擊力 4 倍
+		II. 消除心符石時
+		⇒ 全隊攻擊力有 50% 機率額外 2 倍 (機率可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8713,7 +10849,12 @@ const leader_skill_data = [
     },
     {
         'name': '不撓雄傑 ‧ 木',
-        'description': 'I. 木屬性攻擊力 2.5 倍<br>II. 隊伍中的人類成員愈多時<br>⇒ 木屬性成員的生命力及回復力愈高<br>⇒ 5 個人類成員可達至最大 1.5 倍 (不計自身)',
+        'description': `
+		I. 木屬性攻擊力 2.5 倍
+		II. 隊伍中的人類成員愈多時
+		⇒ 木屬性成員的生命力及回復力愈高
+		⇒ 5 個人類成員可達至最大 1.5 倍 (不計自身)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8730,7 +10871,11 @@ const leader_skill_data = [
     },
     {
         'name': '聖劍',
-        'description': '隊伍中只有光屬性人類時：<br>I. 全隊攻擊力 3 倍<br>II. 所有符石兼具 15% 光符石效果',
+        'description': `
+		隊伍中只有光屬性人類時：
+		I. 全隊攻擊力 3 倍
+		II. 所有符石兼具 15% 光符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8747,7 +10892,17 @@ const leader_skill_data = [
     },
     {
         'name': '聖劍 ‧ 裂光',
-        'description': '隊伍中只有光屬性人類時：<br>I. 全隊攻擊力 3 倍<br>II. 所有符石兼具 15% 光符石效果<br>III. 每回合移動並消除符石後<br>⇒ 引爆所有光符石<br>⇒ 直至場上沒有光符石<br>IV. 引爆的光符石愈多<br>⇒ 攻擊力額外提升愈多<br>⇒ 引爆 5 粒可達至最大 2 倍 (倍率不可疊加)',
+        'description': `
+		隊伍中只有光屬性人類時：
+		I. 全隊攻擊力 3 倍
+		II. 所有符石兼具 15% 光符石效果
+		III. 每回合移動並消除符石後
+		⇒ 引爆所有光符石
+		⇒ 直至場上沒有光符石
+		IV. 引爆的光符石愈多
+		⇒ 攻擊力額外提升愈多
+		⇒ 引爆 5 粒可達至最大 2 倍 (倍率不可疊加)
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -8775,7 +10930,10 @@ const leader_skill_data = [
     },
     {
         'name': '暗黑回復魔法',
-        'description': 'I. 妖精類攻擊力及回復力 4 倍<br>II. 回合結束時，將心符石轉化為心強化符石',
+        'description': `
+		I. 妖精類攻擊力及回復力 4 倍
+		II. 回合結束時，將心符石轉化為心強化符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -8792,7 +10950,10 @@ const leader_skill_data = [
     },
     {
         'name': '火之怒嘯 ‧ 獵魔',
-        'description': 'I. 火屬性攻擊力 3.5 倍<br>II. 火屬性對魔族目標的攻擊力額外 2 倍',
+        'description': `
+		I. 火屬性攻擊力 3.5 倍
+		II. 火屬性對魔族目標的攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '對魔族增傷'],
@@ -8804,7 +10965,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔怒嘯天 ‧ 木',
-        'description': '木屬性魔族攻擊力 3.5 倍',
+        'description': `
+		木屬性魔族攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8816,7 +10979,11 @@ const leader_skill_data = [
     },
     {
         'name': '攻守化境',
-        'description': 'I. 全隊攻擊力 4 倍<br>II. 每首批消除 1 粒符石<br>⇒ 回復總生命力等值的 0.5% 生命力 (效果不能疊加)',
+        'description': `
+		I. 全隊攻擊力 4 倍
+		II. 每首批消除 1 粒符石
+		⇒ 回復總生命力等值的 0.5% 生命力 (效果不能疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8833,7 +11000,13 @@ const leader_skill_data = [
     },
     {
         'name': '人之復甦 ‧ 凝水',
-        'description': 'I. 水屬性攻擊力 3 倍<br>II. 人類回復力 2 倍<br>III. 受到攻擊時<br>⇒ 場上每粒水符石可減少 5% 所受傷害<br>⇒ 最多可減少 30% 傷害 (減傷效果不可疊加)',
+        'description': `
+		I. 水屬性攻擊力 3 倍
+		II. 人類回復力 2 倍
+		III. 受到攻擊時
+		⇒ 場上每粒水符石可減少 5% 所受傷害
+		⇒ 最多可減少 30% 傷害 (減傷效果不可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8855,7 +11028,12 @@ const leader_skill_data = [
     },
     {
         'name': '燄刃襲',
-        'description': 'I. 火屬性「人類、龍類」攻擊力 4.5 倍<br>II. 延長移動符石時間 1 秒<br>III. 消除 ≥12 粒火符石時<br>⇒ 全隊攻擊力額外 1.5 倍',
+        'description': `
+		I. 火屬性「人類、龍類」攻擊力 4.5 倍
+		II. 延長移動符石時間 1 秒
+		III. 消除 ≥12 粒火符石時
+		⇒ 全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8877,7 +11055,13 @@ const leader_skill_data = [
     },
     {
         'name': '木葉之森',
-        'description': 'I. 消除 6 粒木符石時<br>⇒ 木屬性人類攻擊力 3.75 倍<br>II. 消除的木符石數量愈多<br>⇒ 木屬性人類攻擊力愈高<br>⇒ 消除 15 粒木符石可達至最大 6 倍',
+        'description': `
+		I. 消除 6 粒木符石時
+		⇒ 木屬性人類攻擊力 3.75 倍
+		II. 消除的木符石數量愈多
+		⇒ 木屬性人類攻擊力愈高
+		⇒ 消除 15 粒木符石可達至最大 6 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8889,7 +11073,12 @@ const leader_skill_data = [
     },
     {
         'name': '巨力之腕',
-        'description': 'I. 隊伍中只有 2 種屬性成員時<br>⇒ 全隊攻擊力 2.5 倍<br>II. 若隊伍中有 ≥4 個人類成員<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		I. 隊伍中只有 2 種屬性成員時
+		⇒ 全隊攻擊力 2.5 倍
+		II. 若隊伍中有 ≥4 個人類成員
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8906,7 +11095,9 @@ const leader_skill_data = [
     },
     {
         'name': '妖精萬鈞之怒 ‧ 靈泉',
-        'description': '妖精類攻擊力 4 倍及生命力 2 倍',
+        'description': `
+		妖精類攻擊力 4 倍及生命力 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -8918,7 +11109,13 @@ const leader_skill_data = [
     },
     {
         'name': '人之復甦 ‧ 凝火',
-        'description': 'I. 火屬性攻擊力 3 倍<br>II. 人類回復力 2 倍<br>III. 受到攻擊時<br>⇒ 場上每粒火符石可減少 5% 所受傷害<br>⇒ 最多可減少 30% 傷害 (減傷效果不可疊加)',
+        'description': `
+		I. 火屬性攻擊力 3 倍
+		II. 人類回復力 2 倍
+		III. 受到攻擊時
+		⇒ 場上每粒火符石可減少 5% 所受傷害
+		⇒ 最多可減少 30% 傷害 (減傷效果不可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8940,7 +11137,14 @@ const leader_skill_data = [
     },
     {
         'name': '天魔道 ‧ 光',
-        'description': 'I. 光屬性攻擊力 2 倍<br>II. 隊伍中每個魔族成員<br>⓵ 扣除 5 %總生命力上限<br>⇒ 6 個魔族成員共扣除 30% 總生命力上限<br>⓶ 額外增加光屬性攻擊力 0.5 倍<br>⇒ 6 個魔族成員達至最高 5 倍光屬性攻擊力',
+        'description': `
+		I. 光屬性攻擊力 2 倍
+		II. 隊伍中每個魔族成員
+		⓵ 扣除 5 %總生命力上限
+		⇒ 6 個魔族成員共扣除 30% 總生命力上限
+		⓶ 額外增加光屬性攻擊力 0.5 倍
+		⇒ 6 個魔族成員達至最高 5 倍光屬性攻擊力
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -8957,7 +11161,10 @@ const leader_skill_data = [
     },
     {
         'name': '真龍之源',
-        'description': 'I. 暗屬性龍類攻擊力 4 倍<br>II. 每個暗屬性龍類成員增加 180 點回復力',
+        'description': `
+		I. 暗屬性龍類攻擊力 4 倍
+		II. 每個暗屬性龍類成員增加 180 點回復力
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -8969,7 +11176,11 @@ const leader_skill_data = [
     },
     {
         'name': '流螢之約',
-        'description': 'I. 心符石兼具 50% 水符石效果<br>II. 隊伍中只有水屬性妖精時：<br>⇒ 全隊攻擊力 4.5 倍及生命力 1.3 倍',
+        'description': `
+		I. 心符石兼具 50% 水符石效果
+		II. 隊伍中只有水屬性妖精時：
+		⇒ 全隊攻擊力 4.5 倍及生命力 1.3 倍
+		`,
         'tag': [
             {
                 'name': ['心兼具其他', '符石兼具水'],
@@ -8986,7 +11197,11 @@ const leader_skill_data = [
     },
     {
         'name': '連鎖聖令 ‧ 火',
-        'description': 'I. 火屬性攻擊力 3.5 倍<br>II. 消除 1 組 ≥12 粒符石時<br>⇒ 火屬性攻擊力額外 1.5 倍',
+        'description': `
+		I. 火屬性攻擊力 3.5 倍
+		II. 消除 1 組 ≥12 粒符石時
+		⇒ 火屬性攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9003,13 +11218,21 @@ const leader_skill_data = [
     },
     {
         'name': '沒有技能',
-        'description': '沒有技能',
+        'description': `
+		沒有技能
+		`,
         'tag': [],
         'monster': [1500, 1524, 1659, 1785, 1819, 1908, 1909, 1968, 1972, 1973, 2077, 2078, 2119, 2128, 2170, 2201, 2202, 2209, 2210, 2211, 2213, 2242, 2328, 2360, 2398, 2399, 2400, 2427, 2428, 2429, 2439, 2509, 2535, 2583, 2599, 2633, 2681, 2694, 2697, 2698, 2718, 2754, 2774, 2788, 3011, 3012, 3013, 3014, 7027, 7034, 10001, 10002, 10003, 10004, 10005, 10006, 10007, 10008, 10009, 10010, 10011, 10012, 10013, 10014, 10015, 10016, 10017, 10018, 10019, 10020, 10021, 10022, 10023, 10024, 10025, 10026, 10027, 10028, 10029, 10030, 10031, 10032, 10033, 10034, 10035, 10046, 10063, 10064, 10065, 10120, 10148, 10194, 10199, 10223, 10263, 10272, 10298]
     },
     {
         'name': '流雲斷念劍',
-        'description': 'I. 水屬性攻擊力 4 倍<br>II. 消除 ≥3 種符石及自身發動攻擊時<br>⇒ 個人追打自身攻擊力 3 倍的水屬性攻擊 1 次<br>III. 消除心符石及自身發動攻擊時<br>⇒ 個人追打自身攻擊力 1.5 倍的水屬性攻擊 1 次',
+        'description': `
+		I. 水屬性攻擊力 4 倍
+		II. 消除 ≥3 種符石及自身發動攻擊時
+		⇒ 個人追打自身攻擊力 3 倍的水屬性攻擊 1 次
+		III. 消除心符石及自身發動攻擊時
+		⇒ 個人追打自身攻擊力 1.5 倍的水屬性攻擊 1 次
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9031,7 +11254,11 @@ const leader_skill_data = [
     },
     {
         'name': '魔火之燄',
-        'description': 'I. 火屬性「魔族、龍類、獸類」攻擊力 3.5 倍<br>II. 隊伍中有合體召喚獸時<br>⇒ 全隊攻擊力額外 1.6 倍',
+        'description': `
+		I. 火屬性「魔族、龍類、獸類」攻擊力 3.5 倍
+		II. 隊伍中有合體召喚獸時
+		⇒ 全隊攻擊力額外 1.6 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9048,7 +11275,11 @@ const leader_skill_data = [
     },
     {
         'name': '玄冥不侵 ‧ 化燄',
-        'description': 'I. 全隊攻擊力 3.5 倍<br>II. 光屬性和暗屬性傷害減少 30%<br>III. 火屬性傷害減少 40%',
+        'description': `
+		I. 全隊攻擊力 3.5 倍
+		II. 光屬性和暗屬性傷害減少 30%
+		III. 火屬性傷害減少 40%
+		`,
         'tag': [
             {
                 'name': ['增攻', '減傷'],
@@ -9060,7 +11291,12 @@ const leader_skill_data = [
     },
     {
         'name': '玄光雄傑闖天下',
-        'description': 'I. 光屬性及暗屬性攻擊力 3.5 倍<br>II. 當隊伍中只有光及暗屬性成員時：<br>⓵ 暗符石兼具光符石效果<br>⓶ 人類攻擊力有 50% 機率額外 1.5 倍 (機率可以疊加)',
+        'description': `
+		I. 光屬性及暗屬性攻擊力 3.5 倍
+		II. 當隊伍中只有光及暗屬性成員時：
+		⓵ 暗符石兼具光符石效果
+		⓶ 人類攻擊力有 50% 機率額外 1.5 倍 (機率可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9082,7 +11318,12 @@ const leader_skill_data = [
     },
     {
         'name': '幽冥雄傑闖天下',
-        'description': 'I. 光屬性及暗屬性攻擊力 3.5 倍<br>II. 隊伍中只有光及暗屬性成員時：<br>⇒ 光符石兼具暗符石效果<br>⇒ 人類攻擊力有 50% 機率額外 1.5 倍 (機率可以疊加)',
+        'description': `
+		I. 光屬性及暗屬性攻擊力 3.5 倍
+		II. 隊伍中只有光及暗屬性成員時：
+		⇒ 光符石兼具暗符石效果
+		⇒ 人類攻擊力有 50% 機率額外 1.5 倍 (機率可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9104,7 +11345,11 @@ const leader_skill_data = [
     },
     {
         'name': '玄冥不侵 ‧ 化木',
-        'description': 'I. 全隊攻擊力 3.5 倍<br>II. 光屬性和暗屬性傷害減少 30%<br>III. 木屬性傷害減少 40%',
+        'description': `
+		I. 全隊攻擊力 3.5 倍
+		II. 光屬性和暗屬性傷害減少 30%
+		III. 木屬性傷害減少 40%
+		`,
         'tag': [
             {
                 'name': ['增攻', '減傷'],
@@ -9116,7 +11361,11 @@ const leader_skill_data = [
     },
     {
         'name': '玄冥不侵 ‧ 化浪',
-        'description': 'I. 全隊攻擊力 3.5 倍<br>II. 光屬性和暗屬性傷害減少 30%<br>III. 同時水屬性傷害減少 40%',
+        'description': `
+		I. 全隊攻擊力 3.5 倍
+		II. 光屬性和暗屬性傷害減少 30%
+		III. 同時水屬性傷害減少 40%
+		`,
         'tag': [
             {
                 'name': ['增攻', '減傷'],
@@ -9128,7 +11377,11 @@ const leader_skill_data = [
     },
     {
         'name': '冥流之劍',
-        'description': 'I. 首回合暗屬性攻擊力 2.25 倍<br>II. 次回合暗屬性攻擊力 4.5 倍<br>周而復始 (只計算消除符石的回合)',
+        'description': `
+		I. 首回合暗屬性攻擊力 2.25 倍
+		II. 次回合暗屬性攻擊力 4.5 倍
+		周而復始 (只計算消除符石的回合)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9140,7 +11393,10 @@ const leader_skill_data = [
     },
     {
         'name': '煙火龍舞',
-        'description': 'I. 火屬性及龍類攻擊力 2 倍<br>II. 火屬性龍類攻擊力則 4 倍',
+        'description': `
+		I. 火屬性及龍類攻擊力 2 倍
+		II. 火屬性龍類攻擊力則 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9152,7 +11408,12 @@ const leader_skill_data = [
     },
     {
         'name': '一念之間 ‧ 極',
-        'description': 'I. 減少 50% 移動符石時間<br>II. 全隊攻擊力 8 倍<br>III. 於 5 秒內結束轉珠<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		I. 減少 50% 移動符石時間
+		II. 全隊攻擊力 8 倍
+		III. 於 5 秒內結束轉珠
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['減少轉珠時間', '增攻'],
@@ -9169,7 +11430,12 @@ const leader_skill_data = [
     },
     {
         'name': '流水之惑',
-        'description': 'I. 水屬性攻擊力 1.5 倍<br>II. 妖精類攻擊力額外 3.5 倍<br>III. 消除 ≥4 種符石時<br>⇒ 該回合減少 25% 所受傷害',
+        'description': `
+		I. 水屬性攻擊力 1.5 倍
+		II. 妖精類攻擊力額外 3.5 倍
+		III. 消除 ≥4 種符石時
+		⇒ 該回合減少 25% 所受傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9186,7 +11452,12 @@ const leader_skill_data = [
     },
     {
         'name': '流水之誘惑',
-        'description': 'I. 水屬性攻擊力 2 倍、生命力及回復力 1.3 倍<br>II. 妖精攻擊力額外 5 倍<br>III. 消除 ≥4 種符石時<br>⇒ 該回合減少 25% 所受傷害',
+        'description': `
+		I. 水屬性攻擊力 2 倍、生命力及回復力 1.3 倍
+		II. 妖精攻擊力額外 5 倍
+		III. 消除 ≥4 種符石時
+		⇒ 該回合減少 25% 所受傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9208,7 +11479,9 @@ const leader_skill_data = [
     },
     {
         'name': '燄之化境',
-        'description': '火屬性攻擊力 4 倍及回復力 1.5 倍',
+        'description': `
+		火屬性攻擊力 4 倍及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -9220,7 +11493,9 @@ const leader_skill_data = [
     },
     {
         'name': '神魅殺勢',
-        'description': '隊伍中只有神族及妖精類成員時：全隊攻擊力 3.5 倍',
+        'description': `
+		隊伍中只有神族及妖精類成員時：全隊攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9232,7 +11507,10 @@ const leader_skill_data = [
     },
     {
         'name': '神魅獵殺勢',
-        'description': '隊伍中只有神族及妖精類成員時<br>⇒ 全隊攻擊力 4.5 倍及生命力 1.3 倍',
+        'description': `
+		隊伍中只有神族及妖精類成員時
+		⇒ 全隊攻擊力 4.5 倍及生命力 1.3 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -9244,7 +11522,13 @@ const leader_skill_data = [
     },
     {
         'name': '神魅獵殺勢 ‧ 突破',
-        'description': '隊伍中只有神族及妖精類成員時<br>I. 全隊攻擊力 4.5 倍及生命力 1.3 倍<br>II. 將移動符石時觸碰的符石轉化為強化符石<br>III. 移動的步數愈多，全隊攻擊力提升愈多<br>⇒ 移動 50 步攻擊力可額外提升至最大 3 倍',
+        'description': `
+		隊伍中只有神族及妖精類成員時
+		I. 全隊攻擊力 4.5 倍及生命力 1.3 倍
+		II. 將移動符石時觸碰的符石轉化為強化符石
+		III. 移動的步數愈多，全隊攻擊力提升愈多
+		⇒ 移動 50 步攻擊力可額外提升至最大 3 倍
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -9267,7 +11551,10 @@ const leader_skill_data = [
     },
     {
         'name': '神聖之強權 ‧ 獸',
-        'description': 'I. 光屬性攻擊力 2 倍及回復力 1.5 倍<br>II. 光屬性獸類攻擊力 3.5 倍',
+        'description': `
+		I. 光屬性攻擊力 2 倍及回復力 1.5 倍
+		II. 光屬性獸類攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -9279,7 +11566,10 @@ const leader_skill_data = [
     },
     {
         'name': '聖耀之強權 ‧ 獸',
-        'description': 'I. 光屬性攻擊力 2 倍及回復力 1.5 倍<br>II. 光屬性獸類攻擊力 4 倍',
+        'description': `
+		I. 光屬性攻擊力 2 倍及回復力 1.5 倍
+		II. 光屬性獸類攻擊力 4 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -9291,7 +11581,12 @@ const leader_skill_data = [
     },
     {
         'name': '紫魅斷魂 ‧ 強',
-        'description': 'I. 隊伍中只有獸類成員時：<br>⇒ 全隊攻擊力 5 倍及生命力 1.2 倍<br>II. 每消除 ≥3 種符石時 (不計重複)<br>⇒ 掉落 1 粒暗獸族強化符石',
+        'description': `
+		I. 隊伍中只有獸類成員時：
+		⇒ 全隊攻擊力 5 倍及生命力 1.2 倍
+		II. 每消除 ≥3 種符石時 (不計重複)
+		⇒ 掉落 1 粒暗獸族強化符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -9308,7 +11603,10 @@ const leader_skill_data = [
     },
     {
         'name': '真龍血契',
-        'description': 'I. 龍類攻擊力 4 倍<br>II. 每個龍類成員增加 180 點回復力',
+        'description': `
+		I. 龍類攻擊力 4 倍
+		II. 每個龍類成員增加 180 點回復力
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -9320,7 +11618,9 @@ const leader_skill_data = [
     },
     {
         'name': '螢之化境',
-        'description': '光屬性攻擊力 4 倍及回復力 1.5 倍',
+        'description': `
+		光屬性攻擊力 4 倍及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -9332,7 +11632,12 @@ const leader_skill_data = [
     },
     {
         'name': '神界之念',
-        'description': '隊伍中只有神族成員時：<br>I. 全隊攻擊力 5 倍<br>II. 隊伍中有 5 種屬性成員時<br>⇒ 全隊攻擊力及回復力額外 2 倍',
+        'description': `
+		隊伍中只有神族成員時：
+		I. 全隊攻擊力 5 倍
+		II. 隊伍中有 5 種屬性成員時
+		⇒ 全隊攻擊力及回復力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9349,7 +11654,13 @@ const leader_skill_data = [
     },
     {
         'name': '轟烈之光',
-        'description': 'I. 全隊攻擊力 3 倍<br>II. 隊伍中每 1 種屬性成員發動攻擊時<br>⇒ 個人追打自身攻擊力 1.5 倍的光屬性攻擊 1 次<br>III. 首批消除 5 種屬性符石時<br>⇒ 自身攻擊無視全體敵人的防禦力',
+        'description': `
+		I. 全隊攻擊力 3 倍
+		II. 隊伍中每 1 種屬性成員發動攻擊時
+		⇒ 個人追打自身攻擊力 1.5 倍的光屬性攻擊 1 次
+		III. 首批消除 5 種屬性符石時
+		⇒ 自身攻擊無視全體敵人的防禦力
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9371,7 +11682,12 @@ const leader_skill_data = [
     },
     {
         'name': '全力格鬥',
-        'description': '隊伍中只有 3 種屬性成員時：<br>I. 人類攻擊力 3.5 倍<br>II. 生命力全滿時<br>⇒ 人類攻擊力額外 1.5 倍',
+        'description': `
+		隊伍中只有 3 種屬性成員時：
+		I. 人類攻擊力 3.5 倍
+		II. 生命力全滿時
+		⇒ 人類攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9388,7 +11704,13 @@ const leader_skill_data = [
     },
     {
         'name': '時之格鬥術',
-        'description': '隊伍中只有 3 種屬性成員時：<br>I. 全隊攻擊力 3.5 倍<br>II. 必然延長移動符石時間 1 秒<br>III. 每直行首批消除 1 組 ≥4 粒符石時 <br>⇒ 該直行將產生 2 粒與該直行成員屬性相同的符石',
+        'description': `
+		隊伍中只有 3 種屬性成員時：
+		I. 全隊攻擊力 3.5 倍
+		II. 必然延長移動符石時間 1 秒
+		III. 每直行首批消除 1 組 ≥4 粒符石時 
+		⇒ 該直行將產生 2 粒與該直行成員屬性相同的符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '延長轉珠時間'],
@@ -9405,7 +11727,14 @@ const leader_skill_data = [
     },
     {
         'name': '絕殺格鬥術',
-        'description': 'I. 人類攻擊力 3 倍<br>II. 隊伍中有 ≥3 個拳皇合作角色成員時<br>⓵ 直行首批消除 1 組 ≥5 粒符石時<br>⇒ 自身攻擊力額外 2 倍<br>⓶ 若使用相同的隊長及戰友時<br>⇒ 自身攻擊力額外提升至 4 倍',
+        'description': `
+		I. 人類攻擊力 3 倍
+		II. 隊伍中有 ≥3 個拳皇合作角色成員時
+		⓵ 直行首批消除 1 組 ≥5 粒符石時
+		⇒ 自身攻擊力額外 2 倍
+		⓶ 若使用相同的隊長及戰友時
+		⇒ 自身攻擊力額外提升至 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9427,7 +11756,13 @@ const leader_skill_data = [
     },
     {
         'name': '連擊格鬥術',
-        'description': '隊伍中只有 3 種屬性成員時：<br>I. 全隊攻擊力 3 倍<br>II. 消除 ≥6 組符石時攻擊力額外 1.5 倍<br>III. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行將產生 2 粒與該直行成員屬性相同的符石',
+        'description': `
+		隊伍中只有 3 種屬性成員時：
+		I. 全隊攻擊力 3 倍
+		II. 消除 ≥6 組符石時攻擊力額外 1.5 倍
+		III. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行將產生 2 粒與該直行成員屬性相同的符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9449,7 +11784,14 @@ const leader_skill_data = [
     },
     {
         'name': '焰之格鬥術',
-        'description': '隊伍中只有 3 種屬性成員時：<br>I. 全隊攻擊力 3.5 倍<br>II. 必然延長移動符石時間 1 秒<br>III. 火符石兼具 50% 其他屬性符石效果 (可疊加)<br>IV. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行將產生 1 粒與該直行成員屬性相同的符石',
+        'description': `
+		隊伍中只有 3 種屬性成員時：
+		I. 全隊攻擊力 3.5 倍
+		II. 必然延長移動符石時間 1 秒
+		III. 火符石兼具 50% 其他屬性符石效果 (可疊加)
+		IV. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行將產生 1 粒與該直行成員屬性相同的符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '延長轉珠時間'],
@@ -9471,7 +11813,11 @@ const leader_skill_data = [
     },
     {
         'name': '格鬥之金光',
-        'description': 'I. 人類攻擊力 3 倍<br>II. 隊伍中有 ≥3 個拳皇合作角色成員時<br>⇒ 火符石及木符石兼具 50% 光符石效果 (可疊加)',
+        'description': `
+		I. 人類攻擊力 3 倍
+		II. 隊伍中有 ≥3 個拳皇合作角色成員時
+		⇒ 火符石及木符石兼具 50% 光符石效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9488,7 +11834,11 @@ const leader_skill_data = [
     },
     {
         'name': '格鬥精神',
-        'description': 'I. 人類攻擊力 3 倍<br>II. 隊伍中有 ≥3 個拳皇合作角色成員時<br>⇒ 全隊攻擊力及回復力 1.5 倍',
+        'description': `
+		I. 人類攻擊力 3 倍
+		II. 隊伍中有 ≥3 個拳皇合作角色成員時
+		⇒ 全隊攻擊力及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9505,7 +11855,12 @@ const leader_skill_data = [
     },
     {
         'name': '格鬥之魂',
-        'description': 'I. 全隊攻擊力 2 倍<br>II. 隊伍成員的屬性愈多<br>⇒ 攻擊力提升愈多<br>⇒ 最大提升至 4 倍',
+        'description': `
+		I. 全隊攻擊力 2 倍
+		II. 隊伍成員的屬性愈多
+		⇒ 攻擊力提升愈多
+		⇒ 最大提升至 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9522,7 +11877,11 @@ const leader_skill_data = [
     },
     {
         'name': '格鬥暗擊流',
-        'description': 'I. 暗屬性攻擊力 3.5 倍<br>II. 消除 ≥10 粒暗符石<br>⇒ 暗屬性攻擊力額外 1.5 倍',
+        'description': `
+		I. 暗屬性攻擊力 3.5 倍
+		II. 消除 ≥10 粒暗符石
+		⇒ 暗屬性攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9539,7 +11898,12 @@ const leader_skill_data = [
     },
     {
         'name': '八咫鏡之護',
-        'description': 'I. 隊長及戰友不相同時<br>⇒ 全隊攻擊力 3.5 倍<br>II. 消除 ≥15 粒心符石時<br>⇒ 全隊攻擊力額外 2.5 倍',
+        'description': `
+		I. 隊長及戰友不相同時
+		⇒ 全隊攻擊力 3.5 倍
+		II. 消除 ≥15 粒心符石時
+		⇒ 全隊攻擊力額外 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9556,7 +11920,11 @@ const leader_skill_data = [
     },
     {
         'name': '格鬥激濤',
-        'description': 'I. 人類攻擊力 3 倍<br>II. 隊伍中有 ≥3 個拳皇合作角色成員時<br>⇒ 心符石兼具 50% 水符石效果 (可疊加)',
+        'description': `
+		I. 人類攻擊力 3 倍
+		II. 隊伍中有 ≥3 個拳皇合作角色成員時
+		⇒ 心符石兼具 50% 水符石效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9573,7 +11941,11 @@ const leader_skill_data = [
     },
     {
         'name': '格鬥驚森',
-        'description': 'I. 人類攻擊力 3 倍<br>II. 隊伍中有 ≥3 個拳皇合作角色成員時<br>⇒ 心符石兼具 50% 木符石效果 (可疊加)',
+        'description': `
+		I. 人類攻擊力 3 倍
+		II. 隊伍中有 ≥3 個拳皇合作角色成員時
+		⇒ 心符石兼具 50% 木符石效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9590,7 +11962,11 @@ const leader_skill_data = [
     },
     {
         'name': '格鬥光芒',
-        'description': 'I. 人類攻擊力 3 倍<br>II. 隊伍中有 ≥3 個拳皇合作角色成員時<br>⇒ 心符石兼具 50% 光符石效果 (可疊加)',
+        'description': `
+		I. 人類攻擊力 3 倍
+		II. 隊伍中有 ≥3 個拳皇合作角色成員時
+		⇒ 心符石兼具 50% 光符石效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9607,7 +11983,10 @@ const leader_skill_data = [
     },
     {
         'name': '獵人激濤',
-        'description': 'I. 水屬性攻擊力 3.5 倍<br>II. 水屬性對人類目標的攻擊力額外 2 倍',
+        'description': `
+		I. 水屬性攻擊力 3.5 倍
+		II. 水屬性對人類目標的攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '對人類增傷'],
@@ -9619,7 +11998,9 @@ const leader_skill_data = [
     },
     {
         'name': '暗獸之怒嘯',
-        'description': '暗屬性獸類攻擊力 3.5 倍',
+        'description': `
+		暗屬性獸類攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9631,7 +12012,11 @@ const leader_skill_data = [
     },
     {
         'name': '記憶碎片',
-        'description': 'I. 全隊攻擊力 6 倍<br>II. 通過「旅人的記憶」故事模式內的指定關卡、初級、中級或高級關卡後<br>⇒ 額外獲得 1 個道具',
+        'description': `
+		I. 全隊攻擊力 6 倍
+		II. 通過「旅人的記憶」故事模式內的指定關卡、初級、中級或高級關卡後
+		⇒ 額外獲得 1 個道具
+		`,
         'tag': [
             {
                 'name': ['增攻', '物品掉落增加'],
@@ -9643,7 +12028,12 @@ const leader_skill_data = [
     },
     {
         'name': '格鬥術',
-        'description': '隊伍中只有 3 種屬性成員時：<br>I. 全隊攻擊力 3 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行將產生 1 粒與該直行成員屬性相同的符石',
+        'description': `
+		隊伍中只有 3 種屬性成員時：
+		I. 全隊攻擊力 3 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行將產生 1 粒與該直行成員屬性相同的符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9660,7 +12050,9 @@ const leader_skill_data = [
     },
     {
         'name': '水之精神',
-        'description': '水屬性生命力 1.5 倍',
+        'description': `
+		水屬性生命力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增血',
@@ -9672,7 +12064,9 @@ const leader_skill_data = [
     },
     {
         'name': '火之精神',
-        'description': '火屬性生命力 1.5 倍',
+        'description': `
+		火屬性生命力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增血',
@@ -9684,7 +12078,9 @@ const leader_skill_data = [
     },
     {
         'name': '木之精神',
-        'description': '木屬性生命力 1.5 倍',
+        'description': `
+		木屬性生命力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增血',
@@ -9696,7 +12092,9 @@ const leader_skill_data = [
     },
     {
         'name': '光之精神',
-        'description': '光屬性生命力 1.5 倍',
+        'description': `
+		光屬性生命力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增血',
@@ -9708,7 +12106,12 @@ const leader_skill_data = [
     },
     {
         'name': '臣之列陣',
-        'description': 'I. 隊伍中只有 3 種屬性成員時<br>⇒ 全隊攻擊力 2 倍<br>II. 隊伍中只有 3 種族成員時<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		I. 隊伍中只有 3 種屬性成員時
+		⇒ 全隊攻擊力 2 倍
+		II. 隊伍中只有 3 種族成員時
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9725,7 +12128,15 @@ const leader_skill_data = [
     },
     {
         'name': '妖嬈之藍',
-        'description': 'I. 水屬性及妖精類攻擊力 4.5 倍<br>II. 消除 ≥2 組水符石時<br>⇒ 攻擊力提升至 5 倍<br>III. 消除心符石時<br>⇒ 水屬性及妖精類攻擊力額外 1.5 倍<br>IV. 首批沒有消除水符石時<br>⇒ 減少 35% 所受傷害',
+        'description': `
+		I. 水屬性及妖精類攻擊力 4.5 倍
+		II. 消除 ≥2 組水符石時
+		⇒ 攻擊力提升至 5 倍
+		III. 消除心符石時
+		⇒ 水屬性及妖精類攻擊力額外 1.5 倍
+		IV. 首批沒有消除水符石時
+		⇒ 減少 35% 所受傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9752,7 +12163,15 @@ const leader_skill_data = [
     },
     {
         'name': '櫻之花雨',
-        'description': 'I. 妖精類攻擊力 1.3 倍<br>II. 火及心符石兼具 25% 其他屬性符石效果 (可疊加)<br>III. 2 粒火或心符石相連，即可發動消除<br>IV. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)<br>V. 隊伍回復力愈高，全隊攻擊力額外提升愈多：<br>⇒ 隊伍回復力達 3000 可提升 1.5 倍<br>⇒ 4000 可達至最大 2 倍',
+        'description': `
+		I. 妖精類攻擊力 1.3 倍
+		II. 火及心符石兼具 25% 其他屬性符石效果 (可疊加)
+		III. 2 粒火或心符石相連，即可發動消除
+		IV. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)
+		V. 隊伍回復力愈高，全隊攻擊力額外提升愈多：
+		⇒ 隊伍回復力達 3000 可提升 1.5 倍
+		⇒ 4000 可達至最大 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9779,7 +12198,15 @@ const leader_skill_data = [
     },
     {
         'name': '粉櫻花雨',
-        'description': 'I. 妖精類攻擊力 1.8 倍<br>II. 火及心符石兼具 25% 其他屬性符石效果 (可疊加)<br>III. 2 粒火或心符石相連，即可發動消除<br>IV. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)<br>V. 隊伍回復力愈高，全隊攻擊力額外提升愈多：<br>⇒ 隊伍回復力達 3000 額外 2 倍<br>⇒ 4000 可達至最大 2.5 倍',
+        'description': `
+		I. 妖精類攻擊力 1.8 倍
+		II. 火及心符石兼具 25% 其他屬性符石效果 (可疊加)
+		III. 2 粒火或心符石相連，即可發動消除
+		IV. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)
+		V. 隊伍回復力愈高，全隊攻擊力額外提升愈多：
+		⇒ 隊伍回復力達 3000 額外 2 倍
+		⇒ 4000 可達至最大 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9806,7 +12233,10 @@ const leader_skill_data = [
     },
     {
         'name': '木之魅惑',
-        'description': 'I. 木屬性攻擊力 3 倍<br>II. 木屬性妖精類攻擊力則 4 倍',
+        'description': `
+		I. 木屬性攻擊力 3 倍
+		II. 木屬性妖精類攻擊力則 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9818,7 +12248,10 @@ const leader_skill_data = [
     },
     {
         'name': '魅豔之刺',
-        'description': 'I. 妖精類攻擊力 4.5 倍<br>II. 心符石兼具 25% 所有屬性符石效果 (可疊加)',
+        'description': `
+		I. 妖精類攻擊力 4.5 倍
+		II. 心符石兼具 25% 所有屬性符石效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9835,7 +12268,12 @@ const leader_skill_data = [
     },
     {
         'name': '魅豔之刺 ‧ 強',
-        'description': 'I. 妖精類攻擊力 4.5 倍<br>II. 心符石兼具 75% 所有屬性符石效果 (可疊加)<br>III. 每消除一橫行內的所有符石時 (只計算首批消除的符石)<br>⇒ 必定掉落 5 粒心符石',
+        'description': `
+		I. 妖精類攻擊力 4.5 倍
+		II. 心符石兼具 75% 所有屬性符石效果 (可疊加)
+		III. 每消除一橫行內的所有符石時 (只計算首批消除的符石)
+		⇒ 必定掉落 5 粒心符石
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -9858,7 +12296,10 @@ const leader_skill_data = [
     },
     {
         'name': '水之魅惑',
-        'description': 'I. 水屬性攻擊力 3 倍<br>II. 水屬性妖精類攻擊力則 4 倍',
+        'description': `
+		I. 水屬性攻擊力 3 倍
+		II. 水屬性妖精類攻擊力則 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9870,7 +12311,10 @@ const leader_skill_data = [
     },
     {
         'name': '火之魅惑',
-        'description': 'I. 火屬性攻擊力 3 倍<br>II. 火屬性妖精類攻擊力則 4 倍',
+        'description': `
+		I. 火屬性攻擊力 3 倍
+		II. 火屬性妖精類攻擊力則 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9882,7 +12326,12 @@ const leader_skill_data = [
     },
     {
         'name': '蓄勢之力 ‧ 木',
-        'description': 'I. 全隊回復力 1.5 倍<br>II. 每回合移動符石的時間愈長，木屬性攻擊力愈高及全隊回復力愈低：<br>⓵ 剩餘移動符石時間為 0 時<br>⇒ 木屬性攻擊力 4.5 倍及全隊回復力變 0',
+        'description': `
+		I. 全隊回復力 1.5 倍
+		II. 每回合移動符石的時間愈長，木屬性攻擊力愈高及全隊回復力愈低：
+		⓵ 剩餘移動符石時間為 0 時
+		⇒ 木屬性攻擊力 4.5 倍及全隊回復力變 0
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -9899,7 +12348,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔族萬鈞之怒',
-        'description': '魔族攻擊力 4 倍',
+        'description': `
+		魔族攻擊力 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9911,7 +12362,11 @@ const leader_skill_data = [
     },
     {
         'name': '深沉之藍',
-        'description': 'I. 水屬性攻擊力 3 倍<br>II. 水屬性神族攻擊力則 4.5 倍<br>III. 妖精類生命力、攻擊力及回復力額外 1.5 倍',
+        'description': `
+		I. 水屬性攻擊力 3 倍
+		II. 水屬性神族攻擊力則 4.5 倍
+		III. 妖精類生命力、攻擊力及回復力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9928,7 +12383,18 @@ const leader_skill_data = [
     },
     {
         'name': '海淵凝念',
-        'description': '隊伍中只有水屬性成員時：<br>I. 全隊攻擊力 5 倍<br>II. 每消除 1 粒水符石<br>⇒ 回復 1.2% 總生命力 (受連擊 (Combo) 加乘影響)<br>III. 若首批消除的連擊 (Combo) 數為單數時<br>⇒ 減少 30% 所受傷害<br>IV. 若首批消除的連擊 (Combo) 數為雙數時<br>⇒ 全隊攻擊力額外 1.8 倍<br>V. 若首批消除的連擊 (Combo) 數 ≥6<br>⇒ 可以同時獲得以上兩個效果',
+        'description': `
+		隊伍中只有水屬性成員時：
+		I. 全隊攻擊力 5 倍
+		II. 每消除 1 粒水符石
+		⇒ 回復 1.2% 總生命力 (受連擊 (Combo) 加乘影響)
+		III. 若首批消除的連擊 (Combo) 數為單數時
+		⇒ 減少 30% 所受傷害
+		IV. 若首批消除的連擊 (Combo) 數為雙數時
+		⇒ 全隊攻擊力額外 1.8 倍
+		V. 若首批消除的連擊 (Combo) 數 ≥6
+		⇒ 可以同時獲得以上兩個效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9955,7 +12421,10 @@ const leader_skill_data = [
     },
     {
         'name': '靈石附體 ‧ 延時',
-        'description': 'I. 心符石兼具 250% 所有屬性符石效果<br>II. 延長移動符石時間 1 秒',
+        'description': `
+		I. 心符石兼具 250% 所有屬性符石效果
+		II. 延長移動符石時間 1 秒
+		`,
         'tag': [
             {
                 'name': ['心兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '延長轉珠時間'],
@@ -9967,7 +12436,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔怒嘯天 ‧ 水',
-        'description': '水屬性魔族攻擊力 3.5 倍',
+        'description': `
+		水屬性魔族攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9979,7 +12450,10 @@ const leader_skill_data = [
     },
     {
         'name': '吞噬之慾',
-        'description': 'I. 魔族、龍類及獸類攻擊力 4 倍<br>II. 心符石兼具 50% 所有屬性符石效果 (可疊加)',
+        'description': `
+		I. 魔族、龍類及獸類攻擊力 4 倍
+		II. 心符石兼具 50% 所有屬性符石效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -9996,7 +12470,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔之狂怒 ‧ 木',
-        'description': '木屬性魔族攻擊力 2.5 倍',
+        'description': `
+		木屬性魔族攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10008,7 +12484,14 @@ const leader_skill_data = [
     },
     {
         'name': '天魔道 ‧ 木',
-        'description': 'I. 木屬性攻擊力 2 倍<br>II. 隊伍中每個魔族成員<br>⓵ 扣除 5% 總生命力上限<br>⇒ 6 個魔族成員共扣除 30% 總生命力上限<br>⓶ 額外增加木屬性攻擊力 0.5 倍<br>⇒ 6 個魔族成員達至最高 5 倍木屬性攻擊力',
+        'description': `
+		I. 木屬性攻擊力 2 倍
+		II. 隊伍中每個魔族成員
+		⓵ 扣除 5% 總生命力上限
+		⇒ 6 個魔族成員共扣除 30% 總生命力上限
+		⓶ 額外增加木屬性攻擊力 0.5 倍
+		⇒ 6 個魔族成員達至最高 5 倍木屬性攻擊力
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10025,7 +12508,13 @@ const leader_skill_data = [
     },
     {
         'name': '創造之能',
-        'description': 'I. 光屬性「龍類、獸類及妖精類」生命力 1.5 倍及攻擊力 3.5 倍<br>II. 延長移動符石時間 1 秒<br>III. 消除 1 組 5 粒符石攻擊力額外 1.8 倍，消除 1 組符石的數目愈多<br>⇒ 攻擊力額外提升愈多<br>⇒ 消除 1 組 8 粒符石可提升至最大 2.4 倍',
+        'description': `
+		I. 光屬性「龍類、獸類及妖精類」生命力 1.5 倍及攻擊力 3.5 倍
+		II. 延長移動符石時間 1 秒
+		III. 消除 1 組 5 粒符石攻擊力額外 1.8 倍，消除 1 組符石的數目愈多
+		⇒ 攻擊力額外提升愈多
+		⇒ 消除 1 組 8 粒符石可提升至最大 2.4 倍
+		`,
         'tag': [
             {
                 'name': ['增血', '增攻'],
@@ -10047,7 +12536,13 @@ const leader_skill_data = [
     },
     {
         'name': '創造之能 ‧ 強',
-        'description': 'I. 光屬性「龍類、獸類及妖精類」生命力 1.8 倍及攻擊力 6.5 倍<br>II. 延長移動符石時間 1 秒<br>III. 消除 1 組 5 粒符石攻擊力額外 4 倍，消除 1 組符石的數目愈多<br>⇒ 攻擊力額外提升愈多<br>⇒ 消除 1 組 8 粒符石可提升至最大 4.6 倍',
+        'description': `
+		I. 光屬性「龍類、獸類及妖精類」生命力 1.8 倍及攻擊力 6.5 倍
+		II. 延長移動符石時間 1 秒
+		III. 消除 1 組 5 粒符石攻擊力額外 4 倍，消除 1 組符石的數目愈多
+		⇒ 攻擊力額外提升愈多
+		⇒ 消除 1 組 8 粒符石可提升至最大 4.6 倍
+		`,
         'tag': [
             {
                 'name': ['增血', '增攻'],
@@ -10069,7 +12564,13 @@ const leader_skill_data = [
     },
     {
         'name': '暗龍暴',
-        'description': 'I. 龍類生命力 1.3 倍及攻擊力 4 倍<br>II. 每首批消除 1 連擊 (Combo)<br>⇒ 自身直行掉落 1 粒暗強化符石<br>III. 消除 ≥10 粒暗符石時<br>⇒ 全隊攻擊力額外 1.6 倍',
+        'description': `
+		I. 龍類生命力 1.3 倍及攻擊力 4 倍
+		II. 每首批消除 1 連擊 (Combo)
+		⇒ 自身直行掉落 1 粒暗強化符石
+		III. 消除 ≥10 粒暗符石時
+		⇒ 全隊攻擊力額外 1.6 倍
+		`,
         'tag': [
             {
                 'name': ['增血', '增攻'],
@@ -10091,7 +12592,13 @@ const leader_skill_data = [
     },
     {
         'name': '暗龍暴 ‧ 強',
-        'description': 'I. 龍類生命力 1.6 倍及攻擊力 7 倍<br>II. 每首批消除 1 連擊 (Combo)<br>⇒ 自身直行掉落 1 粒暗強化符石<br>III. 消除 ≥10 粒暗符石時<br>⇒ 全隊攻擊力額外 3.2 倍',
+        'description': `
+		I. 龍類生命力 1.6 倍及攻擊力 7 倍
+		II. 每首批消除 1 連擊 (Combo)
+		⇒ 自身直行掉落 1 粒暗強化符石
+		III. 消除 ≥10 粒暗符石時
+		⇒ 全隊攻擊力額外 3.2 倍
+		`,
         'tag': [
             {
                 'name': ['增血', '增攻'],
@@ -10113,7 +12620,10 @@ const leader_skill_data = [
     },
     {
         'name': '大海之強權 ‧ 獸',
-        'description': 'I. 水屬性攻擊力 2 倍及回復力 1.5 倍<br>II. 水屬性獸類攻擊力 3.5 倍',
+        'description': `
+		I. 水屬性攻擊力 2 倍及回復力 1.5 倍
+		II. 水屬性獸類攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -10125,7 +12635,10 @@ const leader_skill_data = [
     },
     {
         'name': '暗黑之強權 ‧ 獸',
-        'description': 'I. 暗屬性攻擊力 2 倍及回復力 1.5 倍<br>II. 暗屬性獸類攻擊力 3.5 倍',
+        'description': `
+		I. 暗屬性攻擊力 2 倍及回復力 1.5 倍
+		II. 暗屬性獸類攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -10137,7 +12650,14 @@ const leader_skill_data = [
     },
     {
         'name': '霸者盛勢 ‧ 靈之控',
-        'description': 'I. 延長移動符石時間 1 秒<br>II. 隊伍中只有水屬性人類時：<br>⓵ 全隊攻擊力 4.5 倍<br>⓶ 每消除 1 組符石額外計算多 1 連擊(Combo)<br>⓷ 屬性符石需 ≥4 粒相連才可發動消除<br>⓸ 心符石 ≥2 粒相連即可發動消除',
+        'description': `
+		I. 延長移動符石時間 1 秒
+		II. 隊伍中只有水屬性人類時：
+		⓵ 全隊攻擊力 4.5 倍
+		⓶ 每消除 1 組符石額外計算多 1 連擊(Combo)
+		⓷ 屬性符石需 ≥4 粒相連才可發動消除
+		⓸ 心符石 ≥2 粒相連即可發動消除
+		`,
         'tag': [
             {
                 'name': '延長轉珠時間',
@@ -10164,7 +12684,13 @@ const leader_skill_data = [
     },
     {
         'name': '巾幗之燄',
-        'description': 'I. 隊伍中有 ≥3 種屬性成員時：<br>⓵ 全隊攻擊力 2.5 倍<br>⓶ 火符石兼具 25% 其他屬性符石效果 (可疊加)<br>II. 隊伍中有 ≥3 個人類成員時：<br>⓵ 人類攻擊力 2.5 倍',
+        'description': `
+		I. 隊伍中有 ≥3 種屬性成員時：
+		⓵ 全隊攻擊力 2.5 倍
+		⓶ 火符石兼具 25% 其他屬性符石效果 (可疊加)
+		II. 隊伍中有 ≥3 個人類成員時：
+		⓵ 人類攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '火兼具其他', '符石兼具水', '符石兼具木', '符石兼具光', '符石兼具暗'],
@@ -10181,7 +12707,13 @@ const leader_skill_data = [
     },
     {
         'name': '原野之守',
-        'description': 'I. 木屬性攻擊力 3 倍<br> II. 人類回復力 2 倍<br> III. 受到攻擊時<br>⇒ 場上每粒木符石可減少 5% 所受傷害<br> ⇒ 最多可減少 30% 傷害 (減傷效果不可疊加)',
+        'description': `
+		I. 木屬性攻擊力 3 倍
+		 II. 人類回復力 2 倍
+		 III. 受到攻擊時
+		⇒ 場上每粒木符石可減少 5% 所受傷害
+		 ⇒ 最多可減少 30% 傷害 (減傷效果不可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10203,7 +12735,12 @@ const leader_skill_data = [
     },
     {
         'name': '酷冷之殺意 ‧ 強',
-        'description': '隊伍中只有火、木及暗屬性成員時：<br>I. 全隊攻擊力 4 倍<br>II. 任意消除火、木或暗符石達 ≥9 粒<br>⇒ 全隊攻擊力額外 1.8 倍',
+        'description': `
+		隊伍中只有火、木及暗屬性成員時：
+		I. 全隊攻擊力 4 倍
+		II. 任意消除火、木或暗符石達 ≥9 粒
+		⇒ 全隊攻擊力額外 1.8 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10220,7 +12757,10 @@ const leader_skill_data = [
     },
     {
         'name': '火靈附攻 ‧ 水波',
-        'description': 'I. 水屬性攻擊力 2 倍<br>II. 火符石及心符石兼具 50% 水符石效果',
+        'description': `
+		I. 水屬性攻擊力 2 倍
+		II. 火符石及心符石兼具 50% 水符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10237,7 +12777,9 @@ const leader_skill_data = [
     },
     {
         'name': '幽之化境',
-        'description': '暗屬性攻擊力 4 倍及回復力 1.5 倍',
+        'description': `
+		暗屬性攻擊力 4 倍及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -10249,7 +12791,11 @@ const leader_skill_data = [
     },
     {
         'name': '盟友支援',
-        'description': 'I. 全隊攻擊力 3 倍<br>II. 當隊伍中只有 2 個火屬性成員時<br>⇒ 全隊攻擊力提升至 5 倍及生命力 2 倍',
+        'description': `
+		I. 全隊攻擊力 3 倍
+		II. 當隊伍中只有 2 個火屬性成員時
+		⇒ 全隊攻擊力提升至 5 倍及生命力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10266,7 +12812,10 @@ const leader_skill_data = [
     },
     {
         'name': '富饒之約 ‧ 藤木',
-        'description': 'I. 木屬性攻擊力 3 倍<br>II. 戰鬥中所獲得的金幣增加 75% (可疊加)',
+        'description': `
+		I. 木屬性攻擊力 3 倍
+		II. 戰鬥中所獲得的金幣增加 75% (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10283,7 +12832,9 @@ const leader_skill_data = [
     },
     {
         'name': '全速前進 ‧ 水',
-        'description': '10 回合內，水屬性攻擊力 8 倍 (只計算消除符石的回合)',
+        'description': `
+		10 回合內，水屬性攻擊力 8 倍 (只計算消除符石的回合)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10295,7 +12846,9 @@ const leader_skill_data = [
     },
     {
         'name': '全速前進 ‧ 火',
-        'description': '10 回合內，火屬性攻擊力 8 倍 (只計算消除符石的回合)',
+        'description': `
+		10 回合內，火屬性攻擊力 8 倍 (只計算消除符石的回合)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10307,7 +12860,9 @@ const leader_skill_data = [
     },
     {
         'name': '全速前進 ‧ 木',
-        'description': '10 回合內，木屬性攻擊力 8 倍 (只計算消除符石的回合)',
+        'description': `
+		10 回合內，木屬性攻擊力 8 倍 (只計算消除符石的回合)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10319,7 +12874,9 @@ const leader_skill_data = [
     },
     {
         'name': '神族萬鈞之怒',
-        'description': '神族攻擊力 4 倍',
+        'description': `
+		神族攻擊力 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10331,7 +12888,11 @@ const leader_skill_data = [
     },
     {
         'name': '奪魄之森',
-        'description': 'I. 「妖精類及魔族」以外的木屬性成員攻擊力 4 倍<br>II. 消除屬性符石時<br>⇒ 所有成員對該屬性目標攻擊力 1.5 倍',
+        'description': `
+		I. 「妖精類及魔族」以外的木屬性成員攻擊力 4 倍
+		II. 消除屬性符石時
+		⇒ 所有成員對該屬性目標攻擊力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10348,7 +12909,12 @@ const leader_skill_data = [
     },
     {
         'name': '八仙陣',
-        'description': '隊伍中有 3 個或以上八仙系列角色時：<br>I. 連擊 (Combo) 時攻擊力提升 125%<br>II. 消除心符石時<br>⇒ 全隊攻擊力額外 1.6 倍',
+        'description': `
+		隊伍中有 3 個或以上八仙系列角色時：
+		I. 連擊 (Combo) 時攻擊力提升 125%
+		II. 消除心符石時
+		⇒ 全隊攻擊力額外 1.6 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10365,7 +12931,12 @@ const leader_skill_data = [
     },
     {
         'name': '冥神 ‧ 符籙',
-        'description': 'I. 暗屬性及神族攻擊力 3.4 倍<br>II. 消除 3 粒符石<br>⇒ 暗屬性及神族攻擊力額外 1.3 倍<br>⇒ 消除 15 粒可提升至最大 2.5 倍',
+        'description': `
+		I. 暗屬性及神族攻擊力 3.4 倍
+		II. 消除 3 粒符石
+		⇒ 暗屬性及神族攻擊力額外 1.3 倍
+		⇒ 消除 15 粒可提升至最大 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10382,7 +12953,11 @@ const leader_skill_data = [
     },
     {
         'name': '妖怒萬鈞 ‧ 絕命之力',
-        'description': 'I. 妖精類攻擊力 4 倍<br>II. 消除妖族符石時<br>⇒ 妖精類攻擊力額外 1.5 倍',
+        'description': `
+		I. 妖精類攻擊力 4 倍
+		II. 消除妖族符石時
+		⇒ 妖精類攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10399,7 +12974,10 @@ const leader_skill_data = [
     },
     {
         'name': '莫逆相伴 ‧ 魔',
-        'description': '隊伍中的魔族成員愈多<br>⇒ 全隊攻擊力愈高，最大 3.5 倍',
+        'description': `
+		隊伍中的魔族成員愈多
+		⇒ 全隊攻擊力愈高，最大 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10411,7 +12989,11 @@ const leader_skill_data = [
     },
     {
         'name': '靈獸輔主',
-        'description': '隊伍中只有人類及 ≥2 個獸類成員時：<br>I. 人類攻擊力 3.5 倍<br>II. 獸類攻擊力 2.5 倍',
+        'description': `
+		隊伍中只有人類及 ≥2 個獸類成員時：
+		I. 人類攻擊力 3.5 倍
+		II. 獸類攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10423,7 +13005,14 @@ const leader_skill_data = [
     },
     {
         'name': '元素逼力 ‧ 強',
-        'description': 'I. 消除符石的屬性愈多，全隊攻擊力愈高：<br>⇒ 消除 3 種屬性符石，全隊攻擊力 6 倍<br>⇒ 消除 5 種屬性符石可達至 7 倍<br>II. 消除全部 6 種符石時<br>⇒ 則全隊攻擊力 8 倍<br>III. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)',
+        'description': `
+		I. 消除符石的屬性愈多，全隊攻擊力愈高：
+		⇒ 消除 3 種屬性符石，全隊攻擊力 6 倍
+		⇒ 消除 5 種屬性符石可達至 7 倍
+		II. 消除全部 6 種符石時
+		⇒ 則全隊攻擊力 8 倍
+		III. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10435,7 +13024,11 @@ const leader_skill_data = [
     },
     {
         'name': '滅族之燄',
-        'description': 'I. 火屬性及機械族攻擊力 4 倍<br>II. 首批消除相同連擊 (Combo) 數目的水、火及木符石時：機械族成員以 50% 自身攻擊力<br>⇒ 追打自身屬性攻擊 1 次',
+        'description': `
+		I. 火屬性及機械族攻擊力 4 倍
+		II. 首批消除相同連擊 (Combo) 數目的水、火及木符石時：機械族成員以 50% 自身攻擊力
+		⇒ 追打自身屬性攻擊 1 次
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10452,7 +13045,9 @@ const leader_skill_data = [
     },
     {
         'name': '機械萬鈞之怒 ‧ 極',
-        'description': '機械族攻擊力 5 倍',
+        'description': `
+		機械族攻擊力 5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10464,7 +13059,13 @@ const leader_skill_data = [
     },
     {
         'name': '彩虹的衝擊',
-        'description': 'I. 機械族攻擊力 4 倍<br>II. 個人以 50% 攻擊力<br>⇒ 追打水、火、木及光屬性攻擊各 1 次<br>III. 消除 ≥10 粒強化符石時<br>⇒ 全隊攻擊力 1.5 倍',
+        'description': `
+		I. 機械族攻擊力 4 倍
+		II. 個人以 50% 攻擊力
+		⇒ 追打水、火、木及光屬性攻擊各 1 次
+		III. 消除 ≥10 粒強化符石時
+		⇒ 全隊攻擊力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10486,7 +13087,10 @@ const leader_skill_data = [
     },
     {
         'name': '赤熱之靈',
-        'description': 'I. 火屬性攻擊力 3.5 倍<br>II. 每回合回復 3 倍自身回復力等值的生命力 (需消除符石)',
+        'description': `
+		I. 火屬性攻擊力 3.5 倍
+		II. 每回合回復 3 倍自身回復力等值的生命力 (需消除符石)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10503,7 +13107,11 @@ const leader_skill_data = [
     },
     {
         'name': '翠械戰略',
-        'description': '隊伍中只有機械族；或只有機械族及人類成員時：<br>I. 全隊攻擊力 4 倍及生命力 1.3 倍<br>II. 心符石兼具 50% 所有屬性符石效果 (可疊加)',
+        'description': `
+		隊伍中只有機械族；或只有機械族及人類成員時：
+		I. 全隊攻擊力 4 倍及生命力 1.3 倍
+		II. 心符石兼具 50% 所有屬性符石效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -10520,7 +13128,13 @@ const leader_skill_data = [
     },
     {
         'name': '雷電戰意',
-        'description': '隊伍中只有光屬性人類成員時：<br>I. 全隊攻擊力 2.5 倍<br>II. 消除 2 種符石<br>⇒ 攻擊力額外 1.5 倍<br>⇒ 消除 4 種符石可提升至最大 2.5 倍',
+        'description': `
+		隊伍中只有光屬性人類成員時：
+		I. 全隊攻擊力 2.5 倍
+		II. 消除 2 種符石
+		⇒ 攻擊力額外 1.5 倍
+		⇒ 消除 4 種符石可提升至最大 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10537,7 +13151,10 @@ const leader_skill_data = [
     },
     {
         'name': '神族無光的夢境',
-        'description': 'I. 暗屬性攻擊力 3.5 倍<br>II. 暗屬性對神族目標的攻擊力 2 倍',
+        'description': `
+		I. 暗屬性攻擊力 3.5 倍
+		II. 暗屬性對神族目標的攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '對神族增傷'],
@@ -10549,7 +13166,11 @@ const leader_skill_data = [
     },
     {
         'name': '焚天煉日 ‧ 強',
-        'description': 'I. 光屬性攻擊力 3 倍<br>II. 首批消除場上所有光符石時<br>⇒ 光屬性人類攻擊力提升至 4.5 倍',
+        'description': `
+		I. 光屬性攻擊力 3 倍
+		II. 首批消除場上所有光符石時
+		⇒ 光屬性人類攻擊力提升至 4.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10566,7 +13187,12 @@ const leader_skill_data = [
     },
     {
         'name': '萬世皇帝之氣勢',
-        'description': 'I. 水屬性攻擊力 2.5 倍<br>II. 水屬性對人類目標攻擊力 2 倍<br>III. 我方生命力為 35% 或以下時<br>⇒ 所受傷害減少 40%',
+        'description': `
+		I. 水屬性攻擊力 2.5 倍
+		II. 水屬性對人類目標攻擊力 2 倍
+		III. 我方生命力為 35% 或以下時
+		⇒ 所受傷害減少 40%
+		`,
         'tag': [
             {
                 'name': ['增攻', '對人類增傷'],
@@ -10583,7 +13209,10 @@ const leader_skill_data = [
     },
     {
         'name': '猩紅血刃',
-        'description': 'I. 火屬性攻擊力 3.5 倍<br>II. 強化符石效果提升 15%',
+        'description': `
+		I. 火屬性攻擊力 3.5 倍
+		II. 強化符石效果提升 15%
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10600,7 +13229,10 @@ const leader_skill_data = [
     },
     {
         'name': '制敵之槍',
-        'description': 'I. 光屬性人類攻擊力 3.5 倍<br>II. 光屬性對神族及機械族目標攻擊力 2 倍',
+        'description': `
+		I. 光屬性人類攻擊力 3.5 倍
+		II. 光屬性對神族及機械族目標攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10617,7 +13249,13 @@ const leader_skill_data = [
     },
     {
         'name': '躍動之流燄',
-        'description': 'I. 火屬性攻擊力 4.5 倍<br>II. 我方生命力為 90% 或以上時<br>⇒ 減少 15% 所受傷害<br>III. 同 1 回合消除的水符石數量比消除的火符石數量多<br>⇒ 火屬性攻擊力額外 1.6 倍',
+        'description': `
+		I. 火屬性攻擊力 4.5 倍
+		II. 我方生命力為 90% 或以上時
+		⇒ 減少 15% 所受傷害
+		III. 同 1 回合消除的水符石數量比消除的火符石數量多
+		⇒ 火屬性攻擊力額外 1.6 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10639,7 +13277,11 @@ const leader_skill_data = [
     },
     {
         'name': '連鎖聖令 ‧ 水',
-        'description': 'I. 水屬性攻擊力 3.5 倍<br>II. 消除 1 組 ≥12 粒符石時<br>⇒ 水屬性攻擊力額外 1.5 倍',
+        'description': `
+		I. 水屬性攻擊力 3.5 倍
+		II. 消除 1 組 ≥12 粒符石時
+		⇒ 水屬性攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10656,7 +13298,9 @@ const leader_skill_data = [
     },
     {
         'name': '全速前進 ‧ 光',
-        'description': '10 回合內，光屬性攻擊力 8 倍 (只計算消除符石的回合)',
+        'description': `
+		10 回合內，光屬性攻擊力 8 倍 (只計算消除符石的回合)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10668,7 +13312,9 @@ const leader_skill_data = [
     },
     {
         'name': '全速前進 ‧ 暗',
-        'description': '10 回合內，暗屬性攻擊力 8 倍 (只計算消除符石的回合)',
+        'description': `
+		10 回合內，暗屬性攻擊力 8 倍 (只計算消除符石的回合)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10680,7 +13326,13 @@ const leader_skill_data = [
     },
     {
         'name': '玄光之濤 ‧ 機械',
-        'description': '隊伍中只有「水屬性及光屬性」機械族成員時<br>I. 全隊攻擊力 5 倍及生命力 1.5 倍<br>II. 延長移動符石時間 1 秒<br>III. 所有成員的行動值達至 100% 時<br>⇒ 攻擊力額外 2 倍',
+        'description': `
+		隊伍中只有「水屬性及光屬性」機械族成員時
+		I. 全隊攻擊力 5 倍及生命力 1.5 倍
+		II. 延長移動符石時間 1 秒
+		III. 所有成員的行動值達至 100% 時
+		⇒ 攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -10702,7 +13354,10 @@ const leader_skill_data = [
     },
     {
         'name': '凝神之力 ‧ 強',
-        'description': '當進行全體攻擊時<br>⇒ 全隊攻擊力 6 倍',
+        'description': `
+		當進行全體攻擊時
+		⇒ 全隊攻擊力 6 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10714,7 +13369,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔之殺意',
-        'description': '魔族攻擊力 4 倍、生命力及回復力 1.5 倍',
+        'description': `
+		魔族攻擊力 4 倍、生命力及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -10726,7 +13383,10 @@ const leader_skill_data = [
     },
     {
         'name': '人類之力量',
-        'description': '隊伍中只有人類成員時<br>⇒ 人類攻擊力 4 倍',
+        'description': `
+		隊伍中只有人類成員時
+		⇒ 人類攻擊力 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10738,7 +13398,10 @@ const leader_skill_data = [
     },
     {
         'name': '人類之潛力',
-        'description': '隊伍中只有人類成員時<br>⇒ 人類攻擊力 4.5 倍',
+        'description': `
+		隊伍中只有人類成員時
+		⇒ 人類攻擊力 4.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10750,7 +13413,15 @@ const leader_skill_data = [
     },
     {
         'name': '小傑之本能',
-        'description': '隊伍中只有人類成員時：<br>I. 人類攻擊力 4 倍<br>II. 減少 25% 所受傷害<br>III. 於成員所在直行，消除 ≥1 粒該成員屬性的符石<br>⇒ 該成員攻擊力額外 2 倍 (倍率不可疊加)<br>IV. 消除強化符石時<br>⇒ 全隊攻擊力額外 1.5 倍',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 人類攻擊力 4 倍
+		II. 減少 25% 所受傷害
+		III. 於成員所在直行，消除 ≥1 粒該成員屬性的符石
+		⇒ 該成員攻擊力額外 2 倍 (倍率不可疊加)
+		IV. 消除強化符石時
+		⇒ 全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10777,7 +13448,15 @@ const leader_skill_data = [
     },
     {
         'name': '小傑之本能・成長',
-        'description': '隊伍中只有人類成員時：<br>I. 人類攻擊力 4.5 倍<br>II. 減少 30% 所受傷害<br>III. 於成員所在直行，消除 ≥1 粒該成員屬性的符石<br>⇒ 該成員攻擊力額外 2 倍 (倍率不可疊加)<br>IV. 消除強化符石時<br>⇒ 全隊攻擊力額外 1.8 倍',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 人類攻擊力 4.5 倍
+		II. 減少 30% 所受傷害
+		III. 於成員所在直行，消除 ≥1 粒該成員屬性的符石
+		⇒ 該成員攻擊力額外 2 倍 (倍率不可疊加)
+		IV. 消除強化符石時
+		⇒ 全隊攻擊力額外 1.8 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10804,7 +13483,14 @@ const leader_skill_data = [
     },
     {
         'name': '制約之力',
-        'description': '隊伍中只有人類成員時：<br>I. 人類攻擊力 3.2 倍<br>II. 光屬性人類攻擊力則 3.6 倍<br>III. 必然延長移動符石時間 0.5 秒<br>IV. 消除人族符石時<br>⇒ 減少 15% 所受傷害',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 人類攻擊力 3.2 倍
+		II. 光屬性人類攻擊力則 3.6 倍
+		III. 必然延長移動符石時間 0.5 秒
+		IV. 消除人族符石時
+		⇒ 減少 15% 所受傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10826,7 +13512,17 @@ const leader_skill_data = [
     },
     {
         'name': '制約之力 ‧ 強',
-        'description': '隊伍中只有人類成員時：<br>I. 人類攻擊力 3.2 倍<br>II. 光屬性人類攻擊力則 3.6 倍<br>III. 必然延長移動符石時間 0.5 秒<br>IV. 消除人族符石時<br>⇒ 減少 15% 所受傷害<br>V. 移動符石所觸碰的光符石轉化為人族強化符石<br>VI. 移動的步數愈多，全隊攻擊力提升愈多<br>⇒ 移動 25 步攻擊力可額外提升至最大 3 倍',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 人類攻擊力 3.2 倍
+		II. 光屬性人類攻擊力則 3.6 倍
+		III. 必然延長移動符石時間 0.5 秒
+		IV. 消除人族符石時
+		⇒ 減少 15% 所受傷害
+		V. 移動符石所觸碰的光符石轉化為人族強化符石
+		VI. 移動的步數愈多，全隊攻擊力提升愈多
+		⇒ 移動 25 步攻擊力可額外提升至最大 3 倍
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -10854,7 +13550,14 @@ const leader_skill_data = [
     },
     {
         'name': '誓約之力',
-        'description': '隊伍中只有人類成員時：<br>I. 人類攻擊力 3.6 倍<br>II. 光屬性人類攻擊力則 4 倍<br>III. 必然延長移動符石時間 1 秒<br>IV. 消除人族符石時<br>⇒ 減少 15% 所受傷害',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 人類攻擊力 3.6 倍
+		II. 光屬性人類攻擊力則 4 倍
+		III. 必然延長移動符石時間 1 秒
+		IV. 消除人族符石時
+		⇒ 減少 15% 所受傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10876,7 +13579,17 @@ const leader_skill_data = [
     },
     {
         'name': '誓約之力 ‧ 強',
-        'description': '隊伍中只有人類成員時：<br>I. 人類攻擊力 3.6 倍<br>II. 光屬性人類攻擊力則 4 倍<br>III. 必然延長移動符石時間 1 秒<br>IV. 消除人族符石時<br>⇒ 減少 15% 所受傷害<br>V. 移動符石所觸碰的光符石轉化為人族強化符石<br>VI. 移動的步數愈多，全隊攻擊力提升愈多<br>⇒ 移動 25 步攻擊力可額外提升至最大 3 倍',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 人類攻擊力 3.6 倍
+		II. 光屬性人類攻擊力則 4 倍
+		III. 必然延長移動符石時間 1 秒
+		IV. 消除人族符石時
+		⇒ 減少 15% 所受傷害
+		V. 移動符石所觸碰的光符石轉化為人族強化符石
+		VI. 移動的步數愈多，全隊攻擊力提升愈多
+		⇒ 移動 25 步攻擊力可額外提升至最大 3 倍
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -10904,7 +13617,13 @@ const leader_skill_data = [
     },
     {
         'name': '奇犽之體能',
-        'description': '隊伍中只有人類成員時：<br>I. 人類攻擊力 4.5 倍及生命力 1.3 倍<br>II. 每首批消除 1 種屬性符石，於回合結束時：<br>隨機將該屬性的其中 2 粒符石<br>⇒ 轉化為強化符石',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 人類攻擊力 4.5 倍及生命力 1.3 倍
+		II. 每首批消除 1 種屬性符石，於回合結束時：
+		隨機將該屬性的其中 2 粒符石
+		⇒ 轉化為強化符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -10921,7 +13640,13 @@ const leader_skill_data = [
     },
     {
         'name': '奇犽之體能．成長',
-        'description': '隊伍中只有人類成員時：<br>I. 人類攻擊力 5 倍及生命力 1.3 倍<br>II. 每首批消除 1 種屬性符石，於回合結束時：<br>隨機將該屬性的其中 3 粒符石<br>⇒ 轉化為強化符石',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 人類攻擊力 5 倍及生命力 1.3 倍
+		II. 每首批消除 1 種屬性符石，於回合結束時：
+		隨機將該屬性的其中 3 粒符石
+		⇒ 轉化為強化符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -10938,7 +13663,11 @@ const leader_skill_data = [
     },
     {
         'name': '人類之戰意',
-        'description': '隊伍中只有人類成員時：<br>I. 人類攻擊力 4.5 倍<br>II. 心符石兼具 50% 所有屬性符石效果 (可疊加)',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 人類攻擊力 4.5 倍
+		II. 心符石兼具 50% 所有屬性符石效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10955,7 +13684,13 @@ const leader_skill_data = [
     },
     {
         'name': '人類之規律',
-        'description': '隊伍中只有人類成員時：<br>I. 人類攻擊力 3 倍<br>II. 隊伍成員每多 1 個屬性<br>⇒ 攻擊力額外提升<br>⇒ 4 個可提升至最大 2 倍',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 人類攻擊力 3 倍
+		II. 隊伍成員每多 1 個屬性
+		⇒ 攻擊力額外提升
+		⇒ 4 個可提升至最大 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10972,7 +13707,12 @@ const leader_skill_data = [
     },
     {
         'name': '強悍之力量',
-        'description': '隊伍中只有妖精類及魔族成員時：<br>每累計消除 1 粒符石<br>⇒ 全隊攻擊力持續提升<br>⇒ 最多可提升至 7 倍',
+        'description': `
+		隊伍中只有妖精類及魔族成員時：
+		每累計消除 1 粒符石
+		⇒ 全隊攻擊力持續提升
+		⇒ 最多可提升至 7 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -10984,7 +13724,9 @@ const leader_skill_data = [
     },
     {
         'name': '妖精之意志',
-        'description': '妖精類生命力 2.5 倍',
+        'description': `
+		妖精類生命力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增血',
@@ -10996,7 +13738,9 @@ const leader_skill_data = [
     },
     {
         'name': '人類之復甦',
-        'description': '人類回復力 2 倍',
+        'description': `
+		人類回復力 2 倍
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -11008,7 +13752,10 @@ const leader_skill_data = [
     },
     {
         'name': '元素之掌',
-        'description': 'I. 人類攻擊力 3 倍<br>II. 光和暗屬性傷害減少 30%',
+        'description': `
+		I. 人類攻擊力 3 倍
+		II. 光和暗屬性傷害減少 30%
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11025,7 +13772,12 @@ const leader_skill_data = [
     },
     {
         'name': '水月魔法',
-        'description': 'I. 人類攻擊力 3.5 倍<br>II. 合計消除 ≥6 粒水或木符石時<br>⇒ 人類攻擊力額外 1.5 倍<br>III. 水及木屬性傷害減少 30%',
+        'description': `
+		I. 人類攻擊力 3.5 倍
+		II. 合計消除 ≥6 粒水或木符石時
+		⇒ 人類攻擊力額外 1.5 倍
+		III. 水及木屬性傷害減少 30%
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11047,7 +13799,12 @@ const leader_skill_data = [
     },
     {
         'name': '火影魔法',
-        'description': 'I. 人類攻擊力 3.5 倍<br>II. 合計消除 ≥6 粒水或火符石時<br>⇒ 人類攻擊力額外 1.5 倍<br>III. 水及火屬性傷害減少 30%',
+        'description': `
+		I. 人類攻擊力 3.5 倍
+		II. 合計消除 ≥6 粒水或火符石時
+		⇒ 人類攻擊力額外 1.5 倍
+		III. 水及火屬性傷害減少 30%
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11069,7 +13826,12 @@ const leader_skill_data = [
     },
     {
         'name': '木葉魔法',
-        'description': 'I. 人類攻擊力 3.5 倍<br>II. 合計消除 ≥6 粒火或木符石時<br>⇒ 人類攻擊力額外 1.5 倍<br>III. 火及木屬性傷害減少 30%',
+        'description': `
+		I. 人類攻擊力 3.5 倍
+		II. 合計消除 ≥6 粒火或木符石時
+		⇒ 人類攻擊力額外 1.5 倍
+		III. 火及木屬性傷害減少 30%
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11091,7 +13853,12 @@ const leader_skill_data = [
     },
     {
         'name': '玄冥魔法',
-        'description': 'I. 人類攻擊力 3.5 倍<br>II. 合計消除 ≥6 粒光或暗符石時<br>⇒ 人類攻擊力額外 1.5 倍<br>⇒ 光及暗屬性傷害減少 30%',
+        'description': `
+		I. 人類攻擊力 3.5 倍
+		II. 合計消除 ≥6 粒光或暗符石時
+		⇒ 人類攻擊力額外 1.5 倍
+		⇒ 光及暗屬性傷害減少 30%
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11113,7 +13880,14 @@ const leader_skill_data = [
     },
     {
         'name': '三界最強集結',
-        'description': '隊伍中只有人類、妖精類或魔族成員時：<br>I. 全隊攻擊力 4.5 倍，生命力及回復力 1.5 倍<br>II. 延長移動符石時間 1 秒<br>III. 水及光符石互相兼具 50% 效果 (可疊加)<br>IV. 消除 ≥4 連擊 (Combo)<br>⇒ 全隊攻擊力額外 1.5 倍',
+        'description': `
+		隊伍中只有人類、妖精類或魔族成員時：
+		I. 全隊攻擊力 4.5 倍，生命力及回復力 1.5 倍
+		II. 延長移動符石時間 1 秒
+		III. 水及光符石互相兼具 50% 效果 (可疊加)
+		IV. 消除 ≥4 連擊 (Combo)
+		⇒ 全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -11135,7 +13909,14 @@ const leader_skill_data = [
     },
     {
         'name': '三界最強集結 ‧ 強',
-        'description': '隊伍中只有人類、妖精類或魔族成員時：<br>I. 全隊攻擊力 5 倍，生命力及回復力 1.5 倍<br>II. 延長移動符石時間 1 秒<br>III. 水及光符石互相兼具 50% 效果 (可疊加)<br>IV. 消除 ≥4 連擊 (Combo)<br>⇒ 全隊攻擊力額外 1.5 倍',
+        'description': `
+		隊伍中只有人類、妖精類或魔族成員時：
+		I. 全隊攻擊力 5 倍，生命力及回復力 1.5 倍
+		II. 延長移動符石時間 1 秒
+		III. 水及光符石互相兼具 50% 效果 (可疊加)
+		IV. 消除 ≥4 連擊 (Combo)
+		⇒ 全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -11157,7 +13938,10 @@ const leader_skill_data = [
     },
     {
         'name': '五元素之靈',
-        'description': '隊伍中有 5 種屬性成員時：<br>⇒ 全隊攻擊力 3.5 倍',
+        'description': `
+		隊伍中有 5 種屬性成員時：
+		⇒ 全隊攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11169,7 +13953,10 @@ const leader_skill_data = [
     },
     {
         'name': '五元素之靈 ‧ 強',
-        'description': '隊伍中有 5 種屬性成員時：<br>⇒ 全隊攻擊力 4 倍',
+        'description': `
+		隊伍中有 5 種屬性成員時：
+		⇒ 全隊攻擊力 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11181,7 +13968,11 @@ const leader_skill_data = [
     },
     {
         'name': '薔薇之瓣',
-        'description': '隊伍中只有妖精類或魔族成員時：<br>I. 全隊攻擊力 4 倍，生命力及回復力 1.3 倍<br>II. 所有屬性符石兼具 25% 心符石效果 (可疊加)',
+        'description': `
+		隊伍中只有妖精類或魔族成員時：
+		I. 全隊攻擊力 4 倍，生命力及回復力 1.3 倍
+		II. 所有屬性符石兼具 25% 心符石效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -11198,7 +13989,11 @@ const leader_skill_data = [
     },
     {
         'name': '漫天薔薇之瓣',
-        'description': '隊伍中只有妖精類或魔族成員時：<br>I. 全隊攻擊力 4 倍，生命力及回復力 1.3 倍<br>II. 所有屬性符石兼具 50% 心符石效果 (可疊加)',
+        'description': `
+		隊伍中只有妖精類或魔族成員時：
+		I. 全隊攻擊力 4 倍，生命力及回復力 1.3 倍
+		II. 所有屬性符石兼具 50% 心符石效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -11215,7 +14010,12 @@ const leader_skill_data = [
     },
     {
         'name': '酷冷幽燄',
-        'description': '隊伍中只有人類、妖精類或魔族成員時：<br>I. 全隊攻擊力 3.8 倍<br>II. 魔族生命力、攻擊力及回復力額外 1.6 倍<br>III. 火及暗符石互相兼具 50% 效果 (可疊加)',
+        'description': `
+		隊伍中只有人類、妖精類或魔族成員時：
+		I. 全隊攻擊力 3.8 倍
+		II. 魔族生命力、攻擊力及回復力額外 1.6 倍
+		III. 火及暗符石互相兼具 50% 效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11237,7 +14037,12 @@ const leader_skill_data = [
     },
     {
         'name': '酷冷幽燄 ‧ 強',
-        'description': '隊伍中只有人類、妖精類或魔族成員時：<br>I. 全隊攻擊力 4 倍<br>II. 魔族生命力、攻擊力及回復力額外 1.6 倍<br>III. 火及暗符石互相兼具 50% 效果 (可疊加)',
+        'description': `
+		隊伍中只有人類、妖精類或魔族成員時：
+		I. 全隊攻擊力 4 倍
+		II. 魔族生命力、攻擊力及回復力額外 1.6 倍
+		III. 火及暗符石互相兼具 50% 效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11259,7 +14064,10 @@ const leader_skill_data = [
     },
     {
         'name': '斷魂之燄 ‧ 魔',
-        'description': 'I. 魔族攻擊力 4 倍<br>II. 火及暗符石互相兼具 50% 效果',
+        'description': `
+		I. 魔族攻擊力 4 倍
+		II. 火及暗符石互相兼具 50% 效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11276,7 +14084,10 @@ const leader_skill_data = [
     },
     {
         'name': '聚靈之核',
-        'description': 'I. 妖精類攻擊力 3 倍<br>II. 所有屬性符石兼具 25% 心符石效果 (可疊加)',
+        'description': `
+		I. 妖精類攻擊力 3 倍
+		II. 所有屬性符石兼具 25% 心符石效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11293,7 +14104,12 @@ const leader_skill_data = [
     },
     {
         'name': '最強之念 ‧ 肌肉操縱',
-        'description': '全隊攻擊力 2 倍，生命力愈低，全隊攻擊力愈高及所受傷害減少愈多：<br>我方生命力為 25% 或以下時<br>⇒ 攻擊力可達至最大 5 倍<br>⇒ 減少最多 45% 所受傷害',
+        'description': `
+		全隊攻擊力 2 倍，生命力愈低，全隊攻擊力愈高及所受傷害減少愈多：
+		我方生命力為 25% 或以下時
+		⇒ 攻擊力可達至最大 5 倍
+		⇒ 減少最多 45% 所受傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11310,7 +14126,14 @@ const leader_skill_data = [
     },
     {
         'name': '滅恨之光',
-        'description': '隊伍中只有光屬性人類成員時：<br>I. 全隊攻擊力 4.5 倍<br>II. 首批消除所有光符石時<br>⇒ 全隊攻擊力額外 1.5 倍<br>III. 首批消除所有心符石時<br>⇒ 全隊攻擊力額外 1.5 倍',
+        'description': `
+		隊伍中只有光屬性人類成員時：
+		I. 全隊攻擊力 4.5 倍
+		II. 首批消除所有光符石時
+		⇒ 全隊攻擊力額外 1.5 倍
+		III. 首批消除所有心符石時
+		⇒ 全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11327,7 +14150,14 @@ const leader_skill_data = [
     },
     {
         'name': '滅恨之光 ‧ 護',
-        'description': '隊伍中只有光屬性人類成員時：<br>I. 全隊攻擊力 4.5 倍及減少 50% 所受傷害<br>II. 首批消除所有光符石時<br>⇒ 全隊攻擊力額外 1.5 倍<br>III. 首批消除所有心符石時<br>⇒ 全隊攻擊力額外 1.5 倍',
+        'description': `
+		隊伍中只有光屬性人類成員時：
+		I. 全隊攻擊力 4.5 倍及減少 50% 所受傷害
+		II. 首批消除所有光符石時
+		⇒ 全隊攻擊力額外 1.5 倍
+		III. 首批消除所有心符石時
+		⇒ 全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11349,7 +14179,10 @@ const leader_skill_data = [
     },
     {
         'name': '三界之力',
-        'description': '隊伍中只有人類、妖精類或魔族成員時：<br>全隊攻擊力 4.5 倍',
+        'description': `
+		隊伍中只有人類、妖精類或魔族成員時：
+		全隊攻擊力 4.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11361,7 +14194,10 @@ const leader_skill_data = [
     },
     {
         'name': '機械始動',
-        'description': 'I. 全隊攻擊力 3.5 倍<br>II. 機械族成員攻擊力額外 1.5 倍',
+        'description': `
+		I. 全隊攻擊力 3.5 倍
+		II. 機械族成員攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11373,7 +14209,15 @@ const leader_skill_data = [
     },
     {
         'name': '醉心魔研',
-        'description': '隊中只有魔族成員：<br>I. 全隊攻擊力 9 倍及生命力 2.5 倍<br>II. 生命力全滿時<br>⓵ 全隊攻擊力 2 倍<br>⓶ 減少 40% 所受傷害<br>III. 消除魔族符石<br>⇒ 全隊攻擊力額外 5 倍',
+        'description': `
+		隊中只有魔族成員：
+		I. 全隊攻擊力 9 倍及生命力 2.5 倍
+		II. 生命力全滿時
+		⓵ 全隊攻擊力 2 倍
+		⓶ 減少 40% 所受傷害
+		III. 消除魔族符石
+		⇒ 全隊攻擊力額外 5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -11400,7 +14244,11 @@ const leader_skill_data = [
     },
     {
         'name': '最強之念',
-        'description': '全隊攻擊力 2 倍，生命力愈低，全隊攻擊力愈高：<br>我方生命力為 25% 或以下時<br>⇒ 攻擊力可達至最大 5 倍',
+        'description': `
+		全隊攻擊力 2 倍，生命力愈低，全隊攻擊力愈高：
+		我方生命力為 25% 或以下時
+		⇒ 攻擊力可達至最大 5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11417,7 +14265,13 @@ const leader_skill_data = [
     },
     {
         'name': '千秋的傳承',
-        'description': 'I. 木屬性攻擊力 4 倍<br>II. 木屬性人類攻擊力則 5 倍<br>III. 必然延長移動符石時間 2.5 秒<br>IV. 每消除 1 組光或暗符石，於該回合結束時，將 1 粒符石 (木及心符石優先轉換)<br>⇒ 轉化為人族強化符石，最多 30 粒',
+        'description': `
+		I. 木屬性攻擊力 4 倍
+		II. 木屬性人類攻擊力則 5 倍
+		III. 必然延長移動符石時間 2.5 秒
+		IV. 每消除 1 組光或暗符石，於該回合結束時，將 1 粒符石 (木及心符石優先轉換)
+		⇒ 轉化為人族強化符石，最多 30 粒
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11439,7 +14293,15 @@ const leader_skill_data = [
     },
     {
         'name': '千秋的傳承 ‧ 日夜交迭',
-        'description': 'I. 木屬性攻擊力 4 倍<br>II. 木屬性人類攻擊力則 5 倍<br>III. 必然延長移動符石時間 2.5 秒<br>IV. 每消除 1 組光或暗符石，於該回合結束時，將 1 粒符石 (木及心符石優先轉換)<br>⇒ 轉化為人族強化符石，最多 30 粒<br>V. 2 粒光或暗符石相連，即可發動消除<br>VI. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)',
+        'description': `
+		I. 木屬性攻擊力 4 倍
+		II. 木屬性人類攻擊力則 5 倍
+		III. 必然延長移動符石時間 2.5 秒
+		IV. 每消除 1 組光或暗符石，於該回合結束時，將 1 粒符石 (木及心符石優先轉換)
+		⇒ 轉化為人族強化符石，最多 30 粒
+		V. 2 粒光或暗符石相連，即可發動消除
+		VI. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -11462,7 +14324,11 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼賜賞 ‧ 浪濤',
-        'description': 'I. 水屬性攻擊力 4.5 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行將產生 1 粒水神族符石',
+        'description': `
+		I. 水屬性攻擊力 4.5 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行將產生 1 粒水神族符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11479,7 +14345,11 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼賜賞 ‧ 神浪',
-        'description': 'I. 水屬性攻擊力 3.5 倍<br>II. 每橫行首批消除 1 組 ≥3 粒符石時<br>⇒ 將產生 1 粒水神族符石',
+        'description': `
+		I. 水屬性攻擊力 3.5 倍
+		II. 每橫行首批消除 1 組 ≥3 粒符石時
+		⇒ 將產生 1 粒水神族符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11496,7 +14366,11 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼賜賞 ‧ 熾燄',
-        'description': 'I. 火屬性攻擊力 4.5 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行將產生 1 粒火神族符石',
+        'description': `
+		I. 火屬性攻擊力 4.5 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行將產生 1 粒火神族符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11513,7 +14387,11 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼賜賞 ‧ 神燄',
-        'description': 'I. 火屬性攻擊力 3.5 倍<br>II. 每橫行首批消除 1 組 ≥3 粒符石時<br>⇒ 將產生 1 粒火神族符石',
+        'description': `
+		I. 火屬性攻擊力 3.5 倍
+		II. 每橫行首批消除 1 組 ≥3 粒符石時
+		⇒ 將產生 1 粒火神族符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11530,7 +14408,11 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼賜賞 ‧ 藤木',
-        'description': 'I. 木屬性攻擊力 4.5 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行將產生 1 粒木神族符石',
+        'description': `
+		I. 木屬性攻擊力 4.5 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行將產生 1 粒木神族符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11547,7 +14429,11 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼賜賞 ‧ 神木',
-        'description': 'I. 木屬性攻擊力 3.5 倍<br>II. 每橫行首批消除 1 組 ≥3 粒符石時<br>⇒ 將產生 1 粒木神族符石',
+        'description': `
+		I. 木屬性攻擊力 3.5 倍
+		II. 每橫行首批消除 1 組 ≥3 粒符石時
+		⇒ 將產生 1 粒木神族符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11564,7 +14450,11 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼賜賞 ‧ 玄光',
-        'description': 'I. 光屬性攻擊力 4.5 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行將產生 1 粒光神族符石',
+        'description': `
+		I. 光屬性攻擊力 4.5 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行將產生 1 粒光神族符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11581,7 +14471,11 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼賜賞 ‧ 神光',
-        'description': 'I. 光屬性攻擊力 3.5 倍<br>II. 每橫行首批消除 1 組 ≥3 粒符石時<br>⇒ 將產生 1 粒光神族符石',
+        'description': `
+		I. 光屬性攻擊力 3.5 倍
+		II. 每橫行首批消除 1 組 ≥3 粒符石時
+		⇒ 將產生 1 粒光神族符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11598,7 +14492,11 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼賜賞 ‧ 幽冥',
-        'description': 'I. 暗屬性攻擊力 4.5 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行將產生 1 粒暗神族符石',
+        'description': `
+		I. 暗屬性攻擊力 4.5 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行將產生 1 粒暗神族符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11615,7 +14513,11 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼賜賞 ‧ 神幽',
-        'description': 'I. 暗屬性攻擊力 3.5 倍<br>II. 每橫行首批消除 1 組 ≥3 粒符石時<br>⇒ 將產生 1 粒暗神族符石',
+        'description': `
+		I. 暗屬性攻擊力 3.5 倍
+		II. 每橫行首批消除 1 組 ≥3 粒符石時
+		⇒ 將產生 1 粒暗神族符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11632,7 +14534,13 @@ const leader_skill_data = [
     },
     {
         'name': '機械之暴虐',
-        'description': '隊伍中只有機械族及龍類成員時：<br>I. 全隊攻擊力 4.5 倍<br>II. 每個成員增加 300 點攻擊力<br>II. 機械族成員所在直行消除 1 組 ≥3 粒符石時<br>⇒ 該成員攻擊力 1.5 倍',
+        'description': `
+		隊伍中只有機械族及龍類成員時：
+		I. 全隊攻擊力 4.5 倍
+		II. 每個成員增加 300 點攻擊力
+		II. 機械族成員所在直行消除 1 組 ≥3 粒符石時
+		⇒ 該成員攻擊力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11649,7 +14557,11 @@ const leader_skill_data = [
     },
     {
         'name': '機械之甦醒',
-        'description': 'I. 機械族及獸類回復力 3 倍<br>II. 消除心符石時<br>⇒ 回復「機械族及獸類成員生命力等值」5% 的生命力',
+        'description': `
+		I. 機械族及獸類回復力 3 倍
+		II. 消除心符石時
+		⇒ 回復「機械族及獸類成員生命力等值」5% 的生命力
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -11666,7 +14578,10 @@ const leader_skill_data = [
     },
     {
         'name': '機械之靈核',
-        'description': 'I. 機械族及獸類生命力 3 倍<br>II. 當受到攻擊後，於下回合發動攻擊前對全體敵人造成 「機械族及獸類成員生命力等值」5 倍的 無屬性傷害 (需消除符石)',
+        'description': `
+		I. 機械族及獸類生命力 3 倍
+		II. 當受到攻擊後，於下回合發動攻擊前對全體敵人造成 「機械族及獸類成員生命力等值」5 倍的 無屬性傷害 (需消除符石)
+		`,
         'tag': [
             {
                 'name': '增血',
@@ -11683,7 +14598,15 @@ const leader_skill_data = [
     },
     {
         'name': '機獸之暴 ‧ 光',
-        'description': '隊伍中只有機械族及獸類成員時：<br>I. 全隊攻擊力 5 倍<br>II. 光屬性兼具 50% 其他屬性符石效果 (可疊加)<br>III. 消除 ≥5 連擊 (Combo) 時<br>⇒ 機械族成員的行動值提升 5%<br>IV. 當所有機械族成員的行動值達至 100% 時<br>⇒ 自身攻擊力 2 倍',
+        'description': `
+		隊伍中只有機械族及獸類成員時：
+		I. 全隊攻擊力 5 倍
+		II. 光屬性兼具 50% 其他屬性符石效果 (可疊加)
+		III. 消除 ≥5 連擊 (Combo) 時
+		⇒ 機械族成員的行動值提升 5%
+		IV. 當所有機械族成員的行動值達至 100% 時
+		⇒ 自身攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11710,7 +14633,15 @@ const leader_skill_data = [
     },
     {
         'name': '機獸之暴 ‧ 暗',
-        'description': '隊伍中只有機械族及獸類成員時：<br>I. 全隊攻擊力 5 倍<br>II. 暗屬性兼具 50% 其他屬性符石效果 (可疊加)<br>III. 消除 ≥5 連擊 (Combo) 時<br>⇒ 機械族成員的行動值提升 5%<br>IV. 當所有機械族成員的行動值達至 100% 時<br>⇒ 自身攻擊力 2 倍',
+        'description': `
+		隊伍中只有機械族及獸類成員時：
+		I. 全隊攻擊力 5 倍
+		II. 暗屬性兼具 50% 其他屬性符石效果 (可疊加)
+		III. 消除 ≥5 連擊 (Combo) 時
+		⇒ 機械族成員的行動值提升 5%
+		IV. 當所有機械族成員的行動值達至 100% 時
+		⇒ 自身攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11737,7 +14668,13 @@ const leader_skill_data = [
     },
     {
         'name': '神妖滅世',
-        'description': '隊伍中只有神族或妖精類成員時：<br>I. 全隊攻擊力 4 倍<br>II. 延長移動符石時間 1 秒<br>III. 消除神族或妖族符石時<br>⇒ 全隊攻擊力額外提升 1.5 倍',
+        'description': `
+		隊伍中只有神族或妖精類成員時：
+		I. 全隊攻擊力 4 倍
+		II. 延長移動符石時間 1 秒
+		III. 消除神族或妖族符石時
+		⇒ 全隊攻擊力額外提升 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11759,7 +14696,13 @@ const leader_skill_data = [
     },
     {
         'name': '神妖滅世 ‧ 強',
-        'description': '隊伍中只有神族或妖精類成員時<br>I. 全隊攻擊力 6 倍<br>II. 必然延長移動符石時間 1 秒<br>III. 消除神族或妖族符石時<br>⇒ 全隊攻擊力額外 1.5 倍',
+        'description': `
+		隊伍中只有神族或妖精類成員時
+		I. 全隊攻擊力 6 倍
+		II. 必然延長移動符石時間 1 秒
+		III. 消除神族或妖族符石時
+		⇒ 全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11781,7 +14724,13 @@ const leader_skill_data = [
     },
     {
         'name': '元素創念',
-        'description': '隊伍中只有神族成員時：<br>I. 全隊攻擊力 4 倍<br>II. 首批掉落「沒有首批消除」的其中 1 種屬性符石 (剩餘數量最少優先)<br>III. 消除 5 種屬性符石時<br>⇒ 全隊攻擊力額外 1.5 倍',
+        'description': `
+		隊伍中只有神族成員時：
+		I. 全隊攻擊力 4 倍
+		II. 首批掉落「沒有首批消除」的其中 1 種屬性符石 (剩餘數量最少優先)
+		III. 消除 5 種屬性符石時
+		⇒ 全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11803,7 +14752,13 @@ const leader_skill_data = [
     },
     {
         'name': '元素創念 ‧ 強',
-        'description': '隊伍中只有神族成員時<br>I. 全隊攻擊力 5 倍、生命力及回復力 1.3 倍<br>II. 首批掉落「沒有首批消除」的其中 1 種屬性符石 (剩餘數量最少優先)<br>III. 消除 5 種屬性符石時<br>⇒ 全隊攻擊力額外 1.5 倍',
+        'description': `
+		隊伍中只有神族成員時
+		I. 全隊攻擊力 5 倍、生命力及回復力 1.3 倍
+		II. 首批掉落「沒有首批消除」的其中 1 種屬性符石 (剩餘數量最少優先)
+		III. 消除 5 種屬性符石時
+		⇒ 全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -11825,7 +14780,15 @@ const leader_skill_data = [
     },
     {
         'name': '幻惑護生',
-        'description': '隊伍中只有神族成員時：<br>I. 全隊攻擊力 4 倍及回復力 1.5 倍<br>II. 同時消除光及暗符石時<br>⇒ 全隊攻擊力 1.5 倍<br>⇒ 減少 20% 所受傷害<br>III. 消除神族符石時<br>⇒ 全隊攻擊力額外 1.5 倍',
+        'description': `
+		隊伍中只有神族成員時：
+		I. 全隊攻擊力 4 倍及回復力 1.5 倍
+		II. 同時消除光及暗符石時
+		⇒ 全隊攻擊力 1.5 倍
+		⇒ 減少 20% 所受傷害
+		III. 消除神族符石時
+		⇒ 全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -11852,7 +14815,9 @@ const leader_skill_data = [
     },
     {
         'name': '獸類萬鈞之怒',
-        'description': '獸類攻擊力 4 倍',
+        'description': `
+		獸類攻擊力 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11864,7 +14829,9 @@ const leader_skill_data = [
     },
     {
         'name': '龍類萬鈞之怒',
-        'description': '龍類攻擊力 4 倍',
+        'description': `
+		龍類攻擊力 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11876,7 +14843,12 @@ const leader_skill_data = [
     },
     {
         'name': '妖靈之音',
-        'description': '隊伍中只有妖精類成員時：<br>I. 全隊攻擊力 4.5 倍、生命力及回復力 1.3 倍<br>II. 所有屬性符石<br>⇒ 兼具 50% 心符石效果',
+        'description': `
+		隊伍中只有妖精類成員時：
+		I. 全隊攻擊力 4.5 倍、生命力及回復力 1.3 倍
+		II. 所有屬性符石
+		⇒ 兼具 50% 心符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -11893,7 +14865,15 @@ const leader_skill_data = [
     },
     {
         'name': '十殺之屠',
-        'description': '隊中只有機械族及神族成員時：<br>I. 全隊攻擊力 10 倍<br>II. 心符石兼具 50% 水符石效果<br>III. 達至 5 - 9 連擊 (Combo) 時<br>⇒ 減少 20% 所受傷害<br>IV. 達至 ≥10 連擊 (Combo) 時<br>⇒ 減少 80% 所受傷害',
+        'description': `
+		隊中只有機械族及神族成員時：
+		I. 全隊攻擊力 10 倍
+		II. 心符石兼具 50% 水符石效果
+		III. 達至 5 - 9 連擊 (Combo) 時
+		⇒ 減少 20% 所受傷害
+		IV. 達至 ≥10 連擊 (Combo) 時
+		⇒ 減少 80% 所受傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11915,7 +14895,9 @@ const leader_skill_data = [
     },
     {
         'name': '水之復甦',
-        'description': '水屬性回復力 2 倍',
+        'description': `
+		水屬性回復力 2 倍
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -11927,7 +14909,9 @@ const leader_skill_data = [
     },
     {
         'name': '火之復甦',
-        'description': '火屬性回復力 2 倍',
+        'description': `
+		火屬性回復力 2 倍
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -11939,7 +14923,9 @@ const leader_skill_data = [
     },
     {
         'name': '木之復甦',
-        'description': '木屬性回復力 2 倍',
+        'description': `
+		木屬性回復力 2 倍
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -11951,7 +14937,9 @@ const leader_skill_data = [
     },
     {
         'name': '光之復甦',
-        'description': '光屬性回復力 2 倍',
+        'description': `
+		光屬性回復力 2 倍
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -11963,7 +14951,9 @@ const leader_skill_data = [
     },
     {
         'name': '暗之復甦',
-        'description': '暗屬性回復力 2 倍',
+        'description': `
+		暗屬性回復力 2 倍
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -11975,7 +14965,12 @@ const leader_skill_data = [
     },
     {
         'name': '神聖之水',
-        'description': 'I. 水屬性及「美好世界」系列角色攻擊力 5 倍<br>II. 首批消除 ≥5 連擊 (Combo) <br>⇒ 攻擊力額外 1.3 倍<br>III. 只能消除首批符石',
+        'description': `
+		I. 水屬性及「美好世界」系列角色攻擊力 5 倍
+		II. 首批消除 ≥5 連擊 (Combo) 
+		⇒ 攻擊力額外 1.3 倍
+		III. 只能消除首批符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -11997,7 +14992,14 @@ const leader_skill_data = [
     },
     {
         'name': '釋放最強魔法',
-        'description': '隊伍中有 ≥3 種屬性成員時：<br>I. 人類及神族攻擊力 5 倍<br>II. 所有成員<br>⇒ 對光及暗屬性目標攻擊力 2 倍<br>⇒ 對其他屬性目標攻擊力 1.5 倍<br>(包括主動技)',
+        'description': `
+		隊伍中有 ≥3 種屬性成員時：
+		I. 人類及神族攻擊力 5 倍
+		II. 所有成員
+		⇒ 對光及暗屬性目標攻擊力 2 倍
+		⇒ 對其他屬性目標攻擊力 1.5 倍
+		(包括主動技)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12014,7 +15016,16 @@ const leader_skill_data = [
     },
     {
         'name': '聖騎士之意志',
-        'description': '隊伍中只有人類成員時：<br>I. 人類生命力及攻擊力 1.5 倍<br>II. 光屬性人類則 2 倍<br>III. 每次受到敵人攻擊時<br>⇒ 人類攻擊力額外持續提升<br>⇒ 最大 6 倍<br>IV. 連續 2 回合沒有受到敵人攻擊<br>⇒ 攻擊力減少',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 人類生命力及攻擊力 1.5 倍
+		II. 光屬性人類則 2 倍
+		III. 每次受到敵人攻擊時
+		⇒ 人類攻擊力額外持續提升
+		⇒ 最大 6 倍
+		IV. 連續 2 回合沒有受到敵人攻擊
+		⇒ 攻擊力減少
+		`,
         'tag': [
             {
                 'name': ['增血', '增攻'],
@@ -12031,7 +15042,10 @@ const leader_skill_data = [
     },
     {
         'name': '負面情感吞食',
-        'description': 'I. 暗屬性攻擊力 3 倍<br>II. 所有成員對人類目標攻擊力提升 2 倍',
+        'description': `
+		I. 暗屬性攻擊力 3 倍
+		II. 所有成員對人類目標攻擊力提升 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12048,7 +15062,9 @@ const leader_skill_data = [
     },
     {
         'name': '妖精之再生',
-        'description': '妖精類回復力 2.5 倍',
+        'description': `
+		妖精類回復力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -12060,7 +15076,11 @@ const leader_skill_data = [
     },
     {
         'name': '萌之治癒 ‧ 獸',
-        'description': '隊伍中只有獸類成員時：<br>I. 全隊攻擊力 4 倍<br>II. 每回合回復 3 倍自身回復力等值的生命力 (需消除符石)',
+        'description': `
+		隊伍中只有獸類成員時：
+		I. 全隊攻擊力 4 倍
+		II. 每回合回復 3 倍自身回復力等值的生命力 (需消除符石)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12077,7 +15097,12 @@ const leader_skill_data = [
     },
     {
         'name': '火影戲法 ‧ 獸',
-        'description': '隊伍中只有獸類成員時：<br>I. 全隊攻擊力 4.5 倍<br>II. 消除 ≥6 粒火符石時<br>⇒ 全隊攻擊力額外 1.8 倍',
+        'description': `
+		隊伍中只有獸類成員時：
+		I. 全隊攻擊力 4.5 倍
+		II. 消除 ≥6 粒火符石時
+		⇒ 全隊攻擊力額外 1.8 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12094,7 +15119,12 @@ const leader_skill_data = [
     },
     {
         'name': '幽魂的力量',
-        'description': '隊伍中只有獸類成員時：<br>I. 全隊生命力 2 倍及攻擊力 5.5 倍<br>II. 每回合扣除全隊總生命力 10%<br>III. 每消除 1 粒獸族符石，回復 5% 總生命力',
+        'description': `
+		隊伍中只有獸類成員時：
+		I. 全隊生命力 2 倍及攻擊力 5.5 倍
+		II. 每回合扣除全隊總生命力 10%
+		III. 每消除 1 粒獸族符石，回復 5% 總生命力
+		`,
         'tag': [
             {
                 'name': ['增血', '增攻'],
@@ -12116,7 +15146,14 @@ const leader_skill_data = [
     },
     {
         'name': '異瞳的力量',
-        'description': 'I. 獸類生命力及回復力 1.5 倍<br>II. 延長移動符石時間 2 秒<br>III. 連擊 (Combo) 時攻擊力提升 125%<br>IV. 所有屬性符石兼具其他屬性符石效果：隊伍中每多 1 個獸類成員<br>⇒ 可提升 20% 兼具效果<br>⇒ 最大 100% (可疊加)',
+        'description': `
+		I. 獸類生命力及回復力 1.5 倍
+		II. 延長移動符石時間 2 秒
+		III. 連擊 (Combo) 時攻擊力提升 125%
+		IV. 所有屬性符石兼具其他屬性符石效果：隊伍中每多 1 個獸類成員
+		⇒ 可提升 20% 兼具效果
+		⇒ 最大 100% (可疊加)
+		`,
         'tag': [
             {
                 'name': ['增血', '增回', '增攻'],
@@ -12138,7 +15175,16 @@ const leader_skill_data = [
     },
     {
         'name': '異瞳的力量 ‧ 強',
-        'description': 'I. 獸類生命力及回復力 1.8 倍<br>II. 延長移動符石時間 2 秒<br>III. 連擊 (Combo) 時攻擊力提升 200%<br>IV. 所有屬性符石兼具其他屬性符石效果：隊伍中每多 1 個獸類成員<br>⇒ 可提升 20% 兼具效果<br>⇒ 最大 100% (可疊加)<br>V. 消除獸族符石<br>⇒ 獸類攻擊力額外 3 倍',
+        'description': `
+		I. 獸類生命力及回復力 1.8 倍
+		II. 延長移動符石時間 2 秒
+		III. 連擊 (Combo) 時攻擊力提升 200%
+		IV. 所有屬性符石兼具其他屬性符石效果：隊伍中每多 1 個獸類成員
+		⇒ 可提升 20% 兼具效果
+		⇒ 最大 100% (可疊加)
+		V. 消除獸族符石
+		⇒ 獸類攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': ['增血', '增回', '增攻'],
@@ -12165,7 +15211,14 @@ const leader_skill_data = [
     },
     {
         'name': '女王的力量',
-        'description': '隊伍中只有獸類成員時：<br>I. 全隊攻擊力 4 倍<br>II. 每個成員增加 400 點回復力<br>III. 隊伍中沒有重複成員時： 每回合消除符石的組數愈多<br>⇒ 全隊攻擊力額外提升愈多<br>⇒ 消除 10 組可提升至最大 3 倍',
+        'description': `
+		隊伍中只有獸類成員時：
+		I. 全隊攻擊力 4 倍
+		II. 每個成員增加 400 點回復力
+		III. 隊伍中沒有重複成員時： 每回合消除符石的組數愈多
+		⇒ 全隊攻擊力額外提升愈多
+		⇒ 消除 10 組可提升至最大 3 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -12182,7 +15235,11 @@ const leader_skill_data = [
     },
     {
         'name': '機關術 ‧ 獸',
-        'description': '隊伍中只有獸類成員時：<br>I. 全隊攻擊力 3 倍<br>II. 獸類對機械族目標攻擊力額外 2 倍',
+        'description': `
+		隊伍中只有獸類成員時：
+		I. 全隊攻擊力 3 倍
+		II. 獸類對機械族目標攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '對機械族增傷'],
@@ -12194,7 +15251,12 @@ const leader_skill_data = [
     },
     {
         'name': '玄光盛宴 ‧ 獸',
-        'description': '隊伍中只有獸類成員時：<br>I. 全隊攻擊力 4.5 倍<br>II. 消除 ≥6 粒光符石時<br>⇒ 全隊攻擊力額外 1.8 倍',
+        'description': `
+		隊伍中只有獸類成員時：
+		I. 全隊攻擊力 4.5 倍
+		II. 消除 ≥6 粒光符石時
+		⇒ 全隊攻擊力額外 1.8 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12211,7 +15273,10 @@ const leader_skill_data = [
     },
     {
         'name': '記憶療法 ‧ 獸',
-        'description': '隊伍中只有獸類成員時：<br>⇒ 全隊回復力 3.5 倍',
+        'description': `
+		隊伍中只有獸類成員時：
+		⇒ 全隊回復力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -12223,7 +15288,10 @@ const leader_skill_data = [
     },
     {
         'name': '元素為力 ‧ 獸',
-        'description': '隊伍中有 ≥3 種屬性成員時<br>⇒ 獸類攻擊力 5 倍',
+        'description': `
+		隊伍中有 ≥3 種屬性成員時
+		⇒ 獸類攻擊力 5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12235,7 +15303,10 @@ const leader_skill_data = [
     },
     {
         'name': '元素協力 ‧ 獸',
-        'description': '隊伍中有 ≥3 種屬性成員時<br>⇒ 獸類攻擊力 4 倍',
+        'description': `
+		隊伍中有 ≥3 種屬性成員時
+		⇒ 獸類攻擊力 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12247,7 +15318,9 @@ const leader_skill_data = [
     },
     {
         'name': '巧靈深思之力',
-        'description': '人類及妖精類攻擊力 6 倍',
+        'description': `
+		人類及妖精類攻擊力 6 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12259,7 +15332,11 @@ const leader_skill_data = [
     },
     {
         'name': '萬妖齊舞',
-        'description': 'I. 妖精類攻擊力及回復力 4 倍<br>II. 生命力全滿時<br>⇒ 妖精類攻擊力額外 2 倍',
+        'description': `
+		I. 妖精類攻擊力及回復力 4 倍
+		II. 生命力全滿時
+		⇒ 妖精類攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -12276,7 +15353,11 @@ const leader_skill_data = [
     },
     {
         'name': '萬妖狂舞之幽',
-        'description': 'I. 暗屬性及妖精類攻擊力 4.5 倍<br>II. 消除妖族符石時<br>⇒ 暗屬性及妖精類攻擊力額外 1.5 倍',
+        'description': `
+		I. 暗屬性及妖精類攻擊力 4.5 倍
+		II. 消除妖族符石時
+		⇒ 暗屬性及妖精類攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12293,7 +15374,11 @@ const leader_skill_data = [
     },
     {
         'name': '九龍洶勢',
-        'description': 'I. 龍類攻擊力 3 倍<br>II. 消除 ≥3 組水符石時<br>⇒ 龍類攻擊力額外 3 倍',
+        'description': `
+		I. 龍類攻擊力 3 倍
+		II. 消除 ≥3 組水符石時
+		⇒ 龍類攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12310,7 +15395,11 @@ const leader_skill_data = [
     },
     {
         'name': '魔魅之靈泉 ‧ 強',
-        'description': 'I. 水屬性攻擊力 4.5 倍<br>II. 當生命力少於 50% 時<br>⇒ 心符石效果提升至 300% (效果不能疊加)',
+        'description': `
+		I. 水屬性攻擊力 4.5 倍
+		II. 當生命力少於 50% 時
+		⇒ 心符石效果提升至 300% (效果不能疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12327,7 +15416,10 @@ const leader_skill_data = [
     },
     {
         'name': '星靈魔法',
-        'description': 'I. 人類及妖精類攻擊力 4 倍<br>II. 心符石兼具 50% 所有屬性符石效果 (可疊加)',
+        'description': `
+		I. 人類及妖精類攻擊力 4 倍
+		II. 心符石兼具 50% 所有屬性符石效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12344,7 +15436,13 @@ const leader_skill_data = [
     },
     {
         'name': '滅龍魔法 ‧ 炎',
-        'description': '隊伍中只有人類、妖精類或龍類成員時：<br>I. 全隊攻擊力 5 倍，生命力及回復力 1.3 倍<br>II. 消除 ≥2 組火符石時<br>⇒ 全隊攻擊力額外 1.5 倍<br>III. 隊伍成員對龍類目標攻擊力 2.5 倍',
+        'description': `
+		隊伍中只有人類、妖精類或龍類成員時：
+		I. 全隊攻擊力 5 倍，生命力及回復力 1.3 倍
+		II. 消除 ≥2 組火符石時
+		⇒ 全隊攻擊力額外 1.5 倍
+		III. 隊伍成員對龍類目標攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '對龍類增傷'],
@@ -12361,7 +15459,12 @@ const leader_skill_data = [
     },
     {
         'name': '滅龍魔法 ‧ 天空',
-        'description': '隊伍中只有人類成員時：<br>I. 全隊攻擊力 3.5 倍<br>II. 心符石兼具 25% 木符石效果 (可疊加)<br>III. 隊伍成員對龍類目標攻擊力額外 2.5 倍',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 全隊攻擊力 3.5 倍
+		II. 心符石兼具 25% 木符石效果 (可疊加)
+		III. 隊伍成員對龍類目標攻擊力額外 2.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '對龍類增傷'],
@@ -12378,7 +15481,15 @@ const leader_skill_data = [
     },
     {
         'name': '換裝魔法',
-        'description': '隊伍中只有人類及妖精類成員時：<br>I. 全隊攻擊力 3.5 倍<br>II. 達成的連擊 (Combo) 數目愈多<br>⇒ 全隊攻擊力額外提升愈多<br>⇒ 8 連擊 (Combo) 可提升至最大 2.6 倍<br>III. 消除水及光符石時<br>⇒ 有 50% 機率減少 40% 所受傷害 (機率可以疊加)',
+        'description': `
+		隊伍中只有人類及妖精類成員時：
+		I. 全隊攻擊力 3.5 倍
+		II. 達成的連擊 (Combo) 數目愈多
+		⇒ 全隊攻擊力額外提升愈多
+		⇒ 8 連擊 (Combo) 可提升至最大 2.6 倍
+		III. 消除水及光符石時
+		⇒ 有 50% 機率減少 40% 所受傷害 (機率可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12400,7 +15511,17 @@ const leader_skill_data = [
     },
     {
         'name': '換裝魔法 ‧ 強',
-        'description': '隊伍中只有人類及妖精類成員時：<br>I. 全隊攻擊力 3.5 倍<br>II. 達成的連擊 (Combo) 數目愈多<br>⇒ 全隊攻擊力額外提升愈多<br>⇒ 8 連擊 (Combo) 可提升至最大 2.6 倍<br>III. 消除水及光符石時<br>⇒ 有 50% 機率減少 40% 所受傷害 (機率可以疊加)<br>IV. 2 粒心符石、水符石或光符石相連，即可發動消除<br>V. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)',
+        'description': `
+		隊伍中只有人類及妖精類成員時：
+		I. 全隊攻擊力 3.5 倍
+		II. 達成的連擊 (Combo) 數目愈多
+		⇒ 全隊攻擊力額外提升愈多
+		⇒ 8 連擊 (Combo) 可提升至最大 2.6 倍
+		III. 消除水及光符石時
+		⇒ 有 50% 機率減少 40% 所受傷害 (機率可以疊加)
+		IV. 2 粒心符石、水符石或光符石相連，即可發動消除
+		V. 所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -12428,7 +15549,12 @@ const leader_skill_data = [
     },
     {
         'name': '滅龍魔法 ‧ 鐵',
-        'description': '隊伍中只有人類成員時：<br>I. 全隊攻擊力 3.5 倍<br>II. 心符石兼具 25% 暗符石效果 (可疊加)<br>III. 隊伍成員對龍類目標攻擊力額外 2.5 倍',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 全隊攻擊力 3.5 倍
+		II. 心符石兼具 25% 暗符石效果 (可疊加)
+		III. 隊伍成員對龍類目標攻擊力額外 2.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '對龍類增傷'],
@@ -12445,7 +15571,11 @@ const leader_skill_data = [
     },
     {
         'name': '造型魔法 ‧ 冰',
-        'description': '隊伍中只有人類成員時：<br>I. 全隊攻擊力 4 倍<br>II. 水屬性成員對龍類、神族及魔族目標攻擊力額外 2.5 倍',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 全隊攻擊力 4 倍
+		II. 水屬性成員對龍類、神族及魔族目標攻擊力額外 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12462,7 +15592,12 @@ const leader_skill_data = [
     },
     {
         'name': '滅龍魔法 ‧ 雷',
-        'description': '隊伍中只有人類成員時：<br>I. 全隊攻擊力 3.5 倍<br>II. 心符石兼具 25% 光符石效果 (可疊加)<br>III. 隊伍成員對龍類目標攻擊力額外 2.5 倍',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 全隊攻擊力 3.5 倍
+		II. 心符石兼具 25% 光符石效果 (可疊加)
+		III. 隊伍成員對龍類目標攻擊力額外 2.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '對龍類增傷'],
@@ -12479,7 +15614,12 @@ const leader_skill_data = [
     },
     {
         'name': '接收',
-        'description': 'I. 人類及魔族攻擊力 4 倍<br>II. 每次魔族成員發動技能<br>⇒ 人類及魔族攻擊力額外 1.5 倍<br>⇒ 每回合最多可提升 20 次',
+        'description': `
+		I. 人類及魔族攻擊力 4 倍
+		II. 每次魔族成員發動技能
+		⇒ 人類及魔族攻擊力額外 1.5 倍
+		⇒ 每回合最多可提升 20 次
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12496,7 +15636,11 @@ const leader_skill_data = [
     },
     {
         'name': '天體魔法',
-        'description': 'I. 全隊攻擊力 3 倍<br>II. 首批消除 6、7 或 9 連擊 (Combo) 時<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		I. 全隊攻擊力 3 倍
+		II. 首批消除 6、7 或 9 連擊 (Combo) 時
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12513,7 +15657,10 @@ const leader_skill_data = [
     },
     {
         'name': '炎龍王',
-        'description': 'I. 火屬性及龍類攻擊力 3 倍<br>II. 火屬性龍類攻擊力則 9 倍',
+        'description': `
+		I. 火屬性及龍類攻擊力 3 倍
+		II. 火屬性龍類攻擊力則 9 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12525,7 +15672,13 @@ const leader_skill_data = [
     },
     {
         'name': '黑魔法',
-        'description': 'I. 暗屬性攻擊力 5 倍<br>II. 當前生命力大於 80% 時<br>⇒ 下一次所受傷害不會使你死亡<br>III. 當前生命力少於 25% 時<br>⇒ 自身攻擊力及回復力額外 2.5 倍',
+        'description': `
+		I. 暗屬性攻擊力 5 倍
+		II. 當前生命力大於 80% 時
+		⇒ 下一次所受傷害不會使你死亡
+		III. 當前生命力少於 25% 時
+		⇒ 自身攻擊力及回復力額外 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12547,7 +15700,14 @@ const leader_skill_data = [
     },
     {
         'name': '暗黑之翼',
-        'description': '隊伍中只有暗屬性龍類成員時：<br>I. 全隊攻擊力 5 倍<br>II. 每個成員增加 200 點回復力<br>III. 心符石兼具 50% 暗符石效果 (可疊加)<br>IV. 消除心及暗符石時<br>⇒ 全隊攻擊力額外 1.5 倍',
+        'description': `
+		隊伍中只有暗屬性龍類成員時：
+		I. 全隊攻擊力 5 倍
+		II. 每個成員增加 200 點回復力
+		III. 心符石兼具 50% 暗符石效果 (可疊加)
+		IV. 消除心及暗符石時
+		⇒ 全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -12569,7 +15729,9 @@ const leader_skill_data = [
     },
     {
         'name': '巨人',
-        'description': '隊伍中只有人類成員時：全隊生命力及攻擊力 2.5 倍',
+        'description': `
+		隊伍中只有人類成員時：全隊生命力及攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': ['增血', '增攻'],
@@ -12581,7 +15743,11 @@ const leader_skill_data = [
     },
     {
         'name': '水流魔法',
-        'description': 'I. 水屬性攻擊力 3 倍<br>II. 回合結束時，隨機將 2 粒水強化符石四周的符石<br>⇒ 轉化為水符石',
+        'description': `
+		I. 水屬性攻擊力 3 倍
+		II. 回合結束時，隨機將 2 粒水強化符石四周的符石
+		⇒ 轉化為水符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12598,7 +15764,11 @@ const leader_skill_data = [
     },
     {
         'name': '時間的弧形',
-        'description': 'I. 全隊攻擊力 3 倍<br>II. 延長移動符石時間 5 秒<br>III. 每回合扣除全隊總生命力 10%',
+        'description': `
+		I. 全隊攻擊力 3 倍
+		II. 延長移動符石時間 5 秒
+		III. 每回合扣除全隊總生命力 10%
+		`,
         'tag': [
             {
                 'name': ['增攻', '延長轉珠時間', '我方扣血'],
@@ -12610,7 +15780,11 @@ const leader_skill_data = [
     },
     {
         'name': '妖精軍師',
-        'description': 'I. 妖精類生命力、攻擊力及回復力 2 倍<br>II. 消除妖族符石時<br>⇒ 妖精類攻擊力額外 2 倍',
+        'description': `
+		I. 妖精類生命力、攻擊力及回復力 2 倍
+		II. 消除妖族符石時
+		⇒ 妖精類攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增血', '增攻', '增回'],
@@ -12627,7 +15801,9 @@ const leader_skill_data = [
     },
     {
         'name': '妖魔萬鈞之怒',
-        'description': '妖精類及魔族攻擊力 4 倍',
+        'description': `
+		妖精類及魔族攻擊力 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12639,7 +15815,12 @@ const leader_skill_data = [
     },
     {
         'name': '神魔之森 ‧ 狂風',
-        'description': '隊伍中只有木屬性魔族或木屬性神族成員時：<br>I. 全隊攻擊力 4 倍<br>II. 每消除 4 組符石時<br>⇒ 必定掉落 4 粒木強化符石',
+        'description': `
+		隊伍中只有木屬性魔族或木屬性神族成員時：
+		I. 全隊攻擊力 4 倍
+		II. 每消除 4 組符石時
+		⇒ 必定掉落 4 粒木強化符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12656,7 +15837,12 @@ const leader_skill_data = [
     },
     {
         'name': '種族凝滙 ‧ 光之暴',
-        'description': '隊伍中有 ≥3 種族成員時：<br>I. 光屬性攻擊力 6 倍<br>II. 每消除 1 種「種族符石」<br>⇒ 光屬性攻擊力額外 1.5 倍',
+        'description': `
+		隊伍中有 ≥3 種族成員時：
+		I. 光屬性攻擊力 6 倍
+		II. 每消除 1 種「種族符石」
+		⇒ 光屬性攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12673,7 +15859,13 @@ const leader_skill_data = [
     },
     {
         'name': '種族凝滙 ‧ 光之暴',
-        'description': '隊伍中有 ≥3 種族成員時：<br>I. 光屬性攻擊力 6 倍<br>II. 每消除 1 種「種族符石」<br>⇒ 光屬性攻擊力額外 1.5 倍<br>III. 所有成員的生命力基值、攻擊力基值及回復力基值分別跟隨 3 項基值最高的成員',
+        'description': `
+		隊伍中有 ≥3 種族成員時：
+		I. 光屬性攻擊力 6 倍
+		II. 每消除 1 種「種族符石」
+		⇒ 光屬性攻擊力額外 1.5 倍
+		III. 所有成員的生命力基值、攻擊力基值及回復力基值分別跟隨 3 項基值最高的成員
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -12696,7 +15888,13 @@ const leader_skill_data = [
     },
     {
         'name': '亂世重典',
-        'description': 'I. 暗屬性及魔族攻擊力 7 倍<br>II. 自身無視敵人防禦力<br>III. 必然延長移動符石時間 2 秒<br>IV. 消除 1 組 ≥5 粒符石<br>⇒ 全隊攻擊力額外 3.5 倍',
+        'description': `
+		I. 暗屬性及魔族攻擊力 7 倍
+		II. 自身無視敵人防禦力
+		III. 必然延長移動符石時間 2 秒
+		IV. 消除 1 組 ≥5 粒符石
+		⇒ 全隊攻擊力額外 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12723,7 +15921,13 @@ const leader_skill_data = [
     },
     {
         'name': '光耀躍舞',
-        'description': 'I. 光屬性人類攻擊力 4 倍<br>II. 消除最底 1 橫行內的所有符石、或最左方 1 直行的 5 粒符石、或最右方 1 直行的 5 粒符石時：<br>⇒ 全隊攻擊力額外 2 倍<br>III. 若達成上述所有條件時<br>⇒ 則全隊攻擊力額外 3.5 倍',
+        'description': `
+		I. 光屬性人類攻擊力 4 倍
+		II. 消除最底 1 橫行內的所有符石、或最左方 1 直行的 5 粒符石、或最右方 1 直行的 5 粒符石時：
+		⇒ 全隊攻擊力額外 2 倍
+		III. 若達成上述所有條件時
+		⇒ 則全隊攻擊力額外 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12740,7 +15944,12 @@ const leader_skill_data = [
     },
     {
         'name': '靜影復甦',
-        'description': '隊伍中有 ≥3 種屬性成員時：<br>I. 全隊攻擊力及回復力 3 倍<br>II. 當生命力少於 30% 時<br>⇒ 心符石效果提升至 300% (效果不能疊加)',
+        'description': `
+		隊伍中有 ≥3 種屬性成員時：
+		I. 全隊攻擊力及回復力 3 倍
+		II. 當生命力少於 30% 時
+		⇒ 心符石效果提升至 300% (效果不能疊加)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -12757,7 +15966,12 @@ const leader_skill_data = [
     },
     {
         'name': '靈息綻放',
-        'description': '隊伍中有 ≥3 種屬性成員時：<br>I. 全隊攻擊力及回復力 3 倍<br>II. 每次受到攻擊時<br>⇒ 隨機將 2 粒符石轉化為心符石',
+        'description': `
+		隊伍中有 ≥3 種屬性成員時：
+		I. 全隊攻擊力及回復力 3 倍
+		II. 每次受到攻擊時
+		⇒ 隨機將 2 粒符石轉化為心符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -12774,7 +15988,9 @@ const leader_skill_data = [
     },
     {
         'name': '攻克無懼',
-        'description': '隊伍中有 ≥3 種屬性成員時：全隊攻擊力及回復力 3.5 倍',
+        'description': `
+		隊伍中有 ≥3 種屬性成員時：全隊攻擊力及回復力 3.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -12786,7 +16002,9 @@ const leader_skill_data = [
     },
     {
         'name': '動人時光',
-        'description': '10 回合內，神族攻擊力 10 倍 (只計算消除符石的回合)',
+        'description': `
+		10 回合內，神族攻擊力 10 倍 (只計算消除符石的回合)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12798,7 +16016,17 @@ const leader_skill_data = [
     },
     {
         'name': '浪濤 ‧ 極致',
-        'description': '隊中只有水屬性成員：<br>I. 全隊攻擊力 10 倍、生命力及回復力 2 倍<br>II. 神族成員生命力及回復力額外 1.2 倍<br>III. 消除強化符石<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 消除神族符石<br>⇒ 全隊攻擊力額外 2 倍<br>V. 回合結束時，將 3 粒水符石<br>⇒ 轉化為神族強化符石',
+        'description': `
+		隊中只有水屬性成員：
+		I. 全隊攻擊力 10 倍、生命力及回復力 2 倍
+		II. 神族成員生命力及回復力額外 1.2 倍
+		III. 消除強化符石
+		⇒ 全隊攻擊力額外 2 倍
+		IV. 消除神族符石
+		⇒ 全隊攻擊力額外 2 倍
+		V. 回合結束時，將 3 粒水符石
+		⇒ 轉化為神族強化符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -12825,7 +16053,17 @@ const leader_skill_data = [
     },
     {
         'name': '流焰 ‧ 極致',
-        'description': '隊中只有火屬性成員：<br>I. 全隊攻擊力 10 倍、生命力及回復力 2 倍<br>II. 神族成員生命力及回復力額外 1.2 倍<br>III. 消除強化符石<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 消除神族符石<br>⇒ 全隊攻擊力額外 2 倍<br>V. 回合結束時，將 3 粒火符石<br>⇒ 轉化為神族強化符石',
+        'description': `
+		隊中只有火屬性成員：
+		I. 全隊攻擊力 10 倍、生命力及回復力 2 倍
+		II. 神族成員生命力及回復力額外 1.2 倍
+		III. 消除強化符石
+		⇒ 全隊攻擊力額外 2 倍
+		IV. 消除神族符石
+		⇒ 全隊攻擊力額外 2 倍
+		V. 回合結束時，將 3 粒火符石
+		⇒ 轉化為神族強化符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -12852,7 +16090,17 @@ const leader_skill_data = [
     },
     {
         'name': '藤蔓 ‧ 極致',
-        'description': '隊中只有木屬性成員：<br>I. 全隊攻擊力 10 倍、生命力及回復力 2 倍<br>II. 神族成員生命力及回復力額外 1.2 倍<br>III. 消除強化符石<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 消除神族符石<br>⇒ 全隊攻擊力額外 2 倍<br>V. 回合結束時，將 3 粒木符石<br>⇒ 轉化為神族強化符石',
+        'description': `
+		隊中只有木屬性成員：
+		I. 全隊攻擊力 10 倍、生命力及回復力 2 倍
+		II. 神族成員生命力及回復力額外 1.2 倍
+		III. 消除強化符石
+		⇒ 全隊攻擊力額外 2 倍
+		IV. 消除神族符石
+		⇒ 全隊攻擊力額外 2 倍
+		V. 回合結束時，將 3 粒木符石
+		⇒ 轉化為神族強化符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -12879,7 +16127,17 @@ const leader_skill_data = [
     },
     {
         'name': '驚雷 ‧ 極致',
-        'description': '隊中只有光屬性成員：<br>I. 全隊攻擊力 10 倍、生命力及回復力 2 倍<br>II. 神族成員生命力及回復力額外 1.2 倍<br>III. 消除強化符石<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 消除神族符石<br>⇒ 全隊攻擊力額外 2 倍<br>V. 回合結束時，將 3 粒光符石<br>⇒ 轉化為神族強化符石',
+        'description': `
+		隊中只有光屬性成員：
+		I. 全隊攻擊力 10 倍、生命力及回復力 2 倍
+		II. 神族成員生命力及回復力額外 1.2 倍
+		III. 消除強化符石
+		⇒ 全隊攻擊力額外 2 倍
+		IV. 消除神族符石
+		⇒ 全隊攻擊力額外 2 倍
+		V. 回合結束時，將 3 粒光符石
+		⇒ 轉化為神族強化符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -12906,7 +16164,17 @@ const leader_skill_data = [
     },
     {
         'name': '狂魅 ‧ 極致',
-        'description': '隊中只有暗屬性成員：<br>I. 全隊攻擊力 10 倍、生命力及回復力 2 倍<br>II. 神族成員生命力及回復力額外 1.2 倍<br>III. 消除強化符石<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 消除神族符石<br>⇒ 全隊攻擊力額外 2 倍<br>V. 回合結束時，將 3 粒暗符石<br>⇒ 轉化為神族強化符石',
+        'description': `
+		隊中只有暗屬性成員：
+		I. 全隊攻擊力 10 倍、生命力及回復力 2 倍
+		II. 神族成員生命力及回復力額外 1.2 倍
+		III. 消除強化符石
+		⇒ 全隊攻擊力額外 2 倍
+		IV. 消除神族符石
+		⇒ 全隊攻擊力額外 2 倍
+		V. 回合結束時，將 3 粒暗符石
+		⇒ 轉化為神族強化符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -12933,7 +16201,15 @@ const leader_skill_data = [
     },
     {
         'name': '機械理論',
-        'description': '隊伍中只有機械族或人類成員時：<br>I. 全隊攻擊力 4.5 倍<br>II. 減少 40% 所受傷害<br>III. 消除水強化符石時<br>⇒ 機械族成員的行動值提升 5%<br>IV. 所有機械族成員的行動值達至 100% 時<br>⇒ 攻擊力額外 1.5 倍',
+        'description': `
+		隊伍中只有機械族或人類成員時：
+		I. 全隊攻擊力 4.5 倍
+		II. 減少 40% 所受傷害
+		III. 消除水強化符石時
+		⇒ 機械族成員的行動值提升 5%
+		IV. 所有機械族成員的行動值達至 100% 時
+		⇒ 攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12960,7 +16236,10 @@ const leader_skill_data = [
     },
     {
         'name': '靈氣迫人 ‧ 火',
-        'description': 'I. 人類攻擊力 3.5 倍<br>II. 火符石兼具 25% 心符石效果 (可疊加)',
+        'description': `
+		I. 人類攻擊力 3.5 倍
+		II. 火符石兼具 25% 心符石效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -12977,7 +16256,13 @@ const leader_skill_data = [
     },
     {
         'name': '金液流動',
-        'description': '隊伍中只有機械族成員時：<br>I. 全隊生命力、攻擊力及回復力 2 倍<br>II. 消除 ≥3 種符石時<br>⇒ 全隊攻擊力額外 3 倍<br>III. 心符石兼具 50% 所有屬性符石效果 (可疊加)',
+        'description': `
+		隊伍中只有機械族成員時：
+		I. 全隊生命力、攻擊力及回復力 2 倍
+		II. 消除 ≥3 種符石時
+		⇒ 全隊攻擊力額外 3 倍
+		III. 心符石兼具 50% 所有屬性符石效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': ['增血', '增攻', '增回'],
@@ -12999,7 +16284,10 @@ const leader_skill_data = [
     },
     {
         'name': '靈氣迫人 ‧ 光',
-        'description': 'I. 人類攻擊力 3.5 倍<br>II. 光符石兼具 25% 心符石效果 (可疊加)',
+        'description': `
+		I. 人類攻擊力 3.5 倍
+		II. 光符石兼具 25% 心符石效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -13016,7 +16304,17 @@ const leader_skill_data = [
     },
     {
         'name': '幾何結界',
-        'description': '隊伍中只有機械族成員時：<br>I. 全隊攻擊力 5 倍<br>II. 必然延長移動符石時間 1 秒 <br>III. 自身的攻擊力減至 0 並將原有的攻擊力基值的 2 倍<br>⇒ 分別加入其他成員的攻擊力基值<br>IV. 若使用相同的隊長及戰友<br>⇒ 則分別加入所有隊員的攻擊力基值<br>V. 於自身直行首批消除 1 組 ≥4 粒符石時<br>⇒ 身旁成員的主動技能 CD 減少 1',
+        'description': `
+		隊伍中只有機械族成員時：
+		I. 全隊攻擊力 5 倍
+		II. 必然延長移動符石時間 1 秒 
+		III. 自身的攻擊力減至 0 並將原有的攻擊力基值的 2 倍
+		⇒ 分別加入其他成員的攻擊力基值
+		IV. 若使用相同的隊長及戰友
+		⇒ 則分別加入所有隊員的攻擊力基值
+		V. 於自身直行首批消除 1 組 ≥4 粒符石時
+		⇒ 身旁成員的主動技能 CD 減少 1
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -13048,7 +16346,10 @@ const leader_skill_data = [
     },
     {
         'name': '靈氣迫人 ‧ 水',
-        'description': 'I. 人類攻擊力 3.5 倍<br>II. 水符石兼具 25% 心符石效果 (可疊加)',
+        'description': `
+		I. 人類攻擊力 3.5 倍
+		II. 水符石兼具 25% 心符石效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -13065,7 +16366,12 @@ const leader_skill_data = [
     },
     {
         'name': '機械陣式',
-        'description': '隊伍中有 ≥3 種屬性的機械族成員時<br>I. 全隊攻擊力 3.5 倍<br>II. 所有機械族成員的行動值達至 100% 時<br>⇒ 全隊攻擊力額外 1.5 倍',
+        'description': `
+		隊伍中有 ≥3 種屬性的機械族成員時
+		I. 全隊攻擊力 3.5 倍
+		II. 所有機械族成員的行動值達至 100% 時
+		⇒ 全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -13082,7 +16388,10 @@ const leader_skill_data = [
     },
     {
         'name': '靈氣迫人 ‧ 暗',
-        'description': 'I. 人類攻擊力 3.5 倍<br>II. 暗符石兼具 25% 心符石效果 (可疊加)',
+        'description': `
+		I. 人類攻擊力 3.5 倍
+		II. 暗符石兼具 25% 心符石效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -13099,7 +16408,10 @@ const leader_skill_data = [
     },
     {
         'name': '目空四海',
-        'description': 'I. 全隊攻擊力 5 倍<br>II. 所有成員無視屬性相剋',
+        'description': `
+		I. 全隊攻擊力 5 倍
+		II. 所有成員無視屬性相剋
+		`,
         'tag': [
             {
                 'name': ['增攻', '屬性剋制改變'],
@@ -13111,7 +16423,11 @@ const leader_skill_data = [
     },
     {
         'name': '不滅之械',
-        'description': 'I. 機械族攻擊力 2 倍<br>II. 當前生命力大於 70% 時<br>⇒ 下一次所受傷害不會使你死亡 (同 1 回合只發動 1 次)',
+        'description': `
+		I. 機械族攻擊力 2 倍
+		II. 當前生命力大於 70% 時
+		⇒ 下一次所受傷害不會使你死亡 (同 1 回合只發動 1 次)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -13128,7 +16444,13 @@ const leader_skill_data = [
     },
     {
         'name': '騎士之魂 ‧ 妖',
-        'description': 'I. 妖精類攻擊力及回復力 4.5 倍<br>II. 龍脈儀全滿時<br>⇒ 妖精類攻擊力額外 1.5 倍<br>III. 每首批消除 1 種屬性符石<br>⇒ 於回合結束時隨機將該屬性的其中 2 粒符石添加為妖族符石',
+        'description': `
+		I. 妖精類攻擊力及回復力 4.5 倍
+		II. 龍脈儀全滿時
+		⇒ 妖精類攻擊力額外 1.5 倍
+		III. 每首批消除 1 種屬性符石
+		⇒ 於回合結束時隨機將該屬性的其中 2 粒符石添加為妖族符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -13150,7 +16472,14 @@ const leader_skill_data = [
     },
     {
         'name': '騎士之魂 ‧ 龍',
-        'description': 'I. 龍類攻擊力 5 倍<br>II. 每個龍類增加 500 點回復力<br>III. 龍脈儀全滿時<br>⇒ 龍類攻擊力額外 1.5 倍<br>IV. 每首批消除 1 種屬性符石<br>⇒ 於回合結束時隨機將該屬性的其中 2 粒符石添加為龍族符石',
+        'description': `
+		I. 龍類攻擊力 5 倍
+		II. 每個龍類增加 500 點回復力
+		III. 龍脈儀全滿時
+		⇒ 龍類攻擊力額外 1.5 倍
+		IV. 每首批消除 1 種屬性符石
+		⇒ 於回合結束時隨機將該屬性的其中 2 粒符石添加為龍族符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -13172,7 +16501,13 @@ const leader_skill_data = [
     },
     {
         'name': '騎士之魂 ‧ 魔',
-        'description': 'I. 魔族攻擊力及回復力 4.5 倍<br>II. 龍脈儀全滿時<br>⇒ 魔族攻擊力額外 1.5 倍<br>III. 每首批消除 1 種屬性符石<br>⇒ 於回合結束時隨機將該屬性的其中 2 粒符石轉化為魔族符石',
+        'description': `
+		I. 魔族攻擊力及回復力 4.5 倍
+		II. 龍脈儀全滿時
+		⇒ 魔族攻擊力額外 1.5 倍
+		III. 每首批消除 1 種屬性符石
+		⇒ 於回合結束時隨機將該屬性的其中 2 粒符石轉化為魔族符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -13194,7 +16529,13 @@ const leader_skill_data = [
     },
     {
         'name': '騎士之魂 ‧ 人',
-        'description': 'I. 人類攻擊力及回復力 4.5 倍<br>II. 龍脈儀全滿時<br>⇒ 人類攻擊力額外 1.5 倍<br>III. 每首批消除 1 種屬性符石<br>⇒ 於回合結束時隨機將該屬性的其中 2 粒符石添加為人族符石',
+        'description': `
+		I. 人類攻擊力及回復力 4.5 倍
+		II. 龍脈儀全滿時
+		⇒ 人類攻擊力額外 1.5 倍
+		III. 每首批消除 1 種屬性符石
+		⇒ 於回合結束時隨機將該屬性的其中 2 粒符石添加為人族符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -13216,7 +16557,14 @@ const leader_skill_data = [
     },
     {
         'name': '騎士之魂 ‧ 獸',
-        'description': 'I. 獸類攻擊力 4.5 倍<br>II. 每個獸類成員增加 500 點回復力<br>III. 龍脈儀全滿時<br>⇒ 獸類攻擊力額外 1.5 倍<br>IV. 每首批消除 1 種屬性符石<br>⇒ 於回合結束時隨機將該屬性的其中 2 粒符石添加為獸族符石',
+        'description': `
+		I. 獸類攻擊力 4.5 倍
+		II. 每個獸類成員增加 500 點回復力
+		III. 龍脈儀全滿時
+		⇒ 獸類攻擊力額外 1.5 倍
+		IV. 每首批消除 1 種屬性符石
+		⇒ 於回合結束時隨機將該屬性的其中 2 粒符石添加為獸族符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -13238,7 +16586,11 @@ const leader_skill_data = [
     },
     {
         'name': '流雲奧義 ‧ 人',
-        'description': 'I. 水屬性攻擊力 4 倍<br>II. 人類攻擊力 1.5 倍<br>III. 水屬性人類攻擊力則 6 倍',
+        'description': `
+		I. 水屬性攻擊力 4 倍
+		II. 人類攻擊力 1.5 倍
+		III. 水屬性人類攻擊力則 6 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -13250,7 +16602,11 @@ const leader_skill_data = [
     },
     {
         'name': '赤燄奧義 ‧ 人',
-        'description': 'I. 火屬性攻擊力 4 倍<br>II. 人類攻擊力 1.5 倍<br>III. 火屬性人類攻擊力則 6 倍',
+        'description': `
+		I. 火屬性攻擊力 4 倍
+		II. 人類攻擊力 1.5 倍
+		III. 火屬性人類攻擊力則 6 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -13262,7 +16618,11 @@ const leader_skill_data = [
     },
     {
         'name': '藤棘奧義 ‧ 人',
-        'description': 'I. 木屬性攻擊力 4 倍<br>II. 人類攻擊力 1.5 倍<br>III. 木屬性人類攻擊力則 6 倍',
+        'description': `
+		I. 木屬性攻擊力 4 倍
+		II. 人類攻擊力 1.5 倍
+		III. 木屬性人類攻擊力則 6 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -13274,7 +16634,11 @@ const leader_skill_data = [
     },
     {
         'name': '電殛奧義 ‧ 人',
-        'description': 'I. 光屬性攻擊力 4 倍<br>II. 人類攻擊力 1.5 倍<br>III. 光屬性人類攻擊力則 6 倍',
+        'description': `
+		I. 光屬性攻擊力 4 倍
+		II. 人類攻擊力 1.5 倍
+		III. 光屬性人類攻擊力則 6 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -13286,7 +16650,11 @@ const leader_skill_data = [
     },
     {
         'name': '魅影奧義 ‧ 人',
-        'description': 'I. 暗屬性攻擊力 4 倍<br>II. 人類攻擊力 1.5 倍<br>III. 暗屬性人類攻擊力則 6 倍',
+        'description': `
+		I. 暗屬性攻擊力 4 倍
+		II. 人類攻擊力 1.5 倍
+		III. 暗屬性人類攻擊力則 6 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -13298,7 +16666,11 @@ const leader_skill_data = [
     },
     {
         'name': '魔魅合擊',
-        'description': 'I. 妖精類及魔族攻擊力 4.5 倍<br>II. 消除妖族符石或魔族符石時<br>⇒ 妖精類及魔族成員追打自身攻擊 1 次',
+        'description': `
+		I. 妖精類及魔族攻擊力 4.5 倍
+		II. 消除妖族符石或魔族符石時
+		⇒ 妖精類及魔族成員追打自身攻擊 1 次
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -13315,7 +16687,12 @@ const leader_skill_data = [
     },
     {
         'name': '魔念之罪',
-        'description': '隊伍中只有魔族或妖精類成員時：<br>I. 全隊攻擊力 6 倍及生命力 2 倍<br>II. 所有屬性符石兼具 25% 其他屬性符石效果 (可疊加)<br>III. 每回合回復相等於隊伍中所有「魔性原罪 · 夏娃」攻擊力基值總和的生命力 (需消除符石)',
+        'description': `
+		隊伍中只有魔族或妖精類成員時：
+		I. 全隊攻擊力 6 倍及生命力 2 倍
+		II. 所有屬性符石兼具 25% 其他屬性符石效果 (可疊加)
+		III. 每回合回復相等於隊伍中所有「魔性原罪 · 夏娃」攻擊力基值總和的生命力 (需消除符石)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -13332,7 +16709,12 @@ const leader_skill_data = [
     },
     {
         'name': '魔曌之勢',
-        'description': '隊伍中只有魔族成員時：<br>I. 魔族攻擊力 4 倍，光屬性魔族攻擊力則 5 倍<br>II. 消除魔族符石時<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		隊伍中只有魔族成員時：
+		I. 魔族攻擊力 4 倍，光屬性魔族攻擊力則 5 倍
+		II. 消除魔族符石時
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -13349,7 +16731,17 @@ const leader_skill_data = [
     },
     {
         'name': '魔曌之勢 ‧ 強',
-        'description': '隊伍中只有魔族成員時：<br>I. 魔族攻擊力 4 倍，光屬性魔族攻擊力則 5 倍<br>II. 消除魔族符石時<br>⇒ 全隊攻擊力額外 2 倍<br>III. 若轉珠結束時放手的符石為屬性符石：<br>⓵ 該種屬性符石兼具其他符石效果<br>⓶ 移動符石時觸碰的首 5 粒符石<br>⇒ 轉化為該屬性魔族強化符石<br>⓷ 減少 90% 所受傷害，受到 5 次攻擊後變為減少 45% 所受傷害',
+        'description': `
+		隊伍中只有魔族成員時：
+		I. 魔族攻擊力 4 倍，光屬性魔族攻擊力則 5 倍
+		II. 消除魔族符石時
+		⇒ 全隊攻擊力額外 2 倍
+		III. 若轉珠結束時放手的符石為屬性符石：
+		⓵ 該種屬性符石兼具其他符石效果
+		⓶ 移動符石時觸碰的首 5 粒符石
+		⇒ 轉化為該屬性魔族強化符石
+		⓷ 減少 90% 所受傷害，受到 5 次攻擊後變為減少 45% 所受傷害
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -13372,7 +16764,13 @@ const leader_skill_data = [
     },
     {
         'name': '傾世魅顏',
-        'description': '隊伍中只有魔族或妖精類成員時：<br>I. 全隊生命力、攻擊力及回復力 1.5 倍<br>II. 每首批消除 1 個角落的符石時<br>⇒ 全隊攻擊力提升 1.25 倍<br>⇒ 4 個角落可達至最大 5 倍',
+        'description': `
+		隊伍中只有魔族或妖精類成員時：
+		I. 全隊生命力、攻擊力及回復力 1.5 倍
+		II. 每首批消除 1 個角落的符石時
+		⇒ 全隊攻擊力提升 1.25 倍
+		⇒ 4 個角落可達至最大 5 倍
+		`,
         'tag': [
             {
                 'name': ['增血', '增攻', '增回'],
@@ -13389,7 +16787,9 @@ const leader_skill_data = [
     },
     {
         'name': '人類集權',
-        'description': '隊伍中有 ≥3 種屬性成員時：人類攻擊力 4 倍',
+        'description': `
+		隊伍中有 ≥3 種屬性成員時：人類攻擊力 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -13401,7 +16801,14 @@ const leader_skill_data = [
     },
     {
         'name': '心之連動 ‧ 強',
-        'description': 'I. 每首批消除 1 組符石<br>⇒ 將產生 1 粒心符石<br>II. 每累計消除 3 粒心符石<br>⇒ 將產生 1 粒心強化符石<br>III. 消除 ≥8 連擊 (Combo)<br>⇒ 全隊攻擊力 1.5 倍',
+        'description': `
+		I. 每首批消除 1 組符石
+		⇒ 將產生 1 粒心符石
+		II. 每累計消除 3 粒心符石
+		⇒ 將產生 1 粒心強化符石
+		III. 消除 ≥8 連擊 (Combo)
+		⇒ 全隊攻擊力 1.5 倍
+		`,
         'tag': [
             {
                 'name': '強制掉心',
@@ -13418,7 +16825,16 @@ const leader_skill_data = [
     },
     {
         'name': '稀世力量',
-        'description': 'I. 水屬性及人類攻擊力 6.5 倍<br>II. 必然延長移動符石時間 1 秒<br>III. 水、火、木符石兼具<br>⇒ 50% 心符石效果<br>IV. 同時消除水、火、木符石其中 2 種符石時<br>⇒ 水屬性及人類攻擊力額外 3 倍<br>V. 同時消除水、火、木符石時<br>⇒ 個人追打水、火、木屬性攻擊各 1 次',
+        'description': `
+		I. 水屬性及人類攻擊力 6.5 倍
+		II. 必然延長移動符石時間 1 秒
+		III. 水、火、木符石兼具
+		⇒ 50% 心符石效果
+		IV. 同時消除水、火、木符石其中 2 種符石時
+		⇒ 水屬性及人類攻擊力額外 3 倍
+		V. 同時消除水、火、木符石時
+		⇒ 個人追打水、火、木屬性攻擊各 1 次
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -13445,7 +16861,12 @@ const leader_skill_data = [
     },
     {
         'name': '浪屠殺',
-        'description': 'I. 水屬性攻擊力 5.25 倍，生命力及回復力 1.3 倍<br>II. 每消除 1 組符石均有 50% 機率<br>⇒ 額外計算多 1 連擊 (Ex. Combo)<br>⇒ 最多可額外增加 15 連擊 (Ex. Combo) (機率及連擊數目可以疊加)',
+        'description': `
+		I. 水屬性攻擊力 5.25 倍，生命力及回復力 1.3 倍
+		II. 每消除 1 組符石均有 50% 機率
+		⇒ 額外計算多 1 連擊 (Ex. Combo)
+		⇒ 最多可額外增加 15 連擊 (Ex. Combo) (機率及連擊數目可以疊加)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -13462,7 +16883,14 @@ const leader_skill_data = [
     },
     {
         'name': '浪屠殺 ‧ 裂心',
-        'description': 'I. 水屬性攻擊力 5.25 倍，生命力及回復力 1.3 倍<br>II. 每消除 1 組符石均有 50% 機率<br>⇒ 額外計算多 1 連擊 (Ex. Combo)<br>⇒ 最多可額外增加 15 連擊 (Ex. Combo) (機率及連擊數目可以疊加)<br>III. 於每回合移動符石後<br>⇒ 引爆所有心符石，直至場上沒有心符石',
+        'description': `
+		I. 水屬性攻擊力 5.25 倍，生命力及回復力 1.3 倍
+		II. 每消除 1 組符石均有 50% 機率
+		⇒ 額外計算多 1 連擊 (Ex. Combo)
+		⇒ 最多可額外增加 15 連擊 (Ex. Combo) (機率及連擊數目可以疊加)
+		III. 於每回合移動符石後
+		⇒ 引爆所有心符石，直至場上沒有心符石
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -13485,7 +16913,12 @@ const leader_skill_data = [
     },
     {
         'name': '透幻烈燄',
-        'description': 'I. 火屬性攻擊力 4.8 倍，生命力及回復力 1.3 倍<br>II. 消除符石的種類愈多，火屬性攻擊力額外提升愈多：<br>⇒ 消除 2 種 1.5 倍<br>⇒ 消除 4 種可達至最大 2.1 倍',
+        'description': `
+		I. 火屬性攻擊力 4.8 倍，生命力及回復力 1.3 倍
+		II. 消除符石的種類愈多，火屬性攻擊力額外提升愈多：
+		⇒ 消除 2 種 1.5 倍
+		⇒ 消除 4 種可達至最大 2.1 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -13502,7 +16935,14 @@ const leader_skill_data = [
     },
     {
         'name': '透幻烈燄 ‧ 裂心',
-        'description': 'I. 火屬性攻擊力 4.8 倍，生命力及回復力 1.3 倍<br>II. 消除符石的種類愈多，火屬性攻擊力額外提升愈多：<br>⇒ 消除 2 種 1.5 倍<br>⇒ 消除 4 種可達至最大 2.1 倍<br>III. 於每回合移動符石後<br>⇒ 引爆所有心符石，直至場上沒有心符石',
+        'description': `
+		I. 火屬性攻擊力 4.8 倍，生命力及回復力 1.3 倍
+		II. 消除符石的種類愈多，火屬性攻擊力額外提升愈多：
+		⇒ 消除 2 種 1.5 倍
+		⇒ 消除 4 種可達至最大 2.1 倍
+		III. 於每回合移動符石後
+		⇒ 引爆所有心符石，直至場上沒有心符石
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -13525,7 +16965,9 @@ const leader_skill_data = [
     },
     {
         'name': '大地之極權',
-        'description': '木屬性攻擊力 4.5 倍及回復力 2 倍',
+        'description': `
+		木屬性攻擊力 4.5 倍及回復力 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -13537,7 +16979,9 @@ const leader_skill_data = [
     },
     {
         'name': '元素調勻 ‧ 玄光',
-        'description': '光屬性生命力、攻擊力、回復力 2.5 倍',
+        'description': `
+		光屬性生命力、攻擊力、回復力 2.5 倍
+		`,
         'tag': [
             {
                 'name': ['增血', '增攻', '增回'],
@@ -13549,7 +16993,11 @@ const leader_skill_data = [
     },
     {
         'name': '血祭斷魂劍',
-        'description': 'I. 暗屬性攻擊力 6 倍、生命力及回復力 1.3 倍<br>II. 消除 ≥3 種符石及自身發動攻擊時<br>⇒ 個人追打自身攻擊力 5 倍的暗屬性攻擊 1 次',
+        'description': `
+		I. 暗屬性攻擊力 6 倍、生命力及回復力 1.3 倍
+		II. 消除 ≥3 種符石及自身發動攻擊時
+		⇒ 個人追打自身攻擊力 5 倍的暗屬性攻擊 1 次
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -13566,7 +17014,13 @@ const leader_skill_data = [
     },
     {
         'name': '血祭斷魂劍 ‧ 裂心',
-        'description': 'I. 暗屬性攻擊力 6 倍、生命力及回復力 1.3 倍<br>II. 消除 ≥3 種符石及自身發動攻擊時<br>⇒ 個人追打自身攻擊力 5 倍的暗屬性攻擊 1 次<br>III. 於每回合移動符石後<br>⇒ 引爆所有心符石，直至場上沒有心符石',
+        'description': `
+		I. 暗屬性攻擊力 6 倍、生命力及回復力 1.3 倍
+		II. 消除 ≥3 種符石及自身發動攻擊時
+		⇒ 個人追打自身攻擊力 5 倍的暗屬性攻擊 1 次
+		III. 於每回合移動符石後
+		⇒ 引爆所有心符石，直至場上沒有心符石
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -13589,7 +17043,11 @@ const leader_skill_data = [
     },
     {
         'name': '妖靈鞭 ‧ 浪濤',
-        'description': '隊伍中只有水屬性妖精類成員時：<br>I. 全隊攻擊力 5 倍、生命力及回復力 1.5 倍<br>II. 將每個成員自身回復力的 2 倍各自加入自身攻擊力',
+        'description': `
+		隊伍中只有水屬性妖精類成員時：
+		I. 全隊攻擊力 5 倍、生命力及回復力 1.5 倍
+		II. 將每個成員自身回復力的 2 倍各自加入自身攻擊力
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -13601,7 +17059,12 @@ const leader_skill_data = [
     },
     {
         'name': '權欲狂森 ‧ 魔',
-        'description': 'I. 木屬性攻擊力 3.5 倍<br>⇒ 木屬性魔族攻擊力則 5 倍<br>II. 首批消除場上所有木符石時<br>⇒ 木屬性攻擊力額外 1.5 倍',
+        'description': `
+		I. 木屬性攻擊力 3.5 倍
+		⇒ 木屬性魔族攻擊力則 5 倍
+		II. 首批消除場上所有木符石時
+		⇒ 木屬性攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -13618,7 +17081,12 @@ const leader_skill_data = [
     },
     {
         'name': '權欲玄環 ‧ 人',
-        'description': 'I. 光屬性攻擊力 3.5 倍<br>II. 光屬性人類則 5 倍<br>III. 首批消除所有光符石時<br>⇒ 光屬性攻擊力額外 1.5 倍',
+        'description': `
+		I. 光屬性攻擊力 3.5 倍
+		II. 光屬性人類則 5 倍
+		III. 首批消除所有光符石時
+		⇒ 光屬性攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -13635,7 +17103,11 @@ const leader_skill_data = [
     },
     {
         'name': '滄浪之水',
-        'description': 'I. 消除水符石的組數愈多時<br>⇒ 全隊攻擊力愈高<br>⇒ 消除 4 組可達至最大 6 倍',
+        'description': `
+		I. 消除水符石的組數愈多時
+		⇒ 全隊攻擊力愈高
+		⇒ 消除 4 組可達至最大 6 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -13647,7 +17119,16 @@ const leader_skill_data = [
     },
     {
         'name': '歸元結念 ‧ 強',
-        'description': 'I. 全隊攻擊力 5 倍<br>II. 龍類生命力 1.5 倍<br>III. 魔族攻擊力額外 1.5 倍<br>IV. 妖精類回復力 1.5 倍<br>V. 每個獸類成員延長移動符石時間 1 秒<br>VI. 進入關卡後，機械族行動值提升 25%<br>VII. 當隊伍中有 ≥4 種族成員時<br>⇒ 所有符石兼具 50% 其他屬性符石效果',
+        'description': `
+		I. 全隊攻擊力 5 倍
+		II. 龍類生命力 1.5 倍
+		III. 魔族攻擊力額外 1.5 倍
+		IV. 妖精類回復力 1.5 倍
+		V. 每個獸類成員延長移動符石時間 1 秒
+		VI. 進入關卡後，機械族行動值提升 25%
+		VII. 當隊伍中有 ≥4 種族成員時
+		⇒ 所有符石兼具 50% 其他屬性符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -13684,7 +17165,12 @@ const leader_skill_data = [
     },
     {
         'name': '虹女之燄',
-        'description': 'I. 全隊攻擊力 3.2 倍<br>II. 隊伍中火屬性成員愈多<br>⇒ 火屬性攻擊力及回復力額外提升愈多<br>⇒ 6 個可達至最大 2.8 倍',
+        'description': `
+		I. 全隊攻擊力 3.2 倍
+		II. 隊伍中火屬性成員愈多
+		⇒ 火屬性攻擊力及回復力額外提升愈多
+		⇒ 6 個可達至最大 2.8 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -13701,7 +17187,12 @@ const leader_skill_data = [
     },
     {
         'name': '守護之念 ‧ 堅',
-        'description': 'I. 全隊攻擊力 5 倍<br>II. 減少 30% 所受傷害<br>III. 消除心符石時<br>⇒ 回復 5,000 點生命力',
+        'description': `
+		I. 全隊攻擊力 5 倍
+		II. 減少 30% 所受傷害
+		III. 消除心符石時
+		⇒ 回復 5,000 點生命力
+		`,
         'tag': [
             {
                 'name': ['增攻', '減傷'],
@@ -13718,7 +17209,17 @@ const leader_skill_data = [
     },
     {
         'name': '絕對零度 ‧ 冰',
-        'description': '隊中只有人類成員時：<br>I. 全隊攻擊力 3.5 倍、生命力及回復力 1.2 倍<br>II. 延長移動符石時間 2 秒<br>III. 連擊 (Combo) 愈多<br>⇒ 全隊攻擊力額外提升愈多：<br>⓵ 1 Combo 3 倍<br>⓶ 6 Combo 可達至最大 5.5 倍<br>IV. 水及心符石互相兼具 50% 效果<br>V.【聖鬥士】生命力、攻擊力及回復力 1.2 倍',
+        'description': `
+		隊中只有人類成員時：
+		I. 全隊攻擊力 3.5 倍、生命力及回復力 1.2 倍
+		II. 延長移動符石時間 2 秒
+		III. 連擊 (Combo) 愈多
+		⇒ 全隊攻擊力額外提升愈多：
+		⓵ 1 Combo 3 倍
+		⓶ 6 Combo 可達至最大 5.5 倍
+		IV. 水及心符石互相兼具 50% 效果
+		V.【聖鬥士】生命力、攻擊力及回復力 1.2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -13740,7 +17241,17 @@ const leader_skill_data = [
     },
     {
         'name': '絕對零度 ‧ 煉冰',
-        'description': '隊中只有人類成員時：<br>I. 全隊攻擊力 3.5 倍、生命力及回復力 1.2 倍<br>II. 延長移動符石時間 2 秒<br>III. 連擊 (Combo) 愈多<br>⇒ 全隊攻擊力額外提升愈多：<br>⓵ 1 Combo 3 倍<br>⓶ 8 Combo 可達至最大 6.5 倍<br>IV. 水及心符石互相兼具 50% 效果<br>V.【聖鬥士】生命力、攻擊力及回復力 1.2 倍',
+        'description': `
+		隊中只有人類成員時：
+		I. 全隊攻擊力 3.5 倍、生命力及回復力 1.2 倍
+		II. 延長移動符石時間 2 秒
+		III. 連擊 (Combo) 愈多
+		⇒ 全隊攻擊力額外提升愈多：
+		⓵ 1 Combo 3 倍
+		⓶ 8 Combo 可達至最大 6.5 倍
+		IV. 水及心符石互相兼具 50% 效果
+		V.【聖鬥士】生命力、攻擊力及回復力 1.2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -13762,7 +17273,12 @@ const leader_skill_data = [
     },
     {
         'name': '聖鬥士之心',
-        'description': '隊伍中只有人類成員時：<br>I. 全隊攻擊力 5 倍<br>II. 隊伍中有 ≥3 個「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 時<br>⇒ 心符石兼具 50% 所有屬性符石效果 (可疊加)',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 全隊攻擊力 5 倍
+		II. 隊伍中有 ≥3 個「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 時
+		⇒ 心符石兼具 50% 所有屬性符石效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -13779,7 +17295,16 @@ const leader_skill_data = [
     },
     {
         'name': '天龍之鱗',
-        'description': '隊中只有人類成員時：<br>I. 全隊攻擊力 7 倍、生命力及回復力 1.2 倍<br>II. 延長移動符石時間 2 秒<br>III. 以左下角的符石開始轉珠時<br>⇒ 全隊攻擊力及回復力額外 1.8 倍<br>IV. 以右下角的符石開始轉珠時<br>⇒ 移動符石時觸碰的首 5 粒符石轉化為木強化符石<br>V.【聖鬥士】生命力、攻擊力及回復力 1.2 倍',
+        'description': `
+		隊中只有人類成員時：
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.2 倍
+		II. 延長移動符石時間 2 秒
+		III. 以左下角的符石開始轉珠時
+		⇒ 全隊攻擊力及回復力額外 1.8 倍
+		IV. 以右下角的符石開始轉珠時
+		⇒ 移動符石時觸碰的首 5 粒符石轉化為木強化符石
+		V.【聖鬥士】生命力、攻擊力及回復力 1.2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -13806,7 +17331,16 @@ const leader_skill_data = [
     },
     {
         'name': '天龍之鱗 ‧ 強',
-        'description': '隊中只有人類成員時：<br>I. 全隊攻擊力 7 倍、生命力及回復力 1.2 倍<br>II. 延長移動符石時間 2 秒<br>III. 以左下角的符石開始轉珠時<br>⇒ 全隊攻擊力及回復力額外 2 倍<br>IV. 以右下角的符石開始轉珠時<br>⇒ 移動符石時觸碰的首 5 粒符石轉化為木人族強化符石<br>V.【聖鬥士】生命力、攻擊力及回復力 1.2 倍',
+        'description': `
+		隊中只有人類成員時：
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.2 倍
+		II. 延長移動符石時間 2 秒
+		III. 以左下角的符石開始轉珠時
+		⇒ 全隊攻擊力及回復力額外 2 倍
+		IV. 以右下角的符石開始轉珠時
+		⇒ 移動符石時觸碰的首 5 粒符石轉化為木人族強化符石
+		V.【聖鬥士】生命力、攻擊力及回復力 1.2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -13833,7 +17367,16 @@ const leader_skill_data = [
     },
     {
         'name': '凝聚 ‧ 聖鬥士的力量',
-        'description': '隊中只有人類成員時：<br>I. 全隊生命力、攻擊力及回復力 1.5 倍<br>II. 必然延長移動符石時間 2 秒<br>III. 消除 1 組符石的數目愈多<br>⇒ 全隊攻擊力提升愈多：<br>⓵ 消除 1 組 3 粒可達 6 倍<br>⓶ 消除 1 組 6 粒可達至最大 12 倍<br>IV.【聖鬥士】生命力、攻擊力、回復力 1.2 倍',
+        'description': `
+		隊中只有人類成員時：
+		I. 全隊生命力、攻擊力及回復力 1.5 倍
+		II. 必然延長移動符石時間 2 秒
+		III. 消除 1 組符石的數目愈多
+		⇒ 全隊攻擊力提升愈多：
+		⓵ 消除 1 組 3 粒可達 6 倍
+		⓶ 消除 1 組 6 粒可達至最大 12 倍
+		IV.【聖鬥士】生命力、攻擊力、回復力 1.2 倍
+		`,
         'tag': [
             {
                 'name': ['增血', '增攻', '增回'],
@@ -13855,7 +17398,12 @@ const leader_skill_data = [
     },
     {
         'name': '聖鬥士之志',
-        'description': '隊伍中只有人類成員時：<br>I. 全隊攻擊力 4 倍<br>II. 隊伍中有 ≥3 個「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 時<br>⇒ 全隊攻擊力及回復力額外 1.5 倍',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 全隊攻擊力 4 倍
+		II. 隊伍中有 ≥3 個「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 時
+		⇒ 全隊攻擊力及回復力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -13872,7 +17420,9 @@ const leader_skill_data = [
     },
     {
         'name': '聖鬥士之喚',
-        'description': '「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的生命力、攻擊力、回復力 2.5 倍',
+        'description': `
+		「聖鬥士星矢」合作角色 (不包括「雅典娜 ‧ 城戶沙織」) 的生命力、攻擊力、回復力 2.5 倍
+		`,
         'tag': [
             {
                 'name': ['增血', '增攻', '增回'],
@@ -13884,7 +17434,14 @@ const leader_skill_data = [
     },
     {
         'name': '乾坤太極陣',
-        'description': '隊伍中只有神族或獸類成員時：<br>I. 全隊攻擊力 4.5 倍、生命力及回復力 1.4 倍<br>II. 隊伍中有 ≥3 種屬性成員時<br>⇒ 全隊攻擊力額外 2 倍<br>III. 消除神族符石時<br>⇒ 神族及獸類攻擊力額外 1.5 倍',
+        'description': `
+		隊伍中只有神族或獸類成員時：
+		I. 全隊攻擊力 4.5 倍、生命力及回復力 1.4 倍
+		II. 隊伍中有 ≥3 種屬性成員時
+		⇒ 全隊攻擊力額外 2 倍
+		III. 消除神族符石時
+		⇒ 神族及獸類攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -13906,7 +17463,14 @@ const leader_skill_data = [
     },
     {
         'name': '補天煉石',
-        'description': '隊伍中只有神族或獸類成員時：<br>I. 全隊攻擊力 6 倍及回復力 2 倍<br>II. 隊中每有 1 個 6 星「上古諸神」系列角色<br>⇒ 必然延長移動符石時間 1 秒<br>III. 消除神族符石時<br>⇒ 神族及獸類攻擊力額外 2 倍',
+        'description': `
+		隊伍中只有神族或獸類成員時：
+		I. 全隊攻擊力 6 倍及回復力 2 倍
+		II. 隊中每有 1 個 6 星「上古諸神」系列角色
+		⇒ 必然延長移動符石時間 1 秒
+		III. 消除神族符石時
+		⇒ 神族及獸類攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -13928,7 +17492,12 @@ const leader_skill_data = [
     },
     {
         'name': '煞神之罰',
-        'description': '隊伍中只有神族或獸類成員時：<br>I. 全隊攻擊力 4.5 倍及生命力 1.6 倍<br>II. 消除 ≥5 粒神族符石時<br>⇒ 神族及獸類攻擊力額外 2 倍',
+        'description': `
+		隊伍中只有神族或獸類成員時：
+		I. 全隊攻擊力 4.5 倍及生命力 1.6 倍
+		II. 消除 ≥5 粒神族符石時
+		⇒ 神族及獸類攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -13945,7 +17514,11 @@ const leader_skill_data = [
     },
     {
         'name': '神之指引',
-        'description': 'I. 神族攻擊力 2.5 倍<br>II. 隊伍中有 3 種或以上屬性成員時<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		I. 神族攻擊力 2.5 倍
+		II. 隊伍中有 3 種或以上屬性成員時
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -13962,7 +17535,14 @@ const leader_skill_data = [
     },
     {
         'name': '元素之核',
-        'description': '隊中只有獸類成員時：<br>I. 全隊攻擊力 8 倍、生命力及回復力 1.5 倍<br>II. 所有符石兼具<br>⇒ 50% 其他符石效果<br>III. 消除獸族符石<br>⇒ 全隊攻擊力額外 2.5 倍',
+        'description': `
+		隊中只有獸類成員時：
+		I. 全隊攻擊力 8 倍、生命力及回復力 1.5 倍
+		II. 所有符石兼具
+		⇒ 50% 其他符石效果
+		III. 消除獸族符石
+		⇒ 全隊攻擊力額外 2.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -13984,7 +17564,16 @@ const leader_skill_data = [
     },
     {
         'name': '影流拳法',
-        'description': '隊伍中只有神族成員時：<br>I. 水屬性及暗屬性攻擊力 6 倍<br>II. 每消除 1 組 4 粒或以上符石時<br>⇒ 水屬性成員直行首批掉落 1 粒暗神族符石 (最多 2 粒)<br>⇒ 暗屬性成員直行首批掉落 1 粒水神族符石 (最多 2 粒)<br>*  其後部分掉落的符石會順序排列<br>III. 同時消除水及暗符石時<br>⇒ 減少 20% 所受傷害',
+        'description': `
+		隊伍中只有神族成員時：
+		I. 水屬性及暗屬性攻擊力 6 倍
+		II. 每消除 1 組 4 粒或以上符石時
+		⇒ 水屬性成員直行首批掉落 1 粒暗神族符石 (最多 2 粒)
+		⇒ 暗屬性成員直行首批掉落 1 粒水神族符石 (最多 2 粒)
+		*  其後部分掉落的符石會順序排列
+		III. 同時消除水及暗符石時
+		⇒ 減少 20% 所受傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14006,7 +17595,16 @@ const leader_skill_data = [
     },
     {
         'name': '影流拳法 ‧ 強',
-        'description': '隊伍中只有神族成員時：<br>I. 水屬性及暗屬性攻擊力 6 倍<br>II. 每消除 1 組 4 粒或以上符石時<br>⇒ 水屬性成員直行首批掉落 1 粒暗神族強化符石 (最多 2 粒)<br>⇒ 暗屬性成員直行首批掉落 1 粒水神族強化符石 (最多 2 粒)<br>*  其後部分掉落的符石會順序排列<br>III. 同時消除水及暗符石時<br>⇒ 減少 20% 所受傷害',
+        'description': `
+		隊伍中只有神族成員時：
+		I. 水屬性及暗屬性攻擊力 6 倍
+		II. 每消除 1 組 4 粒或以上符石時
+		⇒ 水屬性成員直行首批掉落 1 粒暗神族強化符石 (最多 2 粒)
+		⇒ 暗屬性成員直行首批掉落 1 粒水神族強化符石 (最多 2 粒)
+		*  其後部分掉落的符石會順序排列
+		III. 同時消除水及暗符石時
+		⇒ 減少 20% 所受傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14028,7 +17626,12 @@ const leader_skill_data = [
     },
     {
         'name': '守護 ‧ 集結',
-        'description': 'I. 神族攻擊力 4 倍<br>II. 隊伍中有 3 種或以上屬性成員時<br>⇒ 神族攻擊力額外 2 倍<br>III. 隊伍成員屬性對「侵略者」的攻擊力 2.5 倍',
+        'description': `
+		I. 神族攻擊力 4 倍
+		II. 隊伍中有 3 種或以上屬性成員時
+		⇒ 神族攻擊力額外 2 倍
+		III. 隊伍成員屬性對「侵略者」的攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14050,7 +17653,10 @@ const leader_skill_data = [
     },
     {
         'name': '地面探查',
-        'description': 'I. 神族攻擊力 3 倍、生命力及回復力 1.5 倍<br>II. 心符石兼具 50% 木符石效果',
+        'description': `
+		I. 神族攻擊力 3 倍、生命力及回復力 1.5 倍
+		II. 心符石兼具 50% 木符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -14067,7 +17673,15 @@ const leader_skill_data = [
     },
     {
         'name': '四態 ‧ 亂舞',
-        'description': '隊伍中只有神族成員時：<br>I. 全隊攻擊力 5 倍<br>II. 水、火、木、光符石互相兼具效果 (可疊加)<br>III. 消除暗或心符石時<br>⇒ 全隊攻擊力額外 1.5 倍<br>⇒ 減少 30% 所受傷害<br>IV. 龍脈儀全滿時，全隊攻擊力額外 1.5 倍',
+        'description': `
+		隊伍中只有神族成員時：
+		I. 全隊攻擊力 5 倍
+		II. 水、火、木、光符石互相兼具效果 (可疊加)
+		III. 消除暗或心符石時
+		⇒ 全隊攻擊力額外 1.5 倍
+		⇒ 減少 30% 所受傷害
+		IV. 龍脈儀全滿時，全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14099,7 +17713,10 @@ const leader_skill_data = [
     },
     {
         'name': '海洋探查',
-        'description': 'I. 神族攻擊力 3 倍、生命力及回復力 1.5 倍<br>II. 心符石兼具 50% 水符石效果',
+        'description': `
+		I. 神族攻擊力 3 倍、生命力及回復力 1.5 倍
+		II. 心符石兼具 50% 水符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -14116,7 +17733,16 @@ const leader_skill_data = [
     },
     {
         'name': '光之銀河',
-        'description': '隊伍中只有神族成員時：<br>I. 光屬性攻擊力 5 倍及回復力 1.5 倍<br>II. 消除 3 至 5 種符石時<br>⇒ 光屬性攻擊力額外 2 倍<br>⇒ 減少 25% 所受傷害<br>III. 消除 6 種符石時<br>⇒ 光屬性攻擊力額外 3 倍<br>⇒ 減少 37.5% 所受傷害',
+        'description': `
+		隊伍中只有神族成員時：
+		I. 光屬性攻擊力 5 倍及回復力 1.5 倍
+		II. 消除 3 至 5 種符石時
+		⇒ 光屬性攻擊力額外 2 倍
+		⇒ 減少 25% 所受傷害
+		III. 消除 6 種符石時
+		⇒ 光屬性攻擊力額外 3 倍
+		⇒ 減少 37.5% 所受傷害
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -14138,7 +17764,14 @@ const leader_skill_data = [
     },
     {
         'name': '高熱 ‧ 大噴火',
-        'description': '隊伍中只有火屬性獸類成員時：<br>I. 全隊攻擊力 5.5 倍<br>II. 每個成員增加 300 點回復力<br>III. 每消除 1 組 5 粒或以上符石時<br>⇒ 全隊攻擊力額外提升<br>⇒ 消除 3 組可提升至最大 2.2 倍',
+        'description': `
+		隊伍中只有火屬性獸類成員時：
+		I. 全隊攻擊力 5.5 倍
+		II. 每個成員增加 300 點回復力
+		III. 每消除 1 組 5 粒或以上符石時
+		⇒ 全隊攻擊力額外提升
+		⇒ 消除 3 組可提升至最大 2.2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -14155,7 +17788,12 @@ const leader_skill_data = [
     },
     {
         'name': '瞬結 ‧ 黑暗力量',
-        'description': 'I. 暗屬性及魔族攻擊力 4.5 倍<br>II. 消除暗符石的數量愈多<br>⇒ 暗屬性及魔族攻擊力額外提升愈多<br>⇒ 消除 10 粒可達至最大 2 倍',
+        'description': `
+		I. 暗屬性及魔族攻擊力 4.5 倍
+		II. 消除暗符石的數量愈多
+		⇒ 暗屬性及魔族攻擊力額外提升愈多
+		⇒ 消除 10 粒可達至最大 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14172,7 +17810,15 @@ const leader_skill_data = [
     },
     {
         'name': '力量吸取',
-        'description': 'I. 全隊攻擊力 4 倍<br>II. 消除 1 組 6 粒或以上符石時<br>⇒ 全隊攻擊力額外 3 倍<br>⇒ 減少 15% 所受傷害<br>III. 消除 ≥2 組 6 粒或以上符石時<br>⇒ 全隊攻擊力則額外 6 倍<br>⇒ 減少 50% 所受傷害',
+        'description': `
+		I. 全隊攻擊力 4 倍
+		II. 消除 1 組 6 粒或以上符石時
+		⇒ 全隊攻擊力額外 3 倍
+		⇒ 減少 15% 所受傷害
+		III. 消除 ≥2 組 6 粒或以上符石時
+		⇒ 全隊攻擊力則額外 6 倍
+		⇒ 減少 50% 所受傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14189,7 +17835,9 @@ const leader_skill_data = [
     },
     {
         'name': '浪濤萬鈞之怒 ‧ 獸',
-        'description': '水屬性獸類攻擊力 4 倍',
+        'description': `
+		水屬性獸類攻擊力 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14201,7 +17849,9 @@ const leader_skill_data = [
     },
     {
         'name': '熾燄萬鈞之怒 ‧ 獸',
-        'description': '火屬性獸類攻擊力 4 倍',
+        'description': `
+		火屬性獸類攻擊力 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14213,7 +17863,10 @@ const leader_skill_data = [
     },
     {
         'name': '分身 ‧ 追打',
-        'description': 'I. 獸類攻擊力 4 倍<br>II. 「宇宙忍者 ‧ 巴魯坦星人」追打 1 次',
+        'description': `
+		I. 獸類攻擊力 4 倍
+		II. 「宇宙忍者 ‧ 巴魯坦星人」追打 1 次
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14230,7 +17883,9 @@ const leader_skill_data = [
     },
     {
         'name': '機獸合擊',
-        'description': '獸類及機械族攻擊力 4.5 倍',
+        'description': `
+		獸類及機械族攻擊力 4.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14242,7 +17897,9 @@ const leader_skill_data = [
     },
     {
         'name': '神之本',
-        'description': '神族攻擊力及回復力 3 倍',
+        'description': `
+		神族攻擊力及回復力 3 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -14254,7 +17911,9 @@ const leader_skill_data = [
     },
     {
         'name': '機械人 ‧ 萬鈞之怒',
-        'description': '人類及機械族攻擊力 4 倍',
+        'description': `
+		人類及機械族攻擊力 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14266,7 +17925,13 @@ const leader_skill_data = [
     },
     {
         'name': '夜月之輝',
-        'description': 'I. 神族攻擊力 4.5 倍<br>II. 隊伍中只有光及暗屬性成員時<br>⇒ 全隊攻擊力額外 2.5 倍<br>⇒ 光及心符石兼具暗符石效果<br>⇒ 消除強化符石時，減少 20% 所受傷害',
+        'description': `
+		I. 神族攻擊力 4.5 倍
+		II. 隊伍中只有光及暗屬性成員時
+		⇒ 全隊攻擊力額外 2.5 倍
+		⇒ 光及心符石兼具暗符石效果
+		⇒ 消除強化符石時，減少 20% 所受傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14293,7 +17958,13 @@ const leader_skill_data = [
     },
     {
         'name': '夜月之魅',
-        'description': 'I. 神族攻擊力 4.5 倍<br>II. 隊伍中只有光及暗屬性成員時<br>⇒ 全隊攻擊力額外 2.5 倍<br>⇒ 暗及心符石兼具光符石效果<br>⇒ 消除強化符石時，減少 20% 所受傷害',
+        'description': `
+		I. 神族攻擊力 4.5 倍
+		II. 隊伍中只有光及暗屬性成員時
+		⇒ 全隊攻擊力額外 2.5 倍
+		⇒ 暗及心符石兼具光符石效果
+		⇒ 消除強化符石時，減少 20% 所受傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14320,7 +17991,13 @@ const leader_skill_data = [
     },
     {
         'name': '神族盟約',
-        'description': 'I. 神族攻擊力 4 倍<br>II. 消除 1 組 ≥5 粒符石<br>⇒ 神族攻擊力額外 3 倍<br>III. 消除神族符石時<br>⇒ 全隊攻擊力有 50% 機率額外 1.5 倍 (機率可以疊加)',
+        'description': `
+		I. 神族攻擊力 4 倍
+		II. 消除 1 組 ≥5 粒符石
+		⇒ 神族攻擊力額外 3 倍
+		III. 消除神族符石時
+		⇒ 全隊攻擊力有 50% 機率額外 1.5 倍 (機率可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14342,7 +18019,10 @@ const leader_skill_data = [
     },
     {
         'name': '妖之靈 ‧ 光',
-        'description': 'I. 光屬性及妖精類攻擊力及回復力 3 倍<br>II. 所有屬性符石兼具 25% 心符石效果 (可疊加)',
+        'description': `
+		I. 光屬性及妖精類攻擊力及回復力 3 倍
+		II. 所有屬性符石兼具 25% 心符石效果 (可疊加)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -14359,7 +18039,13 @@ const leader_skill_data = [
     },
     {
         'name': '真龍王之驚濤',
-        'description': 'I. 人類、龍類、神族攻擊力 5 倍<br>II. 每個龍類成員增加 400 點回復力<br>III. 消除種族符石時<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 隊伍成員屬性對人類目標攻擊力 2.5 倍',
+        'description': `
+		I. 人類、龍類、神族攻擊力 5 倍
+		II. 每個龍類成員增加 400 點回復力
+		III. 消除種族符石時
+		⇒ 全隊攻擊力額外 2 倍
+		IV. 隊伍成員屬性對人類目標攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14386,7 +18072,11 @@ const leader_skill_data = [
     },
     {
         'name': '真火煉獄 ‧ 強',
-        'description': 'I. 隊員不會發動攻擊並將隊員攻擊力的 2 倍加入自身攻擊力<br>II. 每回合以自身攻擊力 30 倍<br>⇒ 追打無屬性傷害 1 次，此傷害無視敵方防禦力 (需消除符石)',
+        'description': `
+		I. 隊員不會發動攻擊並將隊員攻擊力的 2 倍加入自身攻擊力
+		II. 每回合以自身攻擊力 30 倍
+		⇒ 追打無屬性傷害 1 次，此傷害無視敵方防禦力 (需消除符石)
+		`,
         'tag': [
             {
                 'name': ['限制成員攻擊', '增攻', '直傷'],
@@ -14398,7 +18088,12 @@ const leader_skill_data = [
     },
     {
         'name': '震山之霸',
-        'description': 'I. 獸類、妖精類、魔族攻擊力 5 倍<br>II. 消除種族符石時<br>⇒ 全隊攻擊力額外 2 倍<br>III. 隊伍成員屬性對妖精類目標攻擊力 2.5 倍',
+        'description': `
+		I. 獸類、妖精類、魔族攻擊力 5 倍
+		II. 消除種族符石時
+		⇒ 全隊攻擊力額外 2 倍
+		III. 隊伍成員屬性對妖精類目標攻擊力 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14420,7 +18115,15 @@ const leader_skill_data = [
     },
     {
         'name': '金鋼護甲',
-        'description': 'I. 全隊回復力 1.5 倍<br>II. 生命力愈高，所受傷害愈低<br>⇒ 最多減少 80%<br>III. 全隊攻擊力 0.75 倍<br>⇒ 生命力愈低，攻擊力愈高，最大 9 倍<br>IV. 生命力愈低<br>⇒ 迴避敵人攻擊的機率愈高，最大 50%',
+        'description': `
+		I. 全隊回復力 1.5 倍
+		II. 生命力愈高，所受傷害愈低
+		⇒ 最多減少 80%
+		III. 全隊攻擊力 0.75 倍
+		⇒ 生命力愈低，攻擊力愈高，最大 9 倍
+		IV. 生命力愈低
+		⇒ 迴避敵人攻擊的機率愈高，最大 50%
+		`,
         'tag': [
             {
                 'name': ['增回', '減傷', '增攻', '迴避'],
@@ -14432,7 +18135,11 @@ const leader_skill_data = [
     },
     {
         'name': '絕色傾城',
-        'description': 'I. 必然延長移動符石時間 2 秒<br>II. 全隊生命力、攻擊力、回復力 1.2 倍<br>III. 連擊 (Combo) 時攻擊力提升 200%',
+        'description': `
+		I. 必然延長移動符石時間 2 秒
+		II. 全隊生命力、攻擊力、回復力 1.2 倍
+		III. 連擊 (Combo) 時攻擊力提升 200%
+		`,
         'tag': [
             {
                 'name': ['延長轉珠時間', '增血', '增攻', '增回'],
@@ -14444,7 +18151,14 @@ const leader_skill_data = [
     },
     {
         'name': '催命的鐘聲',
-        'description': '隊伍中只有機械族成員時<br>I. 全隊攻擊力 3.9 倍<br>II. 每消除 3 組符石時<br>⇒ 必定掉落 3 粒水符石<br>III. 所有機械族成員的行動值達至 100% 時<br>⇒ 自身攻擊力額外 3.9 倍',
+        'description': `
+		隊伍中只有機械族成員時
+		I. 全隊攻擊力 3.9 倍
+		II. 每消除 3 組符石時
+		⇒ 必定掉落 3 粒水符石
+		III. 所有機械族成員的行動值達至 100% 時
+		⇒ 自身攻擊力額外 3.9 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14466,7 +18180,9 @@ const leader_skill_data = [
     },
     {
         'name': '機械 ‧ 萬鈞之怒',
-        'description': '機械族攻擊力 4 倍',
+        'description': `
+		機械族攻擊力 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14478,7 +18194,13 @@ const leader_skill_data = [
     },
     {
         'name': '心的連繫',
-        'description': '隊伍中只有機械族或人類成員時<br>I. 全隊攻擊力 3.9 倍<br>II. 必然延長移動符石時間 1 秒<br>III. 達至 ≥6 連擊 (Combo) 時<br>⇒ 全隊攻擊力額外 3.9 倍',
+        'description': `
+		隊伍中只有機械族或人類成員時
+		I. 全隊攻擊力 3.9 倍
+		II. 必然延長移動符石時間 1 秒
+		III. 達至 ≥6 連擊 (Combo) 時
+		⇒ 全隊攻擊力額外 3.9 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14500,7 +18222,12 @@ const leader_skill_data = [
     },
     {
         'name': '紫蝶之舞',
-        'description': '隊伍中只有機械族成員時<br>I. 全隊攻擊力 6 倍<br>II. 以右方 3 直行的符石開始轉珠時<br>⇒ 全隊攻擊力額外 1.5 倍',
+        'description': `
+		隊伍中只有機械族成員時
+		I. 全隊攻擊力 6 倍
+		II. 以右方 3 直行的符石開始轉珠時
+		⇒ 全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14517,7 +18244,9 @@ const leader_skill_data = [
     },
     {
         'name': '機械狂熱',
-        'description': '機械族攻擊力 4.5 倍',
+        'description': `
+		機械族攻擊力 4.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14529,7 +18258,9 @@ const leader_skill_data = [
     },
     {
         'name': '引擎動力',
-        'description': '機械族攻擊力 3.9 倍',
+        'description': `
+		機械族攻擊力 3.9 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14541,7 +18272,10 @@ const leader_skill_data = [
     },
     {
         'name': '引擎動力 ‧ 水之靈',
-        'description': 'I. 機械族攻擊力 3.9 倍<br>II. 水符石兼具 50% 心符石效果',
+        'description': `
+		I. 機械族攻擊力 3.9 倍
+		II. 水符石兼具 50% 心符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14558,7 +18292,10 @@ const leader_skill_data = [
     },
     {
         'name': '引擎動力 ‧ 心之焰',
-        'description': 'I. 機械族攻擊力 3.9 倍<br>II. 心符石兼具 50% 火符石效果',
+        'description': `
+		I. 機械族攻擊力 3.9 倍
+		II. 心符石兼具 50% 火符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14575,7 +18312,11 @@ const leader_skill_data = [
     },
     {
         'name': '人機動力',
-        'description': 'I. 人類及機械族攻擊力 3.9 倍<br>II. 達成 ≥5 連擊 (Combo) 時<br>⇒ 人類及機械族成員以 39% 攻擊力追打 1 次',
+        'description': `
+		I. 人類及機械族攻擊力 3.9 倍
+		II. 達成 ≥5 連擊 (Combo) 時
+		⇒ 人類及機械族成員以 39% 攻擊力追打 1 次
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14592,7 +18333,11 @@ const leader_skill_data = [
     },
     {
         'name': '機械專家',
-        'description': 'I. 全隊攻擊力 4 倍<br>II. 人類成員對機械族目標攻擊力 3 倍<br>III. 所受機械族傷害減少 30%',
+        'description': `
+		I. 全隊攻擊力 4 倍
+		II. 人類成員對機械族目標攻擊力 3 倍
+		III. 所受機械族傷害減少 30%
+		`,
         'tag': [
             {
                 'name': ['增攻', '減傷'],
@@ -14609,7 +18354,15 @@ const leader_skill_data = [
     },
     {
         'name': '驚世璞玉',
-        'description': 'I. 龍類成員攻擊力 8 倍及生命力 1.8 倍<br>II. 消除龍族符石<br>⇒ 自身攻擊力額外 4 倍<br>III. ≥3 個龍類成員發動攻擊<br>⇒ 敵人所受傷害額外 5 倍<br>IV. 隊伍中只有龍類成員<br>⇒ 木符石兼具隊伍成員屬性符石效果',
+        'description': `
+		I. 龍類成員攻擊力 8 倍及生命力 1.8 倍
+		II. 消除龍族符石
+		⇒ 自身攻擊力額外 4 倍
+		III. ≥3 個龍類成員發動攻擊
+		⇒ 敵人所受傷害額外 5 倍
+		IV. 隊伍中只有龍類成員
+		⇒ 木符石兼具隊伍成員屬性符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -14636,7 +18389,16 @@ const leader_skill_data = [
     },
     {
         'name': '絕世奇玉',
-        'description': 'I. 龍類成員攻擊力 10 倍及生命力 1.8 倍<br>II. 消除龍族符石<br>⇒ 全隊攻擊力額外 2.5 倍<br>III. 首批消除的連擊 (Combo) 數目<br>⇒ 會加入下回合的連擊 (Combo) 數目<br>⇒ 下回合隨機轉化相應粒數的龍族強化符石 (龍族符石以外優先轉換)<br>IV. 隊中只有龍類成員<br>⇒ 所有符石兼具 150% 隊伍成員屬性符石效果',
+        'description': `
+		I. 龍類成員攻擊力 10 倍及生命力 1.8 倍
+		II. 消除龍族符石
+		⇒ 全隊攻擊力額外 2.5 倍
+		III. 首批消除的連擊 (Combo) 數目
+		⇒ 會加入下回合的連擊 (Combo) 數目
+		⇒ 下回合隨機轉化相應粒數的龍族強化符石 (龍族符石以外優先轉換)
+		IV. 隊中只有龍類成員
+		⇒ 所有符石兼具 150% 隊伍成員屬性符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -14663,7 +18425,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔獸 ‧ 萬鈞之怒',
-        'description': '獸類及魔族攻擊力 4 倍',
+        'description': `
+		獸類及魔族攻擊力 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14675,7 +18439,12 @@ const leader_skill_data = [
     },
     {
         'name': '罪戮的罰則',
-        'description': 'I. 妖精類攻擊力 3 倍<br>II. 隊伍受到的傷害提升 2 倍<br>III. 以所受傷害 5 倍對敵方攻擊者<br>⇒ 進行相剋屬性反擊 (此傷害無視「強化突破」敵技)',
+        'description': `
+		I. 妖精類攻擊力 3 倍
+		II. 隊伍受到的傷害提升 2 倍
+		III. 以所受傷害 5 倍對敵方攻擊者
+		⇒ 進行相剋屬性反擊 (此傷害無視「強化突破」敵技)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14692,7 +18461,11 @@ const leader_skill_data = [
     },
     {
         'name': '妖之號令',
-        'description': 'I. 妖精類攻擊力及回復力 4 倍<br>II. 消除心符石時<br>⇒ 妖精類攻擊力額外 1.5 倍',
+        'description': `
+		I. 妖精類攻擊力及回復力 4 倍
+		II. 消除心符石時
+		⇒ 妖精類攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -14709,7 +18482,11 @@ const leader_skill_data = [
     },
     {
         'name': '水靈術法',
-        'description': 'I. 妖精類攻擊力 4.5 倍<br>II. 消除水符石及心符石時<br>⇒ 妖精攻擊力額外 2 倍',
+        'description': `
+		I. 妖精類攻擊力 4.5 倍
+		II. 消除水符石及心符石時
+		⇒ 妖精攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14726,7 +18503,12 @@ const leader_skill_data = [
     },
     {
         'name': '懾魄瑰寶',
-        'description': 'I. 妖精類生命力及攻擊力 2.5 倍<br>II. 心符石 ≥30 粒相連才可發動消除<br>III. 每消除 1 組屬性符石時<br>⇒ 回復「妖精類成員生命力等值」5% 的生命力',
+        'description': `
+		I. 妖精類生命力及攻擊力 2.5 倍
+		II. 心符石 ≥30 粒相連才可發動消除
+		III. 每消除 1 組屬性符石時
+		⇒ 回復「妖精類成員生命力等值」5% 的生命力
+		`,
         'tag': [
             {
                 'name': ['增血', '增攻'],
@@ -14748,7 +18530,17 @@ const leader_skill_data = [
     },
     {
         'name': '翠色傲睨',
-        'description': '隊伍只有妖精類成員時<br>I. 全隊攻擊力 6 倍<br>II. 每個成員增加 400 點攻擊力及回復力<br>III. 木符石兼具 50% 其他屬性符石效果<br>IV. 心符石兼具 50% 所有屬性符石效果<br>V. 進入關卡後<br>⇒ 所有成員的技能 CD 減少 3 (可疊加)<br>VI. 場上有附加效果時<br>⇒ 全隊攻擊力額外 1.65 倍',
+        'description': `
+		隊伍只有妖精類成員時
+		I. 全隊攻擊力 6 倍
+		II. 每個成員增加 400 點攻擊力及回復力
+		III. 木符石兼具 50% 其他屬性符石效果
+		IV. 心符石兼具 50% 所有屬性符石效果
+		V. 進入關卡後
+		⇒ 所有成員的技能 CD 減少 3 (可疊加)
+		VI. 場上有附加效果時
+		⇒ 全隊攻擊力額外 1.65 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回', '進場減CD'],
@@ -14770,7 +18562,15 @@ const leader_skill_data = [
     },
     {
         'name': '閃鑽光華',
-        'description': '隊伍中有 ≥3 種屬性成員時<br>I. 妖精類攻擊力 6 倍<br>II. 心符石兼具 50% 所有屬性符石效果<br>III. 必然延長移動符石時間 1 秒<br>IV. 妖精類成員<br>⇒ 對機械族以外目標攻擊力 1.8 倍<br>⇒ 對人類、神族、魔族、妖精類目標攻擊力額外 2.42 倍',
+        'description': `
+		隊伍中有 ≥3 種屬性成員時
+		I. 妖精類攻擊力 6 倍
+		II. 心符石兼具 50% 所有屬性符石效果
+		III. 必然延長移動符石時間 1 秒
+		IV. 妖精類成員
+		⇒ 對機械族以外目標攻擊力 1.8 倍
+		⇒ 對人類、神族、魔族、妖精類目標攻擊力額外 2.42 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '對人類增傷', '對獸類增傷', '對妖精類增傷', '對龍類增傷', '對神族增傷', '對魔族增傷'],
@@ -14787,7 +18587,11 @@ const leader_skill_data = [
     },
     {
         'name': '暗靈術法',
-        'description': 'I. 妖精類攻擊力 4.5 倍<br>II. 消除暗符石及心符石時<br>⇒ 妖精攻擊力額外 2 倍',
+        'description': `
+		I. 妖精類攻擊力 4.5 倍
+		II. 消除暗符石及心符石時
+		⇒ 妖精攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14804,7 +18608,11 @@ const leader_skill_data = [
     },
     {
         'name': '火靈術法',
-        'description': 'I. 妖精類攻擊力 4.5 倍<br>II. 消除火符石及心符石時<br>⇒ 妖精攻擊力額外 2 倍',
+        'description': `
+		I. 妖精類攻擊力 4.5 倍
+		II. 消除火符石及心符石時
+		⇒ 妖精攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14821,7 +18629,11 @@ const leader_skill_data = [
     },
     {
         'name': '木靈術法',
-        'description': 'I. 妖精類攻擊力 4.5 倍<br>II. 消除木符石及心符石時<br>⇒ 妖精攻擊力額外 2 倍',
+        'description': `
+		I. 妖精類攻擊力 4.5 倍
+		II. 消除木符石及心符石時
+		⇒ 妖精攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14838,7 +18650,11 @@ const leader_skill_data = [
     },
     {
         'name': '光靈術法',
-        'description': 'I. 妖精類攻擊力 4.5 倍<br>II. 消除光符石及心符石時<br>⇒ 妖精攻擊力額外 2 倍',
+        'description': `
+		I. 妖精類攻擊力 4.5 倍
+		II. 消除光符石及心符石時
+		⇒ 妖精攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14855,7 +18671,10 @@ const leader_skill_data = [
     },
     {
         'name': '神聖七約',
-        'description': '首批消除 7 連擊 (Combo) 時<br>⇒ 全隊攻擊力 7 倍',
+        'description': `
+		首批消除 7 連擊 (Combo) 時
+		⇒ 全隊攻擊力 7 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14867,7 +18686,11 @@ const leader_skill_data = [
     },
     {
         'name': '木葉 ‧ 妖幻',
-        'description': 'I. 妖精類攻擊力 4.5 倍<br>II. 回合結束時，隨機將 3 粒符石<br>⇒ 轉化為木妖族符石',
+        'description': `
+		I. 妖精類攻擊力 4.5 倍
+		II. 回合結束時，隨機將 3 粒符石
+		⇒ 轉化為木妖族符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14884,7 +18707,10 @@ const leader_skill_data = [
     },
     {
         'name': '廿三締約',
-        'description': '達成 23 連擊 (Combo) 時<br>⇒ 全隊攻擊力 23 倍',
+        'description': `
+		達成 23 連擊 (Combo) 時
+		⇒ 全隊攻擊力 23 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14896,7 +18722,11 @@ const leader_skill_data = [
     },
     {
         'name': '水月 ‧ 妖幻',
-        'description': 'I. 妖精類攻擊力 4.5 倍<br>II. 回合結束時，隨機將 3 粒符石<br>⇒ 轉化為水妖族符石',
+        'description': `
+		I. 妖精類攻擊力 4.5 倍
+		II. 回合結束時，隨機將 3 粒符石
+		⇒ 轉化為水妖族符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14913,7 +18743,11 @@ const leader_skill_data = [
     },
     {
         'name': '火影 ‧ 妖幻',
-        'description': 'I. 妖精類攻擊力 4.5 倍<br>II. 回合結束時，隨機將 3 粒符石<br>⇒ 轉化為火妖族符石',
+        'description': `
+		I. 妖精類攻擊力 4.5 倍
+		II. 回合結束時，隨機將 3 粒符石
+		⇒ 轉化為火妖族符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14930,7 +18764,11 @@ const leader_skill_data = [
     },
     {
         'name': '暗流 ‧ 妖幻',
-        'description': 'I. 妖精類攻擊力 4.5 倍<br>II. 回合結束時，隨機將 3 粒符石<br>⇒ 轉化為暗妖族符石',
+        'description': `
+		I. 妖精類攻擊力 4.5 倍
+		II. 回合結束時，隨機將 3 粒符石
+		⇒ 轉化為暗妖族符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14947,7 +18785,11 @@ const leader_skill_data = [
     },
     {
         'name': '光華 ‧ 妖幻',
-        'description': 'I. 妖精類攻擊力 4.5 倍<br>II. 回合結束時，隨機將 3 粒符石<br>⇒ 轉化為光妖族符石',
+        'description': `
+		I. 妖精類攻擊力 4.5 倍
+		II. 回合結束時，隨機將 3 粒符石
+		⇒ 轉化為光妖族符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14964,7 +18806,13 @@ const leader_skill_data = [
     },
     {
         'name': '無上神權 ‧ 制裁',
-        'description': 'I. 神族攻擊力 7 倍<br>II. 消除屬性強化符石<br>⇒ 該屬性攻擊力額外 2 倍<br>III. 自身發動技能時<br>⇒ 神族攻擊力額外 2 倍',
+        'description': `
+		I. 神族攻擊力 7 倍
+		II. 消除屬性強化符石
+		⇒ 該屬性攻擊力額外 2 倍
+		III. 自身發動技能時
+		⇒ 神族攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -14986,7 +18834,11 @@ const leader_skill_data = [
     },
     {
         'name': '鱗光初露',
-        'description': 'I. 龍類攻擊力 3 倍<br>II. 當前生命力大於 70% 時<br>⇒ 下一次所受傷害不會使你死亡 (同 1 回合只會發動 1 次)',
+        'description': `
+		I. 龍類攻擊力 3 倍
+		II. 當前生命力大於 70% 時
+		⇒ 下一次所受傷害不會使你死亡 (同 1 回合只會發動 1 次)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15003,7 +18855,12 @@ const leader_skill_data = [
     },
     {
         'name': '鱗光萬丈 ‧ 水',
-        'description': 'I. 龍類攻擊力 6 倍<br>II. 每個龍類成員增加 350 點回復力<br>III. 心符石兼具 50% 水符石效果<br>IV. 連擊 (Combo) 時攻擊力提升 150%',
+        'description': `
+		I. 龍類攻擊力 6 倍
+		II. 每個龍類成員增加 350 點回復力
+		III. 心符石兼具 50% 水符石效果
+		IV. 連擊 (Combo) 時攻擊力提升 150%
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -15020,7 +18877,12 @@ const leader_skill_data = [
     },
     {
         'name': '鱗光萬丈 ‧ 火',
-        'description': 'I. 龍類攻擊力 6 倍<br>II. 每個龍類成員增加 350 點回復力<br>III. 心符石兼具 50% 火符石效果<br>IV. 連擊 (Combo) 時攻擊力提升 150%',
+        'description': `
+		I. 龍類攻擊力 6 倍
+		II. 每個龍類成員增加 350 點回復力
+		III. 心符石兼具 50% 火符石效果
+		IV. 連擊 (Combo) 時攻擊力提升 150%
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -15037,7 +18899,12 @@ const leader_skill_data = [
     },
     {
         'name': '鱗光萬丈 ‧ 木',
-        'description': 'I. 龍類攻擊力 6 倍<br>II. 每個龍類成員增加 350 點回復力<br>III. 心符石兼具 50% 木符石效果<br>IV. 連擊 (Combo) 時攻擊力提升 150%',
+        'description': `
+		I. 龍類攻擊力 6 倍
+		II. 每個龍類成員增加 350 點回復力
+		III. 心符石兼具 50% 木符石效果
+		IV. 連擊 (Combo) 時攻擊力提升 150%
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -15054,7 +18921,12 @@ const leader_skill_data = [
     },
     {
         'name': '鱗光萬丈 ‧ 光',
-        'description': 'I. 龍類攻擊力 6 倍<br>II. 每個龍類成員增加 350 點回復力<br>III. 心符石兼具 50% 光符石效果<br>IV. 連擊 (Combo) 時攻擊力提升 150%',
+        'description': `
+		I. 龍類攻擊力 6 倍
+		II. 每個龍類成員增加 350 點回復力
+		III. 心符石兼具 50% 光符石效果
+		IV. 連擊 (Combo) 時攻擊力提升 150%
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -15071,7 +18943,12 @@ const leader_skill_data = [
     },
     {
         'name': '鱗光萬丈 ‧ 暗',
-        'description': 'I. 龍類攻擊力 6 倍<br>II. 每個龍類成員增加 350 點回復力<br>III. 心符石兼具 50% 暗符石效果<br>IV. 連擊 (Combo) 時攻擊力提升 150%',
+        'description': `
+		I. 龍類攻擊力 6 倍
+		II. 每個龍類成員增加 350 點回復力
+		III. 心符石兼具 50% 暗符石效果
+		IV. 連擊 (Combo) 時攻擊力提升 150%
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -15088,7 +18965,12 @@ const leader_skill_data = [
     },
     {
         'name': '同心 ‧ 緣',
-        'description': 'I. 人類攻擊力 4 倍<br>II. 消除心符石時<br>⇒ 人類攻擊力額外 1.5 倍<br>III. 連擊 (Combo) 時攻擊力提升 100%',
+        'description': `
+		I. 人類攻擊力 4 倍
+		II. 消除心符石時
+		⇒ 人類攻擊力額外 1.5 倍
+		III. 連擊 (Combo) 時攻擊力提升 100%
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15110,7 +18992,16 @@ const leader_skill_data = [
     },
     {
         'name': '結義盟誓',
-        'description': '隊伍中只有水、火及木屬性成員時：<br>I. 水符石兼具 50% 其他屬性符石效果<br>II. 火符石兼具 50% 其他屬性符石效果<br>III. 木符石兼具 50% 其他屬性符石效果<br>IV. 消除 3 種符石時<br>⇒ 全隊攻擊力 4 倍<br>V. 消除 ≥4 種符石時<br>⇒ 全隊攻擊力 5 倍',
+        'description': `
+		隊伍中只有水、火及木屬性成員時：
+		I. 水符石兼具 50% 其他屬性符石效果
+		II. 火符石兼具 50% 其他屬性符石效果
+		III. 木符石兼具 50% 其他屬性符石效果
+		IV. 消除 3 種符石時
+		⇒ 全隊攻擊力 4 倍
+		V. 消除 ≥4 種符石時
+		⇒ 全隊攻擊力 5 倍
+		`,
         'tag': [
             {
                 'name': ['水兼具其他', '火兼具其他', '木兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗'],
@@ -15127,7 +19018,19 @@ const leader_skill_data = [
     },
     {
         'name': '結義盟誓 ‧ 強',
-        'description': '隊伍中只有水、火及木屬性成員時：<br>I. 水符石兼具 50% 其他屬性符石效果<br>II. 火符石兼具 50% 其他屬性符石效果<br>III. 木符石兼具 50% 其他屬性符石效果<br>IV. 消除 3 種符石時<br>⇒ 全隊攻擊力 4 倍<br>V. 消除 ≥4 種符石時<br>⇒ 全隊攻擊力 5 倍<br>VI. 3 粒相連的屬性符石可發動消除<br>VII. 2 粒心符石相連可發動消除<br>VIII. 所有符石掉落率不受其他技能影響(包括改變掉落符石屬性的技能)',
+        'description': `
+		隊伍中只有水、火及木屬性成員時：
+		I. 水符石兼具 50% 其他屬性符石效果
+		II. 火符石兼具 50% 其他屬性符石效果
+		III. 木符石兼具 50% 其他屬性符石效果
+		IV. 消除 3 種符石時
+		⇒ 全隊攻擊力 4 倍
+		V. 消除 ≥4 種符石時
+		⇒ 全隊攻擊力 5 倍
+		VI. 3 粒相連的屬性符石可發動消除
+		VII. 2 粒心符石相連可發動消除
+		VIII. 所有符石掉落率不受其他技能影響(包括改變掉落符石屬性的技能)
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -15145,7 +19048,12 @@ const leader_skill_data = [
     },
     {
         'name': '木靈為武 ‧ 火燄',
-        'description': 'I. 火屬性攻擊力 3 倍<br>II. 消除 ≥3 種符石時<br>⇒ 全隊攻擊力額外 2 倍<br>III. 木及心符石兼具 50% 火符石效果',
+        'description': `
+		I. 火屬性攻擊力 3 倍
+		II. 消除 ≥3 種符石時
+		⇒ 全隊攻擊力額外 2 倍
+		III. 木及心符石兼具 50% 火符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15167,7 +19075,12 @@ const leader_skill_data = [
     },
     {
         'name': '水靈為武 ‧ 藤木',
-        'description': 'I. 木屬性攻擊力 3 倍<br>II. 消除 ≥3 種符石時<br>⇒ 全隊攻擊力額外 2 倍<br>III. 水及心符石兼具 50% 木符石效果',
+        'description': `
+		I. 木屬性攻擊力 3 倍
+		II. 消除 ≥3 種符石時
+		⇒ 全隊攻擊力額外 2 倍
+		III. 水及心符石兼具 50% 木符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15189,7 +19102,11 @@ const leader_skill_data = [
     },
     {
         'name': '魔之本性 ‧ 八陣',
-        'description': 'I. 魔族攻擊力 3 倍、生命力及回復力 1.5 倍<br>II. 達至 ≥8 Combo 時<br>⇒ 魔族攻擊力額外 2 倍',
+        'description': `
+		I. 魔族攻擊力 3 倍、生命力及回復力 1.5 倍
+		II. 達至 ≥8 Combo 時
+		⇒ 魔族攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -15206,7 +19123,15 @@ const leader_skill_data = [
     },
     {
         'name': '原野之守 ‧ 戰',
-        'description': 'I. 木屬性攻擊力 3 倍<br>II. 人類回復力 3 倍<br>III. 消除 ≥3 種符石時<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 受到敵人攻擊時，場上每有 1 粒木符石<br>⇒ 減少 5% 所受傷害<br>⇒ 6 粒可減少最多 30% 傷害',
+        'description': `
+		I. 木屬性攻擊力 3 倍
+		II. 人類回復力 3 倍
+		III. 消除 ≥3 種符石時
+		⇒ 全隊攻擊力額外 2 倍
+		IV. 受到敵人攻擊時，場上每有 1 粒木符石
+		⇒ 減少 5% 所受傷害
+		⇒ 6 粒可減少最多 30% 傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15233,7 +19158,12 @@ const leader_skill_data = [
     },
     {
         'name': '光明之戰',
-        'description': 'I. 光屬性攻擊力 3 倍<br>II. 消除 ≥3 種符石時<br>⇒ 全隊攻擊力額外 2 倍<br>III. 暗及心符石兼具 50% 光符石效果',
+        'description': `
+		I. 光屬性攻擊力 3 倍
+		II. 消除 ≥3 種符石時
+		⇒ 全隊攻擊力額外 2 倍
+		III. 暗及心符石兼具 50% 光符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15255,7 +19185,15 @@ const leader_skill_data = [
     },
     {
         'name': '虓虎之勇 ‧ 殺伐',
-        'description': 'I. 暗屬性攻擊力 5 倍<br>II. 暗屬性人類生命力及回復力 1.4 倍<br>III. 單體攻擊轉化為全體攻擊<br>IV. 必然延長移動符石時間 1 秒<br>V. 每消除 1 組 ≥5 粒符石時<br>⇒ 暗屬性攻擊力提升<br>⇒ 消除 3 組可達至最大 2.8 倍',
+        'description': `
+		I. 暗屬性攻擊力 5 倍
+		II. 暗屬性人類生命力及回復力 1.4 倍
+		III. 單體攻擊轉化為全體攻擊
+		IV. 必然延長移動符石時間 1 秒
+		V. 每消除 1 組 ≥5 粒符石時
+		⇒ 暗屬性攻擊力提升
+		⇒ 消除 3 組可達至最大 2.8 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15282,7 +19220,11 @@ const leader_skill_data = [
     },
     {
         'name': '閉月之魅',
-        'description': 'I. 心符石兼具 400% 所有屬性符石效果<br>II. 每回合將 3 粒「首批沒有消除」的 1 種屬性符石 (剩餘數量最少優先)<br>⇒ 轉化為心符石 (需消除符石)',
+        'description': `
+		I. 心符石兼具 400% 所有屬性符石效果
+		II. 每回合將 3 粒「首批沒有消除」的 1 種屬性符石 (剩餘數量最少優先)
+		⇒ 轉化為心符石 (需消除符石)
+		`,
         'tag': [
             {
                 'name': ['心兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '符石轉心'],
@@ -15294,7 +19236,12 @@ const leader_skill_data = [
     },
     {
         'name': '水靈附攻 ‧ 浪濤',
-        'description': 'I. 水屬性攻擊力 3 倍<br>II. 消除 ≥3 種符石時<br>⇒ 全隊攻擊力額外 2 倍<br>III. 火及心符石兼具 50% 水符石效果',
+        'description': `
+		I. 水屬性攻擊力 3 倍
+		II. 消除 ≥3 種符石時
+		⇒ 全隊攻擊力額外 2 倍
+		III. 火及心符石兼具 50% 水符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15316,7 +19263,13 @@ const leader_skill_data = [
     },
     {
         'name': '殘妒之熾燄',
-        'description': 'I. 魔族及「紅軍」成員攻擊力 5 倍，生命力及回復力 1.4 倍<br>II. 必然延長移動符石時間 1 秒<br>III. 消除火符石的組數愈多<br>⇒ 火屬性及「紅軍」成員攻擊力提升愈多<br>⇒ 4 組可達至最大 3.5 倍',
+        'description': `
+		I. 魔族及「紅軍」成員攻擊力 5 倍，生命力及回復力 1.4 倍
+		II. 必然延長移動符石時間 1 秒
+		III. 消除火符石的組數愈多
+		⇒ 火屬性及「紅軍」成員攻擊力提升愈多
+		⇒ 4 組可達至最大 3.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -15338,7 +19291,12 @@ const leader_skill_data = [
     },
     {
         'name': '木靈附攻 ‧ 野藤',
-        'description': 'I. 木屬性攻擊力 3 倍<br>II. 消除 ≥3 種符石時<br>⇒ 全隊攻擊力額外 2 倍<br>III. 水及心符石兼具 50% 木符石效果',
+        'description': `
+		I. 木屬性攻擊力 3 倍
+		II. 消除 ≥3 種符石時
+		⇒ 全隊攻擊力額外 2 倍
+		III. 水及心符石兼具 50% 木符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15360,7 +19318,14 @@ const leader_skill_data = [
     },
     {
         'name': '酷冷之殺意 ‧ 溢',
-        'description': '隊伍中只有火、木及暗屬性成員時：<br>I. 全隊攻擊力 5 倍<br>II. 任意消除火、木或暗符石達 ≥9 粒<br>⇒ 全隊攻擊力額外 2 倍<br>III. 同時消除火、木及暗符石<br>⇒ 所受傷害減少 40%',
+        'description': `
+		隊伍中只有火、木及暗屬性成員時：
+		I. 全隊攻擊力 5 倍
+		II. 任意消除火、木或暗符石達 ≥9 粒
+		⇒ 全隊攻擊力額外 2 倍
+		III. 同時消除火、木及暗符石
+		⇒ 所受傷害減少 40%
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15382,7 +19347,17 @@ const leader_skill_data = [
     },
     {
         'name': '霸者盛勢 ‧ 無上控壓',
-        'description': 'I. 必然延長移動符石時間 1 秒<br>II. 隊伍中只有水屬性人類時：<br>⓵ 全隊攻擊力 6 倍、生命力及回復力 1.3 倍<br>⓶ 每消除 1 組符石<br>⇒ 額外計算多 1 連擊 (Combo)<br>⓷ 首批消除 ≥2 組 ≥4 粒符石<br>⇒ 全隊攻擊力額外 2.25 倍<br>⓸ 屬性符石需 ≥4 粒相連才可發動消除<br>⓹ 心符石 ≥2 粒相連即可發動消除',
+        'description': `
+		I. 必然延長移動符石時間 1 秒
+		II. 隊伍中只有水屬性人類時：
+		⓵ 全隊攻擊力 6 倍、生命力及回復力 1.3 倍
+		⓶ 每消除 1 組符石
+		⇒ 額外計算多 1 連擊 (Combo)
+		⓷ 首批消除 ≥2 組 ≥4 粒符石
+		⇒ 全隊攻擊力額外 2.25 倍
+		⓸ 屬性符石需 ≥4 粒相連才可發動消除
+		⓹ 心符石 ≥2 粒相連即可發動消除
+		`,
         'tag': [
             {
                 'name': '延長轉珠時間',
@@ -15414,7 +19389,14 @@ const leader_skill_data = [
     },
     {
         'name': '結盟 ‧ 洶濤之力',
-        'description': '隊伍中只有水及光屬性成員時：<br>I. 全隊攻擊力 5 倍<br>II. 消除水符石時<br>⇒ 全隊攻擊力額外 1.8 倍<br>III. 同時消除水及光符石時<br>⇒ 下回合將 5 粒水符石轉化為水強化符石',
+        'description': `
+		隊伍中只有水及光屬性成員時：
+		I. 全隊攻擊力 5 倍
+		II. 消除水符石時
+		⇒ 全隊攻擊力額外 1.8 倍
+		III. 同時消除水及光符石時
+		⇒ 下回合將 5 粒水符石轉化為水強化符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15436,7 +19418,13 @@ const leader_skill_data = [
     },
     {
         'name': '巾幗之熾燄',
-        'description': 'I. 隊伍中有 ≥3 種屬性成員時：<br>⓵ 全隊攻擊力 3.5 倍<br>⓶ 火符石兼具 50% 其他符石效果<br>II. 隊伍中有 ≥3 個人類成員時：<br>⓵ 人類攻擊力 3.5 倍、生命力及回復力 1.3 倍',
+        'description': `
+		I. 隊伍中有 ≥3 種屬性成員時：
+		⓵ 全隊攻擊力 3.5 倍
+		⓶ 火符石兼具 50% 其他符石效果
+		II. 隊伍中有 ≥3 個人類成員時：
+		⓵ 人類攻擊力 3.5 倍、生命力及回復力 1.3 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '火兼具其他', '符石兼具水', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心'],
@@ -15453,7 +19441,14 @@ const leader_skill_data = [
     },
     {
         'name': '結盟 ‧ 誓守之光',
-        'description': '隊伍中只有水及光屬性成員時：<br>I. 全隊攻擊力 5 倍<br>II. 消除光符石時<br>⇒ 減少 40% 所受傷害<br>III. 同時消除水及光符石時<br>⇒ 下回合將 5 粒光符石轉化為光強化符石',
+        'description': `
+		隊伍中只有水及光屬性成員時：
+		I. 全隊攻擊力 5 倍
+		II. 消除光符石時
+		⇒ 減少 40% 所受傷害
+		III. 同時消除水及光符石時
+		⇒ 下回合將 5 粒光符石轉化為光強化符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15470,7 +19465,10 @@ const leader_skill_data = [
     },
     {
         'name': '周而復始',
-        'description': 'I. 全隊攻擊力 4.5 倍<br>II. 下回合開始時，所有符石隨機轉換',
+        'description': `
+		I. 全隊攻擊力 4.5 倍
+		II. 下回合開始時，所有符石隨機轉換
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15482,7 +19480,14 @@ const leader_skill_data = [
     },
     {
         'name': '瑪奇的直覺',
-        'description': '隊伍中只有人類成員時：<br>I. 全隊攻擊力 5 倍、生命力及回復力 1.2 倍<br>II. 水屬性人類攻擊力則 5.5 倍、 生命力及回復力 1.4 倍<br>III. 必然延長移動符石時間 1.5 秒<br>IV. 消除人族符石時<br>⇒ 人類攻擊力 2 倍',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 全隊攻擊力 5 倍、生命力及回復力 1.2 倍
+		II. 水屬性人類攻擊力則 5.5 倍、 生命力及回復力 1.4 倍
+		III. 必然延長移動符石時間 1.5 秒
+		IV. 消除人族符石時
+		⇒ 人類攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -15504,7 +19509,14 @@ const leader_skill_data = [
     },
     {
         'name': '魔術師的戰鬥',
-        'description': '隊伍中只有人類成員時：<br>I. 全隊攻擊力 5 倍<br>II. 心符石兼具 50% 其他屬性符石效果<br>III. 減少 20% 所受傷害<br>IV. 場上有附加效果時<br>⇒ 則減少 40% 所受傷害',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 全隊攻擊力 5 倍
+		II. 心符石兼具 50% 其他屬性符石效果
+		III. 減少 20% 所受傷害
+		IV. 場上有附加效果時
+		⇒ 則減少 40% 所受傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15526,7 +19538,12 @@ const leader_skill_data = [
     },
     {
         'name': '蜘蛛聚合 ‧ 木',
-        'description': '隊伍中只有人類成員時：<br>I. 全隊攻擊力 4 倍<br>II. 隊伍中有 ≥3 個「幻影旅團」成員時<br>⇒ 木及心符石互相兼具 50% 效果',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 全隊攻擊力 4 倍
+		II. 隊伍中有 ≥3 個「幻影旅團」成員時
+		⇒ 木及心符石互相兼具 50% 效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15543,7 +19560,12 @@ const leader_skill_data = [
     },
     {
         'name': '蜘蛛聚合 ‧ 光',
-        'description': '隊伍中只有人類成員時：<br>I. 全隊攻擊力 4 倍<br>II. 隊伍中有 ≥3 個「幻影旅團」成員時<br>⇒ 光及心符石互相兼具 50% 效果',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 全隊攻擊力 4 倍
+		II. 隊伍中有 ≥3 個「幻影旅團」成員時
+		⇒ 光及心符石互相兼具 50% 效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15560,7 +19582,15 @@ const leader_skill_data = [
     },
     {
         'name': '統領 ‧ 暗黑力量',
-        'description': '隊伍中只有人類成員時：<br>I. 全隊攻擊力 6 倍<br>II. 暗符石兼具 50% 所有符石效果<br>III. 隊伍中有 ≥3 種屬性成員時<br>⇒ 全隊攻擊力額外 1.5 倍<br>IV. 首批消除自身直行 ≥1 粒符石時<br>⇒ 自身攻擊力 2 倍',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 全隊攻擊力 6 倍
+		II. 暗符石兼具 50% 所有符石效果
+		III. 隊伍中有 ≥3 種屬性成員時
+		⇒ 全隊攻擊力額外 1.5 倍
+		IV. 首批消除自身直行 ≥1 粒符石時
+		⇒ 自身攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15587,7 +19617,12 @@ const leader_skill_data = [
     },
     {
         'name': '蜘蛛聚合',
-        'description': '隊伍中只有人類成員時：<br>I. 全隊攻擊力 4 倍<br>II. 隊伍中有 ≥3 個「幻影旅團」成員時<br>⇒ 全隊生命力、攻擊力、回復力 1.2 倍',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 全隊攻擊力 4 倍
+		II. 隊伍中有 ≥3 個「幻影旅團」成員時
+		⇒ 全隊生命力、攻擊力、回復力 1.2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15604,7 +19639,12 @@ const leader_skill_data = [
     },
     {
         'name': '蜘蛛聚合 ‧ 暗',
-        'description': '隊伍中只有人類成員時：<br>I. 全隊攻擊力 4 倍<br>II. 隊伍中有 ≥3 個「幻影旅團」成員時<br>⇒ 暗及心符石互相兼具 50% 效果',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 全隊攻擊力 4 倍
+		II. 隊伍中有 ≥3 個「幻影旅團」成員時
+		⇒ 暗及心符石互相兼具 50% 效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15621,7 +19661,12 @@ const leader_skill_data = [
     },
     {
         'name': '遊戲製作',
-        'description': 'I. 人類攻擊力 4 倍<br>II. 光及暗符石互相兼具 50% 效果<br>III. 同時消除光及暗符石<br>⇒ 人類攻擊力額外 1.5 倍',
+        'description': `
+		I. 人類攻擊力 4 倍
+		II. 光及暗符石互相兼具 50% 效果
+		III. 同時消除光及暗符石
+		⇒ 人類攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15643,7 +19688,17 @@ const leader_skill_data = [
     },
     {
         'name': '天賦之能',
-        'description': '隊伍中只有人類時：<br>I. 全隊攻擊力 4 倍、生命力 1.3 倍<br>II. 減少 25% 所受傷害<br>III. 於成員所在直行消除 ≥1 粒該成員屬性的符石<br>⇒ 該成員攻擊力額外 2 倍 (倍率不可疊加)<br>IV. 消除強化符石時<br>⇒  全隊攻擊力額外 1.8 倍<br>V. 每首批消除 1 種屬性符石<br>⇒  於回合結束時將該屬性的其中 2 粒符石轉化為強化符石',
+        'description': `
+		隊伍中只有人類時：
+		I. 全隊攻擊力 4 倍、生命力 1.3 倍
+		II. 減少 25% 所受傷害
+		III. 於成員所在直行消除 ≥1 粒該成員屬性的符石
+		⇒ 該成員攻擊力額外 2 倍 (倍率不可疊加)
+		IV. 消除強化符石時
+		⇒  全隊攻擊力額外 1.8 倍
+		V. 每首批消除 1 種屬性符石
+		⇒  於回合結束時將該屬性的其中 2 粒符石轉化為強化符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -15675,7 +19730,11 @@ const leader_skill_data = [
     },
     {
         'name': '暗黑神話',
-        'description': 'I. 暗屬性成員攻擊力 6 倍<br>II. 暗屬性神族成員攻擊力則 8 倍<br>III. 神族成員生命力、攻擊力及回復力額外 1.6 倍',
+        'description': `
+		I. 暗屬性成員攻擊力 6 倍
+		II. 暗屬性神族成員攻擊力則 8 倍
+		III. 神族成員生命力、攻擊力及回復力額外 1.6 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15692,7 +19751,14 @@ const leader_skill_data = [
     },
     {
         'name': '無雙之霸',
-        'description': 'I. 光屬性攻擊力 7.5 倍、生命力及回復力 1.8 倍<br>II. 必然延長移動符石時間 2 秒<br>III. 消除 ≥3 組符石時<br>⇒ 全隊攻擊力額外 3.5 倍<br>IV. 首批消除所有光符石時<br>⇒ 光屬性攻擊力額外 1.5 倍',
+        'description': `
+		I. 光屬性攻擊力 7.5 倍、生命力及回復力 1.8 倍
+		II. 必然延長移動符石時間 2 秒
+		III. 消除 ≥3 組符石時
+		⇒ 全隊攻擊力額外 3.5 倍
+		IV. 首批消除所有光符石時
+		⇒ 光屬性攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -15719,7 +19785,14 @@ const leader_skill_data = [
     },
     {
         'name': '蓋世之氣',
-        'description': 'I. 全隊攻擊力 9 倍、生命力及回復力 1.6 倍<br>II. 必然延長移動符石時間 2 秒<br>III. 消除 ≥3 種符石時<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 首批掉落該直行成員的屬性強化符石<br>* 其後部分掉落的符石會順序排列',
+        'description': `
+		I. 全隊攻擊力 9 倍、生命力及回復力 1.6 倍
+		II. 必然延長移動符石時間 2 秒
+		III. 消除 ≥3 種符石時
+		⇒ 全隊攻擊力額外 2 倍
+		IV. 首批掉落該直行成員的屬性強化符石
+		* 其後部分掉落的符石會順序排列
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -15737,7 +19810,16 @@ const leader_skill_data = [
     },
     {
         'name': '三族戰勢',
-        'description': '隊中只有龍類、神族或獸類成員時：<br>I. 全隊攻擊力 6.5 倍及生命力 1.4 倍<br>II. 每個成員增加 300 點回復力<br>III. 龍類、神族、獸類同時發動攻擊時<br>⇒ 全隊攻擊力額外 1.8 倍<br>IV. 隊中只有龍類成員<br>⇒ 全隊攻擊力額外 1.8 倍<br>V. 水符石兼具 50% 其他符石效果',
+        'description': `
+		隊中只有龍類、神族或獸類成員時：
+		I. 全隊攻擊力 6.5 倍及生命力 1.4 倍
+		II. 每個成員增加 300 點回復力
+		III. 龍類、神族、獸類同時發動攻擊時
+		⇒ 全隊攻擊力額外 1.8 倍
+		IV. 隊中只有龍類成員
+		⇒ 全隊攻擊力額外 1.8 倍
+		V. 水符石兼具 50% 其他符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -15759,7 +19841,14 @@ const leader_skill_data = [
     },
     {
         'name': '神女之柔',
-        'description': '隊伍中只有神族或人類成員，並需有 ≥4 個神族成員：<br>I. 全隊攻擊力 6.5 倍及生命力 1.2 倍<br>II. 必然延長移動符石時間 1 秒<br>III. 消除的符石愈多<br>⇒ 全隊攻擊力額外提升愈多<br>⇒ 消除 20 粒可達至最大 2.8 倍',
+        'description': `
+		隊伍中只有神族或人類成員，並需有 ≥4 個神族成員：
+		I. 全隊攻擊力 6.5 倍及生命力 1.2 倍
+		II. 必然延長移動符石時間 1 秒
+		III. 消除的符石愈多
+		⇒ 全隊攻擊力額外提升愈多
+		⇒ 消除 20 粒可達至最大 2.8 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -15781,7 +19870,18 @@ const leader_skill_data = [
     },
     {
         'name': '戰火紛飛',
-        'description': '隊伍中只有獸類成員：<br>I. 全隊攻擊力 6.5 倍及生命力 1.5 倍<br>II. 每個成員增加 500 點回復力<br>III. 場上每有 1 個附加效果<br>⇒ 全隊攻擊力額外 1.5 倍<br>⇒ 最多計算 4 個附加效果<br>IV. 生命力未滿時<br>⇒ 全隊攻擊力及回復力額外 2 倍<br>V. 首批消除 1 組 ≥5 粒符石時，使敵方全體中毒：<br>⇒ 每回合受到自身攻擊力的傷害 (此傷害無視防禦力及屬性並持續至死亡)',
+        'description': `
+		隊伍中只有獸類成員：
+		I. 全隊攻擊力 6.5 倍及生命力 1.5 倍
+		II. 每個成員增加 500 點回復力
+		III. 場上每有 1 個附加效果
+		⇒ 全隊攻擊力額外 1.5 倍
+		⇒ 最多計算 4 個附加效果
+		IV. 生命力未滿時
+		⇒ 全隊攻擊力及回復力額外 2 倍
+		V. 首批消除 1 組 ≥5 粒符石時，使敵方全體中毒：
+		⇒ 每回合受到自身攻擊力的傷害 (此傷害無視防禦力及屬性並持續至死亡)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -15808,7 +19908,12 @@ const leader_skill_data = [
     },
     {
         'name': '偏執之念 ‧ 光',
-        'description': 'I. 消除 ≥5 種符石時<br>⇒ 全隊攻擊力 5 倍<br>II. 每首批消除 1 連擊 (Combo)<br>⇒ 自身直行掉落 1 粒光強化符石',
+        'description': `
+		I. 消除 ≥5 種符石時
+		⇒ 全隊攻擊力 5 倍
+		II. 每首批消除 1 連擊 (Combo)
+		⇒ 自身直行掉落 1 粒光強化符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15825,7 +19930,10 @@ const leader_skill_data = [
     },
     {
         'name': '富饒之約 ‧ 熾燄',
-        'description': 'I. 火屬性攻擊力 3 倍<br>II. 戰鬥中所獲得的金幣增加 75% (可疊加)',
+        'description': `
+		I. 火屬性攻擊力 3 倍
+		II. 戰鬥中所獲得的金幣增加 75% (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15842,7 +19950,13 @@ const leader_skill_data = [
     },
     {
         'name': '駕馭萬物',
-        'description': 'I. 神族及機械族攻擊力 5 倍<br>II. 達成 ≥7 連擊 (Combo) 時<br>⇒ 神族及機械族攻擊力額外 5 倍<br>III. 達成 ≤6 連擊 (Combo) 時<br>⇒ 所受傷害減少 80%',
+        'description': `
+		I. 神族及機械族攻擊力 5 倍
+		II. 達成 ≥7 連擊 (Combo) 時
+		⇒ 神族及機械族攻擊力額外 5 倍
+		III. 達成 ≤6 連擊 (Combo) 時
+		⇒ 所受傷害減少 80%
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15864,7 +19978,13 @@ const leader_skill_data = [
     },
     {
         'name': '連環陷阱 ‧ 強',
-        'description': 'I. 達成的連擊 (Combo) 數目愈多<br>⇒ 全隊攻擊力愈高<br>⇒ 10 Combo 可達至最大 10 倍<br>II. 若 Combo 數目 >10<br>⇒ 則全隊攻擊力 2 倍',
+        'description': `
+		I. 達成的連擊 (Combo) 數目愈多
+		⇒ 全隊攻擊力愈高
+		⇒ 10 Combo 可達至最大 10 倍
+		II. 若 Combo 數目 >10
+		⇒ 則全隊攻擊力 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15876,7 +19996,12 @@ const leader_skill_data = [
     },
     {
         'name': '人族戰術 ‧ 水',
-        'description': 'I. 人類攻擊力 5 倍<br>II. 同時消除水及心符石時<br>⇒ 人類攻擊力額外 1.5 倍<br>⇒ 減少 40% 所受傷害',
+        'description': `
+		I. 人類攻擊力 5 倍
+		II. 同時消除水及心符石時
+		⇒ 人類攻擊力額外 1.5 倍
+		⇒ 減少 40% 所受傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15898,7 +20023,16 @@ const leader_skill_data = [
     },
     {
         'name': '焰之鍊金術',
-        'description': 'I. 火屬性攻擊力 6 倍<br>II. 人類生命力、攻擊力、回復力 1.3 倍<br>III. 我方每次引爆符石時<br>⇒ 以 500 倍自身攻擊力對敵方全體造成火屬性傷害 (此傷害無視「強化突破」敵技)<br>IV. 消除火符石時<br>⇒ 火屬性攻擊力額外 2.2 倍<br>V. 首批消除水符石時<br>⇒「羅伊 ‧ 馬斯坦古」攻擊力減少 80%',
+        'description': `
+		I. 火屬性攻擊力 6 倍
+		II. 人類生命力、攻擊力、回復力 1.3 倍
+		III. 我方每次引爆符石時
+		⇒ 以 500 倍自身攻擊力對敵方全體造成火屬性傷害 (此傷害無視「強化突破」敵技)
+		IV. 消除火符石時
+		⇒ 火屬性攻擊力額外 2.2 倍
+		V. 首批消除水符石時
+		⇒「羅伊 ‧ 馬斯坦古」攻擊力減少 80%
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15930,7 +20064,19 @@ const leader_skill_data = [
     },
     {
         'name': '鍊金術 ‧ 元素',
-        'description': '隊伍中只有機械族或人類成員時：<br>I. 全隊攻擊力 5.5 倍<br>II. 每首批消除 1 組<br>   「水、火或木」強化符石<br>⇒ 產生 2 粒木強化符石<br>III. 每首批消除 1 組光、暗或心符石<br>⇒ 產生 2 粒心符石<br>IV. 木符石兼具 50% 其他屬性符石效果<br>V. 心符石兼具 50% 屬性符石效果<br>VI. 同時消除木及心符石<br>⇒ 全隊攻擊力額外 1.4 倍',
+        'description': `
+		隊伍中只有機械族或人類成員時：
+		I. 全隊攻擊力 5.5 倍
+		II. 每首批消除 1 組
+		   「水、火或木」強化符石
+		⇒ 產生 2 粒木強化符石
+		III. 每首批消除 1 組光、暗或心符石
+		⇒ 產生 2 粒心符石
+		IV. 木符石兼具 50% 其他屬性符石效果
+		V. 心符石兼具 50% 屬性符石效果
+		VI. 同時消除木及心符石
+		⇒ 全隊攻擊力額外 1.4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15957,7 +20103,19 @@ const leader_skill_data = [
     },
     {
         'name': '血印之魂',
-        'description': '隊伍中只有機械族或人類成員時：<br>I. 全隊攻擊力 5 倍<br>II. 每消除 1 組符石<br>⇒ 額外計算多 1 連擊 (Ex. Combo)<br>⇒ 最多可額外增加 12 連擊 (Ex. Combo)<br>III. Ex. Combo 達至 ≥6 時<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 光符石兼具 50% 其他屬性符石效果<br>V. 心符石兼具 50% 屬性符石效果<br>VI. 同時消除光及心符石<br>⇒ 全隊攻擊力額外 1.4 倍',
+        'description': `
+		隊伍中只有機械族或人類成員時：
+		I. 全隊攻擊力 5 倍
+		II. 每消除 1 組符石
+		⇒ 額外計算多 1 連擊 (Ex. Combo)
+		⇒ 最多可額外增加 12 連擊 (Ex. Combo)
+		III. Ex. Combo 達至 ≥6 時
+		⇒ 全隊攻擊力額外 2 倍
+		IV. 光符石兼具 50% 其他屬性符石效果
+		V. 心符石兼具 50% 屬性符石效果
+		VI. 同時消除光及心符石
+		⇒ 全隊攻擊力額外 1.4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -15989,7 +20147,11 @@ const leader_skill_data = [
     },
     {
         'name': '不死的追尋',
-        'description': 'I. 人類攻擊力 4 倍<br>II. 生命力全滿時<br>⇒ 該回合所受傷害不會使你死亡',
+        'description': `
+		I. 人類攻擊力 4 倍
+		II. 生命力全滿時
+		⇒ 該回合所受傷害不會使你死亡
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16006,7 +20168,12 @@ const leader_skill_data = [
     },
     {
         'name': '人族戰術 ‧ 火',
-        'description': 'I. 人類攻擊力 5 倍<br>II. 同時消除火及心符石時<br>⇒ 人類攻擊力額外 1.5 倍<br>⇒ 減少 40% 所受傷害',
+        'description': `
+		I. 人類攻擊力 5 倍
+		II. 同時消除火及心符石時
+		⇒ 人類攻擊力額外 1.5 倍
+		⇒ 減少 40% 所受傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16028,7 +20195,9 @@ const leader_skill_data = [
     },
     {
         'name': '人類之強力',
-        'description': '人類攻擊力 4 倍、生命力及回復力 2 倍',
+        'description': `
+		人類攻擊力 4 倍、生命力及回復力 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -16040,7 +20209,10 @@ const leader_skill_data = [
     },
     {
         'name': '人之魅術',
-        'description': 'I. 人類攻擊力 4 倍<br>II. 暗屬性人類攻擊力則 5.5 倍',
+        'description': `
+		I. 人類攻擊力 4 倍
+		II. 暗屬性人類攻擊力則 5.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16052,7 +20224,19 @@ const leader_skill_data = [
     },
     {
         'name': '鍊金術 ‧ 全',
-        'description': '隊伍中只有機械族或人類成員時：<br>I. 全隊攻擊力 6 倍<br>II. 每首批消除 1 組<br>   「水、火或木」強化符石<br>⇒ 產生 2 粒木強化符石<br>III. 每首批消除 1 組光、暗或心符石<br>⇒ 產生 2 粒心強化符石<br>IV. 木符石兼具 50% 其他屬性符石效果<br>V. 心符石兼具 50% 屬性符石效果<br>VI. 同時消除木及心符石<br>⇒ 全隊攻擊力額外 1.6 倍',
+        'description': `
+		隊伍中只有機械族或人類成員時：
+		I. 全隊攻擊力 6 倍
+		II. 每首批消除 1 組
+		   「水、火或木」強化符石
+		⇒ 產生 2 粒木強化符石
+		III. 每首批消除 1 組光、暗或心符石
+		⇒ 產生 2 粒心強化符石
+		IV. 木符石兼具 50% 其他屬性符石效果
+		V. 心符石兼具 50% 屬性符石效果
+		VI. 同時消除木及心符石
+		⇒ 全隊攻擊力額外 1.6 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16079,7 +20263,16 @@ const leader_skill_data = [
     },
     {
         'name': '焰之鍊金術．強',
-        'description': 'I. 火屬性攻擊力 6.5 倍<br>II. 人類生命力、攻擊力、回復力 1.4 倍<br>III. 我方每次引爆符石時<br>⇒ 以 600 倍自身攻擊力對敵方全體造成火屬性傷害 (此傷害無視「強化突破」敵技)<br>IV. 消除火符石時<br>⇒ 火屬性攻擊力額外 2.8 倍<br>V. 首批消除水符石時<br>⇒「羅伊 ‧ 馬斯坦古」攻擊力減少 80%',
+        'description': `
+		I. 火屬性攻擊力 6.5 倍
+		II. 人類生命力、攻擊力、回復力 1.4 倍
+		III. 我方每次引爆符石時
+		⇒ 以 600 倍自身攻擊力對敵方全體造成火屬性傷害 (此傷害無視「強化突破」敵技)
+		IV. 消除火符石時
+		⇒ 火屬性攻擊力額外 2.8 倍
+		V. 首批消除水符石時
+		⇒「羅伊 ‧ 馬斯坦古」攻擊力減少 80%
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16111,7 +20304,11 @@ const leader_skill_data = [
     },
     {
         'name': '破壞的力量',
-        'description': 'I. 人類攻擊力 5 倍<br>II. 回合結束時<br>⇒ 將暗符石轉化為暗強化符石',
+        'description': `
+		I. 人類攻擊力 5 倍
+		II. 回合結束時
+		⇒ 將暗符石轉化為暗強化符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16128,7 +20325,10 @@ const leader_skill_data = [
     },
     {
         'name': '穿透的力量',
-        'description': 'I. 人類攻擊力 5 倍<br>II. 自身攻擊無視敵人的防禦力',
+        'description': `
+		I. 人類攻擊力 5 倍
+		II. 自身攻擊無視敵人的防禦力
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16145,7 +20345,16 @@ const leader_skill_data = [
     },
     {
         'name': '支配的力量',
-        'description': 'I. 神族攻擊力 5 倍<br>II. 生命力全滿時<br>⇒ 自身攻擊力額外 6 倍<br>⇒ 自身攻擊無視敵人的防禦力<br>III. 當前生命力大於 80% 時<br>⇒ 下一次所受傷害不會使你死亡 (同 1 回合只發動 1 次)<br>IV. 消除 ≥5 連擊 (Combo)<br>⇒ 回合結束時，完全回復生命力',
+        'description': `
+		I. 神族攻擊力 5 倍
+		II. 生命力全滿時
+		⇒ 自身攻擊力額外 6 倍
+		⇒ 自身攻擊無視敵人的防禦力
+		III. 當前生命力大於 80% 時
+		⇒ 下一次所受傷害不會使你死亡 (同 1 回合只發動 1 次)
+		IV. 消除 ≥5 連擊 (Combo)
+		⇒ 回合結束時，完全回復生命力
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16172,7 +20381,10 @@ const leader_skill_data = [
     },
     {
         'name': '魔咒 ‧ 獵人',
-        'description': 'I. 魔族攻擊力 3.5 倍<br>II. 魔族成員對人類目標攻擊力額外 2 倍',
+        'description': `
+		I. 魔族攻擊力 3.5 倍
+		II. 魔族成員對人類目標攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '對人類增傷'],
@@ -16184,7 +20396,10 @@ const leader_skill_data = [
     },
     {
         'name': '靈氣迫人 ‧ 火燄',
-        'description': 'I. 人類攻擊力 4 倍<br>II. 火符石兼具 50% 心符石效果',
+        'description': `
+		I. 人類攻擊力 4 倍
+		II. 火符石兼具 50% 心符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16201,7 +20416,10 @@ const leader_skill_data = [
     },
     {
         'name': '魔血咒 ‧ 獵人',
-        'description': 'I. 魔族攻擊力 4 倍<br>II. 魔族成員對人類目標攻擊力額外 2 倍',
+        'description': `
+		I. 魔族攻擊力 4 倍
+		II. 魔族成員對人類目標攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '對人類增傷'],
@@ -16213,7 +20431,13 @@ const leader_skill_data = [
     },
     {
         'name': '鍊丹術',
-        'description': '隊伍中有 ≥3 種屬性成員時：<br>I. 全隊生命力、攻擊力、回復力 2 倍<br>II. 消除符石的種類愈多<br>⇒ 全隊攻擊力額外提升愈多<br>⇒ 消除 6 種可達至最大 2.5 倍',
+        'description': `
+		隊伍中有 ≥3 種屬性成員時：
+		I. 全隊生命力、攻擊力、回復力 2 倍
+		II. 消除符石的種類愈多
+		⇒ 全隊攻擊力額外提升愈多
+		⇒ 消除 6 種可達至最大 2.5 倍
+		`,
         'tag': [
             {
                 'name': ['增血', '增攻', '增回'],
@@ -16230,7 +20454,11 @@ const leader_skill_data = [
     },
     {
         'name': '一即是全',
-        'description': '隊伍中只有人類成員時：<br>I. 全隊攻擊力 4 倍、生命力及回復力 1.5 倍<br>II. 所有符石兼具 50% 其他符石效果',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 全隊攻擊力 4 倍、生命力及回復力 1.5 倍
+		II. 所有符石兼具 50% 其他符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -16247,7 +20475,10 @@ const leader_skill_data = [
     },
     {
         'name': '猛獸 ‧ 獵人',
-        'description': 'I. 獸類攻擊力 3.5 倍<br>II. 獸類成員對人類目標攻擊力額外 2 倍',
+        'description': `
+		I. 獸類攻擊力 3.5 倍
+		II. 獸類成員對人類目標攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '對人類增傷'],
@@ -16259,7 +20490,11 @@ const leader_skill_data = [
     },
     {
         'name': '機械鎧 ‧ 修理',
-        'description': 'I. 人類及機械族攻擊力 4 倍<br>II. 隊伍中每有 1 個機械族成員<br>⇒ 每回合回復 1000 點生命力 (需消除符石)',
+        'description': `
+		I. 人類及機械族攻擊力 4 倍
+		II. 隊伍中每有 1 個機械族成員
+		⇒ 每回合回復 1000 點生命力 (需消除符石)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16276,7 +20511,13 @@ const leader_skill_data = [
     },
     {
         'name': '水流精華',
-        'description': 'I. 水屬性攻擊力 5 倍<br>II. 以左下角的符石開始轉珠時<br>⇒ 水屬性攻擊力額外 1.5 倍<br>III. 以右下角的符石開始轉珠時<br>⇒ 將移動符石時觸碰的首 5 粒符石轉化為強化符石',
+        'description': `
+		I. 水屬性攻擊力 5 倍
+		II. 以左下角的符石開始轉珠時
+		⇒ 水屬性攻擊力額外 1.5 倍
+		III. 以右下角的符石開始轉珠時
+		⇒ 將移動符石時觸碰的首 5 粒符石轉化為強化符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16298,7 +20539,13 @@ const leader_skill_data = [
     },
     {
         'name': '火焰精華',
-        'description': 'I. 火屬性攻擊力 5 倍<br>II. 以左下角的符石開始轉珠時<br>⇒ 火屬性攻擊力額外 1.5 倍<br>III. 以右下角的符石開始轉珠時<br>⇒ 將移動符石時觸碰的首 5 粒符石轉化為強化符石',
+        'description': `
+		I. 火屬性攻擊力 5 倍
+		II. 以左下角的符石開始轉珠時
+		⇒ 火屬性攻擊力額外 1.5 倍
+		III. 以右下角的符石開始轉珠時
+		⇒ 將移動符石時觸碰的首 5 粒符石轉化為強化符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16320,7 +20567,13 @@ const leader_skill_data = [
     },
     {
         'name': '暴風精華',
-        'description': 'I. 木屬性攻擊力 5 倍<br>II. 以左下角的符石開始轉珠時<br>⇒ 木屬性攻擊力額外 1.5 倍<br>III. 以右下角的符石開始轉珠時<br>⇒ 將移動符石時觸碰的首 5 粒符石轉化為強化符石',
+        'description': `
+		I. 木屬性攻擊力 5 倍
+		II. 以左下角的符石開始轉珠時
+		⇒ 木屬性攻擊力額外 1.5 倍
+		III. 以右下角的符石開始轉珠時
+		⇒ 將移動符石時觸碰的首 5 粒符石轉化為強化符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16342,7 +20595,13 @@ const leader_skill_data = [
     },
     {
         'name': '雷光精華',
-        'description': 'I. 光屬性攻擊力 5 倍<br>II. 以左下角的符石開始轉珠時<br>⇒ 光屬性攻擊力額外 1.5 倍<br>III. 以右下角的符石開始轉珠時<br>⇒ 將移動符石時觸碰的首 5 粒符石轉化為強化符石',
+        'description': `
+		I. 光屬性攻擊力 5 倍
+		II. 以左下角的符石開始轉珠時
+		⇒ 光屬性攻擊力額外 1.5 倍
+		III. 以右下角的符石開始轉珠時
+		⇒ 將移動符石時觸碰的首 5 粒符石轉化為強化符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16364,7 +20623,13 @@ const leader_skill_data = [
     },
     {
         'name': '虛空精華',
-        'description': 'I. 暗屬性攻擊力 5 倍<br>II. 以左下角的符石開始轉珠時<br>⇒ 暗屬性攻擊力額外 1.5 倍<br>III. 以右下角的符石開始轉珠時<br>⇒ 將移動符石時觸碰的首 5 粒符石轉化為強化符石',
+        'description': `
+		I. 暗屬性攻擊力 5 倍
+		II. 以左下角的符石開始轉珠時
+		⇒ 暗屬性攻擊力額外 1.5 倍
+		III. 以右下角的符石開始轉珠時
+		⇒ 將移動符石時觸碰的首 5 粒符石轉化為強化符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16386,7 +20651,15 @@ const leader_skill_data = [
     },
     {
         'name': '玄華獨尊 ‧ 崇',
-        'description': 'I. 光屬性生命力、攻擊力、回復力 1.5 倍<br>II. 光及暗符石兼具<br>⇒ 50% 心符石效果<br>III. 暗符石兼具 50% 光符石效果<br>IV. 心符石兼具光符石效果<br>V. 消除光、暗、心符石其中 2 種符石<br>⇒ 光屬性攻擊力額外 7 倍',
+        'description': `
+		I. 光屬性生命力、攻擊力、回復力 1.5 倍
+		II. 光及暗符石兼具
+		⇒ 50% 心符石效果
+		III. 暗符石兼具 50% 光符石效果
+		IV. 心符石兼具光符石效果
+		V. 消除光、暗、心符石其中 2 種符石
+		⇒ 光屬性攻擊力額外 7 倍
+		`,
         'tag': [
             {
                 'name': ['增血', '增攻', '增回'],
@@ -16408,7 +20681,23 @@ const leader_skill_data = [
     },
     {
         'name': '玄華獨尊 ‧ 崇極',
-        'description': 'I. 光屬性生命力、攻擊力、回復力 1.6 倍<br>II. 延長移動符石時間至 10 秒<br>III. 光及暗符石兼具<br>⇒  50% 心符石效果<br>IV. 暗及心符石兼具光符石效果<br>V. 水、火、木符石<br>⇒ 兼具 50% 光符石效果<br>VI. 消除光、暗、心符石其中 2 種符石時<br>⇒ 光屬性攻擊力額外 7 倍<br>VII. ≥3 粒相同種類的符石相連，即可發動消除<br>VIII.所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)<br>IX. 回合結束時，可點選「X 型」<br>⇒ 引爆 10 個固定位置的符石<br>X. 沒有點選時，將「X 型」位置的符石<br>⇒ 轉化為光強化符石',
+        'description': `
+		I. 光屬性生命力、攻擊力、回復力 1.6 倍
+		II. 延長移動符石時間至 10 秒
+		III. 光及暗符石兼具
+		⇒  50% 心符石效果
+		IV. 暗及心符石兼具光符石效果
+		V. 水、火、木符石
+		⇒ 兼具 50% 光符石效果
+		VI. 消除光、暗、心符石其中 2 種符石時
+		⇒ 光屬性攻擊力額外 7 倍
+		VII. ≥3 粒相同種類的符石相連，即可發動消除
+		VIII.所有符石掉落率不受其他技能影響 (包括改變掉落符石屬性的技能)
+		IX. 回合結束時，可點選「X 型」
+		⇒ 引爆 10 個固定位置的符石
+		X. 沒有點選時，將「X 型」位置的符石
+		⇒ 轉化為光強化符石
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -16431,7 +20720,14 @@ const leader_skill_data = [
     },
     {
         'name': '萬惡之源',
-        'description': 'I. 妖精類生命力、攻擊力、回復力 1.6 倍<br>II. 達至 ≥5 連擊 (Combo)<br>⓵ 全隊攻擊力額外 2 倍<br>⓶ 妖精類攻擊力則額外 5 倍<br>III. 必然延長移動符石時間 1.5 秒<br>IV. 所有符石兼具 300% 其他符石效果',
+        'description': `
+		I. 妖精類生命力、攻擊力、回復力 1.6 倍
+		II. 達至 ≥5 連擊 (Combo)
+		⓵ 全隊攻擊力額外 2 倍
+		⓶ 妖精類攻擊力則額外 5 倍
+		III. 必然延長移動符石時間 1.5 秒
+		IV. 所有符石兼具 300% 其他符石效果
+		`,
         'tag': [
             {
                 'name': ['增血', '增攻', '增回'],
@@ -16453,7 +20749,13 @@ const leader_skill_data = [
     },
     {
         'name': '水月戰盾',
-        'description': 'I. 水屬性及「代偶規條」系列成員攻擊力 6 倍、生命力及回復力 1.2 倍<br>II. 消除水符石時<br>⇒ 所受傷害減少 30% <br>III. 消除 1 組 ≥5 粒水符石時<br>⇒ 水屬性及「代偶規條」系列成員攻擊力額外 2.8 倍',
+        'description': `
+		I. 水屬性及「代偶規條」系列成員攻擊力 6 倍、生命力及回復力 1.2 倍
+		II. 消除水符石時
+		⇒ 所受傷害減少 30% 
+		III. 消除 1 組 ≥5 粒水符石時
+		⇒ 水屬性及「代偶規條」系列成員攻擊力額外 2.8 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -16475,7 +20777,11 @@ const leader_skill_data = [
     },
     {
         'name': '熾焰之戰',
-        'description': 'I. 人類攻擊力 5 倍<br>II. 消除 ≥7 粒火符石時<br>⇒ 人類攻擊力額外 2.2 倍',
+        'description': `
+		I. 人類攻擊力 5 倍
+		II. 消除 ≥7 粒火符石時
+		⇒ 人類攻擊力額外 2.2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16492,7 +20798,14 @@ const leader_skill_data = [
     },
     {
         'name': '藤棘怒號',
-        'description': '隊伍中只有人類或神族時：<br>I. 全隊攻擊力 6 倍<br>II. 木及心符石分別兼具<br>⇒ 50% 其他符石效果<br>III. 隊伍中只有木屬性、「代偶規條」成員或「智火解析 ‧ 恩莉兒」<br>⇒ 全隊攻擊力額外 3 倍',
+        'description': `
+		隊伍中只有人類或神族時：
+		I. 全隊攻擊力 6 倍
+		II. 木及心符石分別兼具
+		⇒ 50% 其他符石效果
+		III. 隊伍中只有木屬性、「代偶規條」成員或「智火解析 ‧ 恩莉兒」
+		⇒ 全隊攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16514,7 +20827,16 @@ const leader_skill_data = [
     },
     {
         'name': '藤棘怒號 ‧ 擋',
-        'description': '隊伍中只有人類或神族時：<br>I. 全隊攻擊力 6 倍<br>II. 木及心符石分別兼具<br>⇒ 50% 其他符石效果<br>III. 隊伍中只有木屬性、「代偶規條」成員或「智火解析 ‧ 恩莉兒」<br>⇒ 全隊攻擊力額外 3 倍<br>IV. 減少 50% 所受傷害<br>⇒ 受到 25 次攻擊後失去此效果',
+        'description': `
+		隊伍中只有人類或神族時：
+		I. 全隊攻擊力 6 倍
+		II. 木及心符石分別兼具
+		⇒ 50% 其他符石效果
+		III. 隊伍中只有木屬性、「代偶規條」成員或「智火解析 ‧ 恩莉兒」
+		⇒ 全隊攻擊力額外 3 倍
+		IV. 減少 50% 所受傷害
+		⇒ 受到 25 次攻擊後失去此效果
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -16537,7 +20859,11 @@ const leader_skill_data = [
     },
     {
         'name': '迅獵之戰',
-        'description': 'I. 人類攻擊力 5 倍<br>II. 首批消除 6 粒相同種類的符石時<br>⇒ 下回合將 6 粒該種類的符石轉化為人族強化符石',
+        'description': `
+		I. 人類攻擊力 5 倍
+		II. 首批消除 6 粒相同種類的符石時
+		⇒ 下回合將 6 粒該種類的符石轉化為人族強化符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16554,7 +20880,16 @@ const leader_skill_data = [
     },
     {
         'name': '籌劃之戰',
-        'description': '隊伍中只有暗屬性成員時：<br>I. 全隊攻擊力 5 倍<br>II. 首批沒有消除暗符石時 (需消除符石)<br>⇒ 減少 25% 所受傷害<br>III. 心符石兼具 50% 暗符石效果<br>IV. 隊伍中集齊 5、6、7 星成員時<br>⓵ 全隊生命力、攻擊力、回復力 2 倍<br>⓶ 必然延長移動符石時間 2.5 秒',
+        'description': `
+		隊伍中只有暗屬性成員時：
+		I. 全隊攻擊力 5 倍
+		II. 首批沒有消除暗符石時 (需消除符石)
+		⇒ 減少 25% 所受傷害
+		III. 心符石兼具 50% 暗符石效果
+		IV. 隊伍中集齊 5、6、7 星成員時
+		⓵ 全隊生命力、攻擊力、回復力 2 倍
+		⓶ 必然延長移動符石時間 2.5 秒
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16586,7 +20921,9 @@ const leader_skill_data = [
     },
     {
         'name': '元氣之戰',
-        'description': '人類攻擊力 3 倍及回復力 5 倍',
+        'description': `
+		人類攻擊力 3 倍及回復力 5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -16598,7 +20935,13 @@ const leader_skill_data = [
     },
     {
         'name': '慎密之戰',
-        'description': 'I. 每首批消除 1 組暗符石<br>⇒ 個人追打暗屬性攻擊 1 次<br>⇒ 最多追打 10 次<br>II. 消除 ≥2 組暗符石<br>⇒ 額外增加 5 連擊 (Combo)',
+        'description': `
+		I. 每首批消除 1 組暗符石
+		⇒ 個人追打暗屬性攻擊 1 次
+		⇒ 最多追打 10 次
+		II. 消除 ≥2 組暗符石
+		⇒ 額外增加 5 連擊 (Combo)
+		`,
         'tag': [
             {
                 'name': '暗屬追打',
@@ -16615,7 +20958,11 @@ const leader_skill_data = [
     },
     {
         'name': '靈化之戰',
-        'description': 'I. 人類及機械族攻擊力 3.5 倍<br>II. 首批消除 ≥7 粒心符石<br>⇒ 自身攻擊力 8 倍',
+        'description': `
+		I. 人類及機械族攻擊力 3.5 倍
+		II. 首批消除 ≥7 粒心符石
+		⇒ 自身攻擊力 8 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16632,7 +20979,10 @@ const leader_skill_data = [
     },
     {
         'name': '富饒之約 ‧ 人',
-        'description': 'I. 人類攻擊力 4 倍<br>II. 戰鬥中所獲得的金幣增加 75% (可疊加)',
+        'description': `
+		I. 人類攻擊力 4 倍
+		II. 戰鬥中所獲得的金幣增加 75% (可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16649,7 +20999,11 @@ const leader_skill_data = [
     },
     {
         'name': '富饒之信約',
-        'description': 'I. 下回合開始時<br>⇒ 所有符石隨機轉換<br>II. 戰鬥中所獲得的金幣增加 75% (可疊加)',
+        'description': `
+		I. 下回合開始時
+		⇒ 所有符石隨機轉換
+		II. 戰鬥中所獲得的金幣增加 75% (可疊加)
+		`,
         'tag': [
             {
                 'name': ['符石轉水', '符石轉火', '符石轉木', '符石轉光', '符石轉暗', '符石轉心', '物品掉落增加'],
@@ -16661,7 +21015,11 @@ const leader_skill_data = [
     },
     {
         'name': '天元突破之勢',
-        'description': 'I. 人類、獸類、機械族攻擊力 4 倍<br>II. 隊伍中有 ≥3 個「大紅蓮團」成員<br>⇒ 全隊攻擊力及回復力額外 1.5 倍',
+        'description': `
+		I. 人類、獸類、機械族攻擊力 4 倍
+		II. 隊伍中有 ≥3 個「大紅蓮團」成員
+		⇒ 全隊攻擊力及回復力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16678,7 +21036,19 @@ const leader_skill_data = [
     },
     {
         'name': '大紅蓮團之雄心',
-        'description': '隊中只有「大紅蓮團」角色或機械族時：<br>I. 全隊攻擊力 6 倍<br>II. 「大紅蓮團」成員<br>⇒ 生命力、攻擊力、回復力 1.2 倍<br>III. 必然延長移動符石時間 2 秒<br>IV. 若隊長或戰友為合體角色<br>⇒ 全隊生命力、攻擊力、回復力 1.5 倍<br>V. 消除「水、火或木」強化符石時<br>⇒ 全隊攻擊力額外 2.2 倍<br>VI. 場上有附加效果時<br>⇒ 減少 40% 所受傷害',
+        'description': `
+		隊中只有「大紅蓮團」角色或機械族時：
+		I. 全隊攻擊力 6 倍
+		II. 「大紅蓮團」成員
+		⇒ 生命力、攻擊力、回復力 1.2 倍
+		III. 必然延長移動符石時間 2 秒
+		IV. 若隊長或戰友為合體角色
+		⇒ 全隊生命力、攻擊力、回復力 1.5 倍
+		V. 消除「水、火或木」強化符石時
+		⇒ 全隊攻擊力額外 2.2 倍
+		VI. 場上有附加效果時
+		⇒ 減少 40% 所受傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16715,7 +21085,19 @@ const leader_skill_data = [
     },
     {
         'name': '大紅蓮團之壯志',
-        'description': '隊中只有「大紅蓮團」角色或機械族時：<br>I. 全隊攻擊力 6 倍<br>II.「大紅蓮團」成員<br>⇒ 生命力、攻擊力、回復力 1.2 倍<br>III. 心符石兼具屬性符石效果<br>IV. 每回合將 1 粒水、火及木符石<br>⇒ 轉化為機械族強化符石<br>V. 若隊長或戰友為合體角色<br>⇒ 全隊生命力、攻擊力、回復力 1.5 倍<br>VI. 消除強化符石時<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		隊中只有「大紅蓮團」角色或機械族時：
+		I. 全隊攻擊力 6 倍
+		II.「大紅蓮團」成員
+		⇒ 生命力、攻擊力、回復力 1.2 倍
+		III. 心符石兼具屬性符石效果
+		IV. 每回合將 1 粒水、火及木符石
+		⇒ 轉化為機械族強化符石
+		V. 若隊長或戰友為合體角色
+		⇒ 全隊生命力、攻擊力、回復力 1.5 倍
+		VI. 消除強化符石時
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16747,7 +21129,15 @@ const leader_skill_data = [
     },
     {
         'name': '大紅蓮團之念',
-        'description': '隊伍中只有「大紅蓮團」角色或人類時：<br>I. 全隊攻擊 5 倍及生命力 1.3 倍<br>II. 隊中「大紅蓮團」成員愈多 (不計重複)<br>⓵ 移動符石時間延長愈多<br>⇒ 5 個可延長最多 5 秒<br>⓶ 全隊攻擊力額外提升愈多<br>⇒ 5 個可達至最大 4 倍',
+        'description': `
+		隊伍中只有「大紅蓮團」角色或人類時：
+		I. 全隊攻擊 5 倍及生命力 1.3 倍
+		II. 隊中「大紅蓮團」成員愈多 (不計重複)
+		⓵ 移動符石時間延長愈多
+		⇒ 5 個可延長最多 5 秒
+		⓶ 全隊攻擊力額外提升愈多
+		⇒ 5 個可達至最大 4 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -16769,7 +21159,18 @@ const leader_skill_data = [
     },
     {
         'name': '紅蓮團之壯志雄心',
-        'description': '隊中只有「大紅蓮團」角色或機械族時：<br>I. 全隊攻擊力 6.5 倍<br>II.「大紅蓮團」成員<br>⇒ 生命力、攻擊力、回復力 1.2 倍<br>III. 必然延長移動符石時間 1 秒<br>IV. 心符石兼具 50% 屬性符石效果<br>V. 消除強化符石時<br>⇒ 全隊攻擊力 2 倍<br>VI. 場上有附加效果時<br>⇒ 減少 40% 所受傷害',
+        'description': `
+		隊中只有「大紅蓮團」角色或機械族時：
+		I. 全隊攻擊力 6.5 倍
+		II.「大紅蓮團」成員
+		⇒ 生命力、攻擊力、回復力 1.2 倍
+		III. 必然延長移動符石時間 1 秒
+		IV. 心符石兼具 50% 屬性符石效果
+		V. 消除強化符石時
+		⇒ 全隊攻擊力 2 倍
+		VI. 場上有附加效果時
+		⇒ 減少 40% 所受傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16801,7 +21202,11 @@ const leader_skill_data = [
     },
     {
         'name': '青龍之力',
-        'description': 'I. 機械族及龍類成員攻擊力 3 倍<br>II. 每個機械族及龍類成員<br>⇒ 增加 300 點攻擊力',
+        'description': `
+		I. 機械族及龍類成員攻擊力 3 倍
+		II. 每個機械族及龍類成員
+		⇒ 增加 300 點攻擊力
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16813,7 +21218,10 @@ const leader_skill_data = [
     },
     {
         'name': '白虎之力',
-        'description': 'I. 機械族及獸類攻擊力 3 倍<br>II. 水符石兼具 25% 其他屬性符石效果',
+        'description': `
+		I. 機械族及獸類攻擊力 3 倍
+		II. 水符石兼具 25% 其他屬性符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16830,7 +21238,11 @@ const leader_skill_data = [
     },
     {
         'name': '朱雀之力',
-        'description': 'I. 機械族及獸類回復力 3 倍<br>II. 消除心符石時<br>⇒ 回復「機械族及獸類成員生命力等值」3% 的生命力',
+        'description': `
+		I. 機械族及獸類回復力 3 倍
+		II. 消除心符石時
+		⇒ 回復「機械族及獸類成員生命力等值」3% 的生命力
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -16847,7 +21259,11 @@ const leader_skill_data = [
     },
     {
         'name': '玄武之力',
-        'description': 'I. 機械族及獸類生命力 3 倍<br>II. 受到攻擊後，於下回合發動攻擊前<br>⇒ 對敵方全體造成「機械族及獸類成員生命力等值」3 倍的無屬性傷害 (需消除符石)',
+        'description': `
+		I. 機械族及獸類生命力 3 倍
+		II. 受到攻擊後，於下回合發動攻擊前
+		⇒ 對敵方全體造成「機械族及獸類成員生命力等值」3 倍的無屬性傷害 (需消除符石)
+		`,
         'tag': [
             {
                 'name': '增血',
@@ -16864,7 +21280,14 @@ const leader_skill_data = [
     },
     {
         'name': '螺旋王之力',
-        'description': 'I. 機械族生命力、攻擊力、回復力 1.5 倍<br>II. 每消除 3 種符石<br>⓵ 機械族攻擊力額外 2 倍<br>⇒ 最多可提升至 4 倍<br>⓶ 機械族行動值提升 5%<br>⇒ 最多可提升 10%',
+        'description': `
+		I. 機械族生命力、攻擊力、回復力 1.5 倍
+		II. 每消除 3 種符石
+		⓵ 機械族攻擊力額外 2 倍
+		⇒ 最多可提升至 4 倍
+		⓶ 機械族行動值提升 5%
+		⇒ 最多可提升 10%
+		`,
         'tag': [
             {
                 'name': ['增血', '增攻', '增回'],
@@ -16881,7 +21304,12 @@ const leader_skill_data = [
     },
     {
         'name': '反螺旋族之志',
-        'description': '隊中只有暗屬性成員時：<br>I. 全隊攻擊力 5 倍及生命力 1.5 倍<br>II. 隊中只有機械族、魔族或「妮亞」時<br>⇒ 全隊攻擊力及回復力額外 2 倍',
+        'description': `
+		隊中只有暗屬性成員時：
+		I. 全隊攻擊力 5 倍及生命力 1.5 倍
+		II. 隊中只有機械族、魔族或「妮亞」時
+		⇒ 全隊攻擊力及回復力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -16898,7 +21326,12 @@ const leader_skill_data = [
     },
     {
         'name': '堅不可摧的心！',
-        'description': '隊中只有「大紅蓮團」角色或「螺旋王 ‧ 羅傑儂與羅善巖」時 ：<br>I. 全隊攻擊力 6 倍、生命力及回復力 1.2 倍<br>II. 消除符石的屬性愈多，全隊攻擊力額外提升愈多，最多可提升至 3 倍<br>III. 消除心符石時，減少 40% 所受傷害',
+        'description': `
+		隊中只有「大紅蓮團」角色或「螺旋王 ‧ 羅傑儂與羅善巖」時 ：
+		I. 全隊攻擊力 6 倍、生命力及回復力 1.2 倍
+		II. 消除符石的屬性愈多，全隊攻擊力額外提升愈多，最多可提升至 3 倍
+		III. 消除心符石時，減少 40% 所受傷害
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -16920,7 +21353,15 @@ const leader_skill_data = [
     },
     {
         'name': '突破因果的命運！',
-        'description': '隊中只有「大紅蓮團」角色或「螺旋王 ‧ 羅傑儂與羅善巖」時 ：<br>I. 全隊攻擊力 6.5 倍、生命力及回復力 1.2 倍<br>II. 消除符石的屬性愈多<br>⇒ 全隊攻擊力額外提升愈多<br>⇒ 最多可提升至 3 倍<br>III. 場上有附加效果時<br>⇒ 減少 50% 所受傷害',
+        'description': `
+		隊中只有「大紅蓮團」角色或「螺旋王 ‧ 羅傑儂與羅善巖」時 ：
+		I. 全隊攻擊力 6.5 倍、生命力及回復力 1.2 倍
+		II. 消除符石的屬性愈多
+		⇒ 全隊攻擊力額外提升愈多
+		⇒ 最多可提升至 3 倍
+		III. 場上有附加效果時
+		⇒ 減少 50% 所受傷害
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -16942,7 +21383,14 @@ const leader_skill_data = [
     },
     {
         'name': '讓你見識人類的力量！',
-        'description': '隊中只有「大紅蓮團」角色或「螺旋王 ‧ 羅傑儂與羅善巖」時 ：<br>I. 全隊攻擊力 6.5 倍、生命力及回復力 1.2 倍<br>II. 必然延長移動符石時間 2 秒<br>III. 單體攻擊轉化為全體攻擊<br>IV. 消除符石的屬性愈多，全隊攻擊力額外提升愈多，最多可提升至 3 倍<br>V. 場上有附加效果時，減少 50% 所受傷害',
+        'description': `
+		隊中只有「大紅蓮團」角色或「螺旋王 ‧ 羅傑儂與羅善巖」時 ：
+		I. 全隊攻擊力 6.5 倍、生命力及回復力 1.2 倍
+		II. 必然延長移動符石時間 2 秒
+		III. 單體攻擊轉化為全體攻擊
+		IV. 消除符石的屬性愈多，全隊攻擊力額外提升愈多，最多可提升至 3 倍
+		V. 場上有附加效果時，減少 50% 所受傷害
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -16969,7 +21417,9 @@ const leader_skill_data = [
     },
     {
         'name': '這就是我們大紅蓮團！',
-        'description': '隊伍中只有「大紅蓮團」角色時：全隊攻擊力 7.5 倍',
+        'description': `
+		隊伍中只有「大紅蓮團」角色時：全隊攻擊力 7.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -16981,7 +21431,12 @@ const leader_skill_data = [
     },
     {
         'name': '幽魅戰姬',
-        'description': 'I. 暗屬性攻擊力 5 倍<br>II. 必然延長移動符石時間 2 秒<br>III. 首批消除所有暗符石時<br>⇒ 暗屬性攻擊力額外 1.5 倍',
+        'description': `
+		I. 暗屬性攻擊力 5 倍
+		II. 必然延長移動符石時間 2 秒
+		III. 首批消除所有暗符石時
+		⇒ 暗屬性攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -17003,7 +21458,15 @@ const leader_skill_data = [
     },
     {
         'name': '浪濤之勢 ‧ 連動',
-        'description': 'I. 水屬性攻擊力 3 倍、生命力及回復力 1.2 倍<br>II. 每累計首批消除 3 粒符石<br>⇒ 將產生 1 粒水強化符石<br>III. 每累計消除 4 粒水符石<br>⇒ 將產生 1 粒水強化符石<br>IV. 每累計消除 9 粒水強化符石<br>⇒ 將產生 1 粒水神族符石',
+        'description': `
+		I. 水屬性攻擊力 3 倍、生命力及回復力 1.2 倍
+		II. 每累計首批消除 3 粒符石
+		⇒ 將產生 1 粒水強化符石
+		III. 每累計消除 4 粒水符石
+		⇒ 將產生 1 粒水強化符石
+		IV. 每累計消除 9 粒水強化符石
+		⇒ 將產生 1 粒水神族符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -17030,7 +21493,15 @@ const leader_skill_data = [
     },
     {
         'name': '熾燄之勢 ‧ 連動',
-        'description': 'I. 火屬性攻擊力 3 倍、生命力及回復力 1.2 倍<br>II. 每累計首批消除 3 粒符石<br>⇒ 將產生 1 粒火強化符石<br>III. 每累計消除 4 粒火符石<br>⇒ 將產生 1 粒火強化符石<br>IV. 每累計消除 9 粒火強化符石<br>⇒ 將產生 1 粒火神族符石',
+        'description': `
+		I. 火屬性攻擊力 3 倍、生命力及回復力 1.2 倍
+		II. 每累計首批消除 3 粒符石
+		⇒ 將產生 1 粒火強化符石
+		III. 每累計消除 4 粒火符石
+		⇒ 將產生 1 粒火強化符石
+		IV. 每累計消除 9 粒火強化符石
+		⇒ 將產生 1 粒火神族符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -17057,7 +21528,15 @@ const leader_skill_data = [
     },
     {
         'name': '藤木之勢 ‧ 連動',
-        'description': 'I. 木屬性攻擊力 3 倍、生命力及回復力 1.2 倍<br>II. 每累計首批消除 3 粒符石<br>⇒ 將產生 1 粒木強化符石<br>III. 每累計消除 4 粒木符石<br>⇒ 將產生 1 粒木強化符石<br>IV. 每累計消除 9 粒木強化符石<br>⇒ 將產生 1 粒木神族符石',
+        'description': `
+		I. 木屬性攻擊力 3 倍、生命力及回復力 1.2 倍
+		II. 每累計首批消除 3 粒符石
+		⇒ 將產生 1 粒木強化符石
+		III. 每累計消除 4 粒木符石
+		⇒ 將產生 1 粒木強化符石
+		IV. 每累計消除 9 粒木強化符石
+		⇒ 將產生 1 粒木神族符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -17084,7 +21563,15 @@ const leader_skill_data = [
     },
     {
         'name': '玄光之勢 ‧ 連動',
-        'description': 'I. 光屬性攻擊力 3 倍、生命力及回復力 1.2 倍<br>II. 每累計首批消除 3 粒符石<br>⇒ 將產生 1 粒光強化符石<br>III. 每累計消除 4 粒光符石<br>⇒ 將產生 1 粒光強化符石<br>IV. 每累計消除 9 粒光強化符石<br>⇒ 將產生 1 粒光神族符石',
+        'description': `
+		I. 光屬性攻擊力 3 倍、生命力及回復力 1.2 倍
+		II. 每累計首批消除 3 粒符石
+		⇒ 將產生 1 粒光強化符石
+		III. 每累計消除 4 粒光符石
+		⇒ 將產生 1 粒光強化符石
+		IV. 每累計消除 9 粒光強化符石
+		⇒ 將產生 1 粒光神族符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -17111,7 +21598,15 @@ const leader_skill_data = [
     },
     {
         'name': '幽冥之勢 ‧ 連動',
-        'description': 'I. 暗屬性攻擊力 3 倍、生命力及回復力 1.2 倍<br>II. 每累計首批消除 3 粒符石<br>⇒ 將產生 1 粒暗強化符石<br>III. 每累計消除 4 粒暗符石<br>⇒ 將產生 1 粒暗強化符石<br>IV. 每累計消除 9 粒暗強化符石<br>⇒ 將產生 1 粒暗神族符石',
+        'description': `
+		I. 暗屬性攻擊力 3 倍、生命力及回復力 1.2 倍
+		II. 每累計首批消除 3 粒符石
+		⇒ 將產生 1 粒暗強化符石
+		III. 每累計消除 4 粒暗符石
+		⇒ 將產生 1 粒暗強化符石
+		IV. 每累計消除 9 粒暗強化符石
+		⇒ 將產生 1 粒暗神族符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -17138,7 +21633,15 @@ const leader_skill_data = [
     },
     {
         'name': '念之強勢 ‧ 噬日',
-        'description': 'I. 減少 50% 移動符石時間<br>II. 全隊攻擊力 7 倍<br>III. 獸類生命力及回復力 1.5 倍<br>IV. 所受暗屬性傷害 50% (不包括敵技傷害)<br>⇒ 轉化為我方生命力<br>V. 於 5 秒內結束轉珠<br>⇒ 全隊攻擊力額外 3 倍',
+        'description': `
+		I. 減少 50% 移動符石時間
+		II. 全隊攻擊力 7 倍
+		III. 獸類生命力及回復力 1.5 倍
+		IV. 所受暗屬性傷害 50% (不包括敵技傷害)
+		⇒ 轉化為我方生命力
+		V. 於 5 秒內結束轉珠
+		⇒ 全隊攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': ['減少轉珠時間', '增攻', '敵方傷害吸收'],
@@ -17160,7 +21663,14 @@ const leader_skill_data = [
     },
     {
         'name': '啃噬之志 ‧ 日',
-        'description': 'I. 增加 50% 移動符石時間<br>II. 全隊攻擊力 5 倍<br>III. 獸類生命力及回復力 1.5 倍<br>IV. 所有成員對暗屬性敵人攻擊力額外 2 倍<br>V. 於 ≥5 秒結束轉珠<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		I. 增加 50% 移動符石時間
+		II. 全隊攻擊力 5 倍
+		III. 獸類生命力及回復力 1.5 倍
+		IV. 所有成員對暗屬性敵人攻擊力額外 2 倍
+		V. 於 ≥5 秒結束轉珠
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['延長轉珠時間', '增攻', '對暗增傷'],
@@ -17182,7 +21692,15 @@ const leader_skill_data = [
     },
     {
         'name': '念之強勢 ‧ 蝕月',
-        'description': 'I. 減少 50% 移動符石時間<br>II. 全隊攻擊力 7 倍<br>III. 獸類生命力及回復力 1.5 倍<br>IV. 所受光屬性傷害 50% (不包括敵技傷害)<br>⇒ 轉化為我方生命力<br>V. 於 5 秒內結束轉珠<br>⇒ 全隊攻擊力額外 3 倍',
+        'description': `
+		I. 減少 50% 移動符石時間
+		II. 全隊攻擊力 7 倍
+		III. 獸類生命力及回復力 1.5 倍
+		IV. 所受光屬性傷害 50% (不包括敵技傷害)
+		⇒ 轉化為我方生命力
+		V. 於 5 秒內結束轉珠
+		⇒ 全隊攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': ['減少轉珠時間', '增攻', '敵方傷害吸收'],
@@ -17204,7 +21722,14 @@ const leader_skill_data = [
     },
     {
         'name': '啃噬之志 ‧ 月',
-        'description': 'I. 增加 50% 移動符石時間<br>II. 全隊攻擊力 5 倍<br>III. 獸類生命力及回復力 1.5 倍<br>IV. 所有成員對光屬性敵人攻擊力額外 2 倍<br>V. 於 ≥5 秒結束轉珠<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		I. 增加 50% 移動符石時間
+		II. 全隊攻擊力 5 倍
+		III. 獸類生命力及回復力 1.5 倍
+		IV. 所有成員對光屬性敵人攻擊力額外 2 倍
+		V. 於 ≥5 秒結束轉珠
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['延長轉珠時間', '增攻', '對光增傷'],
@@ -17226,7 +21751,15 @@ const leader_skill_data = [
     },
     {
         'name': '念之強勢 ‧ 噬日蝕月',
-        'description': 'I. 減少 50% 移動符石時間<br>II. 全隊攻擊力 8 倍<br>III. 獸類生命力及回復力 1.5 倍<br>IV. 所受光及暗屬性傷害 50% (不包括敵技傷害)<br>⇒ 轉化為我方生命力<br>V. 於 5 秒內結束轉珠<br>⇒ 全隊攻擊力額外 4.5 倍',
+        'description': `
+		I. 減少 50% 移動符石時間
+		II. 全隊攻擊力 8 倍
+		III. 獸類生命力及回復力 1.5 倍
+		IV. 所受光及暗屬性傷害 50% (不包括敵技傷害)
+		⇒ 轉化為我方生命力
+		V. 於 5 秒內結束轉珠
+		⇒ 全隊攻擊力額外 4.5 倍
+		`,
         'tag': [
             {
                 'name': ['減少轉珠時間', '增攻', '敵方傷害吸收'],
@@ -17248,7 +21781,14 @@ const leader_skill_data = [
     },
     {
         'name': '不死狩獵',
-        'description': 'I. 全隊攻擊力 6 倍<br>II. 將單體攻擊轉化為全體攻擊<br>III. 所受魔族以外傷害 45% (不包括敵技傷害)<br>⇒ 轉化為我方生命力<br>IV. 消除 ≥3 組符石時<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		I. 全隊攻擊力 6 倍
+		II. 將單體攻擊轉化為全體攻擊
+		III. 所受魔族以外傷害 45% (不包括敵技傷害)
+		⇒ 轉化為我方生命力
+		IV. 消除 ≥3 組符石時
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '單體轉全體', '敵方傷害吸收'],
@@ -17265,7 +21805,20 @@ const leader_skill_data = [
     },
     {
         'name': '妖精王之心',
-        'description': '隊伍中只有妖精類或人類成員，且有 ≥4 個妖精類成員時：<br>I. 全隊攻擊力 6 倍、生命力及回復力 1.6 倍<br>II. 木、光、心符石<br>⇒ 互相兼具 50% 符石效果<br>III. 每消除 1 組 ≥3 粒符石<br>⓵ 木屬性成員直行<br>⇒ 首批掉落 1 粒光妖族符石 (最多 2 粒)<br>⓶ 光屬性成員直行<br>⇒ 首批掉落 1 粒木妖族符石 (最多 2 粒)<br>* 其後部分掉落的符石會順序排列<br>IV. 消除心符石時<br>⇒ 全隊攻擊額外 1.6 倍',
+        'description': `
+		隊伍中只有妖精類或人類成員，且有 ≥4 個妖精類成員時：
+		I. 全隊攻擊力 6 倍、生命力及回復力 1.6 倍
+		II. 木、光、心符石
+		⇒ 互相兼具 50% 符石效果
+		III. 每消除 1 組 ≥3 粒符石
+		⓵ 木屬性成員直行
+		⇒ 首批掉落 1 粒光妖族符石 (最多 2 粒)
+		⓶ 光屬性成員直行
+		⇒ 首批掉落 1 粒木妖族符石 (最多 2 粒)
+		* 其後部分掉落的符石會順序排列
+		IV. 消除心符石時
+		⇒ 全隊攻擊額外 1.6 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -17292,7 +21845,11 @@ const leader_skill_data = [
     },
     {
         'name': '治癒之光',
-        'description': 'I.「七大罪」攻擊力及回復力 5 倍<br>II. 每回合回復<br>⇒ 自身回復力 10 倍等值的生命力 (需消除符石)',
+        'description': `
+		I.「七大罪」攻擊力及回復力 5 倍
+		II. 每回合回復
+		⇒ 自身回復力 10 倍等值的生命力 (需消除符石)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -17309,7 +21866,15 @@ const leader_skill_data = [
     },
     {
         'name': '支配憤怒',
-        'description': '隊伍中只有人類、妖精類、魔族或「最高神的女兒 ‧ 伊麗莎白」時：<br>I. 全隊攻擊力 7 倍、生命力及回復力 1.5 倍<br>II. 暗符石兼具 50% 其他符石效果<br>III. 以所受傷害 700 倍<br>⇒ 對敵方進行相剋屬性反擊 (此傷害無視防禦力及「強化突破」敵技)<br>IV. 達成 ≥7 連擊 (Combo)<br>⇒ 全隊攻擊力額外 1.7 倍',
+        'description': `
+		隊伍中只有人類、妖精類、魔族或「最高神的女兒 ‧ 伊麗莎白」時：
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.5 倍
+		II. 暗符石兼具 50% 其他符石效果
+		III. 以所受傷害 700 倍
+		⇒ 對敵方進行相剋屬性反擊 (此傷害無視防禦力及「強化突破」敵技)
+		IV. 達成 ≥7 連擊 (Combo)
+		⇒ 全隊攻擊力額外 1.7 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -17331,7 +21896,17 @@ const leader_skill_data = [
     },
     {
         'name': '支配憤怒 ‧ 強',
-        'description': '隊伍中只有人類、妖精類、魔族或「最高神的女兒 ‧ 伊麗莎白」時：<br>I. 全隊攻擊力 7 倍<br>II. 魔族生命力、攻擊力、回復力 2 倍<br>III. 暗符石兼具 50% 其他符石效果<br>IV. 以所受傷害 700 倍<br>⇒ 對敵方進行相剋屬性反擊<br>(此傷害無視防禦力及「強化突破」敵技)<br>V. 達成 ≥7 連擊 (Combo)<br>⇒ 全隊攻擊力額外 1.7 倍',
+        'description': `
+		隊伍中只有人類、妖精類、魔族或「最高神的女兒 ‧ 伊麗莎白」時：
+		I. 全隊攻擊力 7 倍
+		II. 魔族生命力、攻擊力、回復力 2 倍
+		III. 暗符石兼具 50% 其他符石效果
+		IV. 以所受傷害 700 倍
+		⇒ 對敵方進行相剋屬性反擊
+		(此傷害無視防禦力及「強化突破」敵技)
+		V. 達成 ≥7 連擊 (Combo)
+		⇒ 全隊攻擊力額外 1.7 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -17358,7 +21933,13 @@ const leader_skill_data = [
     },
     {
         'name': '王中之王',
-        'description': '隊伍中只有人類成員時：<br>I. 全隊攻擊力 5 倍<br>II. 光及心符石兼具 50% 火符石效果<br>III. 於自身直行消除火或心符石時<br>⇒ 個人追打火屬性攻擊 1 次',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 全隊攻擊力 5 倍
+		II. 光及心符石兼具 50% 火符石效果
+		III. 於自身直行消除火或心符石時
+		⇒ 個人追打火屬性攻擊 1 次
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -17380,7 +21961,13 @@ const leader_skill_data = [
     },
     {
         'name': '巨人的力量',
-        'description': '隊伍中只有人類或妖精類成員時：<br>I. 全隊攻擊力 5 倍<br>II. 光及心符石兼具 50% 木符石效果<br>III. 於自身直行消除木或心符石時<br>⇒ 自身攻擊無視敵人防禦力',
+        'description': `
+		隊伍中只有人類或妖精類成員時：
+		I. 全隊攻擊力 5 倍
+		II. 光及心符石兼具 50% 木符石效果
+		III. 於自身直行消除木或心符石時
+		⇒ 自身攻擊無視敵人防禦力
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -17402,7 +21989,13 @@ const leader_skill_data = [
     },
     {
         'name': '暗之魔術',
-        'description': '隊伍中只有人類成員時：<br>I. 全隊攻擊力 5 倍<br>II. 火及心符石兼具 50% 暗符石效果<br>III. 首批消除 1 組外側 18 粒符石<br>⇒ 減少所受傷害 80%',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 全隊攻擊力 5 倍
+		II. 火及心符石兼具 50% 暗符石效果
+		III. 首批消除 1 組外側 18 粒符石
+		⇒ 減少所受傷害 80%
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -17424,7 +22017,12 @@ const leader_skill_data = [
     },
     {
         'name': '夢之幻象',
-        'description': '隊伍中只有人類、妖精類或機械族成員時：<br>I. 全隊攻擊力 5 倍<br>II. 下回合隨機將 9 粒符石轉化為<br>⇒ 「人、妖、機械」族符石各 3 粒',
+        'description': `
+		隊伍中只有人類、妖精類或機械族成員時：
+		I. 全隊攻擊力 5 倍
+		II. 下回合隨機將 9 粒符石轉化為
+		⇒ 「人、妖、機械」族符石各 3 粒
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -17441,7 +22039,14 @@ const leader_skill_data = [
     },
     {
         'name': '唯我獨尊',
-        'description': '隊伍中只有人類成員時：<br>I. 光及火屬性攻擊力 8 倍<br>II. 每回合消除光或火符石<br>⇒ 光及火屬性攻擊力持續提升<br>⇒ 最多可達至 12 倍<br>III. 光及火符石兼具 50% 心符石效果',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 光及火屬性攻擊力 8 倍
+		II. 每回合消除光或火符石
+		⇒ 光及火屬性攻擊力持續提升
+		⇒ 最多可達至 12 倍
+		III. 光及火符石兼具 50% 心符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -17463,7 +22068,16 @@ const leader_skill_data = [
     },
     {
         'name': '天上天下 ‧ 唯我獨尊',
-        'description': '隊伍中只有人類成員時：<br>I. 光及火屬性攻擊力 14 倍，每回合攻擊力減少，最多可減至 9 倍<br>II. 其他屬性符石<br>⇒ 兼具 50% 光及火符石效果<br>III. 光及火符石兼具 50% 心符石效果<br>IV. 減少 30% 所受傷害<br>V. 所受魔族敵人的傷害<br>⇒ 則減少 99%',
+        'description': `
+		隊伍中只有人類成員時：
+		I. 光及火屬性攻擊力 14 倍，每回合攻擊力減少，最多可減至 9 倍
+		II. 其他屬性符石
+		⇒ 兼具 50% 光及火符石效果
+		III. 光及火符石兼具 50% 心符石效果
+		IV. 減少 30% 所受傷害
+		V. 所受魔族敵人的傷害
+		⇒ 則減少 99%
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -17480,7 +22094,10 @@ const leader_skill_data = [
     },
     {
         'name': '巴羅爾的魔眼',
-        'description': 'I. 獸類攻擊力 3 倍<br>II. 每回合回復 2000 點生命力 (需消除符石)',
+        'description': `
+		I. 獸類攻擊力 3 倍
+		II. 每回合回復 2000 點生命力 (需消除符石)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -17497,7 +22114,11 @@ const leader_skill_data = [
     },
     {
         'name': '風之魔力',
-        'description': '隊伍中只有光屬性妖精類成員時：<br>I. 全隊攻擊力 5 倍、生命力及回復力 1.2 倍<br>II. 心符石兼具 50% 光符石效果',
+        'description': `
+		隊伍中只有光屬性妖精類成員時：
+		I. 全隊攻擊力 5 倍、生命力及回復力 1.2 倍
+		II. 心符石兼具 50% 光符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -17514,7 +22135,9 @@ const leader_skill_data = [
     },
     {
         'name': '神力真諦',
-        'description': '神族攻擊力 10 倍',
+        'description': `
+		神族攻擊力 10 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -17526,7 +22149,10 @@ const leader_skill_data = [
     },
     {
         'name': '大地魔力',
-        'description': 'I. 人類及魔族攻擊力 5 倍<br>II. 光及心符石兼具 50% 木符石效果',
+        'description': `
+		I. 人類及魔族攻擊力 5 倍
+		II. 光及心符石兼具 50% 木符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -17543,7 +22169,10 @@ const leader_skill_data = [
     },
     {
         'name': '災厄魔力',
-        'description': 'I. 妖精類及魔族攻擊力 5 倍<br>II. 木及心符石兼具 50% 光符石效果',
+        'description': `
+		I. 妖精類及魔族攻擊力 5 倍
+		II. 木及心符石兼具 50% 光符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -17560,7 +22189,12 @@ const leader_skill_data = [
     },
     {
         'name': '魔魅之瘴',
-        'description': 'I. 魔族攻擊力 5 倍<br>II. 暗及心符石互相兼具 50% 效果<br>III. 消除 ≥6 粒暗符石<br>⇒ 魔族攻擊力額外 1.5 倍',
+        'description': `
+		I. 魔族攻擊力 5 倍
+		II. 暗及心符石互相兼具 50% 效果
+		III. 消除 ≥6 粒暗符石
+		⇒ 魔族攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -17582,7 +22216,12 @@ const leader_skill_data = [
     },
     {
         'name': '暗黑的力量 ‧ 魔',
-        'description': 'I. 魔族攻擊力 5 倍、生命力及回復力 1.2 倍<br>II. 暗及心符石互相兼具 50% 效果<br>III. 消除 ≥6 粒暗符石<br>⇒ 魔族攻擊力額外 1.5 倍',
+        'description': `
+		I. 魔族攻擊力 5 倍、生命力及回復力 1.2 倍
+		II. 暗及心符石互相兼具 50% 效果
+		III. 消除 ≥6 粒暗符石
+		⇒ 魔族攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -17604,7 +22243,11 @@ const leader_skill_data = [
     },
     {
         'name': '暗夜之帳',
-        'description': '隊伍中只有魔族成員時：<br>I. 全隊攻擊力 7 倍、生命力及回復力 1.2 倍<br>II. 暗及心符石分別兼具 50% 其他符石效果',
+        'description': `
+		隊伍中只有魔族成員時：
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.2 倍
+		II. 暗及心符石分別兼具 50% 其他符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -17621,7 +22264,13 @@ const leader_skill_data = [
     },
     {
         'name': '女神之力',
-        'description': '隊伍中只有神族成員時：<br>I. 全隊攻擊力 5 倍、生命力及回復力 1.5 倍<br>II. 所有符石兼具 50% 其他符石效果<br>III. 所有成員對魔族敵人<br>⇒ 攻擊力額外 3 倍',
+        'description': `
+		隊伍中只有神族成員時：
+		I. 全隊攻擊力 5 倍、生命力及回復力 1.5 倍
+		II. 所有符石兼具 50% 其他符石效果
+		III. 所有成員對魔族敵人
+		⇒ 攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -17643,7 +22292,14 @@ const leader_skill_data = [
     },
     {
         'name': '魔之惡核',
-        'description': '隊中只有魔族或神族成員，且有 ≥4 個魔族成員時：<br>I. 全隊攻擊力 6 倍及生命力 1.2 倍<br>II. 必然延長移動符石時間 1 秒<br>III. 消除符石愈多<br>⇒ 攻擊力額外提升愈多<br>⇒ 消除 20 粒可達至最大 2.6 倍',
+        'description': `
+		隊中只有魔族或神族成員，且有 ≥4 個魔族成員時：
+		I. 全隊攻擊力 6 倍及生命力 1.2 倍
+		II. 必然延長移動符石時間 1 秒
+		III. 消除符石愈多
+		⇒ 攻擊力額外提升愈多
+		⇒ 消除 20 粒可達至最大 2.6 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -17665,7 +22321,16 @@ const leader_skill_data = [
     },
     {
         'name': '宇宙之掌',
-        'description': 'I. 魔族攻擊力 7.5 倍及生命力 1.4 倍<br>II. 只能消除首批符石<br>III. ≥3 粒相同種類的符石相連<br>⇒ 即可發動消除<br>IV. 必然延長移動符石時間 3 秒<br>V. 首批消除 ≥15 粒符石<br>⇒ 魔族攻擊力額外 2 倍<br>⇒ 魔族成員無視「指定形狀盾」',
+        'description': `
+		I. 魔族攻擊力 7.5 倍及生命力 1.4 倍
+		II. 只能消除首批符石
+		III. ≥3 粒相同種類的符石相連
+		⇒ 即可發動消除
+		IV. 必然延長移動符石時間 3 秒
+		V. 首批消除 ≥15 粒符石
+		⇒ 魔族攻擊力額外 2 倍
+		⇒ 魔族成員無視「指定形狀盾」
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '無視拼圖盾'],
@@ -17687,7 +22352,11 @@ const leader_skill_data = [
     },
     {
         'name': '水之族約',
-        'description': 'I. 水屬性攻擊力 5 倍<br>II. 消除種族符石時<br>⇒ 水屬性攻擊力額外 2 倍',
+        'description': `
+		I. 水屬性攻擊力 5 倍
+		II. 消除種族符石時
+		⇒ 水屬性攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -17704,7 +22373,11 @@ const leader_skill_data = [
     },
     {
         'name': '火之族約',
-        'description': 'I. 火屬性攻擊力 5 倍<br>II. 消除種族符石時<br>⇒ 火屬性攻擊力額外 2 倍',
+        'description': `
+		I. 火屬性攻擊力 5 倍
+		II. 消除種族符石時
+		⇒ 火屬性攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -17721,7 +22394,12 @@ const leader_skill_data = [
     },
     {
         'name': '千獸同盟',
-        'description': '隊伍中只有獸類成員時<br>I. 全隊攻擊力 5.5 倍<br>II. 消除獸族符石時<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		隊伍中只有獸類成員時
+		I. 全隊攻擊力 5.5 倍
+		II. 消除獸族符石時
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -17738,7 +22416,11 @@ const leader_skill_data = [
     },
     {
         'name': '光之族約',
-        'description': 'I. 光屬性攻擊力 5 倍<br>II. 消除種族符石時<br>⇒ 光屬性攻擊力額外 2 倍',
+        'description': `
+		I. 光屬性攻擊力 5 倍
+		II. 消除種族符石時
+		⇒ 光屬性攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -17755,7 +22437,11 @@ const leader_skill_data = [
     },
     {
         'name': '元素調勻 ‧ 斷魂',
-        'description': 'I. 暗屬性生命力、攻擊力、回復力 2 倍<br>II. 消除 ≥2 組暗符石時<br>⇒ 暗屬性攻擊力額外 2.5 倍',
+        'description': `
+		I. 暗屬性生命力、攻擊力、回復力 2 倍
+		II. 消除 ≥2 組暗符石時
+		⇒ 暗屬性攻擊力額外 2.5 倍
+		`,
         'tag': [
             {
                 'name': ['增血', '增攻', '增回'],
@@ -17772,7 +22458,15 @@ const leader_skill_data = [
     },
     {
         'name': '燄神咒術．強',
-        'description': 'I. 火屬性及神族攻擊力 6.5 倍<br>II. 神族生命力及回復力 1.5 倍<br>III. 火符石兼具 50% 其他符石效果<br>IV. 消除 1 種符石 ≥8 粒時<br>⇒ 火屬性及神族攻擊力額外 2.5 倍<br>V. 消除 1 種符石 ≥15 粒時<br>⇒ 火屬性及神族攻擊力額外 3 倍',
+        'description': `
+		I. 火屬性及神族攻擊力 6.5 倍
+		II. 神族生命力及回復力 1.5 倍
+		III. 火符石兼具 50% 其他符石效果
+		IV. 消除 1 種符石 ≥8 粒時
+		⇒ 火屬性及神族攻擊力額外 2.5 倍
+		V. 消除 1 種符石 ≥15 粒時
+		⇒ 火屬性及神族攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -17799,7 +22493,13 @@ const leader_skill_data = [
     },
     {
         'name': '藤木之靈 ‧ 延',
-        'description': 'I. 木屬性攻擊力 6.5 倍，生命力及回復力 1.2 倍<br>II. 心符石兼具 50% 木符石效果<br>III. 延長移動符石時間 1.5 秒<br>IV. 同時消除木及心符石時<br>⇒ 木屬性攻擊力額外 2 倍',
+        'description': `
+		I. 木屬性攻擊力 6.5 倍，生命力及回復力 1.2 倍
+		II. 心符石兼具 50% 木符石效果
+		III. 延長移動符石時間 1.5 秒
+		IV. 同時消除木及心符石時
+		⇒ 木屬性攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -17821,7 +22521,13 @@ const leader_skill_data = [
     },
     {
         'name': '魅之花海 ‧ 盛',
-        'description': 'I. 暗屬性攻擊力 6 倍，生命力及回復力 1.2 倍<br>II. 回合結束時，隨機將 3 粒暗強化符石四周的符石<br>⇒ 轉化為暗神族符石<br>III. 消除神族符石時<br>⇒ 暗屬性攻擊力額外 2.5 倍',
+        'description': `
+		I. 暗屬性攻擊力 6 倍，生命力及回復力 1.2 倍
+		II. 回合結束時，隨機將 3 粒暗強化符石四周的符石
+		⇒ 轉化為暗神族符石
+		III. 消除神族符石時
+		⇒ 暗屬性攻擊力額外 2.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -17843,7 +22549,12 @@ const leader_skill_data = [
     },
     {
         'name': '神族之脈 ‧ 水',
-        'description': 'I. 水屬性攻擊力 5 倍<br>II. 神族生命力 1.4 倍<br>III. 場上有附加效果時<br>⇒ 水屬性攻擊力額外 2 倍',
+        'description': `
+		I. 水屬性攻擊力 5 倍
+		II. 神族生命力 1.4 倍
+		III. 場上有附加效果時
+		⇒ 水屬性攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -17865,7 +22576,15 @@ const leader_skill_data = [
     },
     {
         'name': '戰神之焰',
-        'description': '隊伍中只有神族成員時：<br>I. 全隊攻擊力 6.5 倍及生命力 1.4 倍<br>II. 火、光、心符石互相兼具 50% 效果<br>III. 同時消除火、光、心符石其中 2 種符石時<br>⇒ 全隊攻擊力額外 3 倍<br>IV. 場上有附加效果時<br>⇒ 自身及身上有附加效果的成員攻擊無視五屬盾',
+        'description': `
+		隊伍中只有神族成員時：
+		I. 全隊攻擊力 6.5 倍及生命力 1.4 倍
+		II. 火、光、心符石互相兼具 50% 效果
+		III. 同時消除火、光、心符石其中 2 種符石時
+		⇒ 全隊攻擊力額外 3 倍
+		IV. 場上有附加效果時
+		⇒ 自身及身上有附加效果的成員攻擊無視五屬盾
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -17892,7 +22611,15 @@ const leader_skill_data = [
     },
     {
         'name': '生靈殆盡',
-        'description': 'I. 自身屬性及魔族攻擊力 6 倍、生命力及回復力 1.3 倍<br>II. 必然延長移動符石時間 2 秒<br>III. 木及火符石互相兼具效果<br>IV. 消除火符石時<br>⇒ 魔族攻擊力額外 1.5 倍<br>V. 消除木符石時<br>⇒ 自身屬性及魔族攻擊力額外 2 倍',
+        'description': `
+		I. 自身屬性及魔族攻擊力 6 倍、生命力及回復力 1.3 倍
+		II. 必然延長移動符石時間 2 秒
+		III. 木及火符石互相兼具效果
+		IV. 消除火符石時
+		⇒ 魔族攻擊力額外 1.5 倍
+		V. 消除木符石時
+		⇒ 自身屬性及魔族攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -17914,7 +22641,18 @@ const leader_skill_data = [
     },
     {
         'name': '生靈殆盡 ‧ 裂心',
-        'description': 'I. 自身屬性及魔族攻擊力 6 倍、生命力及回復力 1.3 倍<br>II. 必然延長移動符石時間 2 秒<br>III. 木及火符石互相兼具效果<br>IV. 消除火符石時<br>⇒ 魔族攻擊力額外 1.5 倍<br>V. 消除木符石時<br>⇒ 自身屬性及魔族攻擊力額外 2 倍<br>VI. 於每回合移動符石後<br>⇒ 引爆所有心符石<br>⇒ 直至場上沒有心符石',
+        'description': `
+		I. 自身屬性及魔族攻擊力 6 倍、生命力及回復力 1.3 倍
+		II. 必然延長移動符石時間 2 秒
+		III. 木及火符石互相兼具效果
+		IV. 消除火符石時
+		⇒ 魔族攻擊力額外 1.5 倍
+		V. 消除木符石時
+		⇒ 自身屬性及魔族攻擊力額外 2 倍
+		VI. 於每回合移動符石後
+		⇒ 引爆所有心符石
+		⇒ 直至場上沒有心符石
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -17937,7 +22675,19 @@ const leader_skill_data = [
     },
     {
         'name': '星宿之掌',
-        'description': '隊伍中只有神族成員時：<br>I. 全隊攻擊力 6.5 倍、生命力及回復力 1.2 倍<br>II. 連擊 (Combo) 時攻擊力提升 100%<br>III. 隊伍中有 ≥3 種屬性成員<br>⓵ 必然延長移動符石時間 2 秒<br>⓶ 隊伍成員屬性符石<br>⇒ 互相兼具 50% 效果<br>IV. 場上有附加效果時<br>⇒ 自身、「黃道十二宮」、「耀脈星芒」成員：<br>⓵ 追打 1 次<br>⓶ 攻擊無視「指定形狀盾」敵技',
+        'description': `
+		隊伍中只有神族成員時：
+		I. 全隊攻擊力 6.5 倍、生命力及回復力 1.2 倍
+		II. 連擊 (Combo) 時攻擊力提升 100%
+		III. 隊伍中有 ≥3 種屬性成員
+		⓵ 必然延長移動符石時間 2 秒
+		⓶ 隊伍成員屬性符石
+		⇒ 互相兼具 50% 效果
+		IV. 場上有附加效果時
+		⇒ 自身、「黃道十二宮」、「耀脈星芒」成員：
+		⓵ 追打 1 次
+		⓶ 攻擊無視「指定形狀盾」敵技
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -17964,7 +22714,12 @@ const leader_skill_data = [
     },
     {
         'name': '魔族之脈 ‧ 暗',
-        'description': 'I. 暗屬性攻擊力 5 倍<br>II. 魔族生命力 1.6 倍<br>III. 場上有附加效果時<br>⇒ 暗屬性攻擊力額外 2 倍',
+        'description': `
+		I. 暗屬性攻擊力 5 倍
+		II. 魔族生命力 1.6 倍
+		III. 場上有附加效果時
+		⇒ 暗屬性攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -17986,7 +22741,12 @@ const leader_skill_data = [
     },
     {
         'name': '魔族之脈 ‧ 火',
-        'description': 'I. 火屬性攻擊力 5 倍<br>II. 魔族生命力 1.6 倍<br>III. 場上有附加效果時<br>⇒ 火屬性攻擊力額外 2 倍',
+        'description': `
+		I. 火屬性攻擊力 5 倍
+		II. 魔族生命力 1.6 倍
+		III. 場上有附加效果時
+		⇒ 火屬性攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18008,7 +22768,12 @@ const leader_skill_data = [
     },
     {
         'name': '魔族之脈 ‧ 木',
-        'description': 'I. 木屬性攻擊力 5 倍<br>II. 魔族生命力 1.6 倍<br>III. 場上有附加效果時<br>⇒ 木屬性攻擊力額外 2 倍',
+        'description': `
+		I. 木屬性攻擊力 5 倍
+		II. 魔族生命力 1.6 倍
+		III. 場上有附加效果時
+		⇒ 木屬性攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18030,7 +22795,12 @@ const leader_skill_data = [
     },
     {
         'name': '神族之脈 ‧ 光',
-        'description': 'I. 光屬性攻擊力 5 倍<br>II. 神族生命力 1.4 倍<br>III. 場上有附加效果時<br>⇒ 光屬性攻擊力額外 2 倍',
+        'description': `
+		I. 光屬性攻擊力 5 倍
+		II. 神族生命力 1.4 倍
+		III. 場上有附加效果時
+		⇒ 光屬性攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18052,7 +22822,9 @@ const leader_skill_data = [
     },
     {
         'name': '馬戲時刻',
-        'description': '15 回合內，魔族及妖精類攻擊力 10 倍',
+        'description': `
+		15 回合內，魔族及妖精類攻擊力 10 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18064,7 +22836,13 @@ const leader_skill_data = [
     },
     {
         'name': '流雲戰意',
-        'description': 'I. 水屬性攻擊力 5 倍<br>II. 消除的符石愈多<br>⇒ 水屬性攻擊力額外提升愈多<br>⇒ 消除 40 粒可額外提升 3 倍<br>III. 延長移動符石時間 1 秒',
+        'description': `
+		I. 水屬性攻擊力 5 倍
+		II. 消除的符石愈多
+		⇒ 水屬性攻擊力額外提升愈多
+		⇒ 消除 40 粒可額外提升 3 倍
+		III. 延長移動符石時間 1 秒
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18086,7 +22864,13 @@ const leader_skill_data = [
     },
     {
         'name': '赤燄戰意',
-        'description': 'I. 火屬性攻擊力 5 倍<br>II. 消除的符石愈多<br>⇒ 火屬性攻擊力額外提升愈多<br>⇒ 消除 40 粒可額外提升 3 倍<br>III. 延長移動符石時間 1 秒',
+        'description': `
+		I. 火屬性攻擊力 5 倍
+		II. 消除的符石愈多
+		⇒ 火屬性攻擊力額外提升愈多
+		⇒ 消除 40 粒可額外提升 3 倍
+		III. 延長移動符石時間 1 秒
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18108,7 +22892,13 @@ const leader_skill_data = [
     },
     {
         'name': '藤棘戰意',
-        'description': 'I. 木屬性攻擊力 5 倍<br>II. 消除的符石愈多<br>⇒ 木屬性攻擊力額外提升愈多<br>⇒ 消除 40 粒可額外提升 3 倍<br>III. 延長移動符石時間 1 秒',
+        'description': `
+		I. 木屬性攻擊力 5 倍
+		II. 消除的符石愈多
+		⇒ 木屬性攻擊力額外提升愈多
+		⇒ 消除 40 粒可額外提升 3 倍
+		III. 延長移動符石時間 1 秒
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18130,7 +22920,13 @@ const leader_skill_data = [
     },
     {
         'name': '電殛戰意',
-        'description': 'I. 光屬性攻擊力 5 倍<br>II. 消除的符石愈多<br>⇒ 光屬性攻擊力額外提升愈多<br>⇒ 消除 40 粒可額外提升 3 倍<br>III. 延長移動符石時間 1 秒',
+        'description': `
+		I. 光屬性攻擊力 5 倍
+		II. 消除的符石愈多
+		⇒ 光屬性攻擊力額外提升愈多
+		⇒ 消除 40 粒可額外提升 3 倍
+		III. 延長移動符石時間 1 秒
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18152,7 +22948,13 @@ const leader_skill_data = [
     },
     {
         'name': '魅影戰意',
-        'description': 'I. 暗屬性攻擊力 5 倍<br>II. 消除的符石愈多<br>⇒ 暗屬性攻擊力額外提升愈多<br>⇒ 消除 40 粒可額外提升 3 倍<br>III. 延長移動符石時間 1 秒',
+        'description': `
+		I. 暗屬性攻擊力 5 倍
+		II. 消除的符石愈多
+		⇒ 暗屬性攻擊力額外提升愈多
+		⇒ 消除 40 粒可額外提升 3 倍
+		III. 延長移動符石時間 1 秒
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18174,7 +22976,17 @@ const leader_skill_data = [
     },
     {
         'name': '第三適格者',
-        'description': '隊中只有神族及「EVA 駕駛員」時：<br>I. 全隊攻擊力 6.5 倍、生命力及回復力 1.3 倍<br>II. 心符石兼具 50% 屬性符石效果<br>III. 每消除 1 種屬性符石<br>⇒ 個人追打該屬性攻擊 1 次<br>IV. 消除 ≥3 組符石<br>⇒ 全隊攻擊力額外 2.2 倍<br>V. 所有成員對神族目標<br>⇒ 攻擊力額外 2 倍',
+        'description': `
+		隊中只有神族及「EVA 駕駛員」時：
+		I. 全隊攻擊力 6.5 倍、生命力及回復力 1.3 倍
+		II. 心符石兼具 50% 屬性符石效果
+		III. 每消除 1 種屬性符石
+		⇒ 個人追打該屬性攻擊 1 次
+		IV. 消除 ≥3 組符石
+		⇒ 全隊攻擊力額外 2.2 倍
+		V. 所有成員對神族目標
+		⇒ 攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '對神族增傷'],
@@ -18201,7 +23013,19 @@ const leader_skill_data = [
     },
     {
         'name': '第三適格者 ‧ 強',
-        'description': '隊中只有神族及「EVA 駕駛員」時：<br>I. 全隊攻擊力 7 倍、生命力及回復力 1.3 倍<br>II. 心符石兼具 50% 屬性符石效果<br>III. 每消除 1 種屬性符石<br>⇒ 個人追打該屬性攻擊 1 次<br>IV. 消除 ≥3 組符石<br>⇒ 全隊攻擊力額外 2.2 倍<br>V. 所有成員對神族目標<br>⇒ 攻擊力額外 2 倍<br>VI. 龍脈儀被擊碎或尚餘次數為 0 時<br>⇒ 全隊攻擊力額外 1.5 倍',
+        'description': `
+		隊中只有神族及「EVA 駕駛員」時：
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.3 倍
+		II. 心符石兼具 50% 屬性符石效果
+		III. 每消除 1 種屬性符石
+		⇒ 個人追打該屬性攻擊 1 次
+		IV. 消除 ≥3 組符石
+		⇒ 全隊攻擊力額外 2.2 倍
+		V. 所有成員對神族目標
+		⇒ 攻擊力額外 2 倍
+		VI. 龍脈儀被擊碎或尚餘次數為 0 時
+		⇒ 全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '對神族增傷'],
@@ -18233,7 +23057,15 @@ const leader_skill_data = [
     },
     {
         'name': '第二適格者',
-        'description': '隊中只有神族及「EVA 駕駛員」 時：<br>I. 全隊攻擊力 6 倍、生命力及回復力 1.3 倍<br>II. 於成員所在直行，消除 ≥1 粒該成員屬性的符石<br>⇒ 該成員攻擊力額外 1.5 倍<br>III. 消除的火符石愈多<br>⇒ 火屬性攻擊力提升愈多<br>⇒ 消除 12 粒可達至最大 4 倍',
+        'description': `
+		隊中只有神族及「EVA 駕駛員」 時：
+		I. 全隊攻擊力 6 倍、生命力及回復力 1.3 倍
+		II. 於成員所在直行，消除 ≥1 粒該成員屬性的符石
+		⇒ 該成員攻擊力額外 1.5 倍
+		III. 消除的火符石愈多
+		⇒ 火屬性攻擊力提升愈多
+		⇒ 消除 12 粒可達至最大 4 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -18255,7 +23087,11 @@ const leader_skill_data = [
     },
     {
         'name': '傾力迎戰 ‧ 木',
-        'description': '隊中只有神族及「EVA 駕駛員」 時：<br>I. 全隊攻擊力 4 倍、生命力及回復力 1.3 倍<br>II. 心符石兼具 50% 木符石效果',
+        'description': `
+		隊中只有神族及「EVA 駕駛員」 時：
+		I. 全隊攻擊力 4 倍、生命力及回復力 1.3 倍
+		II. 心符石兼具 50% 木符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -18272,7 +23108,16 @@ const leader_skill_data = [
     },
     {
         'name': '第一適格者',
-        'description': '隊中只有神族及「EVA 駕駛員」 時：<br>I. 全隊攻擊力 6.5 倍及生命力 1.2 倍<br>II. 減少 35% 所受傷害<br>III. 所受神族敵人的傷害<br>⇒ 則減少 60%<br>IV. 消除符石的種類愈多，全隊攻擊力額外提升愈多：<br>⇒ 消除 2 種 2 倍<br>⇒ 消除 6 種可達至最大 4 倍',
+        'description': `
+		隊中只有神族及「EVA 駕駛員」 時：
+		I. 全隊攻擊力 6.5 倍及生命力 1.2 倍
+		II. 減少 35% 所受傷害
+		III. 所受神族敵人的傷害
+		⇒ 則減少 60%
+		IV. 消除符石的種類愈多，全隊攻擊力額外提升愈多：
+		⇒ 消除 2 種 2 倍
+		⇒ 消除 6 種可達至最大 4 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -18294,7 +23139,11 @@ const leader_skill_data = [
     },
     {
         'name': '傾力迎戰 ‧ 魅',
-        'description': '隊中只有神族及「EVA 駕駛員」 時：<br>I. 全隊攻擊力 4 倍、生命力及回復力 1.3 倍<br>II. 水符石兼具 50% 暗符石效果',
+        'description': `
+		隊中只有神族及「EVA 駕駛員」 時：
+		I. 全隊攻擊力 4 倍、生命力及回復力 1.3 倍
+		II. 水符石兼具 50% 暗符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -18311,7 +23160,10 @@ const leader_skill_data = [
     },
     {
         'name': '人間之力 ‧ 清靈',
-        'description': 'I. 水屬性攻擊力 3 倍<br>II. 水屬性「人類及神族」攻擊力則 9 倍',
+        'description': `
+		I. 水屬性攻擊力 3 倍
+		II. 水屬性「人類及神族」攻擊力則 9 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18323,7 +23175,10 @@ const leader_skill_data = [
     },
     {
         'name': '人間之力 ‧ 流燄',
-        'description': 'I. 火屬性攻擊力 3 倍<br>II. 火屬性「人類及神族」攻擊力則 9 倍',
+        'description': `
+		I. 火屬性攻擊力 3 倍
+		II. 火屬性「人類及神族」攻擊力則 9 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18335,7 +23190,10 @@ const leader_skill_data = [
     },
     {
         'name': '人間之力 ‧ 森意',
-        'description': 'I. 木屬性攻擊力 3 倍<br>II. 木屬性「人類及神族」攻擊力則 9 倍',
+        'description': `
+		I. 木屬性攻擊力 3 倍
+		II. 木屬性「人類及神族」攻擊力則 9 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18347,7 +23205,10 @@ const leader_skill_data = [
     },
     {
         'name': '使徒之力',
-        'description': 'I.「使徒」攻擊力 5 倍<br>II. 敵方受到的無屬性傷害 2.5 倍',
+        'description': `
+		I.「使徒」攻擊力 5 倍
+		II. 敵方受到的無屬性傷害 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18364,7 +23225,11 @@ const leader_skill_data = [
     },
     {
         'name': '使徒之力 ‧ 強',
-        'description': 'I.「使徒」攻擊力 5 倍<br>II. 進入關卡後，「使徒」技能 CD -3<br>III. 敵方受到的無屬性傷害 3 倍',
+        'description': `
+		I.「使徒」攻擊力 5 倍
+		II. 進入關卡後，「使徒」技能 CD -3
+		III. 敵方受到的無屬性傷害 3 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '進場減CD'],
@@ -18381,7 +23246,9 @@ const leader_skill_data = [
     },
     {
         'name': '神族萬鈞之怒 ‧ 極',
-        'description': '神族攻擊力 5 倍',
+        'description': `
+		神族攻擊力 5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18393,7 +23260,12 @@ const leader_skill_data = [
     },
     {
         'name': '使徒來襲',
-        'description': '隊中只有神族成員時：<br>I. 神族攻擊力 6 倍及生命力 2 倍<br>II. 生命力全滿時<br>⇒「使徒」攻擊力額外 4 倍',
+        'description': `
+		隊中只有神族成員時：
+		I. 神族攻擊力 6 倍及生命力 2 倍
+		II. 生命力全滿時
+		⇒「使徒」攻擊力額外 4 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -18410,7 +23282,14 @@ const leader_skill_data = [
     },
     {
         'name': '使徒來襲 ‧ 強',
-        'description': '隊中只有神族成員時：<br>I. 神族攻擊力 6 倍及生命力 2 倍<br>II. 生命力全滿時<br>⇒「使徒」攻擊力額外 4 倍<br>III.「使徒」發動主動技能時<br>⇒ 完全回復生命力',
+        'description': `
+		隊中只有神族成員時：
+		I. 神族攻擊力 6 倍及生命力 2 倍
+		II. 生命力全滿時
+		⇒「使徒」攻擊力額外 4 倍
+		III.「使徒」發動主動技能時
+		⇒ 完全回復生命力
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -18432,7 +23311,9 @@ const leader_skill_data = [
     },
     {
         'name': '人類萬鈞之怒 ‧ 極',
-        'description': '人類攻擊力 5 倍',
+        'description': `
+		人類攻擊力 5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18444,7 +23325,15 @@ const leader_skill_data = [
     },
     {
         'name': '第二適格者 ‧ 改',
-        'description': '隊中只有神族及「EVA 駕駛員」 時：<br>I. 全隊攻擊力 6.5 倍、生命力及回復力 1.4 倍<br>II. 於成員所在直行，消除 ≥1 粒該成員屬性的符石<br>⇒ 該成員攻擊力額外 1.5 倍<br>III. 消除的火符石愈多<br>⇒ 火屬性攻擊力提升愈多<br>⇒ 消除 16 粒可達至最大 5 倍',
+        'description': `
+		隊中只有神族及「EVA 駕駛員」 時：
+		I. 全隊攻擊力 6.5 倍、生命力及回復力 1.4 倍
+		II. 於成員所在直行，消除 ≥1 粒該成員屬性的符石
+		⇒ 該成員攻擊力額外 1.5 倍
+		III. 消除的火符石愈多
+		⇒ 火屬性攻擊力提升愈多
+		⇒ 消除 16 粒可達至最大 5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -18466,7 +23355,17 @@ const leader_skill_data = [
     },
     {
         'name': '第二適格者 ‧ Code 777',
-        'description': '隊中只有神族及「EVA 駕駛員」 時：<br>I. 全隊攻擊力 6.5 倍、生命力及回復力 1.4 倍<br>II. 於成員所在直行，消除 ≥1 粒該成員屬性的符石<br>⇒ 該成員攻擊力額外 1.5 倍<br>III. 消除的火符石愈多<br>⇒ 火屬性攻擊力提升愈多<br>⇒ 消除 16 粒可達至最大 5 倍<br>IV. 每消除 2 組符石<br>⇒ 增加 1 連擊 (Ex. Combo)',
+        'description': `
+		隊中只有神族及「EVA 駕駛員」 時：
+		I. 全隊攻擊力 6.5 倍、生命力及回復力 1.4 倍
+		II. 於成員所在直行，消除 ≥1 粒該成員屬性的符石
+		⇒ 該成員攻擊力額外 1.5 倍
+		III. 消除的火符石愈多
+		⇒ 火屬性攻擊力提升愈多
+		⇒ 消除 16 粒可達至最大 5 倍
+		IV. 每消除 2 組符石
+		⇒ 增加 1 連擊 (Ex. Combo)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -18493,7 +23392,11 @@ const leader_skill_data = [
     },
     {
         'name': '傾力迎戰 ‧ 森',
-        'description': '隊中只有神族及「EVA 駕駛員」 時：<br>I. 全隊攻擊力 4.5 倍、生命力及回復力 1.3 倍<br>II. 心及火符石兼具 50% 木符石效果',
+        'description': `
+		隊中只有神族及「EVA 駕駛員」 時：
+		I. 全隊攻擊力 4.5 倍、生命力及回復力 1.3 倍
+		II. 心及火符石兼具 50% 木符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -18510,7 +23413,9 @@ const leader_skill_data = [
     },
     {
         'name': '力量導引',
-        'description': '神族及機械族攻擊力 6 倍',
+        'description': `
+		神族及機械族攻擊力 6 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18522,7 +23427,13 @@ const leader_skill_data = [
     },
     {
         'name': '13 號機覺醒！',
-        'description': '隊伍中只有神族及「EVA 駕駛員」時：<br>I. 全隊攻擊力 6 倍、生命力及回復力 1.2 倍<br>II. 水及暗符石互相兼具效果<br>III. 首批消除相同連擊 (Combo) 數目的水及暗符石<br>⇒ 全隊攻擊力額外 2.4 倍',
+        'description': `
+		隊伍中只有神族及「EVA 駕駛員」時：
+		I. 全隊攻擊力 6 倍、生命力及回復力 1.2 倍
+		II. 水及暗符石互相兼具效果
+		III. 首批消除相同連擊 (Combo) 數目的水及暗符石
+		⇒ 全隊攻擊力額外 2.4 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -18544,7 +23455,13 @@ const leader_skill_data = [
     },
     {
         'name': '血色屠殺契機',
-        'description': 'I. 首批消除雙數連擊 (Combo) 時<br>⇒ 全隊攻擊力 10 倍<br>II. 累計擊斃敵人愈多<br>⇒ 攻擊力提升愈多<br>⇒ 最多可達至 20 倍',
+        'description': `
+		I. 首批消除雙數連擊 (Combo) 時
+		⇒ 全隊攻擊力 10 倍
+		II. 累計擊斃敵人愈多
+		⇒ 攻擊力提升愈多
+		⇒ 最多可達至 20 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18556,7 +23473,20 @@ const leader_skill_data = [
     },
     {
         'name': '海淵凝念 ‧ 強',
-        'description': '隊中只有水屬性成員：<br>I. 全隊攻擊力 8 倍及生命力 1.5 倍<br>II. 每消除 1 粒水符石<br>⇒ 回復 3% 總生命力 (受連擊 (Combo) 加乘影響)<br>III. 若首批消除的連擊 (Combo) 數為單數<br>⓵ 減少 45% 所受傷害<br>⓶ 全隊無視「三屬盾」及「五屬盾」<br>IV. 若首批消除的連擊 (Combo) 數為雙數<br>⇒ 全隊攻擊力額外 3 倍<br>V. 若首批消除的連擊 (Combo) 數 ≥5<br>⓵ 同時獲得 III, IV 效果<br>⓶ 全隊無視「固定連擊盾」',
+        'description': `
+		隊中只有水屬性成員：
+		I. 全隊攻擊力 8 倍及生命力 1.5 倍
+		II. 每消除 1 粒水符石
+		⇒ 回復 3% 總生命力 (受連擊 (Combo) 加乘影響)
+		III. 若首批消除的連擊 (Combo) 數為單數
+		⓵ 減少 45% 所受傷害
+		⓶ 全隊無視「三屬盾」及「五屬盾」
+		IV. 若首批消除的連擊 (Combo) 數為雙數
+		⇒ 全隊攻擊力額外 3 倍
+		V. 若首批消除的連擊 (Combo) 數 ≥5
+		⓵ 同時獲得 III, IV 效果
+		⓶ 全隊無視「固定連擊盾」
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -18583,7 +23513,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔族萬鈞之怒 ‧ 極',
-        'description': '魔族攻擊力 5 倍',
+        'description': `
+		魔族攻擊力 5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18591,11 +23523,13 @@ const leader_skill_data = [
                 'limit': []
             }
 		],
-        'monster': [2546, 2556, 2557, 2558, 2559, 2560, 2574, 2578, 2592, 2903, 2905, 10107, 10158, 10202, 10243, 10255, 10286, 10288, 10363, 10421, 10447, 10453, 10454]
+        'monster': [2546, 2556, 2557, 2558, 2559, 2560, 2574, 2578, 2592, 2903, 2905, 2907, 10107, 10158, 10202, 10243, 10255, 10286, 10288, 10363, 10421, 10447, 10453, 10454]
     },
     {
         'name': '沸騰魔勢',
-        'description': '魔族攻擊力 4.5 倍及生命力 1.5 倍',
+        'description': `
+		魔族攻擊力 4.5 倍及生命力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -18607,7 +23541,11 @@ const leader_skill_data = [
     },
     {
         'name': '光之魔屠',
-        'description': 'I. 光屬性攻擊力 1.5 倍及魔族攻擊力 3 倍<br>II. 光屬性魔族攻擊力則 4.5 倍<br>III. 心符石兼具 50% 光符石效果',
+        'description': `
+		I. 光屬性攻擊力 1.5 倍及魔族攻擊力 3 倍
+		II. 光屬性魔族攻擊力則 4.5 倍
+		III. 心符石兼具 50% 光符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18624,7 +23562,9 @@ const leader_skill_data = [
     },
     {
         'name': '沸騰魔息',
-        'description': '魔族攻擊力 4.5 倍及回復力 1.5 倍',
+        'description': `
+		魔族攻擊力 4.5 倍及回復力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -18636,7 +23576,9 @@ const leader_skill_data = [
     },
     {
         'name': '魔怒嘯天 ‧ 火',
-        'description': '火屬性魔族攻擊力 3.5 倍',
+        'description': `
+		火屬性魔族攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18648,7 +23590,13 @@ const leader_skill_data = [
     },
     {
         'name': '盟軍 ‧ 魔之流',
-        'description': 'I. 全隊攻擊力 5 倍<br>II. 隊中有 ≥3 種族成員時<br>⇒ 全隊攻擊力額外 1.5 倍<br>III. 消除魔族符石時<br>⇒ 水屬性攻擊力額外 1.5 倍',
+        'description': `
+		I. 全隊攻擊力 5 倍
+		II. 隊中有 ≥3 種族成員時
+		⇒ 全隊攻擊力額外 1.5 倍
+		III. 消除魔族符石時
+		⇒ 水屬性攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18670,7 +23618,16 @@ const leader_skill_data = [
     },
     {
         'name': '赤龍之心',
-        'description': '隊伍中只有龍類、人類、妖精類或魔族時：<br>I. 全隊攻擊力 6.5 倍<br>II. 火符石兼具 50% 其他符石效果<br>III. 隊中有 ≥3 個龍類成員時<br>⓵ 全隊生命力 1.8 倍<br>⓶ 全隊攻擊力額外 2.8 倍<br>IV. 受到敵人攻擊時<br>⇒ 隨機將 5 粒符石轉化為龍族強化符石',
+        'description': `
+		隊伍中只有龍類、人類、妖精類或魔族時：
+		I. 全隊攻擊力 6.5 倍
+		II. 火符石兼具 50% 其他符石效果
+		III. 隊中有 ≥3 個龍類成員時
+		⓵ 全隊生命力 1.8 倍
+		⓶ 全隊攻擊力額外 2.8 倍
+		IV. 受到敵人攻擊時
+		⇒ 隨機將 5 粒符石轉化為龍族強化符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18697,7 +23654,16 @@ const leader_skill_data = [
     },
     {
         'name': '狂獸凶勢',
-        'description': '隊中只有獸類成員：<br>I. 全隊攻擊力 6 倍及生命力 1.3 倍<br>II. 達成 ≥5 連擊 (Combo) 時<br>⓵ 全隊攻擊力額外 2 倍<br>⓶ 所有成員無視「三屬盾」<br>III. 達成 ≥8 連擊 (Combo) 時<br>⓵ 全隊攻擊力額外 2.5 倍<br>⓶ 所有成員無視「五屬盾」',
+        'description': `
+		隊中只有獸類成員：
+		I. 全隊攻擊力 6 倍及生命力 1.3 倍
+		II. 達成 ≥5 連擊 (Combo) 時
+		⓵ 全隊攻擊力額外 2 倍
+		⓶ 所有成員無視「三屬盾」
+		III. 達成 ≥8 連擊 (Combo) 時
+		⓵ 全隊攻擊力額外 2.5 倍
+		⓶ 所有成員無視「五屬盾」
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -18714,7 +23680,13 @@ const leader_skill_data = [
     },
     {
         'name': '盟軍 ‧ 獸之吼',
-        'description': 'I. 全隊攻擊力 5 倍<br>II. 隊中有 ≥3 種族成員時<br>⓵ 全隊攻擊力額外 1.5 倍<br>⓶ 消除獸族符石時<br>⇒ 光屬性攻擊力額外 1.5 倍',
+        'description': `
+		I. 全隊攻擊力 5 倍
+		II. 隊中有 ≥3 種族成員時
+		⓵ 全隊攻擊力額外 1.5 倍
+		⓶ 消除獸族符石時
+		⇒ 光屬性攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18736,7 +23708,15 @@ const leader_skill_data = [
     },
     {
         'name': '魔女承志',
-        'description': 'I. 全隊攻擊力 6 倍<br>II. 隊中有 ≥3 種族成員時<br>⇒ 全隊攻擊力額外 1.8 倍<br>III. 隊伍中有 ≥3 種屬性成員時<br>⇒ 全隊攻擊力額外 1.5 倍<br>IV. 隊員、戰友的屬性及種族均沒有重複時<br>⇒ 全隊生命力、攻擊力、回復力額外 1.8 倍',
+        'description': `
+		I. 全隊攻擊力 6 倍
+		II. 隊中有 ≥3 種族成員時
+		⇒ 全隊攻擊力額外 1.8 倍
+		III. 隊伍中有 ≥3 種屬性成員時
+		⇒ 全隊攻擊力額外 1.5 倍
+		IV. 隊員、戰友的屬性及種族均沒有重複時
+		⇒ 全隊生命力、攻擊力、回復力額外 1.8 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18763,7 +23743,13 @@ const leader_skill_data = [
     },
     {
         'name': '盟軍 ‧ 妖之棘',
-        'description': 'I. 全隊攻擊力 5 倍<br>II. 隊中有 ≥3 種族成員時<br>⇒ 全隊攻擊力額外 1.5 倍<br>III. 消除妖族符石時<br>⇒ 木屬性攻擊力額外 1.5 倍',
+        'description': `
+		I. 全隊攻擊力 5 倍
+		II. 隊中有 ≥3 種族成員時
+		⇒ 全隊攻擊力額外 1.5 倍
+		III. 消除妖族符石時
+		⇒ 木屬性攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18785,7 +23771,13 @@ const leader_skill_data = [
     },
     {
         'name': '盟軍 ‧ 神之輝',
-        'description': 'I. 全隊攻擊力 5 倍<br>II. 隊中有 ≥3 種族成員時<br>⓵ 全隊攻擊力額外 1.5 倍<br>⓶ 消除神族符石時<br>⇒ 光屬性攻擊力額外 1.5 倍',
+        'description': `
+		I. 全隊攻擊力 5 倍
+		II. 隊中有 ≥3 種族成員時
+		⓵ 全隊攻擊力額外 1.5 倍
+		⓶ 消除神族符石時
+		⇒ 光屬性攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18807,7 +23799,13 @@ const leader_skill_data = [
     },
     {
         'name': '盟軍 ‧ 機械之魂',
-        'description': 'I. 全隊攻擊力 5 倍<br>II. 隊中有 ≥3 種族成員時<br>⓵ 全隊攻擊力額外 1.5 倍<br>⓶ 消除機械族符石時<br>⇒ 暗屬性攻擊力額外 1.5 倍',
+        'description': `
+		I. 全隊攻擊力 5 倍
+		II. 隊中有 ≥3 種族成員時
+		⓵ 全隊攻擊力額外 1.5 倍
+		⓶ 消除機械族符石時
+		⇒ 暗屬性攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18829,7 +23827,9 @@ const leader_skill_data = [
     },
     {
         'name': '獸類萬鈞之怒 ‧ 極',
-        'description': '獸類攻擊力 5 倍',
+        'description': `
+		獸類攻擊力 5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18841,7 +23841,9 @@ const leader_skill_data = [
     },
     {
         'name': '妖精萬鈞之怒 ‧ 極',
-        'description': '妖精類攻擊力 5 倍',
+        'description': `
+		妖精類攻擊力 5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18853,7 +23855,15 @@ const leader_skill_data = [
     },
     {
         'name': '御天之志',
-        'description': 'I. 自身屬性成員攻擊力 8 倍、生命力及回復力 1.8 倍<br>II. 全隊攻擊力額外 2 倍，每經過一層 (Wave)<br>⇒ 全隊攻擊力額外提升<br>⇒ 最多 5 倍<br>III. 每次直行消除 1 組 ≥4 粒符石<br>⇒ 全隊攻擊力額外 1.4 倍<br>⇒ 最多可提升 4 次',
+        'description': `
+		I. 自身屬性成員攻擊力 8 倍、生命力及回復力 1.8 倍
+		II. 全隊攻擊力額外 2 倍，每經過一層 (Wave)
+		⇒ 全隊攻擊力額外提升
+		⇒ 最多 5 倍
+		III. 每次直行消除 1 組 ≥4 粒符石
+		⇒ 全隊攻擊力額外 1.4 倍
+		⇒ 最多可提升 4 次
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -18875,7 +23885,11 @@ const leader_skill_data = [
     },
     {
         'name': '致命的嬌媚',
-        'description': 'I. 魔族及妖精類攻擊力 6 倍<br>II. 其他屬性符石兼具 50% 水符石效果<br>III. 每回合回復相等於隊中所有「瀾漫勾惑 ‧ 夏娃」及「魔性原罪 · 夏娃」攻擊力基值總和的生命力 (需消除符石)',
+        'description': `
+		I. 魔族及妖精類攻擊力 6 倍
+		II. 其他屬性符石兼具 50% 水符石效果
+		III. 每回合回復相等於隊中所有「瀾漫勾惑 ‧ 夏娃」及「魔性原罪 · 夏娃」攻擊力基值總和的生命力 (需消除符石)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18892,7 +23906,14 @@ const leader_skill_data = [
     },
     {
         'name': '固守之志',
-        'description': '隊中只有人類成員時：<br>I. 人類攻擊力 4 倍<br>II. 光屬性人類攻擊力則 6 倍<br>III. 必然延長移動符石時間 1 秒<br>IV. 消除人族符石時<br>⇒ 減少 20% 所受傷害',
+        'description': `
+		隊中只有人類成員時：
+		I. 人類攻擊力 4 倍
+		II. 光屬性人類攻擊力則 6 倍
+		III. 必然延長移動符石時間 1 秒
+		IV. 消除人族符石時
+		⇒ 減少 20% 所受傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18914,7 +23935,9 @@ const leader_skill_data = [
     },
     {
         'name': '龍類萬鈞之怒 ‧ 極',
-        'description': '龍類攻擊力 5 倍',
+        'description': `
+		龍類攻擊力 5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18926,7 +23949,19 @@ const leader_skill_data = [
     },
     {
         'name': '戰神領軍',
-        'description': 'I. 全隊攻擊力 7 倍及生命力 1.5 倍<br>II. 必然延長移動符石時間 2.5 秒<br>III. 減少 20% 所受傷害<br>IV. 所受火屬性傷害則減少 40%<br>V. 若隊中只有火屬性成員時<br>⇒ 全隊攻擊力額外 1.2 倍<br>VI. 若隊中有 ≥2 種屬性成員<br>⇒ 全隊攻擊力額外 1.5 倍<br>VII. 消除的符石愈多<br>⇒ 攻擊力額外提升愈多<br>⇒ 消除 30 粒可達至最大 4 倍',
+        'description': `
+		I. 全隊攻擊力 7 倍及生命力 1.5 倍
+		II. 必然延長移動符石時間 2.5 秒
+		III. 減少 20% 所受傷害
+		IV. 所受火屬性傷害則減少 40%
+		V. 若隊中只有火屬性成員時
+		⇒ 全隊攻擊力額外 1.2 倍
+		VI. 若隊中有 ≥2 種屬性成員
+		⇒ 全隊攻擊力額外 1.5 倍
+		VII. 消除的符石愈多
+		⇒ 攻擊力額外提升愈多
+		⇒ 消除 30 粒可達至最大 4 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '延長轉珠時間', '減傷'],
@@ -18953,7 +23988,14 @@ const leader_skill_data = [
     },
     {
         'name': '最強之源',
-        'description': 'I. 任何「姆姆」及 ≥8 星成員<br>⇒ 攻擊力 11 倍<br>II. 隊中有 ≥5 種族成員<br>⇒ 全隊生命力 4 倍<br>III. 消除屬性符石<br>⇒ 任何「姆姆」以 50% 攻擊力追打該屬性攻擊 1 次',
+        'description': `
+		I. 任何「姆姆」及 ≥8 星成員
+		⇒ 攻擊力 11 倍
+		II. 隊中有 ≥5 種族成員
+		⇒ 全隊生命力 4 倍
+		III. 消除屬性符石
+		⇒ 任何「姆姆」以 50% 攻擊力追打該屬性攻擊 1 次
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -18975,7 +24017,14 @@ const leader_skill_data = [
     },
     {
         'name': '噬血龍王．暴',
-        'description': 'I. 龍類攻擊力 6 倍<br>II. 將龍類對敵方造成傷害的 10%<br>⇒ 轉化為生命力 (不計算主動及隊長技傷害)<br>⇒ 最大為生命力等值的 100% (不能疊加)<br>III. 消除龍族符石時<br>⇒ 全隊攻擊力額外 2.5 倍',
+        'description': `
+		I. 龍類攻擊力 6 倍
+		II. 將龍類對敵方造成傷害的 10%
+		⇒ 轉化為生命力 (不計算主動及隊長技傷害)
+		⇒ 最大為生命力等值的 100% (不能疊加)
+		III. 消除龍族符石時
+		⇒ 全隊攻擊力額外 2.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '我方傷害吸收'],
@@ -18992,7 +24041,10 @@ const leader_skill_data = [
     },
     {
         'name': '龍之淚息',
-        'description': 'I. 龍類攻擊力 6 倍<br>II. 每個龍類成員增加 450 點回復力',
+        'description': `
+		I. 龍類攻擊力 6 倍
+		II. 每個龍類成員增加 450 點回復力
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -19004,7 +24056,14 @@ const leader_skill_data = [
     },
     {
         'name': '幻龍利牙．噬',
-        'description': 'I. 龍類攻擊力 4 倍<br>II. 延長移動符石時間 2 秒<br>III. 消除 1 組 6 - 8 粒屬性符石<br>⇒ 則龍類攻擊力 7 倍<br>IV. 消除 1 組 ≥9 粒屬性符石<br>⇒ 則龍類攻擊力 10 倍',
+        'description': `
+		I. 龍類攻擊力 4 倍
+		II. 延長移動符石時間 2 秒
+		III. 消除 1 組 6 - 8 粒屬性符石
+		⇒ 則龍類攻擊力 7 倍
+		IV. 消除 1 組 ≥9 粒屬性符石
+		⇒ 則龍類攻擊力 10 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -19026,7 +24085,10 @@ const leader_skill_data = [
     },
     {
         'name': '龍之威烈',
-        'description': 'I. 龍類攻擊力 6 倍<br>II. 每個龍類成員增加 1,000 點攻擊力',
+        'description': `
+		I. 龍類攻擊力 6 倍
+		II. 每個龍類成員增加 1,000 點攻擊力
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -19038,7 +24100,13 @@ const leader_skill_data = [
     },
     {
         'name': '幻龍利爪．撕',
-        'description': 'I. 延長移動符石時間 2 秒<br>II. 消除 1 組 6 - 8 粒屬性符石<br>⇒ 龍類攻擊力 7 倍<br>III. 消除 1 組 ≥9 粒屬性符石<br>⇒ 則龍類攻擊力 10 倍',
+        'description': `
+		I. 延長移動符石時間 2 秒
+		II. 消除 1 組 6 - 8 粒屬性符石
+		⇒ 龍類攻擊力 7 倍
+		III. 消除 1 組 ≥9 粒屬性符石
+		⇒ 則龍類攻擊力 10 倍
+		`,
         'tag': [
             {
                 'name': '延長轉珠時間',
@@ -19055,7 +24123,10 @@ const leader_skill_data = [
     },
     {
         'name': '龍之血脈',
-        'description': 'I. 龍類攻擊力 6 倍<br>II. 每個龍類成員增加 1,500 點生命力',
+        'description': `
+		I. 龍類攻擊力 6 倍
+		II. 每個龍類成員增加 1,500 點生命力
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -19067,7 +24138,14 @@ const leader_skill_data = [
     },
     {
         'name': '手砲戰鬥',
-        'description': '隊中只有機械族成員時：<br>I. 全隊攻擊力 6.5 倍、生命力及回復力 1.3 倍<br>II. 消除水或心符石時<br>⇒ 全隊攻擊力額外 3 倍<br>III. 水、光、心符石<br>⇒ 分別兼具 50% 其他屬性符石效果',
+        'description': `
+		隊中只有機械族成員時：
+		I. 全隊攻擊力 6.5 倍、生命力及回復力 1.3 倍
+		II. 消除水或心符石時
+		⇒ 全隊攻擊力額外 3 倍
+		III. 水、光、心符石
+		⇒ 分別兼具 50% 其他屬性符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -19089,7 +24167,17 @@ const leader_skill_data = [
     },
     {
         'name': '近戰模式',
-        'description': '隊中只有火屬性或機械族成員時：<br>I. 全隊攻擊力 6.5 倍及生命力 1.5 倍<br>II. 每消除 1 組火或心符石<br>⇒ 增加 1 連擊 (Ex. Combo、Combo)<br>⇒ 最多可增加 8 連擊<br>III. 每達成 1 連擊 (Combo)<br>⇒ 回復 1,500 點生命力<br>IV. 達成 ≥6 連擊 (Combo)<br>⇒ 全隊攻擊力額外 2.5 倍',
+        'description': `
+		隊中只有火屬性或機械族成員時：
+		I. 全隊攻擊力 6.5 倍及生命力 1.5 倍
+		II. 每消除 1 組火或心符石
+		⇒ 增加 1 連擊 (Ex. Combo、Combo)
+		⇒ 最多可增加 8 連擊
+		III. 每達成 1 連擊 (Combo)
+		⇒ 回復 1,500 點生命力
+		IV. 達成 ≥6 連擊 (Combo)
+		⇒ 全隊攻擊力額外 2.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -19116,7 +24204,21 @@ const leader_skill_data = [
     },
     {
         'name': '近戰模式 ‧ 改',
-        'description': '隊中只有火屬性或機械族成員時：<br>I. 全隊攻擊力 6.5 倍及生命力 1.5 倍<br>II. 每消除 1 組火或心符石<br>⇒ 增加 1 連擊 (Ex. Combo、Combo)<br>⇒ 最多可增加 8 連擊<br>III. 每達成 1 連擊 (Combo)<br>⇒ 回復 1,500 點生命力<br>IV. 達成 ≥6 連擊 (Combo)<br>⇒ 全隊攻擊力額外 2.5 倍<br>V. 每次火屬性或機械族成員發動技能<br>⓵ 回復 5,000 點生命力<br>⓶ 全隊攻擊力提升<br>⇒ 最多可提升至 3 倍',
+        'description': `
+		隊中只有火屬性或機械族成員時：
+		I. 全隊攻擊力 6.5 倍及生命力 1.5 倍
+		II. 每消除 1 組火或心符石
+		⇒ 增加 1 連擊 (Ex. Combo、Combo)
+		⇒ 最多可增加 8 連擊
+		III. 每達成 1 連擊 (Combo)
+		⇒ 回復 1,500 點生命力
+		IV. 達成 ≥6 連擊 (Combo)
+		⇒ 全隊攻擊力額外 2.5 倍
+		V. 每次火屬性或機械族成員發動技能
+		⓵ 回復 5,000 點生命力
+		⓶ 全隊攻擊力提升
+		⇒ 最多可提升至 3 倍
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -19154,7 +24256,17 @@ const leader_skill_data = [
     },
     {
         'name': '近戰模式 ‧ 覺醒',
-        'description': '隊中只有火屬性或機械族成員時：<br>I. 全隊攻擊力 6.5 倍及生命力 1.5 倍<br>II. 每消除 1 組火或心符石<br>⇒ 增加 1 連擊 (Ex. Combo、Combo)<br>⇒ 最多可增加 12 連擊<br>III. 每達成 1 連擊 (Combo)<br>⇒ 回復 2,000 點生命力<br>IV. 達成 ≥6 連擊 (Combo)<br>⇒ 全隊攻擊力額外 2.5 倍',
+        'description': `
+		隊中只有火屬性或機械族成員時：
+		I. 全隊攻擊力 6.5 倍及生命力 1.5 倍
+		II. 每消除 1 組火或心符石
+		⇒ 增加 1 連擊 (Ex. Combo、Combo)
+		⇒ 最多可增加 12 連擊
+		III. 每達成 1 連擊 (Combo)
+		⇒ 回復 2,000 點生命力
+		IV. 達成 ≥6 連擊 (Combo)
+		⇒ 全隊攻擊力額外 2.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -19181,7 +24293,21 @@ const leader_skill_data = [
     },
     {
         'name': '近戰模式 ‧ 覺醒 ‧ 改',
-        'description': '隊中只有火屬性或機械族成員時：<br>I. 全隊攻擊力 6.5 倍及生命力 1.5 倍<br>II. 每消除 1 組火或心符石<br>⇒ 增加 1 連擊 (Ex. Combo、Combo)<br>⇒ 最多可增加 12 連擊<br>III. 每達成 1 連擊 (Combo)<br>⇒ 回復 2,000 點生命力<br>IV. 達成 ≥6 連擊 (Combo)<br>⇒ 全隊攻擊力額外 2.5 倍<br>V. 每次火屬性或機械族成員發動技能<br>⓵ 回復 10,000 點生命力<br>⓶ 全隊攻擊力提升<br>⇒ 最多可提升至 4.5 倍',
+        'description': `
+		隊中只有火屬性或機械族成員時：
+		I. 全隊攻擊力 6.5 倍及生命力 1.5 倍
+		II. 每消除 1 組火或心符石
+		⇒ 增加 1 連擊 (Ex. Combo、Combo)
+		⇒ 最多可增加 12 連擊
+		III. 每達成 1 連擊 (Combo)
+		⇒ 回復 2,000 點生命力
+		IV. 達成 ≥6 連擊 (Combo)
+		⇒ 全隊攻擊力額外 2.5 倍
+		V. 每次火屬性或機械族成員發動技能
+		⓵ 回復 10,000 點生命力
+		⓶ 全隊攻擊力提升
+		⇒ 最多可提升至 4.5 倍
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -19219,7 +24345,11 @@ const leader_skill_data = [
     },
     {
         'name': '機械戰略',
-        'description': 'I. 機械族攻擊力 5 倍<br>II. 敵人有附加效果時<br>⇒ 機械族攻擊力額外 2 倍',
+        'description': `
+		I. 機械族攻擊力 5 倍
+		II. 敵人有附加效果時
+		⇒ 機械族攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -19236,7 +24366,11 @@ const leader_skill_data = [
     },
     {
         'name': '機械戰意',
-        'description': 'I. 機械族攻擊力 5 倍<br>II. 生命力 ≥75% 時<br>⇒ 機械族攻擊力額外 3 倍',
+        'description': `
+		I. 機械族攻擊力 5 倍
+		II. 生命力 ≥75% 時
+		⇒ 機械族攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -19253,7 +24387,11 @@ const leader_skill_data = [
     },
     {
         'name': '愛與和平',
-        'description': 'I. 火屬性及機械族攻擊力 6.5 倍、生命力及回復力 1.4 倍<br>II. 連擊 (Combo) 時攻擊力提升 125%<br>III. 火符石兼具 50% 其他符石效果',
+        'description': `
+		I. 火屬性及機械族攻擊力 6.5 倍、生命力及回復力 1.4 倍
+		II. 連擊 (Combo) 時攻擊力提升 125%
+		III. 火符石兼具 50% 其他符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -19270,7 +24408,11 @@ const leader_skill_data = [
     },
     {
         'name': '機械動力',
-        'description': 'I. 機械族攻擊力 5 倍<br>II. 發動技能的機械族成員<br>⇒ 該回合攻擊力額外 2 倍',
+        'description': `
+		I. 機械族攻擊力 5 倍
+		II. 發動技能的機械族成員
+		⇒ 該回合攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -19287,7 +24429,10 @@ const leader_skill_data = [
     },
     {
         'name': '機械靈力',
-        'description': 'I. 機械族攻擊力 5 倍<br>II. 心符石兼具 50% 屬性符石效果',
+        'description': `
+		I. 機械族攻擊力 5 倍
+		II. 心符石兼具 50% 屬性符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -19304,7 +24449,14 @@ const leader_skill_data = [
     },
     {
         'name': '手砲戰鬥 ‧ 第一裝甲',
-        'description': '隊中只有機械族成員時：<br>I. 全隊攻擊力 6.8 倍、生命力及回復力 1.5 倍<br>II. 消除水或心符石時<br>⇒ 全隊攻擊力額外 3.3 倍<br>III. 水、光、心符石<br>⇒ 分別兼具 50% 其他屬性符石效果',
+        'description': `
+		隊中只有機械族成員時：
+		I. 全隊攻擊力 6.8 倍、生命力及回復力 1.5 倍
+		II. 消除水或心符石時
+		⇒ 全隊攻擊力額外 3.3 倍
+		III. 水、光、心符石
+		⇒ 分別兼具 50% 其他屬性符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -19326,7 +24478,14 @@ const leader_skill_data = [
     },
     {
         'name': '手砲戰鬥 ‧ 第二裝甲',
-        'description': '隊中只有機械族成員時：<br>I. 全隊攻擊力 7 倍、生命力及回復力 1.4 倍<br>II. 消除光或心符石時<br>⇒ 全隊攻擊力額外 3.3 倍<br>III. 水、光、心符石<br>⇒ 分別兼具 50% 其他屬性符石效果',
+        'description': `
+		隊中只有機械族成員時：
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.4 倍
+		II. 消除光或心符石時
+		⇒ 全隊攻擊力額外 3.3 倍
+		III. 水、光、心符石
+		⇒ 分別兼具 50% 其他屬性符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -19348,7 +24507,14 @@ const leader_skill_data = [
     },
     {
         'name': '手砲戰鬥 ‧ 究極裝甲',
-        'description': '隊中只有機械族成員時：<br>I. 全隊攻擊力 7 倍、生命力及回復力 1.6 倍<br>II. 消除暗或心符石時<br>⇒ 全隊攻擊力額外 2.2 倍<br>III. 水、光、暗、心符石<br>⇒ 分別兼具 50% 其他屬性符石效果',
+        'description': `
+		隊中只有機械族成員時：
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.6 倍
+		II. 消除暗或心符石時
+		⇒ 全隊攻擊力額外 2.2 倍
+		III. 水、光、暗、心符石
+		⇒ 分別兼具 50% 其他屬性符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -19370,7 +24536,10 @@ const leader_skill_data = [
     },
     {
         'name': '機械殘暴',
-        'description': 'I. 機械族攻擊力 5 倍<br>II. 水及暗符石互相兼具 50% 效果',
+        'description': `
+		I. 機械族攻擊力 5 倍
+		II. 水及暗符石互相兼具 50% 效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -19387,7 +24556,12 @@ const leader_skill_data = [
     },
     {
         'name': '機械鎮壓',
-        'description': 'I. 機械族生命力 2 倍<br>II. 所有符石兼具屬性符石效果<br>12 回合內<br>III. 機械族攻擊力及回復力 12 倍',
+        'description': `
+		I. 機械族生命力 2 倍
+		II. 所有符石兼具屬性符石效果
+		12 回合內
+		III. 機械族攻擊力及回復力 12 倍
+		`,
         'tag': [
             {
                 'name': '增血',
@@ -19409,7 +24583,13 @@ const leader_skill_data = [
     },
     {
         'name': '機械嗜虐',
-        'description': 'I. 機械族攻擊力 4 倍<br>II. 生命力 ≥50% 時<br>⇒ 機械族攻擊力額外 3 倍<br>III. 受到攻擊後<br>⇒ 下回合有 50% 機率機械族攻擊力額外 2 倍 (機率可疊加)',
+        'description': `
+		I. 機械族攻擊力 4 倍
+		II. 生命力 ≥50% 時
+		⇒ 機械族攻擊力額外 3 倍
+		III. 受到攻擊後
+		⇒ 下回合有 50% 機率機械族攻擊力額外 2 倍 (機率可疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -19431,7 +24611,15 @@ const leader_skill_data = [
     },
     {
         'name': '滅族之燄．追擊',
-        'description': 'I. 火屬性及機械族攻擊力 6.5 倍<br>II.「炙焰城主 ‧ 龐貝」的攻擊<br>⇒ 無視敵人防禦力<br>III. 消除水、火或木符石時<br>⇒ 機械族成員追打相應屬性攻擊 1 次<br>IV. 每首批消除 1 種符石<br>⇒ 於回合結束時將 5 粒該種符石添加為機械族符石 (非種族符石優先轉換)',
+        'description': `
+		I. 火屬性及機械族攻擊力 6.5 倍
+		II.「炙焰城主 ‧ 龐貝」的攻擊
+		⇒ 無視敵人防禦力
+		III. 消除水、火或木符石時
+		⇒ 機械族成員追打相應屬性攻擊 1 次
+		IV. 每首批消除 1 種符石
+		⇒ 於回合結束時將 5 粒該種符石添加為機械族符石 (非種族符石優先轉換)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -19458,7 +24646,9 @@ const leader_skill_data = [
     },
     {
         'name': '連擊攻勢',
-        'description': '連擊 (Combo) 時攻擊力提升 150%',
+        'description': `
+		連擊 (Combo) 時攻擊力提升 150%
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -19470,7 +24660,14 @@ const leader_skill_data = [
     },
     {
         'name': '猛炎之神力',
-        'description': 'I. 「次元英雄」系列及神族攻擊力 7 倍<br>II. 火、光、暗屬性生命力及回復力 1.5 倍<br>III. 首批消除任何 1 橫行內的所有符石時<br>⇒ 「次元英雄」系列及神族攻擊力額外 2 倍<br>IV. 達至 ≥6 連擊 (Combo 或 Ex. Combo) 時<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		I. 「次元英雄」系列及神族攻擊力 7 倍
+		II. 火、光、暗屬性生命力及回復力 1.5 倍
+		III. 首批消除任何 1 橫行內的所有符石時
+		⇒ 「次元英雄」系列及神族攻擊力額外 2 倍
+		IV. 達至 ≥6 連擊 (Combo 或 Ex. Combo) 時
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -19497,7 +24694,9 @@ const leader_skill_data = [
     },
     {
         'name': '大自然的奧秘',
-        'description': '木屬性攻擊力及回復力 4 倍',
+        'description': `
+		木屬性攻擊力及回復力 4 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -19509,7 +24708,15 @@ const leader_skill_data = [
     },
     {
         'name': '抗神之力',
-        'description': 'I. 神族、魔族、妖精類攻擊力 6.5 倍、生命力及回復力 1.3 倍<br>II. 消除 ≥3 種符石時<br>⇒ 神族、魔族、妖精類攻擊力額外 2 倍<br>III. 消除種族符石時<br>⇒ 神族、魔族、妖精類攻擊力額外 2 倍<br>IV. 消除光符石時<br>⇒ 全隊攻擊力額外 1.5 倍',
+        'description': `
+		I. 神族、魔族、妖精類攻擊力 6.5 倍、生命力及回復力 1.3 倍
+		II. 消除 ≥3 種符石時
+		⇒ 神族、魔族、妖精類攻擊力額外 2 倍
+		III. 消除種族符石時
+		⇒ 神族、魔族、妖精類攻擊力額外 2 倍
+		IV. 消除光符石時
+		⇒ 全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -19536,7 +24743,15 @@ const leader_skill_data = [
     },
     {
         'name': '刺棘之怒',
-        'description': 'I. 神族、魔族、妖精類攻擊力 6 倍、生命力及回復力 1.3 倍<br>II. 消除 ≥3 種符石時<br>⇒ 神族、魔族、妖精類攻擊力額外 2 倍<br>III. 生命力未滿時<br>⇒ 全隊攻擊力額外 3.5 倍<br>IV. 消除暗符石時<br>⇒ 全隊攻擊力額外 1.5 倍',
+        'description': `
+		I. 神族、魔族、妖精類攻擊力 6 倍、生命力及回復力 1.3 倍
+		II. 消除 ≥3 種符石時
+		⇒ 神族、魔族、妖精類攻擊力額外 2 倍
+		III. 生命力未滿時
+		⇒ 全隊攻擊力額外 3.5 倍
+		IV. 消除暗符石時
+		⇒ 全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -19563,7 +24778,12 @@ const leader_skill_data = [
     },
     {
         'name': '赤焰召喚',
-        'description': 'I. 消除火符石時<br>⇒ 火屬性攻擊力 5 倍<br>II. 消除 ≥1 組 ≥5 粒火符石<br>⇒ 火屬性攻擊力額外 3 倍',
+        'description': `
+		I. 消除火符石時
+		⇒ 火屬性攻擊力 5 倍
+		II. 消除 ≥1 組 ≥5 粒火符石
+		⇒ 火屬性攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -19580,7 +24800,9 @@ const leader_skill_data = [
     },
     {
         'name': '妖之再生',
-        'description': '妖精類回復力 5 倍',
+        'description': `
+		妖精類回復力 5 倍
+		`,
         'tag': [
             {
                 'name': '增回',
@@ -19592,7 +24814,12 @@ const leader_skill_data = [
     },
     {
         'name': '暗魅召喚',
-        'description': 'I. 消除暗符石時<br>⇒ 暗屬性攻擊力 5 倍<br>II. 消除 ≥1 組 ≥5 粒暗符石<br>⇒ 暗屬性攻擊力額外 3 倍',
+        'description': `
+		I. 消除暗符石時
+		⇒ 暗屬性攻擊力 5 倍
+		II. 消除 ≥1 組 ≥5 粒暗符石
+		⇒ 暗屬性攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -19609,7 +24836,12 @@ const leader_skill_data = [
     },
     {
         'name': '水之嘯',
-        'description': '隊長及戰友均為水屬性或神族時：<br>I. 水屬性攻擊力 4 倍、生命力及回復力 1.2 倍<br>II. 水屬性神族攻擊力額外 3 倍<br>III. 每回合首批掉落的符石必定為水符石',
+        'description': `
+		隊長及戰友均為水屬性或神族時：
+		I. 水屬性攻擊力 4 倍、生命力及回復力 1.2 倍
+		II. 水屬性神族攻擊力額外 3 倍
+		III. 每回合首批掉落的符石必定為水符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -19626,7 +24858,11 @@ const leader_skill_data = [
     },
     {
         'name': '獸暴',
-        'description': 'I. 全隊攻擊力 3.5 倍 <br>II. 生命力全滿時<br>⇒ 獸類攻擊力額外 3 倍',
+        'description': `
+		I. 全隊攻擊力 3.5 倍 
+		II. 生命力全滿時
+		⇒ 獸類攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -19643,7 +24879,11 @@ const leader_skill_data = [
     },
     {
         'name': '五彩激濤',
-        'description': '隊伍成員的屬性愈多<br>⇒ 全隊生命力、攻擊力、回復力愈高<br>⇒ 最多全隊攻擊力 6 倍、生命力及回復力 1.6 倍',
+        'description': `
+		隊伍成員的屬性愈多
+		⇒ 全隊生命力、攻擊力、回復力愈高
+		⇒ 最多全隊攻擊力 6 倍、生命力及回復力 1.6 倍
+		`,
         'tag': [
             {
                 'name': ['增血', '增攻', '增回'],
@@ -19655,7 +24895,14 @@ const leader_skill_data = [
     },
     {
         'name': '元素共生',
-        'description': 'I. 全隊攻擊力 8 倍、生命力及回復力 1.8 倍<br>II. 獸類及龍類成員<br>⓵ 攻擊力額外 6 倍<br>⓶ 生命力額外 2 倍<br>III. 火、光、暗、心符石<br>⇒ 互相兼具 75% 效果',
+        'description': `
+		I. 全隊攻擊力 8 倍、生命力及回復力 1.8 倍
+		II. 獸類及龍類成員
+		⓵ 攻擊力額外 6 倍
+		⓶ 生命力額外 2 倍
+		III. 火、光、暗、心符石
+		⇒ 互相兼具 75% 效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '火兼具其他', '光兼具其他', '暗兼具其他', '心兼具其他', '符石兼具火', '符石兼具光', '符石兼具暗', '符石兼具心'],
@@ -19667,7 +24914,19 @@ const leader_skill_data = [
     },
     {
         'name': '水之呼吸 (竈門炭治郎)',
-        'description': '隊中只有人類及「鬼滅之刃」石抽系列成員時：<br>I. 全隊攻擊力 7 倍、生命力及回復力 1.5 倍<br>II. 必然延長移動符石時間 1.5 秒<br>III. 消除 1 組水符石<br>⇒ 全隊攻擊力額外 2.6 倍<br>IV. 每消除 1 組水符石<br>⇒ 個人追打自身攻擊力 2.5 倍的水屬性攻擊 1 次<br>⇒ 最多可追打 3 次<br>V. 所有成員對魔族目標<br>⇒ 攻擊力額外 1.5 倍<br>⇒ 並無視其攻前盾',
+        'description': `
+		隊中只有人類及「鬼滅之刃」石抽系列成員時：
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.5 倍
+		II. 必然延長移動符石時間 1.5 秒
+		III. 消除 1 組水符石
+		⇒ 全隊攻擊力額外 2.6 倍
+		IV. 每消除 1 組水符石
+		⇒ 個人追打自身攻擊力 2.5 倍的水屬性攻擊 1 次
+		⇒ 最多可追打 3 次
+		V. 所有成員對魔族目標
+		⇒ 攻擊力額外 1.5 倍
+		⇒ 並無視其攻前盾
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '對魔族增傷', '無視攻前盾'],
@@ -19694,7 +24953,19 @@ const leader_skill_data = [
     },
     {
         'name': '火之神．碧羅天',
-        'description': '隊中只有人類及「鬼滅之刃」石抽系列成員時：<br>I. 全隊攻擊力 7 倍、生命力及回復力 1.5 倍<br>II. 必然延長移動符石 1.5 秒<br>III. 消除 1 組水或火符石<br>⇒ 全隊攻擊力額外 2.6 倍<br>IV. 每消除 1 組水或火符石<br>⇒ 個人追打自身攻擊力 2.5 倍的相應屬性攻擊 1 次<br>⇒ 最多可追打水屬性及火屬性攻擊各 2 次<br>V. 所有成員對魔族目標<br>⇒ 攻擊力額外 1.5 倍<br>⇒ 並無視其攻前盾',
+        'description': `
+		隊中只有人類及「鬼滅之刃」石抽系列成員時：
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.5 倍
+		II. 必然延長移動符石 1.5 秒
+		III. 消除 1 組水或火符石
+		⇒ 全隊攻擊力額外 2.6 倍
+		IV. 每消除 1 組水或火符石
+		⇒ 個人追打自身攻擊力 2.5 倍的相應屬性攻擊 1 次
+		⇒ 最多可追打水屬性及火屬性攻擊各 2 次
+		V. 所有成員對魔族目標
+		⇒ 攻擊力額外 1.5 倍
+		⇒ 並無視其攻前盾
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '對魔族增傷', '無視攻前盾'],
@@ -19721,7 +24992,17 @@ const leader_skill_data = [
     },
     {
         'name': '鬼化戰鬥',
-        'description': '隊中只有人類及「竈門禰豆子」或「珠世與愈史郎」：<br>I. 全隊攻擊力 6.5 倍、生命力及回復力 1.6 倍<br>II. 隊中有「竈門炭治郎」或「火之神 ‧ 竈門炭治郎」時<br>⇒ 全隊攻擊力額外 1.6 倍<br>III. 消除種族符石時<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 減少 25% 所受傷害<br>V. 所受魔族敵人的傷害<br>⇒ 則減少 50%',
+        'description': `
+		隊中只有人類及「竈門禰豆子」或「珠世與愈史郎」：
+		I. 全隊攻擊力 6.5 倍、生命力及回復力 1.6 倍
+		II. 隊中有「竈門炭治郎」或「火之神 ‧ 竈門炭治郎」時
+		⇒ 全隊攻擊力額外 1.6 倍
+		III. 消除種族符石時
+		⇒ 全隊攻擊力額外 2 倍
+		IV. 減少 25% 所受傷害
+		V. 所受魔族敵人的傷害
+		⇒ 則減少 50%
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -19743,7 +25024,15 @@ const leader_skill_data = [
     },
     {
         'name': '獸之呼吸',
-        'description': '隊中只有獸類、人類或「鬼滅之刃」石抽系列成員時：<br>I. 全隊攻擊力 6 倍及生命力 1.2 倍<br>II. 每個成員增加 160 點回復力<br>III. 消除種族符石時<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 所有成員對魔族目標<br>⇒ 攻擊力額外 1.5 倍',
+        'description': `
+		隊中只有獸類、人類或「鬼滅之刃」石抽系列成員時：
+		I. 全隊攻擊力 6 倍及生命力 1.2 倍
+		II. 每個成員增加 160 點回復力
+		III. 消除種族符石時
+		⇒ 全隊攻擊力額外 2 倍
+		IV. 所有成員對魔族目標
+		⇒ 攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '對魔族增傷'],
@@ -19760,7 +25049,18 @@ const leader_skill_data = [
     },
     {
         'name': '獸之呼吸 ‧ 強',
-        'description': '隊中只有獸類、人類或「鬼滅之刃」石抽系列成員時：<br>I. 全隊攻擊力 6 倍及生命力 1.2 倍<br>II. 每個成員增加 160 點回復力<br>III. 消除種族符石時<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 所有成員對魔族目標<br>⇒ 攻擊力額外 1.5 倍<br>V. 回合結束時，可點選「X 型」<br>⇒ 引爆 10 個固定位置的符石<br>⇒ 掉落強化符石',
+        'description': `
+		隊中只有獸類、人類或「鬼滅之刃」石抽系列成員時：
+		I. 全隊攻擊力 6 倍及生命力 1.2 倍
+		II. 每個成員增加 160 點回復力
+		III. 消除種族符石時
+		⇒ 全隊攻擊力額外 2 倍
+		IV. 所有成員對魔族目標
+		⇒ 攻擊力額外 1.5 倍
+		V. 回合結束時，可點選「X 型」
+		⇒ 引爆 10 個固定位置的符石
+		⇒ 掉落強化符石
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -19783,7 +25083,18 @@ const leader_skill_data = [
     },
     {
         'name': '雷之呼吸',
-        'description': '隊中只有光屬性或「鬼滅之刃」石抽系列成員時：<br>I. 全隊攻擊力 6 倍、生命力及回復力 1.2 倍<br>II. 消除種族符石時<br>⇒ 全隊攻擊力額外 1.6 倍<br>III. 所有成員對魔族目標<br>⇒ 攻擊力額外 1.5 倍<br>IV. 每首批消除 1 連擊 (Combo)<br>⇒ 自身直行掉落 1 粒光強化符石<br>V. 消除 ≥10 粒光符石<br>⇒ 全隊攻擊力額外 1.4 倍',
+        'description': `
+		隊中只有光屬性或「鬼滅之刃」石抽系列成員時：
+		I. 全隊攻擊力 6 倍、生命力及回復力 1.2 倍
+		II. 消除種族符石時
+		⇒ 全隊攻擊力額外 1.6 倍
+		III. 所有成員對魔族目標
+		⇒ 攻擊力額外 1.5 倍
+		IV. 每首批消除 1 連擊 (Combo)
+		⇒ 自身直行掉落 1 粒光強化符石
+		V. 消除 ≥10 粒光符石
+		⇒ 全隊攻擊力額外 1.4 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '對魔族增傷'],
@@ -19810,7 +25121,18 @@ const leader_skill_data = [
     },
     {
         'name': '水之呼吸 (冨岡義勇)',
-        'description': '隊中只有水屬性成員時：<br>I. 全隊攻擊力 7 倍及生命力 1.6 倍<br>II. 必然延長移動符石 2 秒<br>III. 於成員直行消除水符石時<br>⇒ 該成員攻擊力額外 2 倍<br>IV. 受到攻擊時，場上每有 1 粒水符石<br>⇒ 可減少 10% 所受傷害<br>⇒ 最多可減少 50% 傷害<br>V. 所有成員對魔族目標<br>⇒ 攻擊力額外 1.5 倍',
+        'description': `
+		隊中只有水屬性成員時：
+		I. 全隊攻擊力 7 倍及生命力 1.6 倍
+		II. 必然延長移動符石 2 秒
+		III. 於成員直行消除水符石時
+		⇒ 該成員攻擊力額外 2 倍
+		IV. 受到攻擊時，場上每有 1 粒水符石
+		⇒ 可減少 10% 所受傷害
+		⇒ 最多可減少 50% 傷害
+		V. 所有成員對魔族目標
+		⇒ 攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '對魔族增傷'],
@@ -19837,7 +25159,17 @@ const leader_skill_data = [
     },
     {
         'name': '炎之呼吸',
-        'description': '隊中只有火屬性或人類，及沒有魔族成員時：<br>I. 全隊攻擊力 6.5 倍、生命力及回復力 1.8 倍<br>II. 必然延長移動符石時間 2 秒<br>III. 於自身直行消除火符石時<br>⇒ 全隊攻擊力額外 1.8 倍<br>IV. 消除 1 組 ≥5 粒火符石時<br>⇒ 全隊攻擊力額外 2.2 倍<br>V. 所有成員對魔族目標<br>⇒ 攻擊力額外 1.5 倍',
+        'description': `
+		隊中只有火屬性或人類，及沒有魔族成員時：
+		I. 全隊攻擊力 6.5 倍、生命力及回復力 1.8 倍
+		II. 必然延長移動符石時間 2 秒
+		III. 於自身直行消除火符石時
+		⇒ 全隊攻擊力額外 1.8 倍
+		IV. 消除 1 組 ≥5 粒火符石時
+		⇒ 全隊攻擊力額外 2.2 倍
+		V. 所有成員對魔族目標
+		⇒ 攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '對魔族增傷'],
@@ -19864,7 +25196,16 @@ const leader_skill_data = [
     },
     {
         'name': '蟲之呼吸',
-        'description': '隊伍中只有暗屬性、人類或「鬼滅之刃」石抽系列成員時：<br>I. 全隊攻擊力 6 倍、生命力及回復力 1.2 倍<br>II. 消除種族符石時<br>⇒ 全隊攻擊力額外 1.6 倍<br>III. 所有成員對魔族目標<br>⇒ 攻擊力額外 1.5 倍<br>IV. 消除暗或心符石時<br>⇒ 個人以 50% 攻擊力追打 5 次',
+        'description': `
+		隊伍中只有暗屬性、人類或「鬼滅之刃」石抽系列成員時：
+		I. 全隊攻擊力 6 倍、生命力及回復力 1.2 倍
+		II. 消除種族符石時
+		⇒ 全隊攻擊力額外 1.6 倍
+		III. 所有成員對魔族目標
+		⇒ 攻擊力額外 1.5 倍
+		IV. 消除暗或心符石時
+		⇒ 個人以 50% 攻擊力追打 5 次
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '對魔族增傷'],
@@ -19886,7 +25227,13 @@ const leader_skill_data = [
     },
     {
         'name': '血鬼術 ‧ 破壞殺',
-        'description': 'I. 魔族攻擊力 6 倍<br>II. 其他屬性符石兼具<br>⇒ 50% 水符石效果<br>III. 以「猗窩座」作隊長及戰友，且隊中沒有隊員<br>⇒ 全隊生命力、攻擊力、回復力額外 5 倍',
+        'description': `
+		I. 魔族攻擊力 6 倍
+		II. 其他屬性符石兼具
+		⇒ 50% 水符石效果
+		III. 以「猗窩座」作隊長及戰友，且隊中沒有隊員
+		⇒ 全隊生命力、攻擊力、回復力額外 5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -19908,7 +25255,14 @@ const leader_skill_data = [
     },
     {
         'name': '龍威震天',
-        'description': 'I. 龍類及獸類攻擊力 7 倍及生命力 1.5 倍<br>II. 隊中只有龍類及獸類成員時<br>⇒ 全隊生命力額外 1.5 倍<br>III. 首批沒有消除心符石時<br>⇒ 龍類及獸類攻擊力額外 3 倍<br>IV. 延長移動符石時間 2.5 秒',
+        'description': `
+		I. 龍類及獸類攻擊力 7 倍及生命力 1.5 倍
+		II. 隊中只有龍類及獸類成員時
+		⇒ 全隊生命力額外 1.5 倍
+		III. 首批沒有消除心符石時
+		⇒ 龍類及獸類攻擊力額外 3 倍
+		IV. 延長移動符石時間 2.5 秒
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -19935,7 +25289,14 @@ const leader_skill_data = [
     },
     {
         'name': '獸威撼地',
-        'description': 'I. 獸類及龍類攻擊力 6.5 倍及生命力 1.3 倍<br>II. 隊伍中只有獸類成員時<br>⇒ 獸類生命力及回復力額外 1.3 倍<br>III. 達至 ≥6 連擊 (Combo) 時<br>⇒ 龍類及獸類攻擊力額外 2.5 倍<br>IV. 延長移動符石時間 2 秒',
+        'description': `
+		I. 獸類及龍類攻擊力 6.5 倍及生命力 1.3 倍
+		II. 隊伍中只有獸類成員時
+		⇒ 獸類生命力及回復力額外 1.3 倍
+		III. 達至 ≥6 連擊 (Combo) 時
+		⇒ 龍類及獸類攻擊力額外 2.5 倍
+		IV. 延長移動符石時間 2 秒
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -19962,7 +25323,13 @@ const leader_skill_data = [
     },
     {
         'name': '龍威破空',
-        'description': 'I. 龍類攻擊力 6 倍及生命力 2.5 倍<br>II. 同時消除水、暗或心符石其中 2 種符石時<br>⇒ 龍類攻擊力額外 4 倍<br>III. 水及暗符石互相兼具 50% 效果<br>IV. 延長移動符石時間 2.5 秒',
+        'description': `
+		I. 龍類攻擊力 6 倍及生命力 2.5 倍
+		II. 同時消除水、暗或心符石其中 2 種符石時
+		⇒ 龍類攻擊力額外 4 倍
+		III. 水及暗符石互相兼具 50% 效果
+		IV. 延長移動符石時間 2.5 秒
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -19984,7 +25351,14 @@ const leader_skill_data = [
     },
     {
         'name': '不想再看到有人流淚了！',
-        'description': '隊中只有人類成員時：<br>I. 全隊攻擊力 6.5 倍、生命力及回復力 1.6 倍<br>II. 火符石兼具 50% 心符石效果<br>III. 心符石兼具 50% 屬性符石效果<br>IV. 消除 ≥12 粒符石時<br>⇒ 全隊攻擊力額外 2.5 倍',
+        'description': `
+		隊中只有人類成員時：
+		I. 全隊攻擊力 6.5 倍、生命力及回復力 1.6 倍
+		II. 火符石兼具 50% 心符石效果
+		III. 心符石兼具 50% 屬性符石效果
+		IV. 消除 ≥12 粒符石時
+		⇒ 全隊攻擊力額外 2.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -20006,7 +25380,14 @@ const leader_skill_data = [
     },
     {
         'name': '夢想追尋者',
-        'description': '隊中只有人類成員時：<br>I. 全隊攻擊力 7 倍、生命力及回復力 1.6 倍<br>II. 火符石兼具 50% 心符石效果<br>III. 心符石兼具 50% 屬性符石效果<br>IV. 消除 ≥12 粒符石時<br>⇒ 全隊攻擊力額外 3 倍',
+        'description': `
+		隊中只有人類成員時：
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.6 倍
+		II. 火符石兼具 50% 心符石效果
+		III. 心符石兼具 50% 屬性符石效果
+		IV. 消除 ≥12 粒符石時
+		⇒ 全隊攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -20028,7 +25409,16 @@ const leader_skill_data = [
     },
     {
         'name': '我的名字是01！',
-        'description': '隊中只有木屬性、人類或機械族成員時：<br>I. 全隊攻擊力 7 倍、生命力及回復力 1.5 倍<br>II. 必然延長移動符石時間 1 秒<br>III.【假面騎士】攻擊力額外 1.5 倍<br>IV. 木及光符石互相兼具 50% 效果<br>V. 每消除 1 粒符石<br>⇒ 全隊攻擊力額外提升 0.1 倍<br>⇒ 消除 20 粒可提升至最大 3 倍',
+        'description': `
+		隊中只有木屬性、人類或機械族成員時：
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.5 倍
+		II. 必然延長移動符石時間 1 秒
+		III.【假面騎士】攻擊力額外 1.5 倍
+		IV. 木及光符石互相兼具 50% 效果
+		V. 每消除 1 粒符石
+		⇒ 全隊攻擊力額外提升 0.1 倍
+		⇒ 消除 20 粒可提升至最大 3 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -20055,7 +25445,16 @@ const leader_skill_data = [
     },
     {
         'name': '我不會絕望！',
-        'description': '隊中只有人類或「影月」時：<br>I. 全隊攻擊力 6.5 倍及回復力 3 倍<br>II. 延長移動符石時間 2 秒<br>III. 達至 ≥6 Combo<br>⇒ 全隊攻擊力額外 3.5 倍<br>IV. 暗及火符石分別兼具<br>⇒ 50% 其他符石效果<br>V. 光符石效果提升 100%',
+        'description': `
+		隊中只有人類或「影月」時：
+		I. 全隊攻擊力 6.5 倍及回復力 3 倍
+		II. 延長移動符石時間 2 秒
+		III. 達至 ≥6 Combo
+		⇒ 全隊攻擊力額外 3.5 倍
+		IV. 暗及火符石分別兼具
+		⇒ 50% 其他符石效果
+		V. 光符石效果提升 100%
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -20077,7 +25476,16 @@ const leader_skill_data = [
     },
     {
         'name': '太陽之子',
-        'description': '隊中只有人類或「影月」時：<br>I. 全隊攻擊力 6.5 倍及回復力 3 倍<br>II. 延長移動符石時間 3 秒<br>III. 達至 ≥6 Combo<br>⇒ 全隊攻擊力額外 3.5 倍<br>IV. 暗及火符石分別兼具<br>⇒ 50% 其他符石效果<br>V. 光符石效果提升 100%',
+        'description': `
+		隊中只有人類或「影月」時：
+		I. 全隊攻擊力 6.5 倍及回復力 3 倍
+		II. 延長移動符石時間 3 秒
+		III. 達至 ≥6 Combo
+		⇒ 全隊攻擊力額外 3.5 倍
+		IV. 暗及火符石分別兼具
+		⇒ 50% 其他符石效果
+		V. 光符石效果提升 100%
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -20099,7 +25507,14 @@ const leader_skill_data = [
     },
     {
         'name': '我只是路過的假面騎士！',
-        'description': '隊中只有暗屬性或【假面騎士】成員時：<br>I. 全隊攻擊力 6.5 倍、生命力及回復力 1.5 倍<br>II. 達至 ≥10 Combo 或 Ex. Combo<br>⇒ 全隊攻擊力額外 3 倍<br>III. 減少 25% 所受傷害<br>IV. 所受人類敵人的傷害則減少 40%',
+        'description': `
+		隊中只有暗屬性或【假面騎士】成員時：
+		I. 全隊攻擊力 6.5 倍、生命力及回復力 1.5 倍
+		II. 達至 ≥10 Combo 或 Ex. Combo
+		⇒ 全隊攻擊力額外 3 倍
+		III. 減少 25% 所受傷害
+		IV. 所受人類敵人的傷害則減少 40%
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -20121,7 +25536,14 @@ const leader_skill_data = [
     },
     {
         'name': '世界破壞者',
-        'description': '隊中只有暗屬性或【假面騎士】成員時：<br>I. 全隊攻擊力 7 倍、生命力及回復力 1.5 倍<br>II. 達至 ≥10 Combo 或 Ex. Combo<br>⇒ 全隊攻擊力額外 4 倍<br>III. 減少 30% 所受傷害<br>IV. 所受人類敵人的傷害則減少 40%',
+        'description': `
+		隊中只有暗屬性或【假面騎士】成員時：
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.5 倍
+		II. 達至 ≥10 Combo 或 Ex. Combo
+		⇒ 全隊攻擊力額外 4 倍
+		III. 減少 30% 所受傷害
+		IV. 所受人類敵人的傷害則減少 40%
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -20143,7 +25565,14 @@ const leader_skill_data = [
     },
     {
         'name': '約定',
-        'description': '隊中只有人類及【假面騎士】：<br>I. 全隊攻擊力 6 倍及生命力 1.5 倍<br>II. 首批消除所有火符石時<br>⇒ 全隊攻擊力額外 1.5 倍<br>III. 火及心符石分別兼具<br>⇒ 50% 其他屬性符石效果',
+        'description': `
+		隊中只有人類及【假面騎士】：
+		I. 全隊攻擊力 6 倍及生命力 1.5 倍
+		II. 首批消除所有火符石時
+		⇒ 全隊攻擊力額外 1.5 倍
+		III. 火及心符石分別兼具
+		⇒ 50% 其他屬性符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -20165,7 +25594,12 @@ const leader_skill_data = [
     },
     {
         'name': '不容許擾亂人類的和平！',
-        'description': '隊中只有人類及【假面騎士】：<br>I. 全隊攻擊力 6 倍、生命力及回復力 1.2 倍<br>II. 木及心符石分別兼具<br>⇒ 50% 其他屬性符石效果',
+        'description': `
+		隊中只有人類及【假面騎士】：
+		I. 全隊攻擊力 6 倍、生命力及回復力 1.2 倍
+		II. 木及心符石分別兼具
+		⇒ 50% 其他屬性符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -20182,7 +25616,14 @@ const leader_skill_data = [
     },
     {
         'name': '俺、參上！',
-        'description': '隊中只有人類及【假面騎士】：<br>I. 全隊攻擊力 6 倍及回復力 1.5 倍<br>II. 同時消除火及光符石時<br>⇒ 全隊攻擊力額外 1.5 倍<br>III. 火及心符石分別兼具<br>⇒ 50% 其他屬性符石效果',
+        'description': `
+		隊中只有人類及【假面騎士】：
+		I. 全隊攻擊力 6 倍及回復力 1.5 倍
+		II. 同時消除火及光符石時
+		⇒ 全隊攻擊力額外 1.5 倍
+		III. 火及心符石分別兼具
+		⇒ 50% 其他屬性符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -20204,7 +25645,14 @@ const leader_skill_data = [
     },
     {
         'name': '患者的命運由我來改變！',
-        'description': '隊中只有人類及【假面騎士】：<br>I. 全隊攻擊力 6.5 倍<br>II. 以右方 3 直行的符石開始轉珠時<br>⇒【假面騎士】攻擊力額外 1.5 倍<br>III. 光及心符石分別兼具<br>⇒ 50% 其他屬性符石效果',
+        'description': `
+		隊中只有人類及【假面騎士】：
+		I. 全隊攻擊力 6.5 倍
+		II. 以右方 3 直行的符石開始轉珠時
+		⇒【假面騎士】攻擊力額外 1.5 倍
+		III. 光及心符石分別兼具
+		⇒ 50% 其他屬性符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -20226,7 +25674,13 @@ const leader_skill_data = [
     },
     {
         'name': '我要成為王！',
-        'description': '隊中只有人類及魔族成員時：<br>I. 全隊攻擊力 7 倍、生命力及回復力 2 倍<br>II. 進入關卡後<br>⇒ 人類成員技能 CD -2<br>III. 魔族成員以 50% 攻擊力追打 1 次',
+        'description': `
+		隊中只有人類及魔族成員時：
+		I. 全隊攻擊力 7 倍、生命力及回復力 2 倍
+		II. 進入關卡後
+		⇒ 人類成員技能 CD -2
+		III. 魔族成員以 50% 攻擊力追打 1 次
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -20248,7 +25702,13 @@ const leader_skill_data = [
     },
     {
         'name': '這是方舟的意志！',
-        'description': 'I. 暗屬性攻擊力 4 倍、生命力及回復力 1.5 倍<br>II. 暗屬性機械族攻擊力額外 4 倍<br>III. 首批消除所有暗符石時<br>⓵ 自身攻擊力額外 4 倍<br>⓶ 增加 3 連擊 (Combo)',
+        'description': `
+		I. 暗屬性攻擊力 4 倍、生命力及回復力 1.5 倍
+		II. 暗屬性機械族攻擊力額外 4 倍
+		III. 首批消除所有暗符石時
+		⓵ 自身攻擊力額外 4 倍
+		⓶ 增加 3 連擊 (Combo)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -20270,7 +25730,16 @@ const leader_skill_data = [
     },
     {
         'name': '假面騎士Zero Two，這是我的名字！',
-        'description': '隊中只有木屬性、人類或機械族成員時：<br>I. 全隊攻擊力 7 倍、生命力及回復力 1.5 倍<br>II. 必然延長移動符石時間 2 秒<br>III.【假面騎士】攻擊力額外 1.5 倍<br>IV. 木、光、心符石互相兼具 50% 效果<br>V. 每消除 2 粒符石<br>⇒ 全隊攻擊力額外提升 0.2 倍<br>⇒ 消除 20 粒可提升至最大 3 倍',
+        'description': `
+		隊中只有木屬性、人類或機械族成員時：
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.5 倍
+		II. 必然延長移動符石時間 2 秒
+		III.【假面騎士】攻擊力額外 1.5 倍
+		IV. 木、光、心符石互相兼具 50% 效果
+		V. 每消除 2 粒符石
+		⇒ 全隊攻擊力額外提升 0.2 倍
+		⇒ 消除 20 粒可提升至最大 3 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -20297,7 +25766,16 @@ const leader_skill_data = [
     },
     {
         'name': '只能結束這一切了！',
-        'description': '隊中只有人類或機械族成員時：<br>I. 全隊攻擊力 7 倍、生命力及回復力 1.6 倍<br>II. 必然延長移動符石時間 1.5 秒<br>III.【假面騎士】攻擊力額外 1.5 倍<br>IV. 暗符石兼具 50% 其他屬性符石效果<br>V. 每消除 1 組符石<br>⇒ 全隊攻擊力額外提升<br>⇒ 消除 10 組可提升至最大 2 倍',
+        'description': `
+		隊中只有人類或機械族成員時：
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.6 倍
+		II. 必然延長移動符石時間 1.5 秒
+		III.【假面騎士】攻擊力額外 1.5 倍
+		IV. 暗符石兼具 50% 其他屬性符石效果
+		V. 每消除 1 組符石
+		⇒ 全隊攻擊力額外提升
+		⇒ 消除 10 組可提升至最大 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -20324,7 +25802,13 @@ const leader_skill_data = [
     },
     {
         'name': '慶賀吧！其名為逢魔Zi-O！',
-        'description': '隊中只有人類及魔族成員時：<br>I. 全隊攻擊力 7 倍、生命力及回復力 1.5 倍<br>II. 所受傷害減少 60%<br>III. 魔族成員追打 1 次<br>IV. 魔族成員無視敵人防禦力',
+        'description': `
+		隊中只有人類及魔族成員時：
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.5 倍
+		II. 所受傷害減少 60%
+		III. 魔族成員追打 1 次
+		IV. 魔族成員無視敵人防禦力
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -20346,7 +25830,15 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼賜賞 ‧ 神威之浪',
-        'description': 'I. 水屬性攻擊力 7 倍、生命力及回復力 1.4 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行產生 1 粒水神族強化符石<br>III. 消除 1 組 ≥5 粒水符石<br>⇒ 水屬性攻擊力額外 2.5 倍<br>IV. 消除強化符石<br>⇒ 水屬性攻擊力額外 1.8 倍',
+        'description': `
+		I. 水屬性攻擊力 7 倍、生命力及回復力 1.4 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行產生 1 粒水神族強化符石
+		III. 消除 1 組 ≥5 粒水符石
+		⇒ 水屬性攻擊力額外 2.5 倍
+		IV. 消除強化符石
+		⇒ 水屬性攻擊力額外 1.8 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -20373,7 +25865,15 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼賜賞 ‧ 神威之燄',
-        'description': 'I. 火屬性攻擊力 7 倍、生命力及回復力 1.4 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行產生 1 粒火神族強化符石<br>III. 消除 1 組 ≥5 粒火符石<br>⇒ 火屬性攻擊力額外 2.5 倍<br>IV. 消除強化符石<br>⇒ 火屬性攻擊力額外 1.8 倍',
+        'description': `
+		I. 火屬性攻擊力 7 倍、生命力及回復力 1.4 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行產生 1 粒火神族強化符石
+		III. 消除 1 組 ≥5 粒火符石
+		⇒ 火屬性攻擊力額外 2.5 倍
+		IV. 消除強化符石
+		⇒ 火屬性攻擊力額外 1.8 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -20400,7 +25900,15 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼賜賞 ‧ 神威之藤',
-        'description': 'I. 木屬性攻擊力 7 倍、生命力及回復力 1.4 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行產生 1 粒木神族強化符石<br>III. 消除 1 組 ≥5 粒木符石<br>⇒ 木屬性攻擊力額外 2.5 倍<br>IV. 消除強化符石<br>⇒ 木屬性攻擊力額外 1.8 倍',
+        'description': `
+		I. 木屬性攻擊力 7 倍、生命力及回復力 1.4 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行產生 1 粒木神族強化符石
+		III. 消除 1 組 ≥5 粒木符石
+		⇒ 木屬性攻擊力額外 2.5 倍
+		IV. 消除強化符石
+		⇒ 木屬性攻擊力額外 1.8 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -20427,7 +25935,15 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼賜賞 ‧ 神威之玄',
-        'description': 'I. 光屬性攻擊力 7 倍、生命力及回復力 1.4 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行產生 1 粒光神族強化符石<br>III. 消除 1 組 ≥5 粒光符石<br>⇒ 光屬性攻擊力額外 2.5 倍<br>IV. 消除強化符石<br>⇒ 光屬性攻擊力額外 1.8 倍',
+        'description': `
+		I. 光屬性攻擊力 7 倍、生命力及回復力 1.4 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行產生 1 粒光神族強化符石
+		III. 消除 1 組 ≥5 粒光符石
+		⇒ 光屬性攻擊力額外 2.5 倍
+		IV. 消除強化符石
+		⇒ 光屬性攻擊力額外 1.8 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -20454,7 +25970,15 @@ const leader_skill_data = [
     },
     {
         'name': '穹蒼賜賞 ‧ 神威之幽',
-        'description': 'I. 暗屬性攻擊力 7 倍、生命力及回復力 1.4 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石時<br>⇒ 該直行產生 1 粒暗神族強化符石<br>III. 消除 1 組 ≥5 粒暗符石<br>⇒ 暗屬性攻擊力額外 2.5 倍<br>IV. 消除強化符石<br>⇒ 暗屬性攻擊力額外 1.8 倍',
+        'description': `
+		I. 暗屬性攻擊力 7 倍、生命力及回復力 1.4 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石時
+		⇒ 該直行產生 1 粒暗神族強化符石
+		III. 消除 1 組 ≥5 粒暗符石
+		⇒ 暗屬性攻擊力額外 2.5 倍
+		IV. 消除強化符石
+		⇒ 暗屬性攻擊力額外 1.8 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -20481,7 +26005,16 @@ const leader_skill_data = [
     },
     {
         'name': '千秋的傳承 ‧ 使命',
-        'description': 'I. 木屬性攻擊力 6.5 倍、生命力及回復力 1.6 倍<br>II. 木屬性人類攻擊力則 8 倍<br>III. 必然延長移動符石時間 3 秒<br>IV. 消除種族符石時<br>⇒ 木屬性攻擊力額外 4 倍<br>V. 每消除 1 組光或暗符石<br>⇒ 回合結束時將 3 粒符石轉化為人族強化符石 (木及心符石優先轉換)<br>⇒ 最多可轉化 30 粒',
+        'description': `
+		I. 木屬性攻擊力 6.5 倍、生命力及回復力 1.6 倍
+		II. 木屬性人類攻擊力則 8 倍
+		III. 必然延長移動符石時間 3 秒
+		IV. 消除種族符石時
+		⇒ 木屬性攻擊力額外 4 倍
+		V. 每消除 1 組光或暗符石
+		⇒ 回合結束時將 3 粒符石轉化為人族強化符石 (木及心符石優先轉換)
+		⇒ 最多可轉化 30 粒
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -20508,7 +26041,12 @@ const leader_skill_data = [
     },
     {
         'name': '不撓雄傑 ‧ 木林',
-        'description': 'I. 木屬性攻擊力 5 倍<br>II. 隊中人類成員愈多<br>⇒ 木屬性成員的生命力及回復力額外提升愈多<br>⇒ 5 個人類成員可達至最大 2.5 倍 (不計自身)',
+        'description': `
+		I. 木屬性攻擊力 5 倍
+		II. 隊中人類成員愈多
+		⇒ 木屬性成員的生命力及回復力額外提升愈多
+		⇒ 5 個人類成員可達至最大 2.5 倍 (不計自身)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -20525,7 +26063,13 @@ const leader_skill_data = [
     },
     {
         'name': '暗黑回復魔法 ‧ 魅',
-        'description': 'I. 妖精類攻擊力及回復力 6.5 倍、生命力 1.5 倍<br>II. 每直行首批消除 1 組 ≥4 粒符石<br>⇒ 該直行產生 1 粒心強化符石<br>III. 回合結束時<br>⇒ 將心符石轉化為妖族強化符石',
+        'description': `
+		I. 妖精類攻擊力及回復力 6.5 倍、生命力 1.5 倍
+		II. 每直行首批消除 1 組 ≥4 粒符石
+		⇒ 該直行產生 1 粒心強化符石
+		III. 回合結束時
+		⇒ 將心符石轉化為妖族強化符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回', '增血'],
@@ -20547,7 +26091,14 @@ const leader_skill_data = [
     },
     {
         'name': '騎士誓盟',
-        'description': '隊中只有火、木或暗屬性成員時：<br>I. 全隊攻擊力 6.5 倍、生命力及回復力 1.3 倍<br>II. 消除心符石時<br>⇒ 全隊攻擊力額外 2.5 倍<br>III. 消除強化符石時<br>⇒ 自身攻擊力額外 1.5 倍',
+        'description': `
+		隊中只有火、木或暗屬性成員時：
+		I. 全隊攻擊力 6.5 倍、生命力及回復力 1.3 倍
+		II. 消除心符石時
+		⇒ 全隊攻擊力額外 2.5 倍
+		III. 消除強化符石時
+		⇒ 自身攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -20569,7 +26120,12 @@ const leader_skill_data = [
     },
     {
         'name': '騎士之盟 ‧ 強',
-        'description': '隊中只有火、木及暗屬性成員時：<br>I. 全隊攻擊力 5 倍<br>II. 消除心符石時<br>⇒ 全隊攻擊力額外 2.5 倍',
+        'description': `
+		隊中只有火、木及暗屬性成員時：
+		I. 全隊攻擊力 5 倍
+		II. 消除心符石時
+		⇒ 全隊攻擊力額外 2.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -20586,7 +26142,17 @@ const leader_skill_data = [
     },
     {
         'name': '聖劍絕殺',
-        'description': '隊中只有光屬性人類及【圓桌騎士】成員時：<br>I. 全隊攻擊力 7 倍、生命力及回復力 1.8 倍<br>II. 其他符石分別兼具<br>⇒ 50% 光及心符石效果<br>III. 每首批全部消除場上 1 種符石時<br>⇒ 全隊攻擊力額外 1.35 倍<br>IV. 每消除 1 組光以外的符石<br>⇒ 額外計算多 1 Combo<br>⇒ 最多可增加 4 Combo',
+        'description': `
+		隊中只有光屬性人類及【圓桌騎士】成員時：
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.8 倍
+		II. 其他符石分別兼具
+		⇒ 50% 光及心符石效果
+		III. 每首批全部消除場上 1 種符石時
+		⇒ 全隊攻擊力額外 1.35 倍
+		IV. 每消除 1 組光以外的符石
+		⇒ 額外計算多 1 Combo
+		⇒ 最多可增加 4 Combo
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -20613,7 +26179,21 @@ const leader_skill_data = [
     },
     {
         'name': '逆鱗之噬',
-        'description': 'I. 所有成員回復力減至 0<br>II. 將每個龍類及獸類成員原有回復力基值 2 倍<br>⇒ 各自加入自身攻擊力基值<br>III. 每回合扣除全隊總生命力 5%<br>IV. 龍類及獸類成員<br>⇒ 攻擊力 25 倍及生命力 2.5 倍<br>V. 將龍類及獸類成員對敵方造成攻擊傷害的 10%<br>⇒ 轉化為生命力<br>⇒ 最大為生命力等值的 50%<br>VI. 若轉化的生命力超過總生命力時：<br>每超出 15% 總生命力<br>⇒ 於回合結束時將 1 粒符石轉化為木強化符石 (木以外符石優先轉換)<br>⇒ 最多可轉化 3 粒',
+        'description': `
+		I. 所有成員回復力減至 0
+		II. 將每個龍類及獸類成員原有回復力基值 2 倍
+		⇒ 各自加入自身攻擊力基值
+		III. 每回合扣除全隊總生命力 5%
+		IV. 龍類及獸類成員
+		⇒ 攻擊力 25 倍及生命力 2.5 倍
+		V. 將龍類及獸類成員對敵方造成攻擊傷害的 10%
+		⇒ 轉化為生命力
+		⇒ 最大為生命力等值的 50%
+		VI. 若轉化的生命力超過總生命力時：
+		每超出 15% 總生命力
+		⇒ 於回合結束時將 1 粒符石轉化為木強化符石 (木以外符石優先轉換)
+		⇒ 最多可轉化 3 粒
+		`,
         'tag': [
             {
                 'name': ['我方減回', '我方扣血', '符石轉木', '符石轉木強化'],
@@ -20630,7 +26210,12 @@ const leader_skill_data = [
     },
     {
         'name': '龍噬',
-        'description': 'I. 龍類生命力及攻擊力 5 倍<br>II. 龍類成員回復力基值減至 0<br>III. 消除木符石時<br>⇒ 回復龍類成員 15% 總生命力',
+        'description': `
+		I. 龍類生命力及攻擊力 5 倍
+		II. 龍類成員回復力基值減至 0
+		III. 消除木符石時
+		⇒ 回復龍類成員 15% 總生命力
+		`,
         'tag': [
             {
                 'name': ['增血', '增攻', '我方減回'],
@@ -20647,7 +26232,13 @@ const leader_skill_data = [
     },
     {
         'name': '亂世重典 ‧ 刑',
-        'description': 'I. 暗屬性、魔族、龍類成員攻擊力 7.5 倍<br>II. 全隊無視敵人防禦力<br>III. 必然延長移動符石時間 2.5 秒<br>IV. 消除 1 組 ≥4 粒符石<br>⇒ 全隊攻擊力額外 4 倍',
+        'description': `
+		I. 暗屬性、魔族、龍類成員攻擊力 7.5 倍
+		II. 全隊無視敵人防禦力
+		III. 必然延長移動符石時間 2.5 秒
+		IV. 消除 1 組 ≥4 粒符石
+		⇒ 全隊攻擊力額外 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -20669,7 +26260,19 @@ const leader_skill_data = [
     },
     {
         'name': '無垠幻像．浪濤極襲',
-        'description': '隊中只有水屬性及 ≥1 個魔族成員時：<br>I. 全隊攻擊力 7 倍<br>II. 魔族攻擊力額外 5 倍及生命力 1.5 倍<br>III. 必然延長移動符石時間 1.5 秒<br>IV. 每回合場上數量最多的 1 種屬性符石兼具 50% 水符石效果<br>V. 如場上數量最多的 1 種屬性符石為水符石時<br>⇒ 則上述兼具效果變為水屬性攻擊力 2.2 倍<br>VI. 心符石兼具 50% 水符石效果<br>VII. 消除魔族符石時<br>⓵ 全隊攻擊力額外 3.5 倍<br>⓶ 減少 60% 所受傷害',
+        'description': `
+		隊中只有水屬性及 ≥1 個魔族成員時：
+		I. 全隊攻擊力 7 倍
+		II. 魔族攻擊力額外 5 倍及生命力 1.5 倍
+		III. 必然延長移動符石時間 1.5 秒
+		IV. 每回合場上數量最多的 1 種屬性符石兼具 50% 水符石效果
+		V. 如場上數量最多的 1 種屬性符石為水符石時
+		⇒ 則上述兼具效果變為水屬性攻擊力 2.2 倍
+		VI. 心符石兼具 50% 水符石效果
+		VII. 消除魔族符石時
+		⓵ 全隊攻擊力額外 3.5 倍
+		⓶ 減少 60% 所受傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -20711,7 +26314,19 @@ const leader_skill_data = [
     },
     {
         'name': '無垠幻像．熾燄極襲',
-        'description': '隊中只有火屬性及 ≥1 個魔族成員時：<br>I. 全隊攻擊力 7 倍<br>II. 魔族攻擊力額外 5 倍及生命力 1.5 倍<br>III. 必然延長移動符石時間 1.5 秒<br>IV. 每回合場上數量最多的 1 種屬性符石兼具 50% 火符石效果<br>V. 如場上數量最多的 1 種屬性符石為火符石時<br>⇒ 則上述兼具效果變為火屬性攻擊力 2.2 倍<br>VI. 心符石兼具 50% 火符石效果<br>VII. 消除魔族符石時<br>⓵ 全隊攻擊力額外 3.5 倍<br>⓶ 減少 60% 所受傷害',
+        'description': `
+		隊中只有火屬性及 ≥1 個魔族成員時：
+		I. 全隊攻擊力 7 倍
+		II. 魔族攻擊力額外 5 倍及生命力 1.5 倍
+		III. 必然延長移動符石時間 1.5 秒
+		IV. 每回合場上數量最多的 1 種屬性符石兼具 50% 火符石效果
+		V. 如場上數量最多的 1 種屬性符石為火符石時
+		⇒ 則上述兼具效果變為火屬性攻擊力 2.2 倍
+		VI. 心符石兼具 50% 火符石效果
+		VII. 消除魔族符石時
+		⓵ 全隊攻擊力額外 3.5 倍
+		⓶ 減少 60% 所受傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -20753,7 +26368,19 @@ const leader_skill_data = [
     },
     {
         'name': '無垠幻像．藤木極襲',
-        'description': '隊中只有木屬性及 ≥1 個魔族成員時：<br>I. 全隊攻擊力 7 倍<br>II. 魔族攻擊力額外 5 倍及生命力 1.5 倍<br>III. 必然延長移動符石時間 1.5 秒<br>IV. 每回合場上數量最多的 1 種屬性符石兼具 50% 木符石效果<br>V. 如場上數量最多的 1 種屬性符石為木符石時<br>⇒ 則上述兼具效果變為木屬性攻擊力 2.2 倍<br>VI. 心符石兼具 50% 木符石效果<br>VII. 消除魔族符石時<br>⓵ 全隊攻擊力額外 3.5 倍<br>⓶ 減少 60% 所受傷害',
+        'description': `
+		隊中只有木屬性及 ≥1 個魔族成員時：
+		I. 全隊攻擊力 7 倍
+		II. 魔族攻擊力額外 5 倍及生命力 1.5 倍
+		III. 必然延長移動符石時間 1.5 秒
+		IV. 每回合場上數量最多的 1 種屬性符石兼具 50% 木符石效果
+		V. 如場上數量最多的 1 種屬性符石為木符石時
+		⇒ 則上述兼具效果變為木屬性攻擊力 2.2 倍
+		VI. 心符石兼具 50% 木符石效果
+		VII. 消除魔族符石時
+		⓵ 全隊攻擊力額外 3.5 倍
+		⓶ 減少 60% 所受傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -20795,7 +26422,15 @@ const leader_skill_data = [
     },
     {
         'name': '流螢結陣．魔源盛勢',
-        'description': '隊中只有光屬性及 ≥1 個魔族成員時：<br>I. 全隊攻擊力 7 倍<br>II. 魔族攻擊力額外 5 倍及生命力 2 倍<br>III. 必然延長移動符石時間 2.5 秒<br>IV. 每消除 1 組 ≥5 粒光符石<br>⇒ 全隊攻擊力額外提升<br>⇒ 消除 3 組可達至最大 6 倍',
+        'description': `
+		隊中只有光屬性及 ≥1 個魔族成員時：
+		I. 全隊攻擊力 7 倍
+		II. 魔族攻擊力額外 5 倍及生命力 2 倍
+		III. 必然延長移動符石時間 2.5 秒
+		IV. 每消除 1 組 ≥5 粒光符石
+		⇒ 全隊攻擊力額外提升
+		⇒ 消除 3 組可達至最大 6 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -20822,7 +26457,15 @@ const leader_skill_data = [
     },
     {
         'name': '幽冥結陣．魔源盛勢',
-        'description': '隊中只有暗屬性及 ≥1 個魔族成員時：<br>I. 全隊攻擊力 7 倍<br>II. 魔族攻擊力額外 5 倍及生命力 2 倍<br>III. 必然延長移動符石時間 2.5 秒<br>IV. 每消除 1 組 ≥5 粒暗符石<br>⇒ 全隊攻擊力額外提升<br>⇒ 消除 3 組可達至最大 6 倍',
+        'description': `
+		隊中只有暗屬性及 ≥1 個魔族成員時：
+		I. 全隊攻擊力 7 倍
+		II. 魔族攻擊力額外 5 倍及生命力 2 倍
+		III. 必然延長移動符石時間 2.5 秒
+		IV. 每消除 1 組 ≥5 粒暗符石
+		⇒ 全隊攻擊力額外提升
+		⇒ 消除 3 組可達至最大 6 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -20849,7 +26492,15 @@ const leader_skill_data = [
     },
     {
         'name': '人之復甦 ‧ 凝水壁',
-        'description': 'I. 水屬性成員攻擊力 3 倍<br>II. 人類成員回復力 3 倍<br>III. 消除 ≥3 種符石<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 受到攻擊時，場上每有 1 粒水符石<br>⇒ 減少 5% 所受傷害<br>⇒ 最多可減少 30% 傷害',
+        'description': `
+		I. 水屬性成員攻擊力 3 倍
+		II. 人類成員回復力 3 倍
+		III. 消除 ≥3 種符石
+		⇒ 全隊攻擊力額外 2 倍
+		IV. 受到攻擊時，場上每有 1 粒水符石
+		⇒ 減少 5% 所受傷害
+		⇒ 最多可減少 30% 傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -20876,7 +26527,14 @@ const leader_skill_data = [
     },
     {
         'name': '木葉之強森',
-        'description': 'I.【戰國】及木屬性人類成員<br>⇒ 攻擊力 7 倍、生命力及回復力 2 倍<br>II. 消除 ≥6 粒木符石<br>⇒ 全隊攻擊力額外 4 倍<br>III. 消除 ≥12 粒木符石<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		I.【戰國】及木屬性人類成員
+		⇒ 攻擊力 7 倍、生命力及回復力 2 倍
+		II. 消除 ≥6 粒木符石
+		⇒ 全隊攻擊力額外 4 倍
+		III. 消除 ≥12 粒木符石
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -20893,7 +26551,16 @@ const leader_skill_data = [
     },
     {
         'name': '巨力之腕．強',
-        'description': '隊中只有 2 種屬性成員或隊中只有人類成員：<br>I. 全隊攻擊力 7.5 倍、生命力及回復力 1.3 倍<br>II.【戰國】成員生命力及回復力額外 1.5 倍<br>III. 必然延長移動符石時間 2 秒<br>IV. 首批消除所有光符石<br>⇒ 全隊攻擊力額外 3 倍<br>V. 首批消除所有水符石<br>⇒ 全隊攻擊力額外 3 倍',
+        'description': `
+		隊中只有 2 種屬性成員或隊中只有人類成員：
+		I. 全隊攻擊力 7.5 倍、生命力及回復力 1.3 倍
+		II.【戰國】成員生命力及回復力額外 1.5 倍
+		III. 必然延長移動符石時間 2 秒
+		IV. 首批消除所有光符石
+		⇒ 全隊攻擊力額外 3 倍
+		V. 首批消除所有水符石
+		⇒ 全隊攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -20920,7 +26587,12 @@ const leader_skill_data = [
     },
     {
         'name': '妖魅綻放的靈泉',
-        'description': '隊中只有妖精類成員：<br>I. 全隊攻擊力 6 倍及生命力 2.5 倍<br>II. 全隊進場 CD -2<br>III. 屬性符石兼具 25% 心符石效果',
+        'description': `
+		隊中只有妖精類成員：
+		I. 全隊攻擊力 6 倍及生命力 2.5 倍
+		II. 全隊進場 CD -2
+		III. 屬性符石兼具 25% 心符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '進場減CD'],
@@ -20937,7 +26609,16 @@ const leader_skill_data = [
     },
     {
         'name': '燄刃襲 ‧ 戰魂',
-        'description': '隊中只有【戰國】或火屬性成員：<br>I. 全隊攻擊力 8 倍、生命力及回復力 1.5 倍<br>II.【戰國】、人類及龍類成員<br>⓵ 生命力額外 1.5 倍<br>⓶ 攻擊力額外 3 倍<br>III. 必然延長移動符石時間 2 秒<br>IV. 合計消除 ≥6 粒火、光或暗符石<br>⇒ 全隊攻擊力額外 3 倍',
+        'description': `
+		隊中只有【戰國】或火屬性成員：
+		I. 全隊攻擊力 8 倍、生命力及回復力 1.5 倍
+		II.【戰國】、人類及龍類成員
+		⓵ 生命力額外 1.5 倍
+		⓶ 攻擊力額外 3 倍
+		III. 必然延長移動符石時間 2 秒
+		IV. 合計消除 ≥6 粒火、光或暗符石
+		⇒ 全隊攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -20964,7 +26645,15 @@ const leader_skill_data = [
     },
     {
         'name': '人之復甦 ‧ 凝火壁',
-        'description': 'I. 火屬性成員攻擊力 3 倍<br>II. 人類成員回復力 3 倍<br>III. 消除 ≥3 種符石<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 受到攻擊時，場上每有 1 粒火符石<br>⇒ 減少 5% 所受傷害<br>⇒ 最多可減少 30% 傷害',
+        'description': `
+		I. 火屬性成員攻擊力 3 倍
+		II. 人類成員回復力 3 倍
+		III. 消除 ≥3 種符石
+		⇒ 全隊攻擊力額外 2 倍
+		IV. 受到攻擊時，場上每有 1 粒火符石
+		⇒ 減少 5% 所受傷害
+		⇒ 最多可減少 30% 傷害
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -20991,7 +26680,13 @@ const leader_skill_data = [
     },
     {
         'name': '天魔血道 ‧ 光',
-        'description': 'I. 扣除 40% 生命力上限<br>II. 光屬性及魔族成員攻擊力 7 倍<br>III. 延長移動符石時間 7 秒<br>IV. 每首批消除 5 粒光符石<br>⇒ 增加 1 連擊 (Combo)',
+        'description': `
+		I. 扣除 40% 生命力上限
+		II. 光屬性及魔族成員攻擊力 7 倍
+		III. 延長移動符石時間 7 秒
+		IV. 每首批消除 5 粒光符石
+		⇒ 增加 1 連擊 (Combo)
+		`,
         'tag': [
             {
                 'name': ['總血量減少', '延長轉珠時間'],
@@ -21013,7 +26708,14 @@ const leader_skill_data = [
     },
     {
         'name': '絕代佳人之媚',
-        'description': 'I. 全隊攻擊力 10 倍、生命力及回復力 1.8 倍<br>II. 隊伍成員的種族愈多，全隊生命力及回復力額外提升愈多<br>⇒ 2 種族 1.2 倍<br>⇒ 4 種族可達至最大 1.4 倍<br>III. 必然延長移動符石時間 3 秒<br>IV. 連擊 (Combo) 時攻擊力大幅提升 300%',
+        'description': `
+		I. 全隊攻擊力 10 倍、生命力及回復力 1.8 倍
+		II. 隊伍成員的種族愈多，全隊生命力及回復力額外提升愈多
+		⇒ 2 種族 1.2 倍
+		⇒ 4 種族可達至最大 1.4 倍
+		III. 必然延長移動符石時間 3 秒
+		IV. 連擊 (Combo) 時攻擊力大幅提升 300%
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '延長轉珠時間'],
@@ -21030,7 +26732,13 @@ const leader_skill_data = [
     },
     {
         'name': '全能守護者',
-        'description': 'I. 全隊攻擊力 8 倍、生命力及回復力 1.5 倍<br>II. 通過「旅人的記憶」故事模式內的指定關卡、初級、中級或高級關卡後<br>⇒ 額外獲得 1 個道具<br>III. 通關經驗值增加 10%<br>IV. 通關金幣增加 10%',
+        'description': `
+		I. 全隊攻擊力 8 倍、生命力及回復力 1.5 倍
+		II. 通過「旅人的記憶」故事模式內的指定關卡、初級、中級或高級關卡後
+		⇒ 額外獲得 1 個道具
+		III. 通關經驗值增加 10%
+		IV. 通關金幣增加 10%
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '物品掉落增加'],
@@ -21042,7 +26750,10 @@ const leader_skill_data = [
     },
     {
         'name': '神話意志 ‧ 水',
-        'description': 'I. 神族成員攻擊力 6 倍、生命力及回復力 1.5 倍<br>II. 水及心符石互相兼具 50% 效果',
+        'description': `
+		I. 神族成員攻擊力 6 倍、生命力及回復力 1.5 倍
+		II. 水及心符石互相兼具 50% 效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -21059,7 +26770,11 @@ const leader_skill_data = [
     },
     {
         'name': '神話戰法 ‧ 水',
-        'description': 'I. 水屬性神族攻擊力 5 倍<br>II. 消除神族符石<br>⇒ 水屬性攻擊力額外 3 倍',
+        'description': `
+		I. 水屬性神族攻擊力 5 倍
+		II. 消除神族符石
+		⇒ 水屬性攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -21076,7 +26791,10 @@ const leader_skill_data = [
     },
     {
         'name': '神話意志 ‧ 火',
-        'description': 'I. 神族成員攻擊力 6 倍、生命力及回復力 1.5 倍<br>II. 火及心符石互相兼具 50% 效果',
+        'description': `
+		I. 神族成員攻擊力 6 倍、生命力及回復力 1.5 倍
+		II. 火及心符石互相兼具 50% 效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -21093,7 +26811,11 @@ const leader_skill_data = [
     },
     {
         'name': '神話戰法 ‧ 火',
-        'description': 'I. 火屬性神族攻擊力 5 倍<br>II. 消除神族符石<br>⇒ 火屬性攻擊力額外 3 倍',
+        'description': `
+		I. 火屬性神族攻擊力 5 倍
+		II. 消除神族符石
+		⇒ 火屬性攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -21110,7 +26832,10 @@ const leader_skill_data = [
     },
     {
         'name': '神話意志 ‧ 木',
-        'description': 'I. 神族成員攻擊力 6 倍、生命力及回復力 1.5 倍<br>II. 木及心符石互相兼具 50% 效果',
+        'description': `
+		I. 神族成員攻擊力 6 倍、生命力及回復力 1.5 倍
+		II. 木及心符石互相兼具 50% 效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -21127,7 +26852,11 @@ const leader_skill_data = [
     },
     {
         'name': '神話戰法 ‧ 木',
-        'description': 'I. 木屬性神族攻擊力 5 倍<br>II. 消除神族符石<br>⇒ 木屬性攻擊力額外 3 倍',
+        'description': `
+		I. 木屬性神族攻擊力 5 倍
+		II. 消除神族符石
+		⇒ 木屬性攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -21144,7 +26873,10 @@ const leader_skill_data = [
     },
     {
         'name': '神話重生',
-        'description': 'I. 神族成員回復力 6 倍、生命力及攻擊力 1.5 倍<br>II. 消除符石後，回復自身回復力基值 15 倍的生命力',
+        'description': `
+		I. 神族成員回復力 6 倍、生命力及攻擊力 1.5 倍
+		II. 消除符石後，回復自身回復力基值 15 倍的生命力
+		`,
         'tag': [
             {
                 'name': ['增回', '增血', '增攻'],
@@ -21161,7 +26893,11 @@ const leader_skill_data = [
     },
     {
         'name': '神話戰法 ‧ 光',
-        'description': 'I. 光屬性神族攻擊力 5 倍<br>II. 消除神族符石<br>⇒ 光屬性攻擊力額外 3 倍',
+        'description': `
+		I. 光屬性神族攻擊力 5 倍
+		II. 消除神族符石
+		⇒ 光屬性攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -21178,7 +26914,10 @@ const leader_skill_data = [
     },
     {
         'name': '神話割結',
-        'description': 'I. 神族成員攻擊力 6 倍、生命力及回復力 1.5 倍<br>II. 每回合以自身攻擊力 6 倍對敵方全體後追打無屬性攻擊 1 次 (此傷害無視防禦力)',
+        'description': `
+		I. 神族成員攻擊力 6 倍、生命力及回復力 1.5 倍
+		II. 每回合以自身攻擊力 6 倍對敵方全體後追打無屬性攻擊 1 次 (此傷害無視防禦力)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -21195,7 +26934,11 @@ const leader_skill_data = [
     },
     {
         'name': '神話戰法 ‧ 暗',
-        'description': 'I. 暗屬性神族攻擊力 5 倍<br>II. 消除神族符石<br>⇒ 暗屬性攻擊力額外 3 倍',
+        'description': `
+		I. 暗屬性神族攻擊力 5 倍
+		II. 消除神族符石
+		⇒ 暗屬性攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -21212,7 +26955,16 @@ const leader_skill_data = [
     },
     {
         'name': '夜月之輝 ‧ 流光',
-        'description': 'I. 神族及【妍希】成員攻擊力 7 倍、生命力及回復力 1.5 倍<br>II. 隊中只有【妍希】、光及暗屬性成員：<br>⓵ 全隊攻擊力額外 3.5 倍及生命力額外 1.2 倍<br>⓶ 暗及心符石兼具光符石效果<br>⓷ 消除強化符石<br>⇒ 減少 40% 所受傷害<br>⓸ 消除種族符石<br>⇒ 增加 3 連擊 (Combo)',
+        'description': `
+		I. 神族及【妍希】成員攻擊力 7 倍、生命力及回復力 1.5 倍
+		II. 隊中只有【妍希】、光及暗屬性成員：
+		⓵ 全隊攻擊力額外 3.5 倍及生命力額外 1.2 倍
+		⓶ 暗及心符石兼具光符石效果
+		⓷ 消除強化符石
+		⇒ 減少 40% 所受傷害
+		⓸ 消除種族符石
+		⇒ 增加 3 連擊 (Combo)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -21244,7 +26996,16 @@ const leader_skill_data = [
     },
     {
         'name': '夜月之魅 ‧ 清影',
-        'description': 'I. 神族及【妍希】成員攻擊力 7 倍、生命力及回復力 1.5 倍<br>II. 隊中只有【妍希】、光及暗屬性成員：<br>⓵ 全隊攻擊力額外 3.5 倍及生命力額外 1.2 倍<br>⓶ 光及心符石兼具暗符石效果<br>⓷ 消除強化符石<br>⇒ 減少 40% 所受傷害<br>⓸ 消除種族符石<br>⇒ 增加 3 連擊 (Combo)',
+        'description': `
+		I. 神族及【妍希】成員攻擊力 7 倍、生命力及回復力 1.5 倍
+		II. 隊中只有【妍希】、光及暗屬性成員：
+		⓵ 全隊攻擊力額外 3.5 倍及生命力額外 1.2 倍
+		⓶ 光及心符石兼具暗符石效果
+		⓷ 消除強化符石
+		⇒ 減少 40% 所受傷害
+		⓸ 消除種族符石
+		⇒ 增加 3 連擊 (Combo)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -21276,7 +27037,17 @@ const leader_skill_data = [
     },
     {
         'name': '稀世力量 ‧ 聖物光芒',
-        'description': 'I. 水屬性及人類成員<br>⇒ 攻擊力 8 倍及生命力 2 倍<br>II. 必然延長移動符石時間 2 秒<br>III. 水、火及木符石兼具<br>⇒ 50% 心符石效果<br>IV. 同時消除 ≥3 種符石<br>⇒ 水屬性及人類成員攻擊力額外 3 倍<br>V. 同時消除水、火及木符石<br>⇒「聖輝漪揚 ‧ 艾莉亞」追打水、火及木屬性攻擊各 1 次',
+        'description': `
+		I. 水屬性及人類成員
+		⇒ 攻擊力 8 倍及生命力 2 倍
+		II. 必然延長移動符石時間 2 秒
+		III. 水、火及木符石兼具
+		⇒ 50% 心符石效果
+		IV. 同時消除 ≥3 種符石
+		⇒ 水屬性及人類成員攻擊力額外 3 倍
+		V. 同時消除水、火及木符石
+		⇒「聖輝漪揚 ‧ 艾莉亞」追打水、火及木屬性攻擊各 1 次
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -21303,7 +27074,13 @@ const leader_skill_data = [
     },
     {
         'name': '喋血枯息',
-        'description': '隊中只有【妍希】或魔族成員：<br>I. 全隊攻擊力 7 倍、生命力及回復力 1.8 倍<br>II. 延長移動符石時間 3 秒<br>III. 隊中有 ≥2 種族成員<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		隊中只有【妍希】或魔族成員：
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.8 倍
+		II. 延長移動符石時間 3 秒
+		III. 隊中有 ≥2 種族成員
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -21325,7 +27102,9 @@ const leader_skill_data = [
     },
     {
         'name': '花香靈域',
-        'description': '【妍希】、光屬性及妖精類成員攻擊力 6 倍',
+        'description': `
+		【妍希】、光屬性及妖精類成員攻擊力 6 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -21337,7 +27116,11 @@ const leader_skill_data = [
     },
     {
         'name': '龍守屏障',
-        'description': 'I. 龍類成員攻擊力 5 倍及生命力 1.5 倍<br>II. 所受木及暗屬性傷害減少 60%<br>III. 所受其他屬性傷害則減少 30%',
+        'description': `
+		I. 龍類成員攻擊力 5 倍及生命力 1.5 倍
+		II. 所受木及暗屬性傷害減少 60%
+		III. 所受其他屬性傷害則減少 30%
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -21354,7 +27137,15 @@ const leader_skill_data = [
     },
     {
         'name': '三巫結陣 ‧ 水',
-        'description': '隊中只有水、火或木屬性成員：<br>I. 全隊攻擊力 7 倍及生命力 1.5 倍<br>II. 人類成員<br>⓵ 攻擊力額外 7 倍<br>⓶ 生命力額外 1.5 倍<br>⓷ 進場 CD -2<br>III. 所有符石兼具 50% 水符石效果',
+        'description': `
+		隊中只有水、火或木屬性成員：
+		I. 全隊攻擊力 7 倍及生命力 1.5 倍
+		II. 人類成員
+		⓵ 攻擊力額外 7 倍
+		⓶ 生命力額外 1.5 倍
+		⓷ 進場 CD -2
+		III. 所有符石兼具 50% 水符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -21376,7 +27167,14 @@ const leader_skill_data = [
     },
     {
         'name': '巫女祈願 ‧ 水',
-        'description': '隊中只有人類成員：<br>I. 全隊攻擊力 7 倍及生命力 1.3 倍<br>II. 所有成員增加 500 點回復力基值<br>III. 消除水、火及木符石其中 ≥2 種<br>⇒ 全隊攻擊力額外 5 倍<br>IV. 水符石兼具 50% 所有符石效果',
+        'description': `
+		隊中只有人類成員：
+		I. 全隊攻擊力 7 倍及生命力 1.3 倍
+		II. 所有成員增加 500 點回復力基值
+		III. 消除水、火及木符石其中 ≥2 種
+		⇒ 全隊攻擊力額外 5 倍
+		IV. 水符石兼具 50% 所有符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -21398,7 +27196,15 @@ const leader_skill_data = [
     },
     {
         'name': '三巫結陣 ‧ 火',
-        'description': '隊中只有水、火或木屬性成員：<br>I. 全隊攻擊力 7 倍及生命力 1.5 倍<br>II. 人類成員<br>⓵ 攻擊力額外 7 倍<br>⓶ 生命力額外 1.5 倍<br>⓷ 進場 CD -2<br>III. 所有符石兼具 50% 火符石效果',
+        'description': `
+		隊中只有水、火或木屬性成員：
+		I. 全隊攻擊力 7 倍及生命力 1.5 倍
+		II. 人類成員
+		⓵ 攻擊力額外 7 倍
+		⓶ 生命力額外 1.5 倍
+		⓷ 進場 CD -2
+		III. 所有符石兼具 50% 火符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -21420,7 +27226,14 @@ const leader_skill_data = [
     },
     {
         'name': '巫女祈願 ‧ 火',
-        'description': '隊中只有人類成員：<br>I. 全隊攻擊力 7 倍及生命力 1.3 倍<br>II. 消除水、火及木符石其中 ≥2 種<br>⇒ 全隊攻擊力額外 5 倍<br>III. 火符石兼具 50% 所有符石效果<br>IV. 火符石效果提升 50%',
+        'description': `
+		隊中只有人類成員：
+		I. 全隊攻擊力 7 倍及生命力 1.3 倍
+		II. 消除水、火及木符石其中 ≥2 種
+		⇒ 全隊攻擊力額外 5 倍
+		III. 火符石兼具 50% 所有符石效果
+		IV. 火符石效果提升 50%
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -21442,7 +27255,15 @@ const leader_skill_data = [
     },
     {
         'name': '三巫結陣 ‧ 木',
-        'description': '隊中只有水、火或木屬性成員：<br>I. 全隊攻擊力 7 倍及生命力 1.5 倍<br>II. 人類成員<br>⓵ 攻擊力額外 7 倍<br>⓶ 生命力額外 1.5 倍<br>⓷ 進場 CD -2<br>III. 所有符石兼具 50% 木符石效果',
+        'description': `
+		隊中只有水、火或木屬性成員：
+		I. 全隊攻擊力 7 倍及生命力 1.5 倍
+		II. 人類成員
+		⓵ 攻擊力額外 7 倍
+		⓶ 生命力額外 1.5 倍
+		⓷ 進場 CD -2
+		III. 所有符石兼具 50% 木符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -21464,7 +27285,15 @@ const leader_skill_data = [
     },
     {
         'name': '巫女祈願 ‧ 木',
-        'description': '隊中只有人類成員：<br>I. 全隊攻擊力 7 倍及生命力 1.3 倍<br>II. 消除水、火及木符石其中 ≥2 種<br>⇒ 全隊攻擊力額外 5 倍<br>III. 木符石兼具 50% 所有符石效果<br>IV. 消除木符石<br>⇒ 增加 3 連擊 (Combo)',
+        'description': `
+		隊中只有人類成員：
+		I. 全隊攻擊力 7 倍及生命力 1.3 倍
+		II. 消除水、火及木符石其中 ≥2 種
+		⇒ 全隊攻擊力額外 5 倍
+		III. 木符石兼具 50% 所有符石效果
+		IV. 消除木符石
+		⇒ 增加 3 連擊 (Combo)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -21491,7 +27320,15 @@ const leader_skill_data = [
     },
     {
         'name': '流水之致命誘惑',
-        'description': 'I.【耀脈星芒】及水屬性成員攻擊力 8 倍、生命力及回復力 1.8 倍<br>II.【耀脈星芒】及妖精類成員<br>⇒ 攻擊力額外 4 倍<br>III. 消除 ≥3 種符石<br>⇒ 減少 50% 所受傷害<br>IV. 發動 ≥3 種屬性攻擊<br>⇒ 回合結束時，妖精類成員 CD -1',
+        'description': `
+		I.【耀脈星芒】及水屬性成員攻擊力 8 倍、生命力及回復力 1.8 倍
+		II.【耀脈星芒】及妖精類成員
+		⇒ 攻擊力額外 4 倍
+		III. 消除 ≥3 種符石
+		⇒ 減少 50% 所受傷害
+		IV. 發動 ≥3 種屬性攻擊
+		⇒ 回合結束時，妖精類成員 CD -1
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -21518,7 +27355,11 @@ const leader_skill_data = [
     },
     {
         'name': '熾燄化境 ‧ 神',
-        'description': 'I. 火屬性成員攻擊力 6 倍、生命力及回復力 2 倍<br>II. 消除神族符石<br>⇒ 火屬性成員攻擊力額外 2 倍',
+        'description': `
+		I. 火屬性成員攻擊力 6 倍、生命力及回復力 2 倍
+		II. 消除神族符石
+		⇒ 火屬性成員攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -21535,7 +27376,11 @@ const leader_skill_data = [
     },
     {
         'name': '螢燄化境 ‧ 神',
-        'description': 'I. 光屬性成員攻擊力 6 倍、生命力及回復力 2 倍<br>II. 消除神族符石<br>⇒ 光屬性成員攻擊力額外 2 倍',
+        'description': `
+		I. 光屬性成員攻擊力 6 倍、生命力及回復力 2 倍
+		II. 消除神族符石
+		⇒ 光屬性成員攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -21552,7 +27397,14 @@ const leader_skill_data = [
     },
     {
         'name': '紫魅斷魂 ‧ 獵',
-        'description': '隊中只有【耀脈星芒】或獸類成員時：<br>I. 全隊攻擊力 8 倍及生命力 3 倍<br>II. 每消除 1 種符石<br>⇒ 掉落 2 粒暗獸族強化符石<br>III. 消除獸族符石<br>⇒ 全隊攻擊力額外 5 倍',
+        'description': `
+		隊中只有【耀脈星芒】或獸類成員時：
+		I. 全隊攻擊力 8 倍及生命力 3 倍
+		II. 每消除 1 種符石
+		⇒ 掉落 2 粒暗獸族強化符石
+		III. 消除獸族符石
+		⇒ 全隊攻擊力額外 5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -21574,7 +27426,11 @@ const leader_skill_data = [
     },
     {
         'name': '炎之神識',
-        'description': 'I. 火屬性成員攻擊力 6 倍、生命力及回復力 2 倍<br>II. 消除神族符石<br>⇒ 火屬性成員攻擊力額外 2 倍',
+        'description': `
+		I. 火屬性成員攻擊力 6 倍、生命力及回復力 2 倍
+		II. 消除神族符石
+		⇒ 火屬性成員攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -21591,7 +27447,12 @@ const leader_skill_data = [
     },
     {
         'name': '神魅絕殺勢',
-        'description': '隊中只有【耀脈星芒】、妖精類或神族成員：<br>I. 全隊攻擊力 10 倍、生命力及回復力 1.6 倍<br>II. 消除隊伍成員屬性符石<br>⇒ 全隊攻擊力額外 5.5 倍',
+        'description': `
+		隊中只有【耀脈星芒】、妖精類或神族成員：
+		I. 全隊攻擊力 10 倍、生命力及回復力 1.6 倍
+		II. 消除隊伍成員屬性符石
+		⇒ 全隊攻擊力額外 5.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -21608,7 +27469,17 @@ const leader_skill_data = [
     },
     {
         'name': '神魅絕殺勢 ‧ 突破',
-        'description': '隊中只有【耀脈星芒】、妖精類或神族成員：<br>I. 全隊攻擊力 10 倍、生命力及回復力 2.5 倍<br>II. 消除隊伍成員屬性符石<br>⇒ 全隊攻擊力額外 5.5 倍<br>III. 將移動符石時觸碰的符石<br>⇒ 轉化為強化符石<br>IV. 移動的步數愈多<br>⇒ 全隊攻擊力提升愈多<br>⇒ 移動 50 步攻擊力可額外提升至最大 4 倍',
+        'description': `
+		隊中只有【耀脈星芒】、妖精類或神族成員：
+		I. 全隊攻擊力 10 倍、生命力及回復力 2.5 倍
+		II. 消除隊伍成員屬性符石
+		⇒ 全隊攻擊力額外 5.5 倍
+		III. 將移動符石時觸碰的符石
+		⇒ 轉化為強化符石
+		IV. 移動的步數愈多
+		⇒ 全隊攻擊力提升愈多
+		⇒ 移動 50 步攻擊力可額外提升至最大 4 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -21635,7 +27506,11 @@ const leader_skill_data = [
     },
     {
         'name': '獸之遠識',
-        'description': 'I. 獸類成員攻擊力 6 倍、生命力及回復力 2 倍<br>II. 消除獸族符石<br>⇒ 獸類成員攻擊力額外 2 倍',
+        'description': `
+		I. 獸類成員攻擊力 6 倍、生命力及回復力 2 倍
+		II. 消除獸族符石
+		⇒ 獸類成員攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -21652,7 +27527,11 @@ const leader_skill_data = [
     },
     {
         'name': '龍之遠識',
-        'description': 'I. 龍類成員攻擊力 6 倍、生命力及回復力 2 倍<br>II. 消除龍族符石<br>⇒ 龍類成員攻擊力額外 2 倍',
+        'description': `
+		I. 龍類成員攻擊力 6 倍、生命力及回復力 2 倍
+		II. 消除龍族符石
+		⇒ 龍類成員攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -21669,7 +27548,13 @@ const leader_skill_data = [
     },
     {
         'name': '機械聯盟',
-        'description': 'I. 機械族成員攻擊力 6 倍、生命力及回復力 1.5 倍<br>II. 隊中只有 2 個成員<br>⇒ 機械族成員<br>⓵ 攻擊力額外 5 倍<br>⓶ 進場 CD -3',
+        'description': `
+		I. 機械族成員攻擊力 6 倍、生命力及回復力 1.5 倍
+		II. 隊中只有 2 個成員
+		⇒ 機械族成員
+		⓵ 攻擊力額外 5 倍
+		⓶ 進場 CD -3
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -21686,7 +27571,15 @@ const leader_skill_data = [
     },
     {
         'name': '機械戰能',
-        'description': 'I. 全隊攻擊力 6 倍、生命力及回復力 1.3 倍<br>II.【妍希】及機械族成員<br>⓵ 攻擊力額外 6 倍<br>⓶ 生命力及回復力額外 1.8 倍<br>III.【妍希】成員屬性符石兼具<br>⇒ 50% 所有符石效果<br>IV.【妍希】成員進場 CD -3',
+        'description': `
+		I. 全隊攻擊力 6 倍、生命力及回復力 1.3 倍
+		II.【妍希】及機械族成員
+		⓵ 攻擊力額外 6 倍
+		⓶ 生命力及回復力額外 1.8 倍
+		III.【妍希】成員屬性符石兼具
+		⇒ 50% 所有符石效果
+		IV.【妍希】成員進場 CD -3
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '暗兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心'],
@@ -21703,7 +27596,14 @@ const leader_skill_data = [
     },
     {
         'name': '無雙之霸 ‧ 神勇',
-        'description': 'I. 全隊攻擊力 10 倍、生命力及回復力 2.5 倍<br>II. 必然延長移動符石時間 3 秒<br>III. 消除 ≥3 組符石<br>⇒ 全隊攻擊力額外 4 倍<br>IV. 首批全部消除場上 ≥1 種符石<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		I. 全隊攻擊力 10 倍、生命力及回復力 2.5 倍
+		II. 必然延長移動符石時間 3 秒
+		III. 消除 ≥3 組符石
+		⇒ 全隊攻擊力額外 4 倍
+		IV. 首批全部消除場上 ≥1 種符石
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '延長轉珠時間'],
@@ -21725,7 +27625,13 @@ const leader_skill_data = [
     },
     {
         'name': '戰鬥之睿智',
-        'description': 'I. 全隊攻擊力 10 倍、生命力及回復力 1.5 倍<br>II. 消除 ≥10 粒符石<br>⇒ 全隊攻擊力額外 2 倍<br>III. 敵人受到的人類、神族、機械族傷害<br>⇒ 額外 2.5 倍',
+        'description': `
+		I. 全隊攻擊力 10 倍、生命力及回復力 1.5 倍
+		II. 消除 ≥10 粒符石
+		⇒ 全隊攻擊力額外 2 倍
+		III. 敵人受到的人類、神族、機械族傷害
+		⇒ 額外 2.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -21747,7 +27653,13 @@ const leader_skill_data = [
     },
     {
         'name': '浪濤之誅罰 ‧ 弒',
-        'description': 'I. 水屬性成員攻擊力 8 倍、生命力及回復力 2.5 倍<br>II. 水屬性對所有目標的傷害額外 10 倍<br>III. 敵人受到的主動技能炮擊傷害額外 3.5 倍<br>IV. 所受火及暗屬性傷害減少 50%<br>V. 所有成員無視屬性相剋',
+        'description': `
+		I. 水屬性成員攻擊力 8 倍、生命力及回復力 2.5 倍
+		II. 水屬性對所有目標的傷害額外 10 倍
+		III. 敵人受到的主動技能炮擊傷害額外 3.5 倍
+		IV. 所受火及暗屬性傷害減少 50%
+		V. 所有成員無視屬性相剋
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '對水增傷', '對火增傷', '對木增傷', '對光增傷', '對暗增傷'],
@@ -21764,7 +27676,13 @@ const leader_skill_data = [
     },
     {
         'name': '熾燄之誅罰 ‧ 弒',
-        'description': 'I. 火屬性成員攻擊力 8 倍、生命力及回復力 2.5 倍<br>II. 火屬性對所有目標的傷害額外 10 倍<br>III. 敵人受到的主動技能炮擊傷害額外 3.5 倍<br>IV. 所受火及木屬性傷害減少 50%<br>V. 所有成員無視屬性相剋',
+        'description': `
+		I. 火屬性成員攻擊力 8 倍、生命力及回復力 2.5 倍
+		II. 火屬性對所有目標的傷害額外 10 倍
+		III. 敵人受到的主動技能炮擊傷害額外 3.5 倍
+		IV. 所受火及木屬性傷害減少 50%
+		V. 所有成員無視屬性相剋
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '對水增傷', '對火增傷', '對木增傷', '對光增傷', '對暗增傷'],
@@ -21781,7 +27699,13 @@ const leader_skill_data = [
     },
     {
         'name': '藤棘之誅罰 ‧ 弒',
-        'description': 'I. 木屬性成員攻擊力 8 倍、生命力及回復力 2.5 倍<br>II. 木屬性對所有目標的傷害額外 10 倍<br>III. 敵人受到的主動技能炮擊傷害額外 3.5 倍<br>IV. 所受水及光屬性傷害減少 50%<br>V. 所有成員無視屬性相剋',
+        'description': `
+		I. 木屬性成員攻擊力 8 倍、生命力及回復力 2.5 倍
+		II. 木屬性對所有目標的傷害額外 10 倍
+		III. 敵人受到的主動技能炮擊傷害額外 3.5 倍
+		IV. 所受水及光屬性傷害減少 50%
+		V. 所有成員無視屬性相剋
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '對水增傷', '對火增傷', '對木增傷', '對光增傷', '對暗增傷'],
@@ -21798,7 +27722,13 @@ const leader_skill_data = [
     },
     {
         'name': '玄光之誅罰 ‧ 弒',
-        'description': 'I. 光屬性成員攻擊力 8 倍、生命力及回復力 2.5 倍<br>II. 光屬性對所有目標的傷害額外 10 倍<br>III. 敵人受到的主動技能炮擊傷害額外 3.5 倍<br>IV. 所受火及暗屬性傷害減少 50%<br>V. 所有成員無視屬性相剋',
+        'description': `
+		I. 光屬性成員攻擊力 8 倍、生命力及回復力 2.5 倍
+		II. 光屬性對所有目標的傷害額外 10 倍
+		III. 敵人受到的主動技能炮擊傷害額外 3.5 倍
+		IV. 所受火及暗屬性傷害減少 50%
+		V. 所有成員無視屬性相剋
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '對水增傷', '對火增傷', '對木增傷', '對光增傷', '對暗增傷'],
@@ -21815,7 +27745,13 @@ const leader_skill_data = [
     },
     {
         'name': '幽冥之誅罰 ‧ 弒',
-        'description': 'I. 暗屬性成員攻擊力 8 倍、生命力及回復力 2.5 倍<br>II. 暗屬性對所有目標的傷害額外 10 倍<br>III. 敵人受到的主動技能炮擊傷害額外 3.5 倍<br>IV. 所受木及光屬性傷害減少 50%<br>V. 所有成員無視屬性相剋',
+        'description': `
+		I. 暗屬性成員攻擊力 8 倍、生命力及回復力 2.5 倍
+		II. 暗屬性對所有目標的傷害額外 10 倍
+		III. 敵人受到的主動技能炮擊傷害額外 3.5 倍
+		IV. 所受木及光屬性傷害減少 50%
+		V. 所有成員無視屬性相剋
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '對水增傷', '對火增傷', '對木增傷', '對光增傷', '對暗增傷'],
@@ -21832,7 +27768,15 @@ const leader_skill_data = [
     },
     {
         'name': '元素之核 ‧ 精煉',
-        'description': '隊中只有獸類成員：<br>I. 全隊攻擊力 10 倍、生命力及回復力 3 倍<br>II. 所有符石兼具所有符石效果<br>III. 消除 ≥3 種符石或火符石<br>⇒ 全隊攻擊力額外 3 倍<br>IV. 消除獸族符石<br>⇒ 全隊攻擊力額外 3 倍',
+        'description': `
+		隊中只有獸類成員：
+		I. 全隊攻擊力 10 倍、生命力及回復力 3 倍
+		II. 所有符石兼具所有符石效果
+		III. 消除 ≥3 種符石或火符石
+		⇒ 全隊攻擊力額外 3 倍
+		IV. 消除獸族符石
+		⇒ 全隊攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -21859,7 +27803,13 @@ const leader_skill_data = [
     },
     {
         'name': '超獸魔神的力量',
-        'description': 'I. 機械族攻擊力 6 倍<br>II. 自身及「超獸魔神」<br>⇒ 攻擊力、生命力、回復力 2.5 倍<br>III. 消除自身屬性符石或心符石<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		I. 機械族攻擊力 6 倍
+		II. 自身及「超獸魔神」
+		⇒ 攻擊力、生命力、回復力 2.5 倍
+		III. 消除自身屬性符石或心符石
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -21881,7 +27831,14 @@ const leader_skill_data = [
     },
     {
         'name': '萬妖舞幽．傾巢',
-        'description': '隊中只有暗屬性或妖精類成員時：<br>I. 全隊攻擊力及回復力 15 倍<br>II. 生命力全滿時<br>⇒ 全隊攻擊力額外 2 倍<br>III. 消除妖族符石時<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		隊中只有暗屬性或妖精類成員時：
+		I. 全隊攻擊力及回復力 15 倍
+		II. 生命力全滿時
+		⇒ 全隊攻擊力額外 2 倍
+		III. 消除妖族符石時
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -21903,7 +27860,13 @@ const leader_skill_data = [
     },
     {
         'name': '巨狼領域',
-        'description': '隊中只有獸類或龍類成員時：<br>I. 全隊攻擊力 15 倍<br>II. 移動符石時間 2 倍<br>III. 消除獸族或龍族符石時<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		隊中只有獸類或龍類成員時：
+		I. 全隊攻擊力 15 倍
+		II. 移動符石時間 2 倍
+		III. 消除獸族或龍族符石時
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -21925,7 +27888,14 @@ const leader_skill_data = [
     },
     {
         'name': '絕境意志 ‧ 狂暴',
-        'description': 'I. 全隊生命力、攻擊力、回復力 1.5 倍<br>II. 當前生命力 >50% 時<br>⇒ 下一次所受傷害不會使你死亡<br>III. 若隊中只有暗屬性或神族成員：生命力愈低<br>⇒ 全隊攻擊力及回復力額外提升愈多<br>⇒ 最多 20 倍',
+        'description': `
+		I. 全隊生命力、攻擊力、回復力 1.5 倍
+		II. 當前生命力 >50% 時
+		⇒ 下一次所受傷害不會使你死亡
+		III. 若隊中只有暗屬性或神族成員：生命力愈低
+		⇒ 全隊攻擊力及回復力額外提升愈多
+		⇒ 最多 20 倍
+		`,
         'tag': [
             {
                 'name': ['增血', '增攻', '增回'],
@@ -21947,7 +27917,12 @@ const leader_skill_data = [
     },
     {
         'name': '靈氣根源',
-        'description': '隊中只有妖精類成員時：<br>I. 全隊攻擊力 10 倍及回復力 20 倍<br>II. 移動符石前若生命力全滿<br>⇒ 全隊回復力額外 2 倍',
+        'description': `
+		隊中只有妖精類成員時：
+		I. 全隊攻擊力 10 倍及回復力 20 倍
+		II. 移動符石前若生命力全滿
+		⇒ 全隊回復力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -21964,7 +27939,14 @@ const leader_skill_data = [
     },
     {
         'name': '龍凶噬',
-        'description': '隊伍中只有龍類成員時：<br>I. 全隊攻擊力 15 倍<br>II. 移動符石前若生命力未滿<br>⇒ 全隊攻擊力額外 2 倍<br>III. 消除龍族符石時<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		隊伍中只有龍類成員時：
+		I. 全隊攻擊力 15 倍
+		II. 移動符石前若生命力未滿
+		⇒ 全隊攻擊力額外 2 倍
+		III. 消除龍族符石時
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -21986,7 +27968,13 @@ const leader_skill_data = [
     },
     {
         'name': '神魔屠弒',
-        'description': '隊中只有神族或魔族成員：<br>I. 全隊攻擊力 15 倍<br>II. 消除神族或魔族符石<br>⇒ 全隊攻擊力額外 2 倍<br>III. 光及暗符石互相兼具 50% 效果',
+        'description': `
+		隊中只有神族或魔族成員：
+		I. 全隊攻擊力 15 倍
+		II. 消除神族或魔族符石
+		⇒ 全隊攻擊力額外 2 倍
+		III. 光及暗符石互相兼具 50% 效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -22008,7 +27996,14 @@ const leader_skill_data = [
     },
     {
         'name': '無上法則',
-        'description': '隊中只有神族及魔族成員：<br>I. 全隊攻擊力 15 倍、生命力及回復力 1.5 倍<br>II. 水、火及木符石<br>⇒ 互相兼具 50% 效果<br>III. 同時消除水、火及木符石<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		隊中只有神族及魔族成員：
+		I. 全隊攻擊力 15 倍、生命力及回復力 1.5 倍
+		II. 水、火及木符石
+		⇒ 互相兼具 50% 效果
+		III. 同時消除水、火及木符石
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -22030,7 +28025,13 @@ const leader_skill_data = [
     },
     {
         'name': '魔間狂嘯',
-        'description': '隊中只有魔族成員：<br>I. 全隊攻擊力 15 倍、生命力及回復力 2 倍<br>II. 所有符石兼具所有屬性符石效果<br>III. 消除魔族符石<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		隊中只有魔族成員：
+		I. 全隊攻擊力 15 倍、生命力及回復力 2 倍
+		II. 所有符石兼具所有屬性符石效果
+		III. 消除魔族符石
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -22051,8 +28052,39 @@ const leader_skill_data = [
         'monster': [3008]
     },
     {
+        'name': '歸元結念 ‧ 極',
+        'description': `
+		隊中所有隊員的種族不同：
+		I. 全隊攻擊力 20 倍、生命力及回復力 2.5 倍
+		II. 所有符石兼具所有屬性符石效果
+		III. 消除 ≥1 組 ≥9 粒符石
+		⇒ 全隊攻擊力額外 3 倍
+		`,
+        'tag': [
+            {
+                'name': ['增攻', '增血', '增回'],
+                'object': [],
+                'limit': ['成員種族']
+            },
+            {
+                'name': ['水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '暗兼具其他', '心兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗'],
+                'object': [],
+                'limit': ['成員種族']
+            },
+            {
+                'name': '增攻',
+                'object': [],
+                'limit': ['成員種族', '消除一組數量', '消除組數']
+            }
+		],
+        'monster': [3009]
+    },
+    {
         'name': '邃矚之力',
-        'description': 'I. 全隊攻擊力 3 倍<br>II. 所有成員無視屬性相剋',
+        'description': `
+		I. 全隊攻擊力 3 倍
+		II. 所有成員無視屬性相剋
+		`,
         'tag': [
             {
                 'name': ['增攻', '屬性剋制改變'],
@@ -22064,7 +28096,10 @@ const leader_skill_data = [
     },
     {
         'name': '遊俠之義',
-        'description': 'I. 人類攻擊力 3 倍<br>II. 遊俠系列角色生命力、攻擊力及回復力額外 1.5 倍',
+        'description': `
+		I. 人類攻擊力 3 倍
+		II. 遊俠系列角色生命力、攻擊力及回復力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -22081,7 +28116,11 @@ const leader_skill_data = [
     },
     {
         'name': '神魔獵盟',
-        'description': '隊伍中只有神族及 ≥2 個魔族成員時<br>I. 神族攻擊力 4.5 倍<br>II. 魔族攻擊力 3.5 倍',
+        'description': `
+		隊伍中只有神族及 ≥2 個魔族成員時
+		I. 神族攻擊力 4.5 倍
+		II. 魔族攻擊力 3.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -22093,7 +28132,9 @@ const leader_skill_data = [
     },
     {
         'name': '藤木萬鈞之怒 ‧ 強',
-        'description': '木屬性攻擊力 4.5 倍',
+        'description': `
+		木屬性攻擊力 4.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -22105,7 +28146,12 @@ const leader_skill_data = [
     },
     {
         'name': '燄獸萬鈞之怒 ‧ 極',
-        'description': '隊伍中只有獸類成員時：<br>I. 火屬性攻擊力 5 倍<br>II. 回合結束時<br>⇒ 將 3 粒火符石轉化為強化符石',
+        'description': `
+		隊伍中只有獸類成員時：
+		I. 火屬性攻擊力 5 倍
+		II. 回合結束時
+		⇒ 將 3 粒火符石轉化為強化符石
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -22122,7 +28168,13 @@ const leader_skill_data = [
     },
     {
         'name': '神夢國度',
-        'description': 'I. 神族攻擊力 7 倍及回復力 2 倍<br>II. 隊中只有神族成員時<br>⓵ 全隊攻擊力額外 2.5 倍<br>⓶ 所有屬性符石<br>⇒ 兼具 50% 其他屬性符石效果',
+        'description': `
+		I. 神族攻擊力 7 倍及回復力 2 倍
+		II. 隊中只有神族成員時
+		⓵ 全隊攻擊力額外 2.5 倍
+		⓶ 所有屬性符石
+		⇒ 兼具 50% 其他屬性符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -22144,7 +28196,13 @@ const leader_skill_data = [
     },
     {
         'name': '天竺鼠之力 ‧ 水',
-        'description': '隊中只有獸類成員時：<br>I. 全隊攻擊力 6 倍及生命力 1.8 倍<br>II. 首批消除 ≥2 組符石<br>⇒ 全隊攻擊力額外提升<br>⇒ 首批消除 6 組可達至最大 4 倍',
+        'description': `
+		隊中只有獸類成員時：
+		I. 全隊攻擊力 6 倍及生命力 1.8 倍
+		II. 首批消除 ≥2 組符石
+		⇒ 全隊攻擊力額外提升
+		⇒ 首批消除 6 組可達至最大 4 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -22161,7 +28219,14 @@ const leader_skill_data = [
     },
     {
         'name': '天竺鼠之力 ‧ 火',
-        'description': '隊中只有獸類成員時：<br>I. 全隊攻擊力 6 倍<br>II. 每個成員增加 500 點回復力<br>III. 首批消除 ≥2 組符石<br>⇒ 全隊攻擊力額外提升<br>⇒ 首批消除 6 組可達至最大 4 倍',
+        'description': `
+		隊中只有獸類成員時：
+		I. 全隊攻擊力 6 倍
+		II. 每個成員增加 500 點回復力
+		III. 首批消除 ≥2 組符石
+		⇒ 全隊攻擊力額外提升
+		⇒ 首批消除 6 組可達至最大 4 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -22178,7 +28243,13 @@ const leader_skill_data = [
     },
     {
         'name': '天竺鼠之力 ‧ 木',
-        'description': '隊中只有獸類成員時：<br>I. 全隊攻擊力 7 倍<br>II. 首批消除 ≥2 組符石<br>⇒ 全隊攻擊力額外提升<br>⇒ 首批消除 6 組可達至最大 4 倍',
+        'description': `
+		隊中只有獸類成員時：
+		I. 全隊攻擊力 7 倍
+		II. 首批消除 ≥2 組符石
+		⇒ 全隊攻擊力額外提升
+		⇒ 首批消除 6 組可達至最大 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -22195,7 +28266,13 @@ const leader_skill_data = [
     },
     {
         'name': '天竺鼠之力 ‧ 光',
-        'description': '隊中只有獸類成員時：<br>I. 全隊攻擊力 6.5 倍及生命力 1.5 倍<br>II. 首批消除 ≥2 組符石<br>⇒ 全隊攻擊力額外提升<br>⇒ 首批消除 6 組可達至最大 4 倍',
+        'description': `
+		隊中只有獸類成員時：
+		I. 全隊攻擊力 6.5 倍及生命力 1.5 倍
+		II. 首批消除 ≥2 組符石
+		⇒ 全隊攻擊力額外提升
+		⇒ 首批消除 6 組可達至最大 4 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -22212,7 +28289,14 @@ const leader_skill_data = [
     },
     {
         'name': '天竺鼠之力 ‧ 暗',
-        'description': '隊中只有獸類成員時：<br>I. 全隊攻擊力 6.5 倍<br>II. 每個成員增加 200 點回復力<br>III. 首批消除 ≥2 組符石<br>⇒ 全隊攻擊力額外提升<br>⇒ 首批消除 6 組可達至最大 4 倍',
+        'description': `
+		隊中只有獸類成員時：
+		I. 全隊攻擊力 6.5 倍
+		II. 每個成員增加 200 點回復力
+		III. 首批消除 ≥2 組符石
+		⇒ 全隊攻擊力額外提升
+		⇒ 首批消除 6 組可達至最大 4 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -22229,7 +28313,13 @@ const leader_skill_data = [
     },
     {
         'name': '怪獸王的咆哮',
-        'description': 'I. 獸類及妖精類攻擊力 6 倍、生命力及回復力 1.5 倍<br>II. 獸類攻擊力額外 1.5 倍<br>III. 妖精類回復力額外 1.5 倍<br>IV. 達至 ≥6 連擊 (Combo) 時<br>⇒ 獸類及妖精類攻擊力額外 2 倍',
+        'description': `
+		I. 獸類及妖精類攻擊力 6 倍、生命力及回復力 1.5 倍
+		II. 獸類攻擊力額外 1.5 倍
+		III. 妖精類回復力額外 1.5 倍
+		IV. 達至 ≥6 連擊 (Combo) 時
+		⇒ 獸類及妖精類攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -22246,7 +28336,16 @@ const leader_skill_data = [
     },
     {
         'name': '守護神之祈願',
-        'description': '隊中只有妖精類成員：<br>I. 全隊攻擊力 6.5 倍、生命力及回復力 1.3 倍<br>II. 消除木符石時<br>⇒ 全隊攻擊力額外 2 倍<br>III. 消除心符石時<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 同時消除木及心符石時<br>⇒ 全隊攻擊力額外 1.5 倍',
+        'description': `
+		隊中只有妖精類成員：
+		I. 全隊攻擊力 6.5 倍、生命力及回復力 1.3 倍
+		II. 消除木符石時
+		⇒ 全隊攻擊力額外 2 倍
+		III. 消除心符石時
+		⇒ 全隊攻擊力額外 2 倍
+		IV. 同時消除木及心符石時
+		⇒ 全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -22263,7 +28362,12 @@ const leader_skill_data = [
     },
     {
         'name': '超級怪獸的進擊',
-        'description': 'I. 光屬性及龍類攻擊力 7 倍<br>II. 龍類生命力 1.3 倍<br>III. 同時消除光、暗、心符石其中 2 種時<br>⇒ 光屬性及龍類攻擊力額外 3 倍',
+        'description': `
+		I. 光屬性及龍類攻擊力 7 倍
+		II. 龍類生命力 1.3 倍
+		III. 同時消除光、暗、心符石其中 2 種時
+		⇒ 光屬性及龍類攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -22285,7 +28389,13 @@ const leader_skill_data = [
     },
     {
         'name': '魅影幻陣',
-        'description': 'I. 隊伍中需有火、木及暗屬性的成員：<br>⓵ 消除 ≥3 種屬性符石<br>⇒ 火、木及暗屬性攻擊力 3 倍<br>II. 消除心符石時<br>⇒ 火、木及暗屬性的攻擊力有 50% 機率額外 1.5 倍 (機率可以疊加)',
+        'description': `
+		I. 隊伍中需有火、木及暗屬性的成員：
+		⓵ 消除 ≥3 種屬性符石
+		⇒ 火、木及暗屬性攻擊力 3 倍
+		II. 消除心符石時
+		⇒ 火、木及暗屬性的攻擊力有 50% 機率額外 1.5 倍 (機率可以疊加)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -22302,7 +28412,11 @@ const leader_skill_data = [
     },
     {
         'name': '速戰速決',
-        'description': '每回合剩餘的移動符石時間愈多<br>⇒ 全隊攻擊力愈高<br>⇒ 最少 1.5 倍，最大 4 倍',
+        'description': `
+		每回合剩餘的移動符石時間愈多
+		⇒ 全隊攻擊力愈高
+		⇒ 最少 1.5 倍，最大 4 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -22314,7 +28428,10 @@ const leader_skill_data = [
     },
     {
         'name': '魔魅結聚 ‧ 木',
-        'description': '隊中只有木屬性「妖精類、獸類及魔族」成員<br>⇒ 木屬性攻擊力 3 倍',
+        'description': `
+		隊中只有木屬性「妖精類、獸類及魔族」成員
+		⇒ 木屬性攻擊力 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -22326,7 +28443,14 @@ const leader_skill_data = [
     },
     {
         'name': '饞涎噴發',
-        'description': 'I. 全隊攻擊力 9 倍及生命力 2 倍<br>II. 水符石兼具 100% 其他屬性符石效果：每多一個獸類成員<br>⇒ 提升 20% 兼具效果<br>⇒ 最多可兼具 200%<br>III. 隊伍中有 ≥3 個獸類成員時<br>⇒ 延長移動符石時間 3 秒',
+        'description': `
+		I. 全隊攻擊力 9 倍及生命力 2 倍
+		II. 水符石兼具 100% 其他屬性符石效果：每多一個獸類成員
+		⇒ 提升 20% 兼具效果
+		⇒ 最多可兼具 200%
+		III. 隊伍中有 ≥3 個獸類成員時
+		⇒ 延長移動符石時間 3 秒
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '水兼具其他', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗'],
@@ -22343,7 +28467,12 @@ const leader_skill_data = [
     },
     {
         'name': '炙炎召喚',
-        'description': 'I. 全隊攻擊力 9 倍、生命力及回復力 1.5 倍<br>II. 所有符石兼具 250% 其他符石效果<br>III. 隊中有 ≥3 個獸類成員時<br>⇒ 延長移動符石時間 3 秒',
+        'description': `
+		I. 全隊攻擊力 9 倍、生命力及回復力 1.5 倍
+		II. 所有符石兼具 250% 其他符石效果
+		III. 隊中有 ≥3 個獸類成員時
+		⇒ 延長移動符石時間 3 秒
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '暗兼具其他', '心兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心'],
@@ -22360,7 +28489,13 @@ const leader_skill_data = [
     },
     {
         'name': '藤園魔法',
-        'description': 'I. 全隊攻擊力 9 倍及生命力 1.5 倍<br>II. 隊中有 ≥3 種族成員時<br>⇒ 全隊攻擊力額外 4.5 倍<br>III. 每首批消除 1 組符石<br>⇒ 人類及神族成員直行首批掉落 1 粒木強化符石',
+        'description': `
+		I. 全隊攻擊力 9 倍及生命力 1.5 倍
+		II. 隊中有 ≥3 種族成員時
+		⇒ 全隊攻擊力額外 4.5 倍
+		III. 每首批消除 1 組符石
+		⇒ 人類及神族成員直行首批掉落 1 粒木強化符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -22382,7 +28517,15 @@ const leader_skill_data = [
     },
     {
         'name': '鮮紅魔力',
-        'description': 'I. 全隊攻擊力 9 倍及生命力 1.8 倍<br>II. 魔族成員攻擊力額外 4 倍<br>III. 魔族成員對敵方造成攻擊傷害的 5%<br>⇒ 轉化為生命力<br>⇒ 最大為生命力等值的 100%<br>IV. 隊中有 ≥3 個魔族成員時<br>⇒ 延長移動符石時間 3 秒',
+        'description': `
+		I. 全隊攻擊力 9 倍及生命力 1.8 倍
+		II. 魔族成員攻擊力額外 4 倍
+		III. 魔族成員對敵方造成攻擊傷害的 5%
+		⇒ 轉化為生命力
+		⇒ 最大為生命力等值的 100%
+		IV. 隊中有 ≥3 個魔族成員時
+		⇒ 延長移動符石時間 3 秒
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -22404,7 +28547,14 @@ const leader_skill_data = [
     },
     {
         'name': '暗影重重',
-        'description': 'I. 全隊攻擊力 9 倍及生命力 1.5 倍<br>II. 隊中有 ≥3 種族成員時<br>⇒ 全隊攻擊力額外 4.5 倍<br>III. 每首批消除 1 組符石<br>⇒人類及神族成員直行<br>首批掉落 1 粒暗強化符石',
+        'description': `
+		I. 全隊攻擊力 9 倍及生命力 1.5 倍
+		II. 隊中有 ≥3 種族成員時
+		⇒ 全隊攻擊力額外 4.5 倍
+		III. 每首批消除 1 組符石
+		⇒人類及神族成員直行
+		首批掉落 1 粒暗強化符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -22426,7 +28576,13 @@ const leader_skill_data = [
     },
     {
         'name': '魔龍之瞳',
-        'description': 'I. 全隊攻擊力 9 倍及生命力 3 倍<br>II. 每首批消除 2 組符石<br>⇒ 龍類及魔族成員額外追打 1 次<br>III. 隊中有 ≥3 種族成員時<br>⇒ 延長移動符石時間 1.5 秒',
+        'description': `
+		I. 全隊攻擊力 9 倍及生命力 3 倍
+		II. 每首批消除 2 組符石
+		⇒ 龍類及魔族成員額外追打 1 次
+		III. 隊中有 ≥3 種族成員時
+		⇒ 延長移動符石時間 1.5 秒
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -22448,7 +28604,11 @@ const leader_skill_data = [
     },
     {
         'name': '沉睡中的交戰',
-        'description': 'I. 全隊攻擊力 9 倍及生命力 1.5 倍<br>II. 心符石兼具所有屬性符石效果<br>III. 所有成員對最後擊中我方的敵人的屬性目標傷害額外 4 倍',
+        'description': `
+		I. 全隊攻擊力 9 倍及生命力 1.5 倍
+		II. 心符石兼具所有屬性符石效果
+		III. 所有成員對最後擊中我方的敵人的屬性目標傷害額外 4 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '心兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '對水增傷', '對火增傷', '對木增傷', '對光增傷', '對暗增傷'],
@@ -22460,7 +28620,13 @@ const leader_skill_data = [
     },
     {
         'name': '聖潔神諭',
-        'description': 'I. 全隊攻擊力 9 倍及生命力 1.5 倍<br>II. 隊中有 ≥3 種族成員時<br>⇒ 全隊攻擊力額外 4.5 倍<br>III. 每首批消除 1 組符石<br>⇒ 增加 1 Ex. Combo',
+        'description': `
+		I. 全隊攻擊力 9 倍及生命力 1.5 倍
+		II. 隊中有 ≥3 種族成員時
+		⇒ 全隊攻擊力額外 4.5 倍
+		III. 每首批消除 1 組符石
+		⇒ 增加 1 Ex. Combo
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -22482,7 +28648,13 @@ const leader_skill_data = [
     },
     {
         'name': '行動 F 代號',
-        'description': 'I. 全隊攻擊力 9 倍及生命力 1.5 倍<br>II. 達成 ≥4 連擊 (Combo)<br>⇒ 機械族行動值提升 5%<br>III. 當所有機械族成員行動值達至 100%<br>⇒ 自身攻擊力額外 6 倍',
+        'description': `
+		I. 全隊攻擊力 9 倍及生命力 1.5 倍
+		II. 達成 ≥4 連擊 (Combo)
+		⇒ 機械族行動值提升 5%
+		III. 當所有機械族成員行動值達至 100%
+		⇒ 自身攻擊力額外 6 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -22504,7 +28676,13 @@ const leader_skill_data = [
     },
     {
         'name': '行動 D 代號',
-        'description': 'I. 全隊攻擊力 9 倍及生命力 2 倍<br>II. 達成 ≥4 連擊 (Combo)<br>⇒ 機械族行動值提升 5%<br>III. 當所有機械族成員行動值達至 100%<br>⇒ 回合結束時回復 30,000 點生命力',
+        'description': `
+		I. 全隊攻擊力 9 倍及生命力 2 倍
+		II. 達成 ≥4 連擊 (Combo)
+		⇒ 機械族行動值提升 5%
+		III. 當所有機械族成員行動值達至 100%
+		⇒ 回合結束時回復 30,000 點生命力
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -22526,7 +28704,13 @@ const leader_skill_data = [
     },
     {
         'name': '命運之輝',
-        'description': 'I. 全隊攻擊力 7 倍及生命力 1.3 倍<br>II. 隊中只有光屬性成員時：<br>⓵ 全隊生命力、攻擊力、回復力額外 1.5 倍<br>⓶ 消除角色符石或種族符石時<br>⇒ 全隊攻擊力額外 3.8 倍',
+        'description': `
+		I. 全隊攻擊力 7 倍及生命力 1.3 倍
+		II. 隊中只有光屬性成員時：
+		⓵ 全隊生命力、攻擊力、回復力額外 1.5 倍
+		⓶ 消除角色符石或種族符石時
+		⇒ 全隊攻擊力額外 3.8 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -22548,7 +28732,15 @@ const leader_skill_data = [
     },
     {
         'name': '狂獸戰術',
-        'description': 'I. 全隊攻擊力 6.5 倍<br>II. 水符石兼具 25% 其他符石效果<br>III. 消除 1 組 ≥4 粒符石<br>⇒ 全隊攻擊力額外 2.5 倍<br>IV. 隊中只有獸類或龍類成員時：<br>⓵ 全隊生命力及回復力額外 1.8 倍<br>⓶ 其他符石兼具 25% 水符石效果',
+        'description': `
+		I. 全隊攻擊力 6.5 倍
+		II. 水符石兼具 25% 其他符石效果
+		III. 消除 1 組 ≥4 粒符石
+		⇒ 全隊攻擊力額外 2.5 倍
+		IV. 隊中只有獸類或龍類成員時：
+		⓵ 全隊生命力及回復力額外 1.8 倍
+		⓶ 其他符石兼具 25% 水符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '水兼具其他', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心'],
@@ -22575,7 +28767,16 @@ const leader_skill_data = [
     },
     {
         'name': '魅酷焚焰',
-        'description': 'I. 妖精類攻擊力及回復力 10 倍<br>II. 每個妖精類成員增加 1,000 點生命力<br>III. 消除火或心符石<br>⇒ 妖精類攻擊力額外 4.5 倍<br>IV. 首批消除符石組數為 5 的倍數時<br>⇒ 妖精類成員<br>⓵ 無視「固定連擊盾」<br>⓶ 無視敵人防禦力',
+        'description': `
+		I. 妖精類攻擊力及回復力 10 倍
+		II. 每個妖精類成員增加 1,000 點生命力
+		III. 消除火或心符石
+		⇒ 妖精類攻擊力額外 4.5 倍
+		IV. 首批消除符石組數為 5 的倍數時
+		⇒ 妖精類成員
+		⓵ 無視「固定連擊盾」
+		⓶ 無視敵人防禦力
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回', '增血'],
@@ -22597,7 +28798,14 @@ const leader_skill_data = [
     },
     {
         'name': '紫魂法規',
-        'description': '隊中只有人類時：<br>I. 全隊攻擊力 8 倍、生命力及回復力 2 倍<br>II. 首批沒有消除暗符石時<br>⇒ 全隊攻擊力額外 3 倍<br>III. 首批沒有消除光符石時<br>⇒ 減少 40% 所受傷害',
+        'description': `
+		隊中只有人類時：
+		I. 全隊攻擊力 8 倍、生命力及回復力 2 倍
+		II. 首批沒有消除暗符石時
+		⇒ 全隊攻擊力額外 3 倍
+		III. 首批沒有消除光符石時
+		⇒ 減少 40% 所受傷害
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -22619,7 +28827,16 @@ const leader_skill_data = [
     },
     {
         'name': '聖神威壓',
-        'description': 'I. 光屬性、妖精類及神族成員<br>⇒ 攻擊力 7 倍、生命力及回復力 1.5 倍<br>II. 妖精類及神族成員<br>⓵ 攻擊力額外 3 倍<br>⓶ 生命力及回復力額外 1.3 倍<br>III. 必然延長移動符石時間 3 秒<br>IV. 消除 ≥4 組符石<br>⇒ 光屬性、妖精類及神族成員攻擊力額外 2 倍',
+        'description': `
+		I. 光屬性、妖精類及神族成員
+		⇒ 攻擊力 7 倍、生命力及回復力 1.5 倍
+		II. 妖精類及神族成員
+		⓵ 攻擊力額外 3 倍
+		⓶ 生命力及回復力額外 1.3 倍
+		III. 必然延長移動符石時間 3 秒
+		IV. 消除 ≥4 組符石
+		⇒ 光屬性、妖精類及神族成員攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -22641,7 +28858,14 @@ const leader_skill_data = [
     },
     {
         'name': '聖鬥士 ‧ 戰意',
-        'description': '隊中只有人類成員或「智慧與戰爭女神 ‧ 雅典娜」時：<br>I. 全隊攻擊力 5 倍、生命力及回復力 1.2 倍<br>II. 延長移動符石時間 1 秒<br>III.【聖鬥士】攻擊力額外 3 倍<br>IV. 心符石兼具 50% 屬性符石效果<br>V. 水及木符石互相兼具 50% 效果',
+        'description': `
+		隊中只有人類成員或「智慧與戰爭女神 ‧ 雅典娜」時：
+		I. 全隊攻擊力 5 倍、生命力及回復力 1.2 倍
+		II. 延長移動符石時間 1 秒
+		III.【聖鬥士】攻擊力額外 3 倍
+		IV. 心符石兼具 50% 屬性符石效果
+		V. 水及木符石互相兼具 50% 效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -22663,7 +28887,15 @@ const leader_skill_data = [
     },
     {
         'name': '聖鬥士 ‧ 不死鳥',
-        'description': '隊中只有火屬性、暗屬性成員、【聖鬥士】或「智慧與戰爭女神 ‧ 雅典娜」時：<br>I. 全隊攻擊力 6.5 倍、生命力及回復力 1.5 倍<br>II. 延長移動符石時間 2 秒<br>III. 火、暗及心符石分別兼具<br>⇒ 50% 其他符石效果<br>IV. 同時消除火、暗、心符石其中 2 種時<br>⇒ 全隊攻擊力額外 4.5 倍',
+        'description': `
+		隊中只有火屬性、暗屬性成員、【聖鬥士】或「智慧與戰爭女神 ‧ 雅典娜」時：
+		I. 全隊攻擊力 6.5 倍、生命力及回復力 1.5 倍
+		II. 延長移動符石時間 2 秒
+		III. 火、暗及心符石分別兼具
+		⇒ 50% 其他符石效果
+		IV. 同時消除火、暗、心符石其中 2 種時
+		⇒ 全隊攻擊力額外 4.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -22685,7 +28917,15 @@ const leader_skill_data = [
     },
     {
         'name': '聖鬥士 ‧ 不死鳥 ‧ 強',
-        'description': '隊中只有火屬性、暗屬性成員、【聖鬥士】或「智慧與戰爭女神 ‧ 雅典娜」時：<br>I. 全隊攻擊力 7 倍、生命力及回復力 1.5 倍<br>II. 必然延長移動符石時間 2 秒<br>III. 火、暗及心符石分別兼具<br>⇒ 50% 其他符石效果<br>IV. 同時消除火、暗、心符石其中 2 種時<br>⇒ 全隊攻擊力額外 4.5 倍',
+        'description': `
+		隊中只有火屬性、暗屬性成員、【聖鬥士】或「智慧與戰爭女神 ‧ 雅典娜」時：
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.5 倍
+		II. 必然延長移動符石時間 2 秒
+		III. 火、暗及心符石分別兼具
+		⇒ 50% 其他符石效果
+		IV. 同時消除火、暗、心符石其中 2 種時
+		⇒ 全隊攻擊力額外 4.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -22707,7 +28947,14 @@ const leader_skill_data = [
     },
     {
         'name': '聖鬥士 ‧ 戰意燃燒',
-        'description': '隊中只有人類成員或「智慧與戰爭女神 ‧ 雅典娜」時：<br>I. 全隊攻擊力 6 倍、生命力及回復力 1.2 倍<br>II. 必然延長移動符石時間 1 秒<br>III.【聖鬥士】攻擊力額外 3 倍<br>IV. 心符石兼具 50% 屬性符石效果<br>V. 水及木符石互相兼具 50% 效果',
+        'description': `
+		隊中只有人類成員或「智慧與戰爭女神 ‧ 雅典娜」時：
+		I. 全隊攻擊力 6 倍、生命力及回復力 1.2 倍
+		II. 必然延長移動符石時間 1 秒
+		III.【聖鬥士】攻擊力額外 3 倍
+		IV. 心符石兼具 50% 屬性符石效果
+		V. 水及木符石互相兼具 50% 效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -22729,7 +28976,15 @@ const leader_skill_data = [
     },
     {
         'name': '聖鬥士集結',
-        'description': '隊中只有人類或神族成員時：<br>I. 全隊攻擊力 6.5 倍、生命力及回復力 1.4 倍<br>II. 延長移動符石時間 3 秒<br>III.【聖鬥士】生命力、攻擊力、回復力額外 1.2 倍<br>IV. 隊中有 ≥3 種屬性成員<br>⇒ 全隊攻擊力額外 3 倍<br>V. 所受人類及神族敵人的傷害減少 30%',
+        'description': `
+		隊中只有人類或神族成員時：
+		I. 全隊攻擊力 6.5 倍、生命力及回復力 1.4 倍
+		II. 延長移動符石時間 3 秒
+		III.【聖鬥士】生命力、攻擊力、回復力額外 1.2 倍
+		IV. 隊中有 ≥3 種屬性成員
+		⇒ 全隊攻擊力額外 3 倍
+		V. 所受人類及神族敵人的傷害減少 30%
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -22756,7 +29011,18 @@ const leader_skill_data = [
     },
     {
         'name': '聖鬥士集結 ‧ 爆發',
-        'description': '隊中只有人類或神族成員時：<br>I. 全隊攻擊力 6.5 倍、生命力及回復力 1.4 倍<br>II. 延長移動符石時間 3 秒<br>III.【聖鬥士】生命力、攻擊力、回復力額外 1.2 倍<br>IV. 隊中有 ≥3 種屬性成員<br>⇒ 全隊攻擊力額外 3 倍<br>V. 所受人類及神族敵人的傷害減少 30%<br>VI. 若有消除符石<br>⇒ 每回合結束時，將 6 粒符石引爆 (光以外的屬性符石優先)<br>⇒ 掉落光人族符石',
+        'description': `
+		隊中只有人類或神族成員時：
+		I. 全隊攻擊力 6.5 倍、生命力及回復力 1.4 倍
+		II. 延長移動符石時間 3 秒
+		III.【聖鬥士】生命力、攻擊力、回復力額外 1.2 倍
+		IV. 隊中有 ≥3 種屬性成員
+		⇒ 全隊攻擊力額外 3 倍
+		V. 所受人類及神族敵人的傷害減少 30%
+		VI. 若有消除符石
+		⇒ 每回合結束時，將 6 粒符石引爆 (光以外的屬性符石優先)
+		⇒ 掉落光人族符石
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -22784,7 +29050,15 @@ const leader_skill_data = [
     },
     {
         'name': '聖鬥士最強集結',
-        'description': '隊中只有人類或神族成員時：<br>I. 全隊攻擊力 7 倍、生命力及回復力 1.6 倍<br>II. 必然延長移動符石時間 3 秒<br>III. 【聖鬥士】生命力、攻擊力、回復力額外 1.2 倍<br>IV. 隊中有 ≥3 種屬性成員<br>⇒ 全隊攻擊力額外 3 倍<br>V. 所受人類及神族敵人的傷害減少 30%',
+        'description': `
+		隊中只有人類或神族成員時：
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.6 倍
+		II. 必然延長移動符石時間 3 秒
+		III. 【聖鬥士】生命力、攻擊力、回復力額外 1.2 倍
+		IV. 隊中有 ≥3 種屬性成員
+		⇒ 全隊攻擊力額外 3 倍
+		V. 所受人類及神族敵人的傷害減少 30%
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -22811,7 +29085,18 @@ const leader_skill_data = [
     },
     {
         'name': '聖鬥士最強集結 ‧ 爆發',
-        'description': '隊中只有人類或神族成員時：<br>I. 全隊攻擊力 7 倍、生命力及回復力 1.6 倍<br>II. 必然延長移動符石時間 3 秒<br>III. 【聖鬥士】生命力、攻擊力、回復力額外 1.2 倍<br>IV. 隊中有 ≥3 種屬性成員<br>⇒ 全隊攻擊力額外 3 倍<br>V. 所受人類及神族敵人的傷害減少 30%<br>VI. 若有消除符石<br>⇒ 每回合結束時，將 6 粒符石引爆 (光以外的屬性符石優先)<br>⇒ 掉落光人族符石',
+        'description': `
+		隊中只有人類或神族成員時：
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.6 倍
+		II. 必然延長移動符石時間 3 秒
+		III. 【聖鬥士】生命力、攻擊力、回復力額外 1.2 倍
+		IV. 隊中有 ≥3 種屬性成員
+		⇒ 全隊攻擊力額外 3 倍
+		V. 所受人類及神族敵人的傷害減少 30%
+		VI. 若有消除符石
+		⇒ 每回合結束時，將 6 粒符石引爆 (光以外的屬性符石優先)
+		⇒ 掉落光人族符石
+		`,
 		'changedSkill': true,
         'tag': [
             {
@@ -22839,7 +29124,16 @@ const leader_skill_data = [
     },
     {
         'name': '聖鬥士 ‧ 鎖鏈攻擊',
-        'description': '隊中只有人類或「智慧與戰爭女神 ‧ 雅典娜」時：<br>I. 全隊攻擊力 6 倍、生命力及回復力 1.5 倍<br>II. 延長移動符石時間 3 秒<br>III. 消除 1 組 ≥7 粒符石時<br>⓵ 全隊攻擊力額外 5 倍<br>⓶ 【聖鬥士】無視「指定形狀盾」<br>IV. 暗符石兼具 50% 其他符石效果<br>V. 心符石兼具暗符石效果',
+        'description': `
+		隊中只有人類或「智慧與戰爭女神 ‧ 雅典娜」時：
+		I. 全隊攻擊力 6 倍、生命力及回復力 1.5 倍
+		II. 延長移動符石時間 3 秒
+		III. 消除 1 組 ≥7 粒符石時
+		⓵ 全隊攻擊力額外 5 倍
+		⓶ 【聖鬥士】無視「指定形狀盾」
+		IV. 暗符石兼具 50% 其他符石效果
+		V. 心符石兼具暗符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -22866,7 +29160,16 @@ const leader_skill_data = [
     },
     {
         'name': '聖鬥士 ‧ 鎖鏈攻擊 ‧ 強',
-        'description': '隊中只有人類成員或「智慧與戰爭女神 ‧ 雅典娜」時：<br>I. 全隊攻擊力 7 倍、生命力及回復力 1.5 倍<br>II. 延長移動符石時間 3 秒<br>III. 消除 1 組 ≥7 粒符石時<br>⓵ 全隊攻擊力額外 5 倍<br>⓶ 【聖鬥士】無視「指定形狀盾」<br>IV. 暗符石兼具其他符石效果<br>V. 心符石兼具暗符石效果',
+        'description': `
+		隊中只有人類成員或「智慧與戰爭女神 ‧ 雅典娜」時：
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.5 倍
+		II. 延長移動符石時間 3 秒
+		III. 消除 1 組 ≥7 粒符石時
+		⓵ 全隊攻擊力額外 5 倍
+		⓶ 【聖鬥士】無視「指定形狀盾」
+		IV. 暗符石兼具其他符石效果
+		V. 心符石兼具暗符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -22893,7 +29196,14 @@ const leader_skill_data = [
     },
     {
         'name': '聖鬥士 ‧ 鬥志',
-        'description': '隊中只有人類成員時：<br>I. 全隊攻擊力 5 倍、生命力及回復力 1.2 倍<br>II. 延長移動符石時間 1 秒<br>III.【聖鬥士】攻擊力額外 3 倍<br>IV. 心符石兼具 50% 屬性符石效果<br>V. 水及光符石互相兼具 50% 效果',
+        'description': `
+		隊中只有人類成員時：
+		I. 全隊攻擊力 5 倍、生命力及回復力 1.2 倍
+		II. 延長移動符石時間 1 秒
+		III.【聖鬥士】攻擊力額外 3 倍
+		IV. 心符石兼具 50% 屬性符石效果
+		V. 水及光符石互相兼具 50% 效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -22915,7 +29225,13 @@ const leader_skill_data = [
     },
     {
         'name': '冥界項鏈',
-        'description': '隊中只有人類及神族成員時：<br>I. 全隊攻擊力 5 倍、生命力及回復力 1.2 倍<br>II. 延長移動符石時間 1 秒<br>III. 心符石兼具 50% 屬性符石效果<br>IV. 火及暗符石互相兼具 50% 效果',
+        'description': `
+		隊中只有人類及神族成員時：
+		I. 全隊攻擊力 5 倍、生命力及回復力 1.2 倍
+		II. 延長移動符石時間 1 秒
+		III. 心符石兼具 50% 屬性符石效果
+		IV. 火及暗符石互相兼具 50% 效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -22932,7 +29248,9 @@ const leader_skill_data = [
     },
     {
         'name': '雅典娜的鬥士',
-        'description': '【聖鬥士】攻擊力及回復力 10 倍',
+        'description': `
+		【聖鬥士】攻擊力及回復力 10 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -22944,7 +29262,9 @@ const leader_skill_data = [
     },
     {
         'name': '冥鬥士 ‧ 進攻',
-        'description': '【冥鬥士】攻擊力 7 倍',
+        'description': `
+		【冥鬥士】攻擊力 7 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -22956,7 +29276,14 @@ const leader_skill_data = [
     },
     {
         'name': '鬥士 ‧ 重生力量',
-        'description': '隊中只有人類成員時：<br>I. 全隊攻擊力 5 倍<br>II. 隊中有 ≥3 個【聖鬥士】時<br>⇒ 全隊攻擊力及回復力額外 1.5 倍<br>III. 隊中有 ≥3 個【冥鬥士】時<br>⇒ 全隊攻擊力及回復力額外 1.5 倍',
+        'description': `
+		隊中只有人類成員時：
+		I. 全隊攻擊力 5 倍
+		II. 隊中有 ≥3 個【聖鬥士】時
+		⇒ 全隊攻擊力及回復力額外 1.5 倍
+		III. 隊中有 ≥3 個【冥鬥士】時
+		⇒ 全隊攻擊力及回復力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -22973,7 +29300,15 @@ const leader_skill_data = [
     },
     {
         'name': '冥鬥士 ‧ 死亡創造',
-        'description': '隊中只有光屬性、暗屬性成員或【冥鬥士】時：<br>I. 全隊攻擊力 7 倍、生命力及回復力 1.6 倍<br>II. 延長移動符石時間 3 秒<br>III. 隊中有 ≥3 種族成員時<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 達至 ≥8 連擊 (Combo)<br>⇒ 所有成員以 3 倍攻擊力追打 1 次',
+        'description': `
+		隊中只有光屬性、暗屬性成員或【冥鬥士】時：
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.6 倍
+		II. 延長移動符石時間 3 秒
+		III. 隊中有 ≥3 種族成員時
+		⇒ 全隊攻擊力額外 2 倍
+		IV. 達至 ≥8 連擊 (Combo)
+		⇒ 所有成員以 3 倍攻擊力追打 1 次
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -23000,7 +29335,9 @@ const leader_skill_data = [
     },
     {
         'name': '神之統領',
-        'description': '神族攻擊力 7 倍及回復力 3 倍',
+        'description': `
+		神族攻擊力 7 倍及回復力 3 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -23012,7 +29349,17 @@ const leader_skill_data = [
     },
     {
         'name': '無匹神力',
-        'description': 'I. 全隊攻擊力 7 倍、生命力及回復力 1.7 倍<br>II. 隊中成員種族愈多，全隊攻擊力額外提升愈多：<br>⓵ 2 種族成員額外 4 倍<br>⓶ 4 種族成員可達至最大 6 倍<br>III. 神族成員無視敵人防禦力<br>IV. 人類、魔族、機械族成員<br>⇒ 無視「攻前盾」<br>V. 龍類、獸類、妖精類成員<br>⇒ 無視「固定連擊盾」',
+        'description': `
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.7 倍
+		II. 隊中成員種族愈多，全隊攻擊力額外提升愈多：
+		⓵ 2 種族成員額外 4 倍
+		⓶ 4 種族成員可達至最大 6 倍
+		III. 神族成員無視敵人防禦力
+		IV. 人類、魔族、機械族成員
+		⇒ 無視「攻前盾」
+		V. 龍類、獸類、妖精類成員
+		⇒ 無視「固定連擊盾」
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -23044,7 +29391,15 @@ const leader_skill_data = [
     },
     {
         'name': '連擊魔力',
-        'description': '隊中只有水屬性、魔族或神族成員時：<br>I. 全隊攻擊力 5 倍及生命力 1.5 倍<br>II. 達成連擊 (Combo) 愈多，全隊攻擊力額外提升愈多：<br>⓵ 2 連擊 (Combo) 額外 2 倍<br>⓶ 8 連擊 (Combo) 可達至最大 8 倍<br>III. 每消除 1 粒魔族符石<br>⇒ 回復 2,000 點生命力',
+        'description': `
+		隊中只有水屬性、魔族或神族成員時：
+		I. 全隊攻擊力 5 倍及生命力 1.5 倍
+		II. 達成連擊 (Combo) 愈多，全隊攻擊力額外提升愈多：
+		⓵ 2 連擊 (Combo) 額外 2 倍
+		⓶ 8 連擊 (Combo) 可達至最大 8 倍
+		III. 每消除 1 粒魔族符石
+		⇒ 回復 2,000 點生命力
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -23066,7 +29421,13 @@ const leader_skill_data = [
     },
     {
         'name': '相克攻法',
-        'description': 'I. 獸類、人類攻擊力 7 倍及生命力 2.5 倍<br>II. 獸類成員追打自身克制屬性攻擊 1 次<br>III. 人類成員進場 CD -2<br>IV. 隊中只有獸類或人類成員時<br>⇒ 全隊攻擊力額外 4 倍',
+        'description': `
+		I. 獸類、人類攻擊力 7 倍及生命力 2.5 倍
+		II. 獸類成員追打自身克制屬性攻擊 1 次
+		III. 人類成員進場 CD -2
+		IV. 隊中只有獸類或人類成員時
+		⇒ 全隊攻擊力額外 4 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -23093,7 +29454,13 @@ const leader_skill_data = [
     },
     {
         'name': '璀璨的魅藍',
-        'description': '隊伍中只有妖精類成員時：<br>I. 全隊攻擊力 8 倍及回復力 1.8 倍<br>II. 所有符石兼具 50% 其他符石效果<br>III. 隊中成員每次發動技能<br>⇒ 回復 50% 生命力',
+        'description': `
+		隊伍中只有妖精類成員時：
+		I. 全隊攻擊力 8 倍及回復力 1.8 倍
+		II. 所有符石兼具 50% 其他符石效果
+		III. 隊中成員每次發動技能
+		⇒ 回復 50% 生命力
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -23115,7 +29482,11 @@ const leader_skill_data = [
     },
     {
         'name': '龍裔聖焰',
-        'description': 'I. 全隊攻擊力 8 倍及生命力 2 倍<br>II. 龍類成員生命力額外 1.6 倍及攻擊力額外 4.5 倍<br>III. 必然延長移動符石時間 2 秒',
+        'description': `
+		I. 全隊攻擊力 8 倍及生命力 2 倍
+		II. 龍類成員生命力額外 1.6 倍及攻擊力額外 4.5 倍
+		III. 必然延長移動符石時間 2 秒
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '延長轉珠時間'],
@@ -23127,7 +29498,12 @@ const leader_skill_data = [
     },
     {
         'name': '温柔的守護',
-        'description': 'I. 人類攻擊力 8 倍、生命力及回復力 2 倍<br>II. 消除火符石時<br>⇒ 全隊攻擊力額外 5 倍<br>III. 必然延長移動符石時間 2 秒',
+        'description': `
+		I. 人類攻擊力 8 倍、生命力及回復力 2 倍
+		II. 消除火符石時
+		⇒ 全隊攻擊力額外 5 倍
+		III. 必然延長移動符石時間 2 秒
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -23149,7 +29525,13 @@ const leader_skill_data = [
     },
     {
         'name': '星辰力量',
-        'description': '隊中只有神族成員：<br>I. 全隊攻擊力 6 倍及回復力 1.5 倍<br>II. 光屬性攻擊力額外 4 倍、生命力及回復力額外 1.5 倍<br>III. 其他符石分別兼具<br>⇒ 50% 光及心符石效果',
+        'description': `
+		隊中只有神族成員：
+		I. 全隊攻擊力 6 倍及回復力 1.5 倍
+		II. 光屬性攻擊力額外 4 倍、生命力及回復力額外 1.5 倍
+		III. 其他符石分別兼具
+		⇒ 50% 光及心符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回'],
@@ -23171,7 +29553,15 @@ const leader_skill_data = [
     },
     {
         'name': '半冷半燃',
-        'description': 'I. 水、火屬性、【雄英高校】成員<br>⇒ 攻擊力 7 倍、生命力及回復力 1.5 倍<br>II. 延長移動符石時間 2 秒<br>III. 消除水符石時<br>⇒ 減少 50% 所受傷害<br>IV. 消除火符石時<br>⇒ 全隊攻擊力額外 3 倍',
+        'description': `
+		I. 水、火屬性、【雄英高校】成員
+		⇒ 攻擊力 7 倍、生命力及回復力 1.5 倍
+		II. 延長移動符石時間 2 秒
+		III. 消除水符石時
+		⇒ 減少 50% 所受傷害
+		IV. 消除火符石時
+		⇒ 全隊攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -23193,7 +29583,14 @@ const leader_skill_data = [
     },
     {
         'name': '爆破',
-        'description': 'I. 火屬性攻擊力 7 倍、生命力及回復力 1.8 倍<br>II. 延長移動符石時間 1 秒<br>III. 自身進場 CD -5<br>IV. 火屬性人類進場 CD -1<br>V. 敵人所受追打傷害額外 2 倍<br>VI. 所有成員對目標攻擊力 1.5 倍',
+        'description': `
+		I. 火屬性攻擊力 7 倍、生命力及回復力 1.8 倍
+		II. 延長移動符石時間 1 秒
+		III. 自身進場 CD -5
+		IV. 火屬性人類進場 CD -1
+		V. 敵人所受追打傷害額外 2 倍
+		VI. 所有成員對目標攻擊力 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -23215,7 +29612,15 @@ const leader_skill_data = [
     },
     {
         'name': 'One For All',
-        'description': '隊中只有人類成員時：<br>I. 全隊攻擊力 7.5 倍及生命力 1.8 倍<br>II.「綠谷出久」攻擊力額外 3 倍<br>III. 消除 ≥3 種屬性符石時<br>⇒ 全隊攻擊力額外 3 倍<br>IV. 木及光符石分別兼具<br>⇒ 50% 其他符石效果',
+        'description': `
+		隊中只有人類成員時：
+		I. 全隊攻擊力 7.5 倍及生命力 1.8 倍
+		II.「綠谷出久」攻擊力額外 3 倍
+		III. 消除 ≥3 種屬性符石時
+		⇒ 全隊攻擊力額外 3 倍
+		IV. 木及光符石分別兼具
+		⇒ 50% 其他符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -23242,7 +29647,13 @@ const leader_skill_data = [
     },
     {
         'name': '雄英的力量',
-        'description': 'I. 人類攻擊力 6 倍<br>II.【雄英高校】成員<br>⇒ 攻擊力、生命力、回復力 2 倍<br>III. 同時消除自身屬性符石及心符石時<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		I. 人類攻擊力 6 倍
+		II.【雄英高校】成員
+		⇒ 攻擊力、生命力、回復力 2 倍
+		III. 同時消除自身屬性符石及心符石時
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -23264,7 +29675,13 @@ const leader_skill_data = [
     },
     {
         'name': '歐爾麥特 One For All',
-        'description': '隊中只有人類成員時：<br>I. 全隊攻擊力 5 倍、生命力及回復力 2 倍<br>II. 延長移動符石時間 5 秒<br>10 回合內<br>III.「歐爾麥特」攻擊力額外 20 倍',
+        'description': `
+		隊中只有人類成員時：
+		I. 全隊攻擊力 5 倍、生命力及回復力 2 倍
+		II. 延長移動符石時間 5 秒
+		10 回合內
+		III.「歐爾麥特」攻擊力額外 20 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -23286,7 +29703,12 @@ const leader_skill_data = [
     },
     {
         'name': '地獄之火',
-        'description': '隊中只有人類成員時：<br>I. 全隊攻擊力 5 倍、生命力及回復力 2 倍<br>II. 延長移動符石時間 2.5 秒<br>III.「奮進人」攻擊力額外 10 倍',
+        'description': `
+		隊中只有人類成員時：
+		I. 全隊攻擊力 5 倍、生命力及回復力 2 倍
+		II. 延長移動符石時間 2.5 秒
+		III.「奮進人」攻擊力額外 10 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -23308,7 +29730,14 @@ const leader_skill_data = [
     },
     {
         'name': '敵聯合的力量',
-        'description': '隊中只有【敵聯合】成員時：<br>I. 全隊攻擊力 10 倍及生命力 1.5 倍<br>II. 消除光、暗、心符石其中 2 種符石時<br>⇒ 全隊攻擊力額外 3 倍<br>III. 所受傷害 20% (不包括敵技傷害)<br>⇒ 轉化為我方生命力',
+        'description': `
+		隊中只有【敵聯合】成員時：
+		I. 全隊攻擊力 10 倍及生命力 1.5 倍
+		II. 消除光、暗、心符石其中 2 種符石時
+		⇒ 全隊攻擊力額外 3 倍
+		III. 所受傷害 20% (不包括敵技傷害)
+		⇒ 轉化為我方生命力
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -23330,7 +29759,16 @@ const leader_skill_data = [
     },
     {
         'name': '惡夢根源',
-        'description': 'I. 全隊攻擊力 7 倍<br>II. 木屬性及魔族成員<br>⇒ 生命力及攻擊力額外 1.7 倍<br>III. 消除角色符石或種族符石時<br>⇒ 全隊攻擊力額外 3 倍<br>IV. 所有屬性符石兼具<br>⇒ 50% 其他屬性符石效果<br>V. 必然延長移動符石時間 2 秒',
+        'description': `
+		I. 全隊攻擊力 7 倍
+		II. 木屬性及魔族成員
+		⇒ 生命力及攻擊力額外 1.7 倍
+		III. 消除角色符石或種族符石時
+		⇒ 全隊攻擊力額外 3 倍
+		IV. 所有屬性符石兼具
+		⇒ 50% 其他屬性符石效果
+		V. 必然延長移動符石時間 2 秒
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -23357,7 +29795,13 @@ const leader_skill_data = [
     },
     {
         'name': '研究先覺',
-        'description': '隊中只有機械族成員時：<br>I. 全隊攻擊力 6.5 倍、生命力及回復力 1.5 倍<br>II. 每消除 3 組符石<br>⇒ 掉落 3 粒水機械族符石<br>III. 減少 40% 所受傷害',
+        'description': `
+		隊中只有機械族成員時：
+		I. 全隊攻擊力 6.5 倍、生命力及回復力 1.5 倍
+		II. 每消除 3 組符石
+		⇒ 掉落 3 粒水機械族符石
+		III. 減少 40% 所受傷害
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -23379,7 +29823,15 @@ const leader_skill_data = [
     },
     {
         'name': '美麗的水鏡',
-        'description': 'I.【怪物彈珠】及水屬性成員攻擊力 6.5 倍、生命力及回復力 1.3 倍<br>II. 水及心符石互相兼具 50% 效果<br>III. 延長移動符石時間 1 秒<br>IV. 首批消除最底 1 橫行內的所有符石時<br>⇒ 全隊攻擊力額外 3 倍<br>V. 首批消除「純粹美麗的水精女王 忒琪菈」所在 1 直行的所有符石時<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		I.【怪物彈珠】及水屬性成員攻擊力 6.5 倍、生命力及回復力 1.3 倍
+		II. 水及心符石互相兼具 50% 效果
+		III. 延長移動符石時間 1 秒
+		IV. 首批消除最底 1 橫行內的所有符石時
+		⇒ 全隊攻擊力額外 3 倍
+		V. 首批消除「純粹美麗的水精女王 忒琪菈」所在 1 直行的所有符石時
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -23401,7 +29853,11 @@ const leader_skill_data = [
     },
     {
         'name': '真炎的吐息',
-        'description': 'I.【怪物彈珠】及火屬性成員攻擊力 6 倍、生命力及回復力 1.5 倍<br>II. 所有成員<br>⇒ 對獸類、龍類、機械族、魔族目標攻擊力額外 2 倍',
+        'description': `
+		I.【怪物彈珠】及火屬性成員攻擊力 6 倍、生命力及回復力 1.5 倍
+		II. 所有成員
+		⇒ 對獸類、龍類、機械族、魔族目標攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -23418,7 +29874,14 @@ const leader_skill_data = [
     },
     {
         'name': '魔力的繼承',
-        'description': 'I. 隊中的【怪物彈珠】及妖精類成員愈多<br>⇒ 全隊攻擊力愈高<br>⇒ 最大 7 倍<br>II. 延長移動符石時間 2 秒<br>III. 消除木或暗符石時<br>⇒ 增加 4 連擊 (Combo)',
+        'description': `
+		I. 隊中的【怪物彈珠】及妖精類成員愈多
+		⇒ 全隊攻擊力愈高
+		⇒ 最大 7 倍
+		II. 延長移動符石時間 2 秒
+		III. 消除木或暗符石時
+		⇒ 增加 4 連擊 (Combo)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -23440,7 +29903,13 @@ const leader_skill_data = [
     },
     {
         'name': '騎士王的引導',
-        'description': 'I.【怪物彈珠】及光屬性成員攻擊力 6.5 倍、生命力及回復力 1.3 倍<br>II. 光及心符石互相兼具 50% 效果<br>III. 延長移動符石時間 1 秒<br>IV. 以【十】形首批消除 1 組 ≥5 粒符石時<br>⇒ 全隊攻擊力額外 5 倍',
+        'description': `
+		I.【怪物彈珠】及光屬性成員攻擊力 6.5 倍、生命力及回復力 1.3 倍
+		II. 光及心符石互相兼具 50% 效果
+		III. 延長移動符石時間 1 秒
+		IV. 以【十】形首批消除 1 組 ≥5 粒符石時
+		⇒ 全隊攻擊力額外 5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -23462,7 +29931,12 @@ const leader_skill_data = [
     },
     {
         'name': '破魂收割',
-        'description': 'I.【怪物彈珠】及魔族成員攻擊力 7 倍<br>II. 延長移動符石時間 1 秒<br>III. 減少 25% 所受傷害<br>IV. 敵人所受克屬傷害額外 2 倍',
+        'description': `
+		I.【怪物彈珠】及魔族成員攻擊力 7 倍
+		II. 延長移動符石時間 1 秒
+		III. 減少 25% 所受傷害
+		IV. 敵人所受克屬傷害額外 2 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -23479,7 +29953,12 @@ const leader_skill_data = [
     },
     {
         'name': '世界樹的恩惠',
-        'description': 'I.【怪物彈珠】及妖精類成員攻擊力 6 倍<br>II. 延長移動符石時間 2 秒<br>III. 敵方所受攻擊傷害的 100%<br>⇒ 分別擴散到其他敵人身上',
+        'description': `
+		I.【怪物彈珠】及妖精類成員攻擊力 6 倍
+		II. 延長移動符石時間 2 秒
+		III. 敵方所受攻擊傷害的 100%
+		⇒ 分別擴散到其他敵人身上
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -23496,7 +29975,16 @@ const leader_skill_data = [
     },
     {
         'name': '孤高的墮天使',
-        'description': 'I. 全隊攻擊力 7 倍、生命力及回復力 1.6 倍<br>II.【怪物彈珠】及妖精類成員<br>⇒ 攻擊力額外 2.5 倍<br>III. 消除 ≥2 種符石<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 每首批消除 1 組符石<br>⇒ 產生 1 粒心強化符石 (首批掉落的心符石必定相連)<br>V. 必然延長移動符石時間 3 秒',
+        'description': `
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.6 倍
+		II.【怪物彈珠】及妖精類成員
+		⇒ 攻擊力額外 2.5 倍
+		III. 消除 ≥2 種符石
+		⇒ 全隊攻擊力額外 2 倍
+		IV. 每首批消除 1 組符石
+		⇒ 產生 1 粒心強化符石 (首批掉落的心符石必定相連)
+		V. 必然延長移動符石時間 3 秒
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -23528,7 +30016,13 @@ const leader_skill_data = [
     },
     {
         'name': '說一不二',
-        'description': 'I. 只能消除首批符石<br>II. 隊中只有獸類、龍類或妖精類成員時：<br>⓵ 全隊攻擊力 8.5 倍、生命力及回復力 2 倍<br>⓶ 首批消除 ≥10 粒符石時<br>⇒ 全隊攻擊力額外 6 倍',
+        'description': `
+		I. 只能消除首批符石
+		II. 隊中只有獸類、龍類或妖精類成員時：
+		⓵ 全隊攻擊力 8.5 倍、生命力及回復力 2 倍
+		⓶ 首批消除 ≥10 粒符石時
+		⇒ 全隊攻擊力額外 6 倍
+		`,
         'tag': [
             {
                 'name': '只能首消符石',
@@ -23550,7 +30044,15 @@ const leader_skill_data = [
     },
     {
         'name': '焚燄無蹤',
-        'description': '隊中只有龍類成員時：<br>I. 全隊攻擊力 6 倍及生命力 3 倍<br>II. 自身不能發動攻擊<br>III. 消除角色符石時<br>⇒ 全隊攻擊力額外 6 倍<br>IV. 首批沒有消除角色符石時<br>⇒ 減少 40% 所受傷害',
+        'description': `
+		隊中只有龍類成員時：
+		I. 全隊攻擊力 6 倍及生命力 3 倍
+		II. 自身不能發動攻擊
+		III. 消除角色符石時
+		⇒ 全隊攻擊力額外 6 倍
+		IV. 首批沒有消除角色符石時
+		⇒ 減少 40% 所受傷害
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -23577,7 +30079,17 @@ const leader_skill_data = [
     },
     {
         'name': '仿魂絕殺',
-        'description': 'I. 全隊攻擊力 8 倍、生命力及回復力 1.8 倍<br>II. 必然延長移動符石時間 2.5 秒<br>III. 消除符石的種類愈多<br>⇒ 全隊攻擊力額外提升愈多<br>⇒ 最大 4 倍<br>IV. 隊中有 ≥2 種屬性成員時<br>⓵ 全隊攻擊力額外 1.8 倍<br>⓶ 每首批消除 6 粒符石<br>⇒ 增加 1 連擊 (Combo)',
+        'description': `
+		I. 全隊攻擊力 8 倍、生命力及回復力 1.8 倍
+		II. 必然延長移動符石時間 2.5 秒
+		III. 消除符石的種類愈多
+		⇒ 全隊攻擊力額外提升愈多
+		⇒ 最大 4 倍
+		IV. 隊中有 ≥2 種屬性成員時
+		⓵ 全隊攻擊力額外 1.8 倍
+		⓶ 每首批消除 6 粒符石
+		⇒ 增加 1 連擊 (Combo)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '延長轉珠時間'],
@@ -23604,7 +30116,13 @@ const leader_skill_data = [
     },
     {
         'name': '以諾元力',
-        'description': 'I. 全隊攻擊力 7 倍<br>II. 所有符石兼具 25% 其他符石效果<br>III. 隊中只有人類成員時：<br>⓵ 全隊攻擊力額外 5.5 倍<br>⓶ 全隊生命力及回復力 2 倍',
+        'description': `
+		I. 全隊攻擊力 7 倍
+		II. 所有符石兼具 25% 其他符石效果
+		III. 隊中只有人類成員時：
+		⓵ 全隊攻擊力額外 5.5 倍
+		⓶ 全隊生命力及回復力 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '暗兼具其他', '心兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心'],
@@ -23621,7 +30139,14 @@ const leader_skill_data = [
     },
     {
         'name': '魔女元力',
-        'description': 'I. 全隊攻擊力 6 倍<br>II. 火、暗、心符石<br>⇒ 互相兼具 50% 效果<br>III. 隊中只有人類成員時：<br>⓵ 全隊攻擊力額外 3.5 倍<br>⓶ 全隊生命力及回復力 2.2 倍',
+        'description': `
+		I. 全隊攻擊力 6 倍
+		II. 火、暗、心符石
+		⇒ 互相兼具 50% 效果
+		III. 隊中只有人類成員時：
+		⓵ 全隊攻擊力額外 3.5 倍
+		⓶ 全隊生命力及回復力 2.2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '火兼具其他', '暗兼具其他', '心兼具其他', '符石兼具火', '符石兼具暗', '符石兼具心'],
@@ -23638,7 +30163,17 @@ const leader_skill_data = [
     },
     {
         'name': '妖音傳承',
-        'description': 'I. 妖精類及神族成員<br>⓵ 攻擊力及回復力 8 倍<br>⓶ 增加 1,200 點生命力基值<br>II. 消除種族符石時<br>⇒ 妖精類及神族成員攻擊力額外 4 倍<br>III. 首批消除「4 的倍數」組數的符石<br>⇒ 妖精類及神族成員<br>⓵ 無視「固定連擊盾」<br>⓶ 無視敵人防禦力',
+        'description': `
+		I. 妖精類及神族成員
+		⓵ 攻擊力及回復力 8 倍
+		⓶ 增加 1,200 點生命力基值
+		II. 消除種族符石時
+		⇒ 妖精類及神族成員攻擊力額外 4 倍
+		III. 首批消除「4 的倍數」組數的符石
+		⇒ 妖精類及神族成員
+		⓵ 無視「固定連擊盾」
+		⓶ 無視敵人防禦力
+		`,
         'tag': [
             {
                 'name': ['增攻', '增回', '增血'],
@@ -23660,7 +30195,11 @@ const leader_skill_data = [
     },
     {
         'name': '出逃衝擊',
-        'description': 'I. 木及光屬性成員攻擊力 6 倍、生命力及回復力 1.6 倍<br>II. 首批沒有消除暗符石時<br>⇒ 木及光屬性攻擊力額外 4 倍',
+        'description': `
+		I. 木及光屬性成員攻擊力 6 倍、生命力及回復力 1.6 倍
+		II. 首批沒有消除暗符石時
+		⇒ 木及光屬性攻擊力額外 4 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -23677,7 +30216,12 @@ const leader_skill_data = [
     },
     {
         'name': '武士魂',
-        'description': 'I.【銀魂】及水屬性成員攻擊力 7 倍、生命力及回復力 1.6 倍<br>II. 消除 2 組 ≥3 粒符石<br>⇒ 全隊攻擊力 3.5 倍<br>III.【萬事屋】成員進場 CD -2',
+        'description': `
+		I.【銀魂】及水屬性成員攻擊力 7 倍、生命力及回復力 1.6 倍
+		II. 消除 2 組 ≥3 粒符石
+		⇒ 全隊攻擊力 3.5 倍
+		III.【萬事屋】成員進場 CD -2
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -23699,7 +30243,13 @@ const leader_skill_data = [
     },
     {
         'name': '夜兔族的戰鬥力',
-        'description': 'I.【萬事屋】及火屬性成員攻擊力 8 倍、生命力及回復力 1.8 倍<br>II. 消除符石的組數愈多<br>⇒【萬事屋】及人類成員攻擊力額外提升愈多<br>⇒ 消除 10 組可提升至最大 6 倍<br>III. 自身無視敵人防禦力',
+        'description': `
+		I.【萬事屋】及火屬性成員攻擊力 8 倍、生命力及回復力 1.8 倍
+		II. 消除符石的組數愈多
+		⇒【萬事屋】及人類成員攻擊力額外提升愈多
+		⇒ 消除 10 組可提升至最大 6 倍
+		III. 自身無視敵人防禦力
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -23721,7 +30271,14 @@ const leader_skill_data = [
     },
     {
         'name': '義無反顧',
-        'description': 'I. 全隊攻擊力 6 倍<br>II.【銀魂】成員生命力、攻擊力及回復力額外 1.6 倍<br>III. 自身屬性及心符石分別兼具<br>⇒ 50% 其他屬性符石效果<br>IV. 同時消除自身屬性及心符石<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		I. 全隊攻擊力 6 倍
+		II.【銀魂】成員生命力、攻擊力及回復力額外 1.6 倍
+		III. 自身屬性及心符石分別兼具
+		⇒ 50% 其他屬性符石效果
+		IV. 同時消除自身屬性及心符石
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '木兼具其他', '水兼具其他', '心兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗'],
@@ -23743,7 +30300,12 @@ const leader_skill_data = [
     },
     {
         'name': '可愛的狠咬',
-        'description': 'I.【萬事屋】及獸類成員攻擊力 6.5 倍、生命力及回復力 1.5 倍<br>II. 延長移動符石時間 1.5 秒<br>III. 消除 ≥3 種符石<br>⇒【萬事屋】及獸類成員攻擊力額外 2 倍',
+        'description': `
+		I.【萬事屋】及獸類成員攻擊力 6.5 倍、生命力及回復力 1.5 倍
+		II. 延長移動符石時間 1.5 秒
+		III. 消除 ≥3 種符石
+		⇒【萬事屋】及獸類成員攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -23765,7 +30327,12 @@ const leader_skill_data = [
     },
     {
         'name': '劍術之志',
-        'description': 'I.【萬事屋】及人類成員攻擊力 8 倍、生命力及回復力 2 倍<br>II. 符石 3 粒相連即可發動消除<br>III. 首批消除 ≥8 粒符石<br>⇒【萬事屋】及人類成員攻擊力額外 3 倍',
+        'description': `
+		I.【萬事屋】及人類成員攻擊力 8 倍、生命力及回復力 2 倍
+		II. 符石 3 粒相連即可發動消除
+		III. 首批消除 ≥8 粒符石
+		⇒【萬事屋】及人類成員攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -23787,7 +30354,14 @@ const leader_skill_data = [
     },
     {
         'name': '攘夷之志',
-        'description': '隊中只有人類成員時：<br>I. 全隊攻擊力 6 倍、生命力及回復力 1.4 倍<br>II. 所有成員進場 CD -2<br>III. 延長移動符石時間 1 秒<br>IV. 我方每次引爆符石<br>⇒ 對敵方全體造成自身攻擊力基值 500 倍的無屬性傷害，此傷害無視「強化突破」',
+        'description': `
+		隊中只有人類成員時：
+		I. 全隊攻擊力 6 倍、生命力及回復力 1.4 倍
+		II. 所有成員進場 CD -2
+		III. 延長移動符石時間 1 秒
+		IV. 我方每次引爆符石
+		⇒ 對敵方全體造成自身攻擊力基值 500 倍的無屬性傷害，此傷害無視「強化突破」
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '進場減CD'],
@@ -23809,7 +30383,15 @@ const leader_skill_data = [
     },
     {
         'name': '鬼兵隊之力',
-        'description': '隊中只有人類成員時：<br>I. 全隊攻擊力 6 倍、生命力及回復力 1.4 倍<br>II. 延長移動符石時間 1 秒<br>III. 每首批消除 1 連擊 (Combo)<br>⇒ 自身直行掉落 1 粒暗強化符石<br>IV. 消除 ≥10 粒暗符石<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		隊中只有人類成員時：
+		I. 全隊攻擊力 6 倍、生命力及回復力 1.4 倍
+		II. 延長移動符石時間 1 秒
+		III. 每首批消除 1 連擊 (Combo)
+		⇒ 自身直行掉落 1 粒暗強化符石
+		IV. 消除 ≥10 粒暗符石
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -23836,7 +30418,11 @@ const leader_skill_data = [
     },
     {
         'name': '武士道的信念',
-        'description': 'I.【真選組】及【萬事屋】成員攻擊力 7 倍、生命力及回復力 2.5 倍<br>II. 發動角色符石時<br>⇒ 隊長及戰友攻擊力額外 5 倍',
+        'description': `
+		I.【真選組】及【萬事屋】成員攻擊力 7 倍、生命力及回復力 2.5 倍
+		II. 發動角色符石時
+		⇒ 隊長及戰友攻擊力額外 5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -23853,7 +30439,15 @@ const leader_skill_data = [
     },
     {
         'name': '以白夜叉之名',
-        'description': 'I. 全隊攻擊力 7 倍、生命力及回復力 1.7 倍<br>II. 消除 1 組 ≥3 粒符石<br>⓵ 全隊攻擊力 4 倍<br>⓶ 單體攻擊轉化為全體攻擊<br>III. 人類成員進場 CD -1<br>IV. 消除成員屬性符石時<br>⇒ 全隊攻擊力額外 1.7 倍',
+        'description': `
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.7 倍
+		II. 消除 1 組 ≥3 粒符石
+		⓵ 全隊攻擊力 4 倍
+		⓶ 單體攻擊轉化為全體攻擊
+		III. 人類成員進場 CD -1
+		IV. 消除成員屬性符石時
+		⇒ 全隊攻擊力額外 1.7 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -23880,7 +30474,11 @@ const leader_skill_data = [
     },
     {
         'name': '不老不死之力',
-        'description': 'I. 全隊攻擊力 10 倍、生命力及回復力 1.5 倍<br>II. 人類生命力、攻擊力及回復力額外 1.5 倍<br>III. 必然延長移動符石時間 1.5 秒',
+        'description': `
+		I. 全隊攻擊力 10 倍、生命力及回復力 1.5 倍
+		II. 人類生命力、攻擊力及回復力額外 1.5 倍
+		III. 必然延長移動符石時間 1.5 秒
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '延長轉珠時間'],
@@ -23892,7 +30490,11 @@ const leader_skill_data = [
     },
     {
         'name': '奇葩女子的力量',
-        'description': 'I.【萬事屋】及人類成員攻擊力 7 倍、生命力及回復力 2 倍<br>II. 發動角色符石時<br>⇒ 減少 50% 所受傷害',
+        'description': `
+		I.【萬事屋】及人類成員攻擊力 7 倍、生命力及回復力 2 倍
+		II. 發動角色符石時
+		⇒ 減少 50% 所受傷害
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -23909,7 +30511,12 @@ const leader_skill_data = [
     },
     {
         'name': '堅守靈魂之志',
-        'description': 'I. 扣除 80% 生命力上限<br>II. 全隊攻擊力 1.3 倍<br>III. 發動自身角色符石時<br>⇒ 全隊攻擊力變為 0',
+        'description': `
+		I. 扣除 80% 生命力上限
+		II. 全隊攻擊力 1.3 倍
+		III. 發動自身角色符石時
+		⇒ 全隊攻擊力變為 0
+		`,
         'tag': [
             {
                 'name': ['總血量減少', '增攻'],
@@ -23926,7 +30533,17 @@ const leader_skill_data = [
     },
     {
         'name': '睿知龍志',
-        'description': '隊中只有龍類成員時：<br>I. 全隊攻擊力 6 倍及生命力 2.5 倍<br>II. 必然延長移動符石時間 2 秒<br>III. 消除水符石時<br>⇒ 全隊攻擊力額外 3 倍<br>IV. 消除角色符石時<br>⇒ 全隊攻擊力額外 2.5 倍<br>V. 首批沒有消除角色符石時<br>⇒ 減少 30% 所受傷害',
+        'description': `
+		隊中只有龍類成員時：
+		I. 全隊攻擊力 6 倍及生命力 2.5 倍
+		II. 必然延長移動符石時間 2 秒
+		III. 消除水符石時
+		⇒ 全隊攻擊力額外 3 倍
+		IV. 消除角色符石時
+		⇒ 全隊攻擊力額外 2.5 倍
+		V. 首批沒有消除角色符石時
+		⇒ 減少 30% 所受傷害
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -23958,7 +30575,15 @@ const leader_skill_data = [
     },
     {
         'name': '陰陽之力',
-        'description': 'I. 全隊攻擊力 6 倍、生命力及回復力 1.5 倍<br>II. 消除符石的種類愈多<br>⇒ 自身攻擊力額外提升愈多<br>⇒ 最大 12 倍<br>III. 隊中只有人類或妖精類成員時<br>⓵ 全隊攻擊力額外 3 倍<br>⓶ 其他符石兼具 25% 暗符石效果',
+        'description': `
+		I. 全隊攻擊力 6 倍、生命力及回復力 1.5 倍
+		II. 消除符石的種類愈多
+		⇒ 自身攻擊力額外提升愈多
+		⇒ 最大 12 倍
+		III. 隊中只有人類或妖精類成員時
+		⓵ 全隊攻擊力額外 3 倍
+		⓶ 其他符石兼具 25% 暗符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -23985,7 +30610,15 @@ const leader_skill_data = [
     },
     {
         'name': '星之孩子的使命',
-        'description': '隊中只有【怪物彈珠】及人類成員：<br>I. 全隊攻擊力 8 倍、生命力及回復力 1.8 倍<br>II. 必然延長移動符石時間 2 秒<br>III. 當前生命力為 ≥80%<br>⇒ 敵人受到的攻擊傷害額外 3 倍<br>IV. 消除 ≥2 種符石<br>⇒ 全隊攻擊力額外 2.5 倍',
+        'description': `
+		隊中只有【怪物彈珠】及人類成員：
+		I. 全隊攻擊力 8 倍、生命力及回復力 1.8 倍
+		II. 必然延長移動符石時間 2 秒
+		III. 當前生命力為 ≥80%
+		⇒ 敵人受到的攻擊傷害額外 3 倍
+		IV. 消除 ≥2 種符石
+		⇒ 全隊攻擊力額外 2.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24012,7 +30645,14 @@ const leader_skill_data = [
     },
     {
         'name': '新世界的引導',
-        'description': 'I.【怪物彈珠】及水屬性成員<br>⇒ 攻擊力 7.5 倍、生命力及回復力 1.6 倍<br>II. 必然延長移動符石時間 3 秒<br>III. 消除水符石<br>⇒【怪物彈珠】及水屬性成員攻擊力額外 1.8 倍<br>IV. 其他符石兼具水符石效果',
+        'description': `
+		I.【怪物彈珠】及水屬性成員
+		⇒ 攻擊力 7.5 倍、生命力及回復力 1.6 倍
+		II. 必然延長移動符石時間 3 秒
+		III. 消除水符石
+		⇒【怪物彈珠】及水屬性成員攻擊力額外 1.8 倍
+		IV. 其他符石兼具水符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24034,7 +30674,16 @@ const leader_skill_data = [
     },
     {
         'name': '情愛之炎',
-        'description': 'I. 全隊攻擊力 7 倍、生命力及回復力 1.6 倍<br>II.【怪物彈珠】及神族成員<br>⇒ 攻擊力額外 2 倍<br>III. 必然延長移動符石時間 3 秒<br>IV. 消除 ≥2 種符石<br>⇒ 全隊攻擊力額外 1.5 倍<br>V. 每首批消除 1 組符石<br>⇒ 掉落 1 粒火強化符石 (首批掉落的火符石相連)',
+        'description': `
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.6 倍
+		II.【怪物彈珠】及神族成員
+		⇒ 攻擊力額外 2 倍
+		III. 必然延長移動符石時間 3 秒
+		IV. 消除 ≥2 種符石
+		⇒ 全隊攻擊力額外 1.5 倍
+		V. 每首批消除 1 組符石
+		⇒ 掉落 1 粒火強化符石 (首批掉落的火符石相連)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24066,7 +30715,13 @@ const leader_skill_data = [
     },
     {
         'name': '終結的天啟',
-        'description': 'I.【怪物彈珠】及妖精類成員<br>⇒ 攻擊力 7 倍、生命力及回復力 1.5 倍<br>II. 延長移動符石時間 1.5 秒<br>III. 木、暗、心符石互相兼具效果<br>IV. 所受水屬性敵人的傷害減少 25%',
+        'description': `
+		I.【怪物彈珠】及妖精類成員
+		⇒ 攻擊力 7 倍、生命力及回復力 1.5 倍
+		II. 延長移動符石時間 1.5 秒
+		III. 木、暗、心符石互相兼具效果
+		IV. 所受水屬性敵人的傷害減少 25%
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24083,7 +30738,16 @@ const leader_skill_data = [
     },
     {
         'name': '自由的奪回者',
-        'description': 'I.【怪物彈珠】及暗屬性成員<br>⇒ 攻擊力 7.5 倍、生命力及回復力 1.8 倍<br>II.【怪物彈珠】成員生命力額外 1.2 倍<br>III. 必然延長移動符石時間 2 秒<br>IV. 首批消除隊長或戰友直行所有符石<br>⇒ 全隊攻擊力額外 4 倍<br>V. 首批消除隊長及戰友直行所有符石<br>⇒ 全隊攻擊力額外 1.5 倍',
+        'description': `
+		I.【怪物彈珠】及暗屬性成員
+		⇒ 攻擊力 7.5 倍、生命力及回復力 1.8 倍
+		II.【怪物彈珠】成員生命力額外 1.2 倍
+		III. 必然延長移動符石時間 2 秒
+		IV. 首批消除隊長或戰友直行所有符石
+		⇒ 全隊攻擊力額外 4 倍
+		V. 首批消除隊長及戰友直行所有符石
+		⇒ 全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24110,7 +30774,14 @@ const leader_skill_data = [
     },
     {
         'name': '諾斯特拉王國的建國宣言',
-        'description': 'I.【怪物彈珠】成員<br>⇒ 攻擊力 6.5 倍、生命力及回復力 1.5 倍<br>II. 延長移動符石時間 2 秒<br>III. 消除 ≥3 種符石<br>⇒ 全隊攻擊力額外 2.5 倍<br>IV. 全隊對光及暗屬性目標的傷害額外 2 倍',
+        'description': `
+		I.【怪物彈珠】成員
+		⇒ 攻擊力 6.5 倍、生命力及回復力 1.5 倍
+		II. 延長移動符石時間 2 秒
+		III. 消除 ≥3 種符石
+		⇒ 全隊攻擊力額外 2.5 倍
+		IV. 全隊對光及暗屬性目標的傷害額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24132,7 +30803,14 @@ const leader_skill_data = [
     },
     {
         'name': '羈絆的聖劍',
-        'description': 'I.【怪物彈珠】及火屬性成員<br>⇒ 攻擊力 6.5 倍、生命力及回復力 1.3 倍<br>II. 火、光、心符石互相兼具 50% 效果<br>III. 延長移動符石時間 1 秒<br>IV. 以【十】形首批消除 1 組 ≥5 粒符石<br>⇒ 全隊攻擊力額外 5 倍',
+        'description': `
+		I.【怪物彈珠】及火屬性成員
+		⇒ 攻擊力 6.5 倍、生命力及回復力 1.3 倍
+		II. 火、光、心符石互相兼具 50% 效果
+		III. 延長移動符石時間 1 秒
+		IV. 以【十】形首批消除 1 組 ≥5 粒符石
+		⇒ 全隊攻擊力額外 5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24154,7 +30832,15 @@ const leader_skill_data = [
     },
     {
         'name': '永久的妙音',
-        'description': 'I.【怪物彈珠】及神族成員<br>⇒ 攻擊力 6.5 倍、生命力及回復力 1.3 倍<br>II. 延長移動符石時間 1 秒<br>III. 心符石兼具光符石效果<br>IV. 將【怪物彈珠】及神族成員對敵方造成攻擊傷害的 10%<br>⇒ 轉化為生命力<br>⇒ 最大為生命力等值的 50% (可疊加至生命力等值的 100%)',
+        'description': `
+		I.【怪物彈珠】及神族成員
+		⇒ 攻擊力 6.5 倍、生命力及回復力 1.3 倍
+		II. 延長移動符石時間 1 秒
+		III. 心符石兼具光符石效果
+		IV. 將【怪物彈珠】及神族成員對敵方造成攻擊傷害的 10%
+		⇒ 轉化為生命力
+		⇒ 最大為生命力等值的 50% (可疊加至生命力等值的 100%)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '我方傷害吸收'],
@@ -24171,7 +30857,15 @@ const leader_skill_data = [
     },
     {
         'name': '禁斷之箱',
-        'description': 'I.【怪物彈珠】及人類成員<br>⇒ 攻擊力 6.5 倍、生命力及回復力 1.3 倍<br>II. 延長移動符石時間 1 秒<br>III. 心符石兼具暗符石效果<br>IV. 將【怪物彈珠】及人類成員對敵方造成攻擊傷害的 10%<br>⇒ 轉化為生命力<br>⇒ 最大為生命力等值的 50%',
+        'description': `
+		I.【怪物彈珠】及人類成員
+		⇒ 攻擊力 6.5 倍、生命力及回復力 1.3 倍
+		II. 延長移動符石時間 1 秒
+		III. 心符石兼具暗符石效果
+		IV. 將【怪物彈珠】及人類成員對敵方造成攻擊傷害的 10%
+		⇒ 轉化為生命力
+		⇒ 最大為生命力等值的 50%
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '我方傷害吸收'],
@@ -24188,7 +30882,11 @@ const leader_skill_data = [
     },
     {
         'name': '滅絕之甦醒',
-        'description': 'I.【怪物彈珠】及魔族成員<br>⇒ 攻擊力 6 倍、生命力及回復力 1.5 倍<br>II. 全隊對人類、獸類及妖精類目標的傷害額外 2 倍',
+        'description': `
+		I.【怪物彈珠】及魔族成員
+		⇒ 攻擊力 6 倍、生命力及回復力 1.5 倍
+		II. 全隊對人類、獸類及妖精類目標的傷害額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24205,7 +30903,9 @@ const leader_skill_data = [
     },
     {
         'name': '聖杯系統啟動',
-        'description': '【怪物彈珠】成員攻擊力 6 倍',
+        'description': `
+		【怪物彈珠】成員攻擊力 6 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -24217,7 +30917,9 @@ const leader_skill_data = [
     },
     {
         'name': '神仙之力',
-        'description': '【怪物彈珠】及神族成員攻擊力 7 倍',
+        'description': `
+		【怪物彈珠】及神族成員攻擊力 7 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -24229,7 +30931,12 @@ const leader_skill_data = [
     },
     {
         'name': '相背的化身',
-        'description': 'I.【怪物彈珠】及魔族成員<br>⇒ 攻擊力 8 倍、生命力及回復力 1.5 倍<br>II. 克制敵人屬性的傷害額外 2 倍<br>III. 敵人受到的無屬性傷害額外 3.5 倍',
+        'description': `
+		I.【怪物彈珠】及魔族成員
+		⇒ 攻擊力 8 倍、生命力及回復力 1.5 倍
+		II. 克制敵人屬性的傷害額外 2 倍
+		III. 敵人受到的無屬性傷害額外 3.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24246,7 +30953,16 @@ const leader_skill_data = [
     },
     {
         'name': '女王的魅力',
-        'description': '隊中只有水屬性成員：<br>I. 全隊攻擊力 7 倍及生命力 1.6 倍<br>II. 必然延長移動符石 2 秒<br>III. 於成員直行消除水符石<br>⇒ 該成員攻擊力額外 2 倍<br>IV. 受到攻擊時，場上每有 1 粒水符石<br>⇒ 減少 10% 所受傷害<br>⇒ 最多可減少 50% 傷害',
+        'description': `
+		隊中只有水屬性成員：
+		I. 全隊攻擊力 7 倍及生命力 1.6 倍
+		II. 必然延長移動符石 2 秒
+		III. 於成員直行消除水符石
+		⇒ 該成員攻擊力額外 2 倍
+		IV. 受到攻擊時，場上每有 1 粒水符石
+		⇒ 減少 10% 所受傷害
+		⇒ 最多可減少 50% 傷害
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -24273,7 +30989,17 @@ const leader_skill_data = [
     },
     {
         'name': '血魔之力',
-        'description': 'I. 全隊攻擊力 8 倍<br>II. 妖精類及魔族成員<br>⓵ 生命力 2.2 倍<br>⓶ 攻擊力額外 4 倍<br>III. 消除火符石<br>⇒ 魔族成員追打火屬性攻擊 1 次<br>IV. 魔族成員對敵方造成攻擊傷害的 5%<br>⇒ 轉化為生命力<br>⇒ 最大為生命力等值的 50%',
+        'description': `
+		I. 全隊攻擊力 8 倍
+		II. 妖精類及魔族成員
+		⓵ 生命力 2.2 倍
+		⓶ 攻擊力額外 4 倍
+		III. 消除火符石
+		⇒ 魔族成員追打火屬性攻擊 1 次
+		IV. 魔族成員對敵方造成攻擊傷害的 5%
+		⇒ 轉化為生命力
+		⇒ 最大為生命力等值的 50%
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -24300,7 +31026,14 @@ const leader_skill_data = [
     },
     {
         'name': '幻蝶魅影',
-        'description': 'I. 全隊攻擊力 6 倍<br>II. 妖精類成員生命力及回復力 2 倍<br>III. 消除 ≥3 種符石<br>⇒ 妖精類成員攻擊力額外 6 倍<br>IV. 妖精類成員屬性符石<br>⇒ 兼具 50% 水及心符石效果',
+        'description': `
+		I. 全隊攻擊力 6 倍
+		II. 妖精類成員生命力及回復力 2 倍
+		III. 消除 ≥3 種符石
+		⇒ 妖精類成員攻擊力額外 6 倍
+		IV. 妖精類成員屬性符石
+		⇒ 兼具 50% 水及心符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '暗兼具其他', '符石兼具水', '符石兼具心'],
@@ -24322,7 +31055,15 @@ const leader_skill_data = [
     },
     {
         'name': '石田大和的友情',
-        'description': '隊中只有【被選中的孩子】或獸類成員：<br>I. 全隊攻擊力 7 倍、生命力及回復力 1.7 倍<br>II. 必然延長移動符石時間 1.5 秒<br>III. 消除水或心符石<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 達至 ≥4 連擊 (Combo)<br>⇒ 全隊攻擊力額外 3 倍',
+        'description': `
+		隊中只有【被選中的孩子】或獸類成員：
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.7 倍
+		II. 必然延長移動符石時間 1.5 秒
+		III. 消除水或心符石
+		⇒ 全隊攻擊力額外 2 倍
+		IV. 達至 ≥4 連擊 (Combo)
+		⇒ 全隊攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24349,7 +31090,15 @@ const leader_skill_data = [
     },
     {
         'name': '八神太一的勇氣',
-        'description': '隊中只有【被選中的孩子】或龍類成員：<br>I. 全隊攻擊力 7.5 倍及生命力 2 倍<br>II. 必然延長移動符石時間 1.5 秒<br>III. 消除 1 組 ≥4 粒符石<br>⇒ 增加 4 連擊 (Combo)<br>IV. 消除種族符石<br>⇒ 全隊攻擊力額外 3 倍',
+        'description': `
+		隊中只有【被選中的孩子】或龍類成員：
+		I. 全隊攻擊力 7.5 倍及生命力 2 倍
+		II. 必然延長移動符石時間 1.5 秒
+		III. 消除 1 組 ≥4 粒符石
+		⇒ 增加 4 連擊 (Combo)
+		IV. 消除種族符石
+		⇒ 全隊攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -24376,7 +31125,12 @@ const leader_skill_data = [
     },
     {
         'name': '太刀川美美的純真',
-        'description': 'I.【被選中的孩子】及妖精類成員<br>⇒ 攻擊力 7 倍、生命力及回復力 1.5 倍<br>II. 延長移動符石時間 1.5 秒<br>III. 木符石兼具 50% 其他符石效果',
+        'description': `
+		I.【被選中的孩子】及妖精類成員
+		⇒ 攻擊力 7 倍、生命力及回復力 1.5 倍
+		II. 延長移動符石時間 1.5 秒
+		III. 木符石兼具 50% 其他符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24393,7 +31147,16 @@ const leader_skill_data = [
     },
     {
         'name': '希望與光明之力',
-        'description': 'I.【被選中的孩子】、光屬性及神族成員<br>⇒ 攻擊力 7 倍、生命力及回復力 1.7 倍<br>II. 必然延長移動符石時間 2 秒<br>III. 消除 ≥4 種符石<br>⇒ 全隊攻擊力額外 3.5 倍<br>IV. 減少 30% 所受傷害<br>V. 所受魔族敵人的傷害<br>⇒ 則減少 50%',
+        'description': `
+		I.【被選中的孩子】、光屬性及神族成員
+		⇒ 攻擊力 7 倍、生命力及回復力 1.7 倍
+		II. 必然延長移動符石時間 2 秒
+		III. 消除 ≥4 種符石
+		⇒ 全隊攻擊力額外 3.5 倍
+		IV. 減少 30% 所受傷害
+		V. 所受魔族敵人的傷害
+		⇒ 則減少 50%
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24415,7 +31178,12 @@ const leader_skill_data = [
     },
     {
         'name': '泉光子郎的知識',
-        'description': 'I.【被選中的孩子】及獸類成員<br>⇒ 攻擊力 7 倍、生命力及回復力 1.5 倍<br>II. 延長移動符石時間 1.5 秒<br>III. 水、火、暗符石互相兼具 50% 效果',
+        'description': `
+		I.【被選中的孩子】及獸類成員
+		⇒ 攻擊力 7 倍、生命力及回復力 1.5 倍
+		II. 延長移動符石時間 1.5 秒
+		III. 水、火、暗符石互相兼具 50% 效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24432,7 +31200,12 @@ const leader_skill_data = [
     },
     {
         'name': '城戶丈的誠實',
-        'description': 'I.【被選中的孩子】及獸類成員<br>⇒ 攻擊力 7 倍、生命力及回復力 1.5 倍<br>II. 延長移動符石時間 1.5 秒<br>III. 水、火、暗符石互相兼具 50% 效果',
+        'description': `
+		I.【被選中的孩子】及獸類成員
+		⇒ 攻擊力 7 倍、生命力及回復力 1.5 倍
+		II. 延長移動符石時間 1.5 秒
+		III. 水、火、暗符石互相兼具 50% 效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24449,7 +31222,12 @@ const leader_skill_data = [
     },
     {
         'name': '武之內素娜的愛情',
-        'description': 'I.【被選中的孩子】及獸類成員<br>⇒ 攻擊力 7 倍、生命力及回復力 1.5 倍<br>II. 延長移動符石時間 1.5 秒<br>III. 水、火、暗符石互相兼具 50% 效果',
+        'description': `
+		I.【被選中的孩子】及獸類成員
+		⇒ 攻擊力 7 倍、生命力及回復力 1.5 倍
+		II. 延長移動符石時間 1.5 秒
+		III. 水、火、暗符石互相兼具 50% 效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24466,7 +31244,13 @@ const leader_skill_data = [
     },
     {
         'name': '堅強的意志和正義的心',
-        'description': 'I. 獸類成員攻擊力 7 倍、生命力及回復力 1.5 倍<br>II. 延長移動符石時間 1.5 秒<br>III. 獸類成員進場 CD -2<br>IV. 消除光符石<br>⇒ 獸類成員攻擊力額外 2 倍',
+        'description': `
+		I. 獸類成員攻擊力 7 倍、生命力及回復力 1.5 倍
+		II. 延長移動符石時間 1.5 秒
+		III. 獸類成員進場 CD -2
+		IV. 消除光符石
+		⇒ 獸類成員攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '進場減CD'],
@@ -24488,7 +31272,11 @@ const leader_skill_data = [
     },
     {
         'name': '風暴力量',
-        'description': 'I. 機械族成員攻擊力 5 倍<br>II. 以所受傷害 700 倍<br>⇒ 對敵方攻擊者進行相剋屬性反擊 (此傷害無視防禦力及「強化突破」敵技)',
+        'description': `
+		I. 機械族成員攻擊力 5 倍
+		II. 以所受傷害 700 倍
+		⇒ 對敵方攻擊者進行相剋屬性反擊 (此傷害無視防禦力及「強化突破」敵技)
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -24505,7 +31293,14 @@ const leader_skill_data = [
     },
     {
         'name': '破壞與殺戮',
-        'description': 'I. 魔族攻擊力 10 倍、生命力及回復力 2 倍<br>II.「超惡魔獸」<br>⓵ 攻擊力額外 5 倍<br>⓶ 生命力額外 2 倍<br>III. 首批消除 1 組 ≥5 粒暗符石<br>⇒ 增加 5 連擊 (Combo)',
+        'description': `
+		I. 魔族攻擊力 10 倍、生命力及回復力 2 倍
+		II.「超惡魔獸」
+		⓵ 攻擊力額外 5 倍
+		⓶ 生命力額外 2 倍
+		III. 首批消除 1 組 ≥5 粒暗符石
+		⇒ 增加 5 連擊 (Combo)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24527,7 +31322,11 @@ const leader_skill_data = [
     },
     {
         'name': '同心合力',
-        'description': 'I.【被選中的孩子】成員<br>⇒ 攻擊力 6 倍、生命力及回復力 2 倍<br>II. 12 回合內，全隊攻擊力 12 倍',
+        'description': `
+		I.【被選中的孩子】成員
+		⇒ 攻擊力 6 倍、生命力及回復力 2 倍
+		II. 12 回合內，全隊攻擊力 12 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24544,7 +31343,14 @@ const leader_skill_data = [
     },
     {
         'name': '石田大和的友情 ‧ 強',
-        'description': '隊中只有【被選中的孩子】或獸類成員：<br>I. 全隊攻擊力 7.5 倍、生命力及回復力 1.7 倍<br>II. 連擊 (Combo) 時攻擊力提升 200%<br>III. 必然延長移動符石時間 1.5 秒<br>IV. 消除水或心符石<br>⇒ 所有成員追打 1 次',
+        'description': `
+		隊中只有【被選中的孩子】或獸類成員：
+		I. 全隊攻擊力 7.5 倍、生命力及回復力 1.7 倍
+		II. 連擊 (Combo) 時攻擊力提升 200%
+		III. 必然延長移動符石時間 1.5 秒
+		IV. 消除水或心符石
+		⇒ 所有成員追打 1 次
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24566,7 +31372,18 @@ const leader_skill_data = [
     },
     {
         'name': '八神太一的勇氣 ‧ 強',
-        'description': '隊中只有【被選中的孩子】或龍類成員：<br>I. 全隊攻擊力 8 倍及生命力 1.8 倍<br>II.【被選中的孩子】成員<br>⇒ 生命力額外 1.3 倍<br>III. 必然延長移動符石時間 1.5 秒<br>IV. 消除 ≥2 組火符石<br>⇒ 全隊攻擊力額外 2.2 倍<br>V. 消除種族符石<br>⇒ 全隊攻擊力額外 3 倍<br>VI. 全隊對獸類、龍類目標的傷害額外 2 倍',
+        'description': `
+		隊中只有【被選中的孩子】或龍類成員：
+		I. 全隊攻擊力 8 倍及生命力 1.8 倍
+		II.【被選中的孩子】成員
+		⇒ 生命力額外 1.3 倍
+		III. 必然延長移動符石時間 1.5 秒
+		IV. 消除 ≥2 組火符石
+		⇒ 全隊攻擊力額外 2.2 倍
+		V. 消除種族符石
+		⇒ 全隊攻擊力額外 3 倍
+		VI. 全隊對獸類、龍類目標的傷害額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '對獸類增傷', '對龍類增傷'],
@@ -24593,7 +31410,14 @@ const leader_skill_data = [
     },
     {
         'name': '希望與光明之力 ‧ 強',
-        'description': 'I.【被選中的孩子】、光屬性及神族成員<br>⇒ 攻擊力 8 倍、生命力及回復力 1.8 倍<br>II. 必然延長移動符石時間 2 秒<br>III. 消除 ≥3 種符石<br>⇒ 全隊攻擊力額外 3.5 倍<br>IV. 減少 40% 所受傷害',
+        'description': `
+		I.【被選中的孩子】、光屬性及神族成員
+		⇒ 攻擊力 8 倍、生命力及回復力 1.8 倍
+		II. 必然延長移動符石時間 2 秒
+		III. 消除 ≥3 種符石
+		⇒ 全隊攻擊力額外 3.5 倍
+		IV. 減少 40% 所受傷害
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24615,7 +31439,19 @@ const leader_skill_data = [
     },
     {
         'name': '勇氣與友情之力',
-        'description': '隊中只有【被選中的孩子】、獸類或龍類成員：<br>I. 全隊攻擊力 10 倍、生命力及回復力 2.2 倍<br>II. 必然延長移動符石時間 5 秒<br>III. 消除種族符石<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 消除水符石<br>⇒ 全隊攻擊力額外 1.5 倍<br>V. 消除火符石<br>⇒ 增加 6 連擊 (Combo)<br>VI. 消除 ≥2 種符石<br>⇒ 隊長及戰友攻擊力額外 1.5 倍',
+        'description': `
+		隊中只有【被選中的孩子】、獸類或龍類成員：
+		I. 全隊攻擊力 10 倍、生命力及回復力 2.2 倍
+		II. 必然延長移動符石時間 5 秒
+		III. 消除種族符石
+		⇒ 全隊攻擊力額外 2 倍
+		IV. 消除水符石
+		⇒ 全隊攻擊力額外 1.5 倍
+		V. 消除火符石
+		⇒ 增加 6 連擊 (Combo)
+		VI. 消除 ≥2 種符石
+		⇒ 隊長及戰友攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24652,7 +31488,13 @@ const leader_skill_data = [
     },
     {
         'name': '消滅邪惡之力',
-        'description': 'I.【被選中的孩子】、獸類、妖精類及龍類成員<br>⇒ 攻擊力 8 倍、生命力及回復力 2.2 倍<br>II. 減少 40% 所受傷害<br>III. 達至 ≥6 連擊 (Combo)<br>⇒ 全隊攻擊力額外 6 倍',
+        'description': `
+		I.【被選中的孩子】、獸類、妖精類及龍類成員
+		⇒ 攻擊力 8 倍、生命力及回復力 2.2 倍
+		II. 減少 40% 所受傷害
+		III. 達至 ≥6 連擊 (Combo)
+		⇒ 全隊攻擊力額外 6 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24674,7 +31516,13 @@ const leader_skill_data = [
     },
     {
         'name': '傳說的龍戰士',
-        'description': 'I.【被選中的孩子】、水、木及光屬性成員<br>⇒ 攻擊力 9 倍、生命力及回復力 1.6 倍<br>II. 消除 ≥3 種符石<br>⓵ 全隊攻擊力額外 6 倍<br>⓶ 增加 3 連擊 (Combo、Ex. Combo)',
+        'description': `
+		I.【被選中的孩子】、水、木及光屬性成員
+		⇒ 攻擊力 9 倍、生命力及回復力 1.6 倍
+		II. 消除 ≥3 種符石
+		⓵ 全隊攻擊力額外 6 倍
+		⓶ 增加 3 連擊 (Combo、Ex. Combo)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24691,7 +31539,15 @@ const leader_skill_data = [
     },
     {
         'name': '機械存念',
-        'description': '隊中只有機械族成員：<br>I. 全隊攻擊力 8 倍、生命力及回復力 2 倍<br>II. 機械族成員提升「首批消除符石組數 1.5 倍」的行動值<br>III. 達至 ≥10 連擊 (Combo)<br>⇒ 全隊攻擊力額外 3 倍<br>IV. 達至 ≥20 連擊 (Combo)<br>⇒ 全隊攻擊力額外 3 倍',
+        'description': `
+		隊中只有機械族成員：
+		I. 全隊攻擊力 8 倍、生命力及回復力 2 倍
+		II. 機械族成員提升「首批消除符石組數 1.5 倍」的行動值
+		III. 達至 ≥10 連擊 (Combo)
+		⇒ 全隊攻擊力額外 3 倍
+		IV. 達至 ≥20 連擊 (Combo)
+		⇒ 全隊攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '行動值提升'],
@@ -24708,7 +31564,15 @@ const leader_skill_data = [
     },
     {
         'name': '赤色酷意',
-        'description': 'I. 人類及龍類成員攻擊力 6 倍、生命力及回復力 2 倍<br>II. 延長移動符石時間 3 秒<br>III. 所有屬性符石分別兼具<br>⇒ 50% 其他符石效果<br>IV. 隊中有 ≥2 種屬性成員或隊中有 ≥2 種族成員<br>⓵ 全隊攻擊力額外 6 倍<br>⓶ 全隊無視敵人防禦力',
+        'description': `
+		I. 人類及龍類成員攻擊力 6 倍、生命力及回復力 2 倍
+		II. 延長移動符石時間 3 秒
+		III. 所有屬性符石分別兼具
+		⇒ 50% 其他符石效果
+		IV. 隊中有 ≥2 種屬性成員或隊中有 ≥2 種族成員
+		⓵ 全隊攻擊力額外 6 倍
+		⓶ 全隊無視敵人防禦力
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24730,7 +31594,16 @@ const leader_skill_data = [
     },
     {
         'name': '龍魂宣告',
-        'description': 'I. 人類、妖精類及龍類成員<br>⇒ 攻擊力 9 倍<br>II. 龍類成員生命力 2.6 倍<br>III. 消除角色或種族符石<br>⇒ 全隊攻擊力額外 3.5 倍<br>IV. 木符石效果提升 200%<br>V. 人類、妖精類及龍類成員<br>⇒ 進場 CD -3',
+        'description': `
+		I. 人類、妖精類及龍類成員
+		⇒ 攻擊力 9 倍
+		II. 龍類成員生命力 2.6 倍
+		III. 消除角色或種族符石
+		⇒ 全隊攻擊力額外 3.5 倍
+		IV. 木符石效果提升 200%
+		V. 人類、妖精類及龍類成員
+		⇒ 進場 CD -3
+		`,
         'tag': [
             {
                 'name': ['增攻', '進場減CD'],
@@ -24757,7 +31630,13 @@ const leader_skill_data = [
     },
     {
         'name': '流火神識',
-        'description': 'I. 全隊攻擊力 7 倍及生命力 1.5 倍<br>II. 火屬性及神族成員<br>⇒ 生命力及攻擊力額外 1.5 倍<br>III. 消除火或心符石<br>⇒ 全隊攻擊力額外 3.5 倍',
+        'description': `
+		I. 全隊攻擊力 7 倍及生命力 1.5 倍
+		II. 火屬性及神族成員
+		⇒ 生命力及攻擊力額外 1.5 倍
+		III. 消除火或心符石
+		⇒ 全隊攻擊力額外 3.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -24774,7 +31653,14 @@ const leader_skill_data = [
     },
     {
         'name': '馭宇之道',
-        'description': 'I. 全隊攻擊力 6 倍、生命力及回復力 1.6 倍<br>II. 獸類成員攻擊力額外 9 倍、生命力及回復力額外 1.8 倍<br>III. 場上有附加效果<br>⇒ 減少 40% 所受傷害<br>IV. 獸類成員屬性符石兼具<br>⇒ 所有符石效果',
+        'description': `
+		I. 全隊攻擊力 6 倍、生命力及回復力 1.6 倍
+		II. 獸類成員攻擊力額外 9 倍、生命力及回復力額外 1.8 倍
+		III. 場上有附加效果
+		⇒ 減少 40% 所受傷害
+		IV. 獸類成員屬性符石兼具
+		⇒ 所有符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '暗兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心'],
@@ -24791,7 +31677,16 @@ const leader_skill_data = [
     },
     {
         'name': '劍者聖輝',
-        'description': 'I. 光屬性及人類成員<br>⇒ 攻擊力 8 倍、生命力及回復力 1.2 倍<br>II. 光屬性人類成員<br>⇒ 生命力、攻擊力及回復力額外 1.8 倍<br>III. 消除光符石<br>⇒ 全隊攻擊力額外 4 倍<br>IV. 消除角色或種族符石<br>⇒ 增加 2 連擊 (Combo)',
+        'description': `
+		I. 光屬性及人類成員
+		⇒ 攻擊力 8 倍、生命力及回復力 1.2 倍
+		II. 光屬性人類成員
+		⇒ 生命力、攻擊力及回復力額外 1.8 倍
+		III. 消除光符石
+		⇒ 全隊攻擊力額外 4 倍
+		IV. 消除角色或種族符石
+		⇒ 增加 2 連擊 (Combo)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24813,7 +31708,14 @@ const leader_skill_data = [
     },
     {
         'name': '獸伏潛影',
-        'description': 'I. 人類及獸類成員攻擊力 6 倍<br>II. 獸類成員生命力 2 倍<br>III. 消除光或暗符石<br>⇒ 全隊攻擊力額外 6 倍<br>IV. 消除角色符石<br>⇒ 回復 50% 生命力',
+        'description': `
+		I. 人類及獸類成員攻擊力 6 倍
+		II. 獸類成員生命力 2 倍
+		III. 消除光或暗符石
+		⇒ 全隊攻擊力額外 6 倍
+		IV. 消除角色符石
+		⇒ 回復 50% 生命力
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -24840,7 +31742,12 @@ const leader_skill_data = [
     },
     {
         'name': '武術之道',
-        'description': 'I.【英雄協會】及人類成員<br>⇒ 攻擊力 7 倍、生命力及回復力 1.5 倍<br>II. 首批全部消除場上 ≥1 種符石<br>⇒【英雄協會】及人類成員攻擊力額外 3 倍',
+        'description': `
+		I.【英雄協會】及人類成員
+		⇒ 攻擊力 7 倍、生命力及回復力 1.5 倍
+		II. 首批全部消除場上 ≥1 種符石
+		⇒【英雄協會】及人類成員攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24857,7 +31764,14 @@ const leader_skill_data = [
     },
     {
         'name': '正義之志',
-        'description': 'I.【英雄協會】及機械族成員<br>⇒ 攻擊力 7 倍及生命力 2 倍<br>II. 達成 ≥4 連擊 (Combo)<br>⇒ 全隊攻擊力額外 3.5 倍<br>III. 達成 ≥8 連擊 (Combo)<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		I.【英雄協會】及機械族成員
+		⇒ 攻擊力 7 倍及生命力 2 倍
+		II. 達成 ≥4 連擊 (Combo)
+		⇒ 全隊攻擊力額外 3.5 倍
+		III. 達成 ≥8 連擊 (Combo)
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -24874,7 +31788,15 @@ const leader_skill_data = [
     },
     {
         'name': '超能力',
-        'description': 'I.【英雄協會】及木屬性成員<br>⇒ 攻擊力 8 倍、生命力及回復力 1.5 倍<br>II. 消除木或心符石<br>⓵ 全隊攻擊力 4 倍<br>⓶ 全隊無視「固定連擊盾」<br>III. 敵方攻擊前若我方生命力全滿<br>⇒ 該回合減少 50% 所受傷害',
+        'description': `
+		I.【英雄協會】及木屬性成員
+		⇒ 攻擊力 8 倍、生命力及回復力 1.5 倍
+		II. 消除木或心符石
+		⓵ 全隊攻擊力 4 倍
+		⓶ 全隊無視「固定連擊盾」
+		III. 敵方攻擊前若我方生命力全滿
+		⇒ 該回合減少 50% 所受傷害
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24896,7 +31818,12 @@ const leader_skill_data = [
     },
     {
         'name': '絕對強大的力量',
-        'description': 'I. 全隊攻擊力 10 倍<br>II.「埼玉」無視敵人防禦力<br>III.【英雄協會】成員<br>⇒ 攻擊力額外 10 倍、生命力及回復力 3 倍',
+        'description': `
+		I. 全隊攻擊力 10 倍
+		II.「埼玉」無視敵人防禦力
+		III.【英雄協會】成員
+		⇒ 攻擊力額外 10 倍、生命力及回復力 3 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -24918,7 +31845,12 @@ const leader_skill_data = [
     },
     {
         'name': '地表最強的男人',
-        'description': 'I.【英雄協會】及人類成員<br>⇒ 攻擊力 7 倍、生命力及回復力 1.5 倍<br>II.「埼玉」<br>⇒ 生命力、攻擊力及回復力額外 2 倍',
+        'description': `
+		I.【英雄協會】及人類成員
+		⇒ 攻擊力 7 倍、生命力及回復力 1.5 倍
+		II.「埼玉」
+		⇒ 生命力、攻擊力及回復力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24930,7 +31862,13 @@ const leader_skill_data = [
     },
     {
         'name': '吹雪組之力',
-        'description': 'I.【英雄協會】及人類成員<br>⇒ 攻擊力 7 倍、生命力及回復力 1.5 倍<br>II. 消除木或心符石<br>⓵ 全隊攻擊力 2.5 倍<br>⓶ 全隊無視敵人防禦力',
+        'description': `
+		I.【英雄協會】及人類成員
+		⇒ 攻擊力 7 倍、生命力及回復力 1.5 倍
+		II. 消除木或心符石
+		⓵ 全隊攻擊力 2.5 倍
+		⓶ 全隊無視敵人防禦力
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24947,7 +31885,9 @@ const leader_skill_data = [
     },
     {
         'name': '英雄之志',
-        'description': '【英雄協會】及人類成員攻擊力 7 倍',
+        'description': `
+		【英雄協會】及人類成員攻擊力 7 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -24959,7 +31899,11 @@ const leader_skill_data = [
     },
     {
         'name': '自稱最強的忍者',
-        'description': 'I. 人類成員攻擊力 6 倍、生命力及回復力 1.5 倍<br>II. 敵方攻擊前若我方生命力全滿<br>⇒ 該回合迴避每個魔族敵人的首次攻擊',
+        'description': `
+		I. 人類成員攻擊力 6 倍、生命力及回復力 1.5 倍
+		II. 敵方攻擊前若我方生命力全滿
+		⇒ 該回合迴避每個魔族敵人的首次攻擊
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -24976,7 +31920,13 @@ const leader_skill_data = [
     },
     {
         'name': '狩獵英雄',
-        'description': 'I. 人類成員攻擊力 5 倍<br>II. 隊中只有「餓狼」<br>⇒ 全隊攻擊力額外 5 倍、生命力及回復力 3 倍<br>III. 消除 ≥3 種符石<br>⇒ 全隊攻擊力額外 5 倍',
+        'description': `
+		I. 人類成員攻擊力 5 倍
+		II. 隊中只有「餓狼」
+		⇒ 全隊攻擊力額外 5 倍、生命力及回復力 3 倍
+		III. 消除 ≥3 種符石
+		⇒ 全隊攻擊力額外 5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -24998,7 +31948,13 @@ const leader_skill_data = [
     },
     {
         'name': '全宇宙霸者之力',
-        'description': 'I. 人類以外成員攻擊力 10 倍、生命力及回復力 1.8 倍<br>II. 達至 ≥7 連擊 (Combo)<br>⇒ 全隊攻擊力額外 3 倍<br>III. 所受神族以外敵人的傷害<br>⇒ 減少 50%',
+        'description': `
+		I. 人類以外成員攻擊力 10 倍、生命力及回復力 1.8 倍
+		II. 達至 ≥7 連擊 (Combo)
+		⇒ 全隊攻擊力額外 3 倍
+		III. 所受神族以外敵人的傷害
+		⇒ 減少 50%
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25020,7 +31976,12 @@ const leader_skill_data = [
     },
     {
         'name': '仿魂戰意',
-        'description': '隊中只有機械族成員：<br>I. 全隊攻擊力 8 倍、生命力及回復力 1.8 倍<br>II. 隊中有 ≥3 種屬性成員<br>⇒ 全隊攻擊力額外 1.8 倍',
+        'description': `
+		隊中只有機械族成員：
+		I. 全隊攻擊力 8 倍、生命力及回復力 1.8 倍
+		II. 隊中有 ≥3 種屬性成員
+		⇒ 全隊攻擊力額外 1.8 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25037,7 +31998,12 @@ const leader_skill_data = [
     },
     {
         'name': '封神境界',
-        'description': 'I. 妖精類及神族成員攻擊力 8 倍、生命力及回復力 1.8 倍<br>II. 隊中只有 ≤2 個種族成員<br>⓵ 全隊攻擊力額外 6 倍及生命力額外 1.2 倍<br>⓶ 所有符石兼具 50% 所有符石效果',
+        'description': `
+		I. 妖精類及神族成員攻擊力 8 倍、生命力及回復力 1.8 倍
+		II. 隊中只有 ≤2 個種族成員
+		⓵ 全隊攻擊力額外 6 倍及生命力額外 1.2 倍
+		⓶ 所有符石兼具 50% 所有符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25054,7 +32020,15 @@ const leader_skill_data = [
     },
     {
         'name': '流火靈息',
-        'description': 'I. 全隊攻擊力 6 倍<br>II. 火屬性及妖精類成員<br>⓵ 攻擊力額外 4 倍<br>⓶ 生命力及回復力額外 2 倍<br>III. 消除角色或種族符石<br>⓵ 全隊攻擊力 2 倍<br>⓶ 所有成員追打木屬性攻擊 1 次',
+        'description': `
+		I. 全隊攻擊力 6 倍
+		II. 火屬性及妖精類成員
+		⓵ 攻擊力額外 4 倍
+		⓶ 生命力及回復力額外 2 倍
+		III. 消除角色或種族符石
+		⓵ 全隊攻擊力 2 倍
+		⓶ 所有成員追打木屬性攻擊 1 次
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -25076,7 +32050,14 @@ const leader_skill_data = [
     },
     {
         'name': '腥甜契機',
-        'description': 'I. 全隊攻擊力 7 倍、生命力及回復力 1.6 倍<br>II. 場上有風化、弱化、凍結或石化符石<br>⇒ 全隊攻擊力額外 3 倍<br>III. 將全隊對敵方造成攻擊傷害的 5%<br>⇒ 轉化為生命力<br>⇒ 最大為生命力等值的 100%',
+        'description': `
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.6 倍
+		II. 場上有風化、弱化、凍結或石化符石
+		⇒ 全隊攻擊力額外 3 倍
+		III. 將全隊對敵方造成攻擊傷害的 5%
+		⇒ 轉化為生命力
+		⇒ 最大為生命力等值的 100%
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '我方傷害吸收'],
@@ -25093,7 +32074,16 @@ const leader_skill_data = [
     },
     {
         'name': '救世血裔',
-        'description': 'I. 全隊攻擊力 10 倍<br>II. 木、暗屬性、人類成員<br>⇒ 攻擊力及生命力 2.2 倍<br>III. 必然延長移動符石時間 3 秒<br>IV. 所有屬性符石兼具<br>⇒ 50% 所有屬性符石效果<br>V. 消除木或暗符石<br>⇒ 全隊攻擊力額外 4 倍',
+        'description': `
+		I. 全隊攻擊力 10 倍
+		II. 木、暗屬性、人類成員
+		⇒ 攻擊力及生命力 2.2 倍
+		III. 必然延長移動符石時間 3 秒
+		IV. 所有屬性符石兼具
+		⇒ 50% 所有屬性符石效果
+		V. 消除木或暗符石
+		⇒ 全隊攻擊力額外 4 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '延長轉珠時間', '水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '暗兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗'],
@@ -25115,7 +32105,12 @@ const leader_skill_data = [
     },
     {
         'name': '女團不滅',
-        'description': 'I.【偶像女團】成員攻擊力 6 倍、生命力及回復力 1.3 倍<br>II. 水及心符石互相兼具 50% 效果<br>III. 消除 ≥6 粒水符石<br>⇒【偶像女團】成員攻擊力額外 2 倍',
+        'description': `
+		I.【偶像女團】成員攻擊力 6 倍、生命力及回復力 1.3 倍
+		II. 水及心符石互相兼具 50% 效果
+		III. 消除 ≥6 粒水符石
+		⇒【偶像女團】成員攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25137,7 +32132,15 @@ const leader_skill_data = [
     },
     {
         'name': '堅不可摧的女團魅力！',
-        'description': '隊中只有【偶像女團】成員：<br>I. 全隊攻擊力 7 倍、生命力及回復力 1.5 倍<br>II. 消除符石的屬性愈多<br>⇒ 全隊攻擊力額外提升愈多<br>⇒ 最多可提升至 3 倍<br>III. 消除心符石<br>⇒ 減少 40% 所受傷害',
+        'description': `
+		隊中只有【偶像女團】成員：
+		I. 全隊攻擊力 7 倍、生命力及回復力 1.5 倍
+		II. 消除符石的屬性愈多
+		⇒ 全隊攻擊力額外提升愈多
+		⇒ 最多可提升至 3 倍
+		III. 消除心符石
+		⇒ 減少 40% 所受傷害
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25159,7 +32162,16 @@ const leader_skill_data = [
     },
     {
         'name': '女團之祈願',
-        'description': '隊中只有【偶像女團】或妖精類成員：<br>I. 全隊攻擊力 6.5 倍、生命力及回復力 1.3 倍<br>II. 消除木符石時<br>⇒ 全隊攻擊力額外 2 倍<br>III. 消除心符石時<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 同時消除木及心符石時<br>⇒ 全隊攻擊力額外 1.5 倍',
+        'description': `
+		隊中只有【偶像女團】或妖精類成員：
+		I. 全隊攻擊力 6.5 倍、生命力及回復力 1.3 倍
+		II. 消除木符石時
+		⇒ 全隊攻擊力額外 2 倍
+		III. 消除心符石時
+		⇒ 全隊攻擊力額外 2 倍
+		IV. 同時消除木及心符石時
+		⇒ 全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25176,7 +32188,20 @@ const leader_skill_data = [
     },
     {
         'name': '女團之魂',
-        'description': '隊中只有【偶像女團】、人類或龍類成員：<br>I. 全隊攻擊力 7 倍<br>II. 每消除 1 組符石<br>⇒ 額外計算多 1 連擊 (Ex. Combo)<br>⇒ 最多可額外增加 12 連擊 (Ex. Combo)<br>(Ex. Combo 上限不能疊加)<br>III. Ex. Combo 達至 ≥6 時<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 光符石兼具 50% 其他屬性符石效果<br>V. 心符石兼具 50% 屬性符石效果<br>VI. 同時消除光及心符石<br>⇒ 全隊攻擊力額外 1.5 倍',
+        'description': `
+		隊中只有【偶像女團】、人類或龍類成員：
+		I. 全隊攻擊力 7 倍
+		II. 每消除 1 組符石
+		⇒ 額外計算多 1 連擊 (Ex. Combo)
+		⇒ 最多可額外增加 12 連擊 (Ex. Combo)
+		(Ex. Combo 上限不能疊加)
+		III. Ex. Combo 達至 ≥6 時
+		⇒ 全隊攻擊力額外 2 倍
+		IV. 光符石兼具 50% 其他屬性符石效果
+		V. 心符石兼具 50% 屬性符石效果
+		VI. 同時消除光及心符石
+		⇒ 全隊攻擊力額外 1.5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -25208,7 +32233,12 @@ const leader_skill_data = [
     },
     {
         'name': '女團的力量 ‧ 魔',
-        'description': 'I.【偶像女團】及魔族成員攻擊力 7 倍、生命力及回復力 1.3 倍<br>II. 暗及心符石互相兼具 50% 效果<br>III. 消除 ≥6 粒暗符石<br>⇒【偶像女團】及魔族成員攻擊力額外 2 倍',
+        'description': `
+		I.【偶像女團】及魔族成員攻擊力 7 倍、生命力及回復力 1.3 倍
+		II. 暗及心符石互相兼具 50% 效果
+		III. 消除 ≥6 粒暗符石
+		⇒【偶像女團】及魔族成員攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25230,7 +32260,14 @@ const leader_skill_data = [
     },
     {
         'name': '絕命刺殺',
-        'description': '隊中只有人類或 ≥3 種屬性成員：<br>I. 全隊攻擊力 9 倍、生命力及回復力 1.5 倍<br>II. 人類成員攻擊力額外 6 倍、生命力及回復力額外 1.8 倍<br>III. 必然延長移動符石時間 2 秒<br>IV. 消除火、木或暗符石<br>⇒ 人類成員無視「指定形狀盾」',
+        'description': `
+		隊中只有人類或 ≥3 種屬性成員：
+		I. 全隊攻擊力 9 倍、生命力及回復力 1.5 倍
+		II. 人類成員攻擊力額外 6 倍、生命力及回復力額外 1.8 倍
+		III. 必然延長移動符石時間 2 秒
+		IV. 消除火、木或暗符石
+		⇒ 人類成員無視「指定形狀盾」
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25252,7 +32289,14 @@ const leader_skill_data = [
     },
     {
         'name': '幹練間諜',
-        'description': '隊中只有人類或 ≥3 種屬性成員：<br>I. 全隊攻擊力 9 倍、生命力及回復力 1.5 倍<br>II. 人類成員攻擊力額外 6 倍、生命力及回復力額外 1.8 倍<br>III. 必然延長移動符石時間 2 秒<br>IV. 消除火、木或暗符石<br>⇒ 人類成員無視「固定連擊盾」',
+        'description': `
+		隊中只有人類或 ≥3 種屬性成員：
+		I. 全隊攻擊力 9 倍、生命力及回復力 1.5 倍
+		II. 人類成員攻擊力額外 6 倍、生命力及回復力額外 1.8 倍
+		III. 必然延長移動符石時間 2 秒
+		IV. 消除火、木或暗符石
+		⇒ 人類成員無視「固定連擊盾」
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25274,7 +32318,14 @@ const leader_skill_data = [
     },
     {
         'name': '超能少女',
-        'description': '隊伍中只有人類或 ≥3 種屬性成員：<br>I. 全隊攻擊力 9 倍、生命力及回復力 1.5 倍<br>II. 人類成員攻擊力額外 6 倍、生命力及回復力額外 1.8 倍<br>III. 必然延長移動符石時間 2 秒<br>IV. 消除火、木或暗符石<br>⇒ 增加 3 連擊 (Combo)',
+        'description': `
+		隊伍中只有人類或 ≥3 種屬性成員：
+		I. 全隊攻擊力 9 倍、生命力及回復力 1.5 倍
+		II. 人類成員攻擊力額外 6 倍、生命力及回復力額外 1.8 倍
+		III. 必然延長移動符石時間 2 秒
+		IV. 消除火、木或暗符石
+		⇒ 增加 3 連擊 (Combo)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25296,7 +32347,9 @@ const leader_skill_data = [
     },
     {
         'name': '間諜家庭',
-        'description': '【間諜家家酒】成員攻擊力 7 倍、生命力及回復力 2 倍',
+        'description': `
+		【間諜家家酒】成員攻擊力 7 倍、生命力及回復力 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25308,7 +32361,9 @@ const leader_skill_data = [
     },
     {
         'name': '間諜家家酒之力',
-        'description': '【間諜家家酒】成員攻擊力 6 倍',
+        'description': `
+		【間諜家家酒】成員攻擊力 6 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -25320,7 +32375,14 @@ const leader_skill_data = [
     },
     {
         'name': '美少女戰士之力',
-        'description': 'I. 人類成員攻擊力 6 倍<br>II.「晚禮服假面」及【水手戰士】成員<br>⇒ 攻擊力、生命力及回復力額外 1.8 倍<br>III. 消除自身屬性符石或心符石<br>⇒ 全隊攻擊力額外 3 倍<br>IV. 心符石兼具 50% 屬性符石效果',
+        'description': `
+		I. 人類成員攻擊力 6 倍
+		II.「晚禮服假面」及【水手戰士】成員
+		⇒ 攻擊力、生命力及回復力額外 1.8 倍
+		III. 消除自身屬性符石或心符石
+		⇒ 全隊攻擊力額外 3 倍
+		IV. 心符石兼具 50% 屬性符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -25347,7 +32409,17 @@ const leader_skill_data = [
     },
     {
         'name': '愛與正義',
-        'description': 'I. 光屬性及人類成員<br>⇒ 攻擊力 9 倍、生命力及回復力 1.5 倍<br>II.「晚禮服假面」及【水手戰士】成員<br>⇒ 生命力、攻擊力及回復力額外 1.6 倍<br>III. 消除 ≥2 種符石<br>⇒ 全隊攻擊力 4 倍<br>IV. 消除光或心符石<br>⓵ 自身攻擊力 4 倍<br>⓶ 自身無視「固定連擊盾」',
+        'description': `
+		I. 光屬性及人類成員
+		⇒ 攻擊力 9 倍、生命力及回復力 1.5 倍
+		II.「晚禮服假面」及【水手戰士】成員
+		⇒ 生命力、攻擊力及回復力額外 1.6 倍
+		III. 消除 ≥2 種符石
+		⇒ 全隊攻擊力 4 倍
+		IV. 消除光或心符石
+		⓵ 自身攻擊力 4 倍
+		⓶ 自身無視「固定連擊盾」
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25369,7 +32441,17 @@ const leader_skill_data = [
     },
     {
         'name': '愛與正義 ‧ 強',
-        'description': 'I. 光屬性及人類成員<br>⇒ 攻擊力 10 倍、生命力及回復力 1.5 倍<br>II.「晚禮服假面」及【水手戰士】成員<br>⇒ 生命力、攻擊力及回復力額外 1.6 倍<br>III. 消除 ≥2 種符石<br>⇒ 全隊攻擊力 5 倍<br>IV. 消除光或心符石<br>⓵ 自身攻擊力 5 倍<br>⓶ 自身無視「固定連擊盾」',
+        'description': `
+		I. 光屬性及人類成員
+		⇒ 攻擊力 10 倍、生命力及回復力 1.5 倍
+		II.「晚禮服假面」及【水手戰士】成員
+		⇒ 生命力、攻擊力及回復力額外 1.6 倍
+		III. 消除 ≥2 種符石
+		⇒ 全隊攻擊力 5 倍
+		IV. 消除光或心符石
+		⓵ 自身攻擊力 5 倍
+		⓶ 自身無視「固定連擊盾」
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25391,7 +32473,13 @@ const leader_skill_data = [
     },
     {
         'name': '土星水晶力量',
-        'description': 'I.【水手戰士】及暗屬性成員<br>⇒ 攻擊力 7 倍、生命力及回復力 1.8 倍<br>II. 消除暗符石<br>⓵ 全隊攻擊力 3.5 倍<br>⓶【水手戰士】成員追打暗屬性攻擊 1 次',
+        'description': `
+		I.【水手戰士】及暗屬性成員
+		⇒ 攻擊力 7 倍、生命力及回復力 1.8 倍
+		II. 消除暗符石
+		⓵ 全隊攻擊力 3.5 倍
+		⓶【水手戰士】成員追打暗屬性攻擊 1 次
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25413,7 +32501,15 @@ const leader_skill_data = [
     },
     {
         'name': '粉紅水晶力量',
-        'description': 'I. 人類及神族成員攻擊力 6 倍<br>II. 隊中有 ≥2 種屬性成員<br>⇒ 全隊攻擊力額外 6 倍、生命力及回復力 1.8 倍<br>III. 消除種族符石<br>⇒ 人類及神族成員<br>⓵ 攻擊力額外 2 倍<br>⓶ 無視「二屬盾」、「三屬盾」、「四屬盾」、「五屬盾」',
+        'description': `
+		I. 人類及神族成員攻擊力 6 倍
+		II. 隊中有 ≥2 種屬性成員
+		⇒ 全隊攻擊力額外 6 倍、生命力及回復力 1.8 倍
+		III. 消除種族符石
+		⇒ 人類及神族成員
+		⓵ 攻擊力額外 2 倍
+		⓶ 無視「二屬盾」、「三屬盾」、「四屬盾」、「五屬盾」
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -25435,7 +32531,16 @@ const leader_skill_data = [
     },
     {
         'name': '銀水晶力量',
-        'description': 'I. 「新希蕾妮蒂女王與安迪米歐國王」及【水手戰士】成員<br>⇒ 攻擊力 8 倍、生命力及回復力 1.5 倍<br>II. 每累計首批消除 3 粒符石<br>⇒ 掉落 1 粒心強化符石<br>III. 每累計消除 4 粒心符石<br>⇒ 掉落 1 粒心強化符石<br>IV. 每累計消除 9 粒心強化符石<br>⇒ 掉落 1 粒心強化符石',
+        'description': `
+		I. 「新希蕾妮蒂女王與安迪米歐國王」及【水手戰士】成員
+		⇒ 攻擊力 8 倍、生命力及回復力 1.5 倍
+		II. 每累計首批消除 3 粒符石
+		⇒ 掉落 1 粒心強化符石
+		III. 每累計消除 4 粒心符石
+		⇒ 掉落 1 粒心強化符石
+		IV. 每累計消除 9 粒心強化符石
+		⇒ 掉落 1 粒心強化符石
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25462,7 +32567,13 @@ const leader_skill_data = [
     },
     {
         'name': '黑暗與混沌',
-        'description': 'I. 隊中只有人類、妖精類或魔族成員<br>⇒ 全隊攻擊力 8 倍及生命力 4 倍<br>II. 消除 ≥4 種符石<br>⓵ 全隊攻擊力額外 4 倍<br>⓶ 全隊無視敵人防禦力',
+        'description': `
+		I. 隊中只有人類、妖精類或魔族成員
+		⇒ 全隊攻擊力 8 倍及生命力 4 倍
+		II. 消除 ≥4 種符石
+		⓵ 全隊攻擊力額外 4 倍
+		⓶ 全隊無視敵人防禦力
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血'],
@@ -25479,7 +32590,13 @@ const leader_skill_data = [
     },
     {
         'name': '初心之力',
-        'description': 'I. 全隊攻擊力 6 倍、生命力及回復力 1.3 倍<br>II. 人類成員攻擊力額外 4 倍<br>III. 所有符石兼具<br>⇒ 50% 光及心符石效果<br>IV. 關卡靈魂之日，其初級、高級及超級難度最後一層的敵人 100% 機率轉化為蘊魔晶寵',
+        'description': `
+		I. 全隊攻擊力 6 倍、生命力及回復力 1.3 倍
+		II. 人類成員攻擊力額外 4 倍
+		III. 所有符石兼具
+		⇒ 50% 光及心符石效果
+		IV. 關卡靈魂之日，其初級、高級及超級難度最後一層的敵人 100% 機率轉化為蘊魔晶寵
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '暗兼具其他', '心兼具其他', '符石兼具光', '符石兼具心'],
@@ -25491,7 +32608,13 @@ const leader_skill_data = [
     },
     {
         'name': '堅持之力',
-        'description': 'I. 全隊攻擊力 8 倍、生命力及回復力 1.3 倍<br>II. 人類成員攻擊力額外 4 倍<br>III. 所有符石兼具<br>⇒ 50% 水及心符石效果<br>IV. 戰鬥中所獲得的金幣增加 50%',
+        'description': `
+		I. 全隊攻擊力 8 倍、生命力及回復力 1.3 倍
+		II. 人類成員攻擊力額外 4 倍
+		III. 所有符石兼具
+		⇒ 50% 水及心符石效果
+		IV. 戰鬥中所獲得的金幣增加 50%
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '暗兼具其他', '心兼具其他', '符石兼具水', '符石兼具心', '物品掉落增加'],
@@ -25503,7 +32626,15 @@ const leader_skill_data = [
     },
     {
         'name': '約定之力',
-        'description': 'I. 全隊攻擊力 10 倍<br>II. 隊伍成員的種族愈多，全隊生命力、攻擊力及回復力額外提升愈多：<br>⇒ 2 種族成員 2 倍<br>⇒ 3 種族成員可達至最大 3 倍<br>III. 首批消除 ≥10 粒符石<br>⓵ 全隊攻擊力 2.5 倍<br>⓶ 回復 100,000 點生命力',
+        'description': `
+		I. 全隊攻擊力 10 倍
+		II. 隊伍成員的種族愈多，全隊生命力、攻擊力及回復力額外提升愈多：
+		⇒ 2 種族成員 2 倍
+		⇒ 3 種族成員可達至最大 3 倍
+		III. 首批消除 ≥10 粒符石
+		⓵ 全隊攻擊力 2.5 倍
+		⓶ 回復 100,000 點生命力
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -25525,7 +32656,14 @@ const leader_skill_data = [
     },
     {
         'name': '創造之識',
-        'description': 'I. 全隊攻擊力 10 倍、生命力及回復力 2.8 倍<br>II. 隊中有神族及魔族成員<br>⇒ 神族及魔族成員攻擊力額外 1.6 倍<br>III. 每消除 3 粒符石<br>⇒ 全隊攻擊力額外提升<br>⇒ 消除 15 粒可達至最大 6.25 倍',
+        'description': `
+		I. 全隊攻擊力 10 倍、生命力及回復力 2.8 倍
+		II. 隊中有神族及魔族成員
+		⇒ 神族及魔族成員攻擊力額外 1.6 倍
+		III. 每消除 3 粒符石
+		⇒ 全隊攻擊力額外提升
+		⇒ 消除 15 粒可達至最大 6.25 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25547,7 +32685,14 @@ const leader_skill_data = [
     },
     {
         'name': '滅絕之識',
-        'description': 'I. 全隊攻擊力 10 倍、生命力及回復力 2.8 倍<br>II. 隊中有神族及魔族成員<br>⇒ 神族及魔族成員攻擊力額外 1.6 倍<br>III. 達成連擊 (Combo) 數目愈多<br>⇒ 全隊攻擊力額外提升愈多<br>⇒ 達成 5 連擊 (Combo) 可達至最大 6.25 倍',
+        'description': `
+		I. 全隊攻擊力 10 倍、生命力及回復力 2.8 倍
+		II. 隊中有神族及魔族成員
+		⇒ 神族及魔族成員攻擊力額外 1.6 倍
+		III. 達成連擊 (Combo) 數目愈多
+		⇒ 全隊攻擊力額外提升愈多
+		⇒ 達成 5 連擊 (Combo) 可達至最大 6.25 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25569,7 +32714,18 @@ const leader_skill_data = [
     },
     {
         'name': '可愛的吸血魔',
-        'description': 'I. 全隊攻擊力 9 倍<br>II. 魔族成員生命力 2.2 倍及攻擊力額外 5 倍<br>III. 當前生命力全滿時<br>⇒ 敵人受到的魔族傷害額外 3 倍<br>IV. 所有屬性符石兼具<br>⇒ 50% 所有屬性符石效果<br>V. 心符石兼具 50% 屬性符石效果<br>VI. 將魔族成員對敵方造成攻擊傷害的 5%<br>⇒ 轉化為我方生命力<br>⇒ 最大為生命力等值的 50%',
+        'description': `
+		I. 全隊攻擊力 9 倍
+		II. 魔族成員生命力 2.2 倍及攻擊力額外 5 倍
+		III. 當前生命力全滿時
+		⇒ 敵人受到的魔族傷害額外 3 倍
+		IV. 所有屬性符石兼具
+		⇒ 50% 所有屬性符石效果
+		V. 心符石兼具 50% 屬性符石效果
+		VI. 將魔族成員對敵方造成攻擊傷害的 5%
+		⇒ 轉化為我方生命力
+		⇒ 最大為生命力等值的 50%
+		`,
         'tag': [
             {
                 'name': ['增攻', '水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '暗兼具其他', '心兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗'],
@@ -25591,7 +32747,13 @@ const leader_skill_data = [
     },
     {
         'name': '狂熱發明',
-        'description': '隊中只有機械族成員：<br>I. 全隊攻擊力 9 倍、生命力及回復力 1.5 倍<br>II. 消除 ≥3 種符石<br>⇒ 全隊攻擊力額外 4 倍<br>III. 減少 50% 所受傷害',
+        'description': `
+		隊中只有機械族成員：
+		I. 全隊攻擊力 9 倍、生命力及回復力 1.5 倍
+		II. 消除 ≥3 種符石
+		⇒ 全隊攻擊力額外 4 倍
+		III. 減少 50% 所受傷害
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '減傷'],
@@ -25608,7 +32770,16 @@ const leader_skill_data = [
     },
     {
         'name': '立體機動戰鬥 (米卡莎)',
-        'description': 'I. 水屬性及人類成員攻擊力 6 倍、生命力及回復力 1.8 倍<br>II.【調查兵團】成員<br>⇒ 攻擊力額外 2 倍<br>III. 消除水、火或光符石<br>⇒ 全隊攻擊力額外 3 倍<br>IV. 若隊中有「艾連 ‧ 葉卡」或「進擊的巨人」<br>⓵ 自身攻擊力額外 3 倍<br>⓶ 自身無視「反首消符石盾」',
+        'description': `
+		I. 水屬性及人類成員攻擊力 6 倍、生命力及回復力 1.8 倍
+		II.【調查兵團】成員
+		⇒ 攻擊力額外 2 倍
+		III. 消除水、火或光符石
+		⇒ 全隊攻擊力額外 3 倍
+		IV. 若隊中有「艾連 ‧ 葉卡」或「進擊的巨人」
+		⓵ 自身攻擊力額外 3 倍
+		⓶ 自身無視「反首消符石盾」
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25635,7 +32806,15 @@ const leader_skill_data = [
     },
     {
         'name': '人類的希望',
-        'description': 'I. 火屬性及人類成員攻擊力 9 倍、生命力及回復力 2 倍<br>II. 隊中有 ≥3 個【調查兵團】成員<br>⇒ 全隊攻擊力額外 2 倍<br>III.【調查兵團】成員<br>⇒ 以 50% 攻擊力追打 1 次<br>IV. 消除 ≥3 組符石<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		I. 火屬性及人類成員攻擊力 9 倍、生命力及回復力 2 倍
+		II. 隊中有 ≥3 個【調查兵團】成員
+		⇒ 全隊攻擊力額外 2 倍
+		III.【調查兵團】成員
+		⇒ 以 50% 攻擊力追打 1 次
+		IV. 消除 ≥3 組符石
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25662,7 +32841,15 @@ const leader_skill_data = [
     },
     {
         'name': '強靭的精神力',
-        'description': 'I. 火屬性及人類成員攻擊力 10 倍、生命力及回復力 2 倍<br>II. 隊中有 ≥3 個【調查兵團】成員<br>⇒ 全隊攻擊力額外 2.2 倍<br>III.【調查兵團】及【巨人】成員<br>⇒ 以 50% 攻擊力追打 1 次<br>IV. 消除 ≥3 組符石<br>⇒ 全隊攻擊力額外 2 倍',
+        'description': `
+		I. 火屬性及人類成員攻擊力 10 倍、生命力及回復力 2 倍
+		II. 隊中有 ≥3 個【調查兵團】成員
+		⇒ 全隊攻擊力額外 2.2 倍
+		III.【調查兵團】及【巨人】成員
+		⇒ 以 50% 攻擊力追打 1 次
+		IV. 消除 ≥3 組符石
+		⇒ 全隊攻擊力額外 2 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25689,7 +32876,14 @@ const leader_skill_data = [
     },
     {
         'name': '立體機動戰鬥',
-        'description': 'I. 人類成員攻擊力 7 倍<br>II.【調查兵團】成員<br>⇒ 攻擊力、生命力、回復力額外 2 倍<br>III. 消除角色符石<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 心符石兼具所有屬性符石效果',
+        'description': `
+		I. 人類成員攻擊力 7 倍
+		II.【調查兵團】成員
+		⇒ 攻擊力、生命力、回復力額外 2 倍
+		III. 消除角色符石
+		⇒ 全隊攻擊力額外 2 倍
+		IV. 心符石兼具所有屬性符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -25716,7 +32910,13 @@ const leader_skill_data = [
     },
     {
         'name': '立體機動戰鬥 (阿爾敏)',
-        'description': 'I. 光屬性及人類成員攻擊力 5 倍、生命力及回復力 2 倍<br>II.【調查兵團】成員<br>⇒ 攻擊力額外 2.5 倍<br>III. 消除光或心符石<br>⇒ 全隊攻擊力額外 5 倍',
+        'description': `
+		I. 光屬性及人類成員攻擊力 5 倍、生命力及回復力 2 倍
+		II.【調查兵團】成員
+		⇒ 攻擊力額外 2.5 倍
+		III. 消除光或心符石
+		⇒ 全隊攻擊力額外 5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25738,7 +32938,13 @@ const leader_skill_data = [
     },
     {
         'name': '巨人化',
-        'description': 'I. 光屬性及人類成員攻擊力 5 倍、生命力及回復力 2.5 倍<br>II.【調查兵團】成員<br>⇒ 攻擊力額外 2.5 倍<br>III. 消除光或心符石<br>⇒ 全隊攻擊力額外 5 倍',
+        'description': `
+		I. 光屬性及人類成員攻擊力 5 倍、生命力及回復力 2.5 倍
+		II.【調查兵團】成員
+		⇒ 攻擊力額外 2.5 倍
+		III. 消除光或心符石
+		⇒ 全隊攻擊力額外 5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25760,7 +32966,17 @@ const leader_skill_data = [
     },
     {
         'name': '人類最強士兵',
-        'description': 'I. 暗屬性及人類成員攻擊力 8 倍、生命力及回復力 1.5 倍<br>II.【調查兵團】成員<br>⓵ 生命力額外 1.5 倍<br>⓶ 攻擊力額外 2 倍<br>III. 自身<br>▋ 攻擊力額外 2 倍<br>▋ 無視敵人防禦力<br>IV. 消除火或暗符石<br>⇒ 全隊攻擊力額外 4 倍',
+        'description': `
+		I. 暗屬性及人類成員攻擊力 8 倍、生命力及回復力 1.5 倍
+		II.【調查兵團】成員
+		⓵ 生命力額外 1.5 倍
+		⓶ 攻擊力額外 2 倍
+		III. 自身
+		▋ 攻擊力額外 2 倍
+		▋ 無視敵人防禦力
+		IV. 消除火或暗符石
+		⇒ 全隊攻擊力額外 4 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25787,7 +33003,14 @@ const leader_skill_data = [
     },
     {
         'name': '巨人之力',
-        'description': 'I. 人類成員攻擊力 7 倍<br>II.【巨人】成員<br>⇒ 攻擊力、生命力、回復力額外 2 倍<br>III. 消除角色符石<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 心符石兼具所有屬性符石效果',
+        'description': `
+		I. 人類成員攻擊力 7 倍
+		II.【巨人】成員
+		⇒ 攻擊力、生命力、回復力額外 2 倍
+		III. 消除角色符石
+		⇒ 全隊攻擊力額外 2 倍
+		IV. 心符石兼具所有屬性符石效果
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -25814,7 +33037,15 @@ const leader_skill_data = [
     },
     {
         'name': '強靭的精神力',
-        'description': 'I. 自身屬性及人類成員攻擊力 10 倍、生命力及回復力 2 倍<br>II. 隊中有 ≥3 個【調查兵團】成員<br>⇒ 全隊攻擊力額外 2.2 倍<br>III.【調查兵團】及【巨人】成員<br>⇒ 以 50% 攻擊力追打 1 次<br>IV. 消除 ≥3 組符石<br>⇒ 全隊攻擊力額外 2.5 倍',
+        'description': `
+		I. 自身屬性及人類成員攻擊力 10 倍、生命力及回復力 2 倍
+		II. 隊中有 ≥3 個【調查兵團】成員
+		⇒ 全隊攻擊力額外 2.2 倍
+		III.【調查兵團】及【巨人】成員
+		⇒ 以 50% 攻擊力追打 1 次
+		IV. 消除 ≥3 組符石
+		⇒ 全隊攻擊力額外 2.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25841,7 +33072,19 @@ const leader_skill_data = [
     },
     {
         'name': '嚴酷守念',
-        'description': '隊中只有人類或機械族成員：<br>I. 全隊攻擊力 9 倍、生命力及回復力 1.8 倍<br>II. 以左方 3 直行的符石起手轉珠<br>⓵ 全隊攻擊力額外 2 倍，若所有機械族成員行動值達至 100%，則全隊攻擊力額外 2.5 倍<br>⓶ 回合結束時，機械族的行動值提升 20%<br>III. 以右方 3 直行的符石起手轉珠<br>⓵ 將移動符石時觸碰的符石<br>⇒ 轉化為強化符石<br>⓶ 全隊無視「指定形狀盾」<br>IV. 消除機械族符石<br>⇒ 全隊攻擊力額外 3 倍',
+        'description': `
+		隊中只有人類或機械族成員：
+		I. 全隊攻擊力 9 倍、生命力及回復力 1.8 倍
+		II. 以左方 3 直行的符石起手轉珠
+		⓵ 全隊攻擊力額外 2 倍，若所有機械族成員行動值達至 100%，則全隊攻擊力額外 2.5 倍
+		⓶ 回合結束時，機械族的行動值提升 20%
+		III. 以右方 3 直行的符石起手轉珠
+		⓵ 將移動符石時觸碰的符石
+		⇒ 轉化為強化符石
+		⓶ 全隊無視「指定形狀盾」
+		IV. 消除機械族符石
+		⇒ 全隊攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25873,7 +33116,16 @@ const leader_skill_data = [
     },
     {
         'name': '使神之翼',
-        'description': 'I. 全隊攻擊力 8 倍<br>II. 龍類及神族成員<br>⇒ 攻擊力額外 3 倍及生命力 2 倍<br>III. 延長移動符石時間 2 秒<br>IV. 敵方身上有附加效果<br>⇒ 龍類及神族成員回合結束時技能 CD -1<br>V. 消除 ≥3 種符石<br>⇒ 全隊攻擊力額外 3 倍',
+        'description': `
+		I. 全隊攻擊力 8 倍
+		II. 龍類及神族成員
+		⇒ 攻擊力額外 3 倍及生命力 2 倍
+		III. 延長移動符石時間 2 秒
+		IV. 敵方身上有附加效果
+		⇒ 龍類及神族成員回合結束時技能 CD -1
+		V. 消除 ≥3 種符石
+		⇒ 全隊攻擊力額外 3 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '延長轉珠時間'],
@@ -25900,7 +33152,19 @@ const leader_skill_data = [
     },
     {
         'name': '熾烈的日輪',
-        'description': 'I. 全隊攻擊力 10 倍、生命力及回復力 2.4 倍<br>II. 敵人受到的主動技能炮擊傷害額外 5 倍<br>III. 隊中有 ≥3 種族成員<br>⇒ 全隊攻擊力及回復力額外 1.5 倍<br>IV. 消除火符石<br>⓵ 全隊攻擊力額外 2.2 倍<br>⓶ 減少 40% 所受傷害<br>⓷ 增加 6 連擊 (Combo)<br>V. 消除光符石<br>⓵ 全隊攻擊力額外 2.2 倍<br>⓶ 自身追打火屬性攻擊 1 次',
+        'description': `
+		I. 全隊攻擊力 10 倍、生命力及回復力 2.4 倍
+		II. 敵人受到的主動技能炮擊傷害額外 5 倍
+		III. 隊中有 ≥3 種族成員
+		⇒ 全隊攻擊力及回復力額外 1.5 倍
+		IV. 消除火符石
+		⓵ 全隊攻擊力額外 2.2 倍
+		⓶ 減少 40% 所受傷害
+		⓷ 增加 6 連擊 (Combo)
+		V. 消除光符石
+		⓵ 全隊攻擊力額外 2.2 倍
+		⓶ 自身追打火屬性攻擊 1 次
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '敵方受傷增加'],
@@ -25922,7 +33186,14 @@ const leader_skill_data = [
     },
     {
         'name': '狂屠極意',
-        'description': '隊中只有妖精類成員：<br>I. 全隊攻擊力 9 倍、生命力及回復力額外 3 倍<br>II. 暗屬性妖精類成員攻擊力額外 1.6 倍<br>III. 全隊進場技能 CD -2<br>IV. 消除 ≥3 種符石<br>⇒ 全隊攻擊力額外 6 倍',
+        'description': `
+		隊中只有妖精類成員：
+		I. 全隊攻擊力 9 倍、生命力及回復力額外 3 倍
+		II. 暗屬性妖精類成員攻擊力額外 1.6 倍
+		III. 全隊進場技能 CD -2
+		IV. 消除 ≥3 種符石
+		⇒ 全隊攻擊力額外 6 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回', '進場減CD'],
@@ -25939,7 +33210,13 @@ const leader_skill_data = [
     },
     {
         'name': '冰極束縛',
-        'description': 'I. 全隊攻擊力 8 倍、生命力及回復力 1.8 倍<br>II. 隊中有 ≥3 種族成員<br>⇒ 全隊生命力及回復力額外 1.5 倍<br>III. 消除水或光符石<br>⇒ 人類、妖精類及魔族成員攻擊力額外 6 倍',
+        'description': `
+		I. 全隊攻擊力 8 倍、生命力及回復力 1.8 倍
+		II. 隊中有 ≥3 種族成員
+		⇒ 全隊生命力及回復力額外 1.5 倍
+		III. 消除水或光符石
+		⇒ 人類、妖精類及魔族成員攻擊力額外 6 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25961,7 +33238,12 @@ const leader_skill_data = [
     },
     {
         'name': '大盜之財',
-        'description': 'I. 全隊攻擊力 5 倍<br>II. 達至 ≥5 連擊 (Combo)<br>⇒ 全隊攻擊力額外 5 倍<br>III. 戰鬥中所獲得的金幣增加 100%',
+        'description': `
+		I. 全隊攻擊力 5 倍
+		II. 達至 ≥5 連擊 (Combo)
+		⇒ 全隊攻擊力額外 5 倍
+		III. 戰鬥中所獲得的金幣增加 100%
+		`,
         'tag': [
             {
                 'name': ['增攻', '物品掉落增加'],
@@ -25978,7 +33260,12 @@ const leader_skill_data = [
     },
     {
         'name': '咒術師之力',
-        'description': 'I.【咒術師】成員<br>⇒ 攻擊力 8 倍、生命力及回復力 1.8 倍<br>II. 消除自身屬性符石<br>⇒ 全隊攻擊力額外 4 倍',
+        'description': `
+		I.【咒術師】成員
+		⇒ 攻擊力 8 倍、生命力及回復力 1.8 倍
+		II. 消除自身屬性符石
+		⇒ 全隊攻擊力額外 4 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -25995,7 +33282,14 @@ const leader_skill_data = [
     },
     {
         'name': '無畏的精神',
-        'description': 'I.【咒術師】及光屬性成員<br>⇒ 攻擊力 7 倍、生命力及回復力 2.2 倍<br>II. 消除光或心符石<br>⇒ 全隊攻擊力額外 4 倍<br>III. 所有成員以 1.5 倍攻擊力追打<br>⇒ 自身克制屬性的攻擊 1 次',
+        'description': `
+		I.【咒術師】及光屬性成員
+		⇒ 攻擊力 7 倍、生命力及回復力 2.2 倍
+		II. 消除光或心符石
+		⇒ 全隊攻擊力額外 4 倍
+		III. 所有成員以 1.5 倍攻擊力追打
+		⇒ 自身克制屬性的攻擊 1 次
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -26017,7 +33311,17 @@ const leader_skill_data = [
     },
     {
         'name': '蒼天之瞳',
-        'description': 'I. 人類成員攻擊力 10 倍、生命力及回復力 2 倍<br>II.【咒術師】成員<br>⇒ 生命力及攻擊力額外 1.5 倍<br>III. 消除 ≥3 種符石<br>⓵ 全隊攻擊力 5 倍<br>⓶【咒術師】成員的攻擊傷害<br>⇒ 無視「攻前盾」<br>IV. 所有符石兼具<br>⇒ 50% 所有符石效果',
+        'description': `
+		I. 人類成員攻擊力 10 倍、生命力及回復力 2 倍
+		II.【咒術師】成員
+		⇒ 生命力及攻擊力額外 1.5 倍
+		III. 消除 ≥3 種符石
+		⓵ 全隊攻擊力 5 倍
+		⓶【咒術師】成員的攻擊傷害
+		⇒ 無視「攻前盾」
+		IV. 所有符石兼具
+		⇒ 50% 所有符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -26049,7 +33353,13 @@ const leader_skill_data = [
     },
     {
         'name': '對加班的痛恨',
-        'description': '隊中只有【咒術師】或人類成員：<br>I. 全隊攻擊力 7 倍、生命力及回復力 3.7 倍<br>II. 達至 ≥7 連擊 (Combo)<br>⓵ 全隊攻擊力額外 7 倍<br>⓶ 減少 30% 所受傷害',
+        'description': `
+		隊中只有【咒術師】或人類成員：
+		I. 全隊攻擊力 7 倍、生命力及回復力 3.7 倍
+		II. 達至 ≥7 連擊 (Combo)
+		⓵ 全隊攻擊力額外 7 倍
+		⓶ 減少 30% 所受傷害
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -26071,7 +33381,16 @@ const leader_skill_data = [
     },
     {
         'name': '不平等的助人',
-        'description': 'I.【咒術師】及暗屬性成員<br>⇒ 攻擊力 8 倍、生命力及回復力 2 倍<br>II. 達至 ≥4 連擊 (Combo)<br>⇒ 全隊攻擊力額外 4 倍<br>III. 達至 ≥8 連擊 (Combo)<br>⇒ 全隊攻擊力額外 2 倍<br>IV. 場上有附加效果<br>⇒ 減少 30% 所受傷害',
+        'description': `
+		I.【咒術師】及暗屬性成員
+		⇒ 攻擊力 8 倍、生命力及回復力 2 倍
+		II. 達至 ≥4 連擊 (Combo)
+		⇒ 全隊攻擊力額外 4 倍
+		III. 達至 ≥8 連擊 (Combo)
+		⇒ 全隊攻擊力額外 2 倍
+		IV. 場上有附加效果
+		⇒ 減少 30% 所受傷害
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -26093,7 +33412,14 @@ const leader_skill_data = [
     },
     {
         'name': '真摯的友誼',
-        'description': '隊中只有人類成員：<br>I. 全隊攻擊力 7 倍<br>II.【咒術師】成員<br>⇒ 生命力、攻擊力及回復力額外 2.2 倍<br>III.「虎杖悠仁」及「東堂葵」<br>⇒ 攻擊力額外 5 倍',
+        'description': `
+		隊中只有人類成員：
+		I. 全隊攻擊力 7 倍
+		II.【咒術師】成員
+		⇒ 生命力、攻擊力及回復力額外 2.2 倍
+		III.「虎杖悠仁」及「東堂葵」
+		⇒ 攻擊力額外 5 倍
+		`,
         'tag': [
             {
                 'name': '增攻',
@@ -26115,7 +33441,16 @@ const leader_skill_data = [
     },
     {
         'name': '詛咒之王',
-        'description': '隊中只有暗屬性或魔族成員：<br>I. 全隊攻擊力 10 倍、生命力及回復力 2.8 倍<br>II. 消除魔族符石<br>⇒ 全隊攻擊力額外 4 倍<br>III. 每首批消除 1 組符石<br>⇒ 增加 1 連擊 (Combo)<br>IV. 達至 ≥10 連擊 (Combo)<br>⇒「兩面宿儺」攻擊力額外 2.5 倍',
+        'description': `
+		隊中只有暗屬性或魔族成員：
+		I. 全隊攻擊力 10 倍、生命力及回復力 2.8 倍
+		II. 消除魔族符石
+		⇒ 全隊攻擊力額外 4 倍
+		III. 每首批消除 1 組符石
+		⇒ 增加 1 連擊 (Combo)
+		IV. 達至 ≥10 連擊 (Combo)
+		⇒「兩面宿儺」攻擊力額外 2.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -26142,7 +33477,12 @@ const leader_skill_data = [
     },
     {
         'name': '咒詛師 / 咒靈之力',
-        'description': 'I.【咒詛師 / 咒靈】成員<br>⇒ 攻擊力 8 倍、生命力及回復力 1.8 倍<br>II. 消除自身屬性符石<br>⇒ 全隊攻擊力額外 4 倍',
+        'description': `
+		I.【咒詛師 / 咒靈】成員
+		⇒ 攻擊力 8 倍、生命力及回復力 1.8 倍
+		II. 消除自身屬性符石
+		⇒ 全隊攻擊力額外 4 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -26159,7 +33499,14 @@ const leader_skill_data = [
     },
     {
         'name': '最惡的咒詛師',
-        'description': '隊中只有【咒詛師 / 咒靈】或木屬性成員：<br>I. 全隊攻擊力 10 倍、生命力及回復力 2.5 倍<br>II.【咒詛師 / 咒靈】成員<br>⇒ 追打木屬性攻擊 3 次<br>III. 消除水、火或木符石<br>⇒ 全隊攻擊力額外 3.5 倍',
+        'description': `
+		隊中只有【咒詛師 / 咒靈】或木屬性成員：
+		I. 全隊攻擊力 10 倍、生命力及回復力 2.5 倍
+		II.【咒詛師 / 咒靈】成員
+		⇒ 追打木屬性攻擊 3 次
+		III. 消除水、火或木符石
+		⇒ 全隊攻擊力額外 3.5 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -26181,7 +33528,13 @@ const leader_skill_data = [
     },
     {
         'name': '吸血的禮儀',
-        'description': 'I. 火屬性、獸類及魔族成員攻擊力 9 倍、生命力及回復力 2.5 倍<br>II. 消除 ≥9 粒符石<br>⇒ 全隊攻擊力額外 9 倍<br>III. 根據隊中成員屬性及數量<br>⇒ 自身追打相應屬性及次數攻擊',
+        'description': `
+		I. 火屬性、獸類及魔族成員攻擊力 9 倍、生命力及回復力 2.5 倍
+		II. 消除 ≥9 粒符石
+		⇒ 全隊攻擊力額外 9 倍
+		III. 根據隊中成員屬性及數量
+		⇒ 自身追打相應屬性及次數攻擊
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -26203,7 +33556,15 @@ const leader_skill_data = [
     },
     {
         'name': '吞噬的慾望',
-        'description': 'I.【血噬】及獸類成員<br>⓵ 攻擊力 9 倍及生命力 2.5 倍<br>⓶ 對敵方造成攻擊傷害的 5% 轉化為生命力，最大為生命力等值的 50%<br>II. 消除種族符石<br>⇒【血噬】及獸類成員追打光屬性攻擊 1 次<br>III. 消除克制敵人屬性的符石<br>⇒ 全隊攻擊力額外 6 倍',
+        'description': `
+		I.【血噬】及獸類成員
+		⓵ 攻擊力 9 倍及生命力 2.5 倍
+		⓶ 對敵方造成攻擊傷害的 5% 轉化為生命力，最大為生命力等值的 50%
+		II. 消除種族符石
+		⇒【血噬】及獸類成員追打光屬性攻擊 1 次
+		III. 消除克制敵人屬性的符石
+		⇒ 全隊攻擊力額外 6 倍
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '我方傷害吸收'],
@@ -26225,7 +33586,14 @@ const leader_skill_data = [
     },
     {
         'name': '不屈之傲',
-        'description': 'I. 暗屬性及機械族成員<br>⇒ 攻擊力 7 倍、生命力及回復力 1.5 倍<br>II. 隊中只有機械族成員<br>⓵ 全隊攻擊力額外 7 倍、生命力及回復力額外 1.5 倍<br>⓶ 減少 20% 所受傷害，若隊中所有機械族成員的行動值達至 100%<br>⇒ 則減少 40% 所受傷害',
+        'description': `
+		I. 暗屬性及機械族成員
+		⇒ 攻擊力 7 倍、生命力及回復力 1.5 倍
+		II. 隊中只有機械族成員
+		⓵ 全隊攻擊力額外 7 倍、生命力及回復力額外 1.5 倍
+		⓶ 減少 20% 所受傷害，若隊中所有機械族成員的行動值達至 100%
+		⇒ 則減少 40% 所受傷害
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -26247,7 +33615,15 @@ const leader_skill_data = [
     },
     {
         'name': '黑與白的對決',
-        'description': 'I. 全隊攻擊力 8 倍、生命力及回復力 1.5 倍<br>II. 消除 ≥3 種符石<br>⇒【黑嘉嘉】攻擊力額外 4 倍<br>III. 消除水、火或木符石<br>⇒ 所有成員以 50% 攻擊力追打 1 次<br>IV. 消除光、暗或心符石<br>⇒ 增加 3 連擊 (Combo)',
+        'description': `
+		I. 全隊攻擊力 8 倍、生命力及回復力 1.5 倍
+		II. 消除 ≥3 種符石
+		⇒【黑嘉嘉】攻擊力額外 4 倍
+		III. 消除水、火或木符石
+		⇒ 所有成員以 50% 攻擊力追打 1 次
+		IV. 消除光、暗或心符石
+		⇒ 增加 3 連擊 (Combo)
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],
@@ -26269,7 +33645,14 @@ const leader_skill_data = [
     },
     {
         'name': '歷劫之道',
-        'description': 'I. 全隊攻擊力 5 倍<br>II. 隊中有 ≥3 種族成員時<br>⇒ 全隊攻擊力額外 4 倍<br>III. 隊中有 ≥3 屬性成員時<br>⇒ 全隊生命力及回復力額外 3 倍<br>IV. 心符石兼具屬性符石效果',
+        'description': `
+		I. 全隊攻擊力 5 倍
+		II. 隊中有 ≥3 種族成員時
+		⇒ 全隊攻擊力額外 4 倍
+		III. 隊中有 ≥3 屬性成員時
+		⇒ 全隊生命力及回復力額外 3 倍
+		IV. 心符石兼具屬性符石效果
+		`,
         'tag': [
             {
                 'name': ['增攻', '心兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗'],
@@ -26291,7 +33674,18 @@ const leader_skill_data = [
     },
     {
         'name': '解難之輝',
-        'description': 'I. 全隊攻擊力 6.5 倍、生命力及回復力 2 倍<br>II. 場上有風化、弱化、凍結、石化符石時<br>⇒ 全隊攻擊力額外 3 倍<br>III. 同一回合內發動主動技能次數愈多<br>⇒ 全隊攻擊力額外提升愈多<br>⇒ 發動 3 次可達至最大 6 倍<br>IV. 同一回合發動 3 次主動技能時<br>⇒ 該回合全隊無視攻前盾<br>V. 首批消除自身直行所有符石<br>⇒ 其他成員技能 CD -1',
+        'description': `
+		I. 全隊攻擊力 6.5 倍、生命力及回復力 2 倍
+		II. 場上有風化、弱化、凍結、石化符石時
+		⇒ 全隊攻擊力額外 3 倍
+		III. 同一回合內發動主動技能次數愈多
+		⇒ 全隊攻擊力額外提升愈多
+		⇒ 發動 3 次可達至最大 6 倍
+		IV. 同一回合發動 3 次主動技能時
+		⇒ 該回合全隊無視攻前盾
+		V. 首批消除自身直行所有符石
+		⇒ 其他成員技能 CD -1
+		`,
         'tag': [
             {
                 'name': ['增攻', '增血', '增回'],

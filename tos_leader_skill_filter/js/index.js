@@ -711,7 +711,7 @@ function renderSkillInfo(monster) {
             <div class='skill_tooltip col-sm-12'><hr></div>
         </div>
         <div class='row'>
-            <div class='skill_tooltip skill_description col-sm-12'>${monster.description}</div>
+            <div class='skill_tooltip skill_description col-sm-12'>${descriptionTranslator(monster.description)}</div>
         </div>
     `
 }
@@ -732,5 +732,11 @@ function renderMonsterImage(monster, tooltip_content, monsterObj) {
                 <a href='${`https://tos.fandom.com/zh/wiki/${monster_obj.id}`}' target='_blank'>${paddingZeros(monster_obj.id, 3)}</a>
             </div>
         </div>
-    `;
+    `
+}
+
+function descriptionTranslator(description) {
+	return description
+		.replace(/\n[^\S\n]*/g, '<br>')
+		.replace(/^<br>/, '')
 }

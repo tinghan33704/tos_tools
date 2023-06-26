@@ -146,6 +146,16 @@ function selectSeal(index, event)
 	!playerData?.uid.length && $('#inventory-btn').click()
 	showSeal(name)
 }
+	
+function toggleTitleIcon(e, genreIndex) {
+	if($(`.genre-content-${genreIndex}`).hasClass('show')) {
+		$(`.collapse-close-${genreIndex}`).css({display: 'none'})
+		$(`.collapse-open-${genreIndex}`).css({display: 'inline'})
+	} else {
+		$(`.collapse-close-${genreIndex}`).css({display: 'inline'})
+		$(`.collapse-open-${genreIndex}`).css({display: 'none'})
+	}
+}
 
 function showSeal(name)
 {
@@ -170,7 +180,7 @@ function showSeal(name)
 	
 	const mustGetTitle = '五選一必能選中'
 	
-	Object.keys(sealData).forEach(genre => {
+	Object.keys(sealData).forEach((genre, genreIndex) => {
 		let cardData = sealData[genre]
 		
 		const mustGet = [...Array(5).keys()].map(i => i+1).includes(sealData[genre].filter(monster => {
@@ -235,17 +245,37 @@ function showSeal(name)
 		const cardNumHave = cardData.filter(monster => Array.isArray(monster) ? monster.some(id => playerData.card.includes(id)) : playerData.card.includes(monster)).length
 		const cardHaveRatioElement = `<div class="cardHaveRatio">${cardNumHave} / ${cardNum}</div>`
 		
+		const genreNameTitle = (genre === '境外探索') ? spCardStr : (isReverseMode && mustGet) ? mustGetTitle : (!isReverseMode && hasCard) ? allCardStr : ''
+		
+		const expandIcon = `
+			<div class='collapse-icon collapse-icon-${genreIndex}' data-toggle="collapse" data-target=".genre-content-${genreIndex}" aria-expanded="true" onclick='toggleTitleIcon(event, ${genreIndex})'>
+				<i class="fa fa-caret-up collapse-close collapse-close-${genreIndex}" style='display: inline;'></i>
+				<i class="fa fa-caret-down collapse-open collapse-open-${genreIndex}" style='display: none;'></i>
+			</div>
+		`
+		
 		if(cardData.length > 0 && (!isCompressMode || !hasCard)) {
-			cardStr += '<div class="col-12 col-sm-6"><div class="row genre-row">'
 			cardStr += `
-				<div class='col-12 genre-name${(isReverseMode && mustGet) ? ' genre-name-mustGet' : (!isReverseMode && hasCard) ? ' genre-name-allCollected' : ''}' ${(genre === '境外探索') ? `title=${spCardStr}` : (isReverseMode && mustGet) ? `title=${mustGetTitle}` : (!isReverseMode && hasCard) ? `title=${allCardStr}` : ''}> ${genreStr}${cardHaveRatioElement}</div>
-				${cardData.map(id => {
-					const sk_str = renderMonsterSeriesInfo(genre, Array.isArray(id) ? id : [id])
-					return renderMonsterSeriesImage(genre, Array.isArray(id) ? id : [id], sk_str)
-				}).join('')}
-				<div class='col-12'><hr /></div>
+				<div class="col-12 col-sm-6">
+					<div class="row genre-row">
+						<div class='col-12 genre-name${(isReverseMode && mustGet) ? ' genre-name-mustGet' : (!isReverseMode && hasCard) ? ' genre-name-allCollected' : ''}' title=${genreNameTitle}>
+							${expandIcon}
+							${genreStr}${cardHaveRatioElement}
+						</div>
+						<div class="col-12 genre-content-${genreIndex} show">
+							<div class="row">
+							${cardData.map(id => {
+								const sk_str = renderMonsterSeriesInfo(genre, Array.isArray(id) ? id : [id])
+								return renderMonsterSeriesImage(genre, Array.isArray(id) ? id : [id], sk_str)
+							}).join('')}
+							</div>
+						</div>
+						<div class='col-12'>
+							<hr />
+						</div>
+					</div>
+				</div>
 			`
-			cardStr += '</div></div>'
 		}
 	})
 	

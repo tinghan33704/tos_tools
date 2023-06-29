@@ -164,6 +164,7 @@ function startFilter()
                 });
                 const monster_attr = monster_obj?.attribute;
 				const monster_name = monster_obj?.name ?? '';
+				const error_path = `../tos_tool_data/img/monster/noname${monster_attr ? `_${attr_zh_to_en[monster_attr]}` : ''}.png`
                 
                 $.each(monster.nums, (num_index, skill_number) => {
                     let skill = monster_data.find((element) => {
@@ -176,7 +177,7 @@ function startFilter()
                             <tr class="monster_first_tr monster_tr_${attr_zh_to_en[monster_attr]}">
                                 <td class="td_monster_icon" rowspan=${monster.nums.length*2}>
                                     <a href="https://tos.fandom.com/zh/wiki/${monster.id}" target="_blank">
-                                        <img class="monster_img" src="../tos_tool_data/img/monster/${monster.id}.png" title="${monster_name}" onerror="this.src='../tos_tool_data/img/monster/noname_${attr_zh_to_en[monster_attr]}.png'"></img>
+                                        <img class="monster_img" src="../tos_tool_data/img/monster/${monster.id}.png" title="${monster_name}" onerror="this.src='${error_path}'"></img>
                                         <div class="monsterId">${paddingZeros(monster.id, 3)}</div>
                                     </a>
                                 </td>`;
@@ -220,9 +221,10 @@ function startFilter()
                         })
                         const monster_attr = monster_obj?.attribute;
 						const monster_name = monster_obj?.name ?? '';
+						const error_path = `../tos_tool_data/img/monster/noname${monster_attr ? `_${attr_zh_to_en[monster_attr]}` : ''}.png`
                         
                         str += `
-                                    <img class="relative_img" src="../tos_tool_data/img/monster/${relative_monster}.png" title="${monster_name}" onerror="this.src='../tos_tool_data/img/monster/noname${monster_attr ? `_${attr_zh_to_en[monster_attr]}` : ''}.png'">
+                                    <img class="relative_img" src="../tos_tool_data/img/monster/${relative_monster}.png" title="${monster_name}" onerror="this.src='${error_path}'">
                                     </img>
                         `;
                     })
@@ -289,10 +291,12 @@ function renderMonsterImage(monster) {
     const monster_attr = monster_data.find((element) => {
         return element.id == monster.id;
     }).attribute;
+	
+	const error_path = `../tos_tool_data/img/monster/noname${monster_attr ? `_${attr_zh_to_en[monster_attr]}` : ''}.png`
     
     return `
         <div class='col-3 col-md-2 col-lg-1 result'>
-            <img class='monster_img' src='../tos_tool_data/img/monster/${monster.id}.png' onerror='this.src="../tos_tool_data/img/monster/noname_${attr_zh_to_en[monster_attr]}.png"'></img>
+            <img class='monster_img' style='cursor: default;' src='../tos_tool_data/img/monster/${monster.id}.png' onerror='this.src="${error_path}"'></img>
             <div class='monsterId'>
                 <a href='https://tos.fandom.com/zh/wiki/${monster.id}' target='_blank'>${paddingZeros(monster.id, 3)}</a>
             </div>

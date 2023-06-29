@@ -164,9 +164,11 @@ function renderMonsterImage(monsterId, tooltip_content) {
 	
     const monster_attr = monster_obj?.attribute
 	
+	const error_path = `../tos_tool_data/img/monster/noname${monster_attr ? `_${attr_zh_to_en[monster_attr]}` : ''}.png`
+	
     return `
         <div class='col-3 col-md-2 col-lg-1 result'>
-            <img class='monster_img' src='../tos_tool_data/img/monster/${monsterId}.png' onerror='this.src="../tos_tool_data/img/monster/noname_${attr_zh_to_en[monster_attr]}.png"' style='cursor: default;'></img>
+            <img class='monster_img' src='../tos_tool_data/img/monster/${monsterId}.png' onerror='this.src="${error_path}"' style='cursor: default;'></img>
             <div class='monsterId'>
                 <a href='https://tos.fandom.com/zh/wiki/${monsterId}' target='_blank'>${paddingZeros(monsterId, 3)}</a>
             </div>

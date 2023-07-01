@@ -910,9 +910,8 @@ function renderAllSkillInfo(monster) {
 }
 
 function renderSkillInfo(monster, skill_number, monsterObj) {
-	
 	function renderMonsterImage(monsterObj) {
-		const error_path = `../tos_tool_data/img/monster/noname_${attr_zh_to_en[monsterObj.attribute]}.png`
+		const error_path = `../tos_tool_data/img/monster/noname${monsterObj?.attribute?.length ? `_${attr_zh_to_en[monsterObj.attribute]}` : ''}.png`
 		return `<img src='../tos_tool_data/img/monster/${monsterObj.id}.png' onerror='this.src=&quot;${error_path}&quot;' title='${monsterObj.name}'\>`;
 	}
 	
@@ -1139,7 +1138,7 @@ function renderMonsterImage(monster, tooltip_content, monsterObj, eggLink = fals
 	const cilantroAngry = monster.id === 2835 && searchResult?.find(monster => monster.id === 2023) && !searchResult?.find(monster => monster.id === 2149) && !searchResult?.find(monster => monster.id === 2335)
 	
 	const src_path = digimonChouShinka ? `../tos_tool_data/img/monster/${monster_obj.id}_sp2.png` : digimonShinka ? `../tos_tool_data/img/monster/${monster_obj.id}_sp1.png` : anyaSmile ? `../tos_tool_data/img/monster/${monster_obj.id}_sp.png` : sashaEat ? `../tos_tool_data/img/monster/empty_${attr_zh_to_en[monster_obj.attribute]}.png` : cilantroAngry ? `../tos_tool_data/img/monster/${monster_obj.id}_sp.png` : `../tos_tool_data/img/monster/${hasImageChange ? hasImageChange[0] : monster_obj.id}.png`
-	const error_path = `../tos_tool_data/img/monster/noname_${attr_zh_to_en[monster_attr]}.png`
+	const error_path = `../tos_tool_data/img/monster/noname${monster_attr?.length ? `_${attr_zh_to_en[monster_attr]}` : ''}.png`
 	const focus_path = hasImageChange ? `../tos_tool_data/img/monster/${hasImageChange[1]}.png` : hasSpecialImage ? `../tos_tool_data/img/monster/${monster_obj.id}_sp.png` : src_path
 	const blur_path = hasImageChange ? `../tos_tool_data/img/monster/${hasImageChange[0]}.png` : src_path
 	

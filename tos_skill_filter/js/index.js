@@ -871,7 +871,7 @@ function renderResult() {
 		sanitize: false,
 		trigger: 'focus',
 		placement: 'bottom',
-    });
+    })
     
 	$("#uid-tag").text(`UID: ${playerData.uid}`)
 }
@@ -889,7 +889,7 @@ function renderMonsterInfo(monster, monsterObj) {
 			<div class='col-6 col-sm-1 monster_race'>
 				<img src='${monster.id === 10444 ? `../tos_tool_data/img/other/icon_yao.png` : `../tos_tool_data/img/monster/icon_${race_zh_to_en[monster_info.race]}.png`}' width='25px'/>
 			</div>
-			<div class='skill_tooltip monster_name monster_name_${attr_zh_to_en[monster_info.attribute]} col-10 col-sm-10 mb-1'>${monster_info.name}</div>
+			<div class='skill_tooltip monster_name monster_name_${attr_zh_to_en[monster_info.attribute]} col-12 col-sm-10'>${monster_info.name}</div>
 			<hr>
 		</div>
 	`
@@ -923,28 +923,28 @@ function renderSkillInfo(monster, skill_number, monsterObj) {
     
     let sk_str = '';
     
-    sk_str += `<div class='row'>`;
+    sk_str += `<div class='row monster-skill-name'>`;
     
     switch(skill.type) {
         case 'normal':
-            sk_str += `<div class='skill_tooltip skill_name col-9 col-sm-9 mb-1'>`;
+            sk_str += `<div class='skill_tooltip skill_name col-9 col-sm-9'>`;
         break;
         case 'refine':
-            sk_str += `<div class='skill_tooltip skill_name_refine col-9 col-sm-9 mb-1'><img src='../tos_tool_data/img/monster/refine_${skill.refine}.png' />&nbsp;`;
+            sk_str += `<div class='skill_tooltip skill_name_refine col-9 col-sm-9'><img src='../tos_tool_data/img/monster/refine_${skill.refine}.png' />&nbsp;`;
         break;
         case 'recall':
-            sk_str += `<div class='skill_tooltip skill_name_recall col-9 col-sm-9 mb-1'><img src='../tos_tool_data/img/monster/recall.png' />&nbsp;`;
+            sk_str += `<div class='skill_tooltip skill_name_recall col-9 col-sm-9'><img src='../tos_tool_data/img/monster/recall.png' />&nbsp;`;
         break;
         case 'combine':
-            sk_str += `<div class='skill_tooltip skill_name_combine col-9 col-sm-9 mb-1'><img src='../tos_tool_data/img/monster/combine.png' />&nbsp;`;
+            sk_str += `<div class='skill_tooltip skill_name_combine col-9 col-sm-9'><img src='../tos_tool_data/img/monster/combine.png' />&nbsp;`;
         break;
         default:
-            sk_str += `<div class='skill_tooltip skill_name col-9 col-sm-9 mb-1'>`;
+            sk_str += `<div class='skill_tooltip skill_name col-9 col-sm-9'>`;
     }
     sk_str += `${skill.name}</div>`
     
     let cd_str = 'reduce' in skill ? skill.num+" → "+(skill.num-skill.reduce) : skill.num <= 0 ? '-' : skill.num
-    sk_str += `<div class='skill_tooltip skill_charge col-3 col-sm-3 mb-1'>${skill.charge}&nbsp;${cd_str}</div>`
+    sk_str += `<div class='skill_tooltip skill_charge col-3 col-sm-3'>${skill.charge}&nbsp;${cd_str}</div>`
     
     sk_str += `</div>`;
     

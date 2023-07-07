@@ -692,7 +692,7 @@ function renderMonsterInfo(monster, monsterObj) {
 			<div class='col-6 col-sm-1 monster_race'>
 				<img src='../tos_tool_data/img/monster/icon_${race_zh_to_en[monster_info.race]}.png' width='25px'/>
 			</div>
-			<div class='skill_tooltip monster_name monster_name_${attr_zh_to_en[monster_info.attribute]} col-10 col-sm-10 mb-1'>${monster_info.name}</div>
+			<div class='skill_tooltip monster_name monster_name_${attr_zh_to_en[monster_info.attribute]} col-12 col-sm-10 '>${monster_info.name}</div>
 			<hr>
 		</div>
 	`
@@ -702,9 +702,9 @@ function renderMonsterInfo(monster, monsterObj) {
 
 function renderSkillInfo(monster) {
     return `
-		<div class='row'>
+		<div class='row monster-skill-name'>
 			${
-				monster?.changedSkill ? `<div class='skill_tooltip skill_name_combine col-12 col-sm-12 mb-1'><img src='../tos_tool_data/img/monster/combine.png' />&nbsp;${monster.name}</div>` : `<div class='skill_tooltip skill_name col-12 col-sm-12 mb-1'>${monster.name}</div>`
+				monster?.changedSkill ? `<div class='skill_tooltip skill_name_combine col-12 col-sm-12 '><img src='../tos_tool_data/img/monster/combine.png' />&nbsp;${monster.name}</div>` : `<div class='skill_tooltip skill_name col-12 col-sm-12 '>${monster.name}</div>`
 			}
 		</div>
         <div class='row'>

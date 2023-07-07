@@ -76,6 +76,11 @@
 	top: 3px;
 }
 
+.card-row {
+	height: auto;
+	align-items: start;
+}
+
 .genre-row {
 	padding: 0 10px;
 }

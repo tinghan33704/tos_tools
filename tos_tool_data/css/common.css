@@ -167,6 +167,12 @@ body {
 label {
 	margin: 0.25em 0;
 }
+.row {
+    height: 100%;
+    align-items: center;
+}
+
+
 .filter[type=checkbox] {
     display: none;
 }
@@ -208,6 +214,21 @@ label {
     font-size: 1.44em;
     color: #d6d6d6;
     text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+
+.navinfo {
+	height: 100%;
+}
+
+.navinfo i {
+	font-size: 20px;
+}
+
+#navicon {
+	height: 36px;
+	margin-right: 10px;
 }
 .filter {
     width: 80%;
@@ -256,6 +277,9 @@ select {
 		padding: 0.25rem 0.5rem;
 	}
 }
+.functional-row {
+	margin-top: 10px;
+}
 .filter-btn, .attr-btn, .race-btn, .star-btn, .charge-btn, .activate-btn, .keyword-btn, .mode-btn, .tag-btn, .extra-tag-btn, .genre-btn, .version-tag-btn, .option-btn, .copy-btn {
     font-size: 1.2em;
     font-weight: normal;
@@ -268,7 +292,7 @@ select {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	    display: flex;
+	display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -501,24 +525,35 @@ select {
 }
 .skill_tooltip {
     font-family: Microsoft JhengHei;
-    margin: auto;
 }
 .monster-info-header {
 	background-color: var(--tooltip_color);
 	position: sticky;
+	display: flex;
+    align-items: center;
 	top: 0;
-	padding-top: 0.5rem;
+	padding: 0.5rem;
+	padding-bottom: 0;
 	z-index: 99;
 }
 .monster_attr {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
     text-align: right;
 	padding: 0 3px;
 }
 .monster_race {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     text-align: left;
 	padding: 0 3px;
 }
 .monster_name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 1em;
     font-weight: bold;
     text-align: center;
@@ -539,31 +574,45 @@ select {
 .monster_name_d {
     color: var(--text_monster_name_dark_color);
 }
+.monster-skill-name {
+	display: flex;
+    align-items: center;
+}
 .skill_name {
+	display: flex;
+    align-items: center;
     color: var(--text_name_tooltip_color);
     font-weight: bold;
     text-align: left;
     white-space: pre-wrap;
 }
 .skill_name_refine {
+	display: flex;
+    align-items: center;
     color: var(--text_refine_tooltip_color);
     font-weight: bold;
     text-align: left;
     white-space: pre-wrap;
 }
 .skill_name_recall {
+	display: flex;
+    align-items: center;
     color: var(--text_recall_tooltip_color);
     font-weight: bold;
     text-align: left;
     white-space: pre-wrap;
 }
 .skill_name_combine {
+	display: flex;
+    align-items: center;
     color: var(--text_name_tooltip_color);
     font-weight: bold;
     text-align: left;
     white-space: pre-wrap;
 }
 .skill_combine, .skill_transform {
+	display: flex;
+    align-items: center;
     color: var(--text_name_tooltip_color);
     font-weight: bold;
     min-width: 300px;
@@ -573,15 +622,32 @@ select {
     width: 100%;
 }
 .skill_charge {
+	display: flex;
+    align-items: center;
+    justify-content: flex-end;
     color: var(--text_charge_tooltip_color);
     font-size: 0.8em;
     font-weight: bold;
     text-align: center;
     white-space: nowrap;
 }
+.skill_name_refine img, .skill_name_recall img {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+}
 .skill_combine img, .skill_transform img {
+	display: flex;
+    align-items: center;
+    justify-content: center;
     width: 50px;
     height: 50px;
+	margin: 0 5px;
+}
+.skill_combine img:first-child, .skill_transform img:first-child {
+	margin-left: 0;
 }
 .fixed_board_label, .desc_note_label {
 	color: var(--text_board_label_color);
@@ -813,6 +879,9 @@ select {
 
 
 .toggle-navbar {
+	display: flex;
+	align-items: center;
+	height: 100%;
     cursor: pointer;
 }
 

@@ -189,8 +189,6 @@ label {
     -webkit-box-shadow: inset 0 0 6px rgba(90, 90, 90, 0.7);
 }
 
-
-
 .filter[type=checkbox] {
     display: none;
 }
@@ -1003,4 +1001,19 @@ img[class^="monster_img"][src$="10296.png"]:focus {
 		transform: translate(20px, 20px);
 		opacity: 0;
 	}
+}
+
+/* Starburst easter egg */
+
+.star-burst-popover::before {
+	content: "　";
+    position: absolute;
+    display: block;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+    top: 0;
+    z-index: 0;
+    background-image: url(../../tos_tool_data/img/other/starburst.gif);
+    opacity: 0.25;
 }

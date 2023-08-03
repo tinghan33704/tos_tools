@@ -872,6 +872,17 @@ function renderResult() {
 		trigger: 'focus',
 		placement: 'bottom',
     })
+	
+	// Starburst easter egg :)
+	
+    $('[data-toggle=star-burst-popover]').popover({
+		container: 'body',
+		html: true,
+		sanitize: false,
+		trigger: 'focus',
+		placement: 'bottom',
+		template: '<div class="popover star-burst-popover" role="tooltip"><div class="arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div></div>'
+    })
     
 	$("#uid-tag").text(`UID: ${playerData.uid}`)
 }
@@ -887,7 +898,7 @@ function renderMonsterInfo(monster, monsterObj) {
 				<img src='../tos_tool_data/img/monster/icon_${attr_zh_to_en[monster_info.attribute]}.png' width='25px'/>
 			</div>
 			<div class='col-6 col-sm-1 monster_race'>
-				<img src='${monster.id === 10444 ? `../tos_tool_data/img/other/icon_yao.png` : `../tos_tool_data/img/monster/icon_${race_zh_to_en[monster_info.race]}.png`}' width='25px'/>
+				<img src='${monster.id === 10444 ? `../tos_tool_data/img/other/icon_yao.png` : monster.id === 10495 ? `../tos_tool_data/img/other/icon_kirito.png` : `../tos_tool_data/img/monster/icon_${race_zh_to_en[monster_info.race]}.png`}' width='25px'/>
 			</div>
 			<div class='skill_tooltip monster_name monster_name_${attr_zh_to_en[monster_info.attribute]} col-12 col-sm-10'>${monster_info.name}</div>
 			<hr>
@@ -1136,6 +1147,8 @@ function renderMonsterImage(monster, tooltip_content, monsterObj, eggLink = fals
 	const reinerSitDown = monster.id === 10400 && searchResult?.find(monster => monster.id === 10383 || monster.id === 10384)
 	const sashaEat = [1873, 1874, 1875, 1876, 1877, 2251, 2252, 2253, 2254, 2255, 10308, 10422, 10449].includes(monster.id) && searchResult?.find(monster => monster.id === 10385)
 	const cilantroAngry = monster.id === 2835 && searchResult?.find(monster => monster.id === 2023) && !searchResult?.find(monster => monster.id === 2149) && !searchResult?.find(monster => monster.id === 2335)
+	const starburstBackground = monster.id === 10495 ? 'star-burst-popover' : 'popover'
+	const congratClickListener = monster.id === 10495 ? `'congratCounter()'` : 'null'
 	
 	const src_path = digimonChouShinka ? `../tos_tool_data/img/monster/${monster_obj.id}_sp2.png` : digimonShinka ? `../tos_tool_data/img/monster/${monster_obj.id}_sp1.png` : anyaSmile ? `../tos_tool_data/img/monster/${monster_obj.id}_sp.png` : sashaEat ? `../tos_tool_data/img/monster/empty_${attr_zh_to_en[monster_obj.attribute]}.png` : cilantroAngry ? `../tos_tool_data/img/monster/${monster_obj.id}_sp.png` : `../tos_tool_data/img/monster/${hasImageChange ? hasImageChange[0] : monster_obj.id}.png`
 	const error_path = `../tos_tool_data/img/monster/noname${monster_attr?.length ? `_${attr_zh_to_en[monster_attr]}` : ''}.png`
@@ -1147,7 +1160,7 @@ function renderMonsterImage(monster, tooltip_content, monsterObj, eggLink = fals
 	
     return `
         <div class='col-3 col-md-2 col-lg-1 result'>
-            <img class='monster_img${notInInventory ? '_gray' : ''}' src='${src_path}' onerror='this.src="${error_path}"' onfocus='this.src="${focus_path}"' onblur='this.src="${blur_path}"' tabindex=${monster_obj.id.toString().replace('?', '')} data-toggle='popover' data-title='' data-content="${tooltip_content}" style='${fixedImgStyle}'></img>
+            <img class='monster_img${notInInventory ? '_gray' : ''}' src='${src_path}' onerror='this.src="${error_path}"' onfocus='this.src="${focus_path}"' onblur='this.src="${blur_path}"' onclick=${congratClickListener} tabindex=${monster_obj.id.toString().replace('?', '')} data-toggle='${starburstBackground}' data-title='' data-content="${tooltip_content}" style='${fixedImgStyle}'></img>
 			${isCombineSkill ? `<img class='monster_img_combine_icon${notInInventory ? '_gray' : ''}' src="../tos_tool_data/img/monster/combine.png" />` : ``}
 			<!-- special image preload -->
 			<img class='monster_img${notInInventory ? '_gray' : ''}' style="display: none;" src=${hasSpecialImage ? `../tos_tool_data/img/monster/${monster_obj.id}_sp.png` : ''}>
@@ -1156,7 +1169,7 @@ function renderMonsterImage(monster, tooltip_content, monsterObj, eggLink = fals
                 <a href='${eggLink ? `https://home.gamer.com.tw/homeindex.php?owner=tinghan33704` : `https://tos.fandom.com/zh/wiki/${monster_obj.id}`}' target='_blank'>${paddingZeros(monster_obj.id, 3)}</a>
             </div>
         </div>
-    `;
+    `
 }
 
 function sortByChange()
@@ -1183,5 +1196,69 @@ function chinarashiShake() {
 			setTimeout(() => toggleClass(), 500);
 		}
 	);
+	
+}
+
+// Congratulations easter egg :)
+
+let congratCount = 0;
+let congratLock = false;
+let congratTimer;
+
+function congratCounter() {
+	if(congratLock) return
+
+	congratCount ++
+	if(congratCount === 1) {
+		startCongratTimer()
+	} else if(congratCount >= 16) {
+		showCongrat()
+		congratLock = true
+	}
+}
+
+function startCongratTimer() {
+	congratTimer = setTimeout(checkComboCount, 10 * 1000)
+}
+
+function checkComboCount() {
+	clearTimeout(congratTimer)
+	if(congratCount < 16) {
+		congratCount = 0
+	}
+}
+
+function showCongrat() {
+	clearTimeout(congratTimer)
+	
+	$('body').append(
+	`
+		<div class="congratBackground" style="position: fixed; top: 0; width: ${$(window).width()}px; height: ${$(window).height()}px; background-color: rgba(0, 0, 0, 0.75); opacity: 0; z-index: 100000;">
+			<img class="congratImage" src='../tos_tool_data/img/other/congrat.png' style="position: absolute; width: 50%; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0; z-index: 100000; -webkit-user-select: none; -ms-user-select: none; user-select: none;" />
+		</div>
+	`)
+	
+	let fadeTime = 50;
+	for(let i = 1; i <= fadeTime; i++) {
+		setTimeout(function() {
+			$('.congratBackground').css({'opacity': 1 / fadeTime * i})
+		}, i * 10)
+	}
+	for(let i = 1; i <= fadeTime; i++) {
+		setTimeout(function() {
+			$('.congratImage').css({'opacity': 1 / fadeTime * i})
+		}, 1000 + i * 10)
+	}
+	for(let i = 1; i <= fadeTime; i++) {
+		setTimeout(function() {
+			$('.congratBackground').css({'opacity': 1 - 1 / fadeTime * i})
+			$('.congratImage').css({'opacity': 1 - 1 / fadeTime * i})
+		}, 6000 + i * 10)
+	}
+	setTimeout(function() {
+		congratLock = false
+		congratCount = 0
+		$('.congratBackground').remove()
+	}, 6500)
 	
 }

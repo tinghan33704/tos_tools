@@ -201,9 +201,19 @@ function init() {
 	const glass_break_img = new Image()
     glass_break_img.src = '../tos_tool_data/img/other/glass_break.png'
 	
-	// preload yao icon image
-	const yao_icon_img = new Image()
-    yao_icon_img.src = '../tos_tool_data/img/other/icon_yao.png'
+	if(tool_id === 'active_skill') {
+		// preload yao icon image
+		const yao_icon_img = new Image()
+		yao_icon_img.src = '../tos_tool_data/img/other/icon_yao.png'
+		
+		// preload kirito icon image
+		const kirito_icon_img = new Image()
+		kirito_icon_img.src = '../tos_tool_data/img/other/icon_kirito.png'
+		
+		// preload starburst gif
+		const starburst_gif = new Image()
+		starburst_gif.src = '../tos_tool_data/img/other/starburst.gif'
+	}
 }
 
 function setNotification() {

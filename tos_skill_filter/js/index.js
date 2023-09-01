@@ -12,6 +12,7 @@ let searchResult = [];
 let searchResultCharge = [];
 let playerData = {uid: '', card: []}
 let useInventory = false;
+let resultCompressed = false;
 
 let easterEggFlag = false;
 
@@ -45,6 +46,10 @@ const easterEggData = {
 
 $(document).ready(function() {
     init();
+    
+    $("#compress-btn").length && $('#compress-btn').click(() => { 
+        compressResult()
+    })
 	
     location.search && readUrl();
 });
@@ -722,7 +727,8 @@ function renderResult() {
             if(searchResult.length != 0)
             {
                 $.each(attr_obj, (attr_index, attr) => {
-                    str += `
+					
+					let attr_str = `
                         <div class='col-sm-12'><hr class='charge_num_hr'></div>
                         <div class='col-sm-12 charge_num_div' style='color: ${attr_color[attr_index]};'>
                             <img src='../tos_tool_data/img/monster/icon_${attr_zh_to_en[attr_index]}.png' style='max-width: 30px;'\>
@@ -739,12 +745,14 @@ function renderResult() {
 							sk_str += renderAllSkillInfo(monster);
 							
 							// for combine skill, create a new row
-							if(monster_index !== 0  && !('type' in attr[monster_index-1]) && monster?.type === 'combine') str += '<hr class="result_combine_hr">'
+							if(monster_index !== 0  && !('type' in attr[monster_index-1]) && monster?.type === 'combine') attr_str += '<hr class="result_combine_hr">'
                             
-                            str += renderMonsterImage(monster, sk_str);
+                            attr_str += renderMonsterImage(monster, sk_str);
                         });
                     }
-                    else str += `<div class='col-12' style='padding-top: 20px; text-align: center; color: #888888;'><h2>查無結果</h2></div>`;
+                    else attr_str += `<div class='col-12' style='padding-top: 20px; text-align: center; color: #888888;'><h2>查無結果</h2></div>`;
+					
+					if(attr.length != 0 || !resultCompressed) str += attr_str
                 });
             }
             else
@@ -769,7 +777,7 @@ function renderResult() {
             if(searchResult.length != 0)
             {
                 $.each(race_obj, (race_index, race) => {
-                    str += `
+					let race_str = `
                         <div class='col-sm-12'><hr class='charge_num_hr'></div>
                         <div class='col-sm-12 charge_num_div'>
                             <img src='../tos_tool_data/img/monster/icon_${race_zh_to_en[race_index]}.png' style='max-width: 30px;'\>
@@ -786,12 +794,14 @@ function renderResult() {
 							sk_str += renderAllSkillInfo(monster);
 							
 							// for combine skill, create a new row
-							if(monster_index !== 0  && !('type' in race[monster_index-1]) && monster?.type === 'combine') str += '<hr class="result_combine_hr">'
+							if(monster_index !== 0  && !('type' in race[monster_index-1]) && monster?.type === 'combine') race_str += '<hr class="result_combine_hr">'
                             
-                            str += renderMonsterImage(monster, sk_str);
+                            race_str += renderMonsterImage(monster, sk_str);
                         });
                     }
-                    else str += `<div class='col-12' style='padding-top: 20px; text-align: center; color: #888888;'><h2>查無結果</h2></div>`;
+                    else race_str += `<div class='col-12' style='padding-top: 20px; text-align: center; color: #888888;'><h2>查無結果</h2></div>`;
+					
+					if(race.length != 0 || !resultCompressed) str += race_str
                 });
             }
             else
@@ -833,7 +843,7 @@ function renderResult() {
             if(searchResult.length != 0)
             {
                 $.each(skill_obj, (skill_index, skill) => {
-                    str += `
+                    let skill_str = `
                         <div class='col-sm-12'><hr class='charge_num_hr'></div>
                         <div class='col-sm-12 charge_num_div'>
                             ${skill_index}
@@ -849,12 +859,14 @@ function renderResult() {
 							sk_str += renderAllSkillInfo(monster);
 					
 							// for combine skill, create a new row
-							if(monster_index !== 0  && !('type' in skill[monster_index-1]) && monster?.type === 'combine') str += '<hr class="result_combine_hr">'
+							if(monster_index !== 0  && !('type' in skill[monster_index-1]) && monster?.type === 'combine') skill_str += '<hr class="result_combine_hr">'
                             
-                            str += renderMonsterImage(monster, sk_str);
+                            skill_str += renderMonsterImage(monster, sk_str);
                         });
                     }
-                    else str += `<div class='col-12' style='padding-top: 20px; text-align: center; color: #888888;'><h2>查無結果</h2></div>`;
+                    else if(!resultCompressed) skill_str += `<div class='col-12' style='padding-top: 20px; text-align: center; color: #888888;'><h2>查無結果</h2></div>`;
+					
+					if(skill.length != 0 || !resultCompressed) str += skill_str
                 });
             }
             else
@@ -1182,6 +1194,15 @@ function sortByChange()
 	renderResult()
 	
     jumpTo("result_title");
+}
+
+function compressResult() {
+	resultCompressed = !resultCompressed
+	
+	resultCompressed && $("#compress-btn").html('<i class="fa fa-compress"></i>').addClass('resultCompressed-activate')
+	!resultCompressed && $("#compress-btn").html('<i class="fa fa-expand"></i>').removeClass('resultCompressed-activate')
+	
+	renderResult()
 }
 
 function chinarashiShake() {

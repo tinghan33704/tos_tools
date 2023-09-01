@@ -831,7 +831,7 @@ select {
 
 /* ---------------- */
 
-.inventory, .option, .changeTheme, .inputData, .reverseMode, .compressMode, .crossOver, .toTop, .toBottom {
+.inventory, .option, .changeTheme, .compressResult, .inputData, .reverseMode, .compressMode, .crossOver, .toTop, .toBottom {
 	width: 3rem;
     height: 3rem;
     padding: 0;
@@ -846,10 +846,10 @@ select {
     font-size: 1.8rem;
     z-index: 1;
 }
-.inventory:focus, .option:focus, .changeTheme:focus, .inputData:focus, .reverseMode:focus, .compressMode:focus, .crossOver:focus, .toTop:focus, .toBottom:focus {
+.inventory:focus, .option:focus, .changeTheme:focus, .compressResult:focus, .inputData:focus, .reverseMode:focus, .compressMode:focus, .crossOver:focus, .toTop:focus, .toBottom:focus {
     outline: none;
 }
-.inventory, .option, .changeTheme, .inputData, .reverseMode, .compressMode, .crossOver {
+.inventory, .option, .changeTheme, .compressResult, .inputData, .reverseMode, .compressMode, .crossOver {
     left: 1rem;
     display: inline-block;
 }
@@ -858,6 +858,13 @@ select {
 }
 .inventory {
     bottom: 9rem;
+}
+.compressResult {
+    bottom: 13rem;
+}
+.resultCompressed-activate {
+	background-color: rgb(200, 200, 200);
+	color: gray;
 }
 .option, .inputData {
     bottom: 5rem;

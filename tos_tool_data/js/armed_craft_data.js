@@ -1,4 +1,4 @@
-// Last modified : 2023.08.31 21:08
+// Last modified : 2023.09.01 19:54
 
 const armed_craft_data = [
     {
@@ -25473,8 +25473,8 @@ const armed_craft_data = [
         'star': 2,
         'charge': '消除符石',
         'add_hp': 0,
-        'add_atk': 0,
-        'add_rec': 0,
+        'add_atk': 10,
+        'add_rec': 5,
         'skill_description': ['1 回合內，魔族成員的攻擊力提升 20%', '隊長及戰友的技能 CD 減少 2'],
         'skill_tag': [],
         'armed_description': ['同時消除暗及火符石，自身攻擊力 1.8 倍', '消除魔族符石時，自身攻擊力 1.2 倍'],

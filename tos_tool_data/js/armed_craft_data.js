@@ -1,4 +1,4 @@
-// Last modified : 2023.09.01 19:54
+// Last modified : 2023.09.08 02:14
 
 const armed_craft_data = [
     {
@@ -25478,6 +25478,22 @@ const armed_craft_data = [
         'skill_description': ['1 回合內，魔族成員的攻擊力提升 20%', '隊長及戰友的技能 CD 減少 2'],
         'skill_tag': [],
         'armed_description': ['同時消除暗及火符石，自身攻擊力 1.8 倍', '消除魔族符石時，自身攻擊力 1.2 倍'],
+        'armed_tag': [],
+    },
+    {
+        'id': 7287,
+        'name': '【7287】歡悚木斧龍丸',
+        'mode': '破碎龍咒',
+        'attribute': '暗',
+        'race': '魔族',
+        'star': 3,
+        'charge': '消除符石',
+        'add_hp': 10,
+        'add_atk': 10,
+        'add_rec': 10,
+        'skill_description': ['對全體敵人造成 50000000 點無屬性傷害，此傷害無視防禦力', '對全體敵人造成 100000000 點無屬性傷害，此傷害無視防禦力', '對全體敵人造成 500000000 點無屬性傷害，此傷害無視防禦力'],
+        'skill_tag': [],
+        'armed_description': ['進入關卡後，自身主動技能 CD 減少 1', '進入關卡後，自身主動技能 CD 減少 2', '此召喚獸發動技能的回合，自身攻擊力 1.5 倍'],
         'armed_tag': [],
     },
     {

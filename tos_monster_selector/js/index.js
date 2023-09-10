@@ -189,7 +189,7 @@ function craftString() {
 	
 	$(".result-panel").removeClass('result-panel-copied')
 	$("#note-row").html('<i class="fa fa-lightbulb-o"></i>&nbsp;點擊區塊可直接複製完整字串')
-	$("#result-panel").html([...combinedSet].join(' '))
+	$("#result-panel").html([...combinedSet].map(id => id.toString().padStart(4, "0")).join(' '))
 	$(".result-row").css({'display': 'block'})
     jumpTo("result_title")
 }

@@ -1,4 +1,4 @@
-// Last modified : 2023.09.08 02:14
+// Last modified : 2023.09.11 16:31
 
 const armed_craft_data = [
     {
@@ -25483,7 +25483,7 @@ const armed_craft_data = [
     {
         'id': 7287,
         'name': '【7287】歡悚木斧龍丸',
-        'mode': '破碎龍咒',
+        'mode': '鏡像龍丸',
         'attribute': '暗',
         'race': '魔族',
         'star': 3,

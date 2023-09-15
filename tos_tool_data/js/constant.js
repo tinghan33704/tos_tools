@@ -1020,7 +1020,7 @@ const input_maxlength = 50;
 const uid_maxlength = 11;
 const veri_maxlength = 6;
 
-const active_skill_notification = ''
+const active_skill_notification = '如果你是為了那<span style="font-size: 6px;">天殺的</span>三火十字盾而想搜尋加三排技能的話，請找<span style="color: red; font-weight: bold;">增加符石</span>功能'
 const team_skill_notification = ''
 const leader_skill_notification = ''
 const craft_notification = ''

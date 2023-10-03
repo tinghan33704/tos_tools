@@ -280,7 +280,7 @@ function createFilterButtonRow(name, data, postAppend = '') {
                 
 				str += 
                 `<div class='col-6 col-md-4 col-lg-2 btn-shell' title='${item}${postAppend}'>
-                    <input type='checkbox' class='filter' id='${name}-${index}'>
+                    <input type='checkbox' class='filter' id='${name}-${index}' />
                     <label class='p-1 w-100 text-center ${name}-btn' for='${name}-${index}'>${iconImg}${item}${postAppend}</label>
                 </div>`;
             })
@@ -291,7 +291,7 @@ function createFilterButtonRow(name, data, postAppend = '') {
                 $.each(group, (index, item) => {
                     str += 
                     `<div class='col-6 col-md-4 col-lg-2 btn-shell' title='${item}${postAppend}'>
-                        <input type='checkbox' class='filter' id='${name}-${index_group}-${index}'>
+                        <input type='checkbox' class='filter' id='${name}-${index_group}-${index}' />
                         <label class='p-1 w-100 text-center ${name}-btn' for='${name}-${index_group}-${index}'>${item}${postAppend}</label>
                     </div>`;
                 })
@@ -599,12 +599,13 @@ function changeUrl()
     let race_str = isTypeSelected(".race-row") ? `race=${encode(".race-row")}&` : ''
     let star_str = isTypeSelected(".star-row") ? `star=${encode(".star-row")}&` : ''
     let charge_str = isTypeSelected(".charge-row") ? `chrg=${encode(".charge-row")}&` : ''
+    let genre_str = isTypeSelected(".genre-row") ? `gnr=${encode(".genre-row")}&` : ''
     let tag_str = isTypeSelected(".tag-row") ? `tag=${encode(".tag-row")}&` : ''
     let mode_str = isTypeSelected(".mode-row") ? `mode=${encode(".mode-row")}&` : ''
     let actv_str = isTypeSelected(".activate-row") ? `actv=${encode(".activate-row")}&` : ''
     let or_str = `or=${or_filter_value.indexOf(or_filter)}&`
 	
-	let queryStr = `${search_str}${keyword_str}${attr_str}${race_str}${star_str}${charge_str}${or_str}${tag_str}${mode_str}${actv_str}`
+	let queryStr = `${search_str}${keyword_str}${attr_str}${race_str}${star_str}${charge_str}${genre_str}${or_str}${tag_str}${mode_str}${actv_str}`
 	queryStr = 	queryStr.length > 0 ? 
 					queryStr.endsWith('&') ? 
 						`?${queryStr.slice(0, -1)}` :
@@ -629,6 +630,7 @@ function readUrl()
 	'race' in inputQuery && setButtonFromUrl(".race-row", decode(inputQuery['race']), clearFilterButtonRow('race'));
 	'star' in inputQuery && setButtonFromUrl(".star-row", decode(inputQuery['star']), clearFilterButtonRow('star'));
 	'chrg' in inputQuery && setButtonFromUrl(".charge-row", decode(inputQuery['chrg']), clearFilterButtonRow('charge'));
+	'gnr' in inputQuery && setButtonFromUrl(".genre-row", decode(inputQuery['gnr']), clearFilterButtonRow('genre'));
 	'tag' in inputQuery && setButtonFromUrl(".tag-row", decode(inputQuery['tag']), clearFilterButtonRow('tag'));
 	'actv' in inputQuery && setButtonFromUrl(".activate-row", decode(inputQuery['actv']), clearFilterButtonRow('activate'));
 	'mode' in inputQuery && setButtonFromUrl(".mode-row", decode(inputQuery['mode']), clearFilterButtonRow('mode'));

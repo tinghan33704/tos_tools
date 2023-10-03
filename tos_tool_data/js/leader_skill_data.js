@@ -1,4 +1,4 @@
-// Last modified : 2023.10.01 02:01
+// Last modified : 2023.10.02 20:08
 
 const leader_skill_data = [
     {
@@ -18296,7 +18296,7 @@ const leader_skill_data = [
                 'limit': []
             }
 		],
-        'monster': [2195, 2198]
+        'monster': [2195, 2198, 10529]
     },
     {
         'name': '引擎動力 ‧ 水之靈',

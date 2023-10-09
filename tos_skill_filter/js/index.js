@@ -1076,10 +1076,10 @@ function showFixedBoard(id, subid) {
 	const board_id = subid ? subid-1 : 0
 	const board_data = $.isPlainObject(monster_obj.board[board_id]) ? monster_obj.board[board_id].board : monster_obj.board[board_id]
 	
-	renderFixedBoard(board_data, monster_obj.board[board_id]?.row, monster_obj.board[board_id]?.column)
+	renderFixedBoard(board_data, monster_obj.board[board_id]?.row, monster_obj.board[board_id]?.column, monster_obj.board[board_id]?.note)
 }
 
-function renderFixedBoard(data, row, column) {
+function renderFixedBoard(data, row, column, note) {
 	let board = ''
 	const rowCount = row ?? 5
 	const columnCount = column ?? 6
@@ -1089,7 +1089,7 @@ function renderFixedBoard(data, row, column) {
 			const isNone = data[row * columnCount + col][0] === '-'
 			const runeType = data[row * columnCount + col][0]
 			const raceMark = data[row * columnCount + col][1]
-			const isEnchanted = runeType === runeType.toUpperCase()
+			const isEnchanted = !/^\d+$/.test(runeType) && runeType === runeType.toUpperCase()
 			const rune_img = `../tos_tool_data/img/rune/rune_${isNone ? 'none' : runeType.toLowerCase()}${(!isNone && isEnchanted) ? '_enc' : ''}.png`
 			
 			if(raceMark) {
@@ -1104,7 +1104,25 @@ function renderFixedBoard(data, row, column) {
 		board += '</tr>'
 	}
 	
-	$("#fixedBoard").html(`<table class='board_table'>${board}</table>`)
+	let note_panel = ''
+	if(note) {
+		note_panel = note.map((str, index) => {
+			const rune_img = `../tos_tool_data/img/rune/rune_${index + 1}.png`
+			return `
+			<div class='board_note'>
+				<div class='board_note_row'>
+					<img class='board_note_rune_img' src=${rune_img} />
+					<div class='board_note_text'>
+						${str}
+					</div>
+				</div>
+			</div>`
+		}).join('')
+	}
+	
+	$("#fixedBoard").html(`
+		<table class='board_table'>${board}</table>${note_panel}
+	`).css({width: `${columnCount * 42 + 4}px`})
 	
 	$(document).on('mousemove', '.fixed_board_label', (e) => {
 		$("#fixedBoard").css({

@@ -13,6 +13,8 @@ let currentCardCategory = 'all'	// 自家/合作檢視 (all, non-crossover, cros
 
 const showFirstStageAsEmptyPreview = ['NERV登錄器', '原子膠囊', '懷舊電視', '萬事屋之旅', '神玉封印 II', 'Nerve Gear啟動']
 const showFinalStageEvenNotExist = ['強力武裝', '戰鬥魔導士', '百變騎士', '騰雲逸龍', '變形金屬']
+const doNotIgnoreIndependentItem = ['強力武裝', '戰鬥魔導士', '百變騎士', '騰雲逸龍', '變形金屬']
+const doNotSortById = ['強力武裝', '戰鬥魔導士', '百變騎士', '騰雲逸龍', '變形金屬']
 
 $(document).ready(async function() {
 	$("#reverse-btn").hide()
@@ -219,16 +221,16 @@ function showSeal(name)
 				} else {
 					if(Array.isArray(card)) {
 						card.forEach(c => {
-							if(cardSet.has(c)) cardSet.delete(c)
+							if(!doNotIgnoreIndependentItem.includes(genre) && cardSet.has(c)) cardSet.delete(c)
 						})
 						card.every(c => isCardInCorrectCategory(c)) && cardSet.add(card)
 					} else {
 						if(card > 0 && isCardInCorrectCategory(card)) cardSet.add(card)
-						else cardSet.delete(-card)
+						else if(!doNotIgnoreIndependentItem.includes(genre)) cardSet.delete(-card)
 					}
 				}
 			})
-			cardData = [...cardSet].sort((a, b) => {
+			cardData = doNotSortById.includes(genre) ? [...cardSet] : [...cardSet].sort((a, b) => {
 				const ca = Array.isArray(a) ? a[0] : a
 				const cb = Array.isArray(b) ? b[0] : b
 				return ca - cb

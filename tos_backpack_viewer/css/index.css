@@ -170,7 +170,7 @@
 }
 
 .level_tag {
-    font-size: 0.5em;
+    font-size: 0.75em;
 	width: 100%;
 	color: white;
 	text-align: center;
@@ -204,7 +204,7 @@
 
 @media (max-width: 575px) {
 	.level_tag, .skill_level_tag {
-    font-size: 1em;
+    font-size: 0.75em;
 	}
 }
 

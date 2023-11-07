@@ -1,4 +1,4 @@
-// Last modified : 2023.11.04 20:20
+// Last modified : 2023.11.08 00:10
 
 const leader_skill_data = [
     {
@@ -23486,7 +23486,7 @@ const leader_skill_data = [
         'description': `
 		I. 首批消除雙數連擊 (Combo) 時
 		⇒ 全隊攻擊力 10 倍
-		II. 累計擊斃敵人愈多
+		II. 累計以攻前炮擊或攻擊傷害擊斃敵人愈多
 		⇒ 攻擊力提升愈多
 		⇒ 最多可達至 20 倍
 		`,

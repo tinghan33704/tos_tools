@@ -126,11 +126,11 @@ const craft_armed_type_string = [
 ['人類增傷', '獸類增傷', '妖精類增傷', '龍類增傷', '神族增傷', '魔族增傷', '機械族增傷'],
 ['對水增傷', '對火增傷', '對木增傷', '對光增傷', '對暗增傷'],
 ['對人增傷', '對獸增傷', '對妖精增傷', '對龍增傷', '對神增傷', '對魔增傷', '對機械增傷'],
-['增回', '增血'],
+['增回', '增血', '破防', '追打'],
 ['減傷', '回血'],
-['延長轉珠時間', '主動技改變'],
+['延長轉珠時間', '主動技改變', '符石效果提升'],
 ['進場減CD', '永久減CD', '其他減CD', '其他回EP'], 
-['無視腐化'],
+['防毒', '無視腐化'],
 ]
 
 const craft_mode_type_string = ['連鎖龍紋', '轉動龍印', '破碎龍咒', '映照龍符', '疾速龍玉', '裂空龍刃', '落影龍璃', '擴散龍結', '鏡像龍丸', '節奏龍弦'];
@@ -142,6 +142,8 @@ const craft_race_type_string = ['沒有限制', '人類', '獸類', '妖精類',
 const craft_star_type_string = ['1', '2', '3'];
 
 const craft_charge_type_string = ['消除水符石', '消除火符石', '消除木符石', '消除光符石', '消除暗符石', '消除心符石', '消除符石', '發動攻擊', '受到攻擊', '4 Combo以上']
+
+const craft_charge_type_string_mapping = ['首批消除水符石', '首批消除火符石', '首批消除木符石', '首批消除光符石', '首批消除暗符石', '首批消除心符石', '首批消除任何符石', '裝備此龍刻的召喚獸發動攻擊的次數', '召喚獸受到攻擊次數', '首批消除 ≥4 連擊 (Combo)']
 
 /* backpack viewer */
 const sealContent = {
@@ -1036,7 +1038,7 @@ const input_maxlength = 50;
 const uid_maxlength = 11;
 const veri_maxlength = 6;
 
-const active_skill_notification = ''
+const active_skill_notification = '警告：流光災厄級<b>同屬三十字盾</b>大量發生中！<br>違建加三排請洽「<font color="red">增加符石</font>」'
 const team_skill_notification = ''
 const leader_skill_notification = ''
 const craft_notification = ''

@@ -333,7 +333,7 @@ function renderCraftInfo(craft_id) {
 		sk_str += `
 		<hr />
 		<div class='skill_tooltip craft_enhance row'>
-			<div class='col-4 col-sm-4'>
+			<div class='col-12 col-sm-4'>
 				<div class='row'>
 					<div class='col-12 col-sm-12 craft_enhance_title craft_enhance_title_hp'>
 						生命力
@@ -343,7 +343,7 @@ function renderCraftInfo(craft_id) {
 					</div>
 				</div>
 			</div>
-			<div class='col-4 col-sm-4'>
+			<div class='col-12 col-sm-4'>
 				<div class='row'>
 					<div class='col-12 col-sm-12 craft_enhance_title craft_enhance_title_atk'>
 						攻擊力
@@ -353,7 +353,7 @@ function renderCraftInfo(craft_id) {
 					</div>
 				</div>
 			</div>
-			<div class='col-4 col-sm-4'>
+			<div class='col-12 col-sm-4'>
 				<div class='row'>
 					<div class='col-12 col-sm-12 craft_enhance_title craft_enhance_title_rec'>
 						回復力
@@ -383,10 +383,10 @@ function renderCraftInfo(craft_id) {
     
         sk_str += `
             <div class='skill_tooltip skill_description'>
-				<div class='col-sm-2'>
+				<div class='col-2 col-sm-2'>
 					<img src='../tos_tool_data/img/craft/skill_${desc_index + 1}.png' />
 				</div>
-				<div class='col-sm-10'>
+				<div class='col-10 col-sm-10'>
 					${desc}
 				</div>
             </div>
@@ -413,10 +413,10 @@ function renderCraftInfo(craft_id) {
 		
 			sk_str += `
 				<div class='skill_tooltip skill_description'>
-					<div class='col-sm-2'>
+					<div class='col-2 col-sm-2'>
 						<img src='../tos_tool_data/img/craft/armed_skill_${desc_index + 1}.png' />
 					</div>
-					<div class='col-sm-10'>
+					<div class='col-10 col-sm-10'>
 						${desc}
 					</div>
 				</div>

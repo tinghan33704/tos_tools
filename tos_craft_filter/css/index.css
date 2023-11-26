@@ -26,6 +26,14 @@
 	border-left: 2px solid rgba(255, 255, 255, 0.2);
 }
 
+@media (max-width: 576px) {
+	.craft_object_content {
+		justify-content: center;
+		border-top: 2px solid rgba(255, 255, 255, 0.2);
+		border-left: 0;
+	}
+}
+
 .craft_object_series {
 	color: var(--text_name_tooltip_color);
 }
@@ -38,9 +46,24 @@
 	border-left: 2px solid rgba(255, 255, 255, 0.2);
 }
 
+@media (max-width: 576px) {
+	.craft_enhance > div:not(:first-child) .row {
+		border-left: 0;
+		border-top: 2px solid rgba(255, 255, 255, 0.2);
+	}
+}
+
 .craft_charge_content {
 	/*color: var(--text_name_tooltip_color);*/
 	border-left: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 576px) {
+	.craft_charge_content {
+		text-align: center;
+		border-top: 2px solid rgba(255, 255, 255, 0.2);
+		border-left: 0;
+	}
 }
 
 .craft_enhance_title {

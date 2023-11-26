@@ -1,3 +1,90 @@
 .skill_description {
 	margin: 10px 0;
+	display: flex;
+	align-items: center;
+}
+
+.monster_name {
+	margin: 6px 0;
+}
+
+.craft_object, .craft_enhance, .craft_skill, .craft_armed_skill {
+	margin: 6px 0;
+	display: flex;
+	align-items: center;
+}
+
+.craft_object_title {
+	color: var(--text_recall_tooltip_color);
+	text-align: center;
+}
+
+.craft_object_content {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	border-left: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.craft_object_series {
+	color: var(--text_name_tooltip_color);
+}
+
+.craft_enhance .row {
+	display: flex;
+}
+
+.craft_enhance > div:not(:first-child) .row {
+	border-left: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.craft_charge_content {
+	/*color: var(--text_name_tooltip_color);*/
+	border-left: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.craft_enhance_title {
+	justify-content: center;
+	text-align: center;
+}
+
+.craft_enhance_title_hp {
+	color: var(--text_monster_name_earth_color);
+}
+
+.craft_enhance_title_atk {
+	color: var(--text_monster_name_fire_color);
+}
+
+.craft_enhance_title_rec {
+	color: var(--text_monster_name_water_color);
+}
+
+.craft_enhance_number {
+	color: var(--text_name_tooltip_color);
+	text-align: center;
+	justify-content: center;
+	font-weight: bold;
+}
+
+.craft_skill_title, .craft_armed_skill_title {
+	color: var(--text_recall_tooltip_color);
+	text-align: center;
+}
+
+.craft_skills, .craft_armed_skills {
+	border-right: 2px solid rgba(255, 255, 255, 0.2);
+	border-left: 2px solid rgba(255, 255, 255, 0.2);
+	margin: 6px 0;
+}
+
+.skill_tooltip.monster_img {
+	margin-right: 8px;
+	width: 40px;
+	cursor: default;
+}
+
+.craft_skill_hr {
+	border-style: double !important;
+	border-width: 3px !important;
 }

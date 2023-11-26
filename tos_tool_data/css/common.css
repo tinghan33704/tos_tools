@@ -7,6 +7,7 @@
     --button_color_normal: white;
     --button_text_color_checked_normal: white;
     --button_filter_color_checked_normal: rgb(100, 100, 255);
+    --button_filter_color_2_checked_normal: rgb(0, 148, 206);
     --button_keyword_color_checked_normal: rgb(107, 0, 152);
     --button_keyword_color_unable_normal: #e9ecef;
     --button_keyword_color_input_able_normal: white;
@@ -59,13 +60,14 @@
     --text_color_uid_dark: #c4c400;
     --button_color_dark: white;
     --button_text_color_checked_dark: #AAAAAA;
-    --button_filter_color_checked_dark: rgb(100, 100, 255, 0.6);
-    --button_keyword_color_checked_dark: rgb(107, 0, 152, 0.6);
+    --button_filter_color_checked_dark: rgba(100, 100, 255, 0.6);
+    --button_filter_color_2_checked_dark: rgba(0, 148, 206, 0.6);
+    --button_keyword_color_checked_dark: rgba(107, 0, 152, 0.6);
     --button_keyword_color_unable_dark: #232323;
     --button_keyword_color_input_able_dark: transparent;
     --button_keyword_color_input_unable_dark: #232323;
 	--button_tag_color_checked_dark: #600a0a;
-    --button_other_color_checked_dark: rgb(50, 155, 50, 0.3);
+    --button_other_color_checked_dark: rgba(50, 155, 50, 0.3);
     --button_sortby_dark: #666666;
     --button_primary_dark: #003070;
     --button_warning_dark: #786004;
@@ -113,6 +115,7 @@
     --button_color: var(--button_color_normal);
     --button_text_color_checked: var(--button_text_color_checked_normal);
     --button_filter_color_checked: var(--button_filter_color_checked_normal);
+    --button_filter_color_2_checked: var(--button_filter_color_2_checked_normal);
     --button_keyword_color_checked: var(--button_keyword_color_checked_normal);
     --button_keyword_color_unable: var(--button_keyword_color_unable_normal);
     --button_keyword_color_input_able: var(--button_keyword_color_input_able_normal);
@@ -192,8 +195,14 @@ label {
 .filter[type=checkbox] {
     display: none;
 }
-.filter[type=checkbox]:checked + label.filter-btn, .filter[type=checkbox]:checked + label.option-btn {
+.filter[type=checkbox]:checked + label.filter-btn, 
+.filter[type=checkbox]:checked + label.option-btn {
     background-color: var(--button_filter_color_checked); 
+    color: var(--button_text_color_checked); 
+    font-weight: bold;
+}
+.filter[type=checkbox]:checked + label.armed-btn {
+    background-color: var(--button_filter_color_2_checked); 
     color: var(--button_text_color_checked); 
     font-weight: bold;
 }
@@ -209,7 +218,7 @@ label {
     color: var(--button_text_color_checked); 
     font-weight: bold;
 }
-.filter[type=checkbox]:checked + label:not(.filter-btn):not(.keyword-btn):not(.tag-btn):not(.extra-tag-btn):not(.version-tag-btn) {
+.filter[type=checkbox]:checked + label:not(.filter-btn):not(.armed-btn):not(.keyword-btn):not(.tag-btn):not(.extra-tag-btn):not(.version-tag-btn) {
     background-color: var(--button_other_color_checked); 
     color: var(--button_text_color_checked); 
     font-weight: bold;
@@ -296,7 +305,7 @@ select {
 .functional-row {
 	margin-top: 10px;
 }
-.filter-btn, .attr-btn, .race-btn, .star-btn, .charge-btn, .activate-btn, .keyword-btn, .mode-btn, .tag-btn, .extra-tag-btn, .genre-btn, .version-tag-btn, .option-btn, .copy-btn {
+.filter-btn, .armed-btn, .attr-btn, .race-btn, .star-btn, .charge-btn, .activate-btn, .keyword-btn, .mode-btn, .tag-btn, .extra-tag-btn, .genre-btn, .version-tag-btn, .option-btn, .copy-btn {
     font-size: 1.2em;
     font-weight: normal;
     color: var(--text_color);
@@ -422,7 +431,7 @@ select {
     /* width: 25%; */
     padding: 5px;
 }
-.skill_tag, .keyword_tag, .tag_tag, .genre_tag {
+.skill_tag, .skill2_tag, .keyword_tag, .tag_tag, .genre_tag {
     font-size: 1em;
     font-weight: bold;
     border-radius: 5px;
@@ -436,6 +445,9 @@ select {
 }
 .skill_tag {
     background-color: var(--button_filter_color_checked);
+}
+.skill2_tag {
+    background-color: var(--button_filter_color_2_checked);
 }
 .keyword_tag {
     background-color: var(--button_keyword_color_checked);
@@ -589,6 +601,9 @@ select {
 }
 .monster_name_d {
     color: var(--text_monster_name_dark_color);
+}
+.monster_name_u {
+    color: var(--text_color_anti_normal);
 }
 .monster-skill-name {
 	display: flex;

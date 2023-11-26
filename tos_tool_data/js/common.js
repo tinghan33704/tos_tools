@@ -109,6 +109,7 @@ function init() {
         break;
         case 'craft':
             createFilterButtonRow("filter", craft_skill_type_string);
+            createFilterButtonRow("armed", craft_armed_type_string);
             createKeywordRow();
             createFilterButtonRow("mode", craft_mode_type_string);
             createFilterButtonRow("attr", craft_attr_type_string);
@@ -603,9 +604,10 @@ function changeUrl()
     let tag_str = isTypeSelected(".tag-row") ? `tag=${encode(".tag-row")}&` : ''
     let mode_str = isTypeSelected(".mode-row") ? `mode=${encode(".mode-row")}&` : ''
     let actv_str = isTypeSelected(".activate-row") ? `actv=${encode(".activate-row")}&` : ''
+    let armed_str = isTypeSelected(".armed-row") ? `armed=${encode(".armed-row")}&` : ''
     let or_str = `or=${or_filter_value.indexOf(or_filter)}&`
 	
-	let queryStr = `${search_str}${keyword_str}${attr_str}${race_str}${star_str}${charge_str}${genre_str}${or_str}${tag_str}${mode_str}${actv_str}`
+	let queryStr = `${search_str}${armed_str}${keyword_str}${attr_str}${race_str}${star_str}${charge_str}${genre_str}${or_str}${tag_str}${mode_str}${actv_str}`
 	queryStr = 	queryStr.length > 0 ? 
 					queryStr.endsWith('&') ? 
 						`?${queryStr.slice(0, -1)}` :
@@ -634,6 +636,7 @@ function readUrl()
 	'tag' in inputQuery && setButtonFromUrl(".tag-row", decode(inputQuery['tag']), clearFilterButtonRow('tag'));
 	'actv' in inputQuery && setButtonFromUrl(".activate-row", decode(inputQuery['actv']), clearFilterButtonRow('activate'));
 	'mode' in inputQuery && setButtonFromUrl(".mode-row", decode(inputQuery['mode']), clearFilterButtonRow('mode'));
+	'armed' in inputQuery && setButtonFromUrl(".armed-row", decode(inputQuery['armed']), clearFilterButtonRow('armed'));
 	'or' in inputQuery && andOrChange(null, parseInt(inputQuery['or']));
     
     startFilter();
@@ -832,6 +835,7 @@ const theme_string = [
 	'--button_color', 
 	'--button_text_color_checked', 
 	'--button_filter_color_checked', 
+	'--button_filter_color_2_checked', 
 	'--button_keyword_color_checked', 
 	'--button_keyword_color_unable', 
 	'--button_keyword_color_input_able', 

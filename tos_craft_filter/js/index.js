@@ -20,6 +20,7 @@ function startFilter()
     changeUrl();
     
     let skill_set = new Set();
+    let armed_set = new Set();
     let mode_set = new Set();
     let attr_set = new Set();
     let race_set = new Set();
@@ -27,6 +28,7 @@ function startFilter()
     let charge_set = new Set();
     
     let isSkillSelected = false;
+    let isArmedSelected = false;
     let isModeSelected = false;
     let isAttrSelected = false;
     let isRaceSelected = false;
@@ -37,11 +39,14 @@ function startFilter()
 	let keyword_set = checkKeyword();
 
 	[skill_set, isSkillSelected] = getSelectedButton('filter');
+	[armed_set, isArmedSelected] = getSelectedButton('armed');
 	[mode_set, isModeSelected] = getSelectedButton('mode');
 	[attr_set, isAttrSelected] = getSelectedButton('attr');
 	[race_set, isRaceSelected] = getSelectedButton('race');
 	[star_set, isStarSelected] = getSelectedButton('star', true);
 	[charge_set, isChargeSelected] = getSelectedButton('charge');
+	
+	// Normal craft
 	
 	$.each(craft_data, (index, craft) => {
 		if( (isModeSelected && !mode_set.has(craft.mode)) || 
@@ -50,7 +55,7 @@ function startFilter()
 			(isStarSelected && !star_set.has(craft.star)) || 
 			(isChargeSelected && !charge_set.has(craft.charge))) return;
 			
-		if(isSkillSelected || keyword_set.size > 0) {
+		if(isSkillSelected || isArmedSelected || keyword_set.size > 0) {
 			let skill_num_array = [];
 			
 			if(or_filter === 'or')       // OR
@@ -88,6 +93,9 @@ function startFilter()
 			}
 			else       // AND
 			{
+				// Normal craft do not have armed skill
+				if(isArmedSelected) return;
+				
 				// Check for skill tags
 				let isSkillMatch = true;
 				
@@ -123,6 +131,106 @@ function startFilter()
 			}
 		}
 		craft.tag.length > 0 && filter_set.add(craft.id);
+	})
+	
+	// Armed craft
+	
+	$.each(armed_craft_data, (index, craft) => {
+		if( (isModeSelected && !mode_set.has(craft.mode)) || 
+			(isAttrSelected && !(attr_set.has(craft?.attribute) || craft?.monster?.some(m => attr_set.has(monster_data.find(md => m === md.id)?.attribute)))) || 
+			(isRaceSelected && !(race_set.has(craft.race) || craft?.monster?.some(m => race_set.has(monster_data.find(md => m === md.id)?.race)))) || 
+			(isStarSelected && !star_set.has(craft.star)) || 
+			(isChargeSelected && !charge_set.has(craft.charge))) return;
+			
+		if(isSkillSelected || isArmedSelected || keyword_set.size > 0) {
+			let skill_num_array = [];
+			
+			if(or_filter === 'or')       // OR
+			{
+				// Check for skill tags
+				let isSkillMatch = false;
+				$.each([...skill_set], (skill_set_index, selected_feat) => {
+					if(craft.skill_tag.includes(selected_feat)) {
+						isSkillMatch = true;
+						return false;
+					}
+				})
+				if(!isSkillMatch) {
+					$.each([...armed_set], (armed_set_index, selected_feat) => {
+						if(craft.armed_tag.includes(selected_feat)) {
+							isSkillMatch = true;
+							return false;
+						}
+					})
+				}
+				
+				if(!isSkillMatch && keyword_set.size == 0) return;
+				
+				// Check for keywords
+				if(!isSkillMatch && keyword_set.size > 0) {
+					let isKeywordChecked = false;
+					
+					$.each([...keyword_set], (keyword_index, keyword) => {
+						$.each([...craft.skill_description, ...craft.armed_description], (desc_index, desc) => {
+							const sanitized_skill_desc = textSanitizer(desc);
+							if(sanitized_skill_desc.includes(keyword))
+							{
+								isKeywordChecked = true;
+								return false;
+							}
+						})
+						
+						if(isKeywordChecked) return false;
+					})
+					
+					if(!isKeywordChecked) return;
+				}
+			}
+			else       // AND
+			{
+				// Check for skill tags
+				let isSkillMatch = true;
+				
+				$.each([...skill_set], (skill_set_index, selected_feat) => {
+					if(!(craft.skill_tag.includes(selected_feat))) {
+						isSkillMatch = false;
+						return false;
+					}
+				})
+				if(isSkillMatch) {
+					$.each([...armed_set], (armed_set_index, selected_feat) => {
+						if(!(craft.armed_tag.includes(selected_feat))) {
+							isSkillMatch = false;
+							return false;
+						}
+					})
+				}
+				
+				if(!isSkillMatch) return;
+				
+				// Check for keywords
+				let isAllKeywordChecked = true;
+				$.each([...keyword_set], (keyword_index, keyword) => {
+					let isKeywordChecked = false;
+					$.each([...craft.skill_description, ...craft.armed_description], (desc_index, desc) => {
+						const sanitized_skill_desc = textSanitizer(desc);
+						if(sanitized_skill_desc.includes(keyword))
+						{
+							isKeywordChecked = true;
+							return false;
+						}
+					})
+					
+					if(!isKeywordChecked) {
+						isAllKeywordChecked = false;
+						return false;
+					}
+				})
+				
+				if(!isAllKeywordChecked) return;
+			}
+		}
+		(craft?.tag?.length > 0 || craft?.skill_tag?.length > 0 || craft?.armed_tag?.length > 0) && filter_set.add(craft.id);
 	})
     
     
@@ -160,6 +268,7 @@ function startFilter()
         let tag_html = "";
         
         tag_html += renderTags(skill_set, 'skill');
+        tag_html += renderTags(armed_set, 'skill2');
         tag_html += renderTags(keyword_set, 'keyword');
         tag_html += renderTags(mode_set, 'genre');
         tag_html += renderTags(attr_set, 'genre');
@@ -182,21 +291,144 @@ function startFilter()
 
 function renderCraftInfo(craft_id) {
     let sk_str = "";
-    let skill = craft_data.find((element) => {
-        return element.id == craft_id;
-    }).description;
+	let craft_info = craft_data?.find(craft => craft.id == craft_id) || armed_craft_data?.find(craft => craft.id == craft_id)
+    let skill_arr = craft_info?.description || craft_info?.skill_description
+    let armed_arr = craft_info?.armed_description
     
-    $.each(skill, (desc_index, desc) => {
-        if(desc_index > 0) sk_str += `<hr style='margin: 5px 0;'>`;
+	sk_str += `
+	<div class='skill_tooltip monster_name monster_name_${attr_zh_to_en[craft_info?.attribute]} col-12 col-sm-12'>${craft_info.name}</div>
+	<hr class='skill_tooltip craft_skill_hr' />`
+    
+	let object_str = craft_info?.monster ? craft_info.monster.map(m => `<img class='skill_tooltip monster_img' src='../tos_tool_data/img/monster/${m}.png' title='${`No.${m} ${monster_data.find(monster => monster.id === m)?.name}`}' />`).join('') : craft_info?.series ? `擁有${craft_info?.series.map(s => `<span class='craft_object_series'>【${s}】</span>`).join('、')}特性` : (
+		(craft_info?.attribute && craft_info?.attribute !== '沒有限制') ? `<img src='../tos_tool_data/img/monster/icon_${attr_zh_to_en[craft_info?.attribute]}.png' width='25' \>&nbsp;` : ''
+	) + (
+		(craft_info?.race && craft_info?.race !== '沒有限制') ? `<img src='../tos_tool_data/img/monster/icon_${race_zh_to_en[craft_info?.race]}.png' width='25' \>&nbsp;`: ''
+	) + (
+		(craft_info?.attribute && craft_info?.attribute !== '沒有限制') ? `${craft_info.attribute}屬性` : ''
+	) + (
+		(craft_info?.race && craft_info?.race !== '沒有限制') ? `${craft_info.race}`: ''
+	)
+	
+	sk_str += `
+	<div class='skill_tooltip craft_object row'>
+		<div class='col-12 col-sm-4 craft_object_title'>
+			${!object_str.length ? `裝備限制` : `適用對象`}
+		</div>
+		<div class='col-12 col-sm-8 craft_object_content monster_name_${craft_info?.attribute ? attr_zh_to_en[craft_info.attribute] : 'u'}'>
+			${!object_str.length ? '無' : object_str}
+		</div>
+	</div><hr />`
+	
+	sk_str += `
+	<div class='skill_tooltip craft_object row'>
+		<div class='col-12 col-sm-4 craft_object_title'>
+			充能條件
+		</div>
+		<div class='col-12 col-sm-8 craft_charge_content'>
+			${craft_charge_type_string_mapping[craft_charge_type_string.indexOf(craft_info?.charge)] || ''}
+		</div>
+	</div>`
+	
+	if('add_hp' in craft_info && 'add_atk' in craft_info && 'add_rec' in craft_info) {
+		sk_str += `
+		<hr />
+		<div class='skill_tooltip craft_enhance row'>
+			<div class='col-4 col-sm-4'>
+				<div class='row'>
+					<div class='col-12 col-sm-12 craft_enhance_title craft_enhance_title_hp'>
+						生命力
+					</div>
+					<div class='col-12 col-sm-12 craft_enhance_number'>
+						+ ${craft_info?.add_hp === -1 ? '?' : craft_info?.add_hp} %
+					</div>
+				</div>
+			</div>
+			<div class='col-4 col-sm-4'>
+				<div class='row'>
+					<div class='col-12 col-sm-12 craft_enhance_title craft_enhance_title_atk'>
+						攻擊力
+					</div>
+					<div class='col-12 col-sm-12 craft_enhance_number'>
+						+ ${craft_info?.add_atk === -1 ? '?' : craft_info?.add_atk} %
+					</div>
+				</div>
+			</div>
+			<div class='col-4 col-sm-4'>
+				<div class='row'>
+					<div class='col-12 col-sm-12 craft_enhance_title craft_enhance_title_rec'>
+						回復力
+					</div>
+					<div class='col-12 col-sm-12 craft_enhance_number'>
+						+ ${craft_info?.add_rec === -1 ? '?' : craft_info?.add_rec} %
+					</div>
+				</div>
+			</div>
+		</div>`
+	}
+	
+	sk_str += `
+	<hr class='skill_tooltip craft_skill_hr' />
+	`
+	
+	sk_str += `
+	<div class='skill_tooltip craft_skill row'>
+		<div class='col-12 col-sm-12 craft_skill_title'>
+			龍脈能力
+		</div>
+		<div class='col-12 col-sm-12 craft_skills'>
+	`
+	
+    $.each(skill_arr, (desc_index, desc) => {
+        sk_str += `<hr style='margin: 5px 0;'>`;
     
         sk_str += `
             <div class='skill_tooltip skill_description'>
-                <img src='../tos_tool_data/img/craft/skill_${desc_index + 1}.png' />
-                &nbsp;${desc}
+				<div class='col-sm-2'>
+					<img src='../tos_tool_data/img/craft/skill_${desc_index + 1}.png' />
+				</div>
+				<div class='col-sm-10'>
+					${desc}
+				</div>
             </div>
         `;
     });
-    
+	
+	sk_str += `
+		</div>
+	</div>
+	`
+	
+	if(armed_arr?.length > 0) {
+		sk_str += `
+		<hr class='skill_tooltip craft_skill_hr' />
+		<div class='skill_tooltip craft_armed_skill row'>
+			<div class='col-12 col-sm-12 craft_armed_skill_title'>
+				武裝能力
+			</div>
+			<div class='col-12 col-sm-12 craft_armed_skills'>
+		`
+		
+		$.each(armed_arr, (desc_index, desc) => {
+			sk_str += `<hr style='margin: 5px 0;'>`;
+		
+			sk_str += `
+				<div class='skill_tooltip skill_description'>
+					<div class='col-sm-2'>
+						<img src='../tos_tool_data/img/craft/armed_skill_${desc_index + 1}.png' />
+					</div>
+					<div class='col-sm-10'>
+						${desc}
+					</div>
+				</div>
+			`;
+		});
+		
+		sk_str += `
+			</div>
+		</div>
+		`
+	}
+	
     return sk_str;
 }
 

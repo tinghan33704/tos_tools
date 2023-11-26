@@ -284,7 +284,7 @@ function startFilter()
         html: true,
         trigger: 'focus',
         placement: 'bottom'
-    });
+    })
     
     jumpTo("result_title");
 }
@@ -384,7 +384,7 @@ function renderCraftInfo(craft_id) {
         sk_str += `
             <div class='skill_tooltip skill_description'>
 				<div class='col-2 col-sm-2'>
-					<img src='../tos_tool_data/img/craft/skill_${desc_index + 1}.png' />
+					<img src='../tos_tool_data/img/craft/skill_${desc_index + 1}.png' width='36px' />
 				</div>
 				<div class='col-10 col-sm-10'>
 					${desc}
@@ -414,7 +414,7 @@ function renderCraftInfo(craft_id) {
 			sk_str += `
 				<div class='skill_tooltip skill_description'>
 					<div class='col-2 col-sm-2'>
-						<img src='../tos_tool_data/img/craft/armed_skill_${desc_index + 1}.png' />
+						<img src='../tos_tool_data/img/craft/armed_skill_${desc_index + 1}.png' width='36px' />
 					</div>
 					<div class='col-10 col-sm-10'>
 						${desc}

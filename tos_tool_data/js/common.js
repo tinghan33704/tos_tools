@@ -158,6 +158,7 @@ function init() {
     $("#reset_genre").length && $("#reset_genre").on("click", clearFilterButtonRow('genre'));
     $("#reset_tag").length && $("#reset_tag").on("click", clearFilterButtonRow('tag'));
     $("#reset_mode").length && $("#reset_mode").on("click", clearFilterButtonRow('mode'));
+    $("#reset_armed").length && $("#reset_armed").on("click", clearFilterButtonRow('armed'));
     $("#reset_keyword").length && $("#reset_keyword").on("click", clearKeyword);
     $("#optionPanel").length && $('#optionPanel').on('hide.bs.modal', recordOption);
     $("#switch_display").length && $('#switch_display').on("click", displaySwitch);
@@ -366,6 +367,7 @@ function clearAll()
     clearFilterButtonRow('tag')();
     clearFilterButtonRow('activate')();
     clearFilterButtonRow('mode')();
+    clearFilterButtonRow('armed')();
     clearKeyword();
 }
 

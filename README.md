@@ -1,7 +1,7 @@
 # 神魔之塔工具們
 Made by 蒼曜(tinghan33704)
 
-## <img src="./tos_tool_data/img/favicon/active_favicon.png" width="24" height="24" /> 主動器搜尋器
+## <img src="./tos_tool_data/img/favicon/active_favicon.png" width="24" height="24" /> 主動技搜尋器
 - [工具連結](https://tinghan33704.com/tos_skill_filter/tos_skill_filter.html)
 - [使用說明](https://forum.gamer.com.tw/Co.php?bsn=23805&sn=3619702)
 

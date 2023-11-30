@@ -26,6 +26,7 @@ function startFilter()
     let race_set = new Set();
     let star_set = new Set();
     let charge_set = new Set();
+    let genre_set = new Set();
     
     let isSkillSelected = false;
     let isArmedSelected = false;
@@ -34,6 +35,7 @@ function startFilter()
     let isRaceSelected = false;
     let isStarSelected = false;
     let isChargeSelected = false;
+    let isGenreSelected = false;
     
     filter_set.clear();
 	let keyword_set = checkKeyword();
@@ -45,37 +47,75 @@ function startFilter()
 	[race_set, isRaceSelected] = getSelectedButton('race');
 	[star_set, isStarSelected] = getSelectedButton('star', true);
 	[charge_set, isChargeSelected] = getSelectedButton('charge');
+	[genre_set, isGenreSelected] = getSelectedButton('genre');
 	
 	// Normal craft
 	
-	$.each(craft_data, (index, craft) => {
-		if( (isModeSelected && !mode_set.has(craft.mode)) || 
-			(isAttrSelected && !attr_set.has(craft.attribute)) || 
-			(isRaceSelected && !race_set.has(craft.race)) || 
-			(isStarSelected && !star_set.has(craft.star)) || 
-			(isChargeSelected && !charge_set.has(craft.charge))) return;
-			
-		if(isSkillSelected || isArmedSelected || keyword_set.size > 0) {
-			let skill_num_array = [];
-			
-			if(or_filter === 'or')       // OR
-			{
-				// Check for skill tags
-				let isSkillMatch = false;
-				$.each([...skill_set], (skill_set_index, selected_feat) => {
-					if(craft.tag.includes(selected_feat)) {
-						isSkillMatch = true;
-						return false;
-					}
-				})
+	if(!isGenreSelected || genre_set.has('一般龍刻')) {
+		$.each(craft_data, (index, craft) => {
+			if( (isModeSelected && !mode_set.has(craft.mode)) || 
+				(isAttrSelected && !attr_set.has(craft.attribute)) || 
+				(isRaceSelected && !race_set.has(craft.race)) || 
+				(isStarSelected && !star_set.has(craft.star)) || 
+				(isChargeSelected && !charge_set.has(craft.charge))) return;
 				
-				if(!isSkillMatch && keyword_set.size == 0) return;
+			if(isSkillSelected || isArmedSelected || keyword_set.size > 0) {
+				let skill_num_array = [];
 				
-				// Check for keywords
-				if(!isSkillMatch && keyword_set.size > 0) {
-					let isKeywordChecked = false;
+				if(or_filter === 'or')       // OR
+				{
+					// Check for skill tags
+					let isSkillMatch = false;
+					$.each([...skill_set], (skill_set_index, selected_feat) => {
+						if(craft.tag.includes(selected_feat)) {
+							isSkillMatch = true;
+							return false;
+						}
+					})
 					
+					if(!isSkillMatch && keyword_set.size == 0) return;
+					
+					// Check for keywords
+					if(!isSkillMatch && keyword_set.size > 0) {
+						let isKeywordChecked = false;
+						
+						$.each([...keyword_set], (keyword_index, keyword) => {
+							$.each(craft.description, (desc_index, desc) => {
+								const sanitized_skill_desc = textSanitizer(desc);
+								if(sanitized_skill_desc.includes(keyword))
+								{
+									isKeywordChecked = true;
+									return false;
+								}
+							})
+							
+							if(isKeywordChecked) return false;
+						})
+						
+						if(!isKeywordChecked) return;
+					}
+				}
+				else       // AND
+				{
+					// Normal craft do not have armed skill
+					if(isArmedSelected) return;
+					
+					// Check for skill tags
+					let isSkillMatch = true;
+					
+					$.each([...skill_set], (skill_set_index, selected_feat) => {
+						if(!(craft.tag.includes(selected_feat))) {
+							isSkillMatch = false;
+							return false;
+						}
+					})
+					
+					if(!isSkillMatch) return;
+					
+					// Check for keywords
+					let isAllKeywordChecked = true;
 					$.each([...keyword_set], (keyword_index, keyword) => {
+						let isKeywordChecked = false;
 						$.each(craft.description, (desc_index, desc) => {
 							const sanitized_skill_desc = textSanitizer(desc);
 							if(sanitized_skill_desc.includes(keyword))
@@ -85,92 +125,100 @@ function startFilter()
 							}
 						})
 						
-						if(isKeywordChecked) return false;
-					})
-					
-					if(!isKeywordChecked) return;
-				}
-			}
-			else       // AND
-			{
-				// Normal craft do not have armed skill
-				if(isArmedSelected) return;
-				
-				// Check for skill tags
-				let isSkillMatch = true;
-				
-				$.each([...skill_set], (skill_set_index, selected_feat) => {
-					if(!(craft.tag.includes(selected_feat))) {
-						isSkillMatch = false;
-						return false;
-					}
-				})
-				
-				if(!isSkillMatch) return;
-				
-				// Check for keywords
-				let isAllKeywordChecked = true;
-				$.each([...keyword_set], (keyword_index, keyword) => {
-					let isKeywordChecked = false;
-					$.each(craft.description, (desc_index, desc) => {
-						const sanitized_skill_desc = textSanitizer(desc);
-						if(sanitized_skill_desc.includes(keyword))
-						{
-							isKeywordChecked = true;
+						if(!isKeywordChecked) {
+							isAllKeywordChecked = false;
 							return false;
 						}
 					})
 					
-					if(!isKeywordChecked) {
-						isAllKeywordChecked = false;
-						return false;
-					}
-				})
-				
-				if(!isAllKeywordChecked) return;
+					if(!isAllKeywordChecked) return;
+				}
 			}
-		}
-		craft.tag.length > 0 && filter_set.add(craft.id);
-	})
+			craft.tag.length > 0 && filter_set.add(craft.id);
+		})
+	}
 	
 	// Armed craft
 	
-	$.each(armed_craft_data, (index, craft) => {
-		if( (isModeSelected && !mode_set.has(craft.mode)) || 
-			(isAttrSelected && !(attr_set.has(craft?.attribute) || craft?.monster?.some(m => attr_set.has(monster_data.find(md => m === md.id)?.attribute)))) || 
-			(isRaceSelected && !(race_set.has(craft.race) || craft?.monster?.some(m => race_set.has(monster_data.find(md => m === md.id)?.race)))) || 
-			(isStarSelected && !star_set.has(craft.star)) || 
-			(isChargeSelected && !charge_set.has(craft.charge))) return;
-			
-		if(isSkillSelected || isArmedSelected || keyword_set.size > 0) {
-			let skill_num_array = [];
-			
-			if(or_filter === 'or')       // OR
-			{
-				// Check for skill tags
-				let isSkillMatch = false;
-				$.each([...skill_set], (skill_set_index, selected_feat) => {
-					if(craft.skill_tag.includes(selected_feat)) {
-						isSkillMatch = true;
-						return false;
-					}
-				})
-				if(!isSkillMatch) {
-					$.each([...armed_set], (armed_set_index, selected_feat) => {
-						if(craft.armed_tag.includes(selected_feat)) {
+	if(!isGenreSelected || (genre_set.has('武裝龍刻') || genre_set.has('指定角色武裝') || genre_set.has('非指定角色武裝'))) {
+		$.each(armed_craft_data, (index, craft) => {
+			if( (isModeSelected && !mode_set.has(craft.mode)) || 
+				(isAttrSelected && !(attr_set.has(craft?.attribute) || craft?.monster?.some(m => attr_set.has(monster_data.find(md => m === md.id)?.attribute)))) || 
+				(isRaceSelected && !(race_set.has(craft.race) || craft?.monster?.some(m => race_set.has(monster_data.find(md => m === md.id)?.race)))) || 
+				(isStarSelected && !star_set.has(craft.star)) || 
+				(isChargeSelected && !charge_set.has(craft.charge)) ||
+				(isGenreSelected && !genre_set.has('武裝龍刻') && ((genre_set.has('指定角色武裝') && !genre_set.has('非指定角色武裝') && !(craft?.monster || craft?.series)) || (genre_set.has('非指定角色武裝') && !genre_set.has('指定角色武裝') && (craft?.monster || craft?.series))))) return;
+				
+			if(isSkillSelected || isArmedSelected || keyword_set.size > 0) {
+				let skill_num_array = [];
+				
+				if(or_filter === 'or')       // OR
+				{
+					// Check for skill tags
+					let isSkillMatch = false;
+					$.each([...skill_set], (skill_set_index, selected_feat) => {
+						if(craft.skill_tag.includes(selected_feat)) {
 							isSkillMatch = true;
 							return false;
 						}
 					})
-				}
-				
-				if(!isSkillMatch && keyword_set.size == 0) return;
-				
-				// Check for keywords
-				if(!isSkillMatch && keyword_set.size > 0) {
-					let isKeywordChecked = false;
+					if(!isSkillMatch) {
+						$.each([...armed_set], (armed_set_index, selected_feat) => {
+							if(craft.armed_tag.includes(selected_feat)) {
+								isSkillMatch = true;
+								return false;
+							}
+						})
+					}
 					
+					if(!isSkillMatch && keyword_set.size == 0) return;
+					
+					// Check for keywords
+					if(!isSkillMatch && keyword_set.size > 0) {
+						let isKeywordChecked = false;
+						
+						$.each([...keyword_set], (keyword_index, keyword) => {
+							$.each([...craft.skill_description, ...craft.armed_description], (desc_index, desc) => {
+								const sanitized_skill_desc = textSanitizer(desc);
+								if(sanitized_skill_desc.includes(keyword))
+								{
+									isKeywordChecked = true;
+									return false;
+								}
+							})
+							
+							if(isKeywordChecked) return false;
+						})
+						
+						if(!isKeywordChecked) return;
+					}
+				}
+				else       // AND
+				{
+					// Check for skill tags
+					let isSkillMatch = true;
+					
+					$.each([...skill_set], (skill_set_index, selected_feat) => {
+						if(!(craft.skill_tag.includes(selected_feat))) {
+							isSkillMatch = false;
+							return false;
+						}
+					})
+					if(isSkillMatch) {
+						$.each([...armed_set], (armed_set_index, selected_feat) => {
+							if(!(craft.armed_tag.includes(selected_feat))) {
+								isSkillMatch = false;
+								return false;
+							}
+						})
+					}
+					
+					if(!isSkillMatch) return;
+					
+					// Check for keywords
+					let isAllKeywordChecked = true;
 					$.each([...keyword_set], (keyword_index, keyword) => {
+						let isKeywordChecked = false;
 						$.each([...craft.skill_description, ...craft.armed_description], (desc_index, desc) => {
 							const sanitized_skill_desc = textSanitizer(desc);
 							if(sanitized_skill_desc.includes(keyword))
@@ -180,58 +228,18 @@ function startFilter()
 							}
 						})
 						
-						if(isKeywordChecked) return false;
-					})
-					
-					if(!isKeywordChecked) return;
-				}
-			}
-			else       // AND
-			{
-				// Check for skill tags
-				let isSkillMatch = true;
-				
-				$.each([...skill_set], (skill_set_index, selected_feat) => {
-					if(!(craft.skill_tag.includes(selected_feat))) {
-						isSkillMatch = false;
-						return false;
-					}
-				})
-				if(isSkillMatch) {
-					$.each([...armed_set], (armed_set_index, selected_feat) => {
-						if(!(craft.armed_tag.includes(selected_feat))) {
-							isSkillMatch = false;
-							return false;
-						}
-					})
-				}
-				
-				if(!isSkillMatch) return;
-				
-				// Check for keywords
-				let isAllKeywordChecked = true;
-				$.each([...keyword_set], (keyword_index, keyword) => {
-					let isKeywordChecked = false;
-					$.each([...craft.skill_description, ...craft.armed_description], (desc_index, desc) => {
-						const sanitized_skill_desc = textSanitizer(desc);
-						if(sanitized_skill_desc.includes(keyword))
-						{
-							isKeywordChecked = true;
+						if(!isKeywordChecked) {
+							isAllKeywordChecked = false;
 							return false;
 						}
 					})
 					
-					if(!isKeywordChecked) {
-						isAllKeywordChecked = false;
-						return false;
-					}
-				})
-				
-				if(!isAllKeywordChecked) return;
+					if(!isAllKeywordChecked) return;
+				}
 			}
-		}
-		(craft?.tag?.length > 0 || craft?.skill_tag?.length > 0 || craft?.armed_tag?.length > 0) && filter_set.add(craft.id);
-	})
+			(craft?.tag?.length > 0 || craft?.skill_tag?.length > 0 || craft?.armed_tag?.length > 0) && filter_set.add(craft.id);
+		})
+	}
     
     
     $(".row.result-row").show();
@@ -275,6 +283,7 @@ function startFilter()
         tag_html += renderTags(race_set, 'genre');
         tag_html += renderTags(star_set, 'genre', ' ★');
         tag_html += renderTags(charge_set, 'genre');
+        tag_html += renderTags(genre_set, 'genre');
         
         return tag_html;
     });

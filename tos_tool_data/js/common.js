@@ -116,6 +116,7 @@ function init() {
             createFilterButtonRow("race", craft_race_type_string);
             createFilterButtonRow("star", craft_star_type_string, ' ★');
             createFilterButtonRow("charge", craft_charge_type_string);
+            createFilterButtonRow("genre", craft_genre_type_string);
 			or_filter = or_filter_value?.[0];
         break;
     }

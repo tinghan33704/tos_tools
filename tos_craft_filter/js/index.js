@@ -344,30 +344,30 @@ function renderCraftInfo(craft_id) {
 		<div class='skill_tooltip craft_enhance row'>
 			<div class='col-12 col-sm-4'>
 				<div class='row'>
-					<div class='col-12 col-sm-12 craft_enhance_title craft_enhance_title_hp'>
+					<div class='col-6 col-sm-12 craft_enhance_title craft_enhance_title_hp'>
 						生命力
 					</div>
-					<div class='col-12 col-sm-12 craft_enhance_number'>
+					<div class='col-6 col-sm-12 craft_enhance_number'>
 						+ ${craft_info?.add_hp === -1 ? '?' : craft_info?.add_hp} %
 					</div>
 				</div>
 			</div>
 			<div class='col-12 col-sm-4'>
 				<div class='row'>
-					<div class='col-12 col-sm-12 craft_enhance_title craft_enhance_title_atk'>
+					<div class='col-6 col-sm-12 craft_enhance_title craft_enhance_title_atk'>
 						攻擊力
 					</div>
-					<div class='col-12 col-sm-12 craft_enhance_number'>
+					<div class='col-6 col-sm-12 craft_enhance_number'>
 						+ ${craft_info?.add_atk === -1 ? '?' : craft_info?.add_atk} %
 					</div>
 				</div>
 			</div>
 			<div class='col-12 col-sm-4'>
 				<div class='row'>
-					<div class='col-12 col-sm-12 craft_enhance_title craft_enhance_title_rec'>
+					<div class='col-6 col-sm-12 craft_enhance_title craft_enhance_title_rec'>
 						回復力
 					</div>
-					<div class='col-12 col-sm-12 craft_enhance_number'>
+					<div class='col-6 col-sm-12 craft_enhance_number'>
 						+ ${craft_info?.add_rec === -1 ? '?' : craft_info?.add_rec} %
 					</div>
 				</div>

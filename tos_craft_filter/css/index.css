@@ -71,6 +71,12 @@
 	text-align: center;
 }
 
+@media (max-width: 576px) {
+	.craft_enhance_title {
+		text-align: right;
+	}
+}
+
 .craft_enhance_title_hp {
 	color: var(--text_monster_name_earth_color);
 }
@@ -88,6 +94,12 @@
 	text-align: center;
 	justify-content: center;
 	font-weight: bold;
+}
+
+@media (max-width: 576px) {
+	.craft_enhance_number {
+		text-align: left;
+	}
 }
 
 .craft_skill_title, .craft_armed_skill_title {

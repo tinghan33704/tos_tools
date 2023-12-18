@@ -774,6 +774,14 @@ select {
     max-width: 80% !important;
     margin: 20px auto;
 }
+@media (max-width: 768px) {
+	#optionPanel .modal-dialog, #uidPanel .modal-dialog {
+		width: 95% !important;
+		max-width: 95% !important;
+		margin: 20px auto;
+	}
+}
+
 #optionPanel .modal-content, #uidPanel .modal-content, #inputPanel .modal-content {
     background-color: var(--background_color);
 }

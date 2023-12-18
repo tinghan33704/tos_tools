@@ -1,4 +1,4 @@
-// Last modified : 2023.12.14 19:10
+// Last modified : 2023.12.18 21:57
 
 const leader_skill_data = [
     {
@@ -34011,7 +34011,11 @@ const leader_skill_data = [
     {
         'name': '歷練之途',
         'description': `
-		
+		I. 全隊攻擊力 9 倍、生命力及回復力 2 倍
+		II. 消除符石的種類愈多
+		⇒ 全隊攻擊力額外提升愈多
+		⇒ 最大 7.5 倍
+		III. 延長移動符石時間 4 秒
 		`,
         'tag': [
             {

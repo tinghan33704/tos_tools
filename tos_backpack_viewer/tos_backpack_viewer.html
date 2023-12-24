@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<!-- Last modified : 2023.07.07 18:12 -->
+<!-- Last modified : 2023.12.24 16:50 -->
 <head>
     <title>神魔之塔背包檢視器</title>
     <meta charset="utf-8">
@@ -24,6 +24,18 @@
 <body>
     <div class="side_navigation"></div>
 
+    <div id="filterPanel" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+			<div class="reset-filter" onclick='resetFilter()'><i class="fa fa-undo"></i>&nbsp;重置選項</div>
+            <button type="button" class="close" id="modal-close" data-dismiss='modal'>&times;</button>
+          </div>
+          <div class="modal-body"></div>
+        </div>
+      </div>
+    </div>
+	
     <div id="uidPanel" class="modal fade" role="dialog">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -83,6 +95,9 @@
 		
         <div class="copyright"></div>
     </div>
+    <button type="button" id="filter-btn" class="filters">
+        <i class="fa fa-filter"></i>
+    </button>
     <button type="button" id="compress-btn" class="compressMode">
         <i class="fa fa-compress"></i>
     </button>

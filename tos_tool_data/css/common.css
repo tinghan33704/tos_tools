@@ -769,24 +769,28 @@ select {
     max-width: 80% !important;
     margin: 20px auto;
 }
-#uidPanel .modal-dialog {
+#uidPanel .modal-dialog, #filterPanel .modal-dialog {
     width: 60% !important;
     max-width: 80% !important;
     margin: 20px auto;
 }
 @media (max-width: 768px) {
-	#optionPanel .modal-dialog, #uidPanel .modal-dialog {
+	#optionPanel .modal-dialog, #uidPanel .modal-dialog, #filterPanel .modal-dialog {
 		width: 95% !important;
 		max-width: 95% !important;
 		margin: 20px auto;
 	}
 }
 
-#optionPanel .modal-content, #uidPanel .modal-content, #inputPanel .modal-content {
+#optionPanel .modal-content, #uidPanel .modal-content, #inputPanel .modal-content, #filterPanel .modal-content {
     background-color: var(--background_color);
 }
-#optionPanel .row, #uidPanel .row, #inputPanel .row {
+#optionPanel .row, #uidPanel .row, #inputPanel .row, #filterPanel .row {
     padding: 5px 15px 0px 15px;
+}
+
+.close {
+	color: var(--text-color);
 }
 
 .option-text {
@@ -877,7 +881,7 @@ select {
 
 /* ---------------- */
 
-.inventory, .option, .changeTheme, .compressResult, .inputData, .reverseMode, .compressMode, .crossOver, .toTop, .toBottom {
+.inventory, .option, .changeTheme, .compressResult, .inputData, .reverseMode, .compressMode, .crossOver, .filters, .toTop, .toBottom {
 	width: 3rem;
     height: 3rem;
     padding: 0;
@@ -892,10 +896,10 @@ select {
     font-size: 1.8rem;
     z-index: 1;
 }
-.inventory:focus, .option:focus, .changeTheme:focus, .compressResult:focus, .inputData:focus, .reverseMode:focus, .compressMode:focus, .crossOver:focus, .toTop:focus, .toBottom:focus {
+.inventory:focus, .option:focus, .changeTheme:focus, .compressResult:focus, .inputData:focus, .reverseMode:focus, .compressMode:focus, .crossOver:focus, .filters:focus, .toTop:focus, .toBottom:focus {
     outline: none;
 }
-.inventory, .option, .changeTheme, .compressResult, .inputData, .reverseMode, .compressMode, .crossOver {
+.inventory, .option, .changeTheme, .compressResult, .inputData, .reverseMode, .compressMode, .crossOver, .filters {
     left: 1rem;
     display: inline-block;
 }

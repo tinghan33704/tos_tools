@@ -166,7 +166,7 @@ function init() {
     $("#close_notification").length && $('#close_notification').on("click", closeNotification);
     $("#use-inventory").length && $('#use-inventory').on("click", inventorySwitch);
     
-	playerData = localStorage.getItem('PLAYER_DATA') ? JSON.parse(localStorage.getItem('PLAYER_DATA')) : {uid: '', card: [], lastUpdated: null}
+	playerData = localStorage.getItem('PLAYER_DATA') ? JSON.parse(localStorage.getItem('PLAYER_DATA')) : {uid: '', card: [], lastUpdated: null, wholeData: []}
 	$("#uid-tag").text(`UID: ${playerData.uid}`)
 	setUpdateBanner()
     
@@ -711,20 +711,20 @@ async function getPlayerInventory(prefix, id = null)
 				
 			})
 			
-			setPlayerData(prefix, playerId, [...card_set].sort((a, b) => a - b), card_info, inventory_data?.userData?.cardsUpdatedAt)
+			setPlayerData(prefix, playerId, [...card_set].sort((a, b) => a - b), card_info, inventory_data?.userData?.cardsUpdatedAt, inventory_data?.userData?.cards || [])
 		}
 	} catch {
 		$(`#${prefix}-uid-status`).html(`<span class='fail'><i class='fa fa-times'></i>&nbsp;&nbsp;${verb}失敗${verb === '匯入' ? '，請嘗試使用更新背包功能' : ''}</span>`)
 		$(`#${prefix}-uid-input`).attr('disabled', false)
 		
 		id && errorAlert(10)
-		playerData = {uid: '', card: [], info: {}}
+		playerData = {uid: '', card: [], info: {}, wholeData: []}
 		setUpdateBanner()
 		showSeal && showSeal(currentSeal)
 	}
 }
 
-function setPlayerData(prefix, uid, card, info, lastUpdated)
+function setPlayerData(prefix, uid, card, info, lastUpdated, wholeData)
 {
 	const verb = prefix === 'load' ? '匯入' : '更新'
 	
@@ -732,6 +732,7 @@ function setPlayerData(prefix, uid, card, info, lastUpdated)
 	playerData.card = addCombinedCard(addTransformedCard(addVirtualRebirthCard(card)))
 	playerData.info = info
 	playerData.lastUpdated = lastUpdated ? new Date(new Date(lastUpdated) - new Date().getTimezoneOffset()).toLocaleString() : null
+	playerData.wholeData = wholeData.sort((a, b) => b.acquiredAt - a.acquiredAt)
 	
 	
 	$(`#${prefix}-uid-status`).html(`<span class='success'><i class='fa fa-check'></i>&nbsp;&nbsp;${verb}完成</span>`)
@@ -746,6 +747,14 @@ function setPlayerData(prefix, uid, card, info, lastUpdated)
 	if(tool_id === 'backpack') {
 		const uidStr = `?uid=${playerData.uid}`
 		window.history.pushState(null, null, uidStr)
+		
+		filteredMonster = playerData.wholeData
+		selectedAttr = []
+		selectedRace = []
+		selectedStar = []
+		currentPage = 1
+		
+		startFilter(true)
 	}
 }
 

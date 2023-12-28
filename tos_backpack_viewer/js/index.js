@@ -774,7 +774,7 @@ function renderMonsterSingleInfo(data) {
 					技能等級
 				</div>
 				<div class='col-8 col-sm-8'>
-					<span class='monster-stats${data?.skillLevel === monster_info?.maxSkill ? ' monster-stats-full' : ''}'>${data?.skillLevel}</span> / ${monster_info?.maxSkill || '???'}
+					<span class='monster-stats${data?.skillLevel === monster_info?.maxSkill ? ' monster-stats-full' : ''}'>${data?.skillLevel}</span> / ${monster_info?.maxSkill >= 0 ? monster_info?.maxSkill : '???'}
 				</div>
 			</div>
 			${monster_info?.maxRefine > 0 ?

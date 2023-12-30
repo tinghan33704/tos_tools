@@ -16,6 +16,7 @@ let currentCardCategory = 'all'	// 自家/合作檢視 (all, non-crossover, cros
 let selectedAttr = []
 let selectedRace = []
 let selectedStar = []
+let searchText = ''
 let filteredMonster = []
 let sortBy = ''
 let orderBy = ''	// asc, desc
@@ -141,16 +142,18 @@ function startFilter(forceFilter = false) {
 	const preSelectedAttr = [...selectedAttr]
 	const preSelectedRace = [...selectedRace]
 	const preSelectedStar = [...selectedStar]
+	const preSearchText = searchText
 	const preSortBy = localStorage.getItem('SORT_BY')
 	const preOrderBy = localStorage.getItem('ORDER_BY')
 	
 	selectedAttr = Object.values(attr_zh_to_en).filter(attr => $(`.filter_icon_${attr}`).hasClass('filter_icon_selected'))
 	selectedRace = Object.values(race_zh_to_en).filter(race => $(`.filter_icon_${race}`).hasClass('filter_icon_selected'))
 	selectedStar = [...Array(8).keys()].filter(star => $(`.filter_icon_${star + 1}`).hasClass('filter_icon_selected')).map(star => star + 1)
+	searchText = $('#search-text').val() || ''
 	localStorage.setItem('SORT_BY', sortBy)
 	localStorage.setItem('ORDER_BY', orderBy)
 	
-	if(selectedAttr.length || selectedRace.length || selectedStar.length) {
+	if(selectedAttr.length || selectedRace.length || selectedStar.length || searchText.length) {
 		$(".filters").addClass('filters-activate')
 	} else {
 		$(".filters").removeClass('filters-activate')
@@ -161,12 +164,16 @@ function startFilter(forceFilter = false) {
 		preSelectedAttr.join() === selectedAttr.join() &&
 		preSelectedRace.join() === selectedRace.join() && 
 		preSelectedStar.join() === selectedStar.join() &&
+		preSearchText == searchText &&
 		preSortBy == sortBy &&
 		preOrderBy == orderBy
 	) return;
 	
+	const sanitizedSearchTextArr = textSanitizer(searchText).split(',').filter(text => text.length)
+	
 	filteredMonster = (playerData?.wholeData || []).filter(m => {
 		const monster = monster_data.find(mon => mon.id === m.id)
+		if(sanitizedSearchTextArr.length && !sanitizedSearchTextArr.some(text => textSanitizer(monster?.name)?.includes(text)) && !sanitizedSearchTextArr.some(text => monster?.monsterTag?.some(tag => textSanitizer(tag).includes(text)))) return false
 		if(selectedAttr.length && !selectedAttr.some(attr => attr === attr_zh_to_en[monster.attribute])) return false
 		if(selectedRace.length && !selectedRace.some(race => race === race_zh_to_en[monster.race])) return false
 		if(selectedStar.length && !selectedStar.some(star => monster.star === star)) return false
@@ -207,6 +214,7 @@ function resetFilter() {
 	Object.values(attr_zh_to_en).forEach(attr => $(`.filter_icon_${attr}`).removeClass('filter_icon_selected'));
 	Object.values(race_zh_to_en).forEach(race => $(`.filter_icon_${race}`).removeClass('filter_icon_selected'));
 	[...Array(8).keys()].forEach(star => $(`.filter_icon_${star + 1}`).removeClass('filter_icon_selected'))
+	$('#search-text').val('')
 }
 
 function loadingPanel() {
@@ -478,9 +486,6 @@ function showSeal(name)
 	
 	// Saitama easter egg :)
 	setGlassBreak()
-	
-	// Jotaro and Dio easter egg :)
-	setOraMuda()
 }
 
 function renderPageControl(pageCount, position) {
@@ -645,10 +650,10 @@ function renderFilterPanel() {
 	render_str += `
 	<div class='container-fluid filter-row'>
 		<div class='row'>
-			<div class='col-2'>
+			<div class='col-12 col-sm-2 filterTitle'>
 				屬性
 			</div>
-			<div class='col-10 filterBtnRow'>
+			<div class='col-12 col-sm-10 filterBtnRow'>
 				${Object.values(attr_zh_to_en).map(attr => 
 					`<div class='attr_selector'>
 						<img class='filter_icon_${attr}${selectedAttr.includes(attr) ? ` filter_icon_selected` : ``}' src='../tos_tool_data/img/monster/icon_${attr}.png' onclick='selectFilter("${attr}")' />
@@ -657,10 +662,10 @@ function renderFilterPanel() {
 			</div>
 		</div>
 		<div class='row'>
-			<div class='col-2'>
+			<div class='col-12 col-sm-2 filterTitle'>
 				種族
 			</div>
-			<div class='col-10 filterBtnRow'>
+			<div class='col-12 col-sm-10 filterBtnRow'>
 				${Object.values(race_zh_to_en).map(race => 
 					`<div class='race_selector'>
 						<img class='filter_icon_${race}${selectedRace.includes(race) ? ` filter_icon_selected` : ``}' src='../tos_tool_data/img/monster/icon_${race}.png' onclick='selectFilter("${race}")' />
@@ -669,10 +674,10 @@ function renderFilterPanel() {
 			</div>
 		</div>
 		<div class='row'>
-			<div class='col-2'>
+			<div class='col-12 col-sm-2 filterTitle'>
 				稀有度
 			</div>
-			<div class='col-10 filterBtnRow'>
+			<div class='col-12 col-sm-10 filterBtnRow'>
 				${[...Array(8).keys()].map(star => 
 					`<div class='star_selector'>
 						<img class='filter_icon_${star + 1}${selectedStar.includes(star + 1) ? ` filter_icon_selected` : ``}' src='../tos_tool_data/img/monster/icon_${star + 1}.png' onclick='selectFilter("${star + 1}")' />
@@ -681,11 +686,18 @@ function renderFilterPanel() {
 			</div>
 		</div>
 		<div class='row'>
-			<div class='col-2'>
+			<div class='col-12 col-sm-2 filterTitle'>
+				名稱/標籤
+			</div>
+			<div class='col-12 col-sm-10 filterBtnRow'>
+				<input type='text' id='search-text' value='${searchText}' class='form-control' placeholder='' maxlength='50' />
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-12 col-sm-2 filterTitle'>
 				排序
 			</div>
-			<div class='col-10 filterBtnRow sort-row'>
-				<div class='container-fluid row'>
+			<div class='col-12 col-sm-10 filterBtnRow sort-row'>
 					<div class='col-12 col-sm-6'>
 						<select class="sort-by" value="${sortBy}">
 							${
@@ -704,7 +716,6 @@ function renderFilterPanel() {
 							}
 						</select>
 					</div>
-				</div>
 			</div>
 		</div>
 	</div>

@@ -281,11 +281,18 @@
 	font-size: 1.2em;
 }
 
+#filterPanel .row {
+    padding: 10px 15px 0px 15px;
+}
+
+.filterTitle {
+	text-align: center;
+}
+
 .filterBtnRow {
 	display: flex;
 	margin: 5px 0;
 	flex-wrap: wrap;
-	border-bottom: 0px var(--text_color) solid;
 }
 
 .filterBtnRow > div {
@@ -304,12 +311,29 @@
 	cursor: pointer;
 }
 
+.filterBtnRow input, .filterBtnRow input:focus {
+	padding: 5px;
+	color: var(--text_color);
+	background-color: var(--background_color);
+	border-color: var(--text_color);
+}
+
 .filterBtnRow .row {
 	padding-top: 0 !important;
 }
 
-.sort-row > .row > div {
-	padding: 0 5px 0 0;
+.sort-row > div:first-child {
+	padding: 5px 5px 5px 0;
+}
+
+@media (max-width: 575px) {
+	.sort-row > div:first-child {
+		padding: 5px 0 5px 0;
+	}
+}
+
+.sort-row > div:last-child {
+	padding: 5px 0 5px 0;
 }
 
 .filter_icon_selected {
@@ -375,7 +399,7 @@
 }
 
 .reset-filter {
-	margin-left: 16px;
+	margin-left: 10px;
 	cursor: pointer;
 }
 

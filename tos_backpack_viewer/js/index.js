@@ -478,6 +478,9 @@ function showSeal(name)
 	
 	// Saitama easter egg :)
 	setGlassBreak()
+	
+	// Jotaro and Dio easter egg :)
+	setOraMuda()
 }
 
 function renderPageControl(pageCount, position) {

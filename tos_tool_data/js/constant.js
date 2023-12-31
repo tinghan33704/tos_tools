@@ -1055,7 +1055,7 @@ const input_maxlength = 50;
 const uid_maxlength = 11;
 const veri_maxlength = 6;
 
-const active_skill_notification = '警告：流光災厄級<b>同屬三十字盾</b>大量發生中！<br>違建加三排請洽「<font color="red"><b>增加符石</b></font>」'
+const active_skill_notification = ''
 const team_skill_notification = ''
 const leader_skill_notification = ''
 const craft_notification = ''

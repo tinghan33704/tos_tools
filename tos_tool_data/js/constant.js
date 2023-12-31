@@ -1055,11 +1055,11 @@ const input_maxlength = 50;
 const uid_maxlength = 11;
 const veri_maxlength = 6;
 
-const active_skill_notification = ''
-const team_skill_notification = ''
-const leader_skill_notification = ''
-const craft_notification = ''
-const backpack_notification = ''
+const active_skill_notification = '2024 新年快樂<br>新的一年也請多指教~'
+const team_skill_notification = '2024 新年快樂<br>新的一年也請多指教~'
+const leader_skill_notification = '2024 新年快樂<br>新的一年也請多指教~'
+const craft_notification = '2024 新年快樂<br>新的一年也請多指教~'
+const backpack_notification = '2024 新年快樂<br>新的一年也請多指教~'
 
 /* calculate remain days */
 

@@ -143,7 +143,12 @@ function init() {
 						  tool_id === 'team_skill' ? '2020' : 
 						  tool_id === 'backpack' || tool_id === 'id_selector' ? '2021' : 
 						  tool_id === 'monster_selector' || tool_id === 'leader_skill' ? '2022' : ''
-        return `Copyright © ${startYear}-${currYear} 蒼曜(tinghan33704)`
+        return `
+			<div class='author_info'>
+				<div>Copyright © ${startYear}-${currYear} 蒼曜(tinghan33704)</div>
+				<div class='author_link'><a target='_blank' href='https://www.facebook.com/profile.php?id=100070781094266'><img src='../tos_tool_data/img/other/fb_icon.png' /></a>
+				<a target='_blank' href='https://home.gamer.com.tw/profile/index.php?&owner=tinghan33704'><img src='../tos_tool_data/img/other/bahamut_icon.png' /></a></div>
+			</div>`
     });
     
     $("#start_filter").length && $("#start_filter").on("click", startFilter);

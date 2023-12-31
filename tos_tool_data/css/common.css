@@ -1010,6 +1010,35 @@ select {
 	cursor: pointer;
 }
 
+.author_info {
+	height: 18px;
+}
+
+@media (min-width:528px) {
+    .author_info {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+    }
+}
+
+.author_link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.author_info a {
+	margin-left: 8px;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.author_info img {
+	width: 18px;
+}
 
 /* Tatsumaki & Fubuki easter egg */
 

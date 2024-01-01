@@ -987,3 +987,67 @@ function setBlueCircles() {
 		showBlueCircles(event.pageX, event.pageY)
 	});
 }
+
+// Jotaro and Dio easter egg :)
+function setOraMuda() {
+	function showOraMuda(x, y, text) {
+		const scaleRange = { min: 0.5, max: 0.8 }
+		const angleRange = { min: -20, max: 20 }
+		const posRange = { min: 50, max: 80 }
+		
+		const scale = scaleRange.min + Math.random() * (scaleRange.max - scaleRange.min)
+		const angle = angleRange.min + Math.random() * (angleRange.max - angleRange.min)
+		const posOffset = { 
+			x: (posRange.min + Math.random() * (posRange.max - posRange.min)) * (Math.round(Math.random()) * 2 - 1), 
+			y: (posRange.min + Math.random() * (posRange.max - posRange.min)) * (Math.round(Math.random()) * 2 - 1)
+		}
+		
+		const stamp = Date.now()
+		$('<img/>',{
+			src: `../tos_tool_data/img/other/${text}.png`,
+			style: `position: absolute; left: ${x - 100 + posOffset.x}px; top: ${y - 100 + posOffset.y}px; pointer-events: none; user-select: none; opacity: 1; transform: rotate(${angle}deg) scale(${scale}); z-index: 10000;`,
+			unselectable: 'on',
+			id: `${text}-${stamp}`
+		}).appendTo('body').fadeOut(500, () => {
+			$(`#${text}-${stamp}`).remove()
+		});
+	}
+	
+	function showImpact(x, y) {
+		const scale = 0.7;
+		const angle = Math.random() * 360
+		const posRange = { min: 0, max: 20 }
+		
+		const posOffset = { 
+			x: (posRange.min + Math.random() * (posRange.max - posRange.min)) * (Math.round(Math.random()) * 2 - 1), 
+			y: (posRange.min + Math.random() * (posRange.max - posRange.min)) * (Math.round(Math.random()) * 2 - 1)
+		}
+		
+		const stamp = Date.now()
+		$('<img/>',{
+			src: `../tos_tool_data/img/other/impact.png`,
+			style: `position: absolute; left: ${x - 100 + posOffset.x}px; top: ${y - 100 + posOffset.y}px; pointer-events: none; user-select: none; opacity: 0.6; transform: rotate(${angle}deg) scale(${scale}); z-index: 10000;`,
+			unselectable: 'on',
+			id: `impact-${stamp}`
+		}).appendTo('body').fadeOut(200, () => {
+			$(`#impact-${stamp}`).remove()
+		});
+	}
+	
+	function toggleClass(target) {
+		$(target).toggleClass('shake-small')
+	}
+	
+	$('img[class^="monster_img"][src$="/10581.png"]').click(function(e){
+		showImpact(event.pageX, event.pageY)
+		showOraMuda(event.pageX, event.pageY, 'ora')
+		toggleClass(e.target)
+		setTimeout(() => toggleClass(e.target), 200)
+	});
+	
+	$('img[class^="monster_img"][src$="/dio.png"]').click(function(e){
+		showOraMuda(event.pageX, event.pageY, 'muda')
+		toggleClass(e.target)
+		setTimeout(() => toggleClass(e.target), 200)
+	});
+}

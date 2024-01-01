@@ -291,6 +291,7 @@ function startFilter()
     $('[data-toggle=popover]').popover({
         container: 'body',
         html: true,
+		sanitize: false,
         trigger: 'focus',
         placement: 'bottom'
     })
@@ -308,7 +309,7 @@ function renderCraftInfo(craft_id) {
 	<div class='skill_tooltip monster_name monster_name_${attr_zh_to_en[craft_info?.attribute]} col-12 col-sm-12'>${craft_info.name}</div>
 	<hr class='skill_tooltip craft_skill_hr' />`
     
-	let object_str = craft_info?.monster ? craft_info.monster.map(m => `<img class='skill_tooltip monster_img' src='../tos_tool_data/img/monster/${m}.png' title='${`No.${m} ${monster_data.find(monster => monster.id === m)?.name}`}' />`).join('') : craft_info?.series ? `擁有${craft_info?.series.map(s => `<span class='craft_object_series'>【${s}】</span>`).join('、')}特性` : (
+	let object_str = craft_info?.monster ? craft_info.monster.map(m => `<img class='skill_tooltip monster_img' src='../tos_tool_data/img/monster/${m}.png' onerror='this.src=&quot;../tos_tool_data/img/monster/noname_${attr_zh_to_en[monster_data.find(monster => monster.id === m)?.attribute]}.png&quot;' title='${`No.${m} ${monster_data.find(monster => monster.id === m)?.name}`}' />`).join('') : craft_info?.series ? `擁有${craft_info?.series.map(s => `<span class='craft_object_series'>【${s}】</span>`).join('、')}特性` : (
 		(craft_info?.attribute && craft_info?.attribute !== '沒有限制') ? `<img src='../tos_tool_data/img/monster/icon_${attr_zh_to_en[craft_info?.attribute]}.png' width='25' \>&nbsp;` : ''
 	) + (
 		(craft_info?.race && craft_info?.race !== '沒有限制') ? `<img src='../tos_tool_data/img/monster/icon_${race_zh_to_en[craft_info?.race]}.png' width='25' \>&nbsp;`: ''

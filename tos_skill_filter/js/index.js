@@ -607,6 +607,9 @@ function startFilter()
 	// Attack on Titan easter egg :)
 	chinarashiShake()
 	
+	// Jotaro and Dio easter egg :)
+	setOraMuda()
+	
     jumpTo("result_title");
 }
 

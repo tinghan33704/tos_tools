@@ -478,7 +478,7 @@ select {
 	filter: grayscale(100%) opacity(40%);
 }
 .relative_img {
-    max-width: 6%;
+    max-width: 40px;
     margin: 2px 0;
 }
 .monster_img:focus, .monster_img_gray:focus {

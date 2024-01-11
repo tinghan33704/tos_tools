@@ -968,7 +968,7 @@ select {
     overflow-x: hidden;
     padding-top: 20px;
     transition: 0.5s;
-    z-index: 2;
+    z-index: 101;
 }
 
 .side_navigation a {

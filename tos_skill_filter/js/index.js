@@ -1226,6 +1226,41 @@ function compressResult() {
 	renderResult()
 }
 
+function changeOptionsUrl() {
+	let opt_str = ''
+	$(`.filter-row .filter`).each(function() {
+        if($(this).prop('checked')) {
+			const label = $(this).next("label").text()
+			
+			if(['多重左上狀態', '頭像狀態', '敵身狀態'].includes(label)) return
+			
+			opt_str += label in option_obj ? option_obj[label].reduce((acc, cur) => {
+				return acc * 2 + (cur ? 1 : 0)
+			}, 0).toString() : '0'
+		}
+    })
+	
+	return opt_str
+}
+
+function setOptionsFromUrl(skill, option) {
+	option_obj = {}
+	$(skill_type_string.flat()).each(function(index, item) {
+		if(skill[index] === '1' && !['多重左上狀態', '頭像狀態', '敵身狀態'].includes(item)) {
+			option_obj[item] = Array(option_text.length).fill(false)
+		}
+    })
+	$(Object.keys(option_obj)).each(function(index, item) {
+		let optionCode = +option[index] || 0
+		const optionArr = option_obj[item].map(o => {
+			const code = optionCode % 2
+			optionCode = Math.trunc(optionCode / 2)
+			return !!code
+		})
+		option_obj[item] = optionArr.reverse()
+    })
+}
+
 function chinarashiShake() {
 	function toggleClass() {
 		$("#result-row div[class*='result']").toggleClass('shake');

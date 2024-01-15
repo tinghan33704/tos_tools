@@ -617,8 +617,9 @@ function changeUrl()
     let actv_str = isTypeSelected(".activate-row") ? `actv=${encode(".activate-row")}&` : ''
     let armed_str = isTypeSelected(".armed-row") ? `armed=${encode(".armed-row")}&` : ''
     let or_str = `or=${or_filter_value.indexOf(or_filter)}&`
+    let option_str = (typeof changeOptionsUrl === 'function' && isTypeSelected(".filter-row")) ? `opt=${changeOptionsUrl()}&` : ''
 	
-	let queryStr = `${search_str}${armed_str}${keyword_str}${attr_str}${race_str}${star_str}${charge_str}${genre_str}${or_str}${tag_str}${mode_str}${actv_str}`
+	let queryStr = `${search_str}${armed_str}${keyword_str}${attr_str}${race_str}${star_str}${charge_str}${genre_str}${tag_str}${mode_str}${actv_str}${option_str}${or_str}`
 	queryStr = 	queryStr.length > 0 ? 
 					queryStr.endsWith('&') ? 
 						`?${queryStr.slice(0, -1)}` :
@@ -649,6 +650,7 @@ function readUrl()
 	'mode' in inputQuery && setButtonFromUrl(".mode-row", decode(inputQuery['mode']), clearFilterButtonRow('mode'));
 	'armed' in inputQuery && setButtonFromUrl(".armed-row", decode(inputQuery['armed']), clearFilterButtonRow('armed'));
 	'or' in inputQuery && andOrChange(null, parseInt(inputQuery['or']));
+	'opt' in inputQuery && typeof setOptionsFromUrl === 'function' && setOptionsFromUrl(decode(inputQuery['search']), inputQuery['opt'])
     
     startFilter();
     

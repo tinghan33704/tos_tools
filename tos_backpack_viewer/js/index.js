@@ -224,14 +224,16 @@ function loadingPanel() {
 }
 
 function renderSealTabs() {
-	const tabCount = Object.keys(sealContent).length
+	const tabsWithoutAllMax = Object.keys(sealContent).filter(name => !name?.includes('自選'))
+	const tabCount = Object.keys(tabsWithoutAllMax).length
 	const tabLength = Math.trunc(12 / tabCount)
 	const marginLength = (12 - tabLength * tabCount) / 2
 	
 	let str = ''
 	if(marginLength > 0) str += `<div class='col-6 col-md-${marginLength} col-lg-${marginLength}'></div>`
 	Object.keys(sealContent).forEach((sealName, index) => {
-		str += `<div class='col-6 col-md-${tabLength} col-lg-${tabLength} seal-nav${index == 0 ? ' seal-nav-active' : ''}' id='showSeal${index}'>${sealName}</div>`
+		if(sealName?.includes('自選')) str += `<div class='col-12 col-md-12 col-lg-12 seal-nav${index == 0 ? ' seal-nav-active' : ''}' id='showSeal${index}'>${sealName}</div>`
+		else str += `<div class='col-6 col-md-${tabLength} col-lg-${tabLength} seal-nav${index == 0 ? ' seal-nav-active' : ''}' id='showSeal${index}'>${sealName}</div>`
 	})
 	if(marginLength > 0) str += `<div class='col-6 col-md-${marginLength} col-lg-${marginLength}'></div>`
 	

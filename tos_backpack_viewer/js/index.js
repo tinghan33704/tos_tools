@@ -703,24 +703,24 @@ function renderFilterPanel() {
 				排序
 			</div>
 			<div class='col-12 col-sm-10 filterBtnRow sort-row'>
-					<div class='col-12 col-sm-6'>
-						<select class="sort-by" value="${sortBy}">
-							${
-								Object.keys(sortByCategories).map(item => {
-									return `<option value="${item}" ${sortBy === item && 'selected'}>${sortByCategories[item]}</option>`
-								}).join('')
-							}
-						</select>
-					</div>
-					<div class='col-12 col-sm-6'>
-						<select class="order-by" value="${orderBy}">
-							${
-								Object.keys(orderByCategories).map(item => {
-									return `<option value="${item}" ${orderBy === item && 'selected'}>${orderByCategories[item]}</option>`
-								}).join('')
-							}
-						</select>
-					</div>
+				<div class='col-12 col-sm-6'>
+					<select class="sort-by" value="${sortBy}">
+						${
+							Object.keys(sortByCategories).map(item => {
+								return `<option value="${item}" ${sortBy === item && 'selected'}>${sortByCategories[item]}</option>`
+							}).join('')
+						}
+					</select>
+				</div>
+				<div class='col-12 col-sm-6'>
+					<select class="order-by" value="${orderBy}">
+						${
+							Object.keys(orderByCategories).map(item => {
+								return `<option value="${item}" ${orderBy === item && 'selected'}>${orderByCategories[item]}</option>`
+							}).join('')
+						}
+					</select>
+				</div>
 			</div>
 		</div>
 	</div>

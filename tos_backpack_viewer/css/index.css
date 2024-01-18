@@ -200,6 +200,7 @@
 		-1px  0   0 #9E2C0D;
 	text-align: right;
 	font-weight: bold;
+	z-index: 1;
 }
 
 @media (max-width: 575px) {

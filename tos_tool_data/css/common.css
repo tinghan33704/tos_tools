@@ -284,10 +284,12 @@ select {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
+	left: 60px;
 }
 @media (max-width: 992px) {
 	#tool_title {
 		justify-content: center;
+		left: 20px;
 	}
 }
 .row_title {
@@ -956,6 +958,11 @@ select {
     border-radius: 5px;
 }
 
+.side-nav {
+	left: 20px;
+	position: fixed;
+	z-index: 1;
+}
 
 .toggle-navbar {
 	display: flex;

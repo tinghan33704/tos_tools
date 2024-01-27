@@ -57,8 +57,8 @@ $(document).ready(async function() {
 	
 	const currentTime = new Date().getTime()
 	// All Max 活動時間
-	const startTime = new Date('2023-01-21T00:00:00+0800').getTime()
-	const endTime = new Date('2023-05-21T23:59:59+0800').getTime();
+	const startTime = new Date('2024-01-27T00:00:00+0800').getTime()
+	const endTime = new Date('2024-05-19T23:59:59+0800').getTime();
 	if(currentTime < startTime || currentTime > endTime) {
 		delete sealContent[Object.keys(sealContent).find(name => name.includes('自選'))]
 	}
@@ -365,9 +365,10 @@ function showSeal(name)
 		Object.keys(sealData).forEach((genre, genreIndex) => {
 			let cardData = sealData[genre]
 			
-			const mustGet = [...Array(5).keys()].map(i => i+1).includes(sealData[genre].filter(monster => {
+			/* const mustGet = [...Array(5).keys()].map(i => i+1).includes(sealData[genre].filter(monster => {
 				return Array.isArray(monster) ? !monster.some(id => playerData.card.includes(id)) : !playerData.card.includes(monster)
-			}).length) || sealData[genre].length <= 5
+			}).length) || sealData[genre].length <= 5 */
+			const mustGet = false
 			
 			allCardStr = !name.includes('其他卡片') ? allCardTitle[Math.floor(Math.random()*(allCardTitle.length))] : allCardOtherTitle[Math.floor(Math.random()*(allCardOtherTitle.length))]
 			
@@ -378,7 +379,7 @@ function showSeal(name)
 				const attr = attr_zh_to_en[genre.split(' ‧ ')[0].trim()[0]]
 				const race = race_zh_to_en[genre.split(' ‧ ')[1].trim()]
 				genreStr = `<img src='../tos_tool_data/img/monster/icon_${attr}.png' style='width: 1em'>&nbsp;<img src='../tos_tool_data/img/monster/icon_${race}.png' style='width: 1em'>&nbsp;${genreStr}`
-			} 
+			}
 			if(name.includes('其他卡片')) {
 				function isCardInCorrectCategory(id) {
 					const allCategory = currentCardCategory === 'all'
@@ -427,7 +428,9 @@ function showSeal(name)
 			const cardNumHave = cardData.filter(monster => Array.isArray(monster) ? monster.some(id => playerData.card.includes(id)) : playerData.card.includes(monster)).length
 			const cardHaveRatioElement = `<div class="cardHaveRatio">${cardNumHave} / ${cardNum}</div>`
 			
-			const genreNameTitle = (genre === '境外探索') ? spCardStr : (isReverseMode && mustGet) ? mustGetTitle : (!isReverseMode && hasCard) ? allCardStr : ''
+			// const genreNameTitle = (genre === '境外探索') ? spCardStr : (isReverseMode && mustGet) ? mustGetTitle : (!isReverseMode && hasCard) ? allCardStr : ''
+			
+			const genreNameTitle = (genre === '境外探索') ? spCardStr : (!isReverseMode && hasCard) ? allCardStr : ''
 			
 			const expandIcon = `
 				<div class='collapse-icon collapse-icon-${genreIndex}' data-toggle="collapse" data-target=".genre-content-${genreIndex}" aria-expanded="true" onclick='toggleTitleIcon(event, ${genreIndex})'>

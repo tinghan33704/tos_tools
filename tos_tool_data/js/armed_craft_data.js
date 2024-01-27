@@ -1,4 +1,4 @@
-// Last modified : 2024.01.23 15:28
+// Last modified : 2024.01.28 00:54
 
 const armed_craft_data = [
     {
@@ -28433,7 +28433,7 @@ const armed_craft_data = [
         'armed_tag': ['延長轉珠時間', '進場減CD'],
     },
     {
-        'id': 9011,
+        'id': 9012,
         'name': '【9012】 週年蛋糕龍弦',
         'mode': '節奏龍弦',
         'attribute': '沒有限制',
@@ -28575,5 +28575,21 @@ const armed_craft_data = [
         'skill_tag': ['增傷', '減CD', '直行轉暗', '直行轉心', '機械族符石製造'],
         'armed_description': ['必然延長移動符石時間 1 秒', '消除 1 組 3 粒或以上的暗符石，自身攻擊力 1.39 倍', '消除 20 粒或以上符石，自身攻擊力 1.39 倍'],
         'armed_tag': ['延長轉珠時間', '增傷', '自身增傷'],
+    },
+    {
+        'id': 9021,
+        'name': '【9021】 週年蛋糕龍丸',
+        'mode': '鏡像龍丸',
+        'attribute': '沒有限制',
+        'race': '沒有限制',
+        'star': 2,
+        'charge': '消除符石',
+        'add_hp': 5,
+        'add_atk': 5,
+        'add_rec': 5,
+        'skill_description': ['1 回合內，完全回復生命力', '1 回合內，隊伍攻擊力及回復力提升 25%'],
+        'skill_tag': ['回血', '增傷', '增回'],
+        'armed_description': ['必然延長移動符石時間 1 秒', '進入關卡後，自身主動技能 CD 減少 1'],
+        'armed_tag': ['延長轉珠時間', '進場減CD'],
     },
 ]

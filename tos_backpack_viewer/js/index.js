@@ -375,7 +375,7 @@ function showSeal(name)
 			spCardStr = specialCardTitle[0]
 			
 			let genreStr = `${genre}`
-			if(name.includes('自選')) {
+			if(name.includes('自選') && genre.includes(' ‧ ')) {
 				const attr = attr_zh_to_en[genre.split(' ‧ ')[0].trim()[0]]
 				const race = race_zh_to_en[genre.split(' ‧ ')[1].trim()]
 				genreStr = `<img src='../tos_tool_data/img/monster/icon_${attr}.png' style='width: 1em'>&nbsp;<img src='../tos_tool_data/img/monster/icon_${race}.png' style='width: 1em'>&nbsp;${genreStr}`

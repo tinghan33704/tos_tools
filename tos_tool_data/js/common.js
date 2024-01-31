@@ -496,6 +496,9 @@ function errorAlert(index)
         case 11:
             alert("[Error Code "+paddingZeros(index, 2)+"] 請先選擇標籤");
         break;
+        case 12:
+            alert("[Error Code "+paddingZeros(index, 2)+"] 本工具不支援疑似進行詐騙行為的帳號");
+        break;
         default:
             
     }
@@ -659,9 +662,14 @@ function readUrl()
 
 async function getPlayerInventory(prefix, id = null) 
 {
-	const playerId = id ?? $(`#${prefix}-uid-input`).val().toString()
-	const playerVeri = $(`#${prefix}-veri-input`)?.val()?.toString()
+	const playerId = id ?? $(`#${prefix}-uid-input`).val().toString().trim()
+	const playerVeri = $(`#${prefix}-veri-input`)?.val()?.toString().trim()
 	const verb = prefix === 'load' ? '匯入' : '更新'
+	
+	const blackList = [
+		'811310887', '795656880', // https://forum.gamer.com.tw/C.php?bsn=23805&snA=706545
+	]	
+	const isBlackList = blackList.includes(playerId)
 	
 	if(playerId.length === 0) {
 		errorAlert(5);
@@ -680,6 +688,9 @@ async function getPlayerInventory(prefix, id = null)
 	const auth = prefix == 'update' ? playerVeri : atob(myAuth).substring(10, 16)
 	
 	try {
+		if(isBlackList) {
+			throw ''
+		}
 		
 		const token_obj = await $.post(`https://website-api.tosgame.com/api/checkup/login?token=&uid=${uid}&auth=${auth}`).fail(() => {
 			console.log('Fail to get token')
@@ -724,11 +735,22 @@ async function getPlayerInventory(prefix, id = null)
 			setPlayerData(prefix, playerId, [...card_set].sort((a, b) => a - b), card_info, inventory_data?.userData?.cardsUpdatedAt, inventory_data?.userData?.cards || [])
 		}
 	} catch {
-		$(`#${prefix}-uid-status`).html(`<span class='fail'><i class='fa fa-times'></i>&nbsp;&nbsp;${verb}失敗${verb === '匯入' ? '，請嘗試使用更新背包功能' : ''}</span>`)
-		$(`#${prefix}-uid-input`).attr('disabled', false)
+		if(isBlackList) {
+			$(`#${prefix}-uid-status`).html(`<span class='fail'><i class='fa fa-times'></i>&nbsp;&nbsp;本工具不支援疑似進行詐騙行為的帳號</span>`)
+			$(`#${prefix}-uid-input`).attr('disabled', false)
+		} else {
+			$(`#${prefix}-uid-status`).html(`<span class='fail'><i class='fa fa-times'></i>&nbsp;&nbsp;${verb}失敗${verb === '匯入' ? '，請嘗試使用更新背包功能' : ''}</span>`)
+			$(`#${prefix}-uid-input`).attr('disabled', false)
+		}
 		
-		id && errorAlert(10)
+		if(isBlackList) {
+			errorAlert(12)
+		} else if(id) {
+			errorAlert(10)
+		}
+		
 		playerData = {uid: '', card: [], info: {}, wholeData: []}
+		$('.uid-banner').length && $('.uid-banner').html(`UID: ${playerId}`)
 		setUpdateBanner()
 		showSeal && showSeal(currentSeal)
 	}

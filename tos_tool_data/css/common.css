@@ -960,7 +960,7 @@ select {
 
 .side-nav {
 	left: 20px;
-	position: fixed;
+	position: absolute;
 	z-index: 1;
 }
 

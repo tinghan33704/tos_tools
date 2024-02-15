@@ -1070,6 +1070,15 @@ function descriptionTranslator(monster_id, description) {
 		.replace(/【階段 (\d*)】/g, `<font class='multiple_effect_tag'>【階段 $1】</font>`)
 		.replace(/效果(\d+)：/g, `<font class='multiple_effect_tag'>效果$1：</font>`)
 		.replace(/【連攜魔導式】/g, `<span class='desc_note_label' onmouseover='renderDescriptionNote(0)' ontouchstart='renderDescriptionNote(0)'>【連攜魔導式】</span>`)
+		.replace(/亢奮(狀態)?/g, `<span class='desc_note_label positive_note_label' onmouseover='renderDescriptionNote(1)' ontouchstart='renderDescriptionNote(1)'>亢奮$1</span>`)
+		.replace(/疲憊(狀態)?/g, `<span class='desc_note_label negative_note_label' onmouseover='renderDescriptionNote(2)' ontouchstart='renderDescriptionNote(2)'>疲憊$1</span>`)
+		.replace(/暴擊(狀態)?/g, `<span class='desc_note_label positive_note_label' onmouseover='renderDescriptionNote(1)' ontouchstart='renderDescriptionNote(1)'>暴擊$1</span>`)
+		.replace(/暴怒(狀態)?/g, `<span class='desc_note_label positive_note_label' onmouseover='renderDescriptionNote(3)' ontouchstart='renderDescriptionNote(3)'>暴怒$1</span>`)
+		.replace(/神選(狀態)?/g, `<span class='desc_note_label positive_note_label' onmouseover='renderDescriptionNote(4)' ontouchstart='renderDescriptionNote(4)'>神選$1</span>`)
+		.replace(/風壓(狀態)?/g, `<span class='desc_note_label negative_note_label' onmouseover='renderDescriptionNote(5)' ontouchstart='renderDescriptionNote(5)'>風壓$1</span>`)
+		.replace(/休眠(狀態)?/g, `<span class='desc_note_label negative_note_label' onmouseover='renderDescriptionNote(6)' ontouchstart='renderDescriptionNote(6)'>休眠$1</span>`)
+		.replace(/([痲麻])痺(狀態)?/g, `<span class='desc_note_label negative_note_label' onmouseover='renderDescriptionNote(7)' ontouchstart='renderDescriptionNote(7)'>$1痺$2</span>`)
+		.replace(/沉默(狀態)?/g, `<span class='desc_note_label negative_note_label' onmouseover='renderDescriptionNote(8)' ontouchstart='renderDescriptionNote(8)'>沉默$1</span>`)
 }
 
 function showFixedBoard(id, subid) {
@@ -1144,7 +1153,31 @@ function renderFixedBoard(data, row, column, note) {
 function renderDescriptionNote(desc_index) {
 	switch(desc_index) {
 		case 0:
-			$("#descriptionNote").html('場上有【連攜魔導式】技能生效時<br>⓵【連攜魔導式】類別技能<br>⇒ 不能發動<br>⓶ 改為可發動另一技能：<br>延長當前【連攜魔導式】 1 回合效果<br>⇒ 最多可延長至 6 回合')
+			$("#descriptionNote").html('<span style="color:var(--text_desc_label_color);">場上有【連攜魔導式】技能生效時<br>⓵【連攜魔導式】類別技能<br>⇒ 不能發動<br>⓶ 改為可發動另一技能：<br>延長當前【連攜魔導式】 1 回合效果<br>⇒ 最多可延長至 6 回合</span>')
+		break;
+		case 1:
+			$("#descriptionNote").html('<span style="color:var(--text_positive_label_color);">攻擊力 2 倍</span>')
+		break;
+		case 2:
+			$("#descriptionNote").html('<span style="color:var(--text_negative_label_color);">攻擊力降為 0</span>')
+		break;
+		case 3:
+			$("#descriptionNote").html('<span style="color:var(--text_positive_label_color);">攻擊力 5 倍</span>')
+		break;
+		case 4:
+			$("#descriptionNote").html('<span style="color:var(--text_positive_label_color);">每有 1 個成員置身神選狀態，增加 5 連擊 (Combo) (需消除符石)</span>')
+		break;
+		case 5:
+			$("#descriptionNote").html('<span style="color:var(--text_negative_label_color);">陷入風壓狀態的角色：⓵ 不能發動技能及攻擊<br>⓶ 不能發動角色符石</span>')
+		break;
+		case 6:
+			$("#descriptionNote").html('<span style="color:var(--text_negative_label_color);">陷入休眠狀態的角色：⓵ 無法使用技能<br>⓶ 攻擊力變 0</span>')
+		break;
+		case 7:
+			$("#descriptionNote").html('<span style="color:var(--text_negative_label_color);">陷入痲痺狀態的角色：⓵ 不能發動攻擊<br>⓶ 自身技能不會冷卻<br>⓷ 自身 EP 不會增加<br>⓸ 自身不受回技或回 EP 影響</span>')
+		break;
+		case 8:
+			$("#descriptionNote").html('<span style="color:var(--text_negative_label_color);">隊伍中有陷入沉默狀態的角色時不能發動龍刻脈動及龍刻技能<br>陷入沉默狀態的角色無法使用技能</span>')
 		break;
 		default:
 			$("#descriptionNote").html('');

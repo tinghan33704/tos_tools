@@ -31,6 +31,9 @@
     --text_charge_tooltip_color_normal: #FF6666;
     --text_charge_sort_color_normal: #343A40;
 	--text_board_label_color_normal: #82e8ff;
+	--text_desc_label_color_normal: #FFC107;
+	--text_positive_label_color_normal: #35e85c;
+	--text_negative_label_color_normal: #fc7474;
 	--text_multiple_color_normal: #FFA500;
 	--text_input_color_normal: black;
     --table_border_normal: #363636;
@@ -86,6 +89,9 @@
     --text_charge_tooltip_color_dark: #AA4444;
     --text_charge_sort_color_dark: #222222;
 	--text_board_label_color_dark: #2ba4bc;
+	--text_desc_label_color_dark: #dba400;
+	--text_positive_label_color_dark: #1d9b36;
+	--text_negative_label_color_dark: #e53737;
 	--text_multiple_color_dark: #af7716;
     --table_border_dark: #AAAAAA;
 	--table_td_selected_background_dark: #046300;
@@ -141,6 +147,9 @@
     --text_charge_tooltip_color: var(--text_charge_tooltip_color_normal);
     --text_charge_sort_color: var(--text_charge_sort_color_normal);
     --text_board_label_color: var(--text_board_label_color_normal);
+	--text_desc_label_color: var(--text_desc_label_color_normal);
+	--text_positive_label_color: var(--text_positive_label_color_normal);
+	--text_negative_label_color: var(--text_negative_label_color_normal);
 	--text_multiple_color: var(--text_multiple_color_normal);
 	--text_input_color: var(--text_input_color_normal);
     --table_border: var(--table_border_normal);
@@ -688,8 +697,20 @@ select {
 .skill_combine img:first-child, .skill_transform img:first-child {
 	margin-left: 0;
 }
-.fixed_board_label, .desc_note_label {
+.fixed_board_label {
 	color: var(--text_board_label_color);
+	cursor: pointer;
+}
+.desc_note_label {
+	color: var(--text_desc_label_color);
+	cursor: pointer;
+}
+.positive_note_label {
+	color: var(--text_positive_label_color);
+	cursor: pointer;
+}
+.negative_note_label {
+	color: var(--text_negative_label_color);
 	cursor: pointer;
 }
 .multiple_effect_tag {
@@ -708,8 +729,7 @@ select {
 #descriptionNote {
 	display: none;
 	position: absolute;
-	color: var(--text_board_label_color);
-	background-color: rgba(120, 120, 120, 0.85);
+	background-color: rgba(60, 60, 60, 0.85);
 	border: 2px solid #333333;
     font-size: 1em;
 	padding: 10px;

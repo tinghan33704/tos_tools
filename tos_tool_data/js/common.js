@@ -289,21 +289,26 @@ function createFilterButtonRow(name, data, postAppend = '') {
             $.each(data, (index, item) => {
 				const iconImg = item === '沒有限制' ? '' : name === 'attr' ? `<img src='../tos_tool_data/img/monster/icon_${attr_zh_to_en[item]}.png'>&nbsp;&nbsp;` : name === 'race' ? `<img src='../tos_tool_data/img/monster/icon_${race_zh_to_en[item]}.png'>&nbsp;&nbsp;` : ''
                 
+				const itemKey = stringToUnicode(`${item}${postAppend}`)
+				
 				str += 
                 `<div class='col-6 col-md-4 col-lg-2 btn-shell' title='${item}${postAppend}'>
                     <input type='checkbox' class='filter' id='${name}-${index}' />
-                    <label class='p-1 w-100 text-center ${name}-btn' for='${name}-${index}'>${iconImg}${item}${postAppend}</label>
+                    <label class='p-1 w-100 text-center ${name}-btn' for='${name}-${index}' key='${itemKey}'>${iconImg}${item}${postAppend}</label>
                 </div>`;
             })
         }
         else {
             $.each(data, (index_group, group) => {
                 str += index_group !== 0 ? `<div class='col-12 my-2'></div>` : ``
+				
                 $.each(group, (index, item) => {
+					const itemKey = stringToUnicode(`${item}${postAppend}`)
+					
                     str += 
                     `<div class='col-6 col-md-4 col-lg-2 btn-shell' title='${item}${postAppend}'>
                         <input type='checkbox' class='filter' id='${name}-${index_group}-${index}' />
-                        <label class='p-1 w-100 text-center ${name}-btn' for='${name}-${index_group}-${index}'>${item}${postAppend}</label>
+                        <label class='p-1 w-100 text-center ${name}-btn' for='${name}-${index_group}-${index}' key='${itemKey}'>${item}${postAppend}</label>
                     </div>`;
                 })
             })

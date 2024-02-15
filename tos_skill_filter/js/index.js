@@ -1165,16 +1165,16 @@ function renderDescriptionNote(desc_index) {
 			$("#descriptionNote").html('<span style="color:var(--text_positive_label_color);">攻擊力 5 倍</span>')
 		break;
 		case 4:
-			$("#descriptionNote").html('<span style="color:var(--text_positive_label_color);">每有 1 個成員置身神選狀態，增加 5 連擊 (Combo) (需消除符石)</span>')
+			$("#descriptionNote").html('<span style="color:var(--text_positive_label_color);">每有 1 個成員置身神選狀態，增加 5 連擊 (Combo)<br> (需消除符石)</span>')
 		break;
 		case 5:
-			$("#descriptionNote").html('<span style="color:var(--text_negative_label_color);">陷入風壓狀態的角色：⓵ 不能發動技能及攻擊<br>⓶ 不能發動角色符石</span>')
+			$("#descriptionNote").html('<span style="color:var(--text_negative_label_color);">陷入風壓狀態的角色：<br>⓵ 不能發動技能及攻擊<br>⓶ 不能發動角色符石</span>')
 		break;
 		case 6:
-			$("#descriptionNote").html('<span style="color:var(--text_negative_label_color);">陷入休眠狀態的角色：⓵ 無法使用技能<br>⓶ 攻擊力變 0</span>')
+			$("#descriptionNote").html('<span style="color:var(--text_negative_label_color);">陷入休眠狀態的角色：<br>⓵ 無法使用技能<br>⓶ 攻擊力變 0</span>')
 		break;
 		case 7:
-			$("#descriptionNote").html('<span style="color:var(--text_negative_label_color);">陷入痲痺狀態的角色：⓵ 不能發動攻擊<br>⓶ 自身技能不會冷卻<br>⓷ 自身 EP 不會增加<br>⓸ 自身不受回技或回 EP 影響</span>')
+			$("#descriptionNote").html('<span style="color:var(--text_negative_label_color);">陷入痲痺狀態的角色：<br>⓵ 不能發動攻擊<br>⓶ 自身技能不會冷卻<br>⓷ 自身 EP 不會增加<br>⓸ 自身不受回技或回 EP 影響</span>')
 		break;
 		case 8:
 			$("#descriptionNote").html('<span style="color:var(--text_negative_label_color);">隊伍中有陷入沉默狀態的角色時不能發動龍刻脈動及龍刻技能<br>陷入沉默狀態的角色無法使用技能</span>')

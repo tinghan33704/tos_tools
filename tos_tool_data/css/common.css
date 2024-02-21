@@ -289,6 +289,19 @@ select {
     border-radius: 5px;
 }
 
+.tool_banner {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+@media (max-width: 576px) {
+	.tool_banner {
+		justify-content: flex-end;
+	}
+}
+
+
+
 #tool_title {
 	display: flex;
 	justify-content: flex-start;

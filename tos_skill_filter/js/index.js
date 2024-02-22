@@ -884,6 +884,7 @@ function renderResult() {
 		container: 'body',
 		html: true,
 		sanitize: false,
+		//trigger: 'click',
 		trigger: 'focus',
 		placement: 'bottom',
     })
@@ -908,14 +909,15 @@ function renderMonsterInfo(monster, monsterObj) {
 	});
 	
 	return `
-		<div class='row monster-info-header'>
-			<div class='col-6 col-sm-1 monster_attr'>
+		<div class='row monster_info_header'>
+			<div class='monster_attr_race_star col-12 col-sm-3'>
 				<img src='../tos_tool_data/img/monster/icon_${attr_zh_to_en[monster_info.attribute]}.png' width='25px'/>
-			</div>
-			<div class='col-6 col-sm-1 monster_race'>
 				<img src='${monster.id === 10444 ? `../tos_tool_data/img/other/icon_yao.png` : monster.id === 10495 ? `../tos_tool_data/img/other/icon_kirito.png` : `../tos_tool_data/img/monster/icon_${race_zh_to_en[monster_info.race]}.png`}' width='25px'/>
+				<img src='../tos_tool_data/img/monster/icon_${monster_info.star}.png' width='25px'/>
 			</div>
-			<div class='skill_tooltip monster_name monster_name_${attr_zh_to_en[monster_info.attribute]} col-12 col-sm-10'>${monster_info.name}</div>
+			<div class='skill_tooltip monster_name monster_name_${attr_zh_to_en[monster_info.attribute]} col-12 col-sm-9'>
+				${monster_info.name}
+			</div>
 			<hr>
 		</div>
 	`

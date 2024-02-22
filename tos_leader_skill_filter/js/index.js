@@ -685,7 +685,7 @@ function renderMonsterInfo(monster, monsterObj) {
 	});
 	
     const sk_str = `
-		<div class='row monster_info_header'>
+		<div class='row monster_info_header monster_info_header_${attr_zh_to_en[monster_info.attribute]}'>
 			<div class='monster_attr_race_star col-12 col-sm-3'>
 				<img src='../tos_tool_data/img/monster/icon_${attr_zh_to_en[monster_info.attribute]}.png' width='25px'/>
 				<img src='../tos_tool_data/img/monster/icon_${race_zh_to_en[monster_info.race]}.png' width='25px'/>

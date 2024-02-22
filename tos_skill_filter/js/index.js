@@ -909,7 +909,7 @@ function renderMonsterInfo(monster, monsterObj) {
 	});
 	
 	return `
-		<div class='row monster_info_header'>
+		<div class='row monster_info_header monster_info_header_${attr_zh_to_en[monster_info.attribute]}'>
 			<div class='monster_attr_race_star col-12 col-sm-3'>
 				<img src='../tos_tool_data/img/monster/icon_${attr_zh_to_en[monster_info.attribute]}.png' width='25px'/>
 				<img src='${monster.id === 10444 ? `../tos_tool_data/img/other/icon_yao.png` : monster.id === 10495 ? `../tos_tool_data/img/other/icon_kirito.png` : `../tos_tool_data/img/monster/icon_${race_zh_to_en[monster_info.race]}.png`}' width='25px'/>

@@ -41,7 +41,7 @@
 	--table_td_selected_background_normal: #27B821;
 	--text_monster_name_water_color_normal: #55A4D7;
 	--text_monster_name_fire_color_normal: #F75856;
-	--text_monster_name_earth_color_normal: #76CA00;
+	--text_monster_name_earth_color_normal: #50C900;
 	--text_monster_name_light_color_normal: #F8CC2F;
 	--text_monster_name_dark_color_normal: #CB80D5;
 	--div_selector_result_background_normal: #ECFFFF;
@@ -592,6 +592,24 @@ select {
 	top: 0;
 	padding-top: 0.5rem;
 	z-index: 99;
+}
+.monster_info_header hr {
+	margin: 6px 0 0 0;
+}
+.monster_info_header_w {
+	background: color-mix(in srgb, var(--text_monster_name_water_color), var(--tooltip_color) 80%);
+}
+.monster_info_header_f {
+	background: color-mix(in srgb, var(--text_monster_name_fire_color), var(--tooltip_color) 80%);
+}
+.monster_info_header_e {
+	background: color-mix(in srgb, var(--text_monster_name_earth_color), var(--tooltip_color) 80%);
+}
+.monster_info_header_l {
+	background: color-mix(in srgb, var(--text_monster_name_light_color), var(--tooltip_color) 80%);
+}
+.monster_info_header_d {
+	background: color-mix(in srgb, var(--text_monster_name_dark_color), var(--tooltip_color) 80%);
 }
 .monster_attr_race_star {
     display: flex;

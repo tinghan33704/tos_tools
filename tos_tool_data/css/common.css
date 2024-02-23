@@ -421,41 +421,54 @@ select {
     border-top: 2px var(--table_border) double;
 }
 .monster_tr {
-    border-top: 1.5px var(--table_border_center) solid;
+    border-top: 2px var(--table_border_center) solid;
 }
 .monster_tr_w {
-    background-color: rgba(206, 225, 255, 0.2);
+    background-color: color-mix(in srgb, var(--text_monster_name_water_color), transparent 90%);
 }
 .monster_tr_f {
-    background-color: rgba(246, 152, 152, 0.2);
+    background-color: color-mix(in srgb, var(--text_monster_name_fire_color), transparent 90%);
 }
 .monster_tr_e {
-    background-color: rgba(152, 246, 155, 0.2);
+    background-color: color-mix(in srgb, var(--text_monster_name_earth_color), transparent 90%);
 }
 .monster_tr_l {
-    background-color: rgba(246, 232, 152, 0.2);
+    background-color: color-mix(in srgb, var(--text_monster_name_light_color), transparent 90%);
 }
 .monster_tr_d {
-    background-color: rgba(208, 152, 246, 0.2);
+    background-color: color-mix(in srgb, var(--text_monster_name_dark_color), transparent 90%);
 }
 .td_monster_icon {
     width: 10%;
+    border-right: 1px solid var(--table_border_center); 
 }
 .td_monster_icon a {
     text-decoration: none;
     color: var(--text_monsterid_color);
 }
-.td_description, .td_monster_icon {
-    border-right: 1px solid var(--table_border_center); 
-}
 .td_description, .td_activate {
-    width: 45%;
+    width: 90%;
     font-size: 1em;
     color: var(--text_color);
     border-bottom: 1px solid var(--table_border_center); 
 }
 .td_relative {
     width: 90%;
+}
+.monster_tr_w .td_description {
+	box-shadow: inset 5px 0 0 0 color-mix(in srgb, var(--text_monster_name_water_color), transparent 40%);
+}
+.monster_tr_f .td_description {
+	box-shadow: inset 5px 0 0 0 color-mix(in srgb, var(--text_monster_name_fire_color), transparent 40%);
+}
+.monster_tr_e .td_description {
+	box-shadow: inset 5px 0 0 0 color-mix(in srgb, var(--text_monster_name_earth_color), transparent 40%);
+}
+.monster_tr_l .td_description {
+	box-shadow: inset 5px 0 0 0 color-mix(in srgb, var(--text_monster_name_light_color), transparent 40%);
+}
+.monster_tr_d .td_description {
+	box-shadow: inset 5px 0 0 0 color-mix(in srgb, var(--text_monster_name_dark_color), transparent 40%);
 }
 .tag_wrapper {
     /* width: 25%; */

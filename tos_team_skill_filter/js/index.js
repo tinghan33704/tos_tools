@@ -175,7 +175,7 @@ function startFilter()
                     {
                         str += `
                             <tr class="monster_first_tr monster_tr_${attr_zh_to_en[monster_attr]}">
-                                <td class="td_monster_icon" rowspan=${monster.nums.length*2}>
+                                <td class="td_monster_icon" rowspan=${monster.nums.length * 3}>
                                     <a href="https://tos.fandom.com/zh/wiki/${monster.id}" target="_blank">
                                         <img class="monster_img" src="../tos_tool_data/img/monster/${monster.id}.png" title="${monster_name}" onerror="this.src='${error_path}'"></img>
                                         <div class="monsterId">${paddingZeros(monster.id, 3)}</div>
@@ -192,12 +192,14 @@ function startFilter()
                                 <td class="td_description">
                                     ${descriptionTranslator(skill.description)}
                                 </td>
+                            </tr>
+							<tr class="monster_tr_${attr_zh_to_en[monster_attr]}">
                                 <td class="td_activate">
                                     ${skill.activate}
                                 </td>
                             </tr>
-                            <tr>
-                                <td colspan=2 class="td_relative monster_tr_${attr_zh_to_en[monster_attr]}">
+                            <tr class="monster_tr_${attr_zh_to_en[monster_attr]}">
+                                <td class="td_relative">
                     `
                     
 					const relativeMonsters = new Set()

@@ -256,6 +256,8 @@ function startFilter()
 	
 	let keyword_set = checkKeyword();
 	
+	let alias_skill_set = addAlias(skill_set, [...keyword_set])
+	
 	// easter egg :)
 	if(!isSkillSelected && !isAttrSelected && !isRaceSelected && !isStarSelected && !isChargeSelected && !isTagSelected && keyword_set.size === 1 && [...keyword_set][0] === '蒼曜') easterEggFlag = true;
 	
@@ -297,7 +299,7 @@ function startFilter()
 				
 				// Check for skill tags
 				
-				let isMonsterMatch = [...skill_set].every(selected_feat => {
+				let isMonsterMatch = [...skill_set, ...alias_skill_set].every(selected_feat => {
 					if(selected_feat in option_obj) {
 						return all_skill_tags.some(tag => {
 							return (tag === selected_feat || tag?.[0] === selected_feat) &&
@@ -330,7 +332,7 @@ function startFilter()
 				$.each([...monster.skill], (skill_index, monster_skill) => {
 					let isMatch = false
 					
-					$.each([...skill_set], (selected_feat_index, selected_feat) => {
+					$.each([...skill_set, ...alias_skill_set], (selected_feat_index, selected_feat) => {
 						if((selected_feat in option_obj && monster_skill.tag.some(tag => {
 								return (tag === selected_feat || tag?.[0] === selected_feat) &&
 										(
@@ -375,7 +377,7 @@ function startFilter()
 						// Check for skill tags
 						let isSkillMatch = false;
 						
-						$.each([...skill_set], (skill_set_index, selected_feat) => {
+						$.each([...skill_set, ...alias_skill_set], (skill_set_index, selected_feat) => {
 							let isTagChecked = false;
 							
 							$.each(monster_skill.tag, (tag_index, tag) => {
@@ -445,7 +447,7 @@ function startFilter()
 						// Check for skill tags
 						let isSkillMatch = true;
 						
-						$.each([...skill_set], (skill_set_index, selected_feat) => {
+						$.each([...skill_set, ...alias_skill_set], (skill_set_index, selected_feat) => {
 							let isTagChecked = false;
 							$.each(monster_skill.tag, (tag_index, tag) => {
 								if($.isArray(tag))

@@ -365,6 +365,21 @@ function checkKeyword() {
     return keyword_set;
 }
 
+function addAlias(skill_set, keywords) {
+	let new_skill_set = new Set(JSON.parse(JSON.stringify([...skill_set])))
+	$.each(Object.keys(skill_alias), (index, skill) => {
+		const keyword_alias_arr = skill_alias[skill]
+		$.each(keywords, (kindex, keyword) => {
+			if(keyword_alias_arr.includes(keyword)) {
+				new_skill_set.add(skill)
+				return false
+			}
+		})
+	})
+	
+	return new_skill_set
+}
+
 function clearKeyword()
 {
     $("#keyword-input").val('');

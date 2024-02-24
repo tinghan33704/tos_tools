@@ -29,13 +29,16 @@ function startFilter()
     let isActivateSelected = false;
     
     filter_set.clear();
-	let keyword_set = checkKeyword();
 
 	[skill_set, isSkillSelected] = getSelectedButton('filter');
 	[attr_set, isAttrSelected] = getSelectedButton('attr');
 	[race_set, isRaceSelected] = getSelectedButton('race');
 	[star_set, isStarSelected] = getSelectedButton('star', true);
 	[activate_set, isActivateSelected] = getSelectedButton('activate');
+	
+	let keyword_set = checkKeyword();
+	
+	let alias_skill_set = addAlias(skill_set, [...keyword_set])
 	
 	$.each(monster_data, (index, monster) => {
 		if( (!monster.star || monster.star <= 0) ||
@@ -54,7 +57,7 @@ function startFilter()
 					// Check for skill tags
 					let isSkillMatch = false;
 					
-					$.each([...skill_set], (skill_set_index, selected_feat) => {
+					$.each([...skill_set, ...alias_skill_set], (skill_set_index, selected_feat) => {
 						if(monster_skill.skill_tag.includes(selected_feat)) {
 							isSkillMatch = true;
 							return false;
@@ -84,7 +87,7 @@ function startFilter()
 					// Check for skill tags
 					let isSkillMatch = true;
 					
-					$.each([...skill_set], (skill_set_index, selected_feat) => {
+					$.each([...skill_set, ...alias_skill_set], (skill_set_index, selected_feat) => {
 						if(!(monster_skill.skill_tag.includes(selected_feat))) {
 							isSkillMatch = false;
 							return false;

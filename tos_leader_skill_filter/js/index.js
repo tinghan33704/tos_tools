@@ -344,6 +344,8 @@ function startFilter()
 	
 	let keyword_set = checkKeyword();
 	
+	let alias_skill_set = addAlias(skill_set, [...keyword_set])
+	
 	const option_attr_race_trans_obj = {}
 	$.each(Object.keys(option_attr_race_obj), (index, skill) => {
 		if(!leader_skill_type_no_object.includes(skill)) {
@@ -384,7 +386,7 @@ function startFilter()
 			{
 				let isSkillMatch = false;
 				
-				$.each([...skill_set], (skill_set_index, selected_feat) => {
+				$.each([...skill_set, ...alias_skill_set], (skill_set_index, selected_feat) => {
 					if(tag_arr.some(tag => tag.name === selected_feat || tag.name.includes(selected_feat))) {
 						if(option_attr_race_trans_obj?.[selected_feat]?.length && option_trans_obj?.[selected_feat]?.length) {
 							const feature_arr = tag_arr.filter(tag => tag.name === selected_feat || tag.name.includes(selected_feat))
@@ -472,7 +474,7 @@ function startFilter()
 			else {       // AND
 				let isSkillMatch = true;
 				
-				$.each([...skill_set], (skill_set_index, selected_feat) => {
+				$.each([...skill_set, ...alias_skill_set], (skill_set_index, selected_feat) => {
 					if(!tag_arr.some(tag => tag.name === selected_feat || tag.name.includes(selected_feat))) {
 						isSkillMatch = false;
 						return;

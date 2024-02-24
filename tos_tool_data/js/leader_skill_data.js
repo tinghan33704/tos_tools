@@ -1,4 +1,4 @@
-// Last modified : 2024.02.22 19:36
+// Last modified : 2024.02.24 06:06
 
 const leader_skill_data = [
     {
@@ -2712,7 +2712,7 @@ const leader_skill_data = [
 		`,
         'tag': [
             {
-                'name': '改變消除方式',
+                'name': '二消',
                 'object': [],
                 'limit': []
             }
@@ -2727,7 +2727,7 @@ const leader_skill_data = [
 		`,
         'tag': [
             {
-                'name': '改變消除方式',
+                'name': '二消',
                 'object': [],
                 'limit': []
             }
@@ -2742,7 +2742,7 @@ const leader_skill_data = [
 		`,
         'tag': [
             {
-                'name': '改變消除方式',
+                'name': '二消',
                 'object': [],
                 'limit': []
             }
@@ -2757,7 +2757,7 @@ const leader_skill_data = [
 		`,
         'tag': [
             {
-                'name': '改變消除方式',
+                'name': '二消',
                 'object': [],
                 'limit': []
             }
@@ -6252,7 +6252,7 @@ const leader_skill_data = [
 		`,
         'tag': [
             {
-                'name': ['改變消除方式', '符石轉火'],
+                'name': ['二消', '符石轉火'],
                 'object': [],
                 'limit': []
             }
@@ -6269,7 +6269,7 @@ const leader_skill_data = [
 		`,
         'tag': [
             {
-                'name': ['改變消除方式', '符石轉木'],
+                'name': ['二消', '符石轉木'],
                 'object': [],
                 'limit': []
             }
@@ -7142,7 +7142,7 @@ const leader_skill_data = [
 		`,
         'tag': [
             {
-                'name': '改變消除方式',
+                'name': '三消',
                 'object': [],
                 'limit': []
             }
@@ -7157,7 +7157,7 @@ const leader_skill_data = [
 		`,
         'tag': [
             {
-                'name': '改變消除方式',
+                'name': '三消',
                 'object': [],
                 'limit': []
             }
@@ -7217,7 +7217,7 @@ const leader_skill_data = [
 		`,
         'tag': [
             {
-                'name': '改變消除方式',
+                'name': '三消',
                 'object': [],
                 'limit': []
             }
@@ -8373,7 +8373,7 @@ const leader_skill_data = [
 		'changedSkill': true,
         'tag': [
             {
-                'name': ['水兼具其他', '火兼具其他', '木兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '改變消除方式'],
+                'name': ['水兼具其他', '火兼具其他', '木兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '三消'],
                 'object': [],
                 'limit': ['成員屬性']
             },
@@ -10034,7 +10034,7 @@ const leader_skill_data = [
 		`,
         'tag': [
             {
-                'name': '改變消除方式',
+                'name': '三消',
                 'object': [],
                 'limit': []
             },
@@ -10792,7 +10792,7 @@ const leader_skill_data = [
 		'changedSkill': true,
         'tag': [
             {
-                'name': ['光兼具其他', '暗兼具其他', '心兼具其他', '符石兼具光', '符石兼具心', '改變消除方式', '引爆'],
+                'name': ['光兼具其他', '暗兼具其他', '心兼具其他', '符石兼具光', '符石兼具心', '三消', '引爆'],
                 'object': [],
                 'limit': []
             },
@@ -12184,7 +12184,7 @@ const leader_skill_data = [
                 'limit': []
             },
             {
-                'name': '改變消除方式',
+                'name': '二消',
                 'object': [],
                 'limit': []
             },
@@ -12219,7 +12219,7 @@ const leader_skill_data = [
                 'limit': []
             },
             {
-                'name': '改變消除方式',
+                'name': '二消',
                 'object': [],
                 'limit': []
             },
@@ -12675,7 +12675,7 @@ const leader_skill_data = [
                 'limit': ['成員屬性', '成員種族', '消除組數']
             },
             {
-                'name': '改變消除方式',
+                'name': ['四消', '二消'],
                 'object': [],
                 'limit': ['成員屬性', '成員種族']
             }
@@ -14310,7 +14310,7 @@ const leader_skill_data = [
                 'limit': []
             },
             {
-                'name': ['延長轉珠時間', '改變消除方式'],
+                'name': ['延長轉珠時間', '二消'],
                 'object': [],
                 'limit': []
             },
@@ -15530,7 +15530,7 @@ const leader_skill_data = [
                 'limit': ['成員種族']
             },
             {
-                'name': '改變消除方式',
+                'name': '二消',
                 'object': [],
                 'limit': ['成員種族']
             },
@@ -18544,7 +18544,7 @@ const leader_skill_data = [
                 'limit': []
             },
             {
-                'name': '改變消除方式',
+                'name': '三十消',
                 'object': [],
                 'limit': []
             },
@@ -19062,7 +19062,7 @@ const leader_skill_data = [
 		'changedSkill': true,
         'tag': [
             {
-                'name': ['水兼具其他', '火兼具其他', '木兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '改變消除方式'],
+                'name': ['水兼具其他', '火兼具其他', '木兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '二消', '三消'],
                 'object': [],
                 'limit': ['成員屬性']
             },
@@ -19408,7 +19408,7 @@ const leader_skill_data = [
                 'limit': ['成員屬性', '成員種族', '消除一組數量', '消除組數']
             },
             {
-                'name': '改變消除方式',
+                'name': ['四消', '二消'],
                 'object': [],
                 'limit': ['成員屬性', '成員種族']
             }
@@ -20766,7 +20766,7 @@ const leader_skill_data = [
                 'limit': []
             },
             {
-                'name': ['延長轉珠時間', '光兼具其他', '暗兼具其他', '符石兼具心', '符石兼具光', '心兼具其他', '水兼具其他', '火兼具其他', '木兼具其他', '改變消除方式', '引爆', '符石轉光', '符石轉光強化'],
+                'name': ['延長轉珠時間', '光兼具其他', '暗兼具其他', '符石兼具心', '符石兼具光', '心兼具其他', '水兼具其他', '火兼具其他', '木兼具其他', '三消', '引爆', '符石轉光', '符石轉光強化'],
                 'object': [],
                 'limit': []
             },
@@ -22398,7 +22398,7 @@ const leader_skill_data = [
                 'limit': []
             },
             {
-                'name': ['只能首消符石', '改變消除方式', '延長轉珠時間'],
+                'name': ['只能首消符石', '三消', '延長轉珠時間'],
                 'object': [],
                 'limit': []
             },
@@ -27874,7 +27874,7 @@ const leader_skill_data = [
                 'limit': []
             },
             {
-                'name': ['火兼具其他', '心兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心', '改變消除方式'],
+                'name': ['火兼具其他', '心兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗', '符石兼具心', '二消'],
                 'object': [],
                 'limit': []
             },
@@ -31128,7 +31128,7 @@ const leader_skill_data = [
                 'limit': []
             },
             {
-                'name': '改變消除方式',
+                'name': '三消',
                 'object': [],
                 'limit': []
             },
@@ -35367,7 +35367,7 @@ const leader_skill_data = [
                 'limit': ['消除特定符石']
             },
             {
-                'name': ['改變消除方式', '符石效果提升'],
+                'name': ['三消', '符石效果提升'],
                 'object': [],
                 'limit': []
             }

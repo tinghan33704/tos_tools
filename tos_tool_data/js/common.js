@@ -1001,8 +1001,14 @@ function setGlassBreak() {
 		}).appendTo('body');
 	}
 	
+	function toggleClass(target) {
+		$(target).toggleClass('shake-small')
+	}
+	
 	$('img[class^="monster_img"][src$="/10294.png"]').click(function(e){
 		showGlassBreak(event.pageX, event.pageY)
+		toggleClass(e.target)
+		setTimeout(() => toggleClass(e.target), 200)
 	});
 }
 

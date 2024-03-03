@@ -5,6 +5,25 @@ const craftPureName = new Set()
 const craftDataByName = {}
 let theme = 'normal';
 
+let settings = [
+	{
+		id: 'inputData-btn',
+		className: 'inputData',
+		content: "<i class='fa fa-inbox'></i>",
+		callback: 'openDataInputPanel()',
+		description: '匯入編號',
+		hideAfterClick: true,
+	},
+	{
+		id: 'changeTheme-btn',
+		className: 'changeTheme',
+		content: "<i class='fa fa-adjust'></i>",
+		callback: 'changeTheme()',
+		description: '淺色主題',
+		hideAfterClick: false,
+	}
+]
+
 let thInitPosition = {top: 0, left: 0}
 
 $(window).resize(() => {

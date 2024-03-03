@@ -39,6 +39,12 @@ function init() {
 		}
     });*/
 	
+	$(window).click((e) => {
+		if(!(e.target).closest('.setting') && !(e.target).closest('.setting-row')) {
+			hideSetting()
+		}
+    })
+	
 	$(document).on('mouseenter', '.fixed_board_label', () => {
 		$("#fixedBoard").css('display', 'block')
 	}).on('touchstart', '.fixed_board_label', () => {
@@ -177,36 +183,20 @@ function init() {
 	playerData = localStorage.getItem('PLAYER_DATA') ? JSON.parse(localStorage.getItem('PLAYER_DATA')) : {uid: '', card: [], lastUpdated: null, wholeData: []}
 	$("#uid-tag").text(`UID: ${playerData.uid}`)
 	setUpdateBanner()
-    
-    $("#inventory-btn").length && $('#inventory-btn').click(() => { 
-        openUidInputPanel();
-    });
-	
-    $("#option-btn").length && $('#option-btn').click(() => {
-        let hasSelectedSkill = false;
-        $(".filter-row .filter").each(function() {
-            if($(this).prop('checked'))
-            {
-                hasSelectedSkill = true;
-                return false;
-            }
-        });
-        if(hasSelectedSkill) openOptionPanel();
-        else errorAlert(2);
-    });
 	
 	theme = localStorage.getItem('TOOL_THEME') || 'normal'
 	setTheme(theme)
 	
 	pressChangeThemeTime = 0;
-    
-    $("#changeTheme-btn").length && $('#changeTheme-btn').click(() => { 
-        changeTheme();
-    });
-    
-    $("#inputData-btn").length && $('#inputData-btn').click(() => { 
-        openDataInputPanel();
-    });
+	
+	$(document.body).append(`
+		<button type="button" id="setting-btn" class="setting" onclick="toggleSetting()">
+			<i class="fa fa-cog setting-icon"></i>
+		</button>
+		<div class="setting-panel">
+			${renderSettings(settings)}
+		</div>
+	`)
 	
 	// preload glass break image
 	const glass_break_img = new Image()
@@ -480,44 +470,71 @@ function toggleSideNavigation() {
     sideNav.style.width = sideNav.style.width == "250px" ? "0px" : "250px";
 }
 
+function renderSettings(toolSettings) {
+	return toolSettings.filter(setting => setting?.display !== false).map(setting => {
+		return `
+			<div class='setting-row ${setting?.className}-row' onclick='${setting?.callback}; ${setting?.hideAfterClick ? 'hideSetting()' : ''}'>
+				<button type='button' id='${setting?.id}' class='${setting?.className}'>
+					${setting?.content}
+				</button>
+				<div class='setting-desc'>
+					${setting?.description}
+				</div>
+			</div>
+		`
+	}).join('')
+}
+
+function updateSetting(updatedSettings) {
+	$('.setting-panel').html(renderSettings(updatedSettings))
+}
+
+function toggleSetting() {
+	$('.setting-panel').fadeToggle(200)
+}
+
+function hideSetting() {
+	$('.setting-panel').fadeOut(200)
+}
+
 function errorAlert(index)
 {
     switch(index) {
         case 1:
-            alert("[Error Code "+paddingZeros(index, 2)+"] 請檢查網址是否正確");
+            alert("[Error Code "+paddingZeros(index, 2)+"] 請檢查網址是否正確")
         break;
         case 2:
-            alert("[Error Code "+paddingZeros(index, 2)+"] 請先選擇功能");
+            alert("[Error Code "+paddingZeros(index, 2)+"] 請先選擇功能")
         break;
         case 3:
-            alert("[Error Code "+paddingZeros(index, 2)+"] 請輸入技能關鍵字");
+            alert("[Error Code "+paddingZeros(index, 2)+"] 請輸入技能關鍵字")
         break;
         case 4:
-            alert("[Error Code "+paddingZeros(index, 2)+"] 技能關鍵字數量不得超過 "+input_maxlength);
+            alert("[Error Code "+paddingZeros(index, 2)+"] 技能關鍵字數量不得超過 " + input_maxlength)
         break;
         case 5:
-            alert("[Error Code "+paddingZeros(index, 2)+"] 請輸入 UID");
+            alert("[Error Code "+paddingZeros(index, 2)+"] 請輸入 UID")
         break;
         case 6:
-            alert("[Error Code "+paddingZeros(index, 2)+"] 未發現背包資料，請先匯入背包");
+            alert("[Error Code "+paddingZeros(index, 2)+"] 未發現背包資料，請先匯入背包")
         break;
         case 7:
-            alert("[Error Code "+paddingZeros(index, 2)+"] 請輸入驗證碼");
+            alert("[Error Code "+paddingZeros(index, 2)+"] 請輸入驗證碼")
         break;
         case 8:
-            alert("[Error Code "+paddingZeros(index, 2)+"] 請先選擇龍刻");
+            alert("[Error Code "+paddingZeros(index, 2)+"] 請先選擇龍刻")
         break;
         case 9:
-            alert("[Error Code "+paddingZeros(index, 2)+"] 輸入格式錯誤 (僅接受數字及空格)");
+            alert("[Error Code "+paddingZeros(index, 2)+"] 輸入格式錯誤 (僅接受數字及空格)")
         break;
         case 10:
-            alert("[Error Code "+paddingZeros(index, 2)+"] 無法取得背包資料\n請確認是否已於官方健檢中心的個人資料勾選「公開背包」");
+            alert("[Error Code "+paddingZeros(index, 2)+"] 無法取得背包資料\n請確認是否已於官方健檢中心的個人資料勾選「公開背包」")
         break;
         case 11:
-            alert("[Error Code "+paddingZeros(index, 2)+"] 請先選擇標籤");
+            alert("[Error Code "+paddingZeros(index, 2)+"] 請先選擇標籤")
         break;
         case 12:
-            alert("[Error Code "+paddingZeros(index, 2)+"] 本工具不支援疑似進行詐騙行為的帳號");
+            alert("[Error Code "+paddingZeros(index, 2)+"] 本工具不支援此帳號")
         break;
         default:
             
@@ -756,7 +773,7 @@ async function getPlayerInventory(prefix, id = null)
 		}
 	} catch {
 		if(isBlackList) {
-			$(`#${prefix}-uid-status`).html(`<span class='fail'><i class='fa fa-times'></i>&nbsp;&nbsp;本工具不支援疑似進行詐騙行為的帳號</span>`)
+			$(`#${prefix}-uid-status`).html(`<span class='fail'><i class='fa fa-times'></i>&nbsp;&nbsp;本工具不支援此帳號</span>`)
 			$(`#${prefix}-uid-input`).attr('disabled', false)
 		} else {
 			$(`#${prefix}-uid-status`).html(`<span class='fail'><i class='fa fa-times'></i>&nbsp;&nbsp;${verb}失敗${verb === '匯入' ? '，請嘗試使用更新背包功能' : ''}</span>`)
@@ -954,6 +971,13 @@ function setTheme(theme)
 	$.each(theme_string, (index, name) => {
         document.documentElement.style.setProperty(name, `var(${name}_${theme})`);
     });
+	
+	const _settingIndex = settings.findIndex(setting => setting.id === 'changeTheme-btn')
+	settings[_settingIndex] = {
+		...settings[_settingIndex],
+		description: `${theme == 'normal' ? '淺色' : '深色'}主題`,
+	}
+	updateSetting(settings)
 }
 
 function changeTheme()

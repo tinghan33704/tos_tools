@@ -44,20 +44,62 @@ const easterEggData = {
 	"version": "v4.5"
 }
 
+let settings = [
+	{
+		id: 'compress-btn',
+		className: 'compressResult',
+		content: "<i class='fa fa-expand'></i>",
+		callback: 'compressResult()',
+		description: '顯示查無結果',
+		hideAfterClick: false,
+	},
+	{
+		id: 'inventory-btn',
+		className: 'inventory',
+		content: "<i class='fa fa-archive'></i>",
+		callback: 'openUidInputPanel()',
+		description: '匯入/更新背包',
+		hideAfterClick: true,
+	},
+	{
+		id: 'option-btn',
+		className: 'option',
+		content: "<i class='fa fa-filter'></i>",
+		callback: "openOptionPanel()",
+		description: '進階篩選',
+		hideAfterClick: true,
+	},
+	{
+		id: 'changeTheme-btn',
+		className: 'changeTheme',
+		content: "<i class='fa fa-adjust'></i>",
+		callback: 'changeTheme()',
+		description: '淺色主題',
+		hideAfterClick: false,
+	}
+]
+
 $(document).ready(function() {
     init();
     
-    $("#compress-btn").length && $('#compress-btn').click(() => { 
-        compressResult()
-    })
-	
     location.search && readUrl();
 });
 
 function openOptionPanel()
 {
-    $('#optionPanel').modal('show');
-    renderOptionPanel();
+	let hasSelectedSkill = false;
+	$('.filter-row .filter').each(function() {
+		if($(this).prop('checked'))
+		{
+			hasSelectedSkill = true;
+			return false;
+		}
+	});
+	if(hasSelectedSkill) {
+		$('#optionPanel').modal('show');
+		renderOptionPanel();
+	}
+	else errorAlert(2);
 }
 
 function renderOptionPanel() {
@@ -1261,10 +1303,20 @@ function sortByChange()
 function compressResult() {
 	resultCompressed = !resultCompressed
 	
-	resultCompressed && $("#compress-btn").html('<i class="fa fa-compress"></i>').addClass('resultCompressed-activate')
-	!resultCompressed && $("#compress-btn").html('<i class="fa fa-expand"></i>').removeClass('resultCompressed-activate')
-	
+	if(resultCompressed) {
+		$("#compress-btn").html('<i class="fa fa-compress"></i>').addClass('resultCompressed-activate')
+	} else {
+		$("#compress-btn").html('<i class="fa fa-expand"></i>').removeClass('resultCompressed-activate')
+	}
 	renderResult()
+	
+	const _settingIndex = settings.findIndex(setting => setting.id === 'compress-btn')
+	settings[_settingIndex] = {
+		...settings[_settingIndex],
+		content: `<i class="fa fa-${resultCompressed ? 'compress' : 'expand'}"></i>`,
+		description: `${resultCompressed ? '隱藏' : '顯示'}查無結果`,
+	}
+	updateSetting(settings)
 }
 
 function changeOptionsUrl() {

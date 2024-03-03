@@ -219,33 +219,8 @@
 	font-style: italic;
 }
 
-.reverseMode-activate, .filters-activate {
-	background-color: rgb(200, 200, 200);
-	color: gray;
-}
-
-.reverseMode, .compressMode, .crossOver {
-	display: none;
-}
-
-.compressMode {
-    bottom: 13rem;
-}
-
-.reverseMode, .crossOver {
-    bottom: 9rem;
-}
-
-.inventory {
-    bottom: 5rem;
-}
-
-.filters {
-    bottom: 9rem;
-}
-
 .crossOver {
-    font-size: 1rem;
+    font-size: 1rem !important;
 	font-weight: bold;
 }
 

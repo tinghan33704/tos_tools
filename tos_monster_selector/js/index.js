@@ -5,6 +5,25 @@ let playerInputMonster = new Set()
 let filter_set = new Set()
 let theme = 'normal'
 
+let settings = [
+	{
+		id: 'inputData-btn',
+		className: 'inputData',
+		content: "<i class='fa fa-inbox'></i>",
+		callback: 'openDataInputPanel()',
+		description: '匯入編號',
+		hideAfterClick: true,
+	},
+	{
+		id: 'changeTheme-btn',
+		className: 'changeTheme',
+		content: "<i class='fa fa-adjust'></i>",
+		callback: 'changeTheme()',
+		description: '淺色主題',
+		hideAfterClick: false,
+	}
+]
+
 $(document).ready(function(){
 	init()
 	

@@ -954,46 +954,29 @@ select {
 
 /* ---------------- */
 
-.inventory, .option, .changeTheme, .compressResult, .inputData, .reverseMode, .compressMode, .crossOver, .filters, .toTop, .toBottom {
+.setting, .toTop, .toBottom {
 	width: 3rem;
     height: 3rem;
     padding: 0;
     margin: 0;
     border: 0;
     border-radius: 20%;
-    opacity: 0.6;
+    opacity: 0.8;
     background: #000;
     color: white;
     cursor: pointer;
-    position:fixed;
     font-size: 1.8rem;
     z-index: 1;
 }
-.inventory:focus, .option:focus, .changeTheme:focus, .compressResult:focus, .inputData:focus, .reverseMode:focus, .compressMode:focus, .crossOver:focus, .filters:focus, .toTop:focus, .toBottom:focus {
-    outline: none;
+.setting, .toTop, .toBottom {
+    position: fixed;
 }
-.inventory, .option, .changeTheme, .compressResult, .inputData, .reverseMode, .compressMode, .crossOver, .filters {
+.setting {
     left: 1rem;
-    display: inline-block;
+    bottom: 1rem;
 }
 .toTop, .toBottom {
     right: 1rem;
-}
-.inventory {
-    bottom: 9rem;
-}
-.compressResult {
-    bottom: 13rem;
-}
-.resultCompressed-activate {
-	background-color: rgb(200, 200, 200);
-	color: gray;
-}
-.option, .inputData {
-    bottom: 5rem;
-}
-.changeTheme {
-    bottom: 1rem;
 }
 .toTop {
     bottom: 5rem;
@@ -1002,6 +985,44 @@ select {
 .toBottom {
     bottom: 1rem;
     display: inline-block;
+}
+.setting:focus {
+	outline: none;
+}
+.setting-panel {
+	display: none;
+	position: fixed;
+    left: 1rem;
+    bottom: 4rem;
+	z-index: 1;
+}
+.setting-row {
+	display: flex;
+	align-items: center;
+	margin: 0.5rem 0;
+	padding-right: 10px;
+	cursor: pointer;
+    border-radius: 10px;
+    opacity: 0.8;
+    background: #000;
+    color: white;
+    font-size: 1.2rem;
+    z-index: 1;
+}
+.setting-row button {
+	width: 3rem;
+    height: 3rem;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 1.8rem;
+	outline: none;
+    background: transparent;
+    color: white;
+}
+.setting-desc {
+	margin-left: 5px;
+	white-space:nowrap;
 }
 
 #keyword-input, .uid-input, .uid-input:focus {

@@ -13,6 +13,33 @@ let searchResultCharge = [];
 let playerData = {uid: '', card: []}
 let useInventory = false;
 
+let settings = [
+	{
+		id: 'inventory-btn',
+		className: 'inventory',
+		content: "<i class='fa fa-archive'></i>",
+		callback: 'openUidInputPanel()',
+		description: '匯入/更新背包',
+		hideAfterClick: true,
+	},
+	{
+		id: 'option-btn',
+		className: 'option',
+		content: "<i class='fa fa-filter'></i>",
+		callback: "openOptionPanel()",
+		description: '進階篩選',
+		hideAfterClick: true,
+	},
+	{
+		id: 'changeTheme-btn',
+		className: 'changeTheme',
+		content: "<i class='fa fa-adjust'></i>",
+		callback: 'changeTheme()',
+		description: '淺色主題',
+		hideAfterClick: false,
+	}
+]
+
 
 $(document).ready(function() {
     init();
@@ -51,8 +78,19 @@ function checkDataLegality() {
 
 function openOptionPanel()
 {
-    $('#optionPanel').modal('show');
-    renderOptionPanel();
+	let hasSelectedSkill = false;
+	$('.filter-row .filter').each(function() {
+		if($(this).prop('checked'))
+		{
+			hasSelectedSkill = true;
+			return false;
+		}
+	});
+	if(hasSelectedSkill) {
+		$('#optionPanel').modal('show');
+		renderOptionPanel();
+	}
+	else errorAlert(2);
 }
 
 function renderOptionPanel() {

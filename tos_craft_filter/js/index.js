@@ -5,6 +5,17 @@ let or_filter = 'or';
 let or_filter_value = ['or', 'and'];
 let theme = 'normal';
 
+let settings = [
+	{
+		id: 'changeTheme-btn',
+		className: 'changeTheme',
+		content: "<i class='fa fa-adjust'></i>",
+		callback: 'changeTheme()',
+		description: '淺色主題',
+		hideAfterClick: false,
+	}
+]
+
 $(document).ready(function(){
     init();
     

@@ -85,3 +85,7 @@ thead > tr {
     background-color: var(--button_secondary);
     color: var(--text_monsterid_color);
 }
+
+.option-text {
+	border-right: none;
+}

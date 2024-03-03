@@ -35,6 +35,63 @@ const orderByCategories = {
 	desc: '降序'
 }
 
+let settings = [
+	{
+		id: 'filter-btn',
+		className: 'filters',
+		content: "<i class='fa fa-filter'></i>",
+		callback: 'openFilterPanel()',
+		description: '進階篩選',
+		display: true,
+		hideAfterClick: true,
+	},
+	{
+		id: 'compress-btn',
+		className: 'compressMode',
+		content: "<i class='fa fa-expand'></i>",
+		callback: 'compressMode()',
+		description: '顯示已持有的角色',
+		display: true,
+		hideAfterClick: false,
+	},
+	{
+		id: 'reverse-btn',
+		className: 'reverseMode',
+		content: "<i class='fa fa-refresh'></i>",
+		callback: 'reverseMode()',
+		description: '檢視已持有的角色',
+		display: true,
+		hideAfterClick: false,
+	},
+	{
+		id: 'crossover-btn',
+		className: 'crossOver',
+		content: "全部",
+		callback: 'changeCardCategory()',
+		description: '顯示全部角色',
+		display: true,
+		hideAfterClick: false,
+	},
+	{
+		id: 'inventory-btn',
+		className: 'inventory',
+		content: "<i class='fa fa-archive'></i>",
+		callback: 'openUidInputPanel()',
+		description: '匯入/更新背包',
+		display: true,
+		hideAfterClick: true,
+	},
+	{
+		id: 'changeTheme-btn',
+		className: 'changeTheme',
+		content: "<i class='fa fa-adjust'></i>",
+		callback: 'changeTheme()',
+		description: '淺色主題',
+		display: true,
+		hideAfterClick: false,
+	}
+]
+
 const showFirstStageAsEmptyPreview = ['NERV登錄器', '原子膠囊', '懷舊電視', '萬事屋之旅', '神玉封印 II', 'Nerve Gear啟動']
 const showFinalStageEvenNotExist = ['強力武裝', '戰鬥魔導士', '百變騎士', '騰雲逸龍', '變形金屬']
 const doNotIgnoreIndependentItem = ['強力武裝', '戰鬥魔導士', '百變騎士', '騰雲逸龍', '變形金屬']
@@ -49,10 +106,6 @@ $(window).resize(() => {
 });
 
 $(document).ready(async function() {
-	$("#reverse-btn").hide()
-	$("#compress-btn").hide()
-	$("#crossover-btn").hide()
-	$("#filter-btn").hide()
     init()
 	
 	const currentTime = new Date().getTime()
@@ -84,22 +137,6 @@ $(document).ready(async function() {
 	}
 	
 	$(`#showSeal${Object.keys(sealContent).indexOf(currentSeal) != -1 ? Object.keys(sealContent).indexOf(currentSeal) : 0}`).click()
-    
-    $("#reverse-btn").length && $('#reverse-btn').click(() => { 
-        reverseMode();
-    });
-    
-    $("#compress-btn").length && $('#compress-btn').click(() => { 
-        compressMode();
-    });
-    
-    $("#crossover-btn").length && $('#crossover-btn').click(() => { 
-        changeCardCategory();
-    });
-    
-    $("#filter-btn").length && $('#filter-btn').click(() => { 
-        openFilterPanel();
-    });
 	
     $("#filterPanel").length && $('#filterPanel').on('hide.bs.modal', (e) => startFilter(false))
 	
@@ -115,19 +152,28 @@ $(document).ready(async function() {
 function reverseMode() {
 	isReverseMode = !isReverseMode
 	
-	isReverseMode && $("#reverse-btn").addClass('reverseMode-activate')
-	!isReverseMode && $("#reverse-btn").removeClass('reverseMode-activate')
-	
 	showSeal(currentSeal)
+	
+	const _settingIndex = settings.findIndex(setting => setting.id === 'reverse-btn')
+	settings[_settingIndex] = {
+		...settings[_settingIndex],
+		description: `檢視${isReverseMode ? '未' : '已'}持有的角色`,
+	}
+	updateSetting(settings)
 }
 
 function compressMode() {
 	isCompressMode = !isCompressMode
 	
-	isCompressMode && $("#compress-btn").html('<i class="fa fa-expand"></i>').addClass('reverseMode-activate')
-	!isCompressMode && $("#compress-btn").html('<i class="fa fa-compress"></i>').removeClass('reverseMode-activate')
-	
 	showSeal(currentSeal)
+	
+	const _settingIndex = settings.findIndex(setting => setting.id === 'compress-btn')
+	settings[_settingIndex] = {
+		...settings[_settingIndex],
+		content: `<i class="fa fa-${isCompressMode ? 'compress' : 'expand'}"></i>`,
+		description: `${isCompressMode ? '隱藏' : '顯示'}已持有的角色`,
+	}
+	updateSetting(settings)
 }
 
 function changeCardCategory() {
@@ -136,6 +182,14 @@ function changeCardCategory() {
 	$("#crossover-btn").html(cardCategoryTextArr[nextIndex])
 	
 	showSeal(currentSeal)
+	
+	const _settingIndex = settings.findIndex(setting => setting.id === 'crossover-btn')
+	settings[_settingIndex] = {
+		...settings[_settingIndex],
+		content: cardCategoryTextArr[nextIndex],
+		description: `${currentCardCategory !== 'all' ? '只' : ''}顯示${cardCategoryTextArr[nextIndex]}角色`,
+	}
+	updateSetting(settings)
 }
 
 function startFilter(forceFilter = false) {
@@ -246,44 +300,77 @@ function selectSeal(index, event)
 	currentSeal = name
 	
 	if(currentSeal.endsWith('自選')) {
-		$("#crossover-btn").hide()
-		$("#filter-btn").hide()
-		
-		$("#reverse-btn").show()
-		$("#compress-btn").show()
+		$.each(settings, (index, setting) => {
+			if(['crossover-btn', 'filter-btn'].includes(setting?.id)) {
+				setting.display = false
+			}
+			if(['reverse-btn'].includes(setting?.id)) {
+				setting.description = '檢視已持有的角色'
+				setting.display = true
+			}
+			if(['compress-btn'].includes(setting?.id)) {
+				setting.content = '<i class="fa fa-expand"></i>'
+				setting.description = '顯示已持有的角色'
+				setting.display = true
+			}
+		})
 	} else if(currentSeal === '其他卡片') {
-		$("#reverse-btn").hide()
+		$.each(settings, (index, setting) => {
+			if(['filter-btn'].includes(setting?.id)) {
+				setting.display = false
+			}
+			if(['reverse-btn'].includes(setting?.id)) {
+				setting.description = '檢視已持有的角色'
+				setting.display = false
+			}
+			if(['compress-btn'].includes(setting?.id)) {
+				setting.content = '<i class="fa fa-expand"></i>'
+				setting.description = '顯示已持有的角色'
+				setting.display = false
+			}
+			if(['crossover-btn'].includes(setting?.id)) {
+				setting.display = true
+			}
+		})
 		isReverseMode = false
-		$("#reverse-btn").removeClass('reverseMode-activate')
-		
-		$("#compress-btn").hide()
 		isCompressMode = false
-		$("#compress-btn").html('<i class="fa fa-compress"></i>').removeClass('reverseMode-activate')
-		$("#filter-btn").hide()
-		
-		$("#crossover-btn").show()
 	} else if(currentSeal === '完整背包') {
-		$("#reverse-btn").hide()
+		$.each(settings, (index, setting) => {
+			if(['crossover-btn'].includes(setting?.id)) {
+				setting.display = false
+			}
+			if(['reverse-btn'].includes(setting?.id)) {
+				setting.description = '檢視已持有的角色'
+				setting.display = false
+			}
+			if(['compress-btn'].includes(setting?.id)) {
+				setting.content = '<i class="fa fa-expand"></i>'
+				setting.description = '顯示已持有的角色'
+				setting.display = false
+			}
+			if(['filter-btn'].includes(setting?.id)) {
+				setting.display = true
+			}
+		})
 		isReverseMode = false
-		$("#reverse-btn").removeClass('reverseMode-activate')
-		
-		$("#compress-btn").hide()
 		isCompressMode = false
-		$("#compress-btn").html('<i class="fa fa-compress"></i>').removeClass('reverseMode-activate')
-		
-		$("#crossover-btn").hide()
-		$("#filter-btn").show()
 	} else {
-		$("#reverse-btn").hide()
+		$.each(settings, (index, setting) => {
+			if(['crossover-btn', 'crossover-btn', 'filter-btn'].includes(setting?.id)) {
+				setting.display = false
+			}
+			if(['reverse-btn'].includes(setting?.id)) {
+				setting.description = '檢視已持有的角色'
+				setting.display = false
+			}
+			if(['compress-btn'].includes(setting?.id)) {
+				setting.content = '<i class="fa fa-expand"></i>'
+				setting.description = '顯示已持有的角色'
+				setting.display = false
+			}
+		})
 		isReverseMode = false
-		$("#reverse-btn").removeClass('reverseMode-activate')
-		
-		$("#compress-btn").hide()
 		isCompressMode = false
-		$("#compress-btn").html('<i class="fa fa-compress"></i>').removeClass('reverseMode-activate')
-		
-		$("#crossover-btn").hide()
-		$("#filter-btn").hide()
 	}
 	
 	$('.seal-nav').removeClass('seal-nav-active')
@@ -293,6 +380,8 @@ function selectSeal(index, event)
 	
 	!playerData?.uid.length && $('#inventory-btn').click()
 	showSeal(name)
+	
+	updateSetting(settings)
 }
 	
 function toggleTitleIcon(e, genreIndex) {

@@ -34,3 +34,7 @@
 .preview-panel {
 	margin-top: 20px;
 }
+
+.option-text {
+	border-right: none;
+}

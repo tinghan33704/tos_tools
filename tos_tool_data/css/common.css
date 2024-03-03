@@ -994,7 +994,7 @@ select {
 	position: fixed;
     left: 1rem;
     bottom: 4rem;
-	z-index: 1;
+	z-index: 100;
 }
 .setting-row {
 	display: flex;
@@ -1007,7 +1007,7 @@ select {
     background: #000;
     color: white;
     font-size: 1.2rem;
-    z-index: 100;
+    z-index: 1;
 }
 .setting-row button {
 	width: 3rem;

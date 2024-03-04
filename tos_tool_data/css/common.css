@@ -358,6 +358,7 @@ select {
 
 .top-btn {
     font-size: 1.2em;
+	white-space: nowrap;
 }
 .sort_by {
     color: var(--text_color);

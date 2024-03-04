@@ -209,7 +209,7 @@ function startFilter()
                             </tr>
 							<tr class="monster_tr_${attr_zh_to_en[monster_attr]}">
                                 <td class="td_activate">
-                                    ${skill.activate}
+                                    ${descriptionTranslator(skill.activate)}
                                 </td>
                             </tr>
                             <tr class="monster_tr_${attr_zh_to_en[monster_attr]}">

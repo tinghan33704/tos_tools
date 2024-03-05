@@ -1074,7 +1074,7 @@ const active_skill_notification = ''
 const team_skill_notification = ''
 const leader_skill_notification = ''
 const craft_notification = ''
-const backpack_notification = '更新後沒東西？問就是等官方修健檢網站'
+const backpack_notification = ''
 
 /* calculate remain days */
 

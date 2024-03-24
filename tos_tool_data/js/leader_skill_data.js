@@ -1,4 +1,4 @@
-// Last modified : 2024.03.15 20:31
+// Last modified : 2024.03.24 17:45
 
 const leader_skill_data = [
     {
@@ -36048,6 +36048,98 @@ const leader_skill_data = [
             }
 		],
         'monster': [10622]
+    },
+    {
+        'name': '不殺之念',
+        'description': `
+		
+		`,
+        'tag': [
+            {
+                'name': ['增攻', '增血', '增回'],
+                'object': ['火', '人'],
+                'limit': []
+            },
+            {
+                'name': ['增血', '增攻', '增回'],
+                'object': ['特定成員'],
+                'limit': []
+            },
+            {
+                'name': ['增加Combo', '增加Ex.Combo'],
+                'object': [],
+                'limit': ['消除特定符石', '消除數量']
+            },
+            {
+                'name': '增攻',
+                'object': [],
+                'limit': ['Combo數量']
+            }
+		],
+        'monster': [10636]
+    },
+    {
+        'name': '忠義鐵拳',
+        'description': `
+		
+		`,
+        'tag': [
+            {
+                'name': ['增攻', '增血', '增回'],
+                'object': ['人'],
+                'limit': []
+            },
+            {
+                'name': ['增血', '增攻', '增回'],
+                'object': ['自身'],
+                'limit': []
+            },
+            {
+                'name': '增攻',
+                'object': [],
+                'limit': ['消除數量']
+            },
+            {
+                'name': '無屬追打',
+                'object': [],
+                'limit': ['消除特定符石']
+            },
+            {
+                'name': '減傷',
+                'object': [],
+                'limit': ['我方血量']
+            }
+		],
+        'monster': [10637]
+    },
+    {
+        'name': '懲惡之刃',
+        'description': `
+		
+		`,
+        'tag': [
+            {
+                'name': ['增攻', '增血', '增回'],
+                'object': ['特定成員', '暗'],
+                'limit': []
+            },
+            {
+                'name': '增攻',
+                'object': [],
+                'limit': ['Combo數量']
+            },
+            {
+                'name': '增攻',
+                'object': ['自身'],
+                'limit': ['Combo數量']
+            },
+            {
+                'name': '進場減CD',
+                'object': ['自身'],
+                'limit': []
+            }
+		],
+        'monster': [10639]
     },
     {
         'name': '歷劫之道',

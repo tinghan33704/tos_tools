@@ -1115,6 +1115,7 @@ function descriptionTranslator(monster_id, description) {
 		.replace(/<anno>(.*?)<\/anno>/g, `<font class='annotation_tag'>$1</font>`)
 		.replace(/【階段 (\d*)】/g, `<font class='multiple_effect_tag'>【階段 $1】</font>`)
 		.replace(/效果(\d+)：/g, `<font class='multiple_effect_tag'>效果$1：</font>`)
+		.replace(/<meff>(.*?)<\/meff>/g, `<font class='multiple_effect_tag'>$1</font>`)
 		.replace(/【連攜魔導式】/g, `<span class='desc_note_label' onmouseover='renderDescriptionNote(0)' ontouchstart='renderDescriptionNote(0)'>【連攜魔導式】</span>`)
 		.replace(/亢奮(狀態)?/g, `<span class='desc_note_label positive_note_label' onmouseover='renderDescriptionNote(1)' ontouchstart='renderDescriptionNote(1)'>亢奮$1</span>`)
 		.replace(/疲憊(狀態)?/g, `<span class='desc_note_label negative_note_label' onmouseover='renderDescriptionNote(2)' ontouchstart='renderDescriptionNote(2)'>疲憊$1</span>`)

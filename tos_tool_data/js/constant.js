@@ -948,12 +948,12 @@ const extraFilter_data = [
 		{
 			name: '刀劍神域',
 			tags: ['刀劍神域', 'SAO', 'ALO', 'GGO'],
-			otherMonsters: []
+			otherMonsters: [10508]
 		},
 		{
 			name: 'JoJo的奇妙冒險',
 			tags: ['JoJo的奇妙冒險'],
-			otherMonsters: []
+			otherMonsters: [10586]
 		},
 		{
 			name: '神劍闖江湖',

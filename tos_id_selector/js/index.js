@@ -208,7 +208,7 @@ function createTable() {
 											serie => `<img src='../tos_tool_data/img/series/${serie}.png'\>`
 										).join('')
 										: craftDataByName[craft]?.monster ? craftDataByName[craft]?.monster?.map(monster => {
-											return `<img src='../tos_tool_data/img/monster/${monster}.png'\>`
+											return `<img src='../tos_tool_data/img/monster/${monster}.png' onerror='this.src="../tos_tool_data/img/monster/noname.png"'\>`
 										}).join('')
 										: (craftDataByName[craft]?.attribute || craftDataByName[craft]?.race) ? 
 											`${craftDataByName[craft]?.attribute && craftDataByName[craft]?.attribute !== '沒有限制' ? `<img src='../tos_tool_data/img/monster/icon_${attr_zh_to_en[craftDataByName[craft]?.attribute]}.png'\>` : ''}${craftDataByName[craft]?.race && craftDataByName[craft]?.race !== '沒有限制' ? `<img src='../tos_tool_data/img/monster/icon_${race_zh_to_en[craftDataByName[craft]?.race]}.png'\>` : ''}`

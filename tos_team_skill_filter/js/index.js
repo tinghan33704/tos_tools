@@ -321,9 +321,9 @@ function renderMonsterImage(monster) {
 }
 
 function descriptionTranslator(description) {
-	return description
-		.replace(/\n[^\S\n]*/g, '<br>')
-		.replace(/^<br>/, '')
+	return (description || '')
+		?.replace(/\n[^\S\n]*/g, '<br>')
+		?.replace(/^<br>/, '')
 }
 
 function hasActivateTag(activate_set, monster_skill) {

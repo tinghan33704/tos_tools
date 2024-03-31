@@ -830,7 +830,7 @@ function renderFilterPanel() {
 
 function renderMonsterSeriesInfo(genreName, monsters) {
 	return `
-		<div class='row' style='padding: 0 4px;'>
+		<div class='row monster-series-info' style='padding: 0 4px;'>
 			${monsters.map(id => {
 				const monster = monster_data.find((element) => {
 					return element.id === id

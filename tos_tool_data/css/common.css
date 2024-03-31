@@ -505,7 +505,6 @@ select {
 .monster_img, .monster_img_gray {
     width: 100%;
     cursor: pointer;
-	/* transform: rotate(180deg); april fool */
 }
 .monster_img_gray {
 	-webkit-filter: grayscale(100%);
@@ -1138,6 +1137,18 @@ select {
 
 .author_info img {
 	width: 18px;
+}
+
+/* April Fool easter egg */
+
+
+.monster_img, .monster_img_gray {
+	// transform: rotate(180deg);
+	//transform: scaleX(-1);
+}
+
+.seal-row, .card-row, .monster_attr_race_star img, .skill_combine img, .skill_transform img, .side_navigation, .setting-panel, .copyright, .modal-content, .result-row .search_tag, #result-row, #top-bar, .monster-single-info-header, .monster-series-info {
+	transform: scaleX(-1);
 }
 
 /* Tatsumaki & Fubuki easter egg */

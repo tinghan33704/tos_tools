@@ -743,7 +743,7 @@ async function getPlayerInventory(prefix, id = null)
 			const card_set = new Set()
 			const card_info = {}
 		
-			inventory_data?.userData?.cards.forEach((card, indd) => {
+			inventory_data?.userData?.cards.forEach(card => {
 				card_set.add(card.id)
 				
 				if(card_info?.[card.id]) {

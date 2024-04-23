@@ -92,7 +92,7 @@ let settings = [
 	}
 ]
 
-const showFirstStageAsEmptyPreview = ['NERV登錄器', '原子膠囊', '懷舊電視', '萬事屋之旅', '神玉封印 II', 'Nerve Gear啟動', '劍客的道義']
+const showFirstStageAsEmptyPreview = ['NERV登錄器', '原子膠囊', '懷舊電視', '萬事屋之旅', '神玉封印 II', 'Nerve Gear啟動', '劍客的道義', '星際巡航']
 const showFinalStageEvenNotExist = ['強力武裝', '戰鬥魔導士', '百變騎士', '騰雲逸龍', '變形金屬']
 const doNotIgnoreIndependentItem = ['強力武裝', '戰鬥魔導士', '百變騎士', '騰雲逸龍', '變形金屬']
 const doNotSortById = ['靈殿狛犬', '強力武裝', '戰鬥魔導士', '百變騎士', '騰雲逸龍', '變形金屬']

@@ -743,7 +743,7 @@ async function getPlayerInventory(prefix, id = null)
 			const card_set = new Set()
 			const card_info = {}
 		
-			inventory_data?.userData?.cards.forEach(card => {
+			inventory_data?.userData?.cards.forEach((card, indd) => {
 				card_set.add(card.id)
 				
 				if(card_info?.[card.id]) {
@@ -855,7 +855,7 @@ function addTransformedCard(allCard)
 		$.each(currentStage, (card_index, card) => {
 			const transform_skill = monster_data.find((monster) => monster.id === card)?.skill?.filter((skill) => 'transform' in skill)
 			$.each(transform_skill, (skill_index, skill) => {
-				transformed.push(skill.transform)
+				if(!allCards.includes(skill.transform)) transformed.push(skill.transform)
 			})
 		})
 		currentStage = transformed;

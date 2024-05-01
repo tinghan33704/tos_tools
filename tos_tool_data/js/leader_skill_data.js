@@ -1,4 +1,4 @@
-// Last modified : 2024.04.25 22:14
+// Last modified : 2024.05.01 21:54
 
 const leader_skill_data = [
     {
@@ -36550,6 +36550,59 @@ const leader_skill_data = [
             }
 		],
         'monster': [10664, 10665, 10666, 10667]
+    },
+    {
+        'name': '命運戰士',
+        'description': `
+		
+		`,
+        'tag': [
+            {
+                'name': ['增攻', '增血', '增回'],
+                'object': ['獸'],
+                'limit': []
+            },
+            {
+                'name': ['增攻', '敵方受傷增加'],
+                'object': [],
+                'limit': []
+            },
+            {
+                'name': ['增攻', '增加Combo'],
+                'object': [],
+                'limit': ['消除角色符石', '消除種族符石']
+            }
+		],
+        'monster': [10672]
+    },
+    {
+        'name': '災厄詛咒',
+        'description': `
+		
+		`,
+        'tag': [
+            {
+                'name': ['增攻', '增血', '增回'],
+                'object': ['獸'],
+                'limit': []
+            },
+            {
+                'name': '增攻',
+                'object': ['特定成員'],
+                'limit': []
+            },
+            {
+                'name': '減傷',
+                'object': [],
+                'limit': []
+            },
+            {
+                'name': '增攻',
+                'object': [],
+                'limit': ['Combo數量']
+            }
+		],
+        'monster': [10673]
     },
     {
         'name': '歷劫之道',

@@ -244,7 +244,7 @@ function startFilter(forceFilter = false) {
 		if(sortBy === 'time') {
 			return orderBy === 'asc' ? a.acquiredAt - b.acquiredAt || a.id - b.id : b.acquiredAt - a.acquiredAt || a.id - b.id
 		} else if(sortBy === 'id') {
-			return orderBy === 'asc' ? a.id - b.id || a.acquiredAt - b.acquiredAt : a.id - b.id || a.acquiredAt - b.acquiredAt
+			return orderBy === 'asc' ? a.id - b.id || a.acquiredAt - b.acquiredAt : b.id - a.id || a.acquiredAt - b.acquiredAt
 		} else if(sortBy === 'attr') {
 			return orderBy === 'asc' ? attrArr.indexOf(attr_zh_to_en[monster_a.attribute]) - attrArr.indexOf(attr_zh_to_en[monster_b.attribute]) || a.id - b.id : attrArr.indexOf(attr_zh_to_en[monster_b.attribute]) - attrArr.indexOf(attr_zh_to_en[monster_a.attribute]) || a.id - b.id
 		} else if(sortBy === 'race') {

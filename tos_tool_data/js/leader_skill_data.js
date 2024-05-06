@@ -1,4 +1,4 @@
-// Last modified : 2024.05.06 16:05
+// Last modified : 2024.05.06 20:42
 
 const leader_skill_data = [
     {
@@ -35940,7 +35940,7 @@ const leader_skill_data = [
                 'limit': []
             }
 		],
-        'monster': [10602, 10674, 10675]
+        'monster': [10602, 10674, 10675, 10677]
     },
     {
         'name': '十刑之怒 ‧ 龍',

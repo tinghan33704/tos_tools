@@ -1,4 +1,4 @@
-// Last modified : 2024.05.17 14:29
+// Last modified : 2024.05.23 21:27
 
 const leader_skill_data = [
     {
@@ -36677,6 +36677,64 @@ const leader_skill_data = [
             }
 		],
         'monster': [10678]
+    },
+    {
+        'name': '萬世棋局',
+        'description': `
+		I.【黑嘉嘉】、水屬性及妖精類成員
+		⇒ 攻擊力 100 倍、生命力及回復力 4 倍
+		II. 消除隊伍成員屬性符石
+		⇒ 全隊攻擊力額外 1.8 倍
+		III. 隊中每有 1 個【黑嘉嘉】或妖精類成員
+		⇒ 增加 2 連擊 (Combo)
+		⇒ 最多可增加 6 連擊 (Combo)
+		`,
+        'tag': [
+            {
+                'name': ['增攻', '增血', '增回'],
+                'object': ['特定成員', '水', '妖'],
+                'limit': []
+            },
+            {
+                'name': '增攻',
+                'object': [],
+                'limit': ['消除特定符石']
+            },
+            {
+                'name': '增加Combo',
+                'object': [],
+                'limit': ['特定成員', '成員種族', '成員數量']
+            }
+		],
+        'monster': [10683]
+    },
+    {
+        'name': '十刑之怒 ‧ 妖',
+        'description': `
+		妖精類成員攻擊力 10 倍
+		`,
+        'tag': [
+            {
+                'name': '增攻',
+                'object': ['妖'],
+                'limit': []
+            }
+		],
+        'monster': [10684]
+    },
+    {
+        'name': '十刑之怒 ‧ 人',
+        'description': `
+		人類成員攻擊力 10 倍
+		`,
+        'tag': [
+            {
+                'name': '增攻',
+                'object': ['人'],
+                'limit': []
+            }
+		],
+        'monster': [10687]
     },
     {
         'name': '歷劫之道',

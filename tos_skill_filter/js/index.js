@@ -1126,6 +1126,7 @@ function descriptionTranslator(monster_id, description) {
 		.replace(/休眠(狀態)?/g, `<span class='desc_note_label negative_note_label' onmouseover='renderDescriptionNote(6)' ontouchstart='renderDescriptionNote(6)'>休眠$1</span>`)
 		.replace(/([痲麻])痺(狀態)?/g, `<span class='desc_note_label negative_note_label' onmouseover='renderDescriptionNote(7)' ontouchstart='renderDescriptionNote(7)'>$1痺$2</span>`)
 		.replace(/沉默(狀態)?/g, `<span class='desc_note_label negative_note_label' onmouseover='renderDescriptionNote(8)' ontouchstart='renderDescriptionNote(8)'>沉默$1</span>`)
+		.replace(/「道」狀態?/g, `<span class='desc_note_label positive_note_label' onmouseover='renderDescriptionNote(9)' ontouchstart='renderDescriptionNote(9)'>「道」狀態</span>`)
 }
 
 function showFixedBoard(id, subid) {
@@ -1225,6 +1226,9 @@ function renderDescriptionNote(desc_index) {
 		break;
 		case 8:
 			$("#descriptionNote").html('<span style="color:var(--text_negative_label_color);">隊伍中有陷入沉默狀態的角色時不能發動龍刻脈動及龍刻技能<br>陷入沉默狀態的角色無法使用技能</span>')
+		break;
+		case 9:
+			$("#descriptionNote").html('<span style="color:var(--text_positive_label_color);">自身攻擊力 1.5 倍；無視人類、妖精類及神族敵人的防禦力；自身以 50% 攻擊力追打自身原屬性攻擊 2 次</span>')
 		break;
 		default:
 			$("#descriptionNote").html('');

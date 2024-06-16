@@ -36805,7 +36805,7 @@ const leader_skill_data = [
             {
                 'name': '增攻',
                 'object': [],
-                'limit': ['消除特定符石', '消除數量']
+                'limit': ['消除特定符石']
             }
 		],
         'monster': [10690, 10694, 10695, 10697]

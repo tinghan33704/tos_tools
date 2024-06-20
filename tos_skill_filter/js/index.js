@@ -1228,7 +1228,7 @@ function renderDescriptionNote(desc_index) {
 			$("#descriptionNote").html('<span style="color:var(--text_negative_label_color);">隊伍中有陷入沉默狀態的角色時不能發動龍刻脈動及龍刻技能<br>陷入沉默狀態的角色無法使用技能</span>')
 		break;
 		case 9:
-			$("#descriptionNote").html('<span style="color:var(--text_positive_label_color);">自身攻擊力 1.5 倍；無視人類、妖精類及神族敵人的防禦力；自身以 50% 攻擊力追打自身原屬性攻擊 2 次</span>')
+			$("#descriptionNote").html('<span style="color:var(--text_positive_label_color);">⓵ 自身攻擊力 1.5 倍<br>⓶ 無視人類、妖精類及神族敵人的防禦力<br>⓷ 自身以 50% 攻擊力追打自身原屬性攻擊 2 次</span>')
 		break;
 		default:
 			$("#descriptionNote").html('');

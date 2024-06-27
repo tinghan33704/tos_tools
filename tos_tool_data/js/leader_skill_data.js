@@ -1,4 +1,4 @@
-// Last modified : 2024.06.20 19:43
+// Last modified : 2024.06.28 01:12
 
 const leader_skill_data = [
     {
@@ -36981,6 +36981,54 @@ const leader_skill_data = [
             }
 		],
         'monster': [10701]
+    },
+    {
+        'name': '花化融合',
+        'description': `
+		
+		`,
+        'tag': [
+            {
+                'name': ['增攻', '增血', '增回'],
+                'object': ['妖', '神'],
+                'limit': []
+            },
+            {
+                'name': ['增攻', '增血', '增回', '進場減CD'],
+                'object': ['特定成員'],
+                'limit': []
+            },
+            {
+                'name': ['其他減CD', '回EP'],
+                'object': ['特定成員'],
+                'limit': ['發動技能']
+            }
+		],
+        'monster': [10705]
+    },
+    {
+        'name': '花化融合 ‧ 強',
+        'description': `
+		
+		`,
+        'tag': [
+            {
+                'name': ['增攻', '增血', '增回'],
+                'object': ['妖', '神'],
+                'limit': []
+            },
+            {
+                'name': ['增攻', '增血', '增回'],
+                'object': ['特定成員'],
+                'limit': []
+            },
+            {
+                'name': ['其他減CD', '回EP'],
+                'object': ['特定成員'],
+                'limit': ['發動技能']
+            }
+		],
+        'monster': [10706]
     },
     {
         'name': '歷劫之道',

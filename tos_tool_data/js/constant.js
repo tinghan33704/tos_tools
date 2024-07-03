@@ -1108,7 +1108,7 @@ const active_skill_notification = ''
 const team_skill_notification = ''
 const leader_skill_notification = ''
 const craft_notification = ''
-const backpack_notification = '我大概知道你會想問什麼<br>問就是等官方修'
+const backpack_notification = ''
 
 /* calculate remain days */
 /* 

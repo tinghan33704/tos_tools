@@ -1,4 +1,4 @@
-// Last modified : 2024.06.29 11:52
+// Last modified : 2024.07.04 18:24
 
 const leader_skill_data = [
     {
@@ -37013,7 +37013,7 @@ const leader_skill_data = [
                 'limit': ['發動技能']
             }
 		],
-        'monster': [10705]
+        'monster': [10705, 10707]
     },
     {
         'name': '花化融合 ‧ 強',
@@ -37045,7 +37045,7 @@ const leader_skill_data = [
                 'limit': ['發動技能']
             }
 		],
-        'monster': [10706]
+        'monster': [10706, 10708]
     },
     {
         'name': '歷劫之道',

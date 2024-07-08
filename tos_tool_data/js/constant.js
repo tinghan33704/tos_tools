@@ -1104,7 +1104,7 @@ const input_maxlength = 50;
 const uid_maxlength = 11;
 const veri_maxlength = 6;
 
-const active_skill_notification = ''
+const active_skill_notification = '盾是解了<br>但那個 300 多兆...<br>你的傷害...還夠嗎？'
 const team_skill_notification = ''
 const leader_skill_notification = ''
 const craft_notification = ''

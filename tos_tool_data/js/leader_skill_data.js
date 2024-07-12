@@ -1,4 +1,4 @@
-// Last modified : 2024.07.04 18:24
+// Last modified : 2024.07.13 03:44
 
 const leader_skill_data = [
     {
@@ -37046,6 +37046,59 @@ const leader_skill_data = [
             }
 		],
         'monster': [10706, 10708]
+    },
+    {
+        'name': '原始殺欲',
+        'description': `
+		
+		`,
+        'tag': [
+            {
+                'name': ['增攻', '增血'],
+                'object': ['光', '獸', '龍'],
+                'limit': []
+            },
+            {
+                'name': '增血',
+                'object': ['特定成員'],
+                'limit': []
+            },
+            {
+                'name': '增攻',
+                'object': [],
+                'limit': ['消除特定符石']
+            },
+            {
+                'name': '增加Combo',
+                'object': [],
+                'limit': ['Combo數量']
+            }
+		],
+        'monster': [10714]
+    },
+    {
+        'name': '罪孽殺機',
+        'description': `
+		
+		`,
+        'tag': [
+            {
+                'name': ['增攻', '水兼具其他', '火兼具其他', '木兼具其他', '光兼具其他', '暗兼具其他', '心兼具其他', '符石兼具水', '符石兼具火', '符石兼具木', '符石兼具光', '符石兼具暗'],
+                'object': [],
+                'limit': []
+            },
+            {
+                'name': '增攻',
+                'object': ['獸', '龍'],
+                'limit': []
+            },
+            {
+                'name': ['增血', '增攻', '增回'],
+                'object': [],
+                'limit': ['成員種族數量']
+            }
+		],
+        'monster': [10715]
     },
     {
         'name': '歷劫之道',

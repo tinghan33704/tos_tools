@@ -1,4 +1,4 @@
-// Last modified : 2024.08.01 13:27
+// Last modified : 2024.08.01 22:05
 
 const armed_craft_data = [
     {
@@ -32380,5 +32380,37 @@ const armed_craft_data = [
         'skill_tag': ['回血', '增傷', '增回'],
         'armed_description': ['必然延長移動符石時間 1 秒', '進入關卡後，自身主動技能 CD 減少 1'],
         'armed_tag': ['延長轉珠時間', '進場減CD'],
+    },
+    {
+        'id': 9022,
+        'name': '【9022】 勝利重劍龍刃',
+        'mode': '裂空龍刃',
+        'attribute': '沒有限制',
+        'race': '人類',
+        'star': 2,
+        'charge': '消除符石',
+        'add_hp': 2,
+        'add_atk': 2,
+        'add_rec': 2,
+        'skill_description': ['1 回合內，對單一敵人造成 2024 點無屬性傷害', '1 回合內，無視「連擊相等盾」'],
+        'skill_tag': ['直傷', '單體直傷', '無視連擊相等盾'],
+        'armed_description': ['延長移動符石時間 2.4 秒', '消除 20 粒或以上符石，自身攻擊力 2.024 倍'],
+        'armed_tag': ['延長轉珠時間', '增傷', '自身增傷'],
+    },
+    {
+        'id': 9023,
+        'name': '【9023】 勝利花劍龍刃',
+        'mode': '裂空龍刃',
+        'attribute': '沒有限制',
+        'race': '人類',
+        'star': 2,
+        'charge': '消除符石',
+        'add_hp': 2,
+        'add_atk': 2,
+        'add_rec': 2,
+        'skill_description': ['1 回合內，對單一敵人造成 2024 點無屬性傷害', '1 回合內，無視「反首消符石盾」'],
+        'skill_tag': ['直傷', '單體直傷', '無視反首消盾'],
+        'armed_description': ['延長移動符石時間 2.4 秒', '消除 20 粒或以上符石，自身攻擊力 2.024 倍'],
+        'armed_tag': ['延長轉珠時間', '增傷', '自身增傷'],
     },
 ]

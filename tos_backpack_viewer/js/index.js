@@ -990,8 +990,8 @@ function renderBottomTagContent(id) {
 	if(level < maxLevel) return `Lv. ${level}`
 	
 	if(maxRefine > 0 && level >= maxLevel && skillLevel >= maxSkill && enhanceLevel >= maxRefine) return '<span class="all_max_tag">All Max</span>'
-	if(level == maxLevel && skillLevel == maxSkill) return '<span class="dual_max_tag">Dual Max</span>'
-	if(level == maxLevel) return '<span class="lv_max_tag">Lv. Max</span>'
+	if(level >= maxLevel && skillLevel >= maxSkill) return '<span class="dual_max_tag">Dual Max</span>'
+	if(level >= maxLevel) return '<span class="lv_max_tag">Lv. Max</span>'
 	
 	return 'Lv. ???'
 }

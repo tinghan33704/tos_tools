@@ -795,7 +795,7 @@ const sealContent = {
 		'迎擊戰': ['迎擊戰'],
 		'封王': [[286, 674, 1946, 1947, 1948, 1949], [288, 703, 2446, 2447], [289, 704, 2448, 2449], [287, 739, 1309, 1310], [285, 742, 2214, 2215], [290, 850, 2748, 2749], [293, 998, 2911, 2912], [450, 1188, 2913, 2914], [829, 1716], [1135, 2092], [1871, 2330], [2598, 3015, 3016, 3017, 3018, 3019], '侵蝕 ‧ 封王', -3010],
 		'召喚師 Bingo': ['召喚師 Bingo'], 
-		'神魔通行證': ['珍念時光'],
+		'神魔戰鬥通行證': ['珍念時光'],
 		'道具蒐集': ['道具蒐集'],
 		'全齊獎': ['至強頂點', '女神族', '究極裝甲艾克斯', [2710, 2721], '城戶沙織', '洛伊德與安妮亞與約兒與彭德', '新希蕾妮蒂女王與安迪米歐國王', '桐人與亞絲娜與結衣', '畫眉丸的妻子'],
 		'主角': [[1, 2, 3, 4, 408, 2846, 2847], [5, 6, 7, 8, 409, 2848, 2849], [9, 10, 11, 12, 410, 2850, 2851], [13, 14, 15, 16, 411, 2852, 2853], [17, 18, 19, 20, 412, 2854, 2855], 1298, 2511, 2512, 2513, 2514, 2515],
@@ -1107,11 +1107,11 @@ const input_maxlength = 50;
 const uid_maxlength = 11;
 const veri_maxlength = 6;
 
-const active_skill_notification = '<div style="text-align:center;">非神魔相關個人推廣時間：<a href="https://www.youtube.com/watch?v=FRl3UfF-K4E" target="_blank"><img style="max-height: 60px; max-width:100%;" src="../tos_tool_data/img/other/merak_banner.png" /></div>'
-const team_skill_notification = '<div style="text-align:center;">非神魔相關個人推廣時間：<a href="https://www.youtube.com/watch?v=FRl3UfF-K4E" target="_blank"><img style="max-height: 60px; max-width:100%;" src="../tos_tool_data/img/other/merak_banner.png" /></div>'
-const leader_skill_notification = '<div style="text-align:center;">非神魔相關個人推廣時間：<a href="https://www.youtube.com/watch?v=FRl3UfF-K4E" target="_blank"><img style="max-height: 60px; max-width:100%;" src="../tos_tool_data/img/other/merak_banner.png" /></div>'
-const craft_notification = '<div style="text-align:center;">非神魔相關個人推廣時間：<a href="https://www.youtube.com/watch?v=FRl3UfF-K4E" target="_blank"><img style="max-height: 60px; max-width:100%;" src="../tos_tool_data/img/other/merak_banner.png" /></div>'
-const backpack_notification = '<div style="text-align:center;">非神魔相關個人推廣時間：<a href="https://www.youtube.com/watch?v=FRl3UfF-K4E" target="_blank"><img style="max-height: 60px; max-width:100%;" src="../tos_tool_data/img/other/merak_banner.png" /></div>'
+const active_skill_notification = '<div style="text-align:center;">非神魔相關個人推廣時間：<a href="https://www.youtube.com/watch?v=s5-ImrrH6b8" target="_blank"><img style="max-height: 60px; max-width:100%;" src="../tos_tool_data/img/other/merak_banner.png" /></div>'
+const team_skill_notification = '<div style="text-align:center;">非神魔相關個人推廣時間：<a href="https://www.youtube.com/watch?v=s5-ImrrH6b8" target="_blank"><img style="max-height: 60px; max-width:100%;" src="../tos_tool_data/img/other/merak_banner.png" /></div>'
+const leader_skill_notification = '<div style="text-align:center;">非神魔相關個人推廣時間：<a href="https://www.youtube.com/watch?v=s5-ImrrH6b8" target="_blank"><img style="max-height: 60px; max-width:100%;" src="../tos_tool_data/img/other/merak_banner.png" /></div>'
+const craft_notification = '<div style="text-align:center;">非神魔相關個人推廣時間：<a href="https://www.youtube.com/watch?v=s5-ImrrH6b8" target="_blank"><img style="max-height: 60px; max-width:100%;" src="../tos_tool_data/img/other/merak_banner.png" /></div>'
+const backpack_notification = '<div style="text-align:center;">非神魔相關個人推廣時間：<a href="https://www.youtube.com/watch?v=s5-ImrrH6b8" target="_blank"><img style="max-height: 60px; max-width:100%;" src="../tos_tool_data/img/other/merak_banner.png" /></div>'
 
 /* calculate remain days */
 /* 

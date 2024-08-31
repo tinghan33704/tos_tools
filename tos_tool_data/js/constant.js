@@ -1107,11 +1107,11 @@ const input_maxlength = 50;
 const uid_maxlength = 11;
 const veri_maxlength = 6;
 
-const active_skill_notification = '<div style="text-align:center;">非神魔相關個人推廣時間：<a href="https://www.youtube.com/watch?v=laFvusYbECw" target="_blank"><img style="max-height: 60px; max-width:100%;" src="../tos_tool_data/img/other/merak_banner.png" /></div>'
-const team_skill_notification = '<div style="text-align:center;">非神魔相關個人推廣時間：<a href="https://www.youtube.com/watch?v=laFvusYbECw" target="_blank"><img style="max-height: 60px; max-width:100%;" src="../tos_tool_data/img/other/merak_banner.png" /></div>'
-const leader_skill_notification = '<div style="text-align:center;">非神魔相關個人推廣時間：<a href="https://www.youtube.com/watch?v=laFvusYbECw" target="_blank"><img style="max-height: 60px; max-width:100%;" src="../tos_tool_data/img/other/merak_banner.png" /></div>'
-const craft_notification = '<div style="text-align:center;">非神魔相關個人推廣時間：<a href="https://www.youtube.com/watch?v=laFvusYbECw" target="_blank"><img style="max-height: 60px; max-width:100%;" src="../tos_tool_data/img/other/merak_banner.png" /></div>'
-const backpack_notification = '<div style="text-align:center;">非神魔相關個人推廣時間：<a href="https://www.youtube.com/watch?v=laFvusYbECw" target="_blank"><img style="max-height: 60px; max-width:100%;" src="../tos_tool_data/img/other/merak_banner.png" /></div>'
+const active_skill_notification = ''
+const team_skill_notification = ''
+const leader_skill_notification = ''
+const craft_notification = ''
+const backpack_notification = ''
 
 /* calculate remain days */
 /* 

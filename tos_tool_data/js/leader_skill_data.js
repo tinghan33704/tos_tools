@@ -1,4 +1,4 @@
-// Last modified : 2024.09.12 23:36
+// Last modified : 2024.09.15 00:52
 
 const leader_skill_data = [
     {
@@ -37747,7 +37747,7 @@ const leader_skill_data = [
                 'limit': ['消除種族符石', '消除數量']
             }
 		],
-        'monster': [10762]
+        'monster': [10762, 10763, 10764, 10765, 10766, 10767, 10768]
     },
     {
         'name': '歷劫之道',

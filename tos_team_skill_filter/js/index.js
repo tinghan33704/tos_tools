@@ -240,7 +240,7 @@ function startFilter()
 						const error_path = `../tos_tool_data/img/monster/noname${monster_attr ? `_${attr_zh_to_en[monster_attr]}` : ''}.png`
                         
                         str += `
-                                    <img class="relative_img" src="../tos_tool_data/img/monster/${relative_monster}.png" title="No.${monster.id} ${monster_name}" onerror="this.src='${error_path}'">
+                                    <img class="relative_img" src="../tos_tool_data/img/monster/${relative_monster}.png" title="No.${relative_monster} ${monster_name}" onerror="this.src='${error_path}'">
                                     </img>
                         `;
                     })

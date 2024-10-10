@@ -1124,7 +1124,7 @@ const active_skill_notification = ''
 const team_skill_notification = ''
 const leader_skill_notification = ''
 const craft_notification = ''
-const backpack_notification = ''
+const backpack_notification = '匯入功能現在是壞的<br>啥時心情好啥時修<br>至於原因請去問神魔學會在搞什麼'
 
 /* calculate remain days */
 /* 

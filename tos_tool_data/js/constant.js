@@ -1124,7 +1124,7 @@ const active_skill_notification = ''
 const team_skill_notification = ''
 const leader_skill_notification = ''
 const craft_notification = ''
-const backpack_notification = '匯入功能現在是壞的<br>啥時心情好啥時修<br>至於原因請去問神魔學會在搞什麼'
+const backpack_notification = '由於驗證碼問題，<font color="red">匯入功能現在是壞的</font> (更新功能不受影響)<br>啥時心情好啥時修<br>至於原因請去問<a href="https://www.facebook.com/tos.zh/posts/943117847851641" target="_blank">神魔學會在搞什麼</a>'
 
 /* calculate remain days */
 /* 

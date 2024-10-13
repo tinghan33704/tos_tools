@@ -1124,7 +1124,7 @@ const active_skill_notification = ''
 const team_skill_notification = ''
 const leader_skill_notification = ''
 const craft_notification = ''
-const backpack_notification = '由於驗證碼問題，<font color="red">匯入功能現在是壞的</font> (更新功能不受影響)<br>啥時心情好啥時修<br>至於原因請去問<a href="https://www.facebook.com/tos.zh/posts/943117847851641" target="_blank">神魔學會在搞什麼</a>'
+const backpack_notification = ''
 
 /* calculate remain days */
 /* 
@@ -1137,4 +1137,4 @@ const timeLeft = endDate1 - currentDate
 
 const backpack_notification = (timeLeft > 0 && timeLeft <= 1000 * 60 * 60 * 24 * 14) ? `<font style="font-size: 1.2em">十一週年 All Max 自選還剩<font style="color: red; font-weight: bold;">${diffTime1}</font></font>` : ''
  */
-const myAuth = 'MTAwMzk0Mjk2MzMyNDg0Mg'
+const myAuth = 'MTAyMDE4OTgxOTI2NDA5NA'

@@ -1120,7 +1120,7 @@ const input_maxlength = 50;
 const uid_maxlength = 11;
 const veri_maxlength = 6;
 
-const active_skill_notification = ''
+const active_skill_notification = '你打園長所需要的固定連擊都在<a href="./tos_skill_filter.html?keyword=u56fau5b9au70bau31u30u2cu56fau5b9au70bau31u31u2cu56fau5b9au70bau31u33u2cu56fau5b9au70bau31u35&attr=C&race=G0&or=0"><b><u>這裡</u></b></a>'
 const team_skill_notification = ''
 const leader_skill_notification = ''
 const craft_notification = ''

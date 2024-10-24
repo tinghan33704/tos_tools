@@ -1,4 +1,4 @@
-// Last modified : 2024.10.18 17:02
+// Last modified : 2024.10.25 03:13
 
 const leader_skill_data = [
     {
@@ -36134,7 +36134,7 @@ const leader_skill_data = [
                 'limit': []
             }
 		],
-        'monster': [10601, 10793]
+        'monster': [10601, 10788, 10793]
     },
     {
         'name': '十刑之怒 ‧ 獸',
@@ -37782,7 +37782,7 @@ const leader_skill_data = [
                 'limit': []
             }
 		],
-        'monster': [10771, 10772, 10775, 10776]
+        'monster': [10771, 10772, 10775, 10776, 10777, 10779, 10780]
     },
     {
         'name': '癒靈之源',

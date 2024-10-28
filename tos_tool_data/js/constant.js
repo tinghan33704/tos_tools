@@ -1120,11 +1120,11 @@ const input_maxlength = 50;
 const uid_maxlength = 11;
 const veri_maxlength = 6;
 
-const active_skill_notification = ''
-const team_skill_notification = ''
-const leader_skill_notification = ''
-const craft_notification = ''
-const backpack_notification = ''
+const active_skill_notification = '玩神魔玩累了嗎？<a href="https://forum.gamer.com.tw/Co.php?bsn=23805&sn=4149122"><u>放輕鬆看點關於邏輯爆炸的笑話</u></a>'
+const team_skill_notification = '玩神魔玩累了嗎？<a href="https://forum.gamer.com.tw/Co.php?bsn=23805&sn=4149122"><u>放輕鬆看點關於邏輯爆炸的笑話</u></a>'
+const leader_skill_notification = '玩神魔玩累了嗎？<a href="https://forum.gamer.com.tw/Co.php?bsn=23805&sn=4149122"><u>放輕鬆看點關於邏輯爆炸的笑話</u></a>'
+const craft_notification = '玩神魔玩累了嗎？<a href="https://forum.gamer.com.tw/Co.php?bsn=23805&sn=4149122"><u>放輕鬆看點關於邏輯爆炸的笑話</u></a>'
+const backpack_notification = '玩神魔玩累了嗎？<a href="https://forum.gamer.com.tw/Co.php?bsn=23805&sn=4149122"><u>放輕鬆看點關於邏輯爆炸的笑話</u></a>'
 
 /* calculate remain days */
 /* 

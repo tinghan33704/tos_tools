@@ -446,7 +446,7 @@ function showSeal(name)
 		]
 		
 		const specialCardTitle = [
-			'以後關卡記得要開放後晚十二小時再打喔'
+			'(1)&#32;以後關卡記得要開放後晚十二小時再打喔&#13;&#10;(2)&#32;以後看到關卡記得不要隨便打喔'
 		]
 		
 		const mustGetTitle = '五選一必能選中'

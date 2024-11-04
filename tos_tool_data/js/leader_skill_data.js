@@ -1,4 +1,4 @@
-// Last modified : 2024.11.02 05:23
+// Last modified : 2024.11.04 12:40
 
 const leader_skill_data = [
     {
@@ -28954,7 +28954,7 @@ const leader_skill_data = [
                 'limit': ['消除特定符石']
             }
 		],
-        'monster': [2903]
+        'monster': [2902]
     },
     {
         'name': '神聖裁決',

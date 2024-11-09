@@ -1,4 +1,4 @@
-// Last modified : 2024.11.07 23:35
+// Last modified : 2024.11.09 20:06
 
 const leader_skill_data = [
     {
@@ -36082,7 +36082,7 @@ const leader_skill_data = [
                 'limit': ['成員種族', '消除種族符石']
             }
 		],
-        'monster': [10586]
+        'monster': [10589]
     },
     {
         'name': '最強的世界',

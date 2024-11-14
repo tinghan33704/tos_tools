@@ -692,7 +692,7 @@ function renderResult() {
 	}
 	
 	$("#result-row").html(() => {
-		let tomoriEasterEgg = [...getSelectedButton('filter')[0]].includes('無視紅綠燈') ? "<div class='row' style='background-color: rgba(0, 0, 0, 0.15);'><img src='../tos_tool_data/img/other/neglect_tomori.png' style='width: 50%; margin: auto; object-fit: contain;'/></div>" : ""
+		let tomoriEasterEgg = [...getSelectedButton('filter')[0]].includes('無視紅綠燈') ? "<div class='row' style='background-color: rgba(0, 0, 0, 0.15); margin: 0 15px;'><img src='../tos_tool_data/img/other/neglect_tomori.png' style='width: 50%; margin: auto; object-fit: contain;'/></div>" : ""
 		
         if(sort_by == 'id')
         {

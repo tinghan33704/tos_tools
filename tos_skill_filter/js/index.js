@@ -692,6 +692,8 @@ function renderResult() {
 	}
 	
 	$("#result-row").html(() => {
+		let tomoriEasterEgg = [...getSelectedButton('filter')[0]].includes('無視紅綠燈') ? "<div class='row' style='background-color: rgba(0, 0, 0, 0.15);'><img src='../tos_tool_data/img/other/neglect_tomori.png' style='width: 50%; margin: auto; object-fit: contain;'/></div>" : ""
+		
         if(sort_by == 'id')
         {
             /*searchResult.sort((a, b) => { 
@@ -719,7 +721,7 @@ function renderResult() {
             {
                 str = `<div class='col-12' style='padding-top: 20px; text-align: center; color: #888888;'><h1>查無結果</h1></div>`;
             }
-            return str;
+            return tomoriEasterEgg + str;
         }
         else if(sort_by == 'charge')
         {
@@ -756,7 +758,7 @@ function renderResult() {
             {
                 str = `<div class='col-sm-12' style="text-align: center; color: #888888;"><h1>查無結果</h1></div>`;
             }
-            return str;
+            return tomoriEasterEgg + str;
         }
         else if(sort_by == 'attribute')
         {
@@ -806,7 +808,7 @@ function renderResult() {
             {
                 str = `<div class='col-12' style='padding-top: 20px; text-align: center; color: #888888;'><h1>查無結果</h1></div>`;
             }
-            return str;
+            return tomoriEasterEgg + str;
         }
         else if(sort_by == 'race')
         {
@@ -855,7 +857,7 @@ function renderResult() {
             {
                 str = `<div class='col-12' style='padding-top: 20px; text-align: center; color: #888888;'><h1>查無結果</h1></div>`;
             }
-            return str;
+            return tomoriEasterEgg + str;
         }
         else if(sort_by == 'skill')
         {
@@ -920,7 +922,7 @@ function renderResult() {
             {
                 str = `<div class='col-12' style='padding-top: 20px; text-align: center; color: #888888;'><h1>查無結果</h1></div>`;
             }
-            return str;
+            return tomoriEasterEgg + str;
         }
     });
 	

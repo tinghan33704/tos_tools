@@ -1,4 +1,4 @@
-// Last modified : 2024.11.02 05:23
+// Last modified : 2024.11.21 22:31
 
 const armed_craft_data = [
     {
@@ -34323,6 +34323,22 @@ const armed_craft_data = [
         'skill_tag': ['增傷', '無視固定連擊盾'],
         'armed_description': ['此召喚獸發動技能的回合，自身攻擊力 1.25 倍', '消除 ≥3 粒光符石，光屬性攻擊力 1.1 倍'],
         'armed_tag': ['增傷', '自身增傷', '光屬增傷'],
+    },
+    {
+        'id': 7415,
+        'name': '【7415】 娃娃景品龍丸',
+        'mode': '鏡像龍丸',
+        'attribute': '光',
+        'race': '機械族',
+        'star': 2,
+        'charge': '發動攻擊',
+        'add_hp': -1,
+        'add_atk': -1,
+        'add_rec': -1,
+        'skill_description': ['1 回合內，隊伍攻擊力提升 15%', '1 回合內，所有成員無視屬性相剋'],
+        'skill_tag': ['增傷', '無視屬性相剋'],
+        'armed_description': ['進入關卡後，自身主動技能 CD 減少 1', '此召喚獸發動技能的回合，自身攻擊力 1.7 倍'],
+        'armed_tag': ['進場減CD', '增傷', '自身增傷'],
     },
     {
         'id': 7416,

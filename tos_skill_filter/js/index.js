@@ -1259,6 +1259,7 @@ function renderMonsterImage(monster, tooltip_content, monsterObj, eggLink = fals
 	const hasImageChange = 'num' in monster ? monster_obj.skill[monster.num]?.imageChange : monster?.nums?.length === 1 ? monster_obj.skill[monster.nums[0]]?.imageChange ?? null : null;
     const notInInventory = useInventory && !playerData.card.includes(monster.id)
 	const isCombineSkill = monster_obj.skill[monster?.nums?.[0]]?.type === 'combine' || monster_obj.skill[monster?.num]?.type === 'combine';
+	const displayId = monster_obj?.displayId || monster_obj?.id
 	
 	const digimonShinka = [10244, 10245, 10246, 10248, 10249, 10250].includes(monster.id) && checkKeyword().has('進化')
 	const digimonChouShinka = [10244, 10245, 10246, 10248, 10249, 10250].includes(monster.id) && checkKeyword().has('超進化')
@@ -1289,7 +1290,7 @@ function renderMonsterImage(monster, tooltip_content, monsterObj, eggLink = fals
 			<img class='monster_img${notInInventory ? '_gray' : ''}' style="display: none;" src=${hasSpecialImage ? `../tos_tool_data/img/monster/${monster_obj.id}_sp.png` : ''}>
 			<!-- -->
             <div class='monsterId${notInInventory ? '_gray' : ''}' style='${fixedIdTagStyle}'>
-                <a href='${eggLink ? `https://home.gamer.com.tw/homeindex.php?owner=tinghan33704` : `https://tos.fandom.com/zh/wiki/${monster_obj.id}`}' target='_blank'>${paddingZeros(monster_obj.id, 3)}</a>
+                <a href='${eggLink ? `https://home.gamer.com.tw/homeindex.php?owner=tinghan33704` : `https://tos.fandom.com/zh/wiki/${displayId}`}' target='_blank'>${paddingZeros(displayId, 3)}</a>
             </div>
         </div>
     `

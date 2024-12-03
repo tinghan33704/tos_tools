@@ -181,18 +181,20 @@ function startFilter()
 				const error_path = `../tos_tool_data/img/monster/noname${monster_attr ? `_${attr_zh_to_en[monster_attr]}` : ''}.png`
                 
                 $.each(monster.nums, (num_index, skill_number) => {
-                    let skill = monster_data.find((element) => {
+					const monster_obj = monster_data.find((element) => {
                         return element.id == monster.id;
-                    }).teamSkill[skill_number];
+                    })
+                    const skill = monster_obj.teamSkill[skill_number];
+					const displayId = monster_obj?.displayId || monster_obj?.id
                     
                     if(num_index == 0)
                     {
                         str += `
                             <tr class="monster_first_tr monster_tr_${attr_zh_to_en[monster_attr]}">
                                 <td class="td_monster_icon" rowspan=${monster.nums.length * 3}>
-                                    <a href="https://tos.fandom.com/zh/wiki/${monster.id}" target="_blank">
+                                    <a href="https://tos.fandom.com/zh/wiki/${displayId}" target="_blank">
                                         <img class="monster_img" src="../tos_tool_data/img/monster/${monster.id}.png" title="${monster_name}" onerror="this.src='${error_path}'"></img>
-                                        <div class="monsterId">${paddingZeros(monster.id, 3)}</div>
+                                        <div class="monsterId">${paddingZeros(displayId, 3)}</div>
                                     </a>
                                 </td>`;
                     }
@@ -237,10 +239,11 @@ function startFilter()
                         })
                         const monster_attr = monster_obj?.attribute;
 						const monster_name = monster_obj?.name ?? '';
+						const displayId = monster_obj?.displayId || monster_obj?.id
 						const error_path = `../tos_tool_data/img/monster/noname${monster_attr ? `_${attr_zh_to_en[monster_attr]}` : ''}.png`
                         
                         str += `
-                                    <img class="relative_img" src="../tos_tool_data/img/monster/${relative_monster}.png" title="No.${relative_monster} ${monster_name}" onerror="this.src='${error_path}'">
+                                    <img class="relative_img" src="../tos_tool_data/img/monster/${relative_monster}.png" title="No.${displayId} ${monster_name}" onerror="this.src='${error_path}'">
                                     </img>
                         `;
                     })
@@ -304,9 +307,11 @@ function startFilter()
 }
 
 function renderMonsterImage(monster) {
-    const monster_attr = monster_data.find((element) => {
+	const monster_obj = monster_data.find((element) => {
         return element.id == monster.id;
-    }).attribute;
+    })
+    const monster_attr = monster_obj.attribute;
+	const displayId = monster_obj?.displayId || monster_obj?.id
 	
 	const error_path = `../tos_tool_data/img/monster/noname${monster_attr ? `_${attr_zh_to_en[monster_attr]}` : ''}.png`
     
@@ -314,7 +319,7 @@ function renderMonsterImage(monster) {
         <div class='col-3 col-md-2 col-lg-1 result'>
             <img class='monster_img' style='cursor: default;' src='../tos_tool_data/img/monster/${monster.id}.png' onerror='this.src="${error_path}"'></img>
             <div class='monsterId'>
-                <a href='https://tos.fandom.com/zh/wiki/${monster.id}' target='_blank'>${paddingZeros(monster.id, 3)}</a>
+                <a href='https://tos.fandom.com/zh/wiki/${displayId}' target='_blank'>${paddingZeros(displayId, 3)}</a>
             </div>
         </div>
     `;

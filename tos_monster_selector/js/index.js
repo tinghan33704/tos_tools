@@ -95,7 +95,7 @@ function filterMonster() {
 	[version_tag_set, isVersionTagSelected] = getSelectedButton('version-tag');
 
 	$.each(monster_data, (index, monster) => {
-		if(monster.star <= 0) return
+		if(monster.star <= 0 || monster?.displayId) return
 		
 		let hasTag = false
 		

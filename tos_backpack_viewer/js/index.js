@@ -6,6 +6,7 @@ let currentSeal = ''
 let sealContentMonster = {}
 let isReverseMode = false 	// 反向檢視
 let isCompressMode = false	// 去除已有召喚獸檢視
+let sortingMethod = 'default'	// 排序方式 (default, number)
 let currentPage = 1
 const pageSize = 12 * 5
 
@@ -28,7 +29,8 @@ const sortByCategories = {
 	level: '等級',
 	skill_level: '技能等級',
 	enhance_level: '昇華階數',
-	star: '稀有度'
+	star: '稀有度',
+	number: '持有數量'
 }
 const orderByCategories = {
 	asc: '升序',
@@ -69,6 +71,15 @@ let settings = [
 		content: "全部",
 		callback: 'changeCardCategory()',
 		description: '顯示全部角色',
+		display: true,
+		hideAfterClick: false,
+	},
+	{
+		id: 'sort-btn',
+		className: 'sort',
+		content: "<i class='fa-solid fa-arrow-up-short-wide'></i>",
+		callback: 'changeSorting()',
+		description: '預設排序',
 		display: true,
 		hideAfterClick: false,
 	},
@@ -192,6 +203,18 @@ function changeCardCategory() {
 	updateSetting(settings)
 }
 
+function changeSorting() {
+	sortingMethod = sortingMethod === 'default' ? 'number' : 'default'
+	showSeal(currentSeal)
+	
+	const _settingIndex = settings.findIndex(setting => setting.id === 'sort-btn')
+	settings[_settingIndex] = {
+		...settings[_settingIndex],
+		description: sortingMethod === 'default' ? '預設排序' : '按持有數排序',
+	}
+	updateSetting(settings)
+}
+
 function startFilter(forceFilter = false) {
 	const preSelectedAttr = [...selectedAttr]
 	const preSelectedRace = [...selectedRace]
@@ -257,6 +280,8 @@ function startFilter(forceFilter = false) {
 			return orderBy === 'asc' ? (a?.enhanceLevel || 0 - b?.enhanceLevel || 0) || a.id - b.id : (b?.enhanceLevel || 0 - a?.enhanceLevel || 0) || a.id - b.id
 		} else if(sortBy === 'star') {
 			return orderBy === 'asc' ? (monster_a.star - monster_b.star) || a.id - b.id : (monster_b.star - monster_a.star) || a.id - b.id
+		} else if(sortBy === 'number') {
+			return orderBy === 'asc' ? playerData?.info?.[a.id]?.number - playerData?.info?.[b.id]?.number || a.id - b.id : playerData?.info?.[b.id]?.number - playerData?.info?.[a.id]?.number || a.id - b.id
 		}
 	})
 	
@@ -313,6 +338,9 @@ function selectSeal(index, event)
 				setting.description = '顯示已持有的角色'
 				setting.display = true
 			}
+			if(['sort-btn'].includes(setting?.id)) {
+				setting.display = true
+			}
 		})
 	} else if(currentSeal === '其他卡片') {
 		$.each(settings, (index, setting) => {
@@ -329,6 +357,9 @@ function selectSeal(index, event)
 				setting.display = false
 			}
 			if(['crossover-btn'].includes(setting?.id)) {
+				setting.display = true
+			}
+			if(['sort-btn'].includes(setting?.id)) {
 				setting.display = true
 			}
 		})
@@ -351,6 +382,9 @@ function selectSeal(index, event)
 			if(['filter-btn'].includes(setting?.id)) {
 				setting.display = true
 			}
+			if(['sort-btn'].includes(setting?.id)) {
+				setting.display = false
+			}
 		})
 		isReverseMode = false
 		isCompressMode = false
@@ -367,6 +401,9 @@ function selectSeal(index, event)
 				setting.content = '<i class="fa fa-expand"></i>'
 				setting.description = '顯示已持有的角色'
 				setting.display = false
+			}
+			if(['sort-btn'].includes(setting?.id)) {
+				setting.display = true
 			}
 		})
 		isReverseMode = false
@@ -452,7 +489,7 @@ function showSeal(name)
 		const mustGetTitle = '五選一必能選中'
 		
 		Object.keys(sealData).forEach((genre, genreIndex) => {
-			let cardData = sealData[genre]
+			let cardData = [...sealData[genre]]
 			
 			/* const mustGet = [...Array(5).keys()].map(i => i+1).includes(sealData[genre].filter(monster => {
 				return Array.isArray(monster) ? !monster.some(id => playerData.card.includes(id)) : !playerData.card.includes(monster)
@@ -527,6 +564,14 @@ function showSeal(name)
 					<i class="fa fa-caret-down collapse-open collapse-open-${genreIndex}" style='display: none;'></i>
 				</div>
 			`
+			
+			if(sortingMethod === 'number') {
+				cardData.sort((a, b) => {
+					const totalNumberA = Array.isArray(a) ? a.reduce((acc, cur) => acc + (playerData?.info?.[cur]?.number || 0), 0) : (playerData?.info?.[a]?.number || 0)
+					const totalNumberB = Array.isArray(b) ? b.reduce((acc, cur) => acc + (playerData?.info?.[cur]?.number || 0), 0) : (playerData?.info?.[b]?.number || 0)
+					return totalNumberB - totalNumberA
+				})
+			}
 			
 			if(cardData.length > 0 && (!isCompressMode || !hasCard)) {
 				cardStr += `

@@ -1,4 +1,4 @@
-// Last modified : 2025.01.10 13:53
+// Last modified : 2025.01.16 20:13
 
 const leader_skill_data = [
     {
@@ -38565,6 +38565,44 @@ const leader_skill_data = [
             }
 		],
         'monster': [10820]
+    },
+    {
+        'name': '仿魂滅世',
+        'description': `
+		
+		`,
+        'tag': [
+            {
+                'name': ['增攻', '增血', '增回', '延長轉珠時間', '敵方受傷增加'],
+                'object': [],
+                'limit': []
+            },
+            {
+                'name': ['增加Ex.Combo', '增加Combo'],
+                'object': [],
+                'limit': ['消除數量']
+            }
+		],
+        'monster': [10828]
+    },
+    {
+        'name': '仿魂滅殺',
+        'description': `
+		
+		`,
+        'tag': [
+            {
+                'name': ['增攻', '增血', '增回'],
+                'object': [],
+                'limit': []
+            },
+            {
+                'name': '增攻',
+                'object': [],
+                'limit': ['消除一組數量', '消除組數']
+            }
+		],
+        'monster': [10829]
     },
     {
         'name': '歷劫之道',

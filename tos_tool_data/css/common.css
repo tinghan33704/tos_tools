@@ -50,7 +50,7 @@
 	--div_series_genre_background_normal: #eeeeee;
 	--div_series_genre_all_background_normal: #fff7db;
 	--text_series_genre_all_normal: #ffaa00;
-	--div_series_genre_must_get_background_normal: #c1ffba;
+	--div_series_genre_must_get_background_normal: rgba(193, 255, 186, 0.5);
 	--text_series_genre_must_get_normal: #15d800;
 	--notification_text_normal: #004085;
 	--notification_background_normal: #cce5ff;

@@ -121,8 +121,8 @@ $(document).ready(async function() {
 	
 	const currentTime = new Date().getTime()
 	// All Max 活動時間
-	const startTime = new Date('2024-01-27T00:00:00+0800').getTime()
-	const endTime = new Date('2024-05-19T23:59:59+0800').getTime();
+	const startTime = new Date('2025-01-27T00:00:00+0800').getTime()
+	const endTime = new Date('2025-05-18T23:59:59+0800').getTime();
 	if(currentTime < startTime || currentTime > endTime) {
 		delete sealContent[Object.keys(sealContent).find(name => name.includes('自選'))]
 	}
@@ -488,6 +488,9 @@ function showSeal(name)
 		
 		const mustGetTitle = '五選一必能選中'
 		
+		let totalCard = 0
+		let totalCardHave = 0
+		
 		Object.keys(sealData).forEach((genre, genreIndex) => {
 			let cardData = [...sealData[genre]]
 			
@@ -501,11 +504,11 @@ function showSeal(name)
 			spCardStr = specialCardTitle[0]
 			
 			let genreStr = `${genre}`
-			if(name.includes('自選') && genre.includes(' ‧ ')) {
+			/*if(name.includes('自選') && genre.includes(' ‧ ')) {
 				const attr = attr_zh_to_en[genre.split(' ‧ ')[0].trim()[0]]
 				const race = race_zh_to_en[genre.split(' ‧ ')[1].trim()]
 				genreStr = `<img src='../tos_tool_data/img/monster/icon_${attr}.png' style='width: 1em'>&nbsp;<img src='../tos_tool_data/img/monster/icon_${race}.png' style='width: 1em'>&nbsp;${genreStr}`
-			}
+			}*/
 			if(name.includes('其他卡片')) {
 				function isCardInCorrectCategory(id) {
 					const allCategory = currentCardCategory === 'all'
@@ -554,6 +557,9 @@ function showSeal(name)
 			const cardNumHave = cardData.filter(monster => Array.isArray(monster) ? monster.some(id => playerData.card.includes(id)) : playerData.card.includes(monster)).length
 			const cardHaveRatioElement = `<div class="cardHaveRatio">${cardNumHave} / ${cardNum}</div>`
 			
+			totalCard += cardNum
+			totalCardHave += cardNumHave
+			
 			// const genreNameTitle = (genre === '境外探索') ? spCardStr : (isReverseMode && mustGet) ? mustGetTitle : (!isReverseMode && hasCard) ? allCardStr : ''
 			
 			const genreNameTitle = (genre === '境外探索') ? spCardStr : (!isReverseMode && hasCard) ? allCardStr : ''
@@ -597,6 +603,14 @@ function showSeal(name)
 				`
 			}
 		})
+		
+		if(name.includes('自選')) {
+			if(isReverseMode) {
+				cardStr = `<div class="col-12 totalCardHaveRatio reverse"><span class="totalCardHave">${totalCard - totalCardHave}</span> / <span class="totalCard">${totalCard}</span></div>` + cardStr
+			} else {
+				cardStr = `<div class="col-12 totalCardHaveRatio${totalCardHave >= totalCard ? ' totalCardGet' : ''}"><span class="totalCardHave">${totalCardHave}</span> / <span class="totalCard">${totalCard}</span></div>` + cardStr
+			}
+		}
 	}
 	
 	$('.card-row').html(cardStr)

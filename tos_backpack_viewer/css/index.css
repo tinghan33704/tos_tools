@@ -253,6 +253,49 @@
 	opacity: 0.5;
 }
 
+.totalCardHaveRatio {
+	text-align: center;
+	border: 4px double var(--text_series_genre_must_get);
+	background-color: var(--div_series_genre_must_get_background);
+	padding: 10px 0;
+}
+.totalCardHaveRatio.totalCardGet {
+	border: 4px double var(--text_series_genre_all);
+	background-color: var(--div_series_genre_all_background);
+	-webkit-animation: glow 1.5s ease-in-out infinite alternate;
+	-moz-animation: glow 1.5s ease-in-out infinite alternate;
+	animation: glow 1.5s ease-in-out infinite alternate;
+	box-shadow: 0px 0px 8px 8px rgba(255,228,56,0.45);
+}
+@-webkit-keyframes glow {
+  from {
+    box-shadow: 0px 0px 8px 8px rgba(255,228,56,0.45);
+  }
+  to {
+    box-shadow: none;
+  }
+}
+.totalCardHaveRatio .totalCardHave {
+	color: var(--text_series_genre_must_get);
+	font-size: 2.4em;
+	font-weight: bold;
+	margin-right: 8px;
+}
+.totalCardHaveRatio.totalCardGet .totalCardHave {
+	color: var(--text_series_genre_all);
+}
+.totalCardHaveRatio .totalCard {
+	font-size: 1.2em;
+	margin-left: 8px;
+}
+.totalCardHaveRatio.reverse {
+	border-color: unset;
+	background-color: rgba(214, 214, 214, 0.4);
+}
+.totalCardHaveRatio.reverse .totalCardHave {
+	color: unset;
+}
+
 .filter-row {
 	font-size: 1.2em;
 }

@@ -141,7 +141,13 @@ function clickCell(field, value, row, $element) {
 
 function createData() {
 	armed_craft_data.forEach(craft => {
-		const pureName = getPureName(craft.name)
+		let pureName = getPureName(craft.name)
+		
+		// If find same name and duplicate mode of craft, create a new group
+		if(craftDataByName?.[pureName]?.[craft.mode]) {
+			pureName = pureName + '_0'
+		}
+		
 		if(!craftDataByName[pureName]) {
 			craftDataByName[pureName] = {}
 		}
@@ -166,8 +172,8 @@ function createData() {
 			craftDataByName[pureName].nameTag = craft.nameTag
 		}
 		
-		craftPureName.add(getPureName(craft.name))
-		craftDataByName[getPureName(craft.name)][craft.mode] = craft.id
+		craftPureName.add(pureName)
+		craftDataByName[pureName][craft.mode] = craft.id
 	})
 }
 

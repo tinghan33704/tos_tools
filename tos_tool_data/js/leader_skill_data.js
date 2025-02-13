@@ -1,4 +1,4 @@
-// Last modified : 2025.02.06 21:50
+// Last modified : 2025.02.13 20:52
 
 const leader_skill_data = [
     {
@@ -29276,6 +29276,49 @@ const leader_skill_data = [
         'monster': [2919]
     },
     {
+        'name': '元素洪流',
+        'description': `
+		
+		`,
+        'tag': [
+            {
+                'name': ['增攻', '增血', '增回'],
+                'object': [],
+                'limit': []
+            },
+            {
+                'name': '增攻',
+                'object': [],
+                'limit': ['消除種類數量']
+            }
+		],
+        'monster': [2923]
+    },
+    {
+        'name': '元素聚能',
+        'description': `
+		
+		`,
+        'tag': [
+            {
+                'name': ['增攻', '增血', '增回'],
+                'object': [],
+                'limit': []
+            },
+            {
+                'name': '增攻',
+                'object': ['神', '魔'],
+                'limit': []
+            },
+            {
+                'name': '增攻',
+                'object': [],
+                'limit': ['消除一組數量']
+            }
+		],
+        'monster': [2924]
+    },
+    {
         'name': '萬妖舞幽．傾巢',
         'description': `
 		隊中只有暗屬性或妖精類成員時：
@@ -36434,7 +36477,7 @@ const leader_skill_data = [
                 'limit': []
             }
 		],
-        'monster': [10601, 10788, 10793, 10843, 10844, 10848, 10850]
+        'monster': [10601, 10788, 10793, 10843, 10844, 10848, 10849, 10850]
     },
     {
         'name': '十刑之怒 ‧ 獸',

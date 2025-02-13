@@ -318,7 +318,7 @@ function startFilter()
 			$.each(monster.monsterTag, (tag_index, tag) => {
 				if(tag_set.has(tag)) {
 					hasTag = true;
-					return;
+					return false;
 				}
 			})
 			

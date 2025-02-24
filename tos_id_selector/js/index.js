@@ -178,7 +178,7 @@ function createData() {
 }
 
 function createTable() {
-	const craftTypeImg = [1, 2, 3, 35, 58, 75, 112, 171, 246, 329]
+	const craftTypeImg = [1, 2, 3, 35, 58, 75, 112, 171, 246, 329, '援護龍輝']
 	let tableHtml = `
 		<table class="table table-bordered table-responsive" id="craft-table">
 			<thead class="thead-dark sticky-header">

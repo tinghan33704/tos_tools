@@ -188,7 +188,7 @@ function createTable() {
 					</th>
 					${craft_mode_type_string.map((str, index) => `
 						<th class="craft-th" onClick='selectWholeColumn("${str}")'>
-							<img src='../tos_tool_data/img/craft/${craftTypeImg[index]}.png' \>
+							<img src='../tos_tool_data/img/craft/${str}.png' \>
 							<div class="monsterId">
 								${`${str.slice(-2)}`}
 							</div>

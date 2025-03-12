@@ -543,7 +543,7 @@ function errorAlert(index)
 
 function textSanitizer(text)
 {
-    return text.replace(/<board\s*(\d*)>(.*?)<\/board>/g, `$2`).replace(/<br>/g,'').replace(/\s/g,'').toLowerCase();
+    return text.replace(/<board\s*(\d*)>([\S\s]*?)<\/board>/g, `$2`).replace(/<span([\S\s]*?)>([\S\s]*?)<\/span>/g, `$2`).replace(/<br>/g,'').replace(/<font([\S\s]*?)>([\S\s]*?)<\/font>/g, `$2`).replace(/\s/g,'').toLowerCase();
 }
 
 function stringToUnicode(str)

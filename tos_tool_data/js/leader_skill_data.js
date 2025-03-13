@@ -1,4 +1,4 @@
-// Last modified : 2025.03.13 17:42
+// Last modified : 2025.03.14 01:24
 
 const leader_skill_data = [
     {
@@ -38862,7 +38862,11 @@ const leader_skill_data = [
     {
         'name': '強欲的魔女',
         'description': `
-		
+		I. 全隊攻擊力 77 倍、生命力及回復力 2.7 倍
+		II.【Re:ZERO】成員
+		⇒ 生命力、攻擊力及回復力額外 2.7 倍
+		III. 消除 ≥1 組 ≥7 粒符石
+		⇒「艾姬多娜」、「碧翠絲」及「羅茲瓦爾 ‧ L ‧ 梅札斯」攻擊力額外 1.7 倍
 		`,
         'tag': [
             {

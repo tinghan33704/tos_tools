@@ -50,7 +50,7 @@ let settings = [
 	...(isAprilFool2025 ? [{
 		id: 'april-fool-2025-btn',
 		className: 'aprilFool2025',
-		content: "<i class='fa-solid fa-ghost'></i>",
+		content: "<i class='fa-solid fa-face-grin-tongue-wink'></i>",
 		callback: 'aprilFool2025()',
 		description: '愚人節快樂',
 		hideAfterClick: false,

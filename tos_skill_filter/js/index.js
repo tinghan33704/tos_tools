@@ -16,6 +16,8 @@ let resultCompressed = false;
 
 let easterEggFlag = false;
 
+let april2025Flag = isAprilFool2025;
+
 const currentTimeObj = new Date()
 const currentMonth = currentTimeObj.getMonth()
 const currentDay = currentTimeObj.getDate()
@@ -45,6 +47,14 @@ const easterEggData = {
 }
 
 let settings = [
+	...(isAprilFool2025 ? [{
+		id: 'april-fool-2025-btn',
+		className: 'aprilFool2025',
+		content: "<i class='fa-solid fa-ghost'></i>",
+		callback: 'aprilFool2025()',
+		description: '愚人節快樂',
+		hideAfterClick: false,
+	}] : []),
 	{
 		id: 'compress-btn',
 		className: 'compressResult',
@@ -84,6 +94,12 @@ $(document).ready(function() {
     
     location.search && readUrl();
 });
+
+function aprilFool2025() {
+	april2025Flag = !april2025Flag;
+	
+	renderResult();
+}
 
 function openOptionPanel()
 {
@@ -1282,9 +1298,13 @@ function renderMonsterImage(monster, tooltip_content, monsterObj, eggLink = fals
 	const fixedImgStyle = reinerSitDown ? "top: 20px; position: relative;" : ""
 	const fixedIdTagStyle = reinerSitDown ? "position: relative;" : ""
 	
+	const _src_path = april2025Flag ? `../tos_tool_data/img/monster/2398.png` : src_path
+	const _focus_path = april2025Flag ? `../tos_tool_data/img/monster/2398.png` : focus_path
+	const _blur_path = april2025Flag ? `../tos_tool_data/img/monster/2398.png` : blur_path
+	
     return `
         <div class='col-3 col-md-2 col-lg-1 result'>
-            <img class='monster_img${notInInventory ? '_gray' : ''}' src='${src_path}' onerror='this.src="${error_path}"' onfocus='this.src="${focus_path}"' onblur='this.src="${blur_path}"' onclick=${congratClickListener} tabindex=${monster_obj.id.toString().replace('?', '')} data-toggle='${starburstBackground}' data-title='' data-content="${tooltip_content}" style='${fixedImgStyle}'></img>
+            <img class='monster_img${notInInventory ? '_gray' : ''}' src='${_src_path}' onerror='this.src="${error_path}"' onfocus='this.src="${_focus_path}"' onblur='this.src="${_blur_path}"' onclick=${congratClickListener} tabindex=${monster_obj.id.toString().replace('?', '')} data-toggle='${starburstBackground}' data-title='' data-content="${tooltip_content}" style='${fixedImgStyle}'></img>
 			${isCombineSkill ? `<img class='monster_img_combine_icon${notInInventory ? '_gray' : ''}' src="../tos_tool_data/img/monster/combine.png" />` : ``}
 			<!-- special image preload -->
 			<img class='monster_img${notInInventory ? '_gray' : ''}' style="display: none;" src=${hasSpecialImage ? `../tos_tool_data/img/monster/${monster_obj.id}_sp.png` : ''}>

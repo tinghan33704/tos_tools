@@ -1466,12 +1466,7 @@ const input_maxlength = 50;
 const uid_maxlength = 11;
 const veri_maxlength = 6;
 
-const currentDate = new Date().getTime()
-const startDate = new Date('2025-04-01T00:00:00+0800').getTime();
-const endDate = new Date('2025-04-01T23:59:59+0800').getTime();
-const isAprilFool2025 = currentDate >= startDate &&  currentDate <= endDate
-
-const active_skill_notification = isAprilFool2025 ? '提示：左下角以解除移形換影' : ''
+const active_skill_notification = ''
 const team_skill_notification = ''
 const leader_skill_notification = ''
 const craft_notification = ''

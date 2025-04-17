@@ -1,4 +1,4 @@
-// Last modified : 2025.04.10 19:37
+// Last modified : 2025.04.18 00:27
 
 const leader_skill_data = [
 	{
@@ -39139,6 +39139,121 @@ const leader_skill_data = [
 			}
 		],
 		'monster': [10892]
+	},
+	{
+		'name': '自由的石之海',
+		'description': `
+		
+		`,
+		'tag': [
+			{
+				'name': ['增攻', '增血', '增回'],
+				'object': ['特定成員', '水', '人'],
+				'limit': []
+			},
+			{
+				'name': '增攻',
+				'object': ['特定成員'],
+				'limit': ['消除特定符石']
+			}
+		],
+		'monster': [10895]
+	},
+	{
+		'name': '不滅的瘋狂鑽石',
+		'description': `
+		
+		`,
+		'tag': [
+			{
+				'name': ['增攻', '增血', '增回'],
+				'object': ['特定成員', '火', '人'],
+				'limit': []
+			},
+			{
+				'name': '增攻',
+				'object': ['特定成員', '火', '人'],
+				'limit': ['消除數量']
+			},
+			{
+				'name': '增攻',
+				'object': ['特定成員'],
+				'limit': ['消除組數']
+			}
+		],
+		'monster': [10896]
+	},
+	{
+		'name': '奇妙的黃金體驗',
+		'description': `
+		
+		`,
+		'tag': [
+			{
+				'name': ['增攻', '增血', '增回'],
+				'object': [],
+				'limit': []
+			},
+			{
+				'name': '增攻',
+				'object': ['特定成員'],
+				'limit': []
+			},
+			{
+				'name': '增攻',
+				'object': [],
+				'limit': ['消除特定符石']
+			}
+		],
+		'monster': [10898]
+	},
+	{
+		'name': '背叛者的鎮魂曲',
+		'description': `
+		
+		`,
+		'tag': [
+			{
+				'name': ['增攻', '增血', '增回'],
+				'object': [],
+				'limit': []
+			},
+			{
+				'name': '增攻',
+				'object': ['特定成員'],
+				'limit': []
+			},
+			{
+				'name': '增攻',
+				'object': [],
+				'limit': ['消除特定符石']
+			}
+		],
+		'monster': [10899]
+	},
+	{
+		'name': '最強的白金之星',
+		'description': `
+		
+		`,
+		'tag': [
+			{
+				'name': ['增攻', '增血', '增回', '其他減CD', '回EP'],
+				'object': ['特定成員', '暗', '人'],
+				'limit': []
+			},
+			{
+				'name': ['增攻', '增血', '增回'],
+				'object': ['特定成員'],
+				'limit': []
+			},
+			{
+				'name': '增攻',
+				'object': [],
+				'limit': ['消除特定符石']
+			}
+		],
+		'monster': [10916]
 	},
 	{
 		'name': '歷劫之道',

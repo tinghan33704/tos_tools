@@ -1116,14 +1116,14 @@ function setOraMuda() {
 		$(target).toggleClass('shake-small')
 	}
 	
-	$('img[class^="monster_img"][src$="/10581.png"], img[class^="monster_img"][src$="/10581_sp.png"]').click(function(e){
+	$('img[class^="monster_img"][src$="/10581.png"], img[class^="monster_img"][src$="/10581_sp.png"], img[class^="monster_img"][src$="/10895.png"], img[class^="monster_img"][src$="/10916.png"]').click(function(e){
 		showImpact(event.pageX, event.pageY)
 		showOraMuda(event.pageX, event.pageY, 'ora')
 		toggleClass(e.target)
 		setTimeout(() => toggleClass(e.target), 200)
 	});
 	
-	$('img[class^="monster_img"][src$="/10598.png"], img[class^="monster_img"][src$="/10598_sp.png"]').click(function(e){
+	$('img[class^="monster_img"][src$="/10598.png"], img[class^="monster_img"][src$="/10598_sp.png"], img[class^="monster_img"][src$="/10898.png"], img[class^="monster_img"][src$="/10899.png"]').click(function(e){
 		showImpact(event.pageX, event.pageY)
 		showOraMuda(event.pageX, event.pageY, 'muda')
 		toggleClass(e.target)

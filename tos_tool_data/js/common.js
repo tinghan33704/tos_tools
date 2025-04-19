@@ -769,7 +769,7 @@ async function getPlayerInventory(prefix, id = null)
 				
 			})
 			
-			setPlayerData(prefix, playerId, [...card_set].sort((a, b) => a - b), card_info, inventory_data?.userData?.cardsUpdatedAt, inventory_data?.userData?.cards || [])
+			setPlayerData(prefix, playerId, inventory_data?.userData?.displayName, [...card_set].sort((a, b) => a - b), card_info, inventory_data?.userData?.cardsUpdatedAt, inventory_data?.userData?.cards || [])
 		}
 	} catch {
 		if(isBlackList) {
@@ -793,11 +793,12 @@ async function getPlayerInventory(prefix, id = null)
 	}
 }
 
-function setPlayerData(prefix, uid, card, info, lastUpdated, wholeData)
+function setPlayerData(prefix, uid, name, card, info, lastUpdated, wholeData)
 {
 	const verb = prefix === 'load' ? '匯入' : '更新'
 	
 	playerData.uid = uid
+	playerData.name = name || ''
 	playerData.card = addCombinedCard(addTransformedCard(addVirtualRebirthCard(card)))
 	playerData.info = info
 	playerData.lastUpdated = lastUpdated ? new Date(new Date(lastUpdated) - new Date().getTimezoneOffset()).toLocaleString() : null

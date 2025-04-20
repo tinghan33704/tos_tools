@@ -1468,15 +1468,13 @@ const uid_maxlength = 11;
 const veri_maxlength = 6;
 
 const currentTime = new Date().getTime()
-const startTime = new Date('2025-05-05T00:00:00+0800').getTime();
-const endTime = new Date('2025-05-05T23:59:59+0800').getTime();
-const bdmessage = currentTime >= startTime && currentTime <= endTime ? '<div style="text-align: center;"><img style="height: 180px;" src="../tos_tool_data/img/other/its_my_birthday.png" /></div>' : ''
+const topMessage = currentTime >= new Date('2025-05-05T00:00:00+0800').getTime() && currentTime < new Date('2025-05-06T00:00:00+0800').getTime() ? '<div style="text-align: center;"><img style="height: 180px;" src="../tos_tool_data/img/other/its_my_birthday.png" /></div>' : currentTime >= new Date('2025-05-14T00:00:00+0800').getTime() && currentTime < new Date('2025-05-15T00:00:00+0800').getTime() ? '剛剛玩神魔的時候你偷看了罷' : ''
 
-const active_skill_notification = bdmessage
-const team_skill_notification = bdmessage
-const leader_skill_notification = bdmessage
-const craft_notification = bdmessage
-const backpack_notification = bdmessage
+const active_skill_notification = topMessage
+const team_skill_notification = topMessage
+const leader_skill_notification = topMessage
+const craft_notification = topMessage
+const backpack_notification = topMessage
 
 /* calculate remain days */
 /* 

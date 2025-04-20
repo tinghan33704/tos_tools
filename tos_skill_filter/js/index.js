@@ -954,11 +954,15 @@ function renderMonsterInfo(monster, monsterObj) {
 		return element.id == monster.id;
 	});
 	
+	const is114514 = new Date().getTime() >= new Date('2025-05-14T00:00:00+0800').getTime() && new Date().getTime() < new Date('2025-05-15T00:00:00+0800').getTime()
+	
+	const monster_race_icon = `${is114514 && monster.race === "人類" ? `../tos_tool_data/img/other/icon_tadokoro.png` : monster.id === 10444 ? `../tos_tool_data/img/other/icon_yao.png` : monster.id === 10495 ? `../tos_tool_data/img/other/icon_kirito.png` : `../tos_tool_data/img/monster/icon_${race_zh_to_en[monster_info.race]}.png`}`
+	
 	return `
 		<div class='row monster_info_header monster_info_header_${attr_zh_to_en[monster_info.attribute]}'>
 			<div class='monster_attr_race_star col-12 col-sm-3'>
 				<img src='../tos_tool_data/img/monster/icon_${attr_zh_to_en[monster_info.attribute]}.png' width='25px'/>
-				<img src='${monster.id === 10444 ? `../tos_tool_data/img/other/icon_yao.png` : monster.id === 10495 ? `../tos_tool_data/img/other/icon_kirito.png` : `../tos_tool_data/img/monster/icon_${race_zh_to_en[monster_info.race]}.png`}' width='25px'/>
+				<img src='${monster_race_icon}' width='25px'/>
 				<img src='../tos_tool_data/img/monster/icon_${monster_info.star}.png' width='25px'/>
 			</div>
 			<div class='skill_tooltip monster_name monster_name_${attr_zh_to_en[monster_info.attribute]} col-12 col-sm-9'>
@@ -1261,6 +1265,10 @@ function renderMonsterImage(monster, tooltip_content, monsterObj, eggLink = fals
 	const isCombineSkill = monster_obj.skill[monster?.nums?.[0]]?.type === 'combine' || monster_obj.skill[monster?.num]?.type === 'combine';
 	const displayId = monster_obj?.displayId || monster_obj?.id
 	
+	const is114514 = new Date().getTime() >= new Date('2025-05-14T00:00:00+0800').getTime() && new Date().getTime() < new Date('2025-05-15T00:00:00+0800').getTime()
+	
+	const idString = is114514 && displayId === 114 ? 'いいよ' : is114514 && displayId ===514 ? 'こいよ' : paddingZeros(displayId, 3)
+	
 	const digimonShinka = [10244, 10245, 10246, 10248, 10249, 10250].includes(monster.id) && checkKeyword().has('進化')
 	const digimonChouShinka = [10244, 10245, 10246, 10248, 10249, 10250].includes(monster.id) && checkKeyword().has('超進化')
 	const anyaSmile = monster.id === 10329 && searchResult?.find(monster => monster.id === 10335)
@@ -1290,7 +1298,7 @@ function renderMonsterImage(monster, tooltip_content, monsterObj, eggLink = fals
 			<img class='monster_img${notInInventory ? '_gray' : ''}' style="display: none;" src=${hasSpecialImage ? `../tos_tool_data/img/monster/${monster_obj.id}_sp.png` : ''}>
 			<!-- -->
             <div class='monsterId${notInInventory ? '_gray' : ''}' style='${fixedIdTagStyle}'>
-                <a href='${eggLink ? `https://home.gamer.com.tw/homeindex.php?owner=tinghan33704` : `https://tos.fandom.com/zh/wiki/${displayId}`}' target='_blank'>${paddingZeros(displayId, 3)}</a>
+                <a href='${eggLink ? `https://home.gamer.com.tw/homeindex.php?owner=tinghan33704` : `https://tos.fandom.com/zh/wiki/${displayId}`}' target='_blank'>${idString}</a>
             </div>
         </div>
     `

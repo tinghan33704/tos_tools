@@ -214,6 +214,11 @@ function init() {
 		// preload starburst gif
 		const starburst_gif = new Image()
 		starburst_gif.src = '../tos_tool_data/img/other/starburst.gif'
+		
+		// preload tadokoro icon image
+		const tadokoro_icon_img = new Image()
+		tadokoro_icon_img.src = '../tos_tool_data/img/other/icon_tadokoro.png'
+		
 	}
 }
 

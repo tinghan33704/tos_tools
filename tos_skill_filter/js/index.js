@@ -651,8 +651,14 @@ function startFilter()
 	// Attack on Titan easter egg :)
 	chinarashiShake()
 	
-	// Jotaro and Dio easter egg :)
-	setOraMuda()
+	// Joestars, Dio and Bucciarati easter egg :)
+	setVoiceMangeText()
+	
+	// Josuke easter egg :)
+	repairGlassBreakAndLightSwitch()
+	
+	// Kira easter egg :)
+	setExplosion()
 	
     jumpTo("result_title");
 }
@@ -945,7 +951,22 @@ function renderResult() {
 		placement: 'bottom',
 		template: '<div class="popover star-burst-popover" role="tooltip"><div class="arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div></div>'
     })
-    
+	
+	// Golden Experience Requiem easter egg :)
+	
+    $('[data-toggle=requiem-popover]').popover({
+		container: 'body',
+		html: true,
+		sanitize: false,
+		trigger: 'focus',
+		placement: 'bottom',
+		template: '<div class="popover requiem-popover" role="tooltip"><div class="arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div></div>'
+    })
+	
+	$('[data-toggle=requiem-popover]').on("shown.bs.popover", (e) => {
+		thisIsRequiem()
+	})
+	
 	$("#uid-tag").text(`UID: ${playerData.uid}`)
 }
 
@@ -1275,7 +1296,7 @@ function renderMonsterImage(monster, tooltip_content, monsterObj, eggLink = fals
 	const reinerSitDown = monster.id === 10400 && searchResult?.find(monster => monster.id === 10383 || monster.id === 10384)
 	const sashaEat = [1873, 1874, 1875, 1876, 1877, 2251, 2252, 2253, 2254, 2255, 10308, 10422, 10449].includes(monster.id) && searchResult?.find(monster => monster.id === 10385)
 	const cilantroAngry = monster.id === 2835 && searchResult?.find(monster => monster.id === 2023) && !searchResult?.find(monster => monster.id === 2149) && !searchResult?.find(monster => monster.id === 2335)
-	const starburstBackground = monster.id === 10495 ? 'star-burst-popover' : 'popover'
+	const popoverBackground = monster.id === 10495 ? 'star-burst-popover' : monster.id === 10899 ? 'requiem-popover' : 'popover'
 	const congratClickListener = monster.id === 10495 ? `'congratCounter()'` : 'null'
 	
 	const currentTime = new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Taipei' }))
@@ -1292,7 +1313,7 @@ function renderMonsterImage(monster, tooltip_content, monsterObj, eggLink = fals
 	
     return `
         <div class='col-3 col-md-2 col-lg-1 result'>
-            <img class='monster_img${notInInventory ? '_gray' : ''}' src='${src_path}' onerror='this.src="${error_path}"' onfocus='this.src="${focus_path}"' onblur='this.src="${blur_path}"' onclick=${congratClickListener} tabindex=${monster_obj.id.toString().replace('?', '')} data-toggle='${starburstBackground}' data-title='' data-content="${tooltip_content}" style='${fixedImgStyle}'></img>
+            <img class='monster_img${notInInventory ? '_gray' : ''}' src='${src_path}' onerror='this.src="${error_path}"' onfocus='this.src="${focus_path}"' onblur='this.src="${blur_path}"' onclick=${congratClickListener} tabindex=${monster_obj.id.toString().replace('?', '')} data-toggle='${popoverBackground}' data-title='' data-content="${tooltip_content}" style='${fixedImgStyle}'></img>
 			${isCombineSkill ? `<img class='monster_img_combine_icon${notInInventory ? '_gray' : ''}' src="../tos_tool_data/img/monster/combine.png" />` : ``}
 			<!-- special image preload -->
 			<img class='monster_img${notInInventory ? '_gray' : ''}' style="display: none;" src=${hasSpecialImage ? `../tos_tool_data/img/monster/${monster_obj.id}_sp.png` : ''}>
@@ -1447,4 +1468,37 @@ function showCongrat() {
 		$('.congratBackground').remove()
 	}, 6500)
 	
+}
+
+// Golden Experience Requiem easter egg :)
+
+function thisIsRequiem() {
+	function debounce(func, delay = 200) {
+		let timer = null
+
+		return function(...args) {
+			let context = this
+
+			clearTimeout(timer);
+			timer = setTimeout(() => {
+			  func.apply(context, args);
+			}, delay)
+		}
+	}
+	
+	$('div[class^="popover"]').unbind('scroll')
+	
+	$('div[class^="popover"]').on('scroll', debounce((e) => {
+		const element = e.currentTarget
+		const isReachBottom = Math.abs(element?.scrollHeight - element?.scrollTop - element?.clientHeight) < 20
+		
+		if(isReachBottom) {
+			
+			$('[data-toggle=requiem-popover]').popover('hide')
+			
+			setTimeout(() => {
+				$('[data-toggle=requiem-popover]').popover('show')
+			})
+		}
+	}))
 }

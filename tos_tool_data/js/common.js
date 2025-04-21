@@ -218,7 +218,6 @@ function init() {
 		// preload tadokoro icon image
 		const tadokoro_icon_img = new Image()
 		tadokoro_icon_img.src = '../tos_tool_data/img/other/icon_tadokoro.png'
-		
 	}
 }
 
@@ -1025,6 +1024,7 @@ function setGlassBreak() {
 		const scale = 0.8 + Math.random() * 0.6
 		const angle = Math.random() * 360
 		$('<img/>',{
+			class: 'glass_break',
 			src: '../tos_tool_data/img/other/glass_break.png',
 			style: `position: absolute; left: ${x - 100}px; top: ${y - 100}px; pointer-events: none; user-select: none; opacity: 0.8; transform: rotate(${angle}deg) scale(${scale});`,
 			unselectable: 'on'
@@ -1072,9 +1072,9 @@ function setBlueCircles() {
 	});
 }
 
-// Jotaro and Dio easter egg :)
-function setOraMuda() {
-	function showOraMuda(x, y, text) {
+// Joestars, Dio and Bucciarati easter egg :)
+function setVoiceMangeText() {
+	function showVoiceMangeText(x, y, text) {
 		const scaleRange = { min: 0.5, max: 0.8 }
 		const angleRange = { min: -20, max: 20 }
 		const posRange = { min: 50, max: 80 }
@@ -1124,15 +1124,88 @@ function setOraMuda() {
 	
 	$('img[class^="monster_img"][src$="/10581.png"], img[class^="monster_img"][src$="/10581_sp.png"], img[class^="monster_img"][src$="/10895.png"], img[class^="monster_img"][src$="/10916.png"]').click(function(e){
 		showImpact(event.pageX, event.pageY)
-		showOraMuda(event.pageX, event.pageY, 'ora')
+		showVoiceMangeText(event.pageX, event.pageY, 'ora')
 		toggleClass(e.target)
 		setTimeout(() => toggleClass(e.target), 200)
-	});
+	})
 	
 	$('img[class^="monster_img"][src$="/10598.png"], img[class^="monster_img"][src$="/10598_sp.png"], img[class^="monster_img"][src$="/10898.png"], img[class^="monster_img"][src$="/10899.png"]').click(function(e){
 		showImpact(event.pageX, event.pageY)
-		showOraMuda(event.pageX, event.pageY, 'muda')
+		showVoiceMangeText(event.pageX, event.pageY, 'muda')
 		toggleClass(e.target)
 		setTimeout(() => toggleClass(e.target), 200)
+	})
+	
+	$('img[class^="monster_img"][src$="/10903.png"]').click(function(e){
+		showImpact(event.pageX, event.pageY)
+		showVoiceMangeText(event.pageX, event.pageY, 'ari')
+		toggleClass(e.target)
+		setTimeout(() => toggleClass(e.target), 200)
+	})
+}
+
+// Josuke easter egg :)
+function repairGlassBreakAndLightSwitch() {
+	$('img[class^="monster_img"][src$="/10896.png"]').click(function(e){
+		$('.glass_break').remove()
+		pressChangeThemeTime = 0
 	});
+}
+
+// Kira easter egg :)
+function setExplosion() {
+	function showExplosion(x, y) {
+		const scaleRange = { min: 0.8, max: 0.8 }
+		const angleRange = { min: 0, max: 360 }
+		const posRange = { min: 20, max: 50 }
+		
+		const scale = scaleRange.min + Math.random() * (scaleRange.max - scaleRange.min)
+		const angle = angleRange.min + Math.random() * (angleRange.max - angleRange.min)
+		const posOffset = { 
+			x: (posRange.min + Math.random() * (posRange.max - posRange.min)) * (Math.round(Math.random()) * 2 - 1), 
+			y: (posRange.min + Math.random() * (posRange.max - posRange.min)) * (Math.round(Math.random()) * 2 - 1)
+		}
+		
+		const stamp = Date.now()
+		$('<img/>',{
+			src: `../tos_tool_data/img/other/explode.png`,
+			style: `position: absolute; left: ${x - 100 + posOffset.x}px; top: ${y - 100 + posOffset.y}px; pointer-events: none; user-select: none; opacity: 1; transform: rotate(${angle}deg) scale(${scale}); z-index: 10000;`,
+			unselectable: 'on',
+			id: `explode-${stamp}`
+		}).appendTo('body').fadeOut(300, () => {
+			$(`#explode-${stamp}`).remove()
+		});
+	}
+	
+	function showImpact(x, y) {
+		const scale = 0.7;
+		const angle = Math.random() * 360
+		const posRange = { min: 0, max: 20 }
+		
+		const posOffset = { 
+			x: (posRange.min + Math.random() * (posRange.max - posRange.min)) * (Math.round(Math.random()) * 2 - 1), 
+			y: (posRange.min + Math.random() * (posRange.max - posRange.min)) * (Math.round(Math.random()) * 2 - 1)
+		}
+		
+		const stamp = Date.now()
+		$('<img/>',{
+			src: `../tos_tool_data/img/other/impact.png`,
+			style: `position: absolute; left: ${x - 100 + posOffset.x}px; top: ${y - 100 + posOffset.y}px; pointer-events: none; user-select: none; opacity: 0.6; transform: rotate(${angle}deg) scale(${scale}); z-index: 10000;`,
+			unselectable: 'on',
+			id: `impact-${stamp}`
+		}).appendTo('body').fadeOut(200, () => {
+			$(`#impact-${stamp}`).remove()
+		});
+	}
+	
+	function toggleClass(target) {
+		$(target).toggleClass('shake-small')
+	}
+	
+	$('img[class^="monster_img"][src$="/10906.png"]').click(function(e){
+		showImpact(event.pageX, event.pageY)
+		showExplosion(event.pageX, event.pageY)
+		toggleClass(e.target)
+		setTimeout(() => toggleClass(e.target), 200)
+	})
 }

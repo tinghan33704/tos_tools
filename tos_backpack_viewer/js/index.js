@@ -640,8 +640,11 @@ function showSeal(name)
 	// Saitama easter egg :)
 	setGlassBreak()
 	
-	// Jotaro and Dio easter egg :)
-	setOraMuda()
+	// Joestars, Dio and Bucciarati easter egg :)
+	setVoiceMangeText()
+	
+	// Josuke easter egg :)
+	repairGlassBreakAndLightSwitch()
 }
 
 function renderPageControl(pageCount, position) {

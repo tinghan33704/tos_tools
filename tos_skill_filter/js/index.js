@@ -1151,7 +1151,7 @@ function descriptionTranslator(monster_id, description) {
 		.replace(/神選(狀態)?/g, `<span class='desc_note_label positive_note_label' onmouseover='renderDescriptionNote(4)' ontouchstart='renderDescriptionNote(4)'>神選$1</span>`)
 		.replace(/風壓(狀態)?/g, `<span class='desc_note_label negative_note_label' onmouseover='renderDescriptionNote(5)' ontouchstart='renderDescriptionNote(5)'>風壓$1</span>`)
 		.replace(/休眠(狀態)?/g, `<span class='desc_note_label negative_note_label' onmouseover='renderDescriptionNote(6)' ontouchstart='renderDescriptionNote(6)'>休眠$1</span>`)
-		.replace(/([痲麻])痺(狀態)?/g, `<span class='desc_note_label negative_note_label' onmouseover='renderDescriptionNote(7)' ontouchstart='renderDescriptionNote(7)'>$1痺$2</span>`)
+		.replace(/麻痺(狀態)?/g, `<span class='desc_note_label negative_note_label' onmouseover='renderDescriptionNote(7)' ontouchstart='renderDescriptionNote(7)'>$1痺$2</span>`)
 		.replace(/沉默(狀態)?/g, `<span class='desc_note_label negative_note_label' onmouseover='renderDescriptionNote(8)' ontouchstart='renderDescriptionNote(8)'>沉默$1</span>`)
 		.replace(/「道」狀態?/g, `<span class='desc_note_label positive_note_label' onmouseover='renderDescriptionNote(9)' ontouchstart='renderDescriptionNote(9)'>「道」狀態</span>`)
 }
@@ -1249,7 +1249,7 @@ function renderDescriptionNote(desc_index) {
 			$("#descriptionNote").html('<span style="color:var(--text_negative_label_color);">陷入休眠狀態的角色：<br>⓵ 無法使用技能<br>⓶ 攻擊力變 0</span>')
 		break;
 		case 7:
-			$("#descriptionNote").html('<span style="color:var(--text_negative_label_color);">陷入痲痺狀態的角色：<br>⓵ 不能發動攻擊<br>⓶ 自身技能不會冷卻<br>⓷ 自身 EP 不會增加<br>⓸ 自身不受回技或回 EP 影響</span>')
+			$("#descriptionNote").html('<span style="color:var(--text_negative_label_color);">陷入麻痺狀態的角色：<br>⓵ 不能發動攻擊<br>⓶ 自身技能不會冷卻<br>⓷ 自身 EP 不會增加<br>⓸ 自身不受回技或回 EP 影響</span>')
 		break;
 		case 8:
 			$("#descriptionNote").html('<span style="color:var(--text_negative_label_color);">⓵ 隊伍中有陷入沉默狀態的角色時不能發動龍刻脈動及龍刻技能<br>⓶ 陷入沉默狀態的角色無法使用技能</span>')

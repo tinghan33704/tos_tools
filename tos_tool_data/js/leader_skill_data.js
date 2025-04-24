@@ -1,4 +1,4 @@
-// Last modified : 2025.04.21 17:09
+// Last modified : 2025.04.24 20:03
 
 const leader_skill_data = [
 	{
@@ -39291,6 +39291,30 @@ const leader_skill_data = [
 			}
 		],
 		'monster': [10903]
+	},
+	{
+		'name': '平靜的人生',
+		'description': `
+		
+		`,
+		'tag': [
+			{
+				'name': ['增攻', '增血', '增回'],
+				'object': [],
+				'limit': []
+			},
+			{
+				'name': '增攻',
+				'object': ['自身'],
+				'limit': []
+			},
+			{
+				'name': '迴避',
+				'object': [],
+				'limit': ['消除特定符石']
+			}
+		],
+		'monster': [10907]
 	},
 	{
 		'name': '最強的白金之星',

@@ -1,4 +1,4 @@
-// Last modified : 2025.04.30 23:27
+// Last modified : 2025.05.02 18:40
 
 const leader_skill_data = [
 	{
@@ -39323,7 +39323,14 @@ const leader_skill_data = [
 	{
 		'name': '雙面的惡魔',
 		'description': `
-		
+		隊中只有【JoJo的奇妙冒險】、人類或魔族成員：
+		I. 全隊攻擊力 60 倍
+		II.「迪亞波羅與緋紅之王」
+		⓵ 生命力及回復力 6 倍
+		⓶ 無視敵人防禦力
+		III. 消除 ≥6 組符石
+		⓵ 全隊攻擊力額外 2.6 倍
+		⓶ 自身攻擊力額外 6 倍
 		`,
 		'tag': [
 			{

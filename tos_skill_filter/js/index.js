@@ -1151,7 +1151,7 @@ function descriptionTranslator(monster_id, description) {
 		.replace(/神選(狀態)?/g, `<span class='desc_note_label positive_note_label' onmouseover='renderDescriptionNote(4)' ontouchstart='renderDescriptionNote(4)'>神選$1</span>`)
 		.replace(/風壓(狀態)?/g, `<span class='desc_note_label negative_note_label' onmouseover='renderDescriptionNote(5)' ontouchstart='renderDescriptionNote(5)'>風壓$1</span>`)
 		.replace(/休眠(狀態)?/g, `<span class='desc_note_label negative_note_label' onmouseover='renderDescriptionNote(6)' ontouchstart='renderDescriptionNote(6)'>休眠$1</span>`)
-		.replace(/麻痺(狀態)?/g, `<span class='desc_note_label negative_note_label' onmouseover='renderDescriptionNote(7)' ontouchstart='renderDescriptionNote(7)'>$1痺$2</span>`)
+		.replace(/麻痺(狀態)?/g, `<span class='desc_note_label negative_note_label' onmouseover='renderDescriptionNote(7)' ontouchstart='renderDescriptionNote(7)'>麻痺$1</span>`)
 		.replace(/沉默(狀態)?/g, `<span class='desc_note_label negative_note_label' onmouseover='renderDescriptionNote(8)' ontouchstart='renderDescriptionNote(8)'>沉默$1</span>`)
 		.replace(/「道」狀態?/g, `<span class='desc_note_label positive_note_label' onmouseover='renderDescriptionNote(9)' ontouchstart='renderDescriptionNote(9)'>「道」狀態</span>`)
 }

@@ -1,4 +1,4 @@
-// Last modified : 2025.05.08 22:20
+// Last modified : 2025.05.09 14:48
 
 const leader_skill_data = [
 	{
@@ -39359,7 +39359,10 @@ const leader_skill_data = [
 	{
 		'name': '天堂的覺悟',
 		'description': `
-		
+		隊中只有【JoJo的奇妙冒險】、人類、神族或魔族成員：
+		I. 全隊攻擊力 239 倍、生命力及回復力 5 倍
+		II. 首批消除符石組數、首批消除符石數量或結算連擊 (Combo) 為 ≤47 的質數
+		⇒ 自身攻擊力額外 3 倍
 		`,
 		'tag': [
 			{
@@ -39378,7 +39381,10 @@ const leader_skill_data = [
 	{
 		'name': '宇宙終結之時',
 		'description': `
-		
+		隊中只有【JoJo的奇妙冒險】、人類、神族或魔族成員：
+		I. 全隊攻擊力 251 倍、生命力及回復力 5 倍
+		II. 首批消除符石組數、首批消除符石數量或結算連擊 (Combo) 為 ≤47 的質數
+		⇒ 自身攻擊力額外 5 倍
 		`,
 		'tag': [
 			{

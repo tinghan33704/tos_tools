@@ -1,4 +1,4 @@
-// Last modified : 2025.05.09 14:48
+// Last modified : 2025.05.17 02:46
 
 const leader_skill_data = [
 	{
@@ -39435,6 +39435,25 @@ const leader_skill_data = [
 			}
 		],
 		'monster': [10916]
+	},
+	{
+		'name': '維度裂縫',
+		'description': `
+		
+		`,
+		'tag': [
+			{
+				'name': ['增攻', '增血'],
+				'object': ['特定成員', '魔'],
+				'limit': []
+			},
+			{
+				'name': '增攻',
+				'object': [],
+				'limit': ['消除特定符石']
+			}
+		],
+		'monster': [10919]
 	},
 	{
 		'name': '歷劫之道',

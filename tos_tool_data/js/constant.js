@@ -1478,7 +1478,7 @@ const craft_notification = ''
 /* calculate remain days */
 
 const currentTime = new Date().getTime()
-const endDate = new Date('2025-05-18T23:59:59+0800').getTime();
+const endDate = new Date('2025-05-18T00:00:00+0800').getTime();
 const diffTime = endDate - currentTime > 1000 * 60 * 60 * 24 ? ` ${Math.floor((endDate - currentTime) / (1000 * 60 * 60 * 24))} 天` : endDate - currentTime > 1000 * 60 * 60 ? ` ${Math.floor((endDate - currentTime) / (1000 * 60 * 60))} 小時` :  ` ${Math.floor((endDate - currentTime) / (1000 * 60))} 分鐘`
 const timeLeft = endDate - currentTime
 

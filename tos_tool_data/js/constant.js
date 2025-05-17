@@ -1470,21 +1470,24 @@ const input_maxlength = 50;
 const uid_maxlength = 11;
 const veri_maxlength = 6;
 
-const active_skill_notification = ''
-const team_skill_notification = ''
-const leader_skill_notification = ''
-const craft_notification = ''
+const broadcastMessage = '可能有人已經發現廣告不見了<br/>鑒於使用體驗問題因此將廣告部分改為頁面最底下的<font color="#FFAA23">隨緣(?)贊助制</font>'
+
+const active_skill_notification = broadcastMessage || ''
+const team_skill_notification = broadcastMessage || ''
+const leader_skill_notification = broadcastMessage || ''
+const craft_notification = broadcastMessage || ''
+const backpack_notification = broadcastMessage
 
 /* calculate remain days */
 
+/*
 const currentTime = new Date().getTime()
 const endDate = new Date('2025-05-18T00:00:00+0800').getTime();
 const diffTime = endDate - currentTime > 1000 * 60 * 60 * 24 ? ` ${Math.floor((endDate - currentTime) / (1000 * 60 * 60 * 24))} 天` : endDate - currentTime > 1000 * 60 * 60 ? ` ${Math.floor((endDate - currentTime) / (1000 * 60 * 60))} 小時` :  ` ${Math.floor((endDate - currentTime) / (1000 * 60))} 分鐘`
 const timeLeft = endDate - currentTime
 
 const allMaxMessage = (timeLeft > 0 && timeLeft <= 1000 * 60 * 60 * 24 * 20) ? `<font style="font-size: 1.2em">十二週年 All Max 自選還剩<font style="color: red; font-weight: bold;">${diffTime}</font></font>` : ''
-
-const backpack_notification = allMaxMessage
+*/
 
  
 const myAuth = 'MTAyMDE4OTgxOTI2NDA5NA'

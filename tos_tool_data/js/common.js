@@ -152,11 +152,12 @@ function init() {
         return `
 			<div class='author_info'>
 				<div>Copyright © ${startYear}-${currYear} 蒼曜(tinghan33704)</div>
-				<div class='author_link'>
+				<a class='donate' target='_blank' href='https://portaly.cc/tinghan33704/support'><i class="fa-solid fa-heart"></i> 贊助連結</a>
+				<!--<div class='author_link'>
 					<a target='_blank' href='https://www.facebook.com/profile.php?id=100070781094266'><img src='../tos_tool_data/img/other/fb_icon.png' /></a>
 					<a target='_blank' href='https://home.gamer.com.tw/profile/index.php?&owner=tinghan33704'><img src='../tos_tool_data/img/other/bahamut_icon.png' /></a>
 					<a target='_blank' href='https://github.com/tinghan33704'><img src='../tos_tool_data/img/other/github_icon.png' /></a>
-				</div>
+				</div>-->
 			</div>`
     });
     

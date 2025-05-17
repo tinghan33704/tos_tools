@@ -190,6 +190,16 @@ img {
     align-items: center;
 }
 
+.container {
+	padding-bottom: 30px;
+}
+
+@media (max-width:528px) {
+    .container {
+		padding-bottom: 60px;
+    }
+}
+
 /* scroll bar style */
 
 ::-webkit-scrollbar {
@@ -946,9 +956,30 @@ select {
 }
 
 .copyright {
-    color: #9f9f9f;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+    padding: 3px 0;
+    color: #d6d6d6;
     text-align: center;
-    margin-bottom: 7px;
+	z-index: 1020;
+}
+
+.donate {
+	text-decoration: none;
+	margin-left: 15px;
+    /*color: #d6d6d6;*/
+    color: #ffce3d;
+}
+
+.donate:hover {
+	text-decoration: none;
+    color: #ffce3d;
+	font-weight: bold;
+}
+
+.donate i {
+	margin-right: 5px;
 }
     
 
@@ -973,17 +1004,17 @@ select {
 }
 .setting {
     left: 1rem;
-    bottom: 1rem;
+    bottom: calc(1rem + 30px);
 }
 .toTop, .toBottom {
     right: 1rem;
 }
 .toTop {
-    bottom: 5rem;
+    bottom: calc(5rem + 30px);
     display: none;
 }
 .toBottom {
-    bottom: 1rem;
+    bottom: calc(1rem + 30px);
     display: inline-block;
 }
 .setting:focus {
@@ -993,9 +1024,25 @@ select {
 	display: none;
 	position: fixed;
     left: 1rem;
-    bottom: 4rem;
+    bottom: calc(4rem + 30px);
 	z-index: 100;
 }
+
+@media (max-width:528px) {
+	.setting {
+		bottom: calc(1rem + 54px);
+	}
+	.toTop {
+		bottom: calc(5rem + 54px);
+	}
+	.toBottom {
+		bottom: calc(1rem + 54px);
+	}
+	.setting-panel {
+		bottom: calc(4rem + 54px);
+	}
+}
+
 .setting-row {
 	display: flex;
 	align-items: center;
@@ -1110,6 +1157,18 @@ select {
 }
 
 .author_info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width:528px) {
+    .author_info {
+		flex-direction: column;
+    }
+}
+	
+/*.author_info {
 	height: 18px;
 }
 
@@ -1137,7 +1196,7 @@ select {
 
 .author_info img {
 	width: 18px;
-}
+}*/
 
 /* April Fool easter egg */
 

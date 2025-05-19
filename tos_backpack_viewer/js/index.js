@@ -122,7 +122,7 @@ $(document).ready(async function() {
 	const currentTime = new Date().getTime()
 	// All Max 活動時間
 	const startTime = new Date('2025-01-27T00:00:00+0800').getTime()
-	const endTime = new Date('2025-05-18T00:00:00+0800').getTime();
+	const endTime = new Date('2025-05-25T23:59:59+0800').getTime();
 	if(currentTime < startTime || currentTime > endTime) {
 		delete sealContent[Object.keys(sealContent).find(name => name.includes('自選'))]
 	}

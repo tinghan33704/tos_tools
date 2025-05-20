@@ -1,4 +1,4 @@
-// Last modified : 2025.05.19 17:18
+// Last modified : 2025.05.20 13:14
 
 const leader_skill_data = [
 	{
@@ -39439,7 +39439,11 @@ const leader_skill_data = [
 	{
 		'name': '維度裂縫',
 		'description': `
-		
+		I.【錯覺幻象】及魔族成員
+		⓵ 攻擊力 180 倍
+		⓶ 生命力 5.5 倍
+		II. 消除【錯覺幻象】成員屬性符石
+		⇒ 全隊攻擊力額外 2.2 倍
 		`,
 		'tag': [
 			{

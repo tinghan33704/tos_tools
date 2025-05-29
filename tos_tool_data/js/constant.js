@@ -1471,7 +1471,7 @@ const input_maxlength = 50;
 const uid_maxlength = 11;
 const veri_maxlength = 6;
 
-const broadcastMessage = '可能有人已經發現廣告不見了<br/>鑒於使用體驗問題因此將廣告部分改為頁面最底下的<font color="#FFAA23">隨緣(?)贊助制</font>'
+const broadcastMessage = ''
 
 const active_skill_notification = broadcastMessage || ''
 const team_skill_notification = broadcastMessage || ''

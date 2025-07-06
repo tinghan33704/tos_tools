@@ -1477,7 +1477,7 @@ const input_maxlength = 50;
 const uid_maxlength = 11;
 const veri_maxlength = 6;
 
-const broadcastMessage = ''
+const broadcastMessage = '所有工具網址即將更新，此舊版網站的資料只會更新至 2025.07.06 為止<br>關於工具新網址請見<a href="https://www.facebook.com/permalink.php?story_fbid=pfbid0D6B5sdsEJjy2P1KT33Cp9Xjm4V77TJwMYo1xHgh2gvvfod9BFEorKsJK5eHAjGBDl&id=100070781094266&__cft__[0]=AZXpeCLbIKrEeaNFAu84C40OfgrHz1Iny5UgAV1qd8YcK9H_e-HFYHFtrZfLvAOOmYisZharCAAz2ivur8-yQ7qFro3PFIlrmtwzt8iOXdxJsyXTLdJ3_D9obvwFtDkqCDm4yAa5NTHD7xihBoAPpRSTpengwcWzZe_lFYC_pI2GnQ&__tn__=%2CO%2CP-R"><u>公告</u></a>'
 
 const active_skill_notification = broadcastMessage || ''
 const team_skill_notification = broadcastMessage || ''

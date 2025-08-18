@@ -199,6 +199,8 @@ function init() {
 		</div>
 	`)
 	
+	alert("請閱讀頁面最上方的公告\n請閱讀頁面最上方的公告\n請閱讀頁面最上方的公告\n請閱讀頁面最上方的公告\n請閱讀頁面最上方的公告\n請閱讀頁面最上方的公告\n請閱讀頁面最上方的公告\n請閱讀頁面最上方的公告\n請閱讀頁面最上方的公告\n請閱讀頁面最上方的公告\n請閱讀頁面最上方的公告\n請閱讀頁面最上方的公告\n請閱讀頁面最上方的公告\n請閱讀頁面最上方的公告\n請閱讀頁面最上方的公告");
+	
 	// preload glass break image
 	const glass_break_img = new Image()
     glass_break_img.src = '../tos_tool_data/img/other/glass_break.png'
